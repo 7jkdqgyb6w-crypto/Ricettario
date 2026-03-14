@@ -1,0 +1,579 @@
+[
+  {
+    "slug": "agnolotti-al-sugo-d-arrosto",
+    "title": "Agnolotti al sugo d'arrosto",
+    "photo_folder": "/foto/feed/agnolotti-al-sugo-d-arrosto/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "anatra-all-arancia",
+    "title": "Anatra all'arancia",
+    "photo_folder": "/foto/feed/anatra-all-arancia/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "anatra-in-salsa",
+    "title": "Anatra in salsa",
+    "photo_folder": "/foto/feed/anatra-in-salsa/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "antipasto-di-canocce",
+    "title": "Antipasto di canocce",
+    "photo_folder": "/foto/feed/antipasto-di-canocce/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "aringhe-in-terrina",
+    "title": "Aringhe in terrina",
+    "photo_folder": "/foto/feed/aringhe-in-terrina/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "arista-alla-birra",
+    "title": "ARISTA ALLA BIRRA",
+    "photo_folder": "/foto/feed/arista-alla-birra/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "baccala-mantecato",
+    "title": "Baccalà mantecato",
+    "photo_folder": "/foto/feed/baccala-mantecato/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "bagna-cauda",
+    "title": "Bagna cauda",
+    "photo_folder": "/foto/feed/bagna-cauda/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "bigoli-in-salsa",
+    "title": "Bigoli in salsa",
+    "photo_folder": "/foto/feed/bigoli-in-salsa/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "braciole-di-carne-di-cavallo",
+    "title": "Braciole di carne di cavallo",
+    "photo_folder": "/foto/feed/braciole-di-carne-di-cavallo/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "calamari-ripieni",
+    "title": "Calamari ripieni",
+    "photo_folder": "/foto/feed/calamari-ripieni/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "cous-cous-alla-trapanese",
+    "title": "Cous cous alla trapanese",
+    "photo_folder": "/foto/feed/cous-cous-alla-trapanese/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": [
+      "https://blog.giallozafferano.it/atavolacontea/ricetta-cous-cous-di-pesce-alla-trapanese/Poi",
+      "https://www.lacucinaitaliana.it/storie/piatti-tipici/cous-cous-alla-trapanese/"
+    ]
+  },
+  {
+    "slug": "crepes",
+    "title": "Crêpes",
+    "photo_folder": "/foto/feed/crepes/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "daube",
+    "title": "Daube",
+    "photo_folder": "/foto/feed/daube/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "fegato-alla-veneziana",
+    "title": "Fegato alla veneziana",
+    "photo_folder": "/foto/feed/fegato-alla-veneziana/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "filettino-di-maiale",
+    "title": "Filettino di maiale",
+    "photo_folder": "/foto/feed/filettino-di-maiale/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "fusilli-carciofi-e-salmone",
+    "title": "Fusilli carciofi e salmone",
+    "photo_folder": "/foto/feed/fusilli-carciofi-e-salmone/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "gigot-roti",
+    "title": "Gigot roti",
+    "photo_folder": "/foto/feed/gigot-roti/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "gnocchetti-sardi-alla-urbaweb",
+    "title": "Gnocchetti sardi alla Urbaweb",
+    "photo_folder": "/foto/feed/gnocchetti-sardi-alla-urbaweb/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": [
+      "https://www.eddyburg.it/2004/05/gnocchetti-sardi-alla-urbaweb.htmlRicettaGnocchetti"
+    ]
+  },
+  {
+    "slug": "gnocchi-con-le-trombette-dei-morti",
+    "title": "Gnocchi con le trombette dei morti",
+    "photo_folder": "/foto/feed/gnocchi-con-le-trombette-dei-morti/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "goulash-variante",
+    "title": "Goulash (variante)",
+    "photo_folder": "/foto/feed/goulash-variante/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "medaglioni-di-manzo-con-porcini",
+    "title": "Medaglioni di manzo con porcini",
+    "photo_folder": "/foto/feed/medaglioni-di-manzo-con-porcini/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "minestra-di-cavoli",
+    "title": "Minestra di cavoli",
+    "photo_folder": "/foto/feed/minestra-di-cavoli/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "minestra-di-porri",
+    "title": "Minestra di porri",
+    "photo_folder": "/foto/feed/minestra-di-porri/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "orecchiette-baresi-alle-cime-di-rapa",
+    "title": "Orecchiette baresi alle cime di rapa",
+    "photo_folder": "/foto/feed/orecchiette-baresi-alle-cime-di-rapa/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "pappa-con-il-pomodoro",
+    "title": "Pappa con il pomodoro",
+    "photo_folder": "/foto/feed/pappa-con-il-pomodoro/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "pasta-al-ragu-di-triglie-e-al-succo-d-arancia",
+    "title": "Pasta al ragù di triglie e al succo d'arancia",
+    "photo_folder": "/foto/feed/pasta-al-ragu-di-triglie-e-al-succo-d-arancia/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "pasta-con-i-broccoli",
+    "title": "Pasta con i broccoli",
+    "photo_folder": "/foto/feed/pasta-con-i-broccoli/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "pasta-con-le-melanzane",
+    "title": "Pasta con le melanzane",
+    "photo_folder": "/foto/feed/pasta-con-le-melanzane/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "pasta-con-le-sarde",
+    "title": "Pasta con le sarde",
+    "photo_folder": "/foto/feed/pasta-con-le-sarde/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "pasta-con-pesto-alla-siciliana",
+    "title": "Pasta con pesto alla siciliana",
+    "photo_folder": "/foto/feed/pasta-con-pesto-alla-siciliana/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "pasta-e-fagioli",
+    "title": "Pasta e fagioli",
+    "photo_folder": "/foto/feed/pasta-e-fagioli/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "patatine",
+    "title": "Patatine",
+    "photo_folder": "/foto/feed/patatine/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "pate-di-fegato",
+    "title": "Paté di fegato",
+    "photo_folder": "/foto/feed/pate-di-fegato/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "penne-alla-cannata",
+    "title": "Penne alla \"Cannata\"",
+    "photo_folder": "/foto/feed/penne-alla-cannata/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "penne-con-mazzancolle-alle-verdure",
+    "title": "Penne con mazzancolle alle verdure",
+    "photo_folder": "/foto/feed/penne-con-mazzancolle-alle-verdure/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "penne-con-zucchine-cff-21-rr",
+    "title": "Penne con zucchine CFF 21 RR",
+    "photo_folder": "/foto/feed/penne-con-zucchine-cff-21-rr/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "peperoni-alici-e-capperi",
+    "title": "Peperoni, alici e capperi",
+    "photo_folder": "/foto/feed/peperoni-alici-e-capperi/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "puree-di-sedano",
+    "title": "Purée di sedano",
+    "photo_folder": "/foto/feed/puree-di-sedano/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "ribollita",
+    "title": "Ribollita",
+    "photo_folder": "/foto/feed/ribollita/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": [
+      "https://www.tavolartegusto.it/ricetta/ribollita-ricetta-originale-toscana/Ricettain"
+    ]
+  },
+  {
+    "slug": "risi-e-bisi",
+    "title": "Risi e bisi",
+    "photo_folder": "/foto/feed/risi-e-bisi/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "riso-cozze-e-patate",
+    "title": "Riso cozze e patate",
+    "photo_folder": "/foto/feed/riso-cozze-e-patate/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "roastbeef-arrosto-all-inglese",
+    "title": "Roastbeef (arrosto all'inglese)",
+    "photo_folder": "/foto/feed/roastbeef-arrosto-all-inglese/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "roux-brun",
+    "title": "Roux brun",
+    "photo_folder": "/foto/feed/roux-brun/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "salsa-verde",
+    "title": "Salsa verde",
+    "photo_folder": "/foto/feed/salsa-verde/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "sarde-a-beccafico",
+    "title": "Sarde a beccafico",
+    "photo_folder": "/foto/feed/sarde-a-beccafico/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "sfogliata-pugliese",
+    "title": "Sfogliata pugliese",
+    "photo_folder": "/foto/feed/sfogliata-pugliese/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "spaghetti-alla-bottarga",
+    "title": "Spaghetti alla bottarga",
+    "photo_folder": "/foto/feed/spaghetti-alla-bottarga/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "spaghetti-alla-puttanesca",
+    "title": "Spaghetti alla puttanesca",
+    "photo_folder": "/foto/feed/spaghetti-alla-puttanesca/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "straccetti-di-pollo-al-limone",
+    "title": "Straccetti di pollo al limone",
+    "photo_folder": "/foto/feed/straccetti-di-pollo-al-limone/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
+    "title": "Straccetti su letto di porri con rucola e aceto balsamico di Modena",
+    "photo_folder": "/foto/feed/straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "tagliate",
+    "title": "Tagliate",
+    "photo_folder": "/foto/feed/tagliate/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "tajin-mqualli",
+    "title": "Tajin Mqualli",
+    "photo_folder": "/foto/feed/tajin-mqualli/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "tonno-alla-carlofortina",
+    "title": "Tonno alla CarloFortina",
+    "photo_folder": "/foto/feed/tonno-alla-carlofortina/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "tortino-di-alici",
+    "title": "Tortino di alici",
+    "photo_folder": "/foto/feed/tortino-di-alici/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "vitello-tonnato",
+    "title": "Vitello tonnato",
+    "photo_folder": "/foto/feed/vitello-tonnato/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  },
+  {
+    "slug": "voce-senza-titolo",
+    "title": "Voce senza titolo",
+    "photo_folder": "/foto/feed/voce-senza-titolo/",
+    "expected_files": [
+      "01.jpg",
+      "02.jpg"
+    ],
+    "source_urls_found_in_text": []
+  }
+]

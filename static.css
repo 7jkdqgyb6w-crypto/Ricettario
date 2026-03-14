@@ -1,0 +1,13 @@
+
+body{font-family:Georgia,serif;max-width:900px;margin:0 auto;padding:2rem;line-height:1.55;color:#222}
+header,nav,footer{margin-bottom:1.5rem}
+h1,h2,h3{line-height:1.2}
+.meta{background:#f5f5f5;padding:1rem;border-radius:8px;margin:1rem 0}
+.photos{background:#fafafa;border:1px solid #ddd;padding:1rem;border-radius:8px}
+.code-list{font-family:monospace;font-size:.95rem;background:#f9f9f9;padding:1rem;border-radius:8px}
+a{color:#0645ad;text-decoration:none}
+a:hover{text-decoration:underline}
+ul{margin-top:.25rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}
+.card{border:1px solid #ddd;border-radius:8px;padding:1rem}
+small.muted{color:#666}
