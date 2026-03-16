@@ -1,0 +1,559 @@
+/* Ricettario Piccotti — mockup agnolotti
+   CSS coerente con index.html inviato dall'utente
+   Versione v3:
+   - una sola colonna di lettura
+   - immagini dei passaggi inserite accanto al testo senza interromperlo
+   - immagini ridotte: max circa mezza pagina
+   - font mantenuti: Source Serif 4, Georgia, serif
+*/
+
+:root{
+  --bg: #f3efe6;
+  --surface: rgba(255,255,255,0.35);
+  --text: #242320;
+  --muted: #66625c;
+  --soft: #8f887d;
+  --line: rgba(70,62,52,0.14);
+  --link: #2f4f6f;
+  --link-hover: #243d57;
+  --shadow: 0 10px 28px rgba(40,34,26,0.05);
+
+  --font-body: "Source Serif 4", Georgia, serif;
+  --font-ui: "Inter", Arial, sans-serif;
+
+  --shell: 1240px;
+  --reading: 74ch;
+  --hero-max: 52rem;
+}
+
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body{
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-weight: 400;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a{
+  color: var(--link);
+  text-decoration: none;
+}
+
+a:hover{
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+.page-shell{
+  max-width: var(--shell);
+  margin: 0 auto;
+  padding: 2.25rem 1.15rem 6rem;
+}
+
+/* spazi "sprecati" */
+.airy-block{
+  margin-top: 4.5rem;
+  margin-bottom: 4.5rem;
+}
+
+/* intestazione */
+.topbar{
+  margin: 0 0 4rem;
+  padding-top: 1rem;
+  font-family: var(--font-ui);
+  font-size: 0.82rem;
+  line-height: 1.4;
+  color: var(--muted);
+  letter-spacing: 0.01em;
+}
+
+.topbar .crumb,
+.topbar .current{
+  color: var(--muted);
+}
+
+.sep{
+  display: inline-block;
+  margin: 0 0.45rem;
+  color: var(--soft);
+}
+
+/* tipografia */
+h1, h2, h3, p, ul, ol, dl, figure{
+  margin-top: 0;
+}
+
+h1{
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: clamp(2.15rem, 4vw, 3.35rem);
+  line-height: 1.04;
+  letter-spacing: -0.01em;
+  margin-bottom: 1.15rem;
+  max-width: 14ch;
+}
+
+h2{
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: clamp(1.45rem, 2vw, 1.9rem);
+  line-height: 1.12;
+  margin-bottom: 1rem;
+}
+
+h3{
+  font-family: var(--font-ui);
+  font-size: 0.88rem;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.45rem;
+}
+
+p{
+  font-size: 1rem;
+  margin-bottom: 0.95rem;
+}
+
+.lead{
+  font-size: 1.06rem;
+  line-height: 1.62;
+  max-width: 48ch;
+}
+
+.eyebrow{
+  font-family: var(--font-ui);
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 1rem;
+}
+
+.compact-text p,
+.compact-text li,
+.compact-text dd{
+  font-size: 0.98rem;
+  line-height: 1.54;
+}
+
+.narrow-head{
+  max-width: 20rem;
+}
+
+/* hero */
+.hero{
+  display: block;
+}
+
+.hero-copy{
+  margin-bottom: 2rem;
+}
+
+.hero-media{
+  margin: 0;
+  max-width: var(--hero-max);
+}
+
+.hero-media img{
+  width: 100%;
+  height: auto;
+  max-height: clamp(18rem, 56vh, 34rem);
+  object-fit: cover;
+  box-shadow: var(--shadow);
+}
+
+
+.hero-media figcaption{
+  margin-top: 0.7rem;
+  max-width: 44ch;
+  font-family: var(--font-ui);
+  font-size: 0.78rem;
+  line-height: 1.45;
+  color: var(--muted);
+}
+
+.meta-grid{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.85rem 1rem;
+  margin-top: 1.6rem;
+  max-width: 38rem;
+}
+
+.meta-grid > div{
+  padding-top: 0.65rem;
+  border-top: 1px solid var(--line);
+}
+
+.meta-label{
+  display: block;
+  font-family: var(--font-ui);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.2rem;
+}
+
+.meta-grid strong{
+  font-family: var(--font-body);
+  font-size: 0.98rem;
+  font-weight: 500;
+  color: var(--text);
+}
+
+/* introduzione */
+.block-title-wrap{
+  margin-bottom: 1rem;
+}
+
+.story-layout{
+  max-width: var(--reading);
+}
+
+.story-text{
+  max-width: var(--reading);
+}
+
+/* corpo ricetta: UNA COLONNA */
+.recipe-core{
+  display: block;
+}
+
+.ingredients-panel,
+.method-panel{
+  min-width: 0;
+}
+
+.ingredients-panel{
+  margin-bottom: 4rem;
+}
+
+.panel-note{
+  margin: -0.2rem 0 1.15rem;
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.table-wrap{
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.compact-table{
+  padding-top: 0.2rem;
+}
+
+.ingredients-table{
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  background: transparent;
+}
+
+.ingredients-table thead th{
+  padding: 0 0 0.55rem;
+  border-bottom: 1px solid var(--line);
+  font-family: var(--font-ui);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+  text-align: left;
+  vertical-align: bottom;
+}
+
+.ingredients-table tbody td{
+  padding: 0.4rem 0.3rem 0.4rem 0;
+  border-bottom: 1px solid rgba(70,62,52,0.09);
+  font-size: 0.95rem;
+  line-height: 1.32;
+  vertical-align: top;
+}
+
+.ingredients-table tbody tr:last-child td{
+  border-bottom: 0;
+}
+
+.ingredients-table td:nth-child(2),
+.ingredients-table td:nth-child(3){
+  white-space: nowrap;
+}
+
+.ingredients-table td:nth-child(1){ width: 38%; }
+.ingredients-table td:nth-child(2){ width: 14%; }
+.ingredients-table td:nth-child(3){ width: 12%; }
+.ingredients-table td:nth-child(4){
+  width: 36%;
+  color: var(--muted);
+}
+
+/* preparazione */
+.steps-list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  counter-reset: step;
+  max-width: var(--reading);
+}
+
+.steps-list > li{
+  counter-increment: step;
+  position: relative;
+  padding-left: 2.35rem;
+  margin: 0 0 2.15rem;
+}
+
+.steps-list > li::before{
+  content: counter(step) ".";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 1.35rem;
+  line-height: 1;
+  color: #5f5a51;
+}
+
+.compact-steps p{
+  max-width: 64ch;
+  margin-bottom: 0.95rem;
+}
+
+.step-media{
+  margin: 0.35rem 0 0.85rem;
+}
+
+.soft-frame img{
+  box-shadow: var(--shadow);
+}
+
+.step-media.wide img,
+.step-media.small-left img,
+.step-media.small-right img{
+  width: 100%;
+}
+
+.with-media p:last-of-type{
+  margin-bottom: 0;
+}
+
+.final-shot{
+  margin-top: 0.5rem;
+}
+
+/* note finali */
+.bottom-grid{
+  display: block;
+}
+
+.bottom-grid > div:first-child{
+  margin-bottom: 3rem;
+}
+
+.clean-list{
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.clean-list li{
+  margin-bottom: 0.55rem;
+}
+
+.meta-list{
+  margin: 0;
+}
+
+.meta-list dt{
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 0.2rem;
+}
+
+.meta-list dd{
+  margin: 0 0 1rem;
+}
+
+/* tablet orizzontale e desktop piccoli:
+   le immagini restano nel flusso e si riducono prima, senza passare troppo presto alla modalità smartphone */
+@media (min-width: 700px){
+  .hero-media{
+    max-width: 48rem;
+  }
+
+  .steps-list > li{
+    min-height: 10rem;
+  }
+
+  .step-media{
+    margin-top: 0.15rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .step-media.wide,
+  .step-media.small-right{
+    float: right;
+    width: min(41%, 20rem);
+    max-width: calc(50% - 0.8rem);
+    margin: 0.15rem 0 0.75rem 1.35rem;
+  }
+
+  .step-media.small-left{
+    float: left;
+    width: min(38%, 18rem);
+    max-width: calc(50% - 0.8rem);
+    margin: 0.15rem 1.35rem 0.75rem 0;
+  }
+
+  .step-media.wide img,
+  .step-media.small-left img,
+  .step-media.small-right img{
+    width: 100%;
+  }
+
+  .steps-list > li::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .compact-steps p{
+    max-width: none;
+  }
+}
+
+/* schermi larghi */
+@media (min-width: 980px){
+  .page-shell{
+    padding: 3.1rem 2.2rem 7rem;
+  }
+
+  .airy-block{
+    margin-top: 5.7rem;
+    margin-bottom: 5.7rem;
+  }
+
+  .hero-copy{
+    max-width: 42rem;
+    margin-bottom: 2.6rem;
+  }
+
+  .hero-media{
+    max-width: var(--hero-max);
+  }
+
+  .story-layout,
+  .steps-list,
+  .bottom-grid{
+    max-width: 78rem;
+  }
+
+  .steps-list > li{
+    min-height: 12rem;
+  }
+
+  .step-media.wide,
+  .step-media.small-right{
+    width: min(44%, 25rem);
+    max-width: calc(50% - 0.9rem);
+    margin-left: 1.8rem;
+  }
+
+  .step-media.small-left{
+    width: min(40%, 22rem);
+    max-width: calc(50% - 0.9rem);
+    margin-right: 1.8rem;
+  }
+}
+
+/* smartphone verticale */
+@media (max-width: 520px){
+  body{
+    font-size: 17px;
+  }
+
+  .page-shell{
+    padding: 1.5rem 0.95rem 4.5rem;
+  }
+
+  .topbar{
+    margin-bottom: 2.8rem;
+    font-size: 0.8rem;
+  }
+
+  .airy-block{
+    margin-top: 3.3rem;
+    margin-bottom: 3.3rem;
+  }
+
+  h1{
+    font-size: 2.15rem;
+    max-width: none;
+  }
+
+  h2{
+    font-size: 1.5rem;
+  }
+
+  .lead{
+    font-size: 1.12rem;
+    line-height: 1.58;
+  }
+
+  p,
+  .compact-text p,
+  .compact-text li,
+  .compact-text dd,
+  .ingredients-table tbody td{
+    font-size: 1rem;
+  }
+
+  .ingredients-table thead th{
+    font-size: 0.7rem;
+  }
+
+  .steps-list > li{
+    padding-left: 2rem;
+    margin-bottom: 1.8rem;
+  }
+
+  .steps-list > li::before{
+    font-size: 1.2rem;
+  }
+
+  .meta-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
