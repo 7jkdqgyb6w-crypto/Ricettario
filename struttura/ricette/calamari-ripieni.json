@@ -1,0 +1,83 @@
+{
+  "title": "Calamari ripieni",
+  "slug": "calamari-ripieni",
+  "meta": {
+    "autore": "Pierre Piccotti",
+    "fonte": "Nicola Fusco",
+    "categoria": "secondi"
+  },
+  "intro": [],
+  "ingredient_rows": [
+    {
+      "ingrediente": "calamari",
+      "quantita": "10",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "uova",
+      "quantita": "10",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "prezzemolo",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "pecorino romano",
+      "quantita": "",
+      "unita": "",
+      "note": "Bronzetto"
+    },
+    {
+      "ingrediente": "aglio",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "pomodoro",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "olio",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "sale",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "pepe",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    }
+  ],
+  "steps": [
+    "Cuocere lentamente in una padella con olio le uova sbattute con il pecorino, sale, pepe e prezzemolo, quindi lasciare raffreddare. Riempire i calamari con questo ripieno e chiudere con la testa degli stessi calamari, cucire con ago e filo bianco.",
+    "Rosolare l'aglio a farlo \"rosso\", quindi toglierlo dalla padella. Far rosolare i calamari sempre coperti in modo che diventino rossi.",
+    "Quando l'acqua dei calamari si sarà consumata abbastanza, aggiungere pelati, prezzemolo, sale e pepe. Terminare la cottura.Questa la ricetta originale. Forse un po' datata per i gusti di oggi. Se usiamo del pomodoro solo scottato e cuociamo più a lungo i calamari prima di aggiungere la salsa, il risultato è un sapore più fresco."
+  ],
+  "note_bullets": [],
+  "time_notes": [],
+  "ingredienti_principali": [
+    "Aglio",
+    "Calamaro",
+    "Pomodoro",
+    "Prezzemolo",
+    "Pecorino romano",
+    "Sale",
+    "Uovo",
+    "Calamari ripieni"
+  ]
+}

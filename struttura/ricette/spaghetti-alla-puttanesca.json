@@ -1,0 +1,89 @@
+{
+  "title": "Spaghetti alla puttanesca",
+  "slug": "spaghetti-alla-puttanesca",
+  "meta": {
+    "autore": "Pierre Piccotti",
+    "fonte": "Eddy Salzano",
+    "categoria": "primi"
+  },
+  "intro": [],
+  "ingredient_rows": [
+    {
+      "ingrediente": "Spaghetti o vermicelli",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "d'aglio",
+      "quantita": "2",
+      "unita": "spicchi",
+      "note": ""
+    },
+    {
+      "ingrediente": "peperoncini secchi piccanti",
+      "quantita": "2",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "olive di Gaeta",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "capperi",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "alici",
+      "quantita": "",
+      "unita": "",
+      "note": "opzionale"
+    },
+    {
+      "ingrediente": "olio",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "pelati",
+      "quantita": "1/2",
+      "unita": "kg",
+      "note": "interi Cirio"
+    },
+    {
+      "ingrediente": "prezzemolo",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    }
+  ],
+  "steps": [
+    "Fare saltare in un tegame l'aglio, il peperoncino, le olive, i capperi, quindi aggiungere i pelati schiacciati, eventualmente aggiungere alcune alici salate disliscate e lavate.",
+    "Fare cuocere fino a scioglimento completo dei pomodori.Scolare la pasta al dente, spadellare e spruzzare di prezzemolo."
+  ],
+  "note_bullets": [
+    "Per la cottura della pasta usare acqua ben salata e scolare con il condimento già pronto."
+  ],
+  "time_notes": [],
+  "ingredienti_principali": [
+    "Alice",
+    "Cappero",
+    "D'aglio",
+    "Denta",
+    "Gaeta",
+    "Aglio",
+    "Oliva",
+    "Peperoncino",
+    "Piccanto",
+    "Prezzemolo",
+    "Vermicello",
+    "Spaghetti",
+    "Puttanesca"
+  ]
+}

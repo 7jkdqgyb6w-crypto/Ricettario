@@ -1,0 +1,412 @@
+{
+  "count": 58,
+  "source_file": "ricettario_revisionato_editoriale_v2.md",
+  "recipes": [
+    {
+      "title": "Tonno alla CarloFortina",
+      "slug": "tonno-alla-carlofortina",
+      "category": "secondi",
+      "source": "Serena Sangiorgi",
+      "origin": "Italia – Sardegna – Carloforte"
+    },
+    {
+      "title": "Roastbeef (arrosto all'inglese)",
+      "slug": "roastbeef-arrosto-all-inglese",
+      "category": "secondi",
+      "source": "",
+      "origin": ""
+    },
+    {
+      "title": "Arista alla birra",
+      "slug": "arista-alla-birra",
+      "category": "secondi",
+      "source": "Nicola Fusco",
+      "origin": ""
+    },
+    {
+      "title": "Anatra in salsa",
+      "slug": "anatra-in-salsa",
+      "category": "secondi",
+      "source": "",
+      "origin": "Italia – Veneto"
+    },
+    {
+      "title": "Filetto Angus alla senape di Digione",
+      "slug": "filetto-angus-alla-senape-di-digione",
+      "category": "secondi",
+      "source": "Andrea Tanzi",
+      "origin": ""
+    },
+    {
+      "title": "Tagliate",
+      "slug": "tagliate",
+      "category": "secondi",
+      "source": "",
+      "origin": ""
+    },
+    {
+      "title": "Calamari ripieni",
+      "slug": "calamari-ripieni",
+      "category": "secondi",
+      "source": "Nicola Fusco",
+      "origin": ""
+    },
+    {
+      "title": "Paté di fegato",
+      "slug": "pate-di-fegato",
+      "category": "antipasti",
+      "source": "Jacqueline Gibert",
+      "origin": ""
+    },
+    {
+      "title": "Baccalà mantecato",
+      "slug": "baccala-mantecato",
+      "category": "antipasti",
+      "source": "Internet. Proveniente dal Nord in cambio delle spezie, il baccalà, più propriamente \"stoccafisso\", è da sempre largamente presente nella cucina veneziana, preparato in molti modi, tra i quali questo è, forse, il più caratteristico.",
+      "origin": "Italia – Veneto – Venezia"
+    },
+    {
+      "title": "Patatine",
+      "slug": "patatine",
+      "category": "contorni",
+      "source": "",
+      "origin": ""
+    },
+    {
+      "title": "Bigoli in salsa",
+      "slug": "bigoli-in-salsa",
+      "category": "primi",
+      "source": "Internet.",
+      "origin": ""
+    },
+    {
+      "title": "Fusilli carciofi e salmone",
+      "slug": "fusilli-carciofi-e-salmone",
+      "category": "primi",
+      "source": "",
+      "origin": ""
+    },
+    {
+      "title": "Filettino di maiale",
+      "slug": "filettino-di-maiale",
+      "category": "secondi",
+      "source": "",
+      "origin": ""
+    },
+    {
+      "title": "Pappa con il pomodoro",
+      "slug": "pappa-con-il-pomodoro",
+      "category": "zuppe e minestre",
+      "source": "variazione a partire da ricetta \"Cibreo\" di Firenze e \"Gambero rosso\"Tuffate per mezzo minuto i pomodori in acqua in ebollizione quindi passateli sotto l'acqua fredda, pelateli e spezzettateli scartando i semi.",
+      "origin": ""
+    },
+    {
+      "title": "Spaghetti alla puttanesca",
+      "slug": "spaghetti-alla-puttanesca",
+      "category": "primi",
+      "source": "Eddy Salzano",
+      "origin": ""
+    },
+    {
+      "title": "Penne con zucchine CFF 21 RR",
+      "slug": "penne-con-zucchine-cff-21-rr",
+      "category": "primi",
+      "source": "",
+      "origin": ""
+    },
+    {
+      "title": "Roux brun",
+      "slug": "roux-brun",
+      "category": "salse e basi",
+      "source": "",
+      "origin": ""
+    },
+    {
+      "title": "Sarde a beccafico",
+      "slug": "sarde-a-beccafico",
+      "category": "antipasti",
+      "source": "",
+      "origin": ""
+    },
+    {
+      "title": "Salsa verde",
+      "slug": "salsa-verde",
+      "category": "salse e basi",
+      "source": "Jacqueline Gibert",
+      "origin": ""
+    },
+    {
+      "title": "Gigot roti",
+      "slug": "gigot-roti",
+      "category": "secondi",
+      "source": "",
+      "origin": ""
+    },
+    {
+      "title": "Riso cozze e patate",
+      "slug": "riso-cozze-e-patate",
+      "category": "primi",
+      "source": "Nicola Fusco",
+      "origin": ""
+    },
+    {
+      "title": "Purée di sedano",
+      "slug": "puree-di-sedano",
+      "category": "contorni",
+      "source": "",
+      "origin": ""
+    },
+    {
+      "title": "Penne con mazzancolle alle verdure",
+      "slug": "penne-con-mazzancolle-alle-verdure",
+      "category": "primi",
+      "source": "Sando Bertoni.",
+      "origin": ""
+    },
+    {
+      "title": "Bagna cauda",
+      "slug": "bagna-cauda",
+      "category": "salse e basi",
+      "source": "Jacqueline Gibert",
+      "origin": "Tipico piatto piemontese"
+    },
+    {
+      "title": "Aringhe in terrina",
+      "slug": "aringhe-in-terrina",
+      "category": "antipasti",
+      "source": "Jacqueline Gibert",
+      "origin": "Jacqueline Piccotti. Tagliare a pezzi di 2 cm. le aringhe. Affettare le carote, le cipolle e un limone.Mettere il tutto in una terrina con il succo del limone restante, il ginepro, un poco di vino bianco, fino ad coprire."
+    },
+    {
+      "title": "Agnolotti al sugo d'arrosto",
+      "slug": "agnolotti-al-sugo-d-arrosto",
+      "category": "primi",
+      "source": "Jacqueline Piccotti; ricostruzione familiare dell'autore con riferimenti a Le Tre Galline di Torino e alla Trattoria Losanna di Alessandria",
+      "origin": "Piemonte – Torino / Alessandria"
+    },
+    {
+      "title": "Peperoni, alici e capperi",
+      "slug": "peperoni-alici-e-capperi",
+      "category": "contorni",
+      "source": "Nicola Fusco",
+      "origin": "Italia – Puglia – Bari"
+    },
+    {
+      "title": "Gnocchetti sardi alla Urbaweb",
+      "slug": "gnocchetti-sardi-alla-urbaweb",
+      "category": "secondi",
+      "source": "Eddy Salzano",
+      "origin": "Italia – Veneto – Venezia"
+    },
+    {
+      "title": "Daube",
+      "slug": "daube",
+      "category": "secondi",
+      "source": "",
+      "origin": ""
+    },
+    {
+      "title": "Ratatouille (variante)",
+      "slug": "ratatouille-variante",
+      "category": "secondi",
+      "source": "",
+      "origin": "Italia – Veneto"
+    },
+    {
+      "title": "Minestra di porri",
+      "slug": "minestra-di-porri",
+      "category": "zuppe e minestre",
+      "source": "Jacqueline Gibert",
+      "origin": ""
+    },
+    {
+      "title": "Vitello tonnato",
+      "slug": "vitello-tonnato",
+      "category": "secondi",
+      "source": "Jacqueline Gibert",
+      "origin": "Italia – Veneto"
+    },
+    {
+      "title": "Goulash (variante)",
+      "slug": "goulash-variante",
+      "category": "secondi",
+      "source": "",
+      "origin": ""
+    },
+    {
+      "title": "Tajin Mqualli",
+      "slug": "tajin-mqualli",
+      "category": "secondi",
+      "source": "",
+      "origin": ""
+    },
+    {
+      "title": "Minestra di cavoli",
+      "slug": "minestra-di-cavoli",
+      "category": "zuppe e minestre",
+      "source": "Jacqueline Gibert",
+      "origin": ""
+    },
+    {
+      "title": "Straccetti su letto di porri con rucola e aceto balsamico di Modena",
+      "slug": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
+      "category": "secondi",
+      "source": "",
+      "origin": ""
+    },
+    {
+      "title": "Braciole di carne di cavallo",
+      "slug": "braciole-di-carne-di-cavallo",
+      "category": "secondi",
+      "source": "Nicola Fusco",
+      "origin": "Italia – Puglia – Bari"
+    },
+    {
+      "title": "Risi e bisi",
+      "slug": "risi-e-bisi",
+      "category": "secondi",
+      "source": "Internet. E' la più celebre tra le minestre veneziane. Il Doge era tenuto a mangiarla - seguendo un preciso cerimoniale - il giorno di San Marco, patrono di Venezia.Con le bucce dei piselli, sedano, carota e aromi, preparare il brodo.",
+      "origin": "Italia – Veneto – Venezia"
+    },
+    {
+      "title": "Spaghetti alla bottarga",
+      "slug": "spaghetti-alla-bottarga",
+      "category": "primi",
+      "source": "liberamente ispirato da una cena di Franco Chiaromonte.Ritengo che esista solo un modo per assaporare l'essenza di quella prelibatezza che è la bottarga di muggine.",
+      "origin": ""
+    },
+    {
+      "title": "Pasta al ragù di triglie e al succo d'arancia",
+      "slug": "pasta-al-ragu-di-triglie-e-al-succo-d-arancia",
+      "category": "primi",
+      "source": "",
+      "origin": ""
+    },
+    {
+      "title": "Fegato alla veneziana",
+      "slug": "fegato-alla-veneziana",
+      "category": "secondi",
+      "source": "",
+      "origin": "Italia – Veneto – Venezia"
+    },
+    {
+      "title": "Ribollita",
+      "slug": "ribollita",
+      "category": "zuppe e minestre",
+      "source": "",
+      "origin": ""
+    },
+    {
+      "title": "Sfogliata pugliese",
+      "slug": "sfogliata-pugliese",
+      "category": "secondi",
+      "source": "Nicola Fusco",
+      "origin": ""
+    },
+    {
+      "title": "Straccetti di pollo al limone",
+      "slug": "straccetti-di-pollo-al-limone",
+      "category": "secondi",
+      "source": "",
+      "origin": ""
+    },
+    {
+      "title": "Crêpes",
+      "slug": "crepes",
+      "category": "primi",
+      "source": "Jacqueline Gibert",
+      "origin": ""
+    },
+    {
+      "title": "Pasta con pesto alla siciliana",
+      "slug": "pasta-con-pesto-alla-siciliana",
+      "category": "primi",
+      "source": "",
+      "origin": "Italia – Sicilia"
+    },
+    {
+      "title": "Penne alla \"Cannata\"",
+      "slug": "penne-alla-cannata",
+      "category": "primi",
+      "source": "",
+      "origin": "Italia – Sicilia – Salina"
+    },
+    {
+      "title": "Tortino di alici",
+      "slug": "tortino-di-alici",
+      "category": "antipasti",
+      "source": "",
+      "origin": ""
+    },
+    {
+      "title": "Antipasto di canocce",
+      "slug": "antipasto-di-canocce",
+      "category": "antipasti",
+      "source": "personale.",
+      "origin": ""
+    },
+    {
+      "title": "Pasta con i broccoli",
+      "slug": "pasta-con-i-broccoli",
+      "category": "primi",
+      "source": "Eddy Salzano",
+      "origin": ""
+    },
+    {
+      "title": "Medaglioni di manzo con porcini",
+      "slug": "medaglioni-di-manzo-con-porcini",
+      "category": "secondi",
+      "source": "",
+      "origin": ""
+    },
+    {
+      "title": "Orecchiette baresi alle cime di rapa",
+      "slug": "orecchiette-baresi-alle-cime-di-rapa",
+      "category": "primi",
+      "source": "Nicola Fusco",
+      "origin": ""
+    },
+    {
+      "title": "Gnocchi con le trombette dei morti",
+      "slug": "gnocchi-con-le-trombette-dei-morti",
+      "category": "primi",
+      "source": "",
+      "origin": ""
+    },
+    {
+      "title": "Pasta con le melanzane",
+      "slug": "pasta-con-le-melanzane",
+      "category": "primi",
+      "source": "",
+      "origin": ""
+    },
+    {
+      "title": "Cous cous alla trapanese",
+      "slug": "cous-cous-alla-trapanese",
+      "category": "primi",
+      "source": "",
+      "origin": "Italia – Sicilia – Trapani"
+    },
+    {
+      "title": "Anatra all'arancia",
+      "slug": "anatra-all-arancia",
+      "category": "secondi",
+      "source": "Interpretazione di Pierre Piccotti.",
+      "origin": ""
+    },
+    {
+      "title": "Pasta con le sarde",
+      "slug": "pasta-con-le-sarde",
+      "category": "primi",
+      "source": "",
+      "origin": ""
+    },
+    {
+      "title": "Pasta e fagioli",
+      "slug": "pasta-e-fagioli",
+      "category": "zuppe e minestre",
+      "source": "Internet. E' un piatto di origine contadina, ma diffusissimo ed apprezzatissimo a Venezia.Usare fagioli freschi sgranati di Lamon o borlottini (particolarmente apprezzate le \"baete\" di S.",
+      "origin": "Italia – Veneto – Venezia"
+    }
+  ]
+}

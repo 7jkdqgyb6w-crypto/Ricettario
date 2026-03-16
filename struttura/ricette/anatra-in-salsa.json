@@ -1,0 +1,101 @@
+{
+  "title": "Anatra in salsa",
+  "slug": "anatra-in-salsa",
+  "meta": {
+    "autore": "Pierre Piccotti",
+    "origine": "Italia – Veneto",
+    "categoria": "secondi"
+  },
+  "intro": [
+    "Tritare l'aglio, e separatamente la soppressa; lavare e diliscare le alici, poi tritarle. Mettere tutto quanto in una casseruolina e soffriggere lentamente per ca. 10 minuti; unire quindi l'aceto, mescolando e poi togliendo dal fuoco."
+  ],
+  "ingredient_rows": [
+    {
+      "ingrediente": "anatra cacciata kg. 1,8",
+      "quantita": "1",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "soppressa veneta gr. 200",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "pancetta gr. 70",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "burro gr. 30",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "salvia",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "rosmarino",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "imone",
+      "quantita": "1",
+      "unita": "l",
+      "note": ""
+    },
+    {
+      "ingrediente": "alici sotto sale",
+      "quantita": "2",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "aceto bianco ½ bicchiere",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "sale",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "pepe",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    }
+  ],
+  "steps": [
+    "Quando l'anatra sarà cotta, levarla dalla teglia, tagliarla a pezzi, disporla in un piatto da forno e versarvi sopra la salsa e il fondo di cottura sgrassato, porre il piatto in forno caldo ma spento, lasciando insaporire per ca. 20 minuti. Accompagnare con patate al forno."
+  ],
+  "note_bullets": [
+    "Conviene preriscaldare bene il forno prima di iniziare la cottura."
+  ],
+  "time_notes": [
+    "2 ore"
+  ],
+  "ingredienti_principali": [
+    "Alice",
+    "Burro",
+    "Aceto",
+    "Aglio",
+    "Anatra",
+    "Limone",
+    "Rosmarino",
+    "Sale",
+    "Salvia",
+    "Soppressa veneta"
+  ]
+}
