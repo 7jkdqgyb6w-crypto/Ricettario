@@ -1,0 +1,62 @@
+{
+  "title": "Pasta con le melanzane",
+  "slug": "pasta-con-le-melanzane",
+  "meta": {
+    "autore": "Pierre Piccotti",
+    "categoria": "primi"
+  },
+  "intro": [],
+  "ingredient_rows": [
+    {
+      "ingrediente": "Mezze penne rigate",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "melanzane lunche",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "d'aglio",
+      "quantita": "1",
+      "unita": "spicchio",
+      "note": ""
+    },
+    {
+      "ingrediente": "olio",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "peperoncino secco piccante",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "prezzemolo",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    }
+  ],
+  "steps": [
+    "Tagliare in spicchi le melanzane, gettando la parte centrale con i semi e particolamente avida d'olio. Tagliare quindi a cubetti.Fare saltare su fiamma vivace le melanzane con aglio (volendo peperoncino) per alcuni minuti, quindi prima che si scuriscano, abbassare la fiamma e portare dolcemente a fine cottura. Prima di spegnere, riportare la fiamma vivace per fare espellere l'olio. Gettare l'olio sovrabbondante e spolverare di prezzemolo tritato, pepare.Scolare la pasta al dente e spadellare il tutto. <<STEP>> * in tavole con parmigiano o pecorino romano grattato al momento."
+  ],
+  "note_bullets": [
+    "Per la cottura della pasta usare acqua ben salata e scolare con il condimento già pronto."
+  ],
+  "time_notes": [],
+  "ingredienti_principali": [
+    "D'aglio",
+    "Luncha",
+    "Melanzana",
+    "Piccanta",
+    "Scuriscano",
+    "Pasta"
+  ]
+}

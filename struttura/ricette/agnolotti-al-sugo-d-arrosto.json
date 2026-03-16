@@ -1,0 +1,283 @@
+{
+  "title": "Agnolotti al sugo d'arrosto",
+  "slug": "agnolotti-al-sugo-d-arrosto",
+  "meta": {
+    "autore": "Pierre Piccotti",
+    "origine": "Piemonte – Torino / Alessandria",
+    "fonte": "Jacqueline Piccotti; ricostruzione familiare dell'autore con riferimenti a Le Tre Galline di Torino e alla Trattoria Losanna di Alessandria",
+    "categoria": "primi"
+  },
+  "intro": [
+    "Questa ricetta rispecchia un poco la mia famiglia. Mio padre era di Alessandria e mia madre era nata a Torino. Queste due città hanno una tradizione di arrosto leggermente diversa: arrosto a Torino, brasato ad Alessandria. Mia mamma col tempo perfezionò una ricetta un po' a cavallo fra questi due mondi.",
+    "Per la realizzazione ho in parte ripreso le ricette del ristorante Le Tre Galline di Torino e della Trattoria Losanna di Alessandria, pubblicate in Ricette di Osterie d'Italia di Slow Food Editore."
+  ],
+  "ingredient_rows": [
+    {
+      "ingrediente": "polpa di manzo",
+      "quantita": "500",
+      "unita": "g",
+      "note": "per il brodo"
+    },
+    {
+      "ingrediente": "ossa di bovino",
+      "quantita": "300",
+      "unita": "g",
+      "note": "per il brodo"
+    },
+    {
+      "ingrediente": "doppione o biancostato",
+      "quantita": "300",
+      "unita": "g",
+      "note": "per il brodo"
+    },
+    {
+      "ingrediente": "gallina pulita",
+      "quantita": "1/2",
+      "unita": "",
+      "note": "per il brodo"
+    },
+    {
+      "ingrediente": "sedano",
+      "quantita": "1",
+      "unita": "costa",
+      "note": "per il brodo"
+    },
+    {
+      "ingrediente": "carota",
+      "quantita": "1",
+      "unita": "",
+      "note": "per il brodo"
+    },
+    {
+      "ingrediente": "cipolla",
+      "quantita": "1",
+      "unita": "",
+      "note": "per il brodo"
+    },
+    {
+      "ingrediente": "pomodoro rosso",
+      "quantita": "1",
+      "unita": "",
+      "note": "per il brodo"
+    },
+    {
+      "ingrediente": "acqua fredda",
+      "quantita": "3",
+      "unita": "l",
+      "note": "per il brodo"
+    },
+    {
+      "ingrediente": "sale",
+      "quantita": "",
+      "unita": "",
+      "note": "per il brodo"
+    },
+    {
+      "ingrediente": "alloro",
+      "quantita": "1",
+      "unita": "foglia",
+      "note": "per il brodo"
+    },
+    {
+      "ingrediente": "bacche di ginepro",
+      "quantita": "",
+      "unita": "",
+      "note": "qualche, per il brodo"
+    },
+    {
+      "ingrediente": "chiodi di garofano",
+      "quantita": "3",
+      "unita": "",
+      "note": "per il brodo"
+    },
+    {
+      "ingrediente": "prezzemolo",
+      "quantita": "",
+      "unita": "",
+      "note": "per il brodo"
+    },
+    {
+      "ingrediente": "pepe in grani",
+      "quantita": "",
+      "unita": "",
+      "note": "per il brodo"
+    },
+    {
+      "ingrediente": "reale di vitello",
+      "quantita": "1",
+      "unita": "kg",
+      "note": "per il ripieno e il sugo"
+    },
+    {
+      "ingrediente": "polpa di suino",
+      "quantita": "2",
+      "unita": "hg",
+      "note": "per il ripieno e il sugo"
+    },
+    {
+      "ingrediente": "lardo non aromatizzato",
+      "quantita": "2",
+      "unita": "hg",
+      "note": "per il ripieno e il sugo"
+    },
+    {
+      "ingrediente": "prosciutto cotto",
+      "quantita": "1",
+      "unita": "hg",
+      "note": "per il ripieno e il sugo"
+    },
+    {
+      "ingrediente": "riso bollito nel latte",
+      "quantita": "2",
+      "unita": "hg",
+      "note": "per il ripieno e il sugo"
+    },
+    {
+      "ingrediente": "spinaci",
+      "quantita": "3",
+      "unita": "hg",
+      "note": "per il ripieno e il sugo"
+    },
+    {
+      "ingrediente": "cipolle dorate",
+      "quantita": "2",
+      "unita": "",
+      "note": "per il ripieno e il sugo"
+    },
+    {
+      "ingrediente": "carota",
+      "quantita": "1",
+      "unita": "",
+      "note": "per il ripieno e il sugo"
+    },
+    {
+      "ingrediente": "sedano",
+      "quantita": "1",
+      "unita": "gambo",
+      "note": "per il ripieno e il sugo"
+    },
+    {
+      "ingrediente": "rosmarino",
+      "quantita": "1",
+      "unita": "rametto",
+      "note": "per il ripieno e il sugo"
+    },
+    {
+      "ingrediente": "alloro",
+      "quantita": "3",
+      "unita": "foglie",
+      "note": "per il ripieno e il sugo"
+    },
+    {
+      "ingrediente": "cannella",
+      "quantita": "1",
+      "unita": "pezzetto",
+      "note": "per il ripieno e il sugo"
+    },
+    {
+      "ingrediente": "chiodi di garofano",
+      "quantita": "",
+      "unita": "",
+      "note": "qualche, per il ripieno e il sugo"
+    },
+    {
+      "ingrediente": "salvia",
+      "quantita": "",
+      "unita": "",
+      "note": "per il ripieno e il sugo"
+    },
+    {
+      "ingrediente": "noce moscata",
+      "quantita": "",
+      "unita": "",
+      "note": "un pizzico, per il ripieno e il sugo"
+    },
+    {
+      "ingrediente": "Barbera",
+      "quantita": "",
+      "unita": "",
+      "note": "di qualche anno, per il ripieno e il sugo"
+    },
+    {
+      "ingrediente": "uova",
+      "quantita": "6",
+      "unita": "",
+      "note": "per il ripieno e il sugo"
+    },
+    {
+      "ingrediente": "parmigiano reggiano",
+      "quantita": "2",
+      "unita": "hg",
+      "note": "per il ripieno e il sugo"
+    },
+    {
+      "ingrediente": "burro",
+      "quantita": "",
+      "unita": "",
+      "note": "per il ripieno e il sugo e servizio"
+    },
+    {
+      "ingrediente": "olio EVO",
+      "quantita": "",
+      "unita": "",
+      "note": "per il ripieno e il sugo"
+    },
+    {
+      "ingrediente": "sale",
+      "quantita": "",
+      "unita": "",
+      "note": "per il ripieno e il sugo"
+    },
+    {
+      "ingrediente": "pepe",
+      "quantita": "",
+      "unita": "",
+      "note": "per il ripieno e il sugo"
+    },
+    {
+      "ingrediente": "uova",
+      "quantita": "8",
+      "unita": "",
+      "note": "per la pasta"
+    },
+    {
+      "ingrediente": "farina di frumento tipo 00",
+      "quantita": "1",
+      "unita": "kg",
+      "note": "per la pasta"
+    },
+    {
+      "ingrediente": "sale",
+      "quantita": "",
+      "unita": "",
+      "note": "per la pasta"
+    },
+    {
+      "ingrediente": "olio EVO",
+      "quantita": "",
+      "unita": "",
+      "note": "per la pasta"
+    }
+  ],
+  "steps": [
+    "Preparare il brodo. Lavare la carne e le ossa sotto acqua corrente. Mondare le verdure; tagliare carota e sedano a tocchetti e la cipolla a metà. Raccogliere tutto in una capiente casseruola con il pomodoro intero, aggiungere il doppione, la mezza gallina, le ossa e la polpa, coprire con circa 3 litri di acqua fredda e portare a bollore.",
+    "Cuocere e filtrare il brodo. Schiumare con un mestolo forato, abbassare la fiamma e fare sobbollire dolcemente per circa 3 ore, semi-coperto. Filtrare il brodo con un colino a maglie fitte; per un brodo più limpido filtrare una seconda volta con una mussola. Salare quando è ancora caldo.",
+    "Preparare il riso e il fondo del ripieno. Cuocere a parte il riso nel latte: perché si sciolga bene serve più di un'ora di cottura, secondo il tipo di riso. Affettare finemente cipolle, carota e sedano e soffriggerli a fuoco vivo con aglio ed erbe in olio e burro.",
+    "Rosolare le carni. Tagliare le carni a pezzi di circa 2 cm e unirle al soffritto. Rosolarle a lungo, in modo che si sigillino bene. Aggiungere il vino e farlo sfumare, anche più di una volta. Unire cannella e chiodi di garofano.",
+    "Completare la cottura del ripieno. Bollire a parte gli spinaci e saltarli poi con il burro. Continuare la cottura delle carni aggiungendo brodo poco alla volta e rivoltandole spesso, in modo da ottenere un arrosto di spezzatino, cotto sempre con poco sugo. Quando le carni sono tenere al cucchiaio di legno, aggiungere solo un poco più di brodo e spegnere.",
+    "Tritare e legare il ripieno. Passare al tritacarne le carni ben scolate con gli spinaci e la noce moscata. Aggiungere poi uova, parmigiano e un poco di riso cotto nel latte per legare; aggiustare di sale, pepe e noce moscata.",
+    "Preparare il sugo d'arrosto. Togliere momentaneamente il fondo di cottura dalla pentola, spargere un cucchiaio di farina nella pentola per catturare i gusti residui, quindi aggiungere lentamente il fondo passato al colino, fino all'ultima goccia, e altro brodo. La salsa deve restare liquida. Cuocere per altri 30 minuti circa, quindi spegnere prima che si addensi troppo. Lasciare riposare in frigorifero per almeno 1 giorno; prima dell'uso riscaldarlo e, se serve, allungarlo con poca acqua. Volendo si può sgrassare a freddo.",
+    "Preparare la pasta. Impastare farina, uova, una presa di sale ed eventualmente un bicchiere d'acqua e un poco di olio. Tirare la sfoglia il più sottile possibile e tagliarla in strisce larghe circa 5 cm.",
+    "Formare gli agnolotti. Disporre palline di ripieno sulla pasta, ripiegare la sfoglia su se stessa e ritagliare gli agnolotti su tre lati con la rotella dentata. Lasciarli riposare in frigorifero, anche per un giorno, su strofinacci infarinati che assorbano l'umidità, coprendoli con altri strofinacci.",
+    "Cuocere e servire. Cuocere gli agnolotti in abbondante acqua salata per 5 minuti. Disporli a strati sovrapposti in un piatto da portata ben caldo, distribuendo su ogni strato abbondante sugo, un poco di burro e parmigiano. Lasciare riposare qualche minuto prima di servire. Accompagnare con la stessa Barbera già utilizzata."
+  ],
+  "note_bullets": [
+    "Il testo conserva l'impianto originale della ricetta, comprese la digressione familiare e le osservazioni d'uso sul sugo e sul riposo degli agnolotti.",
+    "Le quantità sono state separate dagli ingredienti senza eliminare informazioni presenti nel testo."
+  ],
+  "time_notes": [],
+  "ingredienti_principali": [
+    "Agnolotti",
+    "Sugo d'arrosto"
+  ]
+}

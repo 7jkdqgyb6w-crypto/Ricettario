@@ -1,0 +1,46 @@
+{
+  "title": "Minestra di cavoli",
+  "slug": "minestra-di-cavoli",
+  "meta": {
+    "autore": "Pierre Piccotti",
+    "fonte": "Jacqueline Gibert",
+    "categoria": "zuppe e minestre"
+  },
+  "intro": [],
+  "ingredient_rows": [
+    {
+      "ingrediente": "cavolo",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "lardo",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "patate",
+      "quantita": "2",
+      "unita": "",
+      "note": ""
+    }
+  ],
+  "steps": [
+    "Tagliare il cavolo a fette sottili, farlo insaporire, aggiungere il lardo a dadini, due patate a tocchi piccoli, insaporire bene, salare.Chiudere la pentola a pressione e dare 5 minuti di cottura."
+  ],
+  "note_bullets": [],
+  "time_notes": [
+    "5’"
+  ],
+  "ingredienti_principali": [
+    "Bena",
+    "Cavolo",
+    "Insaporira",
+    "Lardo",
+    "Sottilo",
+    "Toccho",
+    "Minestra"
+  ]
+}

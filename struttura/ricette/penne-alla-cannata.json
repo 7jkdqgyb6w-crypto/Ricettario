@@ -1,0 +1,106 @@
+{
+  "title": "Penne alla \"Cannata\"",
+  "slug": "penne-alla-cannata",
+  "meta": {
+    "autore": "Pierre Piccotti",
+    "origine": "Italia – Sicilia – Salina",
+    "categoria": "primi"
+  },
+  "intro": [
+    "Elementi essenziali della cucina di questa trattoria sono i capperi e la mentuccia.Tagliare i pomodorini a metà.Pulire accuratamente le alici.Preparare in un tegame i pomodorini, le alici, l'olio e l'aglio. il peperoncino, i capperi (lavati), la menta, l'origano, il sale.Cuocere a fiamma viva per alcuni minuti, evitando che i pomodorini si disfino."
+  ],
+  "ingredient_rows": [
+    {
+      "ingrediente": "alici sotto sale",
+      "quantita": "4",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "capperi",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "mezze penne rigate",
+      "quantita": "1/2",
+      "unita": "Kg",
+      "note": ""
+    },
+    {
+      "ingrediente": "pomodorini 300 gr",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "peperonciono",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "pangrattato",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "aglio",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "sale",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "pepe",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "menta",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "origano",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "olio",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    }
+  ],
+  "steps": [
+    "Aggiungere una manciata di pangrattato e il pepe, dare ancora un paio di minuti di cottura, quindi togliere dal fuoco.Scolare le penne al dente.Saltare il tutto nel tegame per qualche minuto, eventualmente aggiungendo un poco di olio."
+  ],
+  "note_bullets": [
+    "Per la cottura della pasta usare acqua ben salata e scolare con il condimento già pronto."
+  ],
+  "time_notes": [
+    "5 minuti"
+  ],
+  "ingredienti_principali": [
+    "Aglio",
+    "Cappero",
+    "Menta",
+    "Olio questa",
+    "Origano",
+    "Pepe",
+    "Peperonciono",
+    "Sale",
+    "Penne"
+  ]
+}

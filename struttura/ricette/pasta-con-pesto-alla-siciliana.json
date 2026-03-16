@@ -1,0 +1,86 @@
+{
+  "title": "Pasta con pesto alla siciliana",
+  "slug": "pasta-con-pesto-alla-siciliana",
+  "meta": {
+    "autore": "Pierre Piccotti",
+    "origine": "Italia – Sicilia",
+    "categoria": "primi"
+  },
+  "intro": [],
+  "ingredient_rows": [
+    {
+      "ingrediente": "tanto basilico",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "o 4 spicchi d'aglio",
+      "quantita": "3",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "mandorle tostate e grattugiate",
+      "quantita": "una",
+      "unita": "manciata",
+      "note": ""
+    },
+    {
+      "ingrediente": "olio extra vergine di olive gustoso",
+      "quantita": "",
+      "unita": "",
+      "note": "siciliano"
+    },
+    {
+      "ingrediente": "pomodorini datterini o meglio San Marzano se di stagione",
+      "quantita": "3",
+      "unita": "hg",
+      "note": ""
+    },
+    {
+      "ingrediente": "capperi sotto sale",
+      "quantita": "alcuni",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "r. di bottarga di muggine intera",
+      "quantita": "30",
+      "unita": "g",
+      "note": ""
+    },
+    {
+      "ingrediente": "pasta",
+      "quantita": "1/2",
+      "unita": "kg",
+      "note": "penne rigate"
+    },
+    {
+      "ingrediente": "mentuccia. <<STEP>>",
+      "quantita": "alcune",
+      "unita": "foglie",
+      "note": ""
+    }
+  ],
+  "steps": [
+    "Preparare un pesto con basilico aglio e mandorle tostate grattugiate+ olio q.b. Tagliare a cubetti i pomodori maturi.",
+    "Disporre il tutto in una padella di alluminio spessa. Versare la pasta al dente sulla salsa e saltare a fuoco vivace per un paio di minuti al massimo (non deve cuocere). Aggiungere qualche cappero e bottarga tagliata a fettine sottilissime. Guarnire con alcune foglie di mentuccia."
+  ],
+  "note_bullets": [
+    "Per la cottura della pasta usare acqua ben salata e scolare con il condimento già pronto."
+  ],
+  "time_notes": [
+    "20 min."
+  ],
+  "ingredienti_principali": [
+    "Basilico",
+    "D'aglio",
+    "Gustoso",
+    "Mentuccia",
+    "Pasta",
+    "Sale",
+    "Stagiona",
+    "Pesto"
+  ]
+}

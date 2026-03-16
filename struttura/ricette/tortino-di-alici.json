@@ -1,0 +1,95 @@
+{
+  "title": "Tortino di alici",
+  "slug": "tortino-di-alici",
+  "meta": {
+    "autore": "Pierre Piccotti",
+    "categoria": "antipasti"
+  },
+  "intro": [
+    "cottura 40 minuti. Questo piatto è diffuso con numerose varianti in tutto il sud Italia. Questa mia personalizzazione prende spunto da come lo preparava Eddy.",
+    "Non pretende assolutamente di essere fedele alla sua ricetta. Ne purtroppo potrebbe più correggermi,Le alici devono essere freschissime, senza storia. E preferibilmente in inverno, che sono un poco più grasse. Sviscerarle, mozzare la testa e togliere la lisca centrale. Sciacquare senza asiugare.Mollica o pangrattato, disputa senza fine.",
+    "Mollica, ovvero pangrattato di sola mollica di pane, senza crosta.Su una padella calda abbrustolire leggermente la mollica con un filo di olio. Attenzione che non bruci.Una volta raffreddata aggiungere prezzemolo, nepetella, peperoncino piccante, aglio, prezzemolo, pecorino romano DOP grattugiato, sale e pepe.In una terrina stendete uno strato di mollica abbrustolita, le alici, ma mollica restante.Coprite con 4 fette di limone BIO sottili e infornate a nel forno già caldo a 180° per ca. 40 minuti."
+  ],
+  "ingredient_rows": [
+    {
+      "ingrediente": "alici freschissime",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "mollica o pangrattato",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "pecorino romano DOP",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "olio EVO",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "sale pepe",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "peperoncino",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "nepetella",
+      "quantita": "",
+      "unita": "",
+      "note": "mentuccia romana"
+    },
+    {
+      "ingrediente": "prezzemolo",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "origano",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    },
+    {
+      "ingrediente": "limone BIO",
+      "quantita": "",
+      "unita": "",
+      "note": ""
+    }
+  ],
+  "steps": [
+    "Togliere dal forno prima si scurisca troppo la superfice."
+  ],
+  "note_bullets": [
+    "Conviene preriscaldare bene il forno prima di iniziare la cottura."
+  ],
+  "time_notes": [
+    "cottura 40 minuti. Questo piatto è diffuso con numerose varianti in tutto il sud Italia. Questa mia personalizzazione prende spunto da come lo preparava Eddy."
+  ],
+  "ingredienti_principali": [
+    "Bio",
+    "Dop",
+    "Freschissima",
+    "Nepetella",
+    "Origano",
+    "Pepe",
+    "Peperoncino",
+    "Prezzemolo",
+    "Alice"
+  ]
+}
