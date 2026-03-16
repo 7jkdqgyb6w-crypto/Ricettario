@@ -1,11 +1,4 @@
-/* Ricettario Piccotti — mockup agnolotti
-   CSS coerente con index.html inviato dall'utente
-   Versione v3:
-   - una sola colonna di lettura
-   - immagini dei passaggi inserite accanto al testo senza interromperlo
-   - immagini ridotte: max circa mezza pagina
-   - font mantenuti: Source Serif 4, Georgia, serif
-*/
+/* Ricettario Piccotti — homepage + struttura generale */
 
 :root{
   --bg: #f3efe6;
@@ -23,7 +16,7 @@
 
   --shell: 1240px;
   --reading: 74ch;
-  --hero-max: 52rem;
+  --hero-max: 56rem;
 }
 
 *,
@@ -70,13 +63,11 @@ a:hover{
   padding: 2.25rem 1.15rem 6rem;
 }
 
-/* spazi "sprecati" */
 .airy-block{
   margin-top: 4.5rem;
   margin-bottom: 4.5rem;
 }
 
-/* intestazione */
 .topbar{
   margin: 0 0 4rem;
   padding-top: 1rem;
@@ -98,7 +89,6 @@ a:hover{
   color: var(--soft);
 }
 
-/* tipografia */
 h1, h2, h3, p, ul, ol, dl, figure{
   margin-top: 0;
 }
@@ -164,7 +154,6 @@ p{
   max-width: 20rem;
 }
 
-/* hero */
 .hero{
   display: block;
 }
@@ -181,11 +170,10 @@ p{
 .hero-media img{
   width: 100%;
   height: auto;
-  max-height: clamp(18rem, 56vh, 34rem);
+  max-height: clamp(17rem, 46vw, 30rem);
   object-fit: cover;
   box-shadow: var(--shadow);
 }
-
 
 .hero-media figcaption{
   margin-top: 0.7rem;
@@ -227,150 +215,48 @@ p{
   color: var(--text);
 }
 
-/* introduzione */
 .block-title-wrap{
   margin-bottom: 1rem;
 }
 
-.story-layout{
-  max-width: var(--reading);
-}
-
+.story-layout,
 .story-text{
   max-width: var(--reading);
 }
 
-/* corpo ricetta: UNA COLONNA */
-.recipe-core{
-  display: block;
+.home-grid{
+  display: grid;
+  gap: 1.25rem;
 }
 
-.ingredients-panel,
-.method-panel{
-  min-width: 0;
+.home-card,
+.recipe-teaser{
+  border-top: 1px solid var(--line);
+  padding-top: 0.9rem;
 }
 
-.ingredients-panel{
-  margin-bottom: 4rem;
-}
-
-.panel-note{
-  margin: -0.2rem 0 1.15rem;
-  font-family: var(--font-ui);
-  font-size: 0.8rem;
-  color: var(--muted);
-}
-
-.table-wrap{
-  overflow-x: auto;
-  scrollbar-width: thin;
-}
-
-.compact-table{
-  padding-top: 0.2rem;
-}
-
-.ingredients-table{
-  width: 100%;
-  border-collapse: collapse;
-  border-spacing: 0;
-  background: transparent;
-}
-
-.ingredients-table thead th{
-  padding: 0 0 0.55rem;
-  border-bottom: 1px solid var(--line);
-  font-family: var(--font-ui);
-  font-size: 0.72rem;
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: var(--muted);
-  text-align: left;
-  vertical-align: bottom;
-}
-
-.ingredients-table tbody td{
-  padding: 0.4rem 0.3rem 0.4rem 0;
-  border-bottom: 1px solid rgba(70,62,52,0.09);
-  font-size: 0.95rem;
-  line-height: 1.32;
-  vertical-align: top;
-}
-
-.ingredients-table tbody tr:last-child td{
-  border-bottom: 0;
-}
-
-.ingredients-table td:nth-child(2),
-.ingredients-table td:nth-child(3){
-  white-space: nowrap;
-}
-
-.ingredients-table td:nth-child(1){ width: 38%; }
-.ingredients-table td:nth-child(2){ width: 14%; }
-.ingredients-table td:nth-child(3){ width: 12%; }
-.ingredients-table td:nth-child(4){
-  width: 36%;
-  color: var(--muted);
-}
-
-/* preparazione */
-.steps-list{
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  counter-reset: step;
-  max-width: var(--reading);
-}
-
-.steps-list > li{
-  counter-increment: step;
-  position: relative;
-  padding-left: 2.35rem;
-  margin: 0 0 2.15rem;
-}
-
-.steps-list > li::before{
-  content: counter(step) ".";
-  position: absolute;
-  left: 0;
-  top: 0;
-  font-family: var(--font-body);
-  font-weight: 600;
-  font-size: 1.35rem;
-  line-height: 1;
-  color: #5f5a51;
-}
-
-.compact-steps p{
-  max-width: 64ch;
-  margin-bottom: 0.95rem;
-}
-
-.step-media{
-  margin: 0.35rem 0 0.85rem;
-}
-
-.soft-frame img{
-  box-shadow: var(--shadow);
-}
-
-.step-media.wide img,
-.step-media.small-left img,
-.step-media.small-right img{
-  width: 100%;
-}
-
-.with-media p:last-of-type{
+.home-card p:last-child,
+.recipe-teaser p:last-child{
   margin-bottom: 0;
 }
 
-.final-shot{
-  margin-top: 0.5rem;
+.recipe-teaser{
+  display: block;
 }
 
-/* note finali */
+.teaser-media{
+  margin: 0 0 0.95rem;
+}
+
+.teaser-media img{
+  width: 100%;
+  box-shadow: var(--shadow);
+}
+
+.teaser-copy h3{
+  margin-bottom: 0.55rem;
+}
+
 .bottom-grid{
   display: block;
 }
@@ -406,55 +292,20 @@ p{
   margin: 0 0 1rem;
 }
 
-/* tablet orizzontale e desktop piccoli:
-   le immagini restano nel flusso e si riducono prima, senza passare troppo presto alla modalità smartphone */
-@media (min-width: 700px){
-  .hero-media{
-    max-width: 48rem;
+.soft-frame img{
+  box-shadow: var(--shadow);
+}
+
+@media (min-width: 760px){
+  .home-grid-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .steps-list > li{
-    min-height: 10rem;
-  }
-
-  .step-media{
-    margin-top: 0.15rem;
-    margin-bottom: 0.6rem;
-  }
-
-  .step-media.wide,
-  .step-media.small-right{
-    float: right;
-    width: min(41%, 20rem);
-    max-width: calc(50% - 0.8rem);
-    margin: 0.15rem 0 0.75rem 1.35rem;
-  }
-
-  .step-media.small-left{
-    float: left;
-    width: min(38%, 18rem);
-    max-width: calc(50% - 0.8rem);
-    margin: 0.15rem 1.35rem 0.75rem 0;
-  }
-
-  .step-media.wide img,
-  .step-media.small-left img,
-  .step-media.small-right img{
-    width: 100%;
-  }
-
-  .steps-list > li::after{
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  .compact-steps p{
-    max-width: none;
+  .home-grid-3{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
-/* schermi larghi */
 @media (min-width: 980px){
   .page-shell{
     padding: 3.1rem 2.2rem 7rem;
@@ -471,51 +322,47 @@ p{
   }
 
   .hero-media{
-    max-width: var(--hero-max);
+    max-width: 62rem;
   }
 
-  .story-layout,
-  .steps-list,
+  .home-grid-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .bottom-grid{
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 3rem;
     max-width: 78rem;
   }
 
-  .steps-list > li{
-    min-height: 12rem;
-  }
-
-  .step-media.wide,
-  .step-media.small-right{
-    width: min(44%, 25rem);
-    max-width: calc(50% - 0.9rem);
-    margin-left: 1.8rem;
-  }
-
-  .step-media.small-left{
-    width: min(40%, 22rem);
-    max-width: calc(50% - 0.9rem);
-    margin-right: 1.8rem;
+  .bottom-grid > div:first-child{
+    margin-bottom: 0;
   }
 }
 
-/* smartphone verticale */
-@media (max-width: 520px){
-  body{
-    font-size: 17px;
-  }
-
+@media (max-width: 700px){
   .page-shell{
-    padding: 1.5rem 0.95rem 4.5rem;
+    padding: 1.7rem 1rem 4.8rem;
   }
 
   .topbar{
     margin-bottom: 2.8rem;
-    font-size: 0.8rem;
   }
 
   .airy-block{
     margin-top: 3.3rem;
     margin-bottom: 3.3rem;
+  }
+
+  .hero-media img{
+    max-height: none;
+  }
+}
+
+@media (max-width: 520px){
+  body{
+    font-size: 17px;
   }
 
   h1{
@@ -535,25 +382,11 @@ p{
   p,
   .compact-text p,
   .compact-text li,
-  .compact-text dd,
-  .ingredients-table tbody td{
+  .compact-text dd{
     font-size: 1rem;
   }
 
-  .ingredients-table thead th{
-    font-size: 0.7rem;
-  }
-
-  .steps-list > li{
-    padding-left: 2rem;
-    margin-bottom: 1.8rem;
-  }
-
-  .steps-list > li::before{
-    font-size: 1.2rem;
-  }
-
   .meta-grid{
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 }
