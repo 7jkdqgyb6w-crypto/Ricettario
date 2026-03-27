@@ -1,0 +1,541 @@
+/* Ricettario Piccotti — mockup agnolotti
+   CSS coerente con index.html inviato dall'utente */
+
+:root{
+  --bg: #f3efe6;              /* carta appena invecchiata */
+  --surface: rgba(255,255,255,0.42);
+  --text: #232220;
+  --muted: #66625c;
+  --soft: #90897f;
+  --line: rgba(70,62,52,0.14);
+  --link: #2f4f6f;
+  --link-hover: #243d57;
+  --shadow: 0 10px 30px rgba(40,34,26,0.05);
+
+  --font-title: "Playfair Display", serif;
+  --font-body: "Source Serif 4", serif;
+  --font-ui: "Inter", sans-serif;
+
+  --shell: 1240px;
+  --reading: 69ch;
+  --gap-xl: 6rem;
+  --gap-lg: 4rem;
+  --gap-md: 2rem;
+  --gap-sm: 1rem;
+  --radius: 4px;
+}
+
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body{
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-weight: 400;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a{
+  color: var(--link);
+  text-decoration: none;
+}
+
+a:hover{
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+.page-shell{
+  max-width: var(--shell);
+  margin: 0 auto;
+  padding: 2.25rem 1.1rem 6rem;
+}
+
+/* --- spazi "sprecati" --- */
+.airy-block{
+  margin-top: 4.4rem;
+  margin-bottom: 4.4rem;
+}
+
+/* --- intestazione --- */
+.topbar{
+  margin: 0 0 4rem;
+  padding-top: 1rem;
+  font-family: var(--font-ui);
+  font-size: 0.82rem;
+  line-height: 1.4;
+  color: var(--muted);
+  letter-spacing: 0.01em;
+}
+
+.topbar .crumb,
+.topbar .current{
+  color: var(--muted);
+}
+
+.sep{
+  display: inline-block;
+  margin: 0 0.45rem;
+  color: var(--soft);
+}
+
+/* --- titoli e testo --- */
+h1, h2, h3, p, ul, ol, dl, figure{
+  margin-top: 0;
+}
+
+h1{
+  font-family: var(--font-title);
+  font-weight: 600;
+  font-size: clamp(2.25rem, 4vw, 4rem);
+  line-height: 0.98;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.25rem;
+  max-width: 12ch;
+}
+
+h2{
+  font-family: var(--font-title);
+  font-weight: 600;
+  font-size: clamp(1.55rem, 2vw, 2rem);
+  line-height: 1.08;
+  margin-bottom: 1.1rem;
+  letter-spacing: -0.01em;
+}
+
+h3{
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.45rem;
+}
+
+p{
+  font-size: 1rem;
+  margin-bottom: 0.9rem;
+}
+
+.lead{
+  font-size: 1.1rem;
+  line-height: 1.62;
+  max-width: 40ch;
+  color: var(--text);
+}
+
+.eyebrow{
+  font-family: var(--font-ui);
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 1rem;
+}
+
+.compact-text p,
+.compact-text li,
+.compact-text dd{
+  font-size: 0.97rem;
+  line-height: 1.52;
+}
+
+.narrow-head{
+  max-width: 20rem;
+}
+
+/* --- hero --- */
+.hero{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.hero-copy{
+  order: 2;
+  min-width: 0;
+}
+
+.hero-media{
+  order: 1;
+  margin: 0;
+}
+
+.hero-media img{
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+  box-shadow: var(--shadow);
+}
+
+.hero-media figcaption{
+  margin-top: 0.7rem;
+  max-width: 44ch;
+  font-family: var(--font-ui);
+  font-size: 0.78rem;
+  line-height: 1.45;
+  color: var(--muted);
+}
+
+.meta-grid{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.85rem 1rem;
+  margin-top: 1.6rem;
+}
+
+.compact-meta{
+  max-width: 34rem;
+}
+
+.meta-grid > div{
+  padding-top: 0.65rem;
+  border-top: 1px solid var(--line);
+}
+
+.meta-label{
+  display: block;
+  font-family: var(--font-ui);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.2rem;
+}
+
+.meta-grid strong{
+  font-family: var(--font-body);
+  font-size: 0.98rem;
+  font-weight: 500;
+  color: var(--text);
+}
+
+/* --- introduzione --- */
+.block-title-wrap{
+  margin-bottom: 1rem;
+}
+
+.story-layout{
+  max-width: var(--reading);
+}
+
+.story-text{
+  max-width: var(--reading);
+}
+
+/* --- corpo ricetta --- */
+.recipe-core{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3.5rem;
+  align-items: start;
+}
+
+.ingredients-panel,
+.method-panel{
+  min-width: 0;
+}
+
+.panel-note{
+  margin: -0.2rem 0 1.15rem;
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.table-wrap{
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.compact-table{
+  padding-top: 0.2rem;
+}
+
+.ingredients-table{
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  background: transparent;
+}
+
+.ingredients-table thead th{
+  padding: 0 0 0.55rem;
+  border-bottom: 1px solid var(--line);
+  font-family: var(--font-ui);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+  text-align: left;
+  vertical-align: bottom;
+}
+
+.ingredients-table tbody td{
+  padding: 0.4rem 0.3rem 0.4rem 0;
+  border-bottom: 1px solid rgba(70,62,52,0.09);
+  font-size: 0.95rem;
+  line-height: 1.32;
+  vertical-align: top;
+}
+
+.ingredients-table tbody tr:last-child td{
+  border-bottom: 0;
+}
+
+.ingredients-table td:nth-child(2),
+.ingredients-table td:nth-child(3){
+  white-space: nowrap;
+}
+
+.ingredients-table td:nth-child(1){
+  width: 39%;
+}
+
+.ingredients-table td:nth-child(2){
+  width: 14%;
+}
+
+.ingredients-table td:nth-child(3){
+  width: 12%;
+}
+
+.ingredients-table td:nth-child(4){
+  width: 35%;
+  color: var(--muted);
+}
+
+/* --- preparazione --- */
+.steps-list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  counter-reset: step;
+}
+
+.steps-list > li{
+  counter-increment: step;
+  position: relative;
+  padding-left: 2.4rem;
+  margin: 0 0 2rem;
+}
+
+.steps-list > li::before{
+  content: counter(step) ".";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-family: var(--font-title);
+  font-size: 1.45rem;
+  line-height: 1;
+  color: #5f5a51;
+}
+
+.compact-steps p{
+  max-width: 58ch;
+  margin-bottom: 0;
+}
+
+.step-media{
+  margin: 1rem 0 0;
+}
+
+.soft-frame img{
+  box-shadow: var(--shadow);
+}
+
+.step-media.wide img{
+  width: 100%;
+}
+
+.step-media.small-left img,
+.step-media.small-right img{
+  width: 100%;
+}
+
+.final-shot{
+  margin-top: 1.2rem;
+}
+
+/* --- note finali --- */
+.bottom-grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.4rem;
+  align-items: start;
+}
+
+.clean-list{
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.clean-list li{
+  margin-bottom: 0.55rem;
+}
+
+.meta-list{
+  margin: 0;
+}
+
+.meta-list dt{
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 0.2rem;
+}
+
+.meta-list dd{
+  margin: 0 0 1rem;
+}
+
+/* --- tablet e desktop --- */
+@media (min-width: 860px){
+  .page-shell{
+    padding: 3rem 2.2rem 7rem;
+  }
+
+  .airy-block{
+    margin-top: 5.5rem;
+    margin-bottom: 5.5rem;
+  }
+
+  .hero{
+    grid-template-columns: minmax(0, 0.88fr) minmax(0, 1.12fr);
+    gap: 4rem;
+  }
+
+  .hero-copy{
+    order: 1;
+    padding-top: 1.3rem;
+  }
+
+  .hero-media{
+    order: 2;
+  }
+
+  .recipe-core{
+    grid-template-columns: minmax(280px, 0.78fr) minmax(0, 1.22fr);
+    gap: 4.25rem;
+  }
+
+  .bottom-grid{
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+  }
+}
+
+@media (min-width: 1100px){
+  .page-shell{
+    padding-top: 3.8rem;
+  }
+
+  .hero{
+    gap: 5.6rem;
+  }
+
+  .recipe-core{
+    gap: 5rem;
+  }
+
+  .step-media.wide img{
+    width: 82%;
+  }
+
+  .step-media.small-left img{
+    width: 56%;
+    margin-right: auto;
+  }
+
+  .step-media.small-right img{
+    width: 56%;
+    margin-left: auto;
+  }
+}
+
+/* --- smartphone verticale --- */
+@media (max-width: 520px){
+  body{
+    font-size: 17px;
+  }
+
+  .page-shell{
+    padding: 1.5rem 0.95rem 4.5rem;
+  }
+
+  .topbar{
+    margin-bottom: 2.8rem;
+    font-size: 0.8rem;
+  }
+
+  .airy-block{
+    margin-top: 3.3rem;
+    margin-bottom: 3.3rem;
+  }
+
+  h1{
+    font-size: 2.2rem;
+    max-width: none;
+  }
+
+  h2{
+    font-size: 1.55rem;
+  }
+
+  .lead{
+    font-size: 1.14rem;
+    line-height: 1.58;
+  }
+
+  p,
+  .compact-text p,
+  .compact-text li,
+  .compact-text dd,
+  .ingredients-table tbody td{
+    font-size: 1rem;
+  }
+
+  .ingredients-table thead th{
+    font-size: 0.7rem;
+  }
+
+  .steps-list > li{
+    padding-left: 2rem;
+    margin-bottom: 1.8rem;
+  }
+
+  .steps-list > li::before{
+    font-size: 1.25rem;
+  }
+
+  .meta-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
