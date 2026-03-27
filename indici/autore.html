@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Autore - Ricette (e altro) di Pierre</title>
+<link rel="stylesheet" href="../style.css">
+<style>
+.index-page > .index-content{max-width:var(--reading);margin-left:auto;margin-right:auto;width:100%;}
+.index-page > .index-content > h1{margin-bottom:1.2rem;}
+.index-page .block,.index-page .lead,.index-page .index-section{max-width:100%;}
+.index-filter{margin:0 0 1.5rem 0}
+.index-filter h2{font-size:1.05rem;margin:0 0 .75rem 0}
+.filter-buttons{display:flex;gap:.8rem;flex-wrap:wrap}
+.filter-btn{border:1px solid #c9c1b8;background:#fff;border-radius:999px;padding:.75rem 1.2rem;font:inherit;cursor:pointer}
+.filter-btn.is-active{background:#222;color:#fff;border-color:#222}
+.index-links li{margin:.25rem 0}
+.index-category{padding-top:.7rem;border-top:1px solid var(--line);margin-bottom:1.4rem;}
+.index-category h2{margin-bottom:.9rem;}
+.recipe-index-list{display:grid;gap:1.6rem;}
+.recipe-index-card{display:grid;gap:1rem;align-items:start;padding-top:1rem;border-top:1px solid var(--line);}
+.recipe-index-card:first-child{border-top:0;padding-top:0;}
+.recipe-index-media{display:flex;justify-content:center;align-items:flex-start;}
+.recipe-index-media img{width:85%;box-shadow:var(--shadow);}
+.recipe-index-body h3{margin:0 0 .45rem;font-size:1.15rem;line-height:1.2;color:#566064;}
+.recipe-index-body p{margin:0 0 .7rem;}
+.recipe-index-meta{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:.55rem 1.2rem;}
+.recipe-index-meta li{margin:0;}
+@media (min-width: 760px){
+  .recipe-index-card{grid-template-columns:minmax(200px,24%) minmax(0,1fr);}
+}
+</style>
+</head>
+<body>
+<div class="page">
+<header class="site-header">
+  <a class="brand" href="../index.html">Ricette (e altro) di Pierre</a>
+  <nav>
+    <a href="ricette.html">Ricette</a>
+    <a href="ingredienti.html">Ingredienti</a>
+    <a href="fonti.html">Fonti</a>
+    <a href="geografia.html">Geografia</a>
+  </nav>
+</header>
+<main class="index-page">
+<div class="index-content">
+<h1>Autore</h1>
+<section class="lead home-intro index-intro"><p>Indice tecnico per autore.</p></section><section class="block index-filter"><h2>Filtra per categoria</h2><div class="filter-buttons"><button class="filter-btn is-active" type="button" data-cat="tutte">Tutte</button><button class="filter-btn" type="button" data-cat="antipasti">Antipasti</button><button class="filter-btn" type="button" data-cat="contorni">Contorni</button><button class="filter-btn" type="button" data-cat="dolci">Dolci</button><button class="filter-btn" type="button" data-cat="primi">Primi</button><button class="filter-btn" type="button" data-cat="salse-e-basi">salse e basi</button><button class="filter-btn" type="button" data-cat="secondi">Secondi</button><button class="filter-btn" type="button" data-cat="zuppe-e-minestre">zuppe e minestre</button></div></section><section class="block index-category" data-filter-group><h2 id="oierre-piccotti">Oierre Piccotti</h2><ul class="home-secondary-list"><li data-cats="primi"><a href="../ricette/bigoli-in-salsa/index.html"><strong>Bigoli in salsa</strong><span>Primi</span></a></li></ul></section><section class="block index-category" data-filter-group><h2 id="pierre-piccotti">Pierre Piccotti</h2><ul class="home-secondary-list"><li data-cats="primi"><a href="../ricette/agnolotti-al-sugo-d-arrosto/index.html"><strong>Agnolotti al sugo d&#x27;arrosto</strong><span>Piemonte · Primi · Jacqueline Gibert</span></a></li><li data-cats="secondi"><a href="../ricette/anatra-all-arancia/index.html"><strong>Anatra all&#x27;arancia</strong><span>Francia · Secondi · Aimée Gibert</span></a></li><li data-cats="secondi"><a href="../ricette/anatra-in-salsa/index.html"><strong>Anatra in salsa</strong><span>Italia – Veneto · Secondi</span></a></li><li data-cats="antipasti"><a href="../ricette/antipasto-di-canocce/index.html"><strong>Antipasto di canocce</strong><span>Veneto · Antipasti</span></a></li><li data-cats="antipasti"><a href="../ricette/aringhe-in-terrina/index.html"><strong>Aringhe in terrina</strong><span>Antipasti · Jacqueline Gibert</span></a></li><li data-cats="secondi"><a href="../ricette/arista-alla-birra/index.html"><strong>Arista alla birra</strong><span>Campania · Secondi · Nicola Di Cosmo</span></a></li><li data-cats="antipasti"><a href="../ricette/baccala-mantecato/index.html"><strong>Baccalà mantecato</strong><span>Veneto Venezia · Antipasti</span></a></li><li data-cats="secondi"><a href="../ricette/bagna-cauda/index.html"><strong>Bagna cauda</strong><span>Piemonte · Secondi · Jacqueline Gibert</span></a></li><li data-cats="primi"><a href="../ricette/base01/index.html"><strong>Base_01</strong><span>Italia · Primi · Web</span></a></li><li><a href="../ricette/base02/index.html"><strong>Base_02</strong></a></li><li data-cats="secondi"><a href="../ricette/base03/index.html"><strong>Base_03</strong><span>Italia · Secondi · Web</span></a></li><li data-cats="primi"><a href="../ricette/base04/index.html"><strong>Base_04</strong><span>Primi</span></a></li><li data-cats="primi"><a href="../ricette/base05/index.html"><strong>Base_05</strong><span>Primi · WEb</span></a></li><li><a href="../ricette/base06/index.html"><strong>Base_06</strong></a></li><li data-cats="secondi"><a href="../ricette/battuta-di-manzo-alla-boscaiola/index.html"><strong>Battuta di manzo alla boscaiola</strong><span>Alpago · Secondi · Antonio Schizzi</span></a></li><li data-cats="primi"><a href="../ricette/braciole-di-carne-di-cavallo/index.html"><strong>Braciole di carne di cavallo</strong><span>Primi · Nicola Fusco</span></a></li><li data-cats="secondi"><a href="../ricette/calamari-ripieni/index.html"><strong>Calamari ripieni</strong><span>Puglia · Secondi · Nicola Fusco</span></a></li><li data-cats="primi"><a href="../ricette/cous-cous-alla-trapanese/index.html"><strong>Cous cous alla trapanese*</strong><span>Sicilia Trapani · Primi · Web</span></a></li><li data-cats="dolci"><a href="../ricette/crepes/index.html"><strong>Crêpes</strong><span>Francia · Dolci · Jacqueline Gibert</span></a></li><li data-cats="secondi"><a href="../ricette/daube/index.html"><strong>Daube</strong><span>Francia Provenza · Secondi · Jacqueline Gibert</span></a></li><li data-cats="secondi"><a href="../ricette/filettino-di-maiale/index.html"><strong>Filettino di maiale</strong><span>Croazia · Secondi · Ristoranti</span></a></li><li data-cats="secondi"><a href="../ricette/filetto-angus-alla-senape-di-digione/index.html"><strong>Filetto Angus alla senape di Digione</strong><span>Secondi · Serena Sangiorgi</span></a></li><li data-cats="primi"><a href="../ricette/fusilli-carciofi-e-salmone/index.html"><strong>Fusilli carciofi e salmone</strong><span>Italia · Primi</span></a></li><li data-cats="secondi"><a href="../ricette/gigot-roti/index.html"><strong>Gigot roti</strong><span>Francia · Secondi · Jacqueline Gibert</span></a></li><li data-cats="primi"><a href="../ricette/gnocchetti-sardi-alla-urbaweb/index.html"><strong>Gnocchetti sardi alla Urbaweb</strong><span>Veneto – Venezia · Primi · Eddy Salzano</span></a></li><li data-cats="primi"><a href="../ricette/gnocchi-con-le-trombette-dei-morti/index.html"><strong>Gnocchi con le trombette dei morti</strong><span>Veneto · Primi · Web</span></a></li><li data-cats="secondi"><a href="../ricette/goulash-variante/index.html"><strong>Goulash (variante)</strong><span>Secondi</span></a></li><li data-cats="secondi"><a href="../ricette/medaglioni-di-manzo-con-porcini/index.html"><strong>Medaglioni di manzo con porcini</strong><span>Secondi</span></a></li><li data-cats="primi"><a href="../ricette/minestra-di-cavoli/index.html"><strong>Minestra di cavoli</strong><span>Primi · Jacqueline Gibert</span></a></li><li data-cats="primi"><a href="../ricette/minestra-di-porri/index.html"><strong>Minestra di porri</strong><span>Primi · Jacqueline Gibert</span></a></li><li data-cats="primi"><a href="../ricette/orecchiette-baresi-alle-cime-di-rapa/index.html"><strong>Orecchiette baresi alle cime di rapa</strong><span>Puglia · Primi · Nicola Fusco</span></a></li><li data-cats="primi"><a href="../ricette/pappa-con-il-pomodoro/index.html"><strong>Pappa con il pomodoro</strong><span>Italia Toscana · Primi · Web</span></a></li><li data-cats="primi"><a href="../ricette/pasta-al-ragu-di-triglie-e-al-succo-d-arancia/index.html"><strong>Pasta al ragù di triglie e al succo d&#x27;arancia</strong><span>Sicilia · Primi</span></a></li><li data-cats="primi"><a href="../ricette/pasta-con-i-broccoli/index.html"><strong>Pasta con i broccoli</strong><span>Roma · Primi · Eddy Salzano</span></a></li><li data-cats="primi"><a href="../ricette/pasta-con-le-melanzane/index.html"><strong>Pasta con le melanzane</strong><span>Veneto · Primi</span></a></li><li data-cats="primi"><a href="../ricette/pasta-con-le-sarde/index.html"><strong>Pasta con le sarde</strong><span>Sicilia · Primi</span></a></li><li data-cats="primi"><a href="../ricette/pasta-con-pesto-alla-siciliana/index.html"><strong>Pasta con pesto alla siciliana</strong><span>Italia Sicilia · Primi</span></a></li><li data-cats="primi"><a href="../ricette/pasta-e-fagioli/index.html"><strong>Pasta e fagioli</strong><span>Veneto · Primi · Web</span></a></li><li data-cats="contorni"><a href="../ricette/patatine/index.html"><strong>Patatine</strong><span>Francia · Contorni</span></a></li><li data-cats="antipasti"><a href="../ricette/pate-di-fegato/index.html"><strong>Paté di fegato</strong><span>Francia · Antipasti · Jacqueline Gibert</span></a></li><li data-cats="primi"><a href="../ricette/penne-alla-cannata/index.html"><strong>Penne alla &quot;Cannata&quot;</strong><span>Sicilia Isola di Linosa · Primi · Ristorante &quot;Alla cannata&quot;</span></a></li><li data-cats="primi"><a href="../ricette/penne-con-mazzancolle-alle-verdure/index.html"><strong>Penne con mazzancolle alle verdure</strong><span>Veneto · Primi</span></a></li><li data-cats="primi"><a href="../ricette/penne-con-zucchine/index.html"><strong>Penne con zucchine</strong><span>Italia · Primi</span></a></li><li data-cats="antipasti"><a href="../ricette/peperoni-alici-e-capperi/index.html"><strong>Peperoni, alici e capperi</strong><span>Puglia · Antipasti · Nicola Fusco</span></a></li><li data-cats="secondi"><a href="../ricette/picana/index.html"><strong>Picana</strong><span>Secondi · ChatGTP</span></a></li><li data-cats="contorni"><a href="../ricette/puree-di-sedano/index.html"><strong>Purée di sedano</strong><span>Contorni</span></a></li><li data-cats="secondi"><a href="../ricette/ratatouille-variante/index.html"><strong>Ratatouille (variante)</strong><span>Italia – Veneto · Secondi</span></a></li><li data-cats="zuppe-e-minestre"><a href="../ricette/ribollita/index.html"><strong>Ribollita</strong><span>zuppe e minestre</span></a></li><li data-cats="primi"><a href="../ricette/riso-cozze-e-patate/index.html"><strong>Riso cozze e patate</strong><span>Primi · Nicola Fusco</span></a></li><li data-cats="secondi"><a href="../ricette/roastbeef-arrosto-all-inglese/index.html"><strong>Roastbeef (arrosto all&#x27;inglese)</strong><span>Secondi</span></a></li><li data-cats="salse-e-basi"><a href="../ricette/roux-brun/index.html"><strong>Roux brun</strong><span>salse e basi</span></a></li><li data-cats="salse-e-basi"><a href="../ricette/salsa-verde/index.html"><strong>Salsa verde</strong><span>salse e basi · Jacqueline Gibert</span></a></li><li data-cats="antipasti"><a href="../ricette/sarde-a-beccafico/index.html"><strong>Sarde a beccafico</strong><span>Antipasti</span></a></li><li data-cats="secondi"><a href="../ricette/sfogliata-pugliese/index.html"><strong>Sfogliata pugliese</strong><span>Secondi · Nicola Fusco</span></a></li><li data-cats="primi"><a href="../ricette/spaghetti-alla-bottarga/index.html"><strong>Spaghetti alla bottarga</strong><span>Sicilia · Primi</span></a></li><li data-cats="primi"><a href="../ricette/spaghetti-alla-puttanesca/index.html"><strong>Spaghetti alla puttanesca</strong><span>Roma · Primi · Eddy Salzano</span></a></li><li data-cats="secondi"><a href="../ricette/straccetti-di-pollo-al-limone/index.html"><strong>Straccetti di pollo al limone</strong><span>Secondi</span></a></li><li data-cats="secondi"><a href="../ricette/tagliate/index.html"><strong>Tagliate</strong><span>Secondi</span></a></li><li data-cats="secondi"><a href="../ricette/tonno-alla-carlofortina/index.html"><strong>Tonno alla CarloFortina</strong><span>Italia – Sardegna – Carloforte · Secondi · Serena Sangiorgi</span></a></li><li data-cats="antipasti"><a href="../ricette/tortino-di-alici/index.html"><strong>Tortino di alici</strong><span>Antipasti</span></a></li></ul></section></div></main></div>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const wrap = document.querySelector('.index-filter');
+  if (!wrap) return;
+  const buttons = wrap.querySelectorAll('.filter-btn');
+  function apply(cat) {
+    document.querySelectorAll('[data-cats]').forEach(item => {
+      const cats = (item.getAttribute('data-cats') || '').split(' ').filter(Boolean);
+      const show = (cat === 'tutte') || cats.includes(cat);
+      item.style.display = show ? '' : 'none';
+    });
+    document.querySelectorAll('[data-filter-group]').forEach(group => {
+      const visible = Array.from(group.querySelectorAll('[data-cats]')).some(el => el.style.display !== 'none');
+      group.style.display = visible ? '' : 'none';
+    });
+    buttons.forEach(b => b.classList.toggle('is-active', b.dataset.cat === cat));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => apply(btn.dataset.cat)));
+  apply('tutte');
+});
+</script>
+
+</body>
+</html>
