@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<form method="post" class="panel new-form">
+  <div class="panel-header"><h2>Nuova ricetta</h2></div>
+  <div class="form-grid">
+    <label><span>Titolo</span><input type="text" name="title" required></label>
+    <label><span>Slug (facoltativo)</span><input type="text" name="slug"></label>
+    <label><span>Autore</span><input type="text" name="meta_autore" value="Pierre Piccotti"></label>
+    <label><span>Categoria</span><input type="text" name="meta_categoria"></label>
+    <label><span>Origine</span><input type="text" name="meta_origine"></label>
+    <label class="full"><span>Fonte</span><input type="text" name="meta_fonte"></label>
+  </div>
+  <div class="actions"><button class="save-btn" type="submit">Crea ricetta</button></div>
+</form>
+{% endblock %}

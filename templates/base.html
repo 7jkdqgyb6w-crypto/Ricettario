@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title or "Ricettario CMS" }}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='cms.css') }}">
+  <script defer src="{{ url_for('static', filename='cms.js') }}"></script>
+</head>
+<body>
+  <div class="cms-page">
+    <header class="cms-header">
+      <div>
+        <h1><a href="{{ url_for('home') }}">Ricettario Piccotti – CMS locale</a></h1>
+        <p>Editor visuale controllato per le ricette, coerente con la struttura del sito.</p>
+      </div>
+      <nav>
+        <a href="{{ url_for('home') }}">Elenco ricette</a>
+        <a href="{{ url_for('new_recipe') }}">Nuova ricetta</a>
+      </nav>
+    </header>
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        <div class="flash-wrap">
+          {% for message in messages %}
+            <div class="flash">{{ message }}</div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endwith %}
+    {% block content %}{% endblock %}
+  </div>
+</body>
+</html>

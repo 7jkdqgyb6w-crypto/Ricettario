@@ -1,0 +1,109 @@
+{% extends "base.html" %}
+{% block content %}
+<form method="post" action="{{ url_for('save_recipe', slug=recipe.slug) }}" class="editor-form">
+  <section class="panel">
+    <div class="panel-header">
+      <h2>{{ recipe.slug }}</h2>
+      <p>Modifica guidata della ricetta. Le sezioni visuali vengono salvate nel modello HTML stabile.</p>
+    </div>
+    <div class="form-grid">
+      <label><span>Titolo</span><input type="text" name="title" value="{{ recipe.title }}"></label>
+      <label><span>Autore</span><input type="text" name="meta_autore" value="{{ recipe.meta['Autore'] }}"></label>
+      <label><span>Categoria</span><input type="text" name="meta_categoria" value="{{ recipe.meta['Categoria'] }}"></label>
+      <label><span>Origine</span><input type="text" name="meta_origine" value="{{ recipe.meta['Origine'] }}"></label>
+      <label class="full"><span>Fonte</span><input type="text" name="meta_fonte" value="{{ recipe.meta['Fonte'] }}"></label>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-header"><h2>Introduzione e contesto</h2></div>
+    <div class="editor-shell" data-editor-shell>
+      <div class="toolbar">
+        <button type="button" data-cmd="bold"><b>B</b></button>
+        <button type="button" data-cmd="italic"><i>I</i></button>
+        <button type="button" data-cmd="insertUnorderedList">• Lista</button>
+        <button type="button" data-cmd="insertOrderedList">1. Lista</button>
+        <button type="button" data-cmd="formatBlock" data-value="p">P</button>
+      </div>
+      <div class="editor" contenteditable="true">{{ recipe.intro_html|safe }}</div>
+      <textarea hidden name="intro_html">{{ recipe.intro_html }}</textarea>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-header">
+      <h2>Ingredienti</h2>
+      <p>Tabella editabile. Le righe vengono ricostruite in HTML corretto al salvataggio.</p>
+    </div>
+
+    <div class="ingredient-editor">
+      <div class="ingredient-head">
+        <div>Ingrediente</div>
+        <div>Quantità</div>
+        <div>Unità</div>
+        <div>Note</div>
+        <div></div>
+      </div>
+
+      <div id="ingredient-rows">
+        {% for row in recipe.ingredient_rows %}
+        <div class="ingredient-row">
+          <input type="text" name="ingrediente[]" value="{{ row.ingrediente }}">
+          <input type="text" name="quantita[]" value="{{ row.quantita }}">
+          <input type="text" name="unita[]" value="{{ row.unita }}">
+          <input type="text" name="note[]" value="{{ row.note }}">
+          <button type="button" class="delete-row">✕</button>
+        </div>
+        {% endfor %}
+        {% if not recipe.ingredient_rows %}
+        <div class="ingredient-row">
+          <input type="text" name="ingrediente[]" value="">
+          <input type="text" name="quantita[]" value="">
+          <input type="text" name="unita[]" value="">
+          <input type="text" name="note[]" value="">
+          <button type="button" class="delete-row">✕</button>
+        </div>
+        {% endif %}
+      </div>
+
+      <div class="ingredient-actions">
+        <button type="button" id="add-ingredient-row">Aggiungi riga</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-header"><h2>Preparazione</h2></div>
+    <div class="editor-shell" data-editor-shell>
+      <div class="toolbar">
+        <button type="button" data-cmd="bold"><b>B</b></button>
+        <button type="button" data-cmd="italic"><i>I</i></button>
+        <button type="button" data-cmd="insertUnorderedList">• Lista</button>
+        <button type="button" data-cmd="insertOrderedList">1. Lista</button>
+        <button type="button" data-cmd="formatBlock" data-value="p">P</button>
+      </div>
+      <div class="editor large" contenteditable="true">{{ recipe.preparation_html|safe }}</div>
+      <textarea hidden name="preparation_html">{{ recipe.preparation_html }}</textarea>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-header"><h2>Note e osservazioni</h2></div>
+    <div class="editor-shell" data-editor-shell>
+      <div class="toolbar">
+        <button type="button" data-cmd="bold"><b>B</b></button>
+        <button type="button" data-cmd="italic"><i>I</i></button>
+        <button type="button" data-cmd="insertUnorderedList">• Lista</button>
+        <button type="button" data-cmd="insertOrderedList">1. Lista</button>
+        <button type="button" data-cmd="formatBlock" data-value="p">P</button>
+      </div>
+      <div class="editor" contenteditable="true">{{ recipe.notes_html|safe }}</div>
+      <textarea hidden name="notes_html">{{ recipe.notes_html }}</textarea>
+    </div>
+  </section>
+
+  <section class="panel sticky-save">
+    <button class="save-btn" type="submit">Salva ricetta</button>
+  </section>
+</form>
+{% endblock %}

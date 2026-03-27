@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="panel">
+  <div class="panel-header">
+    <h2>Ricette</h2>
+    <p>{{ recipes|length }} ricette trovate nella cartella <code>ricette</code>.</p>
+  </div>
+  <div class="recipe-list">
+    {% for recipe in recipes %}
+      <article class="recipe-row">
+        <div>
+          <h3><a href="{{ url_for('edit_recipe', slug=recipe.slug) }}">{{ recipe.title }}</a></h3>
+          <p class="slug">{{ recipe.slug }}</p>
+        </div>
+        <div class="meta">
+          <span>{{ recipe.category }}</span>
+          <span>{{ recipe.origin }}</span>
+          <span>{{ recipe.source }}</span>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}
