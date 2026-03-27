@@ -1,0 +1,269 @@
+:root {
+  --cms-bg: #eef2f6;
+  --cms-panel: #f7f9fb;
+  --cms-border: #cfd7e3;
+  --cms-text: #1d2733;
+  --cms-muted: #5c6b7a;
+  --cms-accent: #2c6fb7;
+  --cms-accent-soft: rgba(44, 111, 183, 0.14);
+}
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  background: var(--cms-bg);
+  color: var(--cms-text);
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
+}
+.cms-topbar {
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 14px;
+  border-bottom: 1px solid var(--cms-border);
+  background: white;
+}
+.cms-actions { display: flex; gap: 12px; align-items: center; }
+.cms-actions button {
+  padding: 8px 12px;
+  border: 1px solid var(--cms-border);
+  background: white;
+  cursor: pointer;
+}
+.cms-layout {
+  display: grid;
+  grid-template-columns: 280px minmax(0, 1fr) 340px;
+  height: calc(100vh - 52px);
+}
+.cms-sidebar-left,
+.cms-sidebar-right {
+  background: var(--cms-panel);
+  overflow: auto;
+  padding: 12px;
+}
+.cms-sidebar-left { border-right: 1px solid var(--cms-border); }
+.cms-sidebar-right { border-left: 1px solid var(--cms-border); }
+.cms-center-wrap {
+  min-width: 0;
+  overflow: hidden;
+}
+.cms-center-scroll {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 18px;
+  position: relative;
+  overscroll-behavior: contain;
+}
+.cms-panel-title {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  color: var(--cms-muted);
+  margin-bottom: 10px;
+}
+.cms-recipe-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.cms-recipe-item {
+  padding: 8px 10px;
+  background: white;
+  border: 1px solid var(--cms-border);
+  cursor: pointer;
+}
+.cms-recipe-item.active {
+  border-color: var(--cms-accent);
+  background: #edf4fb;
+}
+.cms-recipe-canvas {
+  background: white;
+  min-height: 100%;
+  padding: 18px 22px 40px;
+  border: 1px solid var(--cms-border);
+  position: relative;
+  overflow: visible;
+}
+.cms-recipe-canvas [contenteditable="true"]:focus {
+  outline: 2px solid var(--cms-accent-soft);
+}
+.cms-side-section + .cms-side-section {
+  margin-top: 18px;
+  padding-top: 18px;
+  border-top: 1px solid var(--cms-border);
+}
+.cms-upload-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 12px;
+  font-size: 13px;
+}
+.cms-upload-row input { max-width: 170px; }
+.cms-image-archive {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.cms-image-card {
+  border: 1px solid var(--cms-border);
+  background: white;
+  padding: 8px;
+  cursor: pointer;
+}
+.cms-image-card img {
+  display: block;
+  width: 100%;
+  height: 88px;
+  object-fit: cover;
+}
+.cms-image-name {
+  margin-top: 6px;
+  font-size: 12px;
+  color: var(--cms-muted);
+  word-break: break-word;
+}
+.cms-empty-state {
+  color: var(--cms-muted);
+  font-size: 13px;
+}
+.cms-figure-props.is-disabled {
+  opacity: .45;
+  pointer-events: none;
+}
+.cms-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 12px;
+  font-size: 13px;
+}
+.cms-field input,
+.cms-field textarea,
+.cms-field select {
+  font: inherit;
+  padding: 8px;
+  border: 1px solid var(--cms-border);
+  background: white;
+}
+.cms-field-inline {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 8px;
+}
+.cms-suffix {
+  color: var(--cms-muted);
+}
+.cms-button-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.cms-button-row button,
+.cms-mini-button {
+  font: inherit;
+  padding: 7px 10px;
+  border: 1px solid var(--cms-border);
+  background: white;
+  cursor: pointer;
+}
+.cms-ingredient-toolbar {
+  position: fixed;
+  z-index: 20;
+  display: none;
+  gap: 6px;
+  padding: 6px;
+  background: white;
+  border: 1px solid var(--cms-border);
+  box-shadow: 0 8px 24px rgba(0,0,0,.08);
+}
+.cms-ingredient-toolbar button {
+  font: inherit;
+  padding: 6px 8px;
+  border: 1px solid var(--cms-border);
+  background: white;
+  cursor: pointer;
+}
+figure.cms-selected {
+  outline: 2px solid var(--cms-accent);
+  outline-offset: 3px;
+}
+figure.recipe-figure,
+figure.cms-selected,
+.cms-recipe-canvas figure {
+  position: relative;
+  overflow: visible;
+}
+.cms-recipe-canvas figure[data-anchor="float"],
+.cms-recipe-canvas figure.recipe-figure[data-anchor="float"] {
+  float: right;
+  clear: right;
+  margin: .15rem 0 1rem 1rem;
+}
+.cms-recipe-canvas figure[data-anchor="block"],
+.cms-recipe-canvas figure.recipe-figure[data-anchor="block"] {
+  float: none;
+  display: block;
+  margin: 1rem auto;
+}
+.cms-recipe-canvas figure[data-role="cover"] {
+  float: none !important;
+  clear: both;
+  margin: 0 auto 1rem;
+}
+.cms-recipe-canvas figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.cms-recipe-canvas figure figcaption {
+  font-size: .92em;
+}
+.cms-figure-overlay {
+  position: fixed;
+  border: 2px solid var(--cms-accent);
+  pointer-events: none;
+  z-index: 30;
+}
+.cms-figure-overlay .cms-mini-button {
+  position: fixed;
+  top: -34px;
+  pointer-events: auto;
+}
+#overlayToggleAnchor { left: 0; }
+#overlayMoveUp { left: 110px; width: 34px; }
+#overlayMoveDown { left: 150px; width: 34px; }
+.cms-resize-handle {
+  width: 12px;
+  height: 12px;
+  background: var(--cms-accent);
+  border: 2px solid white;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: auto;
+}
+.cms-resize-handle-nw { left: -8px; top: -8px; cursor: nwse-resize; }
+.cms-resize-handle-ne { right: -8px; top: -8px; cursor: nesw-resize; }
+.cms-resize-handle-sw { left: -8px; bottom: -8px; cursor: nesw-resize; }
+.cms-resize-handle-se { right: -8px; bottom: -8px; cursor: nwse-resize; }
+@media (max-width: 1100px) {
+  .cms-layout {
+    grid-template-columns: 240px minmax(0,1fr) 300px;
+  }
+}
+@media (max-width: 900px) {
+  .cms-layout {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto minmax(280px, 36vh) 1fr auto;
+  }
+  .cms-sidebar-left,
+  .cms-sidebar-right {
+    border: 0;
+    border-bottom: 1px solid var(--cms-border);
+  }
+  .cms-center-wrap { min-height: 300px; }
+}

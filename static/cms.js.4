@@ -1,0 +1,230 @@
+const state = {
+  currentSlug: null,
+  activeEditor: null,
+}
+
+function toSiteAbsoluteUrl(src, slug) {
+  if (!src) return src
+  if (src.startsWith('/site/')) return src
+  if (src.startsWith('http://') || src.startsWith('https://') || src.startsWith('data:')) return src
+  const clean = src.split('?')[0].split('#')[0]
+  const filename = clean.split('/').pop()
+  return `/site/foto/${slug}/${filename}`
+}
+
+function normalizeEditorHtml(html, slug) {
+  const wrapper = document.createElement('div')
+  wrapper.innerHTML = html || ''
+  wrapper.querySelectorAll('img').forEach((img) => {
+    img.setAttribute('src', toSiteAbsoluteUrl(img.getAttribute('src'), slug))
+  })
+  return wrapper.innerHTML
+}
+
+function denormalizeEditorHtml(html, slug) {
+  const wrapper = document.createElement('div')
+  wrapper.innerHTML = html || ''
+  wrapper.querySelectorAll('img').forEach((img) => {
+    const src = img.getAttribute('src') || ''
+    if (src.includes(`/site/foto/${slug}/`)) {
+      const filename = src.split('/').pop()
+      img.setAttribute('src', `../../foto/${slug}/${filename}`)
+    }
+  })
+  return wrapper.innerHTML
+}
+
+const recipesList = document.getElementById('recipesList')
+const recipesCount = document.getElementById('recipesCount')
+const recipeForm = document.getElementById('recipeForm')
+const emptyState = document.getElementById('emptyState')
+const saveButton = document.getElementById('saveButton')
+const uploadButton = document.getElementById('uploadButton')
+const imageUpload = document.getElementById('imageUpload')
+const imagesPanel = document.getElementById('imagesPanel')
+const ingredientsBody = document.getElementById('ingredientsBody')
+const editors = {
+  introduzione: document.getElementById('editorIntroduzione'),
+  preparazione: document.getElementById('editorPreparazione'),
+  note: document.getElementById('editorNote'),
+}
+
+Object.values(editors).forEach((editor) => {
+  editor.addEventListener('focus', () => { state.activeEditor = editor })
+  editor.addEventListener('click', () => { state.activeEditor = editor })
+})
+state.activeEditor = editors.introduzione
+
+function escapeHtml(text) {
+  return String(text)
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+}
+
+async function fetchJSON(url, options = {}) {
+  const response = await fetch(url, options)
+  if (!response.ok) {
+    const data = await response.json().catch(() => ({}))
+    throw new Error(data.error || 'Errore richiesta')
+  }
+  return response.json()
+}
+
+async function loadRecipes() {
+  const recipes = await fetchJSON('/api/recipes')
+  recipesList.innerHTML = ''
+  recipesCount.textContent = recipes.length ? `${recipes.length} ricette` : '0 ricette'
+  recipes.forEach((recipe) => {
+    const button = document.createElement('button')
+    button.type = 'button'
+    button.className = 'recipe-item'
+    button.textContent = recipe.title
+    button.addEventListener('click', () => openRecipe(recipe.slug, button))
+    recipesList.appendChild(button)
+  })
+}
+
+function markActiveRecipeButton(activeButton) {
+  document.querySelectorAll('.recipe-item').forEach((node) => node.classList.remove('active'))
+  activeButton?.classList.add('active')
+}
+
+async function openRecipe(slug, activeButton) {
+  const recipe = await fetchJSON(`/api/recipe/${slug}`)
+  state.currentSlug = slug
+  emptyState.classList.add('hidden')
+  recipeForm.classList.remove('hidden')
+  saveButton.disabled = false
+  uploadButton.disabled = false
+
+  document.getElementById('titolo').value = recipe.titolo || ''
+  document.getElementById('autore').value = recipe.metadati.autore || ''
+  document.getElementById('categoria').value = recipe.metadati.categoria || ''
+  document.getElementById('origine').value = recipe.metadati.origine || ''
+  document.getElementById('fonte').value = recipe.metadati.fonte || ''
+
+  editors.introduzione.innerHTML = normalizeEditorHtml(recipe.introduzione || '', slug)
+  editors.preparazione.innerHTML = normalizeEditorHtml(recipe.preparazione || '', slug)
+  editors.note.innerHTML = normalizeEditorHtml(recipe.note || '', slug)
+
+  renderIngredients(recipe.ingredienti || [])
+  markActiveRecipeButton(activeButton)
+  await loadImages(slug)
+}
+
+function ingredientRowTemplate(row = {}) {
+  const tr = document.createElement('tr')
+  tr.innerHTML = `
+    <td><input class="ingredient-input" data-key="ingrediente" value="${escapeHtml(row.ingrediente || '')}"></td>
+    <td><input class="ingredient-input" data-key="quantita" value="${escapeHtml(row.quantita || '')}"></td>
+    <td><input class="ingredient-input" data-key="unita" value="${escapeHtml(row.unita || '')}"></td>
+    <td><input class="ingredient-input" data-key="note" value="${escapeHtml(row.note || '')}"></td>
+    <td><button type="button" class="row-remove">×</button></td>
+  `
+  tr.querySelector('.row-remove').addEventListener('click', () => tr.remove())
+  return tr
+}
+
+function renderIngredients(rows) {
+  ingredientsBody.innerHTML = ''
+  if (!rows.length) rows = [{}]
+  rows.forEach((row) => ingredientsBody.appendChild(ingredientRowTemplate(row)))
+}
+
+function collectIngredients() {
+  return [...ingredientsBody.querySelectorAll('tr')].map((row) => {
+    const item = {}
+    row.querySelectorAll('input').forEach((input) => {
+      item[input.dataset.key] = input.value.trim()
+    })
+    return item
+  }).filter((row) => Object.values(row).some(Boolean))
+}
+
+async function saveRecipe() {
+  if (!state.currentSlug) return
+  const payload = {
+    titolo: document.getElementById('titolo').value.trim(),
+    metadati: {
+      autore: document.getElementById('autore').value.trim(),
+      categoria: document.getElementById('categoria').value.trim(),
+      origine: document.getElementById('origine').value.trim(),
+      fonte: document.getElementById('fonte').value.trim(),
+    },
+    introduzione: denormalizeEditorHtml(editors.introduzione.innerHTML, state.currentSlug),
+    preparazione: denormalizeEditorHtml(editors.preparazione.innerHTML, state.currentSlug),
+    note: denormalizeEditorHtml(editors.note.innerHTML, state.currentSlug),
+    ingredienti: collectIngredients(),
+  }
+  saveButton.disabled = true
+  try {
+    await fetchJSON(`/api/recipe/${state.currentSlug}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+    })
+    alert('Ricetta salvata.')
+  } catch (error) {
+    alert(error.message)
+  } finally {
+    saveButton.disabled = false
+  }
+}
+
+async function loadImages(slug) {
+  const images = await fetchJSON(`/api/images?slug=${encodeURIComponent(slug)}`)
+  imagesPanel.innerHTML = ''
+  if (!images.length) {
+    imagesPanel.innerHTML = '<p class="cms-subtle">Nessuna immagine presente per questa ricetta.</p>'
+    return
+  }
+  images.forEach((image) => {
+    const card = document.createElement('button')
+    card.type = 'button'
+    card.className = 'image-card'
+    card.innerHTML = `
+      <img src="${image.url}" alt="${escapeHtml(image.filename)}">
+      <div>
+        <div class="filename">${image.filename}</div>
+        <div class="cms-image-help">Click per inserire nel punto del cursore</div>
+      </div>
+    `
+    card.addEventListener('click', () => insertImageAtCursor(image.url))
+    imagesPanel.appendChild(card)
+  })
+}
+
+function insertImageAtCursor(url) {
+  const editor = state.activeEditor || editors.introduzione
+  editor.focus()
+  const alt = prompt('Testo ALT immagine:', '') ?? ''
+  const caption = prompt('Didascalia immagine:', '') ?? ''
+  const html = `<figure class="step-photo step-photo-large"><img src="${url}" alt="${escapeHtml(alt)}">${caption ? `<figcaption>${escapeHtml(caption)}</figcaption>` : '<figcaption></figcaption>'}</figure>`
+  document.execCommand('insertHTML', false, html)
+}
+
+async function uploadImage() {
+  if (!state.currentSlug || !imageUpload.files[0]) return
+  const form = new FormData()
+  form.append('slug', state.currentSlug)
+  form.append('image', imageUpload.files[0])
+  uploadButton.disabled = true
+  try {
+    await fetchJSON('/api/upload-image', { method: 'POST', body: form })
+    imageUpload.value = ''
+    await loadImages(state.currentSlug)
+  } catch (error) {
+    alert(error.message)
+  } finally {
+    uploadButton.disabled = false
+  }
+}
+
+window.addEventListener('DOMContentLoaded', async () => {
+  await loadRecipes()
+  document.getElementById('addIngredientRow').addEventListener('click', () => ingredientsBody.appendChild(ingredientRowTemplate()))
+  saveButton.addEventListener('click', saveRecipe)
+  uploadButton.addEventListener('click', uploadImage)
+})
