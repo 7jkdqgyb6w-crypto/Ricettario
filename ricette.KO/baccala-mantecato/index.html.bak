@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Baccalà mantecato – Ricette (e altro) di Pierre</title>
+  <link rel="stylesheet" href="../../style.css">
+  <style id="recipe-layout-style">.recipe-page{
+  max-width: 100%;
+}
+.recipe-page > h1{
+  margin-bottom: 1.2rem;
+}
+.recipe-page .recipe-content{
+  width: 100%;
+  max-width: min(100%, var(--reading));
+}
+.recipe-page .meta-grid,
+.recipe-page .lead,
+.recipe-page .block,
+.recipe-page .notes,
+.recipe-page .rp-license-wrap{
+  max-width: min(100%, var(--reading));
+}
+.recipe-page .lead{
+  background: rgba(255,255,255,0.68);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+  padding: 1.1rem 1.25rem;
+}
+.recipe-page .lead h2:first-child,
+.recipe-page .notes h2:first-child,
+.recipe-page .block h2:first-child{
+  margin-top: 0;
+}
+.recipe-page .rp-license-wrap{
+  margin-top: 1.5rem;
+}
+.recipe-license{
+  opacity: 0.9;
+}
+.recipe-license img{
+  width: 100px;
+  max-width: 100px;
+  height: auto;
+  display: block;
+}
+@media (max-width: 760px){
+  .recipe-page .lead{
+    padding: 1rem 1rem;
+  }
+}</style>
+  <style id="recipe-lightbox-style">.recipe-lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.88);display:flex;align-items:center;justify-content:center;padding:2rem;z-index:9999;cursor:zoom-out;}
+.recipe-lightbox-overlay.is-hidden{display:none !important;}
+.recipe-lightbox-frame{max-width:96vw;max-height:96vh;display:flex;flex-direction:column;gap:.75rem;align-items:center;}
+.recipe-lightbox-frame img{display:block;max-width:96vw;max-height:88vh;width:auto;height:auto;box-shadow:0 8px 32px rgba(0,0,0,.45);background:#fff;}
+.recipe-lightbox-caption{color:#fff;text-align:center;max-width:min(96vw,70rem);font-size:.95rem;line-height:1.35;}
+main figure:not(.recipe-license) img{cursor:zoom-in;}</style>
+</head>
+<body>
+<div class="page">
+<header class="site-header">
+  <a class="brand" href="../../index.html">Ricette (e altro) di Pierre</a>
+  <nav>
+    <a href="../../indici/ricette.html">Ricette</a>
+    <a href="../../indici/ingredienti.html">Ingredienti</a>
+    <a href="../../indici/fonti.html">Fonti</a>
+    <a href="../../indici/geografia.html">Geografia</a>
+  </nav>
+</header>
+
+<main class="recipe-page">
+<main class="recipe-page">
+
+
+<h1>Baccalà mantecato</h1><div class="recipe-content"><section class="lead"><h2>Introduzione e contesto</h2><p></p></section><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Antipasti</span></div><div class="meta-card"><strong>Geografia</strong><span>Italia- Veneto - Venezia</span></div><div class="meta-card"><strong>Fonte</strong><span></span></div></section><section class="block"><h2>Ingredienti</h2><table class="recipe-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Stoccafisso Ragno</td><td></td><td></td><td></td></tr><tr><td>Olio extra vergine di oliva </td><td></td><td></td><td></td></tr><tr><td>Latte</td><td></td><td></td><td></td></tr><tr><td>Bianco d'uvo</td><td></td><td></td><td>Se necessario</td></tr><tr><td>Pepe</td><td></td><td></td><td></td></tr><tr><td>Sale</td><td></td><td></td><td></td></tr></tbody></table></section><section class="block preparation-block"><h2>Preparazione</h2><ol class="steps"><li><p>Mettere a mollo il baccalà per circa 48 ore con un filo di acqua corrente.</p></li><li><p>Dividerlo in pezzetti, compresi la pelle ed il tratto di membrana intestinale interna (serviranno da emulsionante), e lessarlo per due o tre minuti in acqua e sale. Porre i pezzetti in una zangola (l'aggeggio che serve per trasformare la panna in burro) aggiungendo, un po' alla volta, un quarto del loro peso di olio d'oliva o, secondo il gusto, di semi d'arachide (mah!).</p></li><li><p>Manovrare la zangola sino a quando tutto sia ridotto ad una specie di crema delicata che sistemerete di sale e di pepe ed aromatizzerete appena con un trito d'aglio. Le dosi dell'olio possono anche aumentare. Non avendo la zangola, usate un robusto macinatutto con le lamine da sbattitore non affilate.</p></li><li><p>Frullare sino ad ottenere la crema, che tratterete poi come sopra. Taluno aggiunge alla procedura un po' di brodo di cottura e/o un poco di latte caldo. Un trucco di Lisbeth per rendere più densa la crema (derivate da un piatto simile francese) è aggiungere un poco di bianco d'uovo nel frullatore.</p></li><li><p>Servire con pane bianco veneziano.</p></li><li><p>Accompagnare con Prosecco DOCG</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><p></p></section><div class="rp-license-wrap"><div class="recipe-license"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></div></div></div></main>
+</main>
+</div>
+<script id="recipe-lightbox-script">(function(){
+  function ensureLightbox(){
+    let overlay = document.getElementById('recipeLightbox');
+    if(overlay) return overlay;
+    overlay = document.createElement('div');
+    overlay.id = 'recipeLightbox';
+    overlay.className = 'recipe-lightbox-overlay is-hidden';
+    overlay.innerHTML = '<div class="recipe-lightbox-frame"><img alt=""><div class="recipe-lightbox-caption"></div></div>';
+    document.body.appendChild(overlay);
+    overlay.addEventListener('click', function(){ overlay.classList.add('is-hidden'); });
+    document.addEventListener('keydown', function(ev){ if(ev.key === 'Escape') overlay.classList.add('is-hidden'); });
+    return overlay;
+  }
+  document.addEventListener('DOMContentLoaded', function(){
+    const overlay = ensureLightbox();
+    const outImg = overlay.querySelector('img');
+    const caption = overlay.querySelector('.recipe-lightbox-caption');
+    document.querySelectorAll('main img').forEach(function(img){
+      if(img.closest('.recipe-license')) return;
+      img.addEventListener('click', function(ev){
+        ev.preventDefault();
+        ev.stopPropagation();
+        outImg.src = img.currentSrc || img.src;
+        outImg.alt = img.alt || '';
+        const fig = img.closest('figure');
+        const cap = fig ? fig.querySelector('figcaption') : null;
+        caption.textContent = (cap && cap.textContent.trim()) || img.alt || '';
+        overlay.classList.remove('is-hidden');
+      });
+    });
+  });
+})();</script>
+</body>
+</html>

@@ -752,3 +752,46 @@ main.recipe-page > main[style],
 main.recipe-page .recipe-content[style]{
   max-width: none;
 }
+
+
+/* --- FIX QR / CC footer layout --- */
+.page .rp-license-wrap{
+  display:flex !important;
+  justify-content:space-between !important;
+  align-items:flex-start !important;
+  gap:12px !important;
+  width:100% !important;
+  max-width:min(100%, var(--reading)) !important;
+  margin-top:1.5rem !important;
+}
+
+.page .recipe-license,
+.page .recipe-qrcode{
+  flex:0 0 auto !important;
+}
+
+.page .recipe-license{
+  margin-right:auto !important;
+}
+
+.page .recipe-license img{
+  display:block !important;
+  width:100px !important;
+  max-width:100px !important;
+  height:auto !important;
+}
+
+.page .recipe-qrcode,
+.page .recipe-qrcode a{
+  display:block !important;
+  float:none !important;
+  clear:none !important;
+  margin:0 0 0 auto !important;
+}
+
+.page .recipe-qrcode img{
+  display:block !important;
+  width:60px !important;
+  max-width:60px !important;
+  height:60px !important;
+}
