@@ -8,73 +8,20 @@
   <style id="recipe-layout-style">.recipe-page{
   max-width: 100%;
 }
+.recipe-page > h1{
+  margin-bottom: 1.2rem;
+}
 .recipe-page .recipe-content{
   width: 100%;
   max-width: min(100%, var(--reading));
-}
-
-.recipe-page .recipe-content > h1{
-  margin: 0 0 1.2rem 0;
-}
-.recipe-page .rp-license-wrap{
-  margin-top: 1.5rem;
-  display:flex;
-  align-items:flex-start;
-  justify-content:space-between;
-  gap:1rem;
-}
-.recipe-page .lead a,
-.recipe-page .block a,
-.recipe-page .notes a{
-  color:#5f86ad;
-  font-weight:600;
-}
-.recipe-license{
-  opacity: 0.9;
-  flex:0 0 auto;
-}
-.recipe-license a{
-  display:block;
-}
-.recipe-license img{
-  height: 24px;
-  width: auto;
-  max-width: none;
-  display: block;
-}
-.recipe-qrcode{
-  flex:0 0 auto;
-  margin-left:auto;
-}
-.recipe-qrcode a{
-  display:block;
-}
-.recipe-qrcode img{
-  width:84px;
-  max-width:84px;
-  height:84px;
-  display:block;
-  cursor:zoom-in;
 }
 .recipe-page .meta-grid,
 .recipe-page .lead,
 .recipe-page .block,
 .recipe-page .notes,
 .recipe-page .rp-license-wrap{
-  width: 100%;
   max-width: min(100%, var(--reading));
 }
-@media (max-width: 760px){
-  .recipe-page .rp-license-wrap{
-    align-items:flex-start;
-  }
-  .recipe-qrcode img{
-    width:72px;
-    max-width:72px;
-    height:72px;
-  }
-}
-
 .recipe-page .lead{
   background: rgba(255,255,255,0.68);
   border: 1px solid var(--line);
@@ -86,19 +33,20 @@
 .recipe-page .block h2:first-child{
   margin-top: 0;
 }
-@media (max-width: 760px){
-  @media (max-width: 760px){
-  .recipe-page .rp-license-wrap{
-    align-items:flex-start;
-  }
-  .recipe-qrcode img{
-    width:72px;
-    max-width:72px;
-    height:72px;
-  }
+.recipe-page .rp-license-wrap{
+  margin-top: 1.5rem;
 }
-
-.recipe-page .lead{
+.recipe-license{
+  opacity: 0.9;
+}
+.recipe-license img{
+  width: 100px;
+  max-width: 100px;
+  height: auto;
+  display: block;
+}
+@media (max-width: 760px){
+  .recipe-page .lead{
     padding: 1rem 1rem;
   }
 }</style>
@@ -121,7 +69,12 @@ main figure:not(.recipe-license) img{cursor:zoom-in;}</style>
   </nav>
 </header>
 
-<main><div class="recipe-content"><h1>Pappa con il pomodoro</h1><section class="lead"><h2>Introduzione e contesto</h2><p></p></section><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Primi</span></div><div class="meta-card"><strong>Geografia</strong><span>Italia Toscana</span></div><div class="meta-card"><strong>Fonte</strong><span>Web</span></div></section><section class="block"><h2>Ingredienti</h2><table class="recipe-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Basilico</td><td></td><td></td><td></td></tr><tr><td>Carota</td><td></td><td></td><td></td></tr><tr><td>D'aglio</td><td></td><td></td><td></td></tr><tr><td>Giorno</td><td></td><td></td><td></td></tr><tr><td>Maturo</td><td></td><td></td><td></td></tr><tr><td>Porro</td><td></td><td></td><td></td></tr><tr><td>Sedano</td><td></td><td></td><td></td></tr><tr><td>Toscano</td><td></td><td></td><td></td></tr><tr><td>Pappa</td><td></td><td></td><td></td></tr></tbody></table></section><section class="preparation-block block"><h2>Preparazione</h2><ol class="steps"><li><p>Fate un battuto fine con il porro, uno spicchio d'aglio, la carota, il sedano e mettetelo a soffriggere con meta' dell'olio in un tegame di alluminio a bordi alti, rimestando spesso fino a che non abbia un bel colore bruno dorato uniforme.Uunitevi abbondanti foglie di basilico spezzettate e subito dopo i pomodori, salate (chi lo gradisce puo' aggiungere anche un po' di peperoncino macinato) e fate cuocere per circa 20 minuti.Nel frattempo avrete affettato il pane e l'avrete messo a bagno in due bicchieri di acqua fresca.</p></li><li><p>Quando sara' ben ammollato, tiratelo su con un colino da brodo, strizzatelo il piu' possibile, unitelo alla salsa in cottura e amalgamate bene usando una frusta, insaporite con sale e pepe e l'aglio e il basilico rimasti, tritati finemente e aggiungete circa tre quarti di litro di acqua calda [e, volendo, anche un dado da brodo].</p></li><li><p>Proseguite la cottura per altri cinque o sei minuti quindi ritirate la casseruola dal fuoco e lasciate riposare la pappa per una ventina di minuti. Al momento di servirla sbattetela un po' con una frusta in modo da disfare il pane. Tipico piatto povero della cucina tradizionale toscana, la pappa con il pomodoro era ritenuta una volta un vero toccasana per grandi e piccoli.</p></li><li><p>In altri tempi, quando le infezioni intestinali erano molto diffuse specialmente fra i piccolissimi, l'aglio era ritenuto un vermifugo più potente di qualunque farmaco e le mamme, per convincere i bambini a mangiarne in abbondanza, dicevano che "la pappa al pomodoro fa diventare belli". Le versioni di questo piatto sono numerosissime ma la caratteristica di tutte è comunque la presenza abbondante dell'aglio, del pomodoro fresco e del basilico.Condire con olio al momento di servire.</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><ul class="clean"><li>Sono indicati tempi di riposo: rispettarli aiuta struttura e sapore del piatto.</li></ul></section><div class="rp-license-wrap"><div class="recipe-license"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><div class="recipe-qrcode"><a class="recipe-qrcode-link" href="../../foto/pappa-con-il-pomodoro/qr-code.png"><img alt="QR ricetta" src="../../foto/pappa-con-il-pomodoro/qr-code.png"/></a></div></div></div></main>
+<main class="recipe-page">
+<main class="recipe-page">
+
+
+<h1>Pappa con il pomodoro</h1><div class="recipe-content"><section class="lead"><h2>Introduzione e contesto</h2><figure class="step-photo-large step-photo" style="width: 63.6%; max-width: 63.6%; margin-left: auto; margin-right: auto;"><img alt="" src="../../foto/pappa-con-il-pomodoro/01.jpg"/><figcaption></figcaption></figure><p></p></section><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Primi</span></div><div class="meta-card"><strong>Geografia</strong><span>Italia - Toscana</span></div><div class="meta-card"><strong>Fonte</strong><span>Web</span></div></section><section class="block"><h2>Ingredienti</h2><table class="recipe-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Basilico</td><td></td><td></td><td></td></tr><tr><td>Carota</td><td></td><td></td><td></td></tr><tr><td>Aglio</td><td></td><td></td><td></td></tr><tr><td>Pomodori</td><td></td><td></td><td></td></tr><tr><td><br/></td><td></td><td></td><td></td></tr><tr><td>Porro</td><td></td><td></td><td></td></tr><tr><td>Sedano</td><td></td><td></td><td></td></tr><tr><td><br/></td><td></td><td></td><td></td></tr><tr><td>Pane toscano</td><td></td><td></td><td>stantio</td></tr></tbody></table></section><section class="block preparation-block"><h2>Preparazione</h2><ol class="steps"><li><p>Fate un battuto fine con il porro, uno spicchio d'aglio, la carota, il sedano e mettetelo a soffriggere con meta' dell'olio in un tegame di alluminio a bordi alti, rimestando spesso fino a che non abbia un bel colore bruno dorato uniforme.Uunitevi abbondanti foglie di basilico spezzettate e subito dopo i pomodori, salate (chi lo gradisce puo' aggiungere anche un po' di peperoncino macinato) e fate cuocere per circa 20 minuti.Nel frattempo avrete affettato il pane e l'avrete messo a bagno in due bicchieri di acqua fresca.</p></li><li><p>Quando sara' ben ammollato, tiratelo su con un colino da brodo, strizzatelo il piu' possibile, unitelo alla salsa in cottura e amalgamate bene usando una frusta, insaporite con sale e pepe e l'aglio e il basilico rimasti, tritati finemente e aggiungete circa tre quarti di litro di acqua calda [e, volendo, anche un dado da brodo].</p></li><li><p>Proseguite la cottura per altri cinque o sei minuti quindi ritirate la casseruola dal fuoco e lasciate riposare la pappa per una ventina di minuti. Al momento di servirla sbattetela un po' con una frusta in modo da disfare il pane. Tipico piatto povero della cucina tradizionale toscana, la pappa con il pomodoro era ritenuta una volta un vero toccasana per grandi e piccoli.</p></li><li><p>In altri tempi, quando le infezioni intestinali erano molto diffuse specialmente fra i piccolissimi, l'aglio era ritenuto un vermifugo più potente di qualunque farmaco e le mamme, per convincere i bambini a mangiarne in abbondanza, dicevano che "la pappa al pomodoro fa diventare belli". Le versioni di questo piatto sono numerosissime ma la caratteristica di tutte è comunque la presenza abbondante dell'aglio, del pomodoro fresco e del basilico.Condire con olio al momento di servire.</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><ul class="clean"><li>Sono indicati tempi di riposo: rispettarli aiuta struttura e sapore del piatto.</li></ul></section><div class="rp-license-wrap"><div class="recipe-license"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><div class="recipe-qrcode"><a class="recipe-qrcode-link" href="../../foto/pappa-con-il-pomodoro/qr-code.png"><img alt="QR ricetta" src="../../foto/pappa-con-il-pomodoro/qr-code.png"/></a></div></div></div></main>
+</main>
 </div>
 <script id="recipe-lightbox-script">(function(){
   function ensureLightbox(){

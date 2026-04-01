@@ -8,73 +8,20 @@
   <style id="recipe-layout-style">.recipe-page{
   max-width: 100%;
 }
+.recipe-page > h1{
+  margin-bottom: 1.2rem;
+}
 .recipe-page .recipe-content{
   width: 100%;
   max-width: min(100%, var(--reading));
-}
-
-.recipe-page .recipe-content > h1{
-  margin: 0 0 1.2rem 0;
-}
-.recipe-page .rp-license-wrap{
-  margin-top: 1.5rem;
-  display:flex;
-  align-items:flex-start;
-  justify-content:space-between;
-  gap:1rem;
-}
-.recipe-page .lead a,
-.recipe-page .block a,
-.recipe-page .notes a{
-  color:#5f86ad;
-  font-weight:600;
-}
-.recipe-license{
-  opacity: 0.9;
-  flex:0 0 auto;
-}
-.recipe-license a{
-  display:block;
-}
-.recipe-license img{
-  height: 24px;
-  width: auto;
-  max-width: none;
-  display: block;
-}
-.recipe-qrcode{
-  flex:0 0 auto;
-  margin-left:auto;
-}
-.recipe-qrcode a{
-  display:block;
-}
-.recipe-qrcode img{
-  width:84px;
-  max-width:84px;
-  height:84px;
-  display:block;
-  cursor:zoom-in;
 }
 .recipe-page .meta-grid,
 .recipe-page .lead,
 .recipe-page .block,
 .recipe-page .notes,
 .recipe-page .rp-license-wrap{
-  width: 100%;
   max-width: min(100%, var(--reading));
 }
-@media (max-width: 760px){
-  .recipe-page .rp-license-wrap{
-    align-items:flex-start;
-  }
-  .recipe-qrcode img{
-    width:72px;
-    max-width:72px;
-    height:72px;
-  }
-}
-
 .recipe-page .lead{
   background: rgba(255,255,255,0.68);
   border: 1px solid var(--line);
@@ -86,19 +33,20 @@
 .recipe-page .block h2:first-child{
   margin-top: 0;
 }
-@media (max-width: 760px){
-  @media (max-width: 760px){
-  .recipe-page .rp-license-wrap{
-    align-items:flex-start;
-  }
-  .recipe-qrcode img{
-    width:72px;
-    max-width:72px;
-    height:72px;
-  }
+.recipe-page .rp-license-wrap{
+  margin-top: 1.5rem;
 }
-
-.recipe-page .lead{
+.recipe-license{
+  opacity: 0.9;
+}
+.recipe-license img{
+  width: 100px;
+  max-width: 100px;
+  height: auto;
+  display: block;
+}
+@media (max-width: 760px){
+  .recipe-page .lead{
     padding: 1rem 1rem;
   }
 }</style>
@@ -122,15 +70,17 @@ main figure:not(.recipe-license) img{cursor:zoom-in;}</style>
 </header>
 
 <main class="recipe-page">
+<main class="recipe-page">
 
 
-<div class="recipe-content"><h1>Daube</h1><section class="lead"><h2>Introduzione e contesto</h2><figure class="step-photo step-photo-large" style="width: 65.3%; max-width: 65.3%; margin-left: auto; margin-right: auto;"><img alt="" src="../../foto/daube/daube.jpg"/><figcaption></figcaption></figure><figure class="step-photo step-photo-large" style="width: 61.2%; max-width: 61.2%; margin-left: auto; margin-right: auto;"><img alt="" src="../../foto/daube/01.jpg"/><figcaption></figcaption></figure><p></p></section><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Secondi</span></div><div class="meta-card"><strong>Geografia</strong><span>Francia - Provenza</span></div><div class="meta-card"><strong>Fonte</strong><span>Jacqueline Gibert</span></div></section><section class="block"><h2>Ingredienti</h2><table class="recipe-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Manzo</td><td> 700</td><td>g</td><td>culatta</td></tr><tr><td>Concentrato di pomodoro</td><td></td><td></td><td></td></tr><tr><td>Lardo</td><td>100</td><td>g</td><td></td></tr><tr><td>Prezzemolo tritato</td><td>1</td><td>cucchiaio</td><td></td></tr><tr><td>Aglio</td><td>1</td><td>spicchio</td><td></td></tr><tr><td>Cipolle</td><td>2</td><td>n</td><td></td></tr><tr><td>Carote</td><td>2</td><td>n</td><td></td></tr><tr><td>Vino rosso</td><td>2</td><td>bicchieri</td><td>o più</td></tr><tr><td>Sale</td><td><span style="text-align: start; text-wrap-mode: wrap;">½</span></td><td>cucchiaino da caffè</td><td></td></tr><tr><td>Pepe tritato</td><td>2</td><td>prese</td><td></td></tr><tr><td>Bouquet garni</td><td>1</td><td></td><td></td></tr></tbody></table></section><section class="preparation-block block"><h2>Preparazione</h2><ol class="steps"><li><p>Tagliare la carne in cubi di ca. 4 cm., lardellare con il lardo intriso di prezzemolo e aglio; mettere la carne in un tegame (ghisa o coccio) non troppo grande, sul fondo del quale ci saranno alcune cotenne di maiale, aggiungere le cipolle e le carote tagliate in quattro, il bouquet, sale, pepe, e coprire con il vino rosso.Cucinare dolcemente. La salsa si lega con alcuni cucchiai di concentrato di pomodoro. Sgrassare * dopo aver impessito la salsa, eventualmente con un poco di "roux brun", o (sic!) un poco di fecola sciolta nell'acqua fredda.Accompagnare con puree, riso o patate lesse.</p></li><li><p>Io taglio la carne in pezzi grandi, circa 4 cm.<br data-end="1378" data-start="1375"/>
+<h1>Daube</h1><div class="recipe-content"><section class="lead"><h2>Introduzione e contesto</h2><figure class="step-photo-large step-photo" style="width: 65.3%; max-width: 65.3%; margin-left: auto; margin-right: auto;"><img alt="" src="../../foto/daube/daube.jpg"/><figcaption></figcaption></figure><figure class="step-photo-large step-photo" style="width: 61.2%; max-width: 61.2%; margin-left: auto; margin-right: auto;"><img alt="" src="../../foto/daube/01.jpg"/><figcaption></figcaption></figure><p></p></section><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Secondi</span></div><div class="meta-card"><strong>Geografia</strong><span>Francia - Provenza</span></div><div class="meta-card"><strong>Fonte</strong><span>Jacqueline Gibert</span></div></section><section class="block"><h2>Ingredienti</h2><table class="recipe-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Manzo</td><td> 700</td><td>g</td><td>culatta</td></tr><tr><td>Concentrato di pomodoro</td><td></td><td></td><td></td></tr><tr><td>Lardo</td><td>100</td><td>g</td><td></td></tr><tr><td>Prezzemolo tritato</td><td>1</td><td>cucchiaio</td><td></td></tr><tr><td>Aglio</td><td>1</td><td>spicchio</td><td></td></tr><tr><td>Cipolle</td><td>2</td><td>n</td><td></td></tr><tr><td>Carote</td><td>2</td><td>n</td><td></td></tr><tr><td>Vino rosso</td><td>2</td><td>bicchieri</td><td>o più</td></tr><tr><td>Sale</td><td><span style="text-align: start; text-wrap-mode: wrap;">½</span></td><td>cucchiaino da caffè</td><td></td></tr><tr><td>Pepe tritato</td><td>2</td><td>prese</td><td></td></tr><tr><td>Bouquet garni</td><td>1</td><td></td><td></td></tr></tbody></table></section><section class="block preparation-block"><h2>Preparazione</h2><ol class="steps"><li><p>Tagliare la carne in cubi di ca. 4 cm., lardellare con il lardo intriso di prezzemolo e aglio; mettere la carne in un tegame (ghisa o coccio) non troppo grande, sul fondo del quale ci saranno alcune cotenne di maiale, aggiungere le cipolle e le carote tagliate in quattro, il bouquet, sale, pepe, e coprire con il vino rosso.Cucinare dolcemente. La salsa si lega con alcuni cucchiai di concentrato di pomodoro. Sgrassare * dopo aver impessito la salsa, eventualmente con un poco di "roux brun", o (sic!) un poco di fecola sciolta nell'acqua fredda.Accompagnare con puree, riso o patate lesse.</p></li><li><p>Io taglio la carne in pezzi grandi, circa 4 cm.<br data-end="1378" data-start="1375"/>
 Non più piccoli: devono reggere la lunga cottura senza disfarsi.</p></li><li><p>Preparo il lardo tritato con aglio e prezzemolo e lardello la carne.<br data-end="1521" data-start="1518"/>
 Questo passaggio è importante: dà profondità e protegge la carne durante la cottura.</p></li><li><p>Sul fondo di una casseruola pesante (ghisa o coccio) metto alcune cotenne di maiale.<br data-end="1700" data-start="1697"/>
 Non è un dettaglio: servono a dare struttura alla salsa e a evitare che la carne attacchi.</p></li><li><p>Aggiungo la carne, poi cipolle e carote tagliate grossolanamente, il bouquet garni, sale e pepe.</p></li><li><p>Copro completamente con vino rosso.<br data-end="1937" data-start="1934"/>
 La carne deve essere immersa.</p></li><li><p>Porto lentamente a temperatura e poi lascio cuocere a fuoco bassissimo, senza fretta.<br data-end="2062" data-start="2059"/>
 Deve appena fremere, mai bollire forte.</p></li><li><p>A metà cottura aggiungo poco concentrato di pomodoro.<br data-end="2165" data-start="2162"/>Non per “fare il sugo”, ma per dare un minimo di struttura..</p></li><li><p>La cottura è lunga.<br data-end="2254" data-start="2251"/>Quando la carne è tenera, tolgo il grasso in superficie.</p></li><li><p>Se serve, posso ridure la salsa un poco a fuoco dolce.</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><ul class="clean"><li>Indicazione di tempo presente nel testo: 4 ore</li></ul><p>Nelle cotture lunghe al vino può capitare che il colore si attenui molto e che il gusto perda brillantezza prima che la carne sia pronta.</p><p>Non è un errore: il calore prolungato modifica i pigmenti del vino e ne disperde progressivamente gli aromi. Inoltre il liquido si diluisce con i succhi della carne e delle verdure</p><p>Per evitare un risultato piatto, conviene lavorare con una cottura molto dolce, senza bollori, e non eccedere con il liquido iniziale.</p><p>Se necessario, si può correggere alla fine con una piccola aggiunta di vino, lasciata integrare senza prolungare troppo la cottura, così da restituire freschezza e profondità al piatto.</p><blockquote data-end="908" data-start="242">
 </blockquote></section><div class="rp-license-wrap"><div class="recipe-license"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><div class="recipe-qrcode"><a class="recipe-qrcode-link" href="../../foto/daube/qr-code.png"><img alt="QR ricetta" src="../../foto/daube/qr-code.png"/></a></div></div></div></main>
+</main>
 </div>
 <script id="recipe-lightbox-script">(function(){
   function ensureLightbox(){

@@ -37,24 +37,31 @@
   display:block;
 }
 .recipe-license img{
-  height: 24px;
-  width: auto;
-  max-width: none;
+  width: 70px;
+  max-width: 70px;
+  height: auto;
   display: block;
 }
 .recipe-qrcode{
   flex:0 0 auto;
   margin-left:auto;
 }
+.recipe-qrcode,
 .recipe-qrcode a{
-  display:block;
+  display:block !important;
+  float:none !important;
+  clear:none !important;
+  margin:0 !important;
 }
 .recipe-qrcode img{
-  width:84px;
-  max-width:84px;
-  height:84px;
-  display:block;
+  display:block !important;
+  width:60px !important;
+  max-width:60px !important;
+  height:60px !important;
   cursor:zoom-in;
+}
+.recipe-qrcode figcaption{
+  display:none !important;
 }
 .recipe-page .meta-grid,
 .recipe-page .lead,
@@ -64,17 +71,6 @@
   width: 100%;
   max-width: min(100%, var(--reading));
 }
-@media (max-width: 760px){
-  .recipe-page .rp-license-wrap{
-    align-items:flex-start;
-  }
-  .recipe-qrcode img{
-    width:72px;
-    max-width:72px;
-    height:72px;
-  }
-}
-
 .recipe-page .lead{
   background: rgba(255,255,255,0.68);
   border: 1px solid var(--line);
@@ -87,18 +83,7 @@
   margin-top: 0;
 }
 @media (max-width: 760px){
-  @media (max-width: 760px){
-  .recipe-page .rp-license-wrap{
-    align-items:flex-start;
-  }
-  .recipe-qrcode img{
-    width:72px;
-    max-width:72px;
-    height:72px;
-  }
-}
-
-.recipe-page .lead{
+  .recipe-page .lead{
     padding: 1rem 1rem;
   }
 }</style>
@@ -121,7 +106,7 @@ main figure:not(.recipe-license) img{cursor:zoom-in;}</style>
   </nav>
 </header>
 
-<main><div class="recipe-content"><h1>Tonno alla CarloFortina</h1><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span></span></div><div class="meta-card"><strong>Categoria</strong><span></span></div><div class="meta-card"><strong>Geografia</strong><span></span></div><div class="meta-card"><strong>Fonte</strong><span></span></div></section><section class="lead"><h2>Introduzione e contesto</h2><p>Il cuoco Andrea dell'Osteria della Tonnara di Carloforte (Sardegna) lo fa cosi': tranci di tonno (quello scuro scuro che sembra una bistecca di manzo) alti tre dita, tagliati in 4, rosolati in olio in un tegame di coccio; sfumata di vino bianco fermo secco; cottura a fuoco molto basso, con abbondante passata di pomodoro e foglie di alloro (intero, non macinato).</p></section><section class="block"><h2>Ingredienti</h2><table class="recipe-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Tonno</td><td></td><td></td><td></td></tr></tbody></table></section><section class="preparation-block block"><h2>Preparazione</h2><ol class="steps"><li><p>La cottura deve essere nel coccio per almeno 2 ore (ma di più a seconda delle quantità).Detta cosi', 'na sciocchezza, che cce vo'??? behm, ce vo', garantito: provate da soli, e poi andateci, e mi sapete dire.;))) buon appetito! Serena.</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><p></p></section><div class="rp-license-wrap"><div class="recipe-license"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><div class="recipe-qrcode"><a class="recipe-qrcode-link" href="../../foto/tonno-alla-carlofortina/qr-code.png"><img alt="QR ricetta" src="../../foto/tonno-alla-carlofortina/qr-code.png"/></a></div></div></div></main>
+<main><div class="recipe-content"><h1>Tonno alla CarloFortina</h1><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span></span></div><div class="meta-card"><strong>Geografia</strong><span></span></div><div class="meta-card"><strong>Fonte</strong><span></span></div></section><section class="lead"><h2>Introduzione e contesto</h2><p>Il cuoco Andrea dell'Osteria della Tonnara di Carloforte (Sardegna) lo fa cosi': tranci di tonno (quello scuro scuro che sembra una bistecca di manzo) alti tre dita, tagliati in 4, rosolati in olio in un tegame di coccio; sfumata di vino bianco fermo secco; cottura a fuoco molto basso, con abbondante passata di pomodoro e foglie di alloro (intero, non macinato).</p></section><section class="block"><h2>Ingredienti</h2><table class="recipe-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Tonno</td><td></td><td></td><td></td></tr></tbody></table></section><section class="block preparation-block"><h2>Preparazione</h2><ol class="steps"><li><p>La cottura deve essere nel coccio per almeno 2 ore (ma di più a seconda delle quantità).Detta cosi', 'na sciocchezza, che cce vo'??? behm, ce vo', garantito: provate da soli, e poi andateci, e mi sapete dire.;))) buon appetito! Serena.</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><p></p></section><div class="rp-license-wrap"><div class="recipe-license"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><div class="recipe-qrcode"><a class="recipe-qrcode-link" href="../../foto/tonno-alla-carlofortina/qr-code.png"><img alt="QR ricetta" src="../../foto/tonno-alla-carlofortina/qr-code.png"/></a></div></div></div></main>
 </div>
 <script id="recipe-lightbox-script">(function(){
   function ensureLightbox(){

@@ -8,73 +8,20 @@
   <style id="recipe-layout-style">.recipe-page{
   max-width: 100%;
 }
+.recipe-page > h1{
+  margin-bottom: 1.2rem;
+}
 .recipe-page .recipe-content{
   width: 100%;
   max-width: min(100%, var(--reading));
-}
-
-.recipe-page .recipe-content > h1{
-  margin: 0 0 1.2rem 0;
-}
-.recipe-page .rp-license-wrap{
-  margin-top: 1.5rem;
-  display:flex;
-  align-items:flex-start;
-  justify-content:space-between;
-  gap:1rem;
-}
-.recipe-page .lead a,
-.recipe-page .block a,
-.recipe-page .notes a{
-  color:#5f86ad;
-  font-weight:600;
-}
-.recipe-license{
-  opacity: 0.9;
-  flex:0 0 auto;
-}
-.recipe-license a{
-  display:block;
-}
-.recipe-license img{
-  height: 24px;
-  width: auto;
-  max-width: none;
-  display: block;
-}
-.recipe-qrcode{
-  flex:0 0 auto;
-  margin-left:auto;
-}
-.recipe-qrcode a{
-  display:block;
-}
-.recipe-qrcode img{
-  width:84px;
-  max-width:84px;
-  height:84px;
-  display:block;
-  cursor:zoom-in;
 }
 .recipe-page .meta-grid,
 .recipe-page .lead,
 .recipe-page .block,
 .recipe-page .notes,
 .recipe-page .rp-license-wrap{
-  width: 100%;
   max-width: min(100%, var(--reading));
 }
-@media (max-width: 760px){
-  .recipe-page .rp-license-wrap{
-    align-items:flex-start;
-  }
-  .recipe-qrcode img{
-    width:72px;
-    max-width:72px;
-    height:72px;
-  }
-}
-
 .recipe-page .lead{
   background: rgba(255,255,255,0.68);
   border: 1px solid var(--line);
@@ -86,19 +33,20 @@
 .recipe-page .block h2:first-child{
   margin-top: 0;
 }
-@media (max-width: 760px){
-  @media (max-width: 760px){
-  .recipe-page .rp-license-wrap{
-    align-items:flex-start;
-  }
-  .recipe-qrcode img{
-    width:72px;
-    max-width:72px;
-    height:72px;
-  }
+.recipe-page .rp-license-wrap{
+  margin-top: 1.5rem;
 }
-
-.recipe-page .lead{
+.recipe-license{
+  opacity: 0.9;
+}
+.recipe-license img{
+  width: 100px;
+  max-width: 100px;
+  height: auto;
+  display: block;
+}
+@media (max-width: 760px){
+  .recipe-page .lead{
     padding: 1rem 1rem;
   }
 }</style>
@@ -121,7 +69,9 @@ main figure:not(.recipe-license) img{cursor:zoom-in;}</style>
   </nav>
 </header>
 
-<main><div class="recipe-content"><h1>Tortino di alici</h1><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span></span></div><div class="meta-card"><strong>Categoria</strong><span></span></div><div class="meta-card"><strong>Geografia</strong><span></span></div><div class="meta-card"><strong>Fonte</strong><span></span></div></section><section class="lead"><h2>Introduzione e contesto</h2><p>cottura 40 minuti. Questo piatto è diffuso con numerose varianti in tutto il sud Italia. Questa mia personalizzazione prende spunto da come lo preparava Eddy.</p><p>Non pretende assolutamente di essere fedele alla sua ricetta. Ne purtroppo potrebbe più correggermi,Le alici devono essere freschissime, senza storia. E preferibilmente in inverno, che sono un poco più grasse. Sviscerarle, mozzare la testa e togliere la lisca centrale. Sciacquare senza asiugare.Mollica o pangrattato, disputa senza fine.</p><p>Mollica, ovvero pangrattato di sola mollica di pane, senza crosta.Su una padella calda abbrustolire leggermente la mollica con un filo di olio. Attenzione che non bruci.Una volta raffreddata aggiungere prezzemolo, nepetella, peperoncino piccante, aglio, prezzemolo, pecorino romano DOP grattugiato, sale e pepe.In una terrina stendete uno strato di mollica abbrustolita, le alici, ma mollica restante.Coprite con 4 fette di limone BIO sottili e infornate a nel forno già caldo a 180° per ca. 40 minuti.</p></section><section class="block"><h2>Ingredienti</h2><table class="recipe-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>alici freschissime</td><td></td><td></td><td></td></tr><tr><td>mollica o pangrattato</td><td></td><td></td><td></td></tr><tr><td>pecorino romano DOP</td><td></td><td></td><td></td></tr><tr><td>olio EVO</td><td></td><td></td><td></td></tr><tr><td>sale pepe</td><td></td><td></td><td></td></tr><tr><td>peperoncino</td><td></td><td></td><td></td></tr><tr><td>nepetella</td><td></td><td></td><td>mentuccia romana</td></tr><tr><td>prezzemolo</td><td></td><td></td><td></td></tr><tr><td>origano</td><td></td><td></td><td></td></tr><tr><td>limone BIO</td><td></td><td></td><td></td></tr></tbody></table></section><section class="preparation-block block"><h2>Preparazione</h2><ol class="steps"><li><p>Togliere dal forno prima si scurisca troppo la superfice.</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><ul class="clean"><li>Conviene preriscaldare bene il forno prima di iniziare la cottura.</li><li>Indicazione di tempo presente nel testo: cottura 40 minuti. Questo piatto è diffuso con numerose varianti in tutto il sud Italia. Questa mia personalizzazione prende spunto da come lo preparava Eddy.</li></ul></section><div class="rp-license-wrap"><div class="recipe-license"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><div class="recipe-qrcode"><a class="recipe-qrcode-link" href="../../foto/tortino-di-alici/qr-code.png"><img alt="QR ricetta" src="../../foto/tortino-di-alici/qr-code.png"/></a></div></div></div></main>
+<main class="recipe-page">
+<main><h1>Tortino di alici</h1><div class="recipe-content"><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Antipasto</span></div><div class="meta-card"><strong>Geografia</strong><span>Italia - Roma</span></div><div class="meta-card"><strong>Fonte</strong><span>Eddy Salzano</span></div></section><section class="lead"><h2>Introduzione e contesto</h2><p>Questo piatto è diffuso con numerose varianti in tutto il sud Italia. Questa mia personalizzazione prende spunto da come lo preparava Eddy.</p><p>Non pretende assolutamente di essere fedele alla sua ricetta. Ne purtroppo potrebbe più correggermi.</p><p><br/></p></section><section class="block"><h2>Ingredienti</h2><table class="recipe-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Alici freschissime</td><td></td><td></td><td></td></tr><tr><td>Mollica o pangrattato</td><td></td><td></td><td></td></tr><tr><td>Pecorino romano DOP</td><td></td><td></td><td></td></tr><tr><td>Olio extra vergine d'oliva</td><td></td><td></td><td></td></tr><tr><td>Sale</td><td></td><td></td><td></td></tr><tr><td>Peperoncino</td><td></td><td></td><td></td></tr><tr><td>Nepetella</td><td></td><td></td><td>mentuccia romana</td></tr><tr><td>Prezzemolo</td><td></td><td></td><td></td></tr><tr><td>Origano</td><td></td><td></td><td></td></tr><tr><td>Limone BIO</td><td></td><td></td><td></td></tr><tr><td>Pepe</td><td></td><td></td><td></td></tr></tbody></table></section><section class="block preparation-block"><h2>Preparazione</h2><ol class="steps"><li><p>Togliere dal forno prima si scurisca troppo la superfice.</p></li><li><p>Le alici devono essere freschissime, senza storia. E preferibilmente in inverno, che sono un poco più grasse. Sviscerarle, mozzare la testa e togliere la lisca centrale. Sciacquare senza asciugare. Mollica o pangrattato, disputa senza fine.</p></li><li><p>Mollica, ovvero pangrattato di sola mollica di pane, senza crosta. Su una padella calda abbrustolire leggermente la mollica con un filo di olio. Attenzione che non bruci. Una volta raffreddata aggiungere prezzemolo, nepetella, peperoncino piccante, aglio, prezzemolo, pecorino romano DOP grattugiato, sale e pepe. In una terrina stendete uno strato di mollica abbrustolita, le alici, ma mollica restante. </p></li><li><p>Coprite con 4 fette di limone BIO sottili e infornate a nel forno già caldo a 180° per ca. 40 minuti.</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><ul class="clean"><li>Conviene preriscaldare bene il forno prima di iniziare la cottura.</li><li>Indicazione di tempo presente nel testo: cottura 40 minuti. Questo piatto è diffuso con numerose varianti in tutto il sud Italia. Questa mia personalizzazione prende spunto da come lo preparava Eddy.</li></ul></section><div class="rp-license-wrap"><div class="recipe-license"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><div class="recipe-qrcode"><a class="recipe-qrcode-link" href="../../foto/tortino-di-alici/qr-code.png"><img alt="QR ricetta" src="../../foto/tortino-di-alici/qr-code.png"/></a></div></div></div></main>
+</main>
 </div>
 <script id="recipe-lightbox-script">(function(){
   function ensureLightbox(){
