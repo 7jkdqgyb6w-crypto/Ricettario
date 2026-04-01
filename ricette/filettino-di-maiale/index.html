@@ -8,20 +8,73 @@
   <style id="recipe-layout-style">.recipe-page{
   max-width: 100%;
 }
-.recipe-page > h1{
-  margin-bottom: 1.2rem;
-}
 .recipe-page .recipe-content{
   width: 100%;
   max-width: min(100%, var(--reading));
+}
+
+.recipe-page .recipe-content > h1{
+  margin: 0 0 1.2rem 0;
+}
+.recipe-page .rp-license-wrap{
+  margin-top: 1.5rem;
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:1rem;
+}
+.recipe-page .lead a,
+.recipe-page .block a,
+.recipe-page .notes a{
+  color:#5f86ad;
+  font-weight:600;
+}
+.recipe-license{
+  opacity: 0.9;
+  flex:0 0 auto;
+}
+.recipe-license a{
+  display:block;
+}
+.recipe-license img{
+  height: 24px;
+  width: auto;
+  max-width: none;
+  display: block;
+}
+.recipe-qrcode{
+  flex:0 0 auto;
+  margin-left:auto;
+}
+.recipe-qrcode a{
+  display:block;
+}
+.recipe-qrcode img{
+  width:84px;
+  max-width:84px;
+  height:84px;
+  display:block;
+  cursor:zoom-in;
 }
 .recipe-page .meta-grid,
 .recipe-page .lead,
 .recipe-page .block,
 .recipe-page .notes,
 .recipe-page .rp-license-wrap{
+  width: 100%;
   max-width: min(100%, var(--reading));
 }
+@media (max-width: 760px){
+  .recipe-page .rp-license-wrap{
+    align-items:flex-start;
+  }
+  .recipe-qrcode img{
+    width:72px;
+    max-width:72px;
+    height:72px;
+  }
+}
+
 .recipe-page .lead{
   background: rgba(255,255,255,0.68);
   border: 1px solid var(--line);
@@ -33,20 +86,19 @@
 .recipe-page .block h2:first-child{
   margin-top: 0;
 }
-.recipe-page .rp-license-wrap{
-  margin-top: 1.5rem;
-}
-.recipe-license{
-  opacity: 0.9;
-}
-.recipe-license img{
-  width: 100px;
-  max-width: 100px;
-  height: auto;
-  display: block;
-}
 @media (max-width: 760px){
-  .recipe-page .lead{
+  @media (max-width: 760px){
+  .recipe-page .rp-license-wrap{
+    align-items:flex-start;
+  }
+  .recipe-qrcode img{
+    width:72px;
+    max-width:72px;
+    height:72px;
+  }
+}
+
+.recipe-page .lead{
     padding: 1rem 1rem;
   }
 }</style>
@@ -70,8 +122,8 @@ main figure:not(.recipe-license) img{cursor:zoom-in;}</style>
 </header>
 
 <main class="recipe-page">
-<main><h1>Filettino di maiale</h1><div class="recipe-content"><section class="lead"><h2>Introduzione e contesto</h2><p></p></section><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Secondi</span></div><div class="meta-card"><strong>Geografia</strong><span>Croazia</span></div><div class="meta-card"><strong>Fonte</strong><span>Ristoranti</span></div></section><section class="block"><h2>Ingredienti</h2><table class="recipe-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Filettino di maiale</td><td>1</td><td></td><td>Il filettino di maiale non dovrebbe essere troppo grosso</td></tr><tr><td>Scalogno</td><td>1</td><td></td><td></td></tr><tr><td>Senape di digione</td><td></td><td></td><td></td></tr><tr><td>Timo</td><td></td><td></td><td></td></tr><tr><td>Olio extra vergine d'oliva</td><td></td><td></td><td></td></tr><tr><td>Sale</td><td></td><td></td><td></td></tr><tr><td>Pepe</td><td></td><td></td><td></td></tr></tbody></table></section><section class="block preparation-block"><h2>Preparazione</h2><ol class="steps"><li><p><div><span style="background-color: rgb(255, 255, 255);">Il filettino di maiale non dovrebbe essere troppo grosso </span><span style="background-color: rgb(255, 255, 255); font-size: 1rem;">e andrà pulito di grasso o parti di tendini presenti all'esterno. Tutte le parti bianche</span></div><div><br/></div><div><br/></div>Rosolare su una padella antoaderente (vecchia) per ca. 15 minuti. Deve diventare esteriormente ben cotto, quasi croccante. Scurirsi, anche abbrustolirsi ma assolutamente non bruciare. Se necessario aggiungere pochissimo olio in cottura. La fiamma deve essere via. Alla fine dovrà essere internamente appena cotto, non più rosso, ma di un rosa ancora vivo.A questo punto avvolgere in una stagnola con un rametto di rosmarino e tenere in luogo caldo, magari al forno a 50 gradi, oppure bene avvolto in un canovaggio. Dovrà continuare a cuocere internamente.Intanto rosolare con un filo di olio lo scalogno tritato finemente, aggiungere alcuni cucchiai di senape di Digione (più o meno forte a piacere) allungare con un poco di acqua. qui nelle foto un esperimento con il pepe verde, a mio avviso deludente.Il filetto dovrà aver ripostato ca. 15 minuti. Quindi affettarlo (mezzo cm.) e mettere nella padella della salsa a fiamma bassa per alcuni minuti. Aggiungere sale, pepe e timo abbondante (ma non tanto da avere effetto medicinale.). * caldo in tavola con patate cotte a piacere. A mio avviso il meglio in questo caso è in fricassea.Il risultato finale dovrà essere ancora rosa all'interno delle fette.</p></li><li><p></p></li><li><p>Non dovrà aver perso di umidità e tenerezza. Il segreto è tutto nella cottura protratta nella stagnola.</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><ul class="clean"><li>Sono indicati tempi di riposo: rispettarli aiuta struttura e sapore del piatto.</li><li>Conviene preriscaldare bene il forno prima di iniziare la cottura.</li><li>Indicazione di tempo presente nel testo: 30 min.</li></ul></section><div class="rp-license-wrap"><div class="recipe-license"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></div></div></div></main>
-</main>
+
+<div class="recipe-content"><h1>Filettino di maiale</h1><section class="lead"><h2>Introduzione e contesto</h2><p></p></section><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Secondi</span></div><div class="meta-card"><strong>Geografia</strong><span>Croazia</span></div><div class="meta-card"><strong>Fonte</strong><span>Ristoranti</span></div></section><section class="block"><h2>Ingredienti</h2><table class="recipe-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Filettino di maiale</td><td>1</td><td></td><td>Il filettino di maiale non dovrebbe essere troppo grosso</td></tr><tr><td>Scalogno</td><td>1</td><td></td><td></td></tr><tr><td>Senape di digione</td><td></td><td></td><td></td></tr><tr><td>Timo</td><td></td><td></td><td></td></tr><tr><td>Olio extra vergine d'oliva</td><td></td><td></td><td></td></tr><tr><td>Sale</td><td></td><td></td><td></td></tr><tr><td>Pepe</td><td></td><td></td><td></td></tr></tbody></table></section><section class="preparation-block block"><h2>Preparazione</h2><ol class="steps"><li><p><div><span style="background-color: rgb(255, 255, 255);">Il filettino di maiale non dovrebbe essere troppo grosso </span><span style="background-color: rgb(255, 255, 255); font-size: 1rem;">e andrà pulito di grasso o parti di tendini presenti all'esterno. Tutte le parti bianche</span></div><div><br/></div><div><br/></div>Rosolare su una padella antoaderente (vecchia) per ca. 15 minuti. Deve diventare esteriormente ben cotto, quasi croccante. Scurirsi, anche abbrustolirsi ma assolutamente non bruciare. Se necessario aggiungere pochissimo olio in cottura. La fiamma deve essere via. Alla fine dovrà essere internamente appena cotto, non più rosso, ma di un rosa ancora vivo.A questo punto avvolgere in una stagnola con un rametto di rosmarino e tenere in luogo caldo, magari al forno a 50 gradi, oppure bene avvolto in un canovaggio. Dovrà continuare a cuocere internamente.Intanto rosolare con un filo di olio lo scalogno tritato finemente, aggiungere alcuni cucchiai di senape di Digione (più o meno forte a piacere) allungare con un poco di acqua. qui nelle foto un esperimento con il pepe verde, a mio avviso deludente.Il filetto dovrà aver ripostato ca. 15 minuti. Quindi affettarlo (mezzo cm.) e mettere nella padella della salsa a fiamma bassa per alcuni minuti. Aggiungere sale, pepe e timo abbondante (ma non tanto da avere effetto medicinale.). * caldo in tavola con patate cotte a piacere. A mio avviso il meglio in questo caso è in fricassea.Il risultato finale dovrà essere ancora rosa all'interno delle fette.</p></li><li><p></p></li><li><p>Non dovrà aver perso di umidità e tenerezza. Il segreto è tutto nella cottura protratta nella stagnola.</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><ul class="clean"><li>Sono indicati tempi di riposo: rispettarli aiuta struttura e sapore del piatto.</li><li>Conviene preriscaldare bene il forno prima di iniziare la cottura.</li><li>Indicazione di tempo presente nel testo: 30 min.</li></ul></section><div class="rp-license-wrap"><div class="recipe-license"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><div class="recipe-qrcode"><a class="recipe-qrcode-link" href="../../foto/filettino-di-maiale/qr-code.png"><img alt="QR ricetta" src="../../foto/filettino-di-maiale/qr-code.png"/></a></div></div></div></main>
 </div>
 <script id="recipe-lightbox-script">(function(){
   function ensureLightbox(){

@@ -8,20 +8,73 @@
   <style id="recipe-layout-style">.recipe-page{
   max-width: 100%;
 }
-.recipe-page > h1{
-  margin-bottom: 1.2rem;
-}
 .recipe-page .recipe-content{
   width: 100%;
   max-width: min(100%, var(--reading));
+}
+
+.recipe-page .recipe-content > h1{
+  margin: 0 0 1.2rem 0;
+}
+.recipe-page .rp-license-wrap{
+  margin-top: 1.5rem;
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:1rem;
+}
+.recipe-page .lead a,
+.recipe-page .block a,
+.recipe-page .notes a{
+  color:#5f86ad;
+  font-weight:600;
+}
+.recipe-license{
+  opacity: 0.9;
+  flex:0 0 auto;
+}
+.recipe-license a{
+  display:block;
+}
+.recipe-license img{
+  height: 24px;
+  width: auto;
+  max-width: none;
+  display: block;
+}
+.recipe-qrcode{
+  flex:0 0 auto;
+  margin-left:auto;
+}
+.recipe-qrcode a{
+  display:block;
+}
+.recipe-qrcode img{
+  width:84px;
+  max-width:84px;
+  height:84px;
+  display:block;
+  cursor:zoom-in;
 }
 .recipe-page .meta-grid,
 .recipe-page .lead,
 .recipe-page .block,
 .recipe-page .notes,
 .recipe-page .rp-license-wrap{
+  width: 100%;
   max-width: min(100%, var(--reading));
 }
+@media (max-width: 760px){
+  .recipe-page .rp-license-wrap{
+    align-items:flex-start;
+  }
+  .recipe-qrcode img{
+    width:72px;
+    max-width:72px;
+    height:72px;
+  }
+}
+
 .recipe-page .lead{
   background: rgba(255,255,255,0.68);
   border: 1px solid var(--line);
@@ -33,20 +86,19 @@
 .recipe-page .block h2:first-child{
   margin-top: 0;
 }
-.recipe-page .rp-license-wrap{
-  margin-top: 1.5rem;
-}
-.recipe-license{
-  opacity: 0.9;
-}
-.recipe-license img{
-  width: 100px;
-  max-width: 100px;
-  height: auto;
-  display: block;
-}
 @media (max-width: 760px){
-  .recipe-page .lead{
+  @media (max-width: 760px){
+  .recipe-page .rp-license-wrap{
+    align-items:flex-start;
+  }
+  .recipe-qrcode img{
+    width:72px;
+    max-width:72px;
+    height:72px;
+  }
+}
+
+.recipe-page .lead{
     padding: 1rem 1rem;
   }
 }</style>
@@ -70,8 +122,8 @@ main figure:not(.recipe-license) img{cursor:zoom-in;}</style>
 </header>
 
 <main class="recipe-page">
-<main><h1>Pasta e fagioli</h1><div class="recipe-content"><section class="lead"><h2>Introduzione e contesto</h2><p></p></section><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Primi</span></div><div class="meta-card"><strong>Geografia</strong><span>Italia - Veneto</span></div><div class="meta-card"><strong>Fonte</strong><span>Web</span></div></section><section class="block"><h2>Ingredienti</h2><table class="recipe-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Fagioli</td><td></td><td></td><td></td></tr><tr><td>cipolla</td><td></td><td></td><td></td></tr><tr><td>carota</td><td></td><td></td><td></td></tr><tr><td>rosmarino</td><td></td><td></td><td></td></tr><tr><td>alloro</td><td></td><td></td><td></td></tr><tr><td>osso prosciutto</td><td></td><td></td><td></td></tr><tr><td>pasta. Provenienza: Internet. E' un piatto di origine contadina</td><td></td><td></td><td></td></tr><tr><td>ma diffusissimo ed apprezzatissimo a Venezia.Usare fagioli freschi sgranati di Lamon o borlottini</td><td></td><td></td><td>particolarmente apprezzate le "baete" di S. Erasmo</td></tr><tr><td>oppure secchi messi a mollo per una notte con un punta di bicarbonato</td><td></td><td></td><td></td></tr><tr><td>Cotica di maiale</td><td></td><td></td><td></td></tr></tbody></table></section><section class="block preparation-block"><h2>Preparazione</h2><ol class="steps"><li><p>Preparare a parte un soffritto di abbondante cipolla, carota, sedano, rosmarino e alloro. Aggiungere i fagioli ed un osso di prosciutto. Coprire con acqua e salare con sale grosso. Far bollire per circa 40 minuti. Lasciate intero un terzo dei fagioli che aggiungerete poi all'insieme, una volta passato il tutto al setaccio. Aggiungere alla zuppa dei piccoli quantitativi di pasta, preferibilmente "subiotini" o "tagliatelle" e cucinare quanto basta. * calda o tiepida, con una manciata di pepe e con una croce d'olio.</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><ul class="clean"><li>Per la cottura della pasta usare acqua ben salata e scolare con il condimento già pronto.</li></ul></section><div class="rp-license-wrap"><div class="recipe-license"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></div></div></div></main>
-</main>
+
+<div class="recipe-content"><h1>Pasta e fagioli</h1><section class="lead"><h2>Introduzione e contesto</h2><p></p></section><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Primi</span></div><div class="meta-card"><strong>Geografia</strong><span>Italia - Veneto</span></div><div class="meta-card"><strong>Fonte</strong><span>Web</span></div></section><section class="block"><h2>Ingredienti</h2><table class="recipe-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Fagioli</td><td></td><td></td><td></td></tr><tr><td>cipolla</td><td></td><td></td><td></td></tr><tr><td>carota</td><td></td><td></td><td></td></tr><tr><td>rosmarino</td><td></td><td></td><td></td></tr><tr><td>alloro</td><td></td><td></td><td></td></tr><tr><td>osso prosciutto</td><td></td><td></td><td></td></tr><tr><td>pasta. Provenienza: Internet. E' un piatto di origine contadina</td><td></td><td></td><td></td></tr><tr><td>ma diffusissimo ed apprezzatissimo a Venezia.Usare fagioli freschi sgranati di Lamon o borlottini</td><td></td><td></td><td>particolarmente apprezzate le "baete" di S. Erasmo</td></tr><tr><td>oppure secchi messi a mollo per una notte con un punta di bicarbonato</td><td></td><td></td><td></td></tr><tr><td>Cotica di maiale</td><td></td><td></td><td></td></tr></tbody></table></section><section class="preparation-block block"><h2>Preparazione</h2><ol class="steps"><li><p>Preparare a parte un soffritto di abbondante cipolla, carota, sedano, rosmarino e alloro. Aggiungere i fagioli ed un osso di prosciutto. Coprire con acqua e salare con sale grosso. Far bollire per circa 40 minuti. Lasciate intero un terzo dei fagioli che aggiungerete poi all'insieme, una volta passato il tutto al setaccio. Aggiungere alla zuppa dei piccoli quantitativi di pasta, preferibilmente "subiotini" o "tagliatelle" e cucinare quanto basta. * calda o tiepida, con una manciata di pepe e con una croce d'olio.</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><ul class="clean"><li>Per la cottura della pasta usare acqua ben salata e scolare con il condimento già pronto.</li></ul></section><div class="rp-license-wrap"><div class="recipe-license"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><div class="recipe-qrcode"><a class="recipe-qrcode-link" href="../../foto/pasta-e-fagioli/qr-code.png"><img alt="QR ricetta" src="../../foto/pasta-e-fagioli/qr-code.png"/></a></div></div></div></main>
 </div>
 <script id="recipe-lightbox-script">(function(){
   function ensureLightbox(){

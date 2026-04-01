@@ -1,19 +1,159 @@
 <!DOCTYPE html>
-
 <html lang="it">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1" name="viewport"/>
-<title>Tajin Mqualli – Ricette (e altro) di Pierre</title>
-<link href="../../style.css" rel="stylesheet"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tajin Mqualli – Ricette (e altro) di Pierre</title>
+  <link rel="stylesheet" href="../../style.css">
+  <style id="recipe-layout-style">.recipe-page{
+  max-width: 100%;
+}
+.recipe-page .recipe-content{
+  width: 100%;
+  max-width: min(100%, var(--reading));
+}
+
+.recipe-page .recipe-content > h1{
+  margin: 0 0 1.2rem 0;
+}
+.recipe-page .rp-license-wrap{
+  margin-top: 1.5rem;
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:1rem;
+}
+.recipe-page .lead a,
+.recipe-page .block a,
+.recipe-page .notes a{
+  color:#5f86ad;
+  font-weight:600;
+}
+.recipe-license{
+  opacity: 0.9;
+  flex:0 0 auto;
+}
+.recipe-license a{
+  display:block;
+}
+.recipe-license img{
+  height: 24px;
+  width: auto;
+  max-width: none;
+  display: block;
+}
+.recipe-qrcode{
+  flex:0 0 auto;
+  margin-left:auto;
+}
+.recipe-qrcode a{
+  display:block;
+}
+.recipe-qrcode img{
+  width:84px;
+  max-width:84px;
+  height:84px;
+  display:block;
+  cursor:zoom-in;
+}
+.recipe-page .meta-grid,
+.recipe-page .lead,
+.recipe-page .block,
+.recipe-page .notes,
+.recipe-page .rp-license-wrap{
+  width: 100%;
+  max-width: min(100%, var(--reading));
+}
+@media (max-width: 760px){
+  .recipe-page .rp-license-wrap{
+    align-items:flex-start;
+  }
+  .recipe-qrcode img{
+    width:72px;
+    max-width:72px;
+    height:72px;
+  }
+}
+
+.recipe-page .lead{
+  background: rgba(255,255,255,0.68);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+  padding: 1.1rem 1.25rem;
+}
+.recipe-page .lead h2:first-child,
+.recipe-page .notes h2:first-child,
+.recipe-page .block h2:first-child{
+  margin-top: 0;
+}
+@media (max-width: 760px){
+  @media (max-width: 760px){
+  .recipe-page .rp-license-wrap{
+    align-items:flex-start;
+  }
+  .recipe-qrcode img{
+    width:72px;
+    max-width:72px;
+    height:72px;
+  }
+}
+
+.recipe-page .lead{
+    padding: 1rem 1rem;
+  }
+}</style>
+  <style id="recipe-lightbox-style">.recipe-lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.88);display:flex;align-items:center;justify-content:center;padding:2rem;z-index:9999;cursor:zoom-out;}
+.recipe-lightbox-overlay.is-hidden{display:none !important;}
+.recipe-lightbox-frame{max-width:96vw;max-height:96vh;display:flex;flex-direction:column;gap:.75rem;align-items:center;}
+.recipe-lightbox-frame img{display:block;max-width:96vw;max-height:88vh;width:auto;height:auto;box-shadow:0 8px 32px rgba(0,0,0,.45);background:#fff;}
+.recipe-lightbox-caption{color:#fff;text-align:center;max-width:min(96vw,70rem);font-size:.95rem;line-height:1.35;}
+main figure:not(.recipe-license) img{cursor:zoom-in;}</style>
 </head>
 <body>
 <div class="page">
 <header class="site-header">
-<a class="brand" href="../../index.html">Ricette (e altro) di Pierre</a>
-<nav><a href="../../indici/ricette.html">Ricette</a><a href="../../indici/ingredienti.html">Ingredienti</a><a href="../../indici/fonti.html">Fonti</a><a href="../../indici/geografia.html">Geografia</a></nav>
+  <a class="brand" href="../../index.html">Ricette (e altro) di Pierre</a>
+  <nav>
+    <a href="../../indici/ricette.html">Ricette</a>
+    <a href="../../indici/ingredienti.html">Ingredienti</a>
+    <a href="../../indici/fonti.html">Fonti</a>
+    <a href="../../indici/geografia.html">Geografia</a>
+  </nav>
 </header>
-<main><h1>Tajin Mqualli</h1><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span></span></div><div class="meta-card"><strong>Categoria</strong><span></span></div><div class="meta-card"><strong>Origine</strong><span></span></div><div class="meta-card"><strong>Fonte</strong><span></span></div></section><section class="lead"><h2>Introduzione e contesto</h2><p>cous cous, cipollotti, prezzemolo, patate, cipolle, carote, finocchi, olive nere, limone, curcuma, zenzero, coriandolo, menta, cumino, zafferano, pepe, aglio, sale pepe, olio EVO.* tempo di * 20', tempo di cottura 2 h.</p><p>Tajin Mqualli. Preparare la Tajine immergendola in acqua un paio di ore prima la cottura.Pollo e coniglio devono essere tagliati a pezzi, in parte disossati, lavati.</p><p>Quindi marinare alcune ore cosparsi con le diverse spezie. Per chi piace, anche il montone.Mettere la Tajine sul fuoco, separata da rete metallica frangifiamma, aggiungere un poco di olio e dei cipollotti freschi tagliati a rondelle.</p><p>Quando i cipollotti cominciano ad ammorbidirsi (prima di rosolare) aggiungere la carne ed eventualmente aggiungere ulteriori spezie.Mescolare per alcuni minuti affinché la carne si sigilli, poi abbassare la fiamma ed eventualmente aggiungere un poco di brodo di verdure se non fosse abbastanza umido il fondo.Coprire e lasciare cuocere molto lentamente per un paio di ore rimestando con attenzione di tanto in tanto.A fine cottura aggiungere olive (anche verdi se preferite il gusto) e limoni tagliati a pezzetti, il prezzemolo, pepare.</p><p>Attenzione a scegliere limoni che non abbiano troppo bianco, piuttosto amaro. Fare cuocere ancora per 20' eventualmente facendo evaporare se troppo liquido il fondo di cottura (che deve restare).A parte avrete cotto a vapore le verdure tagliate a pezzettoni.A cottura ultimata.Accompagnare con cous cous.</p><p>Nella giusta stagione il cous cous lo preparo aggiungendo erbe aromatiche fresche, in particolare la menta, ma anche dragoncello, finocchietto, origano. Per la preparazione seguire le istruzioni riportate sulla confezione.Anche in inverno aggiungo aromi: mentuccia romana, prezzemolo, semi di finocchio, erbe di provenza.</p></section><section class="block"><h2>Ingredienti</h2><table class="recipe-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Pollo</td><td>1/2</td><td></td><td>(nutriti no OGM prodotti BIO)</td></tr><tr><td>Coniglio</td><td>1/2</td><td></td><td>(nutriti no OGM prodotti BIO)</td></tr><tr><td>Montone</td><td></td><td></td><td>Opzionale</td></tr><tr><td>Cous cous</td><td></td><td></td><td></td></tr><tr><td><span style="background-color: rgb(248, 251, 255);">Cipollotti</span></td><td></td><td></td><td></td></tr><tr><td><span style="background-color: rgb(248, 251, 255);">prezzemolo, </span></td><td></td><td></td><td></td></tr><tr><td><span style="background-color: rgb(248, 251, 255);">patate</span></td><td></td><td></td><td></td></tr><tr><td><span style="background-color: rgb(248, 251, 255);">carote</span></td><td></td><td></td><td></td></tr><tr><td><span style="background-color: rgb(248, 251, 255);">finocchi</span></td><td></td><td></td><td></td></tr><tr><td><span style="background-color: rgb(248, 251, 255);">, olive nere</span></td><td></td><td></td><td></td></tr><tr><td><span style="background-color: rgb(248, 251, 255);">, limone, </span></td><td></td><td></td><td></td></tr><tr><td><span style="background-color: rgb(248, 251, 255);">curcuma,</span></td><td></td><td></td><td></td></tr><tr><td><span style="background-color: rgb(248, 251, 255);"> zenzero, </span></td><td></td><td></td><td></td></tr><tr><td><span style="background-color: rgb(248, 251, 255);">coriandolo, </span></td><td></td><td></td><td></td></tr><tr><td><span style="background-color: rgb(248, 251, 255);"> menta, cumino, zafferano, pepe, aglio, sale pepe, olio EVO</span></td><td></td><td></td><td></td></tr></tbody></table></section><section class="block preparation-block"><h2>Preparazione</h2><ol class="steps"><li><p>Preparare la Tajine immergendola in acqua un paio di ore prima la cottura. Pollo e coniglio devono essere tagliati a pezzi, in parte disossati, lavati. Quindi marinare alcune ore cosparsi con le diverse spezie. Per chi piace, anche il montone.</p></li><li><p>Mettere la Tajine sul fuoco, separata da rete metallica frangifiamma, aggiungere un poco di olio e dei cipollotti freschi tagliati a rondelle.</p></li><li><p>Servire ben caldo.Accompagno con vino bianco, ben strutturato e di discreta gradazione. Molto secco. Corposo.</p></li><li><p>Quando i cipollotti cominciano ad ammorbidirsi (prima di rosolare) aggiungere la carne ed eventualmente aggiungere ulteriori spezie. Mescolare per alcuni minuti affinché la carne si sigilli, poi abbassare la fiamma ed eventualmente aggiungere un poco di brodo di verdure se non fosse abbastanza umido il fondo. Coprire e lasciare cuocere molto lentamente per un paio di ore rimestando con attenzione di tanto in tanto.</p></li><li><p>A fine cottura aggiungere olive (anche verdi se preferite il gusto) e limoni tagliati a pezzetti, il prezzemolo, pepare. Attenzione a scegliere limoni che non abbiano troppo bianco, piuttosto amaro. </p></li><li><p>Fare cuocere ancora per 20' eventualmente facendo evaporare se troppo liquido il fondo di cottura (che deve restare).</p></li><li><p>A parte avrete cotto a vapore le verdure tagliate a pezzettoni. A cottura ultimata accompagnare con cous cous.</p></li><li><p>Nella giusta stagione il cous cous lo preparo aggiungendo erbe aromatiche fresche, in particolare la menta, ma anche dragoncello, finocchietto, origano. Per la preparazione seguire le istruzioni riportate sulla confezione. Anche in inverno aggiungo aromi: mentuccia romana, prezzemolo, semi di finocchio, erbe di Provenza.</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><p></p></section><section class="photo-block"><h2>Immagini</h2><p>Spazio predisposto per la galleria fotografica locale della ricetta.</p></section></main>
+
+<main><div class="recipe-content"><h1>Tajin Mqualli</h1><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span></span></div><div class="meta-card"><strong>Categoria</strong><span></span></div><div class="meta-card"><strong>Geografia</strong><span></span></div><div class="meta-card"><strong>Fonte</strong><span></span></div></section><section class="lead"><h2>Introduzione e contesto</h2><p>cous cous, cipollotti, prezzemolo, patate, cipolle, carote, finocchi, olive nere, limone, curcuma, zenzero, coriandolo, menta, cumino, zafferano, pepe, aglio, sale pepe, olio EVO.* tempo di * 20', tempo di cottura 2 h.</p><p>Tajin Mqualli. Preparare la Tajine immergendola in acqua un paio di ore prima la cottura.Pollo e coniglio devono essere tagliati a pezzi, in parte disossati, lavati.</p><p>Quindi marinare alcune ore cosparsi con le diverse spezie. Per chi piace, anche il montone.Mettere la Tajine sul fuoco, separata da rete metallica frangifiamma, aggiungere un poco di olio e dei cipollotti freschi tagliati a rondelle.</p><p>Quando i cipollotti cominciano ad ammorbidirsi (prima di rosolare) aggiungere la carne ed eventualmente aggiungere ulteriori spezie.Mescolare per alcuni minuti affinché la carne si sigilli, poi abbassare la fiamma ed eventualmente aggiungere un poco di brodo di verdure se non fosse abbastanza umido il fondo.Coprire e lasciare cuocere molto lentamente per un paio di ore rimestando con attenzione di tanto in tanto.A fine cottura aggiungere olive (anche verdi se preferite il gusto) e limoni tagliati a pezzetti, il prezzemolo, pepare.</p><p>Attenzione a scegliere limoni che non abbiano troppo bianco, piuttosto amaro. Fare cuocere ancora per 20' eventualmente facendo evaporare se troppo liquido il fondo di cottura (che deve restare).A parte avrete cotto a vapore le verdure tagliate a pezzettoni.A cottura ultimata.Accompagnare con cous cous.</p><p>Nella giusta stagione il cous cous lo preparo aggiungendo erbe aromatiche fresche, in particolare la menta, ma anche dragoncello, finocchietto, origano. Per la preparazione seguire le istruzioni riportate sulla confezione.Anche in inverno aggiungo aromi: mentuccia romana, prezzemolo, semi di finocchio, erbe di provenza.</p></section><section class="block"><h2>Ingredienti</h2><table class="recipe-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Pollo</td><td>1/2</td><td></td><td>(nutriti no OGM prodotti BIO)</td></tr><tr><td>Coniglio</td><td>1/2</td><td></td><td>(nutriti no OGM prodotti BIO)</td></tr><tr><td>Montone</td><td></td><td></td><td>Opzionale</td></tr><tr><td>Cous cous</td><td></td><td></td><td></td></tr><tr><td><span style="background-color: rgb(248, 251, 255);">Cipollotti</span></td><td></td><td></td><td></td></tr><tr><td><span style="background-color: rgb(248, 251, 255);">prezzemolo, </span></td><td></td><td></td><td></td></tr><tr><td><span style="background-color: rgb(248, 251, 255);">patate</span></td><td></td><td></td><td></td></tr><tr><td><span style="background-color: rgb(248, 251, 255);">carote</span></td><td></td><td></td><td></td></tr><tr><td><span style="background-color: rgb(248, 251, 255);">finocchi</span></td><td></td><td></td><td></td></tr><tr><td><span style="background-color: rgb(248, 251, 255);">, olive nere</span></td><td></td><td></td><td></td></tr><tr><td><span style="background-color: rgb(248, 251, 255);">, limone, </span></td><td></td><td></td><td></td></tr><tr><td><span style="background-color: rgb(248, 251, 255);">curcuma,</span></td><td></td><td></td><td></td></tr><tr><td><span style="background-color: rgb(248, 251, 255);"> zenzero, </span></td><td></td><td></td><td></td></tr><tr><td><span style="background-color: rgb(248, 251, 255);">coriandolo, </span></td><td></td><td></td><td></td></tr><tr><td><span style="background-color: rgb(248, 251, 255);"> menta, cumino, zafferano, pepe, aglio, sale pepe, olio EVO</span></td><td></td><td></td><td></td></tr></tbody></table></section><section class="preparation-block block"><h2>Preparazione</h2><ol class="steps"><li><p>Preparare la Tajine immergendola in acqua un paio di ore prima la cottura. Pollo e coniglio devono essere tagliati a pezzi, in parte disossati, lavati. Quindi marinare alcune ore cosparsi con le diverse spezie. Per chi piace, anche il montone.</p></li><li><p>Mettere la Tajine sul fuoco, separata da rete metallica frangifiamma, aggiungere un poco di olio e dei cipollotti freschi tagliati a rondelle.</p></li><li><p>Servire ben caldo.Accompagno con vino bianco, ben strutturato e di discreta gradazione. Molto secco. Corposo.</p></li><li><p>Quando i cipollotti cominciano ad ammorbidirsi (prima di rosolare) aggiungere la carne ed eventualmente aggiungere ulteriori spezie. Mescolare per alcuni minuti affinché la carne si sigilli, poi abbassare la fiamma ed eventualmente aggiungere un poco di brodo di verdure se non fosse abbastanza umido il fondo. Coprire e lasciare cuocere molto lentamente per un paio di ore rimestando con attenzione di tanto in tanto.</p></li><li><p>A fine cottura aggiungere olive (anche verdi se preferite il gusto) e limoni tagliati a pezzetti, il prezzemolo, pepare. Attenzione a scegliere limoni che non abbiano troppo bianco, piuttosto amaro. </p></li><li><p>Fare cuocere ancora per 20' eventualmente facendo evaporare se troppo liquido il fondo di cottura (che deve restare).</p></li><li><p>A parte avrete cotto a vapore le verdure tagliate a pezzettoni. A cottura ultimata accompagnare con cous cous.</p></li><li><p>Nella giusta stagione il cous cous lo preparo aggiungendo erbe aromatiche fresche, in particolare la menta, ma anche dragoncello, finocchietto, origano. Per la preparazione seguire le istruzioni riportate sulla confezione. Anche in inverno aggiungo aromi: mentuccia romana, prezzemolo, semi di finocchio, erbe di Provenza.</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><p></p></section><div class="rp-license-wrap"><div class="recipe-license"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><div class="recipe-qrcode"><a class="recipe-qrcode-link" href="../../foto/tajin-mqualli/qr-code.png"><img alt="QR ricetta" src="../../foto/tajin-mqualli/qr-code.png"/></a></div></div></div></main>
 </div>
+<script id="recipe-lightbox-script">(function(){
+  function ensureLightbox(){
+    let overlay = document.getElementById('recipeLightbox');
+    if(overlay) return overlay;
+    overlay = document.createElement('div');
+    overlay.id = 'recipeLightbox';
+    overlay.className = 'recipe-lightbox-overlay is-hidden';
+    overlay.innerHTML = '<div class="recipe-lightbox-frame"><img alt=""><div class="recipe-lightbox-caption"></div></div>';
+    document.body.appendChild(overlay);
+    overlay.addEventListener('click', function(){ overlay.classList.add('is-hidden'); });
+    document.addEventListener('keydown', function(ev){ if(ev.key === 'Escape') overlay.classList.add('is-hidden'); });
+    return overlay;
+  }
+  document.addEventListener('DOMContentLoaded', function(){
+    const overlay = ensureLightbox();
+    const outImg = overlay.querySelector('img');
+    const caption = overlay.querySelector('.recipe-lightbox-caption');
+    document.querySelectorAll('main img').forEach(function(img){
+      if(img.closest('.recipe-license')) return;
+      img.addEventListener('click', function(ev){
+        ev.preventDefault();
+        ev.stopPropagation();
+        outImg.src = img.currentSrc || img.src;
+        outImg.alt = img.alt || '';
+        const fig = img.closest('figure');
+        const cap = fig ? fig.querySelector('figcaption') : null;
+        caption.textContent = (cap && cap.textContent.trim()) || img.alt || '';
+        overlay.classList.remove('is-hidden');
+      });
+    });
+  });
+})();</script>
 </body>
 </html>

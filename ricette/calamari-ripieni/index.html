@@ -8,20 +8,73 @@
   <style id="recipe-layout-style">.recipe-page{
   max-width: 100%;
 }
-.recipe-page > h1{
-  margin-bottom: 1.2rem;
-}
 .recipe-page .recipe-content{
   width: 100%;
   max-width: min(100%, var(--reading));
+}
+
+.recipe-page .recipe-content > h1{
+  margin: 0 0 1.2rem 0;
+}
+.recipe-page .rp-license-wrap{
+  margin-top: 1.5rem;
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:1rem;
+}
+.recipe-page .lead a,
+.recipe-page .block a,
+.recipe-page .notes a{
+  color:#5f86ad;
+  font-weight:600;
+}
+.recipe-license{
+  opacity: 0.9;
+  flex:0 0 auto;
+}
+.recipe-license a{
+  display:block;
+}
+.recipe-license img{
+  height: 24px;
+  width: auto;
+  max-width: none;
+  display: block;
+}
+.recipe-qrcode{
+  flex:0 0 auto;
+  margin-left:auto;
+}
+.recipe-qrcode a{
+  display:block;
+}
+.recipe-qrcode img{
+  width:84px;
+  max-width:84px;
+  height:84px;
+  display:block;
+  cursor:zoom-in;
 }
 .recipe-page .meta-grid,
 .recipe-page .lead,
 .recipe-page .block,
 .recipe-page .notes,
 .recipe-page .rp-license-wrap{
+  width: 100%;
   max-width: min(100%, var(--reading));
 }
+@media (max-width: 760px){
+  .recipe-page .rp-license-wrap{
+    align-items:flex-start;
+  }
+  .recipe-qrcode img{
+    width:72px;
+    max-width:72px;
+    height:72px;
+  }
+}
+
 .recipe-page .lead{
   background: rgba(255,255,255,0.68);
   border: 1px solid var(--line);
@@ -33,20 +86,19 @@
 .recipe-page .block h2:first-child{
   margin-top: 0;
 }
-.recipe-page .rp-license-wrap{
-  margin-top: 1.5rem;
-}
-.recipe-license{
-  opacity: 0.9;
-}
-.recipe-license img{
-  width: 100px;
-  max-width: 100px;
-  height: auto;
-  display: block;
-}
 @media (max-width: 760px){
-  .recipe-page .lead{
+  @media (max-width: 760px){
+  .recipe-page .rp-license-wrap{
+    align-items:flex-start;
+  }
+  .recipe-qrcode img{
+    width:72px;
+    max-width:72px;
+    height:72px;
+  }
+}
+
+.recipe-page .lead{
     padding: 1rem 1rem;
   }
 }</style>
@@ -70,14 +122,14 @@ main figure:not(.recipe-license) img{cursor:zoom-in;}</style>
 </header>
 
 <main class="recipe-page">
-<main class="recipe-page">
 
-<h1>Calamari ripieni</h1><div class="recipe-content"><section class="lead"><h2>Introduzione e contesto</h2><figure class="step-photo-large step-photo" style="width: 46%; max-width: 46%; margin-left: auto; margin-right: auto;"><img alt="" src="../../foto/calamari-ripieni/01.jpg"/><figcaption></figcaption></figure><p>Qui il calamaro fa la differenza...<br/>Se è troppo fresco può risultare sorprendentemente duro.<br data-end="2181" data-start="2178"/>
-Meglio che sia stato abbattuto oppure lasciato riposare qualche giorno.</p></section><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Secondi</span></div><div class="meta-card"><strong>Geografia</strong><span>Italia - Puglia</span></div><div class="meta-card"><strong>Fonte</strong><span>Nicola Fusco</span></div></section><section class="block"><h2>Ingredienti</h2><table class="recipe-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Calamari</td><td>10</td><td>n</td><td></td></tr><tr><td>Uova</td><td>10</td><td>n</td><td></td></tr><tr><td>Prezzemolo</td><td>qb</td><td></td><td></td></tr><tr><td>Pecorino romano</td><td>150</td><td>g</td><td>Bronzetto</td></tr><tr><td>Aglio</td><td>1</td><td>n</td><td></td></tr><tr><td>Pomodoro</td><td></td><td></td><td></td></tr><tr><td>Olio extra verdine d'oliva</td><td></td><td></td><td></td></tr><tr><td>Sale</td><td></td><td></td><td></td></tr><tr><td>Pepe</td><td></td><td></td><td></td></tr></tbody></table></section><section class="block preparation-block"><h2>Preparazione</h2><ol class="steps"><li><figure class="step-photo-right step-photo" style="width: 18%; max-width: 18%; clear: none;"><img alt="" src="../../foto/calamari-ripieni/05.jpg"/><figcaption></figcaption></figure><figure class="step-photo-right step-photo" style="width: 18%; max-width: 18%; clear: none;"><img alt="" src="../../foto/calamari-ripieni/07.jpg"/><figcaption></figcaption></figure><p data-end="529" data-start="378">Io preparo per prima cosa il ripieno.<br data-end="418" data-start="415"/>
+
+<div class="recipe-content"><h1>Calamari ripieni</h1><section class="lead"><h2>Introduzione e contesto</h2><figure class="step-photo step-photo-large" style="width: 46%; max-width: 46%; margin-left: auto; margin-right: auto;"><img alt="" src="../../foto/calamari-ripieni/01.jpg"/><figcaption></figcaption></figure><p>Qui il calamaro fa la differenza...<br/>Se è troppo fresco può risultare sorprendentemente duro.<br data-end="2181" data-start="2178"/>
+Meglio che sia stato abbattuto oppure lasciato riposare qualche giorno.</p></section><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Secondi</span></div><div class="meta-card"><strong>Geografia</strong><span>Italia - Puglia</span></div><div class="meta-card"><strong>Fonte</strong><span>Nicola Fusco</span></div></section><section class="block"><h2>Ingredienti</h2><table class="recipe-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Calamari</td><td>10</td><td>n</td><td></td></tr><tr><td>Uova</td><td>10</td><td>n</td><td></td></tr><tr><td>Prezzemolo</td><td>qb</td><td></td><td></td></tr><tr><td>Pecorino romano</td><td>150</td><td>g</td><td>Bronzetto</td></tr><tr><td>Aglio</td><td>1</td><td>n</td><td></td></tr><tr><td>Pomodoro</td><td></td><td></td><td></td></tr><tr><td>Olio extra verdine d'oliva</td><td></td><td></td><td></td></tr><tr><td>Sale</td><td></td><td></td><td></td></tr><tr><td>Pepe</td><td></td><td></td><td></td></tr></tbody></table></section><section class="preparation-block block"><h2>Preparazione</h2><ol class="steps"><li><figure class="step-photo step-photo-right" style="width: 18%; max-width: 18%; clear: none;"><img alt="" src="../../foto/calamari-ripieni/05.jpg"/><figcaption></figcaption></figure><figure class="step-photo step-photo-right" style="width: 18%; max-width: 18%; clear: none;"><img alt="" src="../../foto/calamari-ripieni/07.jpg"/><figcaption></figcaption></figure><p data-end="529" data-start="378">Io preparo per prima cosa il ripieno.<br data-end="418" data-start="415"/>
 Cuocio molto lentamente in padella, con poco olio, le uova sbattute con pecorino, sale, pepe e prezzemolo.</p><p data-end="641" data-start="534">Qui bisogna fare attenzione: non deve diventare una frittata.<br data-end="598" data-start="595"/>
 Devono restare morbide, quasi cremose.</p><p data-end="904" data-start="646">Per riuscirci tengo il fuoco basso e interrompo spesso la cottura, spostando la padella dal calore per non far salire troppo la temperatura.<br data-end="789" data-start="786"/>
-Quando sono appena rapprese le tolgo e le lascio raffreddare un poco, in modo che non continuino a solidificare.</p></li><li><figure class="step-photo-right step-photo" style="width: 18%; max-width: 18%; clear: none;"><img alt="" src="../../foto/calamari-ripieni/02.jpg"/><figcaption></figcaption></figure><p>Riempio i calamari con questo composto, senza forzarli troppo, e li richiudo con la testa. Li cucio con ago e filo bianco.</p></li><li><figure class="step-photo-right step-photo" style="width: 18%; max-width: 18%; clear: none;"><img alt="" src="../../foto/calamari-ripieni/06.jpg"/><figcaption></figcaption></figure><figure class="step-photo-right step-photo" style="width: 18%; max-width: 18%; clear: none;"><img alt="" src="../../foto/calamari-ripieni/03.jpg"/><figcaption></figcaption></figure><p>In una padella faccio profumare l’aglio in poco olio e poi lo tolgo.<br data-end="1107" data-start="1104"/>Metto i calamari e li faccio rosolare con calma, girandoli, finché prendono colore.</p></li><li><p>Quando hanno già perso parte della loro acqua e questa si è in parte consumata, aggiungo il pomodoro.<br data-end="1302" data-start="1299"/>
-Preferisco una soluzione più fresca e meno cotta della ricetta originaria: pomodoro appena scottato o una salsa molto leggera, aggiunta solo in questa fase</p></li><li><figure class="step-photo-right step-photo" style="width: 18%; max-width: 18%; clear: none;"><img alt="" src="../../foto/calamari-ripieni/01.jpg"/><figcaption></figcaption></figure><p>Completo la cottura senza allungarla troppo.<br data-end="1513" data-start="1510"/>
+Quando sono appena rapprese le tolgo e le lascio raffreddare un poco, in modo che non continuino a solidificare.</p></li><li><figure class="step-photo step-photo-right" style="width: 18%; max-width: 18%; clear: none;"><img alt="" src="../../foto/calamari-ripieni/02.jpg"/><figcaption></figcaption></figure><p>Riempio i calamari con questo composto, senza forzarli troppo, e li richiudo con la testa. Li cucio con ago e filo bianco.</p></li><li><figure class="step-photo step-photo-right" style="width: 18%; max-width: 18%; clear: none;"><img alt="" src="../../foto/calamari-ripieni/06.jpg"/><figcaption></figcaption></figure><figure class="step-photo step-photo-right" style="width: 18%; max-width: 18%; clear: none;"><img alt="" src="../../foto/calamari-ripieni/03.jpg"/><figcaption></figcaption></figure><p>In una padella faccio profumare l’aglio in poco olio e poi lo tolgo.<br data-end="1107" data-start="1104"/>Metto i calamari e li faccio rosolare con calma, girandoli, finché prendono colore.</p></li><li><p>Quando hanno già perso parte della loro acqua e questa si è in parte consumata, aggiungo il pomodoro.<br data-end="1302" data-start="1299"/>
+Preferisco una soluzione più fresca e meno cotta della ricetta originaria: pomodoro appena scottato o una salsa molto leggera, aggiunta solo in questa fase</p></li><li><figure class="step-photo step-photo-right" style="width: 18%; max-width: 18%; clear: none;"><img alt="" src="../../foto/calamari-ripieni/01.jpg"/><figcaption></figcaption></figure><p>Completo la cottura senza allungarla troppo.<br data-end="1513" data-start="1510"/>
 Il punto giusto è quando il calamaro resta morbido e il sugo accompagna senza coprire il ripieno.</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><p></p><li data-end="1803" data-start="1644"><strong data-end="1697" data-start="1646">Le uova del ripieno sono il punto più delicato.</strong><br data-end="1700" data-start="1697"/>
 Se diventano una frittata, il piatto si appesantisce subito. Devono restare morbide, quasi una crema.
 </li>
@@ -88,8 +140,7 @@ Se si insiste un po’ diventano duri.<br data-end="1930" data-start="1927"/>
 Solo con una cottura lunga tornano morbidi.<br/>Qui conviene stare nella prima zona: cottura controllata, senza prolungarla troppo.</p>
 </li>
 <li data-end="2424" data-start="2066">
-</li></section><div class="rp-license-wrap"><div class="recipe-license"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></div></div></div></main>
-</main>
+</li></section><div class="rp-license-wrap"><div class="recipe-license"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><div class="recipe-qrcode"><a class="recipe-qrcode-link" href="../../foto/calamari-ripieni/qr-code.png"><img alt="QR ricetta" src="../../foto/calamari-ripieni/qr-code.png"/></a></div></div></div></main>
 </div>
 <script id="recipe-lightbox-script">(function(){
   function ensureLightbox(){
