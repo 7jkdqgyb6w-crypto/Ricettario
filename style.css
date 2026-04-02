@@ -795,3 +795,22 @@ main.recipe-page .recipe-content[style]{
   max-width:60px !important;
   height:60px !important;
 }
+/* === HEADER FISSO CON GABBIA === */
+
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(calc(100% - 3rem), 1100px); /* regola 1100px se serve */
+  z-index: 1000;
+  background: var(--bg); /* ✔ PERFETTO */
+/*  background: #e6e9e9;*/ /* oppure il tuo colore esatto */
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+  margin-bottom: 0; /* annulla lo spazio vecchio, ora inutile */
+}
+
+/* Compensazione per il contenuto sotto */
+body {
+  padding-top: 90px; /* regola se serve */
+}
