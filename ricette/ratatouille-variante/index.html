@@ -8,18 +8,67 @@
   <style id="recipe-layout-style">.recipe-page{
   max-width: 100%;
 }
-.recipe-page > h1{
-  margin-bottom: 1.2rem;
-}
 .recipe-page .recipe-content{
   width: 100%;
   max-width: min(100%, var(--reading));
+}
+
+.recipe-page .recipe-content > h1{
+  margin: 0 0 1.2rem 0;
+}
+.recipe-page .rp-license-wrap{
+  margin-top: 1.5rem;
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:1rem;
+}
+.recipe-page .lead a,
+.recipe-page .block a,
+.recipe-page .notes a{
+  color:#5f86ad;
+  font-weight:600;
+}
+.recipe-license{
+  opacity: 0.9;
+  flex:0 0 auto;
+}
+.recipe-license a{
+  display:block;
+}
+.recipe-license img{
+  width: 70px;
+  max-width: 70px;
+  height: auto;
+  display: block;
+}
+.recipe-qrcode{
+  flex:0 0 auto;
+  margin-left:auto;
+}
+.recipe-qrcode,
+.recipe-qrcode a{
+  display:block !important;
+  float:none !important;
+  clear:none !important;
+  margin:0 !important;
+}
+.recipe-qrcode img{
+  display:block !important;
+  width:60px !important;
+  max-width:60px !important;
+  height:60px !important;
+  cursor:zoom-in;
+}
+.recipe-qrcode figcaption{
+  display:none !important;
 }
 .recipe-page .meta-grid,
 .recipe-page .lead,
 .recipe-page .block,
 .recipe-page .notes,
 .recipe-page .rp-license-wrap{
+  width: 100%;
   max-width: min(100%, var(--reading));
 }
 .recipe-page .lead{
@@ -32,18 +81,6 @@
 .recipe-page .notes h2:first-child,
 .recipe-page .block h2:first-child{
   margin-top: 0;
-}
-.recipe-page .rp-license-wrap{
-  margin-top: 1.5rem;
-}
-.recipe-license{
-  opacity: 0.9;
-}
-.recipe-license img{
-  width: 100px;
-  max-width: 100px;
-  height: auto;
-  display: block;
 }
 @media (max-width: 760px){
   .recipe-page .lead{
@@ -70,11 +107,9 @@ main figure:not(.recipe-license) img{cursor:zoom-in;}</style>
 </header>
 
 <main class="recipe-page">
-<main class="recipe-page">
 
 
-<h1>Ratatouille (variante)</h1><div class="recipe-content"><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Contorno</span></div><div class="meta-card"><strong>Geografia</strong><span>Francia - Provenza</span></div><div class="meta-card"><strong>Fonte</strong><span>Guillaume E.</span></div></section><section class="lead"><h2>Introduzione e contesto</h2><p>Da una ricetta tradizionale una piccola variante che mi è stata suggerita</p><figure class="step-photo-large step-photo" style="width: 63.9%; max-width: 63.9%; margin-left: auto; margin-right: auto;"><img alt="" src="../../foto/ratatouille-variante/01.jpg"/><figcaption></figcaption></figure><p>Scaltrire le verdure una qualità alla volta. In italiano si intende rendere scaltro, avveduto, attraverso una esperienza (scottarsi).Etimologia: ← lat. volg. cauterīre ‘bruciare’, deriv. di cauterĭum ‘cauterio’, perché il restare scottato induce a un comportamento più prudente. Il Veneto ha esteso il termine alla cucina intendendo per “scaltrire” fare saltare con olio e aglio qualcosa.</p><p><br/></p></section><section class="block"><h2>Ingredienti</h2><table class="recipe-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Melanzane lunghe</td><td>5</td><td>n</td><td></td></tr><tr><td>Zucchine</td><td></td><td></td><td>uguale peso delle melanzane</td></tr><tr><td>Peperoni gialli e rossi</td><td>3</td><td>n</td><td></td></tr><tr><td>Cipolla bianca</td><td>2</td><td>n</td><td></td></tr><tr><td>Aglio</td><td>3</td><td>n</td><td></td></tr><tr><td>Basilico</td><td></td><td></td><td></td></tr><tr><td>Sale</td><td></td><td></td><td></td></tr><tr><td>Pepe</td><td></td><td></td><td></td></tr></tbody></table></section><section class="block preparation-block"><h2>Preparazione</h2><ol class="steps"><li><p>Le verdure (freschissime, da produzione orticola) vanno tagliate a cubetti non più grandi di un paio di cm. max. Si possono tagliare progressivamente che si cuociono, per evitare una eventuale ossidazione. Si comincia dalle melanzane (cui avrete tolto il cuore, se ha semi grossi o colore alterato), poi zucchine, e infine i peperoni. Frattanto in una padella di grandi dimensioni avrete messo ad appassire due cipolle bianche con un paio di spicchi d'aglio. Scaltrire le verdure una qualità alla volta.</p><figure class="step-photo-right step-photo" style="width: 46%; max-width: 46%; clear: none;"><img alt="" src="../../foto/ratatouille-variante/IMG_4155.jpg"/><figcaption></figcaption></figure><figure class="step-photo-right step-photo" style="width: 46%; max-width: 46%; clear: none;"><img alt="" src="../../foto/ratatouille-variante/IMG_4160.jpg"/><figcaption></figcaption></figure></li><li><p>Non friggere, ma scottare. Il termine Veneto bene indica un procedimento di cottura parziale provenzale. In pratica si tratta di fare cuocere a fiamma viva i cubetti verdure con alcuni cucchiai di olio e spicchi di aglio. Le verdure devono restare croccanti. Non afflosciarsi. Molto indietro nella cottura.</p></li><li><p>Un poco rosolate tanto da cauterizzarsi, da formare una pellicola esterna che trattenga i liquidi interni. Man mano che saranno pronte, togliere dalla padella e passare in quella dove la cipolla appassisce, sempre a fuoco vivo. Se è il caso eliminare l'olio di troppo.A fine cottura. Aggiungere timo, sale, pepe, e continuare la cottura sintanto che le verdure mantengono la loro consistenza e sono ancora croccanti.</p><figure class="step-photo-right step-photo" style="width: 46%; max-width: 46%; clear: none;"><img alt="" src="../../foto/ratatouille-variante/IMG_4158.jpg"/><figcaption></figcaption></figure><figure class="step-photo-right step-photo" style="width: 46%; max-width: 46%; clear: none;"><img alt="" src="../../foto/ratatouille-variante/IMG_4157.jpg"/><figcaption></figcaption></figure></li><li><figure class="step-photo-right step-photo" style="width: 46%; max-width: 46%; clear: none;"><img alt="" src="../../foto/ratatouille-variante/IMG_4161.jpg"/><figcaption></figcaption></figure><figure class="step-photo-right step-photo" style="width: 46%; max-width: 46%; clear: none;"><img alt="" src="../../foto/ratatouille-variante/IMG_01.jpg"/><figcaption></figcaption></figure><p>Aggiungere abbondante basilico. Già cos' è un ottimo contorno. Fredda il giorno dopo è una entrée superlativa. La cottura separata e non completa esalta i singoli sapori. Riscaldata e portata a fine cottura è un ottimo contorno, più tradizionale </p></li><li><p>Vino: Viogner del Rodano fresco.</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><p></p></section><div class="rp-license-wrap"><div class="recipe-license"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><div class="recipe-qrcode"><a class="recipe-qrcode-link" href="../../foto/ratatouille-variante/qr-code.png"><img alt="QR ricetta" src="../../foto/ratatouille-variante/qr-code.png"/></a></div></div></div></main>
-</main>
+<div class="recipe-content"><h1>Ratatouille (variante)</h1><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Contorno</span></div><div class="meta-card"><strong>Geografia</strong><span>Francia - Provenza</span></div><div class="meta-card"><strong>Fonte</strong><span>Guillaume E.</span></div></section><section class="lead"><h2>Introduzione e contesto</h2><p>Da una ricetta tradizionale una piccola variante che mi è stata suggerita. Frequentando spesso la Drome provenzale ho dovuto imparare a conoscere la cucina locale. Qui un percorso dal <a href="https://goo.gl/photos/cvpbziJiMDTcAjps5" rel="noopener noreferrer" target="_blank">colle dell'Agnello a Roussignol.</a></p><figure class="step-photo step-photo-large" style="width: 63.9%; max-width: 63.9%; margin-left: auto; margin-right: auto;"><img alt="" src="../../foto/ratatouille-variante/01.jpg"/><figcaption></figcaption></figure><p>Scaltrire le verdure una qualità alla volta. In italiano si intende rendere scaltro, avveduto, attraverso una esperienza (scottarsi).Etimologia: ← lat. volg. cauterīre ‘bruciare’, deriv. di cauterĭum ‘cauterio’, perché il restare scottato induce a un comportamento più prudente. Il Veneto ha esteso il termine alla cucina intendendo per “scaltrire” fare saltare con olio e aglio qualcosa.<br/>Anche altre ricette sono legate a questo territorio La Soupe au Pistou e la <a href="../daube/index.html">Daube provenzale</a>.</p><p><br/></p></section><section class="block"><h2>Ingredienti</h2><table class="recipe-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Melanzane lunghe</td><td>5</td><td>n</td><td></td></tr><tr><td>Zucchine</td><td></td><td></td><td>uguale peso delle melanzane</td></tr><tr><td>Peperoni gialli e rossi</td><td>3</td><td>n</td><td></td></tr><tr><td>Cipolla bianca</td><td>2</td><td>n</td><td></td></tr><tr><td>Aglio</td><td>3</td><td>n</td><td></td></tr><tr><td>Basilico</td><td></td><td></td><td></td></tr><tr><td>Sale</td><td></td><td></td><td></td></tr><tr><td>Pepe</td><td></td><td></td><td></td></tr></tbody></table></section><section class="block preparation-block"><h2>Preparazione</h2><ol class="steps"><li><p>Le verdure (freschissime, da produzione orticola) vanno tagliate a cubetti non più grandi di un paio di cm. max. Si possono tagliare progressivamente che si cuociono, per evitare una eventuale ossidazione. Si comincia dalle melanzane (cui avrete tolto il cuore, se ha semi grossi o colore alterato), poi zucchine, e infine i peperoni. Frattanto in una padella di grandi dimensioni avrete messo ad appassire due cipolle bianche con un paio di spicchi d'aglio. Scaltrire le verdure una qualità alla volta.</p><figure class="step-photo step-photo-right" style="width: 46%; max-width: 46%; clear: none;"><img alt="" src="../../foto/ratatouille-variante/IMG_4155.jpg"/><figcaption></figcaption></figure><figure class="step-photo step-photo-right" style="width: 46%; max-width: 46%; clear: none;"><img alt="" src="../../foto/ratatouille-variante/IMG_4160.jpg"/><figcaption></figcaption></figure></li><li><p>Non friggere, ma scottare. Il termine Veneto bene indica un procedimento di cottura parziale provenzale. In pratica si tratta di fare cuocere a fiamma viva i cubetti verdure con alcuni cucchiai di olio e spicchi di aglio. Le verdure devono restare croccanti. Non afflosciarsi. Molto indietro nella cottura.</p></li><li><p>Un poco rosolate tanto da cauterizzarsi, da formare una pellicola esterna che trattenga i liquidi interni. Man mano che saranno pronte, togliere dalla padella e passare in quella dove la cipolla appassisce, sempre a fuoco vivo. Se è il caso eliminare l'olio di troppo.A fine cottura. Aggiungere timo, sale, pepe, e continuare la cottura sintanto che le verdure mantengono la loro consistenza e sono ancora croccanti.</p><figure class="step-photo step-photo-right" style="width: 46%; max-width: 46%; clear: none;"><img alt="" src="../../foto/ratatouille-variante/IMG_4158.jpg"/><figcaption></figcaption></figure><figure class="step-photo step-photo-right" style="width: 46%; max-width: 46%; clear: none;"><img alt="" src="../../foto/ratatouille-variante/IMG_4157.jpg"/><figcaption></figcaption></figure></li><li><figure class="step-photo step-photo-right" style="width: 46%; max-width: 46%; clear: none;"><img alt="" src="../../foto/ratatouille-variante/IMG_4161.jpg"/><figcaption></figcaption></figure><figure class="step-photo step-photo-right" style="width: 46%; max-width: 46%; clear: none;"><img alt="" src="../../foto/ratatouille-variante/IMG_01.jpg"/><figcaption></figcaption></figure><p>Aggiungere abbondante basilico. Già cos' è un ottimo contorno. Fredda il giorno dopo è una entrée superlativa. La cottura separata e non completa esalta i singoli sapori. Riscaldata e portata a fine cottura è un ottimo contorno, più tradizionale </p></li><li><p>Vino: Viogner del Rodano fresco.</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><p></p></section><div class="rp-license-wrap"><div class="recipe-license"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><div class="recipe-qrcode"><a class="recipe-qrcode-link" href="../../foto/ratatouille-variante/qr-code.png"><img alt="QR ricetta" src="../../foto/ratatouille-variante/qr-code.png"/></a></div></div></div></main>
 </div>
 <script id="recipe-lightbox-script">(function(){
   function ensureLightbox(){

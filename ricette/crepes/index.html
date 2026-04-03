@@ -37,24 +37,31 @@
   display:block;
 }
 .recipe-license img{
-  height: 24px;
-  width: auto;
-  max-width: none;
+  width: 70px;
+  max-width: 70px;
+  height: auto;
   display: block;
 }
 .recipe-qrcode{
   flex:0 0 auto;
   margin-left:auto;
 }
+.recipe-qrcode,
 .recipe-qrcode a{
-  display:block;
+  display:block !important;
+  float:none !important;
+  clear:none !important;
+  margin:0 !important;
 }
 .recipe-qrcode img{
-  width:84px;
-  max-width:84px;
-  height:84px;
-  display:block;
+  display:block !important;
+  width:60px !important;
+  max-width:60px !important;
+  height:60px !important;
   cursor:zoom-in;
+}
+.recipe-qrcode figcaption{
+  display:none !important;
 }
 .recipe-page .meta-grid,
 .recipe-page .lead,
@@ -64,17 +71,6 @@
   width: 100%;
   max-width: min(100%, var(--reading));
 }
-@media (max-width: 760px){
-  .recipe-page .rp-license-wrap{
-    align-items:flex-start;
-  }
-  .recipe-qrcode img{
-    width:72px;
-    max-width:72px;
-    height:72px;
-  }
-}
-
 .recipe-page .lead{
   background: rgba(255,255,255,0.68);
   border: 1px solid var(--line);
@@ -86,19 +82,20 @@
 .recipe-page .block h2:first-child{
   margin-top: 0;
 }
-@media (max-width: 760px){
-  @media (max-width: 760px){
-  .recipe-page .rp-license-wrap{
-    align-items:flex-start;
-  }
-  .recipe-qrcode img{
-    width:72px;
-    max-width:72px;
-    height:72px;
-  }
+.recipe-page .lead::after,
+.recipe-page .block::after,
+.recipe-page .notes::after{
+  content: "";
+  display: block;
+  clear: both;
 }
-
-.recipe-page .lead{
+.recipe-page .lead > h2,
+.recipe-page .block > h2,
+.recipe-page .notes > h2{
+  clear: both;
+}
+@media (max-width: 760px){
+  .recipe-page .lead{
     padding: 1rem 1rem;
   }
 }</style>
@@ -122,30 +119,20 @@ main figure:not(.recipe-license) img{cursor:zoom-in;}</style>
 </header>
 
 <main class="recipe-page">
+<main class="recipe-page">
 
 
-<div class="recipe-content"><h1>Crêpes</h1><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Dolci</span></div><div class="meta-card"><strong>Geografia</strong><span>Francia</span></div><div class="meta-card"><strong>Fonte</strong><span>Jacqueline Gibert</span></div></section><section class="lead"><h2>Introduzione e contesto</h2><p></p><figure class="step-photo-right step-photo" style="width: 38.6%; max-width: 38.6%; clear: none;"><img alt="" src="../../foto/crepes/P8210015.jpg"/><figcaption></figcaption></figure><p data-end="334" data-start="210">Sì, certo: Bretagna e <a href="https://photos.app.goo.gl/fYr9SAwrGm2vvy5E9" rel="noopener noreferrer" target="_blank">Normandia</a> (&lt;- cliccami per vedere l'album).<br/>Luce, vento, nuvole basse che sembrano uscire da un quadro di Magritte, quasi da toccare.</p>
-<p data-end="385" data-start="336"></p><div><br/></div><div><br/></div><div><br/></div><div><br/></div>Ma per me le crêpes non sono lì.<br data-end="371" data-start="368"/>
-Sono casa mia.<p></p>
-<p data-end="633" data-start="387">L’estate, la campagna, una cucina semplice ma piena di cose vere: uova del pollaio vicino, farina buona, limoni non trattati, latte appena munto e bollito in casa, burro fresco.<br data-end="567" data-start="564"/>
-Quello che una volta era normale, oggi è diventato straordinario.</p>
-<p data-end="724" data-start="635">Questa è la base.<br data-end="655" data-start="652"/>
-Quella che si faceva senza pensarci troppo, ma che funzionava sempre.</p><p></p><figure class="step-photo-large step-photo" style="width: 60.5%; max-width: 60.5%; margin-left: auto; margin-right: auto;"><img alt="" src="../../foto/crepes/01.jpg"/><figcaption></figcaption></figure></section><section class="block"><h2>Ingredienti</h2><table class="recipe-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Uova</td><td>4</td><td>uova</td><td>allevate a terra</td></tr><tr><td>Farina di frumento 00</td><td><br/></td><td><br/></td><td></td></tr><tr><td>Burro </td><td>50</td><td>g</td><td>molto fresco</td></tr><tr><td>Latte intero</td><td>qb</td><td></td><td> (anche senza lattosio)</td></tr><tr><td>Acqua</td><td>qb</td><td></td><td></td></tr><tr><td>Sale</td><td>qb</td><td></td><td></td></tr><tr><td>Zucchero di canna </td><td>qb</td><td></td><td>chiaro e ben macinato</td></tr><tr><td>Limone </td><td>1</td><td></td><td>BIO e non trattato (si usa la buccia)</td></tr></tbody></table></section><section class="preparation-block block"><h2>Preparazione</h2><ol class="steps"><li><figure class="step-photo-right step-photo" style="width: 18%; max-width: 18%; clear: none;"><img alt="" src="../../foto/crepes/03.jpg"/><figcaption></figcaption></figure><figure class="step-photo-right step-photo" style="width: 18%; max-width: 18%; clear: none;"><img alt="" src="../../foto/crepes/02.jpg"/><figcaption></figcaption></figure><p>Sbattere a lungo le uova sino ad avere un composto omogeneo di bianco e rosso. Aggiungere poco alla volta la farina che prima sbattete con la frusta, poi impastate con il cucchiaio, sino ad avere un impasto che tiene, io da ragazzo lo chiamavo "gomma da masticare".</p></li><li><figure class="step-photo-right step-photo" style="width: 18.3%; max-width: 18.3%; clear: none;"><img alt="" src="../../foto/crepes/04.jpg"/><figcaption></figcaption></figure><p>Impastare a lungo, in modo che non vi siano più eventuali grumi. Proprio la lavorazione li distrugge. Aggiungere una noce di burro fusa delicatamente ed inglobare. La densità non dovrebbe cambiare di molto, salvo essere un poco più elastica. Aggiungere in parti uguali acqua e farina molto lentamente (e non gelate) mescolando perché il tutto si amalgami lentamente, senza formare grumi per la fretta.</p></li><li><figure class="step-photo-right step-photo" style="width: 18%; max-width: 18%; clear: none;"><img alt="" src="../../foto/crepes/07.jpg"/><figcaption></figcaption></figure><figure class="step-photo-right step-photo" style="width: 18%; max-width: 18%; clear: none;"><img alt="" src="../../foto/crepes/06.jpg"/><figcaption></figcaption></figure><figure class="step-photo-right step-photo" style="width: 18%; max-width: 18%; clear: none;"><img alt="" src="../../foto/crepes/05.jpg"/><figcaption></figcaption></figure><p>Il risultato finale dovrà essere una pastella che possa colare ma non gocciolare. Aggiungere un pizzico di sale e alcune scorze di limone. Lasciare riposare diverse ore al fresco. Il giorno dopo saranno al top. Il riposo permette alla farina di continuare l'idratazione, infatti vedrete che la pastella si sarà notevolmente addensata e necessiterà di ulteriore diluizione.</p></li><li><p>Più liquida sarà, più potranno essere sottili. Questioni di gusto. La padella, va bene quella che preferite. Una colta avevo una padella in ferro dedicata solo a questo. Consentiva delle sottili bruciature, forse non consigliabili, ma una volta apprezzate. Il fondo va preparato con un poco di burro. Non si tratta di dare gusto, ma solo permettere un minimo di lubrificazione della superfice.</p></li><li><figure class="step-photo-right step-photo" style="width: 23.7%; max-width: 23.7%; clear: none;"><img alt="" src="../../foto/crepes/14.jpg"/><figcaption></figcaption></figure><p>Io poi passo sempre panno di carta per togliere eventuali eccessi. Versare con il mestolo la pastella (a temperatura ambiente) a giri concentrici per distribuire un velo su tutta la superfice ruotando ed inclinando la padella per riempire le lacune. Io le preferisco quando restano molto sottili, ma non come quelle secche che vendono agli angoli delle strade in Francia. Quando ha preso consistenza e sotto appare appena colorato, rivoltare al salto (più che bravura è una questione di padella) e continuare la cottura.</p><figure class="step-photo-right step-photo" style="width: 24.4%; max-width: 24.4%; clear: none;"><img alt="" src="../../foto/crepes/08.jpg"/><figcaption></figcaption></figure><figure class="step-photo-right step-photo" style="width: 19.7%; max-width: 19.7%; clear: none;"><img alt="" src="../../foto/crepes/09.jpg"/><figcaption></figcaption></figure><figure class="step-photo step-photo-left" style="width: 18%; max-width: 18%; clear: none;"><img alt="" src="../../foto/crepes/10.jpg"/><figcaption></figcaption></figure><figure class="step-photo step-photo-left" style="width: 21.6%; max-width: 21.6%; clear: none;"><img alt="" src="../../foto/crepes/11.jpg"/><figcaption></figcaption></figure></li><li><figure class="step-photo step-photo-left" style="width: 21.3%; max-width: 21.3%; clear: none;"><img alt="" src="../../foto/crepes/12.jpg"/><figcaption></figcaption></figure><p>Se non riesce, va benissimo una paletta sottile. Non dovrebbero esserci problemi staccare dalla padella, facilmente l'aria l'ha staccata per conto suo gonfiandola. Nella ricetta base aggiungere zucchero sulla superfice (se pensate di farle salate, ovviamente NO, neppure se pensate a farciture. Quando comincia a prendere un colore ambrato scuro e lo zucchero si è sciolto, arrotolare, o piegare a spicchi e servire caldo in piatto con un altro cucchiaino di zucchero. </p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><ul class="clean"><li>Sono indicati tempi di riposo: rispettarli aiuta struttura e sapore del piatto.</li><li>Indicazione di tempo presente nel testo: 20 minuti + cottura</li></ul><p></p><ul data-end="3068" data-start="2789"><li data-end="2869" data-start="2789">Il riposo è fondamentale: senza, la pastella è meno stabile e meno elastica.
-</li>
-<li data-end="2957" data-start="2870">
-La padella conta più della tecnica: quando è giusta, le crêpes si staccano da sole.
-</li>
-<li data-end="3015" data-start="2958">
-Il burro serve solo a lubrificare, non a dare sapore.
-</li>
-<li data-end="3068" data-start="3016">
-Lo zucchero deve appena caramellare, non bruciare.
-</li>
-</ul>
-<p data-end="3158" data-start="3070">Si può poi fare tutto:<br data-end="3095" data-start="3092"/>
-Nutella, Suzette, Grand Marnier, banane e rum, versioni salate…</p>
-<p data-end="3202" data-is-last-node="" data-is-only-node="" data-start="3160">Ma questa è la base.<br data-end="3183" data-start="3180"/>
-Quella di casa mia.</p><p></p></section><div class="rp-license-wrap"><div class="recipe-license"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><div class="recipe-qrcode"><a class="recipe-qrcode-link" href="../../foto/crepes/qr-code.png"><img alt="QR ricetta" src="../../foto/crepes/qr-code.png"/></a></div></div></div></main>
+<div class="recipe-content"><h1>Crêpes</h1><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Dolci</span></div><div class="meta-card"><strong>Geografia</strong><span>Francia</span></div><div class="meta-card"><strong>Fonte</strong><span>Jacqueline Gibert</span></div></section><section class="lead"><h2>Introduzione e contesto</h2><p><span class="box-badge">Lead</span></p><figure class="step-photo step-photo-right" style="width: 38.6%; max-width: 38.6%; clear: none;"><img alt="" src="../../foto/crepes/P8210015.jpg"/><figcaption></figcaption></figure><p data-end="334" data-start="210">Sì, certo: Bretagna e <a href="https://photos.app.goo.gl/fYr9SAwrGm2vvy5E9" rel="noopener noreferrer" target="_blank">Normandia</a> (&lt;- cliccami per vedere l'album).<br/>Luce, vento, nuvole basse che sembrano uscire da un quadro di Magritte, quasi da toccare.</p><p>Ma per me le crêpes non sono lì.</p><p>Sono casa mia.</p><p data-end="633" data-start="387">L’estate, la campagna, una cucina semplice ma piena di cose vere: uova del pollaio vicino, farina buona, limoni non trattati, latte appena munto e bollito in casa, burro fresco.<br data-end="567" data-start="564"/>
+Quello che una volta era normale, oggi è diventato straordinario.</p><p data-end="724" data-start="635">Questa è la base.<br data-end="655" data-start="652"/>
+Quella che si faceva senza pensarci troppo, ma che funzionava sempre.</p><figure class="step-photo-large step-photo" style="width: 60.5%; max-width: 60.5%; margin-left: auto; margin-right: auto;"><img alt="" src="../../foto/crepes/01.jpg"/><figcaption></figcaption></figure></section><section class="block"><h2>Ingredienti</h2><table class="recipe-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Uova</td><td>4</td><td>uova</td><td>allevate a terra</td></tr><tr><td>Farina di frumento 00</td><td><br/></td><td><br/></td><td></td></tr><tr><td>Burro </td><td>50</td><td>g</td><td>molto fresco</td></tr><tr><td>Latte intero</td><td>qb</td><td></td><td> (anche senza lattosio)</td></tr><tr><td>Acqua</td><td>qb</td><td></td><td></td></tr><tr><td>Sale</td><td>qb</td><td></td><td></td></tr><tr><td>Zucchero di canna </td><td>qb</td><td></td><td>chiaro e ben macinato</td></tr><tr><td>Limone </td><td>1</td><td></td><td>BIO e non trattato (si usa la buccia)</td></tr></tbody></table></section><section class="block preparation-block"><h2>Preparazione</h2><ol class="steps"><li><figure class="step-photo step-photo-right" style="width: 18.3%; max-width: 18.3%; clear: none;"><img alt="" src="../../foto/crepes/04.jpg"/><figcaption></figcaption></figure><figure class="step-photo step-photo-right" style="width: 18%; max-width: 18%; clear: none;"><img alt="" src="../../foto/crepes/03.jpg"/><figcaption></figcaption></figure><figure class="step-photo step-photo-right" style="width: 18%; max-width: 18%; clear: none;"><img alt="" src="../../foto/crepes/02.jpg"/><figcaption></figcaption></figure><p><strong data-end="1756" data-start="1686">Imposto la base dell’impasto partendo dalle uova e dalla farina</strong><br data-end="1759" data-start="1756"/>
+Io comincio sempre dalle uova. Le sbatto a lungo, e quando dico a lungo intendo davvero finché il bianco e il rosso sono completamente uniti, senza più quella sensazione di parti separate che poi renderebbe irregolare tutta la struttura. A questo punto aggiungo poco alla volta la farina. All’in</p><figure class="step-photo step-photo-left" style="width: 23.8%; max-width: 23.8%; clear: none;"><img alt="" src="../../foto/crepes/05.jpg"/><figcaption></figcaption></figure><p>izio lavoro con la frusta, </p><p>perché mi serve rompere subito ogni resistenza; poi, quando il composto prende corpo, passo volentieri a un cucchiaio.<br data-end="2202" data-start="2199"/>
+Non devo avere fretta di diluire. Al contrario: qui voglio che l’impasto diventi denso, quasi tenace, una massa che stia insieme. Da ragazzo la chiamavo “gomma da masticare”, e l’immagine resta giusta ancora oggi: non per la consistenza fi</p><figure class="step-photo step-photo-right" style="width: 21.6%; max-width: 21.6%; clear: none;"><img alt="" src="../../foto/crepes/03.jpg"/><figcaption></figcaption></figure><p>nale, naturalmente, ma per quel momento intermedio in cui capisco che la farina ha cominciato davvero a legarsi alle uova. È proprio in questa fase che si distruggono i grumi. Non si eliminano aggiungendo più liquido, che anzi spesso li nasconde soltanto; si eliminano lavorando, insistendo, costringendo il composto a diventare liscio per forza di mescolatura.</p></li><li><p><strong data-end="2882" data-start="2804">Do elasticità all’impasto e lo porto lentamente alla consistenza giusta</strong><br data-end="2885" data-start="2882"/>
+Quando la base è diventata davvero uniforme, incorporo una piccola quantità di burro fuso, sciolto con delicatezza e mai scaldato brutalmente. Il suo compito, in questa fase, non è dare un gusto dominante, ma modificare la tessitura dell’impasto, renderlo più morbido, più elastico, più disposto a stendersi bene in cottura.<br data-end="3212" data-start="3209"/>
+Solo dopo inizio a diluire, e lo faccio molto lentamente. Aggiungo acqua e latte poco per volta, senza che siano gelati, e continuo sempre a mescolare. Questo è un passaggio che non perdona la fretta: se verso troppo liquido insieme, o se voglio arrivare su</p><figure class="step-photo step-photo-right" style="width: 34%; max-width: 34%; clear: none;"><img alt="" src="../../foto/crepes/03.jpg"/><figcaption></figcaption></figure><p>bito alla densità finale, rischio di ricreare proprio quei grumi che avevo </p><p>faticosamente eliminato all’inizio. Io preferisco accompagnare l’impasto, non inseguirlo. Lo porto gradualmente da massa compatta a pastella fluida, controllando ogni volta come reagisce.<br data-end="3734" data-start="3731"/>
+Alla fine devo ottenere una consistenza che possa colare, ma non gocciolare come acqua. Deve velare il mestolo, scendere con continuità, non precipitare. A questo punto aggiungo un pizzico di sale e alcune scorze di limone. Il limone non deve imporsi: deve solo sollevare il profumo complessivo e dare una pulizia di fondo.</p></li><li><figure class="step-photo step-photo-right" style="width: 18%; max-width: 18%; clear: none;"><img alt="" src="../../foto/crepes/07.jpg"/><figcaption></figcaption></figure><figure class="step-photo step-photo-right" style="width: 18%; max-width: 18%; clear: none;"><img alt="" src="../../foto/crepes/06.jpg"/><figcaption></figcaption></figure><figure class="step-photo step-photo-right" style="width: 18%; max-width: 18%; clear: none;"><img alt="" src="../../foto/crepes/05.jpg"/><figcaption></figcaption></figure><p><strong data-end="4144" data-start="4059">Lascio riposare a lungo, poi correggo di nuovo la fluidità prima della cottura</strong><br data-end="4147" data-start="4144"/>
+Per me il riposo non è un dettaglio accessorio: è una parte piena della ricetta. Lascio la pastella al fresco per diverse ore, e se posso preferisco aspettare il giorno dopo. È proprio durante questo tempo che la farina continua ad idratarsi, si assesta, si distende, e la pastella cambia natura. Quando la riprendo in mano, la trovo sempre più addensata. Non è un difetto, è il segno che sta facendo quello che deve.<br data-end="4567" data-start="4564"/>
+Per questo, prima di cuocere, la riguardo sempre con attenzione e quasi sempre la correggo con un altro poco di liquido. Questa seconda regolazione è decisiva, perché è quella che mi permette di scegliere davvero come voglio le crêpes. Se lascio la pastella leggermente più sostenuta, verranno un poco più corpose. Se la porto più fluida, posso stenderle molto sottili. Io le preferisco sottili, ma non secche, non come certe versioni da strada che diventano quasi carta asciutta. Voglio che restino fini ma ancora vive, capaci di piegarsi e arrotolarsi senza spezzarsi e senza perdere morbidezza.</p></li><li><figure class="step-photo step-photo-right" style="width: 22.1%; max-width: 22.1%; clear: none;"><img alt="" src="../../foto/crepes/08.jpg"/><figcaption></figcaption></figure><figure class="step-photo step-photo-right" style="width: 18%; max-width: 18%; clear: none;"><img alt="" src="../../foto/crepes/10.jpg"/><figcaption></figcaption></figure><figure class="step-photo step-photo-right" style="width: 18%; max-width: 18%; clear: none;"><img alt="" src="../../foto/crepes/09.jpg"/><figcaption></figcaption></figure><p>Se non riesce, va benissimo una paletta sottile. Non dovrebbero esserci problemi staccare dalla padella, facilmente l'aria l'ha staccata per conto suo gonfiandola. Nella ricetta base aggiungere zucchero sulla superfice (se pensate di farle salate, ovviamente NO, neppure se pensate a farciture). Quando comincia a prendere un colore ambrato scuro e lo zucchero si è sciolto, arrotolare, o piegare a spicchi e servire caldo in piatto con un altro cucchiaino di zucchero. </p><figure class="step-photo step-photo-right" style="width: 18%; max-width: 18%; clear: none;"><img alt="" src="../../foto/crepes/11.jpg"/><figcaption></figcaption></figure><figure class="step-photo step-photo-right" style="width: 18%; max-width: 18%; clear: none;"><img alt="" src="../../foto/crepes/12.jpg"/><figcaption></figcaption></figure><figure class="step-photo step-photo-right" style="width: 19.7%; max-width: 19.7%; clear: none;"><img alt="" src="../../foto/crepes/14.jpg"/><figcaption></figcaption></figure></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><p><span class="box-badge">Note</span></p><p>Sono indicati tempi di riposo: rispettarli aiuta struttura e sapore del piatto.</p><p>Indicazione di tempo presente nel testo: 20 minuti + cottura</p><p>Il riposo è fondamentale: senza, la pastella è meno stabile e meno elastica.</p><p>La padella conta più della tecnica: quando è giusta, le crêpes si staccano da sole.</p><p>Il burro serve solo a lubrificare, non a dare sapore.</p><p>Lo zucchero deve appena caramellare, non bruciare.</p></section><div class="rp-license-wrap"><div class="recipe-license"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><div class="recipe-qrcode"><a class="recipe-qrcode-link" href="../../foto/crepes/qr-code.png"><img alt="QR ricetta" src="../../foto/crepes/qr-code.png"/></a></div></div></div></main>
+</main>
 </div>
 <script id="recipe-lightbox-script">(function(){
   function ensureLightbox(){
