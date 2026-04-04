@@ -1,25 +1,148 @@
 <!DOCTYPE html>
+
 <html lang="it">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Anatra all'arancia – Ricette (e altro) di Pierre</title>
-  <link rel="stylesheet" href="../../style.css">
-  <style id="recipe-layout-style">.recipe-page{
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Anatra all'arancia – Ricette (e altro) di Pierre</title>
+<link href="../../style.css" rel="stylesheet"/>
+<style id="recipe-layout-style">.recipe-page{
   max-width: 100%;
-}
-.recipe-page > h1{
-  margin-bottom: 1.2rem;
 }
 .recipe-page .recipe-content{
   width: 100%;
   max-width: min(100%, var(--reading));
+}
+
+.recipe-page .recipe-content > h1{
+  margin: 0 0 1.2rem 0;
+}
+.site-header nav{
+  display:flex;
+  align-items:center;
+  gap:1rem;
+  flex-wrap:nowrap;
+  overflow-x:auto;
+  scrollbar-width:none;
+  -ms-overflow-style:none;
+}
+.site-header nav::-webkit-scrollbar{
+  display:none;
+  width:0;
+  height:0;
+}
+.site-header nav a{
+  white-space:nowrap;
+}
+.site-header .recipe-nav-back{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:28px;
+  height:28px;
+  font-size:24px;
+  line-height:1;
+  text-decoration:none;
+  color:inherit;
+  flex:0 0 auto;
+  position:relative;
+  top:-2px;
+}
+.site-header .recipe-nav-back:hover{
+  text-decoration:none;
+}
+.recipe-page .rp-license-wrap{
+  margin-top: 1.5rem;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:1rem;
+}
+.recipe-page .lead a,
+.recipe-page .block a,
+.recipe-page .notes a{
+  color:#5f86ad;
+  font-weight:600;
+}
+.recipe-license{
+  opacity: 0.9;
+  flex:0 0 auto;
+}
+.recipe-license a{
+  display:block;
+}
+.recipe-license img{
+  width: 70px;
+  max-width: 70px;
+  height: auto;
+  display: block;
+}
+.recipe-footer-tools{
+  margin-left:auto;
+  display:flex;
+  align-items:center;
+  gap:16px;
+}
+.recipe-tool-btn{
+  position:relative;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:64px;
+  height:64px;
+  opacity:.95;
+  cursor:pointer;
+  text-decoration:none;
+}
+.recipe-tool-btn:hover{
+  opacity:1;
+}
+.recipe-tool-btn img{
+  width:42px;
+  height:42px;
+  display:block;
+}
+.recipe-copy-toast{
+  position:fixed;
+  left:50%;
+  bottom:22px;
+  transform:translateX(-50%);
+  background:rgba(30,30,30,.92);
+  color:#fff;
+  font-size:13px;
+  line-height:1;
+  padding:8px 10px;
+  border-radius:7px;
+  z-index:10001;
+  box-shadow:0 4px 16px rgba(0,0,0,.25);
+}
+.recipe-qrcode{
+  flex:0 0 auto;
+  margin-left:auto;
+}
+.recipe-qrcode,
+.recipe-qrcode a{
+  display:block !important;
+  float:none !important;
+  clear:none !important;
+  margin:0 !important;
+}
+.recipe-qrcode img{
+  display:block !important;
+  width:60px !important;
+  max-width:60px !important;
+  height:60px !important;
+  cursor:zoom-in;
+}
+.recipe-qrcode figcaption{
+  display:none !important;
 }
 .recipe-page .meta-grid,
 .recipe-page .lead,
 .recipe-page .block,
 .recipe-page .notes,
 .recipe-page .rp-license-wrap{
+  width: 100%;
   max-width: min(100%, var(--reading));
 }
 .recipe-page .lead{
@@ -33,24 +156,47 @@
 .recipe-page .block h2:first-child{
   margin-top: 0;
 }
-.recipe-page .rp-license-wrap{
-  margin-top: 1.5rem;
-}
-.recipe-license{
-  opacity: 0.9;
-}
-.recipe-license img{
-  width: 100px;
-  max-width: 100px;
-  height: auto;
+.recipe-page .lead::after,
+.recipe-page .block::after,
+.recipe-page .notes::after{
+  content: "";
   display: block;
+  clear: both;
+}
+.recipe-page .lead > h2,
+.recipe-page .block > h2,
+.recipe-page .notes > h2{
+  clear: both;
 }
 @media (max-width: 760px){
   .recipe-page .lead{
     padding: 1rem 1rem;
   }
+  .site-header nav{
+    gap:.7rem;
+  }
+  .site-header nav a{
+    font-size:.94rem;
+  }
+  .site-header .recipe-nav-back{
+    width:24px;
+    height:24px;
+    font-size:20px;
+    top:-1px;
+  }
+  .recipe-footer-tools{
+    gap:10px;
+  }
+  .recipe-tool-btn{
+    width:54px;
+    height:54px;
+  }
+  .recipe-tool-btn img{
+    width:36px;
+    height:36px;
+  }
 }</style>
-  <style id="recipe-lightbox-style">.recipe-lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.88);display:flex;align-items:center;justify-content:center;padding:2rem;z-index:9999;cursor:zoom-out;}
+<style id="recipe-lightbox-style">.recipe-lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.88);display:flex;align-items:center;justify-content:center;padding:2rem;z-index:9999;cursor:zoom-out;}
 .recipe-lightbox-overlay.is-hidden{display:none !important;}
 .recipe-lightbox-frame{max-width:96vw;max-height:96vh;display:flex;flex-direction:column;gap:.75rem;align-items:center;}
 .recipe-lightbox-frame img{display:block;max-width:96vw;max-height:88vh;width:auto;height:auto;box-shadow:0 8px 32px rgba(0,0,0,.45);background:#fff;}
@@ -60,23 +206,20 @@ main figure:not(.recipe-license) img{cursor:zoom-in;}</style>
 <body>
 <div class="page">
 <header class="site-header">
-  <a class="brand" href="../../index.html">Ricette (e altro) di Pierre</a>
-  <nav>
-    <a href="../../indici/ricette.html">Ricette</a>
-    <a href="../../indici/ingredienti.html">Ingredienti</a>
-    <a href="../../indici/fonti.html">Fonti</a>
-    <a href="../../indici/geografia.html">Geografia</a>
-  </nav>
+<a class="brand" href="../../index.html">Ricette (e altro) di Pierre</a>
+<nav>
+
+
+
+
+<a aria-label="Torna indietro" class="recipe-nav-back" href="#">←</a><a href="../../indici/ricette.html">Ricette</a><a href="../../indici/ingredienti.html">Ingredienti</a><a href="../../indici/fonti.html">Fonti</a><a href="../../indici/geografia.html">Geografia</a></nav>
 </header>
-
 <main class="recipe-page">
 <main class="recipe-page">
-
-
 <h1>Anatra all'arancia</h1><div class="recipe-content"><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Secondi</span></div><div class="meta-card"><strong>Geografia</strong><span>Francia</span></div><div class="meta-card"><strong>Fonte</strong><span>Aimée Gibert</span></div></section><section class="lead"><h2>Introduzione e contesto</h2><figure class="step-photo step-photo-large" style="width: 58.3%; max-width: 58.3%; margin-left: auto; margin-right: auto;"><img alt="" src="../../foto/anatra-all-arancia/01.jpg"/><figcaption></figcaption></figure><p>Questa ricetta proviene da appunti da un ricettario di mia nonna. Con il tempo ho cercato di alleggerirla... ma i miracoli non sono possibili.<br/>E' importante rispettare i tempi di cottura per non alterare il gusto. Per 6 persone ci voglio due ore buone.<br/></p><p>Interessante in Wikipedia il testo sulle origini condivise della ricetta <a href="https://fr.wikipedia.org/wiki/Canard_%C3%A0_l%27orange" rel="noopener noreferrer" style="color: rgb(56, 93, 115);" target="_blank">Wiki</a>.<br/>Oggi è comunque considerata una storica ricetta parigina. E ho voluto raccontare una (cliccami-&gt;) <a href="https://photos.app.goo.gl/BkdtEUa2anZyDyPR6" rel="noopener noreferrer" target="_blank">Parigi </a>diversa, dopo il Covid. Con le piste ciclabili e il silenzio della mancanza di auto (impressionante reu de Rivoli). I giardini selvatici, i lavori di Notre Dame. Con luoghi forse inusuali al turista.</p></section><section class="block"><h2>Ingredienti</h2><table class="recipe-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Anatra</td><td></td><td></td><td>Allevata<br/></td></tr><tr><td>Strutto</td><td>50</td><td>g</td><td></td></tr><tr><td>Farina</td><td>40</td><td>g</td><td>00</td></tr><tr><td>Brodo di carne</td><td><span style="text-align: start; text-wrap-mode: wrap;">½</span></td><td>l</td><td></td></tr><tr><td>Passata di pomodoro</td><td>1</td><td>cucchiaio da minestra<br/></td><td></td></tr><tr><td>Vino bianco secco</td><td>1</td><td>bicchiere</td><td></td></tr><tr><td>Prosciutto crudo</td><td>150</td><td>g</td><td></td></tr><tr><td>Lardo</td><td>150</td><td>g</td><td></td></tr><tr><td>Arancia</td><td>diverse</td><td></td><td></td></tr><tr><td>Burro</td><td>100</td><td>g</td><td></td></tr><tr><td>Curaçao</td><td></td><td></td><td></td></tr><tr><td>Carota</td><td>3</td><td>n</td><td></td></tr><tr><td>Cipolla</td><td>1</td><td>n</td><td></td></tr><tr><td>Alloro</td><td>1</td><td>foglia</td><td></td></tr><tr><td>Timo</td><td></td><td></td><td></td></tr><tr><td>Ginepro</td><td>5</td><td>bacche</td><td></td></tr><tr><td>Rosmarino</td><td>1</td><td>rametto </td><td></td></tr><tr><td>Fegato di anatra</td><td>1</td><td></td><td></td></tr><tr><td>Sale</td><td></td><td></td><td></td></tr><tr><td>Pepe nero</td><td></td><td></td><td></td></tr></tbody></table></section><section class="preparation-block block"><h2>Preparazione</h2><ol class="steps"><li><p>Calcolo circa 1/2 kg di anatra viva a persona.</p><p>Per spennarla la immergo in acqua bollente con un mestolo di acqua fredda, così da facilitare il distacco delle piume.</p><p>Se l’anatra è selvatica, la lascio frollare da 5 a 8 giorni, in ambiente controllato e ben ventilato (temperatura bassa, non oltre 4–6°C).</p><p>Prima della cottura la tengo a macerare per almeno 6 ore in vino bianco con alloro, bacche di ginepro e rosmarino.</p><p>Preparo una salsa bruna: lavoro 50 g di strutto con 40 g di farina, cuocendo molto lentamente in una terrina fino a ottenere un colore bruno castagna, senza bruciare.</p><p>Aggiungo lentamente <strong data-end="794" data-start="763">1/2 litro di brodo di carne</strong> alla salsa bruna, mescolando con la frusta fino a portarla a ebollizione. Unisco <strong data-end="915" data-start="876">un cucchiaio di passata di pomodoro</strong>, giusto per dare una leggera profondità, senza farla prevalere.</p><p data-end="1172" data-start="918">Preparo la farcia: lavoro <strong data-end="989" data-start="952">150 g di prosciutto crudo tritato</strong> con la <strong data-end="1061" data-start="997">scorza finemente tagliata (senza parte bianca) di due arance</strong> e <strong data-end="1090" data-start="1064">100 g di burro morbido</strong>, aggiungendo un tocco di spezie. Il composto deve risultare omogeneo ma compatto.</p><p data-end="1335" data-start="1174">A parte preparo altra scorza di arancia (sempre senza bianco), la taglio fine, la sbollento per 2–3 minuti in acqua e la lascio poi in infusione nel <strong data-end="1334" data-start="1323">curaçao</strong>.</p><p data-end="1457" data-start="1337">Farcisco l’anatra e la ricucio con cura, senza comprimere troppo il ripieno, per evitare fuoriuscite durante la cottura.</p><p data-end="1705" data-start="1459">La rosolo bene in casseruola con poco burro e qualche pezzetto di lardo, partendo a fuoco medio e lasciando che prenda colore in modo uniforme. Solo quando è ben dorata, salo leggermente e sfumo con vino bianco, lasciando evaporare completamente.</p><p data-end="1902" data-start="1707">A questo punto aggiungo la salsa bruna, il <strong data-end="1773" data-start="1750">succo di un’arancia</strong> e una piccola parte della scorza preparata, quindi porto a cottura in brasatura dolce, coperto, aggiungendo brodo se necessario.</p><p data-end="1974" data-start="1904">Il tempo varia da 1 a 2 ore, in funzione della dimensione dell’anatra.</p><p data-end="2138" data-start="1976">A fine cottura separo l’anatra, la tengo al caldo e <strong data-end="2057" data-start="2028">sgrasso con cura il fondo</strong>, eliminando l’eccesso di grasso in superficie.<br data-end="2107" data-start="2104"/>
 Taglio quindi l’anatra a pezzi.</p></li><li><p style="font-size: 16px;">Preparo una salsa bruna: lavoro 50 g di strutto con 40 g di farina, cuocendo molto lentamente in una terrina fino a ottenere un colore bruno castagna, senza bruciare.</p><p style="font-size: 16px;">Aggiungo lentamente <strong data-end="794" data-start="763">1/2 litro di brodo di carne</strong> alla salsa bruna, mescolando con la frusta fino a portarla a ebollizione. Unisco <strong data-end="915" data-start="876">un cucchiaio di passata di pomodoro</strong>, giusto per dare una leggera profondità, senza farla prevalere.</p></li><li><p data-end="1172" data-start="918" style="font-size: 16px;">Preparo la farcia: lavoro <strong data-end="989" data-start="952">150 g di prosciutto crudo tritato</strong> con la <strong data-end="1061" data-start="997">scorza finemente tagliata (senza parte bianca) di due arance</strong> e <strong data-end="1090" data-start="1064">100 g di burro morbido</strong>, aggiungendo un tocco di spezie. Il composto deve risultare omogeneo ma compatto.</p></li><li><p data-end="1335" data-start="1174" style="font-size: 16px;">A parte preparo altra scorza di arancia (sempre senza bianco), la taglio fine, la sbollento per 2–3 minuti in acqua e la lascio poi in infusione nel <strong data-end="1334" data-start="1323">curaçao</strong>.</p></li><li><p data-end="1457" data-start="1337" style="font-size: 16px;">Farcisco l’anatra e la ricucio con cura, senza comprimere troppo il ripieno, per evitare fuoriuscite durante la cottura.</p><p data-end="1705" data-start="1459" style="font-size: 16px;">La rosolo bene in casseruola con poco burro e qualche pezzetto di lardo, partendo a fuoco medio e lasciando che prenda colore in modo uniforme. Solo quando è ben dorata, salo leggermente e sfumo con vino bianco, lasciando evaporare completamente.</p></li><li><p data-end="1902" data-start="1707" style="font-size: 16px;">A questo punto aggiungo la salsa bruna, il <strong data-end="1773" data-start="1750">succo di un’arancia</strong> e una piccola parte della scorza preparata, quindi porto a cottura in brasatura dolce, coperto, aggiungendo brodo se necessario.</p><p data-end="1974" data-start="1904" style="font-size: 16px;">Il tempo varia da 1 a 2 ore, in funzione della dimensione dell’anatra.</p></li><li><p>A fine cottura separo l’anatra, la tengo al caldo e <strong data-end="2057" data-start="2028">sgrasso con cura il fondo</strong>, eliminando l’eccesso di grasso in superficie. </p><p>Taglio quindi l’anatra a pezzi.</p></li><li><p data-end="1903" data-start="1712" style="font-size: 16px;">Al fondo di cottura aggiungo l’infusione di <strong data-end="1775" data-start="1764">curaçao</strong> con le scorze e il succo di un’arancia, quindi lascio ridurre leggermente sul fuoco fino a ottenere una consistenza più legata.</p></li><li><p data-end="2098" data-start="1905" style="font-size: 16px;">Passo la salsa al setaccio fine e incorporo il <strong data-end="1999" data-start="1952">fegato crudo dell’anatra, finemente pestato</strong>, mescolando bene e riportando brevemente sul fuoco senza far bollire, per dare corpo e profondità.</p></li><li><p data-end="2179" data-start="2100" style="font-size: 16px;">Rimetto i pezzi di anatra nella salsa e li lascio insaporire per alcuni minuti.</p></li><li><p><span style="font-size: 1rem;">Nel frattempo preparo le arance: le taglio a fette eliminando i semi.</span></p></li><li><p data-end="2450" data-start="2252" style="font-size: 16px;">Dispongo l’anatra su un piatto di portata ben caldo, nappata con parte della salsa, contornata da <strong data-end="2413" data-start="2350">patate a cubetti (circa mezzo centimetro) saltate nel burro</strong> e con le fette di arancia ai lati.</p><p data-end="2484" data-start="2452" style="font-size: 16px;">Servo a parte la restante salsa.</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><ul class="clean"><li>Indicazione di tempo presente nel testo: ca. 2 ore.</li></ul><p>Questa è una preparazione ricca, come da tradizione. Durante la cottura però elimino sempre con cura il grasso che affiora in superficie, a caldo o, quando possibile, anche a freddo. In questo modo il piatto resta pieno e profondo, ma più equilibrato.</p><p>Proposta abbinamento vino:<br/>Su questo piatto preferisco lasciare una doppia possibilità.<br data-end="304" data-start="301"/>
 Un Chianti Classico Riserva, come il <span class="hover:entity-accent entity-underline inline cursor-pointer align-baseline">Contessa di Radda Chianti Classico Riserva</span>, funziona bene se ha qualche anno: struttura e acidità puliscono il grasso senza appesantire.<br data-end="477" data-start="474"/>
-In alternativa scelgo un Pinot Noir, meglio se di Borgogna, oppure un buon Pinot Nero dell’Alto Adige, più fine e lineare, particolarmente adatto a sostenere l’arancia senza entrare in contrasto con la sua componente amaricante.</p></section><div class="rp-license-wrap"><div class="recipe-license"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><div class="recipe-qrcode"><a class="recipe-qrcode-link" href="../../foto/anatra-all-arancia/qr-code.png"><img alt="QR ricetta" src="../../foto/anatra-all-arancia/qr-code.png"/></a></div></div></div></main>
+In alternativa scelgo un Pinot Noir, meglio se di Borgogna, oppure un buon Pinot Nero dell’Alto Adige, più fine e lineare, particolarmente adatto a sostenere l’arancia senza entrare in contrasto con la sua componente amaricante.</p></section><div class="rp-license-wrap"><div class="recipe-license"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><div class="recipe-footer-tools"><a aria-label="Stampa pagina" class="recipe-tool-btn recipe-tool-print" href="#"><img alt="Stampa" src="../../foto/licenze/icon-print.svg"/></a><a aria-label="Copia URL" class="recipe-tool-btn recipe-tool-link" href="#"><img alt="Copia URL" src="../../foto/licenze/icon-link.svg"/></a></div><div class="recipe-qrcode"><a class="recipe-qrcode-link" href="../../foto/anatra-all-arancia/qr-code.png"><img alt="QR ricetta" src="../../foto/anatra-all-arancia/qr-code.png"/></a></div></div></div></main>
 </main>
 </div>
 <script id="recipe-lightbox-script">(function(){
@@ -97,7 +240,7 @@ In alternativa scelgo un Pinot Noir, meglio se di Borgogna, oppure un buon Pinot
     const outImg = overlay.querySelector('img');
     const caption = overlay.querySelector('.recipe-lightbox-caption');
     document.querySelectorAll('main img').forEach(function(img){
-      if(img.closest('.recipe-license')) return;
+      if(img.closest('.recipe-license') || img.closest('.recipe-footer-tools')) return;
       img.addEventListener('click', function(ev){
         ev.preventDefault();
         ev.stopPropagation();
@@ -111,5 +254,64 @@ In alternativa scelgo un Pinot Noir, meglio se di Borgogna, oppure un buon Pinot
     });
   });
 })();</script>
-</body>
+<script id="recipe-tools-script">(function(){
+  function isInternalListReferrer(ref){
+    try{
+      if(!ref) return false;
+      var u = new URL(ref);
+      return u.origin === window.location.origin && /\/indici\/(ricette|ingredienti|fonti|geografia)\.html$/i.test(u.pathname);
+    }catch(e){
+      return false;
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', function(){
+    var printBtn = document.querySelector('.recipe-tool-print');
+    var linkBtn = document.querySelector('.recipe-tool-link');
+    var backBtn = document.querySelector('.recipe-nav-back');
+
+    if(backBtn){
+      backBtn.addEventListener('click', function(ev){
+        ev.preventDefault();
+        if(isInternalListReferrer(document.referrer)){
+          history.back();
+          return;
+        }
+        window.location.href = '../../indici/ricette.html';
+      });
+    }
+
+    if(printBtn){
+      printBtn.addEventListener('click', function(ev){
+        ev.preventDefault();
+        window.print();
+      });
+    }
+
+    if(linkBtn){
+      linkBtn.addEventListener('click', async function(ev){
+        ev.preventDefault();
+        try{
+          if(navigator.clipboard && navigator.clipboard.writeText){
+            await navigator.clipboard.writeText(window.location.href);
+          }else{
+            var ta = document.createElement('textarea');
+            ta.value = window.location.href;
+            document.body.appendChild(ta);
+            ta.select();
+            document.execCommand('copy');
+            ta.remove();
+          }
+          var oldToast = document.querySelector('.recipe-copy-toast');
+          if(oldToast) oldToast.remove();
+          var toast = document.createElement('div');
+          toast.className = 'recipe-copy-toast';
+          toast.textContent = 'URL copiato';
+          document.body.appendChild(toast);
+          setTimeout(function(){ if(toast && toast.parentNode) toast.parentNode.removeChild(toast); }, 1200);
+        }catch(e){}
+      });
+    }
+  });
+})();</script></body>
 </html>
