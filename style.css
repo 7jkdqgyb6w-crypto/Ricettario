@@ -815,3 +815,74 @@ main.recipe-page .recipe-content[style]{
 body {
   padding-top: 90px; /* regola se serve */
 }
+
+
+/* R6-STEP1 FIX REALE — INGREDIENTI IPHONE */
+@media (max-width: 768px) {
+
+  .recipe-page .table-wrap {
+    width: 100%;
+    overflow-x: hidden !important;
+  }
+
+  .recipe-page table.recipe-table {
+    width: 100% !important;
+    max-width: 100% !important;
+    table-layout: fixed;
+  }
+
+  .recipe-page table.recipe-table th,
+  .recipe-page table.recipe-table td {
+    white-space: normal !important;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
+}
+
+/* R6-STEP2 — IMMAGINI FULL WIDTH IPHONE */
+@media (max-width: 768px) {
+
+  .recipe-page figure {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    float: none !important;
+    clear: both !important;
+  }
+
+  .recipe-page figure img,
+  .recipe-page .lead img,
+  .recipe-page .block img,
+  .recipe-page .notes img {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    float: none !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+}
+
+
+/* R6-STEP3 FIX — FOOTER TOOLS */
+.recipe-page .rp-license-wrap {
+  align-items: center !important;
+}
+.recipe-page .recipe-footer-tools {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.recipe-page .recipe-tool-btn {
+  width: 36px;
+  height: 36px;
+}
+.recipe-page .recipe-tool-btn img {
+  width: 24px;
+  height: 24px;
+}
