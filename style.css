@@ -270,39 +270,7 @@ dt{
   }
 }
 
-@media (max-width: 760px){
-  .page{
-    padding: 1.7rem 1rem 4rem;
-  }
 
-  .site-header{
-    margin-bottom: 2rem;
-  }
-
-  .meta-grid{
-    grid-template-columns: 1fr;
-    width: 100%;
-  }
-
-  .meta-card{
-    min-width: 0;
-  }
-
-  .recipe-table{
-    width: 100%;
-    min-width: 34rem;
-  }
-
-  .recipe-table th:nth-child(1),
-  .recipe-table td:nth-child(1){
-    min-width: 10.5rem;
-  }
-
-  .recipe-table th:nth-child(4),
-  .recipe-table td:nth-child(4){
-    min-width: 10rem;
-  }
-}
 
 
 
@@ -797,30 +765,7 @@ body {
 }
 
 
-/* R6-STEP1 FIX REALE — INGREDIENTI IPHONE */
-@media (max-width: 768px) {
 
-  .recipe-page .table-wrap {
-    width: 100%;
-    overflow-x: hidden !important;
-  }
-
-  .recipe-page table.recipe-table {
-    width: 100% !important;
-    max-width: 100% !important;
-    table-layout: fixed;
-  }
-
-  .recipe-page table.recipe-table th,
-  .recipe-page table.recipe-table td {
-    white-space: normal !important;
-    overflow-wrap: anywhere;
-    word-break: break-word;
-  }
-
-}
-
-/* R6-STEP2 — IMMAGINI FULL WIDTH IPHONE */
 @media (max-width: 768px) {
 
   .recipe-page figure {
@@ -868,7 +813,7 @@ body {
 }
 
 
-
+/* FIX REALE iPhone — ingredienti dentro .block */
 
 @media (max-width: 768px) {
 
@@ -918,37 +863,61 @@ body {
 
 }
 
-/* FIX DEFINITIVO iPhone — tabella ingredienti */
-
+/* R10-01 — ingredienti iPhone: header compatto */
 @media (max-width: 768px){
-
-  .recipe-table{
-    width: 100% !important;
-    min-width: 0 !important;
-    max-width: 100% !important;
-    table-layout: auto !important;
+  .recipe-page table.recipe-table,
+  .recipe-page .block > table.recipe-table,
+  .recipe-page .table-wrap > table.recipe-table{
+    width:100% !important;
+    min-width:0 !important;
+    max-width:100% !important;
+    table-layout:fixed !important;
   }
 
-  .recipe-table th,
-  .recipe-table td{
-    padding: 3px 5px !important;
-    line-height: 1.15 !important;
-    font-size: 0.90rem !important;
-    vertical-align: top;
+  .recipe-page table.recipe-table th,
+  .recipe-page table.recipe-table td{
+    padding:4px 5px !important;
+    line-height:1.15 !important;
+    font-size:0.92rem !important;
+    vertical-align:top;
   }
 
-  .recipe-table th:nth-child(1),
-  .recipe-table td:nth-child(1),
-  .recipe-table th:nth-child(4),
-  .recipe-table td:nth-child(4){
-    min-width: 0 !important;
+  .recipe-page table.recipe-table th:nth-child(1),
+  .recipe-page table.recipe-table td:nth-child(1){
+    width:46% !important;
+    min-width:0 !important;
   }
 
-  .recipe-table th:nth-child(2),
-  .recipe-table td:nth-child(2),
-  .recipe-table th:nth-child(3),
-  .recipe-table td:nth-child(3){
-    white-space: nowrap;
+  .recipe-page table.recipe-table th:nth-child(2),
+  .recipe-page table.recipe-table td:nth-child(2){
+    width:14% !important;
+    white-space:nowrap !important;
+    text-align:right;
   }
 
+  .recipe-page table.recipe-table th:nth-child(3),
+  .recipe-page table.recipe-table td:nth-child(3){
+    width:12% !important;
+    white-space:nowrap !important;
+  }
+
+  .recipe-page table.recipe-table th:nth-child(4),
+  .recipe-page table.recipe-table td:nth-child(4){
+    width:28% !important;
+    min-width:0 !important;
+  }
+
+  .recipe-page table.recipe-table th:nth-child(2),
+  .recipe-page table.recipe-table th:nth-child(3){
+    font-size:0 !important;
+    line-height:0 !important;
+    letter-spacing:0 !important;
+    padding-top:4px !important;
+    padding-bottom:4px !important;
+  }
+
+  .recipe-page table.recipe-table th:nth-child(1),
+  .recipe-page table.recipe-table th:nth-child(4){
+    white-space:nowrap !important;
+  }
 }

@@ -56,40 +56,109 @@
     </ul>
   </section>
 
-  <section class="block">
-    <h2>Ultime ricette</h2>
-    <div class="latest-grid">
-      <article class="latest-card">
-        <figure class="step-photo">
-          <img src="foto/agnolotti-al-sugo-d-arrosto/01.jpg" alt="Agnolotti al sugo d'arrosto"</a>
-        </figure>
-        <div>
-          <h3><a href="ricette/agnolotti-al-sugo-d-arrosto/index.html">Agnolotti al sugo d'arrosto</a></h3>
-          <p>Questa ricetta rispecchia un poco la mia famiglia: Torino e Alessandria, arrosto e brasato, memoria domestica e rielaborazione personale (...)</p>
-        </div>
-      </article>
+  
 
-      <article class="latest-card">
-        <figure class="step-photo">
-          <img src="foto/ricetta2/01.jpg" alt="">
-        </figure>
-        <div>
-          <h3><a href="#">Titolo ricetta 2</a></h3>
-          <p>Spazio già predisposto per una delle ultime ricette inserite, con immagine iniziale ed estratto sintetico (...)</p>
-        </div>
-      </article>
 
-      <article class="latest-card">
+<section class="block">
+  <h2>Alcune ricette</h2>
+  <div class="latest-grid" id="latestGrid"></div>
+</section>
+<script>
+document.addEventListener("DOMContentLoaded", async () => {
+  const container = document.getElementById("latestGrid");
+  if (!container) return;
+
+  function sample(arr, n) {
+    const copy = arr.slice();
+    for (let i = copy.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [copy[i], copy[j]] = [copy[j], copy[i]];
+    }
+    return copy.slice(0, n);
+  }
+
+  function imageExists(url) {
+    return new Promise((resolve) => {
+      const img = new Image();
+      img.onload = () => resolve(true);
+      img.onerror = () => resolve(false);
+      img.src = url;
+    });
+  }
+
+  function recipeInfoFromAnchor(a) {
+    try {
+      const rawHref = a.getAttribute("href") || "";
+      const abs = new URL(rawHref, window.location.href);
+      const m = abs.pathname.match(/\/ricette\/([^\/]+)\/index\.html$/);
+      if (!m) return null;
+      const slug = m[1];
+      const title = (a.textContent || "").trim();
+      if (!slug || !title) return null;
+      return {
+        slug,
+        title,
+        href: `ricette/${slug}/index.html`,
+        imgUrl: `foto/${slug}/01.jpg`
+      };
+    } catch (e) {
+      return null;
+    }
+  }
+
+  try {
+    const res = await fetch("indici/ricette.html", { cache: "no-store" });
+    const raw = await res.text();
+    const doc = new DOMParser().parseFromString(raw, "text/html");
+    const anchors = Array.from(doc.querySelectorAll("a[href]"));
+    const map = new Map();
+
+    for (const a of anchors) {
+      const info = recipeInfoFromAnchor(a);
+      if (!info) continue;
+      if (!map.has(info.slug)) map.set(info.slug, info);
+    }
+
+    const items = Array.from(map.values());
+    const validItems = [];
+    for (const item of items) {
+      const ok = await imageExists(item.imgUrl);
+      if (ok) validItems.push(item);
+    }
+
+    const chosen = sample(validItems, Math.min(3, validItems.length));
+
+    for (const item of chosen) {
+      let excerpt = "";
+      try {
+        const r2 = await fetch(item.href, { cache: "no-store" });
+        const h2 = await r2.text();
+        const d2 = new DOMParser().parseFromString(h2, "text/html");
+        const p = d2.querySelector(".lead p");
+        excerpt = p ? p.textContent.trim().replace(/\s+/g, " ") : "";
+      } catch (e) {}
+
+      const article = document.createElement("article");
+      article.className = "latest-card";
+      article.innerHTML = `
         <figure class="step-photo">
-          <img src="foto/ricetta3/01.jpg" alt="">
+          <img src="${item.imgUrl}" alt="${item.title.replace(/"/g, "&quot;")}">
         </figure>
         <div>
-          <h3><a href="#">Titolo ricetta 3</a></h3>
-          <p>Spazio già predisposto per una delle ultime ricette inserite, con immagine iniziale ed estratto sintetico (...)</p>
+          <h3><a href="${item.href}">${item.title}</a></h3>
+          <p>${excerpt ? excerpt.slice(0, 180) + (excerpt.length > 180 ? " (...)" : "") : ""}</p>
         </div>
-      </article>
-    </div>
-  </section>
+      `;
+      container.appendChild(article);
+    }
+  } catch (e) {
+    container.innerHTML = "";
+  }
+});
+</script>
+
+
+
   </div>
 </main>
 </div>
