@@ -888,72 +888,34 @@ body {
 }
 
 
-/* R6-STEP1 FIX REALE — INGREDIENTI IPHONE */
+/* R6 micro-fix ingredienti iPhone */
 @media (max-width: 768px) {
-
-  .recipe-page .table-wrap {
+  .recipe-page .ingredients-block .table-wrap,
+  .recipe-page .block .table-wrap {
     width: 100%;
+    max-width: 100%;
     overflow-x: hidden !important;
+    margin: 0;
+    padding: 0;
   }
 
-  .recipe-page table.recipe-table {
+  .recipe-page .ingredients-block table.recipe-table,
+  .recipe-page .block table.recipe-table {
     width: 100% !important;
     max-width: 100% !important;
     table-layout: fixed;
+    margin: 0;
   }
 
-  .recipe-page table.recipe-table th,
-  .recipe-page table.recipe-table td {
+  .recipe-page .ingredients-block table.recipe-table th,
+  .recipe-page .ingredients-block table.recipe-table td,
+  .recipe-page .block table.recipe-table th,
+  .recipe-page .block table.recipe-table td {
     white-space: normal !important;
     overflow-wrap: anywhere;
     word-break: break-word;
+    padding-top: .38rem !important;
+    padding-bottom: .38rem !important;
+    line-height: 1.2;
   }
-
-}
-
-/* R6-STEP2 — IMMAGINI FULL WIDTH IPHONE */
-@media (max-width: 768px) {
-
-  .recipe-page figure {
-    width: 100% !important;
-    max-width: 100% !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    float: none !important;
-    clear: both !important;
-  }
-
-  .recipe-page figure img,
-  .recipe-page .lead img,
-  .recipe-page .block img,
-  .recipe-page .notes img {
-    display: block !important;
-    width: 100% !important;
-    max-width: 100% !important;
-    height: auto !important;
-    float: none !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-  }
-
-}
-
-
-/* R6-STEP3 FIX — FOOTER TOOLS */
-.recipe-page .rp-license-wrap {
-  align-items: center !important;
-}
-.recipe-page .recipe-footer-tools {
-  margin-left: auto;
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-.recipe-page .recipe-tool-btn {
-  width: 36px;
-  height: 36px;
-}
-.recipe-page .recipe-tool-btn img {
-  width: 24px;
-  height: 24px;
 }
