@@ -921,3 +921,157 @@ body {
     white-space:nowrap !important;
   }
 }
+
+
+/* SITE-PATCH-01 — footer globale */
+.site-footer{
+  margin-top: 2.2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:1rem;
+}
+.site-footer-left,
+.site-footer-right{
+  flex:0 0 auto;
+}
+.site-footer-center{
+  flex:1 1 auto;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:0.55rem;
+  min-width:0;
+}
+.site-footer-cc,
+.site-footer-qr-link,
+.site-footer-icon,
+.site-footer-text{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  text-decoration:none;
+  color:#000;
+}
+.site-footer-cc img{
+  display:block;
+  height:32px;
+  width:auto;
+}
+.site-footer-text{
+  min-height:44px;
+  padding:0 10px;
+  font-size:1rem;
+  line-height:1;
+  font-weight:400;
+  color:#000;
+}
+.site-footer-icon{
+  min-width:44px;
+  min-height:44px;
+  padding:6px;
+}
+.site-footer-icon img{
+  display:block;
+  width:32px;
+  height:32px;
+  opacity:0.85;
+}
+.site-footer-right img{
+  display:block;
+  width:72px;
+  height:72px;
+}
+.site-copy-toast{
+  position:fixed;
+  left:50%;
+  bottom:22px;
+  transform:translateX(-50%);
+  background:rgba(30,30,30,.92);
+  color:#fff;
+  font-size:13px;
+  line-height:1;
+  padding:8px 10px;
+  border-radius:7px;
+  z-index:10001;
+  box-shadow:0 4px 16px rgba(0,0,0,.25);
+}
+.latest-loader{
+  padding:1rem 0;
+  color:var(--muted);
+}
+.latest-card-link{
+  display:block;
+  color:inherit;
+  text-decoration:none;
+}
+.latest-card-link:hover{ text-decoration:none; }
+@media (max-width: 760px){
+  .site-footer{
+    gap:0.5rem;
+  }
+  .site-footer-center{
+    gap:0.2rem;
+  }
+  .site-footer-text{
+    padding:0 6px;
+  }
+  .site-footer-cc img{
+    height:28px;
+  }
+  .site-footer-icon img{
+    width:28px;
+    height:28px;
+  }
+  .site-footer-right img{
+    width:68px;
+    height:68px;
+  }
+}
+
+
+.site-lightbox{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,0.78);
+  display:none;
+  align-items:center;
+  justify-content:center;
+  padding:2rem;
+  z-index:3000;
+}
+.site-lightbox.is-open{display:flex;}
+.site-lightbox-image{
+  max-width:min(92vw, 720px);
+  max-height:88vh;
+  width:auto;
+  height:auto;
+  background:#fff;
+  padding:0.5rem;
+  box-shadow:0 10px 30px rgba(0,0,0,0.25);
+}
+.site-lightbox-close{
+  position:absolute;
+  top:1rem;
+  right:1rem;
+  border:0;
+  background:transparent;
+  color:#fff;
+  font-size:2rem;
+  line-height:1;
+  cursor:pointer;
+}
+
+/* RECOVERY STATICHE CONSAPEVOLE — cursore lightbox coerente per Info/Scrivimi */
+.site-footer-qr-link,
+.site-footer-qr-link img{
+  cursor: zoom-in;
+}
+
+.site-lightbox,
+.site-lightbox.is-open,
+.site-lightbox-image{
+  cursor: zoom-out;
+}
