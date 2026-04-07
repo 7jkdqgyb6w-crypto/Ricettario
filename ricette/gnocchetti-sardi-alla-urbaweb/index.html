@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 
-<html lang="it">
+<html data-cookie-banner="__COOKIE_BANNER_ENABLED__" data-ga-measurement-id="" lang="it">
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 <title>Gnocchetti sardi alla Urbaweb – Ricette (e altro) di Pierre</title>
+<meta content="Riprendo questa ricetta, non mia ma di Eddy Salzano, perché fa comunque parte della mia storia. Nacque a Venezia, in occasione di una riunione di Urbandata, quando serviva un piatt" name="description"/>
+<meta content="Gnocchetti sardi alla Urbaweb – Ricette (e altro) di Pierre" property="og:title"/>
+<meta content="Riprendo questa ricetta, non mia ma di Eddy Salzano, perché fa comunque parte della mia storia. Nacque a Venezia, in occasione di una riunione di Urbandata, quando serviva un piatt" property="og:description"/>
+<meta content="" property="og:image"/>
+<meta content="" property="og:url"/>
+<meta content="article" property="og:type"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="" name="x-ga-measurement-id"/>
 <link href="../../style.css" rel="stylesheet"/>
+<!-- Google Analytics predisposto: inserire snippet/ID quando disponibile -->
 <style id="recipe-layout-style">.recipe-page{
   max-width: 100%;
 }
@@ -88,8 +97,8 @@
   display:inline-flex;
   align-items:center;
   justify-content:center;
-  width:64px;
-  height:64px;
+  width:52px;
+  height:52px;
   opacity:.95;
   cursor:pointer;
   text-decoration:none;
@@ -98,8 +107,8 @@
   opacity:1;
 }
 .recipe-tool-btn img{
-  width:42px;
-  height:42px;
+  width:36px;
+  height:36px;
   display:block;
 }
 .recipe-copy-toast{
@@ -163,10 +172,44 @@
   display: block;
   clear: both;
 }
+.recipe-page ol.steps > li > p.step-title{
+  clear: both;
+  float:none;
+  display:block;
+  width:100%;
+  font-weight:700;
+  font-size:1.08rem;
+  line-height:1.25;
+  margin:0 0 .35rem 0;
+}
 .recipe-page .lead > h2,
 .recipe-page .block > h2,
 .recipe-page .notes > h2{
   clear: both;
+}
+.site-footer{
+  max-width:min(100%, var(--reading));
+  margin:3rem auto 0;
+  padding-top:1rem;
+  border-top:1px solid var(--line);
+}
+.site-footer-nav{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:1rem;
+}
+.site-footer-link{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-width:44px;
+  min-height:44px;
+  color:var(--muted);
+}
+.site-footer-link-icon{
+  font-size:1.05rem;
+  text-decoration:none;
 }
 @media (max-width: 760px){
   .recipe-page .lead{
@@ -188,12 +231,12 @@
     gap:10px;
   }
   .recipe-tool-btn{
-    width:54px;
-    height:54px;
+    width:50px;
+    height:50px;
   }
   .recipe-tool-btn img{
-    width:36px;
-    height:36px;
+    width:34px;
+    height:34px;
   }
 }</style>
 <style id="recipe-lightbox-style">.recipe-lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.88);display:flex;align-items:center;justify-content:center;padding:2rem;z-index:9999;cursor:zoom-out;}
@@ -202,29 +245,63 @@
 .recipe-lightbox-frame img{display:block;max-width:96vw;max-height:88vh;width:auto;height:auto;box-shadow:0 8px 32px rgba(0,0,0,.45);background:#fff;}
 .recipe-lightbox-caption{color:#fff;text-align:center;max-width:min(96vw,70rem);font-size:.95rem;line-height:1.35;}
 main figure:not(.recipe-license) img{cursor:zoom-in;}</style>
-</head>
+<style id="recipe-footer-r12-style">
+/* R12-04 allineamento centro footer ricette esistenti */
+.site-footer-center{
+  flex:1 1 auto;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:0.55rem;
+  min-width:0;
+}
+.site-footer-text{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-height:44px;
+  padding:0 10px;
+  font-size:1rem;
+  line-height:1;
+  font-weight:400;
+  color:#000 !important;
+  text-decoration:none;
+}
+.site-footer-icon{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-width:44px;
+  min-height:44px;
+  padding:6px;
+  color:#000 !important;
+  text-decoration:none;
+}
+.site-footer-icon img{
+  display:block;
+  width:32px;
+  height:32px;
+  opacity:0.85;
+}
+</style></head>
 <body>
 <div class="page">
 <header class="site-header">
 <a class="brand" href="../../index.html">Ricette (e altro) di Pierre</a>
 <nav>
-
-
-
-
-<a aria-label="Torna indietro" class="recipe-nav-back" href="#">←</a><a href="../../indici/ricette.html">Ricette</a><a href="../../indici/ingredienti.html">Ingredienti</a><a href="../../indici/fonti.html">Fonti</a><a href="../../indici/geografia.html">Geografia</a></nav>
+<a aria-label="Torna indietro" class="recipe-nav-back" href="#">←</a>
+<a href="../../indici/ricette.html">Ricette</a>
+<a href="../../indici/ingredienti.html">Ingredienti</a>
+<a href="../../indici/fonti.html">Fonti</a>
+<a href="../../indici/geografia.html">Geografia</a>
+</nav>
 </header>
 <main class="recipe-page">
 <main class="recipe-page">
-<h1>Gnocchetti sardi alla Urbaweb</h1><div class="recipe-content"><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Primi</span></div><div class="meta-card"><strong>Geografia</strong><span>Veneto – Venezia</span></div><div class="meta-card"><strong>Fonte</strong><span>Eddy Salzano</span></div></section><section class="lead">
-<h2>Introduzione e contesto</h2>
-<figure class="lead-media step-photo-large step-photo" style="width: 46%; max-width: 46%;">
+<div class="recipe-content"><h1>Gnocchetti sardi alla Urbaweb</h1><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Primi</span></div><div class="meta-card"><strong>Geografia</strong><span>Veneto – Venezia</span></div><div class="meta-card"><strong>Fonte</strong><span>Eddy Salzano</span></div></section><section class="lead"><h2>Introduzione e contesto</h2><figure class="lead-media step-photo-large step-photo" style="width: 79.6%; max-width: 79.6%;">
 <img alt="Ingredienti per gli gnocchetti sardi alla Urbaweb" src="../../foto/gnocchetti-sardi-alla-urbaweb/01.jpg"/>
 <figcaption>Ingredienti della ricetta</figcaption>
-</figure>
-<p>Riprendo questa ricetta, non mia ma di Eddy Salzano, perché fa comunque parte della mia storia. Nacque a Venezia, in occasione di una riunione di Urbandata, quando serviva un piatto freddo, abbondante e conviviale, adatto al caldo di fine maggio.</p>
-<p>La ricetta originale prevedeva gli gnocchetti sardi, cioè i malloreddus, ma può funzionare bene anche con altra pasta corta di grano duro. Restano però essenziali la qualità dell’olio, la precisione nel taglio delle verdure e l’equilibrio fra elementi di laguna, orto e affumicatura.</p>
-</section><section class="block">
+</figure><p>Riprendo questa ricetta, non mia ma di Eddy Salzano, perché fa comunque parte della mia storia. Nacque a Venezia, in occasione di una riunione di Urbandata, quando serviva un piatto freddo, abbondante e conviviale, adatto al caldo di fine maggio.</p><p>La ricetta originale prevedeva gli gnocchetti sardi, cioè i malloreddus, ma può funzionare bene anche con altra pasta corta di grano duro. Restano però essenziali la qualità dell’olio, la precisione nel taglio delle verdure e l’equilibrio fra elementi di laguna, orto e affumicatura.</p></section><section class="block">
 <h2>Ingredienti</h2>
 <div class="table-wrap">
 <table class="recipe-table">
@@ -251,22 +328,28 @@ main figure:not(.recipe-license) img{cursor:zoom-in;}</style>
 </section><section class="block preparation-block">
 <h2>Preparazione</h2>
 <ol class="steps">
-<li><p>Pulire i peperoni, lavarli e tagliarli a pezzettini piccoli, circa 1 × 1 cm. Tagliare i pomodori in 2 o in 4, eliminare acqua e semi, quindi ridurli a dadini. Pulire il sedano e affettare sottilmente solo la parte più tenera. Ridurre a pezzetti anche le zucchine e il pesce spada affumicato. Se le olive sono grandi, tagliarle a metà o a rondelle.</p></li>
+<li class="step-segmented"><p>Pulire i peperoni, lavarli e tagliarli a pezzettini piccoli, circa 1 × 1 cm. Tagliare i pomodori in 2 o in 4, eliminare acqua e semi, quindi ridurli a dadini.</p><figure class="step-photo-right step-photo" style="width: 34%; max-width: 34%; clear: none;"><img alt="" src="../../foto/gnocchetti-sardi-alla-urbaweb/02.jpg"/><figcaption></figcaption></figure><p> Pulire il sedano e affettare sottilmente solo la parte più tenera. Ridurre a pezzetti anche le zucchine e il pesce spada affumicato. Se le olive sono grandi, tagliarle a metà o a rondelle.</p></li>
 <li><p>Portare a ebollizione abbondante acqua salata e cuocere la pasta per il tempo necessario. Scolarla, condirla subito con qualche cucchiaio di olio extravergine e lasciarla raffreddare, in modo che i malloreddus non si incollino tra loro.</p></li>
 <li><p>Trasferire la pasta in una grande zuppiera, oppure in più recipienti se la quantità è importante. Unire tutte le verdure preparate, le schie, le olive, il pesce spada affumicato e le foglie spezzettate di basilico e menta.</p></li>
 <li><p>Mescolare con cura aggiungendo ancora olio, sale e pepe quanto basta. Lasciare riposare al fresco prima di servire, in modo che i sapori si armonizzino senza perdere freschezza.</p></li>
 <li><p>Servire freddi o appena freschi, eventualmente guarnendo con qualche foglia intera di basilico o di menta. L’autore della ricetta osserva che tutte le variazioni sono possibili, purché la pasta sia di grano duro e l’olio sia davvero buono.</p></li>
 </ol>
-</section><section class="notes">
-<h2>Note e osservazioni</h2>
-<ul class="clean">
-<li>Le schie sono piccoli gamberetti grigi di laguna, molto saporiti, reperibili già lessati e sgusciati.</li>
-<li>Il testo originale richiamava l’ambiente veneziano e il contesto conviviale di Urbandata; qui è stato ripulito separando il racconto dalla ricetta operativa.</li>
-<li>La ricetta può essere servita anche come piatto unico estivo, in quantità ridotte come antipasto di pasta fredda o in porzioni abbondanti da buffet.</li>
-</ul>
-</section><div class="rp-license-wrap"><div class="recipe-license"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><div class="recipe-footer-tools"><a aria-label="Stampa pagina" class="recipe-tool-btn recipe-tool-print" href="#"><img alt="Stampa" src="../../foto/licenze/icon-print.svg"/></a><a aria-label="Copia URL" class="recipe-tool-btn recipe-tool-link" href="#"><img alt="Copia URL" src="../../foto/licenze/icon-link.svg"/></a></div><div class="recipe-qrcode"><a class="recipe-qrcode-link" href="../../foto/gnocchetti-sardi-alla-urbaweb/qr-code.png"><img alt="QR ricetta" src="../../foto/gnocchetti-sardi-alla-urbaweb/qr-code.png"/></a></div></div></div>
+</section><section class="notes"><h2>Note e osservazioni</h2><p>Le schie sono piccoli gamberetti grigi di laguna, molto saporiti, reperibili già lessati e sgusciati.</p><p>Il testo originale richiamava l’ambiente veneziano e il contesto conviviale di Urbandata; qui è stato ripulito separando il racconto dalla ricetta operativa.</p><p>La ricetta può essere servita anche come piatto unico estivo, in quantità ridotte come antipasto di pasta fredda o in porzioni abbondanti da buffet.</p></section><div class="rp-license-wrap"><div class="recipe-license"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div>
+<nav aria-label="Strumenti pagina" class="site-footer-center recipe-footer-tools">
+<a aria-label="Informativa" class="site-footer-text recipe-tool-btn recipe-tool-info" href="../../informativa.html">Info</a>
+<a aria-label="Scrivimi" class="site-footer-icon recipe-tool-btn recipe-tool-mail" href="../../scrivimi.html"><img alt="" src="../../foto/ui/mail-light.svg"/></a>
+<a aria-label="Stampa pagina" class="site-footer-icon recipe-tool-btn recipe-tool-print" href="#"><img alt="" src="../../foto/ui/print-light.svg"/></a>
+<a aria-label="Copia URL" class="site-footer-icon recipe-tool-btn recipe-tool-link" href="#"><img alt="" src="../../foto/ui/link-light.svg"/></a>
+</nav>
+<div class="recipe-qrcode"><a class="recipe-qrcode-link" href="../../foto/gnocchetti-sardi-alla-urbaweb/qr-code.png"><img alt="QR ricetta" src="../../foto/gnocchetti-sardi-alla-urbaweb/qr-code.png"/></a></div></div></div>
 </main>
 </main>
+<footer class="site-footer">
+<nav aria-label="Collegamenti di servizio" class="site-footer-nav">
+<a class="site-footer-link" href="../../informativa.html">Info</a>
+<a aria-label="Scrivimi" class="site-footer-link site-footer-link-icon" href="../../scrivimi.html">✉</a>
+</nav>
+</footer>
 </div>
 <script id="recipe-lightbox-script">(function(){
   function ensureLightbox(){
@@ -359,5 +442,8 @@ main figure:not(.recipe-license) img{cursor:zoom-in;}</style>
       });
     }
   });
-})();</script></body>
+})();</script>
+__COOKIE_BANNER_HTML__
+<script id="site-cookie-banner-script">__COOKIE_BANNER_SCRIPT__</script>
+</body>
 </html>
