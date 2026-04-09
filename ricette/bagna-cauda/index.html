@@ -1,20 +1,11 @@
 <!DOCTYPE html>
 
-<html data-cookie-banner="__COOKIE_BANNER_ENABLED__" data-ga-measurement-id="" lang="it">
+<html lang="it">
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 <title>Bagna cauda – Ricette (e altro) di Pierre</title>
-<meta content="Questa ricetta tradizionale piemontese è nella versione tramandata da mia mamma. Per fissarla nel tempo ha pensato di scriverla e disegnarla su una piastrella bianca di ceramica, p" name="description"/>
-<meta content="Bagna cauda – Ricette (e altro) di Pierre" property="og:title"/>
-<meta content="Questa ricetta tradizionale piemontese è nella versione tramandata da mia mamma. Per fissarla nel tempo ha pensato di scriverla e disegnarla su una piastrella bianca di ceramica, p" property="og:description"/>
-<meta content="" property="og:image"/>
-<meta content="" property="og:url"/>
-<meta content="article" property="og:type"/>
-<meta content="summary_large_image" name="twitter:card"/>
-<meta content="" name="x-ga-measurement-id"/>
 <link href="../../style.css" rel="stylesheet"/>
-<!-- Google Analytics predisposto: inserire snippet/ID quando disponibile -->
 <style id="recipe-layout-style">.recipe-page{
   max-width: 100%;
 }
@@ -60,12 +51,16 @@
 .site-header .recipe-nav-back:hover{
   text-decoration:none;
 }
-.recipe-page .rp-license-wrap{
+.recipe-page .site-footer.recipe-footer{
   margin-top: 1.5rem;
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  gap:1rem;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:space-between !important;
+  gap:1rem !important;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+  width:100% !important;
+  max-width:min(100%, var(--reading)) !important;
 }
 .recipe-page .lead a,
 .recipe-page .block a,
@@ -73,43 +68,56 @@
   color:#5f86ad;
   font-weight:600;
 }
-.recipe-license{
-  opacity: 0.9;
+.site-footer-left,
+.site-footer-right{
   flex:0 0 auto;
 }
-.recipe-license a{
-  display:block;
+.site-footer-left{
+  opacity: 0.9;
+  flex:0 0 auto !important;
+  margin:0 !important;
 }
-.recipe-license img{
-  width: 70px;
-  max-width: 70px;
-  height: auto;
-  display: block;
-}
-.recipe-footer-tools{
-  margin-left:auto;
-  display:flex;
-  align-items:center;
-  gap:16px;
-}
-.recipe-tool-btn{
-  position:relative;
+.site-footer-left a,
+.site-footer-qr-link,
+.site-footer-icon,
+.site-footer-text{
   display:inline-flex;
   align-items:center;
   justify-content:center;
-  width:52px;
-  height:52px;
-  opacity:.95;
-  cursor:pointer;
   text-decoration:none;
+  color:#000;
 }
-.recipe-tool-btn:hover{
-  opacity:1;
-}
-.recipe-tool-btn img{
-  width:36px;
-  height:36px;
+.site-footer-left img{
   display:block;
+  height:32px;
+  width:auto;
+}
+.site-footer-center{
+  flex:1 1 auto;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:0.55rem;
+  min-width:0;
+}
+.site-footer-text{
+  min-height:44px;
+  padding:0 10px;
+  font-size:1rem;
+  line-height:1;
+  font-weight:400;
+  color:#000;
+}
+.site-footer-icon{
+  min-width:44px;
+  min-height:44px;
+  padding:6px;
+}
+.site-footer-icon img{
+  display:block;
+  width:32px;
+  height:32px;
+  opacity:0.85;
 }
 .recipe-copy-toast{
   position:fixed;
@@ -125,32 +133,32 @@
   z-index:10001;
   box-shadow:0 4px 16px rgba(0,0,0,.25);
 }
-.recipe-qrcode{
-  flex:0 0 auto;
-  margin-left:auto;
+.site-footer-right{
+  flex:0 0 auto !important;
+  margin:0 !important;
 }
-.recipe-qrcode,
-.recipe-qrcode a{
+.site-footer-right,
+.site-footer-right a{
   display:block !important;
   float:none !important;
   clear:none !important;
   margin:0 !important;
 }
-.recipe-qrcode img{
+.site-footer-right img{
   display:block !important;
-  width:60px !important;
-  max-width:60px !important;
-  height:60px !important;
+  width:72px !important;
+  max-width:72px !important;
+  height:72px !important;
   cursor:zoom-in;
 }
-.recipe-qrcode figcaption{
+.site-footer-right figcaption{
   display:none !important;
 }
 .recipe-page .meta-grid,
 .recipe-page .lead,
 .recipe-page .block,
 .recipe-page .notes,
-.recipe-page .rp-license-wrap{
+.recipe-page .site-footer.recipe-footer{
   width: 100%;
   max-width: min(100%, var(--reading));
 }
@@ -187,30 +195,6 @@
 .recipe-page .notes > h2{
   clear: both;
 }
-.site-footer{
-  max-width:min(100%, var(--reading));
-  margin:3rem auto 0;
-  padding-top:1rem;
-  border-top:1px solid var(--line);
-}
-.site-footer-nav{
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  gap:1rem;
-}
-.site-footer-link{
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  min-width:44px;
-  min-height:44px;
-  color:var(--muted);
-}
-.site-footer-link-icon{
-  font-size:1.05rem;
-  text-decoration:none;
-}
 @media (max-width: 760px){
   .recipe-page .lead{
     padding: 1rem 1rem;
@@ -227,63 +211,55 @@
     font-size:20px;
     top:-1px;
   }
-  .recipe-footer-tools{
-    gap:10px;
+  .site-footer-center{
+    gap:0.2rem;
   }
-  .recipe-tool-btn{
-    width:50px;
-    height:50px;
+  .site-footer-text{
+    padding:0 6px;
   }
-  .recipe-tool-btn img{
-    width:34px;
-    height:34px;
+  .site-footer-left img{
+    height:28px;
   }
+  .site-footer-icon img{
+    width:28px;
+    height:28px;
+  }
+  .site-footer-right img{
+    width:68px !important;
+    height:68px !important;
+    max-width:68px !important;
+  }
+}
+
+@media print{
+  header.site-header,
+  .page > .site-header,
+  footer.site-footer.recipe-footer,
+  .recipe-page .site-footer.recipe-footer{
+    display:none !important;
+    visibility:hidden !important;
+    position:static !important;
+    height:0 !important;
+    min-height:0 !important;
+    max-height:0 !important;
+    overflow:hidden !important;
+    margin:0 !important;
+    padding:0 !important;
+    border:0 !important;
+  }
+  body,
+  .page{
+    padding-top:0 !important;
+  }
+}
 }</style>
 <style id="recipe-lightbox-style">.recipe-lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.88);display:flex;align-items:center;justify-content:center;padding:2rem;z-index:9999;cursor:zoom-out;}
 .recipe-lightbox-overlay.is-hidden{display:none !important;}
 .recipe-lightbox-frame{max-width:96vw;max-height:96vh;display:flex;flex-direction:column;gap:.75rem;align-items:center;}
 .recipe-lightbox-frame img{display:block;max-width:96vw;max-height:88vh;width:auto;height:auto;box-shadow:0 8px 32px rgba(0,0,0,.45);background:#fff;}
 .recipe-lightbox-caption{color:#fff;text-align:center;max-width:min(96vw,70rem);font-size:.95rem;line-height:1.35;}
-main figure:not(.recipe-license) img{cursor:zoom-in;}</style>
-<style id="recipe-footer-r12-style">
-/* R12-04 allineamento centro footer ricette esistenti */
-.site-footer-center{
-  flex:1 1 auto;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  gap:0.55rem;
-  min-width:0;
-}
-.site-footer-text{
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  min-height:44px;
-  padding:0 10px;
-  font-size:1rem;
-  line-height:1;
-  font-weight:400;
-  color:#000 !important;
-  text-decoration:none;
-}
-.site-footer-icon{
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  min-width:44px;
-  min-height:44px;
-  padding:6px;
-  color:#000 !important;
-  text-decoration:none;
-}
-.site-footer-icon img{
-  display:block;
-  width:32px;
-  height:32px;
-  opacity:0.85;
-}
-</style></head>
+main figure img{cursor:zoom-in;}</style>
+</head>
 <body>
 <div class="page">
 <header class="site-header">
@@ -298,22 +274,9 @@ main figure:not(.recipe-license) img{cursor:zoom-in;}</style>
 </header>
 <main class="recipe-page">
 <main class="recipe-page">
-<div class="recipe-content"><h1>Bagna cauda</h1><section class="lead"><h2>Introduzione e contesto</h2><figure class="step-photo-large step-photo" style="width: 46%; max-width: 46%; margin-left: auto; margin-right: auto;"><img alt="" src="../../foto/bagna-cauda/01.jpg"/><figcaption></figcaption></figure><p>Questa ricetta tradizionale piemontese è nella versione tramandata da mia mamma. Per fissarla nel tempo ha pensato di scriverla e disegnarla su una piastrella bianca di ceramica, poi cotta in forno. È ancora oggi appesa in casa mia.</p><p data-end="842" data-start="608">È una bagna cauda equilibrata, non aggressiva: l’aglio è lavorato con cura e resta presente ma non dominante.</p><figure class="step-photo-large step-photo" style="width: 70%; max-width: 70%; margin-left: auto; margin-right: auto;"><img alt="" src="../../foto/bagna-cauda/Bagna-cauda.jpg"/><figcaption></figcaption></figure></section><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Secondi</span></div><div class="meta-card"><strong>Geografia</strong><span>Italia - Piemonte</span></div><div class="meta-card"><strong>Fonte</strong><span>Jacqueline Gibert</span></div></section><section class="block"><h2>Ingredienti</h2><table class="recipe-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Aglio</td><td>6</td><td>teste</td><td></td></tr><tr><td>Alici sotto sale</td><td>8</td><td></td><td></td></tr><tr><td>Olio extravergine d'oliva</td><td>1/4</td><td>l</td><td></td></tr><tr><td>Panna</td><td>2</td><td>cucchiai</td><td></td></tr><tr><td>Cardo bianco gobbo</td><td></td><td></td><td></td></tr><tr><td>Topinambur</td><td></td><td></td><td></td></tr><tr><td>Peperoni sotto mosto</td><td></td><td></td><td></td></tr><tr><td>Sedano</td><td></td><td></td><td></td></tr><tr><td>Carciofi</td><td></td><td></td><td></td></tr><tr><td>Rape</td><td></td><td></td><td></td></tr><tr><td>Finocchi</td><td></td><td></td><td></td></tr><tr><td>Ravanelli</td><td></td><td></td><td></td></tr><tr><td>Cavolfiore</td><td></td><td></td><td></td></tr><tr><td>Carote</td><td></td><td></td><td></td></tr></tbody></table></section><section class="block preparation-block"><h2>Preparazione</h2><ol class="steps"><li><p>Prendo le teste d’aglio, pelo gli spicchi e tolgo il germe interno.</p></li><li><p>Metto gli spicchi a bollire in un pentolino di latte. Quando sono appena teneri, butto il latte e passo l’aglio al mortaio, quindi lo lavoro con circa 1/4 di litro di olio.</p></li><li><p>Preparo le verdure: le pulisco, le taglio a pezzi e le tengo in acqua acidulata per evitare l’ossidazione.<br/></p></li><li><p>Circa mezz’ora prima del pasto metto sul fuoco molto dolce l’olio con l’aglio; quando è ben caldo (senza farlo friggere) aggiungo le alici salate, disliscate e lavate, che ho fatto sciogliere molto dolcemente in poco olio.</p></li><li><p>Quando il tutto è ben amalgamato, posso aggiungere, se voglio, qualche cucchiaio di panna fresca (ma è un'eresia). Mescolo ancora per legare.<br/>
-Porto in tavola sul fornelletto e accompagno con pane rustico e le verdure.</p></li><li><p>Vino: esclusivamente Barbera nera giovane.</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><p data-end="909" data-start="581">Qui contano molto anche le verdure. Il cardo bianco gobbo è unico: tenero, quasi senza fibra, leggermente amaro ma pulito. Si ottiene forzando la pianta a crescere al buio, piegata e coperta di terra, in modo che perda la clorofilla e diventi più delicata. È un prodotto profondamente piemontese, difficile da sostituire.</p><p data-end="1162" data-start="916">Anche i peperoni sotto mosto hanno un ruolo importante: danno acidità e una nota aromatica che alleggerisce la bagna. Sono peperoni conservati nel mosto d’uva, con una fermentazione leggera che li rende più complessi e meno aggressivi dell’aceto.</p></section><div class="rp-license-wrap"><div class="recipe-license"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div>
-<nav aria-label="Strumenti pagina" class="site-footer-center recipe-footer-tools">
-<a aria-label="Informativa" class="site-footer-text recipe-tool-btn recipe-tool-info" href="../../informativa.html">Info</a>
-<a aria-label="Scrivimi" class="site-footer-icon recipe-tool-btn recipe-tool-mail" href="../../scrivimi.html"><img alt="" src="../../foto/ui/mail-light.svg"/></a>
-<a aria-label="Stampa pagina" class="site-footer-icon recipe-tool-btn recipe-tool-print" href="#"><img alt="" src="../../foto/ui/print-light.svg"/></a>
-<a aria-label="Copia URL" class="site-footer-icon recipe-tool-btn recipe-tool-link" href="#"><img alt="" src="../../foto/ui/link-light.svg"/></a>
-</nav>
-<div class="recipe-qrcode"><a class="recipe-qrcode-link" href="../../foto/bagna-cauda/qr-code.png"><img alt="QR ricetta" src="../../foto/bagna-cauda/qr-code.png"/></a></div></div></div></main>
+<div class="recipe-content"><h1>Bagna cauda</h1><section class="lead"><h2>Introduzione e contesto</h2><figure class="step-photo step-photo-large" style="width: 46%; max-width: 46%; margin-left: auto; margin-right: auto;"><img alt="" src="../../foto/bagna-cauda/01.jpg"/><figcaption></figcaption></figure><p>Questa ricetta tradizionale piemontese è nella versione tramandata da mia mamma. Per fissarla nel tempo ha pensato di scriverla e disegnarla su una piastrella bianca di ceramica, poi cotta in forno. È ancora oggi appesa in casa mia.</p><p data-end="842" data-start="608">È una bagna cauda equilibrata, non aggressiva: l’aglio è lavorato con cura e resta presente ma non dominante.</p><figure class="step-photo step-photo-large" style="width: 70%; max-width: 70%; margin-left: auto; margin-right: auto;"><img alt="" src="../../foto/bagna-cauda/Bagna-cauda.jpg"/><figcaption></figcaption></figure></section><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Secondi</span></div><div class="meta-card"><strong>Geografia</strong><span>Italia - Piemonte</span></div><div class="meta-card"><strong>Fonte</strong><span>Jacqueline Gibert</span></div></section><section class="block"><h2>Ingredienti</h2><table class="recipe-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Aglio</td><td>6</td><td>teste</td><td></td></tr><tr><td>Alici sotto sale</td><td>8</td><td></td><td></td></tr><tr><td>Olio extravergine d'oliva</td><td>1/4</td><td>l</td><td></td></tr><tr><td>Panna</td><td>2</td><td>cucchiai</td><td></td></tr><tr><td>Cardo bianco gobbo</td><td></td><td></td><td></td></tr><tr><td>Topinambur</td><td></td><td></td><td></td></tr><tr><td>Peperoni sotto mosto</td><td></td><td></td><td></td></tr><tr><td>Sedano</td><td></td><td></td><td></td></tr><tr><td>Carciofi</td><td></td><td></td><td></td></tr><tr><td>Rape</td><td></td><td></td><td></td></tr><tr><td>Finocchi</td><td></td><td></td><td></td></tr><tr><td>Ravanelli</td><td></td><td></td><td></td></tr><tr><td>Cavolfiore</td><td></td><td></td><td></td></tr><tr><td>Carote</td><td></td><td></td><td></td></tr></tbody></table></section><section class="preparation-block block"><h2>Preparazione</h2><ol class="steps"><li><p>Prendo le teste d’aglio, pelo gli spicchi e tolgo il germe interno.</p></li><li><p>Metto gli spicchi a bollire in un pentolino di latte. Quando sono appena teneri, butto il latte e passo l’aglio al mortaio, quindi lo lavoro con circa 1/4 di litro di olio.</p></li><li><p>Preparo le verdure: le pulisco, le taglio a pezzi e le tengo in acqua acidulata per evitare l’ossidazione.<br/></p></li><li><p>Circa mezz’ora prima del pasto metto sul fuoco molto dolce l’olio con l’aglio; quando è ben caldo (senza farlo friggere) aggiungo le alici salate, disliscate e lavate, che ho fatto sciogliere molto dolcemente in poco olio.</p></li><li><p>Quando il tutto è ben amalgamato, posso aggiungere, se voglio, qualche cucchiaio di panna fresca (ma è un'eresia). Mescolo ancora per legare.<br/>
+Porto in tavola sul fornelletto e accompagno con pane rustico e le verdure.</p></li><li><p>Vino: esclusivamente Barbera nera giovane.</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><p data-end="909" data-start="581">Qui contano molto anche le verdure. Il cardo bianco gobbo è unico: tenero, quasi senza fibra, leggermente amaro ma pulito. Si ottiene forzando la pianta a crescere al buio, piegata e coperta di terra, in modo che perda la clorofilla e diventi più delicata. È un prodotto profondamente piemontese, difficile da sostituire.</p><p data-end="1162" data-start="916">Anche i peperoni sotto mosto hanno un ruolo importante: danno acidità e una nota aromatica che alleggerisce la bagna. Sono peperoni conservati nel mosto d’uva, con una fermentazione leggera che li rende più complessi e meno aggressivi dell’aceto.</p></section></div><footer class="site-footer recipe-footer"><div class="site-footer-left"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><nav aria-label="Strumenti pagina" class="site-footer-center"><a aria-label="Informativa" class="site-footer-text recipe-tool-info" href="../../informativa.html">Info</a><a aria-label="Scrivimi" class="site-footer-icon recipe-tool-mail" href="../../scrivimi.html"><img alt="" src="../../foto/ui/mail-light.svg"/></a><a aria-label="Stampa pagina" class="site-footer-icon recipe-tool-print" href="#"><img alt="" src="../../foto/ui/print-light.svg"/></a><a aria-label="Copia URL" class="site-footer-icon recipe-tool-link" href="#"><img alt="" src="../../foto/ui/link-light.svg"/></a></nav><div class="site-footer-right"><a class="site-footer-qr-link recipe-qrcode-link" href="../../foto/bagna-cauda/qr-code.png"><img alt="QR ricetta" src="../../foto/bagna-cauda/qr-code.png"/></a></div></footer></main>
 </main>
-<footer class="site-footer">
-<nav aria-label="Collegamenti di servizio" class="site-footer-nav">
-<a class="site-footer-link" href="../../informativa.html">Info</a>
-<a aria-label="Scrivimi" class="site-footer-link site-footer-link-icon" href="../../scrivimi.html">✉</a>
-</nav>
-</footer>
 </div>
 <script id="recipe-lightbox-script">(function(){
   function ensureLightbox(){
@@ -333,7 +296,7 @@ Porto in tavola sul fornelletto e accompagno con pane rustico e le verdure.</p><
     const outImg = overlay.querySelector('img');
     const caption = overlay.querySelector('.recipe-lightbox-caption');
     document.querySelectorAll('main img').forEach(function(img){
-      if(img.closest('.recipe-license') || img.closest('.recipe-footer-tools')) return;
+      if(img.closest('.site-footer') || img.closest('.site-footer-center') || img.closest('.site-footer-right') || img.closest('.site-footer-left')) return;
       img.addEventListener('click', function(ev){
         ev.preventDefault();
         ev.stopPropagation();
@@ -342,6 +305,18 @@ Porto in tavola sul fornelletto e accompagno con pane rustico e le verdure.</p><
         const fig = img.closest('figure');
         const cap = fig ? fig.querySelector('figcaption') : null;
         caption.textContent = (cap && cap.textContent.trim()) || img.alt || '';
+        overlay.classList.remove('is-hidden');
+      });
+    });
+    document.querySelectorAll('.recipe-qrcode-link').forEach(function(link){
+      link.addEventListener('click', function(ev){
+        ev.preventDefault();
+        ev.stopPropagation();
+        var img = link.querySelector('img');
+        if(!img) return;
+        outImg.src = img.currentSrc || img.src;
+        outImg.alt = img.alt || 'QR ricetta';
+        caption.textContent = img.alt || 'QR ricetta';
         overlay.classList.remove('is-hidden');
       });
     });
@@ -407,7 +382,5 @@ Porto in tavola sul fornelletto e accompagno con pane rustico e le verdure.</p><
     }
   });
 })();</script>
-__COOKIE_BANNER_HTML__
-<script id="site-cookie-banner-script">__COOKIE_BANNER_SCRIPT__</script>
 </body>
 </html>
