@@ -1086,7 +1086,7 @@ body {
 @media print {
 
   html, body {
-    width: 210mm;
+    width: auto !important;
   }
   .page,
   .recipe-page,
