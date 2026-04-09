@@ -766,7 +766,7 @@ body {
 
 
 
-@media (max-width: 768px) and (orientation: portrait) {
+@media screen and (max-width: 768px) and (orientation: portrait) {
 
   .recipe-page figure {
     width: 100% !important;
@@ -815,7 +815,7 @@ body {
 
 /* FIX REALE iPhone — ingredienti dentro .block */
 
-@media (max-width: 768px) and (orientation: portrait) {
+@media screen and (max-width: 768px) and (orientation: portrait) {
 
   main.recipe-page > .recipe-content,
   main.recipe-page .block,
@@ -864,7 +864,7 @@ body {
 }
 
 /* R10-01 — ingredienti iPhone: header compatto */
-@media (max-width: 768px) and (orientation: portrait){
+@media screen and (max-width: 768px) and (orientation: portrait) {
   .recipe-page table.recipe-table,
   .recipe-page .block > table.recipe-table,
   .recipe-page .table-wrap > table.recipe-table{
@@ -1085,9 +1085,15 @@ body {
 }
 @media print {
 
-  html, body {
-    width: 210mm;
+  @page {
+    size: landscape;
+    margin: 10mm 0;
   }
+
+  html, body {
+    width: auto !important;
+  }
+
   .page,
   .recipe-page,
   .recipe-content {
