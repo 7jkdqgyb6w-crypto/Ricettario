@@ -1086,18 +1086,126 @@ body {
 @media print {
 
   @page {
-    size: landscape;
     margin: 10mm 0;
   }
 
   html, body {
     width: auto !important;
+    background: #fff !important;
   }
 
   .page,
   .recipe-page,
-  .recipe-content {
-    width: 100%;
-    max-width: 100%;
+  .recipe-content,
+  .lead,
+  .block,
+  .notes {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .lead::after,
+  .block::after,
+  .notes::after,
+  .steps li::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .step-photo-large {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .step-photo,
+  .step-photo-right,
+  .step-photo-left {
+    break-inside: auto;
+    page-break-inside: auto;
+  }
+
+  .step-photo img,
+  .step-photo-right img,
+  .step-photo-left img,
+  .step-photo-large img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .step-photo-large {
+    float: none !important;
+    clear: both;
+    width: 100% !important;
+    max-width: 15cm !important;
+    margin: 0 auto 8mm !important;
+  }
+
+  .step-photo-right,
+  .step-photo-left {
+    width: 34% !important;
+    max-width: 6.2cm !important;
+    margin-bottom: 4mm !important;
+  }
+
+  .step-photo-right {
+    float: right !important;
+    margin: 0 0 4mm 7mm !important;
+  }
+
+  .step-photo-left {
+    float: left !important;
+    margin: 0 7mm 4mm 0 !important;
+  }
+}
+
+
+/* home_release_23 — footer ricetta a tre colonne stabili */
+body .page main.recipe-page footer.site-footer.recipe-footer{
+  display:grid !important;
+  grid-template-columns:auto 1fr auto !important;
+  align-items:center !important;
+  column-gap:1rem !important;
+  justify-content:unset !important;
+}
+
+body .page main.recipe-page footer.site-footer.recipe-footer > .site-footer-left{
+  display:block !important;
+  justify-self:start !important;
+  min-width:max-content !important;
+  flex:none !important;
+  margin:0 !important;
+}
+
+body .page main.recipe-page footer.site-footer.recipe-footer > .site-footer-center{
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  gap:0.55rem !important;
+  min-width:0 !important;
+  flex:none !important;
+  margin:0 auto !important;
+}
+
+body .page main.recipe-page footer.site-footer.recipe-footer > .site-footer-right{
+  display:block !important;
+  justify-self:end !important;
+  min-width:max-content !important;
+  flex:none !important;
+  margin:0 !important;
+}
+
+@media (max-width: 760px){
+  body .page main.recipe-page footer.site-footer.recipe-footer{
+    column-gap:0.5rem !important;
+  }
+  body .page main.recipe-page footer.site-footer.recipe-footer > .site-footer-left{
+    min-width:0 !important;
+  }
+  body .page main.recipe-page footer.site-footer.recipe-footer > .site-footer-center{
+    gap:0.2rem !important;
+  }
+  body .page main.recipe-page footer.site-footer.recipe-footer > .site-footer-right{
+    min-width:0 !important;
   }
 }
