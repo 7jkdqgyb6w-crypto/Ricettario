@@ -791,7 +791,29 @@ body {
   }
 
 }
+@media screen and (max-width: 932px) and (orientation: landscape) {
+  .recipe-page figure {
+    width: auto !important;
+    max-width: none !important;
+    float: revert !important;
+    clear: revert !important;
+    margin: revert !important;
+  }
 
+  .recipe-page .step-photo-right {
+    float: right !important;
+    width: min(44%, 24rem) !important;
+    margin-left: 1.2rem !important;
+    margin-right: 0 !important;
+  }
+
+  .recipe-page .step-photo-left {
+    float: left !important;
+    width: min(44%, 24rem) !important;
+    margin-right: 1.2rem !important;
+    margin-left: 0 !important;
+  }
+}
 
 /* R6-STEP3 FIX — FOOTER TOOLS */
 .recipe-page .rp-license-wrap {
@@ -1207,5 +1229,57 @@ body .page main.recipe-page footer.site-footer.recipe-footer > .site-footer-righ
   }
   body .page main.recipe-page footer.site-footer.recipe-footer > .site-footer-right{
     min-width:0 !important;
+  }
+}
+
+
+/* R13-63 — gruppi immagini sul sito: layout orizzontale coerente */
+main.recipe-page .image-row{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  clear:both;
+  width:100%;
+  max-width:100%;
+  margin:0 0 1rem;
+}
+
+main.recipe-page .image-row > figure.step-photo,
+main.recipe-page .image-row > figure.step-photo-left,
+main.recipe-page .image-row > figure.step-photo-right,
+main.recipe-page .image-row > figure.step-photo-large{
+  float:none !important;
+  clear:none !important;
+  width:calc(25% - 9px) !important;
+  max-width:calc(25% - 9px) !important;
+  margin:0 !important;
+  flex:0 0 calc(25% - 9px);
+}
+
+main.recipe-page .image-row > figure.step-photo img,
+main.recipe-page .image-row > figure.step-photo-left img,
+main.recipe-page .image-row > figure.step-photo-right img,
+main.recipe-page .image-row > figure.step-photo-large img{
+  width:100% !important;
+  max-width:100% !important;
+  height:auto !important;
+}
+
+main.recipe-page .image-row.image-group-continuation{
+  margin-top:12px;
+}
+
+@media screen and (max-width: 768px){
+  main.recipe-page .image-row{
+    gap:10px;
+  }
+
+  main.recipe-page .image-row > figure.step-photo,
+  main.recipe-page .image-row > figure.step-photo-left,
+  main.recipe-page .image-row > figure.step-photo-right,
+  main.recipe-page .image-row > figure.step-photo-large{
+    width:calc(50% - 5px) !important;
+    max-width:calc(50% - 5px) !important;
+    flex-basis:calc(50% - 5px);
   }
 }
