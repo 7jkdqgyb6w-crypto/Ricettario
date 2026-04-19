@@ -165,28 +165,51 @@ document.addEventListener("DOMContentLoaded", async () => {
 </script>
 <footer class="site-footer"><div class="site-footer-left"></div><nav aria-label="Strumenti pagina" class="site-footer-center">
 <a class="site-footer-text" href="informativa.html"><img alt="" src="foto/ui/info-light.svg"/></a>
-<a aria-label="Scrivimi" class="site-footer-icon" href="scrivimi.html"><img alt="" src="foto/ui/mail-light.svg"/></a><a aria-label="Stampa pagina" class="site-footer-icon js-print-link" href="#"><img alt="" src="foto/ui/print-light.svg"/></a><a aria-label="Copia link pagina" class="site-footer-icon js-copy-link" href="#"><img alt="" src="foto/ui/link-light.svg"/></a></nav><div class="site-footer-right"></div></footer></div>
+<a aria-label="Scrivimi" class="site-footer-icon" href="scrivimi.html"><img alt="" src="foto/ui/mail-light.svg"/></a><a aria-label="Stampa pagina" class="site-footer-icon js-print-link" href="#"><img alt="" src="foto/ui/print-light.svg"/></a>
+<a aria-label="Copia link pagina" class="site-footer-icon js-copy-link" href="#"><img alt="" src="foto/ui/link-light.svg"/></a>
+
+</nav><div class="site-footer-right"></div></footer></div>
 </main>
 </div>
-<script id="recipe-lightbox-script">(function(){
+<script id="site-footer-script">
+(function(){
   function ensureLightbox(){
-    let overlay = document.getElementById('recipeLightbox');
-    if(overlay) return overlay;
-    overlay = document.createElement('div');
-    overlay.id = 'recipeLightbox';
-    overlay.className = 'recipe-lightbox-overlay is-hidden';
-    overlay.innerHTML = '<div class="recipe-lightbox-frame"><img alt=""><div class="recipe-lightbox-caption"></div></div>';
-    document.body.appendChild(overlay);
-    overlay.addEventListener('click', function(){ overlay.classList.add('is-hidden'); });
-    document.addEventListener('keydown', function(ev){ if(ev.key === 'Escape') overlay.classList.add('is-hidden'); });
-    return overlay;
+    var lb=document.querySelector('.site-lightbox');
+    if(lb) return lb;
+    lb=document.createElement('div');
+    lb.className='site-lightbox';
+    lb.innerHTML='<button class="site-lightbox-close" aria-label="Chiudi">×</button><img class="site-lightbox-image" alt="">';
+    lb.addEventListener('click', function(ev){ lb.classList.remove('is-open'); });
+    document.addEventListener('keydown', function(ev){ if(ev.key==='Escape') lb.classList.remove('is-open'); });
+    document.body.appendChild(lb);
+    return lb;
   }
-  function showCopyToast(){
-    var oldToast=document.querySelector('.recipe-copy-toast');
+  function openLightbox(src, alt){
+    var lb=ensureLightbox();
+    var img=lb.querySelector('.site-lightbox-image');
+    img.src=src; img.alt=alt||'';
+    lb.classList.add('is-open');
+    }
+	function showCopyToast(){
+    var oldToast=document.querySelector('.site-copy-toast');
     if(oldToast) oldToast.remove();
     var toast=document.createElement('div');
-    toast.className='recipe-copy-toast';
+    toast.className='site-copy-toast';
     toast.textContent='URL copiato';
+    toast.style.position='fixed';
+    toast.style.left='50%';
+    toast.style.bottom='22px';
+    toast.style.transform='translateX(-50%)';
+    toast.style.background='rgba(30,30,30,.92)';
+    toast.style.color='#fff';
+    toast.style.fontSize='13px';
+    toast.style.fontWeight='700';
+    toast.style.lineHeight='1';
+    toast.style.padding='8px 10px';
+    toast.style.borderRadius='7px';
+    toast.style.zIndex='10001';
+    toast.style.boxShadow='0 4px 16px rgba(0,0,0,.25)';
+    toast.style.whiteSpace='nowrap';
     document.body.appendChild(toast);
     setTimeout(function(){ if(toast && toast.parentNode) toast.parentNode.removeChild(toast); }, 1200);
   }

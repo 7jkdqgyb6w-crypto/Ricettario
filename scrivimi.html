@@ -2,11 +2,48 @@
 
 <html data-cookie-banner="0" data-ga-measurement-id="" lang="it">
 <head>
-<meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta charset="utf-8"/><meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
 <title>Scrivimi – Ricette (e altro) di Pierre</title>
 <link href="style.css" rel="stylesheet"/>
 <meta content="Contatti del sito Ricette (e altro) di Pierre." name="description"/>
-</head><body><div class="page"><header class="site-header"><a class="brand" href="index.html">Ricette (e altro) di Pierre</a><nav><a aria-label="Torna indietro" href="#" id="back-link">←</a><a href="indici/ricette.html">Ricette</a><a href="indici/ingredienti.html">Ingredienti</a><a href="indici/fonti.html">Fonti</a><a href="indici/geografia.html">Geografia</a></nav></header><main><div class="home-content"><h1>Scrivimi</h1><section class="lead home-intro"><p>Per comunicazioni sul sito o sui contenuti puoi scrivermi direttamente via email.</p></section><section class="block"><h2>Contatto</h2><p><a href="mailto:pierre.piccotti@gmail.com">pierre.piccotti@gmail.com</a></p></section><footer class="site-footer"><nav aria-label="Strumenti pagina" class="site-footer-center"><a class="site-footer-text" href="informativa.html"><href="../../informativa.html"><img alt="" src="../../foto/ui/info-light.svg"/></a><a aria-label="Stampa pagina" class="site-footer-icon js-print-link" href="#"><img alt="" src="foto/ui/print-light.svg"/></a><a aria-label="Copia link pagina" class="site-footer-icon js-copy-link" href="#"><img alt="" src="foto/ui/link-light.svg"/></a></nav></footer></div></main></div><script>
+</head><body><div class="page"><header class="site-header"><a class="brand" href="index.html">Ricette (e altro) di Pierre</a><nav><a aria-label="Torna indietro" href="#" id="back-link">←</a><a href="indici/ricette.html">Ricette</a><a href="indici/ingredienti.html">Ingredienti</a><a href="indici/fonti.html">Fonti</a><a href="indici/geografia.html">Geografia</a></nav></header><main><div class="home-content"><h1>Scrivimi</h1><section class="lead home-intro"><p>Per comunicazioni sul sito o sui contenuti puoi scrivermi direttamente via email.</p></section>
+<section class="block">
+  <h2>Contatto</h2>
+  <p><a href="mailto:pierre.piccotti@gmail.com">pierre.piccotti@gmail.com</a></p>
+
+  <form action="https://formspree.io/f/mgorybde" method="POST" style="margin-top:20px; max-width:520px;">
+    <div style="margin-bottom:12px;">
+      <label for="nome">Nome (facoltativo)</label><br>
+      <input id="nome" name="nome" type="text" style="width:100%; padding:8px;">
+    </div>
+
+    <div style="margin-bottom:12px;">
+      <label for="email">Email per risposta (facoltativa)</label><br>
+      <input id="email" name="email" type="email" style="width:100%; padding:8px;">
+    </div>
+
+    <div style="margin-bottom:12px;">
+      <label for="messaggio">Messaggio</label><br>
+      <textarea id="messaggio" name="messaggio" required style="width:100%; padding:8px; min-height:120px;"></textarea>
+    </div>
+
+    <div style="margin-top:14px;">
+      <button type="submit" style="padding:10px 14px; font-weight:600;">
+        Invia
+      </button>
+    </div>
+
+    <p style="font-size:12px; margin-top:10px; color:#666;">
+      Il messaggio verrà recapitato senza rendere pubblico il tuo indirizzo.
+    </p>
+  </form>
+</section>
+
+
+
+<footer class="site-footer"><div class="site-footer-left"></div><nav aria-label="Strumenti pagina" class="site-footer-center">
+<a class="site-footer-text" href="informativa.html"><img alt="" src="foto/ui/info-light.svg"/></a>
+<a aria-label="Stampa pagina" class="site-footer-icon js-print-link" href="#"><img alt="" src="foto/ui/print-light.svg"/></a><a aria-label="Copia link pagina" class="site-footer-icon js-copy-link" href="#"><img alt="" src="foto/ui/link-light.svg"/></a></nav><div class="site-footer-right"></div></footer></div></main></div><script>
 (function(){
   var back = document.getElementById('back-link');
   if(!back) return;
