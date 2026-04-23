@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-
 <html lang="it">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
-<title>Arista alla birra – Ricette (e altro) di Pierre</title>
-<link href="../../style.css" rel="stylesheet"/>
-<style id="recipe-layout-style">.recipe-page{
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Aringhe in terrina – Ricette (e altro) di Pierre</title>
+  <link rel="stylesheet" href="../../style.css">
+  <style id="recipe-layout-style">.recipe-page{
   max-width: 100%;
 }
 .recipe-page .recipe-content{
@@ -181,10 +180,10 @@
   clear: both;
 }
 .recipe-page ol.steps > li > p.step-title{
-  clear: both;
+  clear: none !important;
   float:none;
-  display:block;
-  width:100%;
+  display:flow-root;
+  width:auto !important;
   font-weight:700;
   font-size:1.08rem;
   line-height:1.25;
@@ -194,6 +193,18 @@
 .recipe-page .block > h2,
 .recipe-page .notes > h2{
   clear: both;
+}
+.recipe-page .steps li{
+  clear:none !important;
+}
+.recipe-page figure.step-photo-left{
+  margin-right:calc(1.2rem + 3mm) !important;
+}
+.recipe-page figure.step-photo-right{
+  margin-left:calc(1.2rem + 3mm) !important;
+}
+.recipe-page ol.steps > li{
+  clear:none !important;
 }
 @media (max-width: 760px){
   .recipe-page .lead{
@@ -253,7 +264,7 @@
   }
 }
 }</style>
-<style id="recipe-lightbox-style">.recipe-lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.88);display:flex;align-items:center;justify-content:center;padding:2rem;z-index:9999;cursor:zoom-out;}
+  <style id="recipe-lightbox-style">.recipe-lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.88);display:flex;align-items:center;justify-content:center;padding:2rem;z-index:9999;cursor:zoom-out;}
 .recipe-lightbox-overlay.is-hidden{display:none !important;}
 .recipe-lightbox-frame{max-width:96vw;max-height:96vh;display:flex;flex-direction:column;gap:.75rem;align-items:center;}
 .recipe-lightbox-frame img{display:block;max-width:96vw;max-height:88vh;width:auto;height:auto;box-shadow:0 8px 32px rgba(0,0,0,.45);background:#fff;}
@@ -268,14 +279,21 @@ main figure img{cursor:zoom-in;}
 <body>
 <div class="page">
 <header class="site-header">
-<a class="brand" href="../../index.html">Ricette (e altro) di Pierre</a>
-<nav>
-<a aria-label="Torna indietro" class="recipe-nav-back" href="#">←</a><a href="../../indici/ricette.html">Ricette</a><a href="../../indici/ingredienti.html">Ingredienti</a><a href="../../indici/fonti.html">Fonti</a><a href="../../indici/geografia.html">Geografia</a></nav>
+  <a class="brand" href="../../index.html">Ricette (e altro) di Pierre</a>
+  <nav>
+    <a href="#" class="recipe-nav-back" aria-label="Torna indietro">←</a>
+    <a href="../../indici/ricette.html">Ricette</a>
+    <a href="../../indici/ingredienti.html">Ingredienti</a>
+    <a href="../../indici/fonti.html">Fonti</a>
+    <a href="../../indici/geografia.html">Geografia</a>
+  </nav>
 </header>
+
 <main class="recipe-page">
 <main class="recipe-page">
-<div class="recipe-content"><h1>Arista alla birra</h1><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Secondi</span></div><div class="meta-card"><strong>Geografia</strong><span>Italia - Campania</span></div><div class="meta-card"><strong>Fonte</strong><span>Nicola D.</span></div></section><section class="lead"><h2>Introduzione e contesto</h2><figure class="step-photo step-photo-large" style="width: 61.4%; max-width: 61.4%; margin-left: auto; margin-right: auto;"><img alt="" src="../../foto/arista-alla-birra/01.jpg"/><figcaption></figcaption></figure><p>Questa ricetta mi arriva da Nicola, anzi dalla sua ex moglie. È una di quelle preparazioni che richiedono tempo più che tecnica: la carne cuoce lentamente nella birra e si trasforma, diventando morbida e saporita. Io preferisco usare anche la parte iniziale dell’arista, più ricca di collagene, perché regge meglio la lunga cottura e dà più struttura al piatto.</p></section><section class="block"><h2>Ingredienti</h2><table class="recipe-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Arista di maiale</td><td>1,5</td><td>Kg</td><td>lonza</td></tr><tr><td>Birra ambrata</td><td>2x60</td><td>cl</td><td></td></tr><tr><td>Prezzemolo</td><td></td><td></td><td></td></tr><tr><td>Alloro</td><td></td><td></td><td></td></tr><tr><td>Sedano</td><td></td><td></td><td></td></tr><tr><td>Cipolla</td><td>1</td><td></td><td></td></tr><tr><td>Timo</td><td></td><td></td><td></td></tr><tr><td>Salvia</td><td></td><td></td><td></td></tr><tr><td>Menta</td><td></td><td></td><td></td></tr><tr><td>Bacche di ginepro</td><td>qualche</td><td></td><td></td></tr><tr><td>Pepe</td><td><br/></td><td></td><td></td></tr></tbody></table></section><section class="block preparation-block"><h2>Preparazione</h2><ol class="steps"><li><p>Per far stare il trancio in pentola lo lego per accorciarlo. Lo tengo fuori dal frigo almeno un paio d’ore e lo massaggio con un cucchiaino di zucchero, che favorisce la reazione di Maillard, cioè la caramellizzazione delle proteine in superficie, e aiuta la formazione della crosticina. Rosolo in poco olio EVO fino a ottenere non solo la chiusura dei pori, ma anche una crosticina su tutta la superficie.</p></li><li><p>A questo punto aggiungo la birra fino a coprire la carne e unisco le erbe e gli aromi. Metto pochissimo sale e un cucchiaino di brodo vegetale. Copro e cuocio per circa un’ora a fuoco bassissimo. Poi apro e lascio asciugare lentamente. Tolgo le erbe. A piacere posso aggiungere funghi, per esempio cannellini (settembrini) secchi, ma anche altre varietà. Proseguo la cottura fino a ottenere un sugo molto concentrato.</p></li><li><p>In totale ci vogliono circa altre 2 ore di cottura, ma dipende dal sugo, che deve risultare leggermente denso, e dalla carne, che deve tagliarsi facilmente (almeno in superficie).</p></li><li><p>Sgrano il melograno (in rete si trovano diversi modi per farlo facilmente).</p></li><li><p>Taglio l’arista a fette sottili, per quanto possibile. Le allineo su un piatto di portata caldo, copro con il sugo ai funghi e completo con il melograno.</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><p>La riuscita dipende da una cottura dolce e continua, senza accelerare i tempi.</p><p>Se il sugo si concentra troppo, allungarlo con poco liquido di cottura o brodo caldo.</p></section></div>
-<footer class="site-footer recipe-footer"><div class="site-footer-left"><a aria-label="Licenza Creative Commons BY-NC-SA" class="cc-link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><nav aria-label="Strumenti pagina" class="site-footer-center"><a aria-label="Informativa" class="site-footer-icon recipe-tool-info" href="../../informativa.html"><img alt="" src="../../foto/ui/info-light.svg"/></a><a aria-label="Scrivimi" class="site-footer-icon recipe-tool-mail" href="../../scrivimi.html"><img alt="" src="../../foto/ui/mail-light.svg"/></a><a aria-label="Stampa pagina" class="site-footer-icon js-print-link js-editorial-print-link recipe-tool-print" href="#"><img alt="" src="../../foto/ui/print-light.svg"/></a><a aria-label="Copia URL" class="site-footer-icon recipe-tool-link" href="#"><img alt="" src="../../foto/ui/link-light.svg"/></a></nav><div class="site-footer-right"><a class="site-footer-qr-link recipe-qrcode-link" href="../../foto/arista-alla-birra/qr-code.png"><img alt="QR ricetta" src="../../foto/arista-alla-birra/qr-code.png"/></a></div></footer></main>
+<div class="recipe-content"><h1>Aringhe in terrina</h1><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Antipasti</span></div><div class="meta-card"><strong>Geografia</strong><span>Francia - Alsazia</span></div><div class="meta-card"><strong>Fonte</strong><span>Jacqueline Gibert</span></div></section><section class="lead"><h2>Introduzione e contesto</h2><figure class="step-photo-large step-photo" style="width: 57.1%; max-width: 57.1%;"><img src="../../foto/aringhe-in-terrina/01.jpg"/></figure><p>Quando ero ragazzo erano spesso presenti in casa mia. Ottimi panini con il pane imburrato...<br/><br/><strong>Modifica del 20/04/2026 h 11:11</strong></p></section><section class="block"><h2>Ingredienti</h2><table class="recipe-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Aringhe sciocche affumicate</td><td>1</td><td>n</td><td>confezione</td></tr><tr><td>Carote</td><td>2</td><td>n</td><td></td></tr><tr><td>Cipolla</td><td>2</td><td></td><td>dolce</td></tr><tr><td>Bacche di ginepro</td><td>5</td><td>n</td><td></td></tr><tr><td>Limoni BIO</td><td>2</td><td>n</td><td></td></tr><tr><td>Vino bianco secco</td><td>1</td><td>dl</td><td></td></tr><tr><td>Olio extra vergine d'oliva</td><td></td><td></td><td></td></tr></tbody></table></section><section class="block preparation-block"><h2>Preparazione</h2><ol class="steps"><li><p>Gli ingredienti devono essere freschi e profumati.</p><figure class="step-photo-right step-photo" style="width: 20.6%; max-width: 20.6%;"><img src="../../foto/aringhe-in-terrina/03.jpg"/></figure><figure class="step-photo-left step-photo" style="width: 21.2%; max-width: 21.2%;"><img src="../../foto/aringhe-in-terrina/02.jpg"/></figure></li><li><p>Io taglio le aringhe a pezzi di circa 2 cm. Affetto le carote, le cipolle e un limone.</p></li><li><p>Metto tutto in una terrina. Aggiungo il succo del limone restante, le bacche di ginepro e un poco di vino bianco, fino a coprire.</p><figure class="step-photo-right step-photo" style="width: 165px; max-width: 100%;"><img src="../../foto/aringhe-in-terrina/01.jpg" width="165"/></figure></li><li><p>Verso un filo d’olio per isolare dall’ossigeno. Copro e lascio in frigorifero per alcuni giorni, il tempo che si insaporisca bene.</p></li><li><p>Servo con pane abbrustolito e leggermente imburrato.</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><p>Indicazione di tempo presente nel testo: 15 minuti<br/>alcuni giorni... diciamo un almeno un paio, e poi consumare un 2 o 3 giorni. Meglio</p></section></div>
+<footer class="site-footer recipe-footer"><div class="site-footer-left"><a aria-label="Licenza Creative Commons BY-NC-SA" class="cc-link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><nav aria-label="Strumenti pagina" class="site-footer-center"><a aria-label="Informativa" class="site-footer-icon recipe-tool-info" href="../../informativa.html"><img alt="" src="../../foto/ui/info-light.svg"/></a><a aria-label="Scrivimi" class="site-footer-icon recipe-tool-mail" href="../../scrivimi.html"><img alt="" src="../../foto/ui/mail-light.svg"/></a><a aria-label="Stampa pagina" class="site-footer-icon js-print-link js-editorial-print-link recipe-tool-print" href="#"><img alt="" src="../../foto/ui/print-light.svg"/></a><a aria-label="Copia URL" class="site-footer-icon recipe-tool-link" href="#"><img alt="" src="../../foto/ui/link-light.svg"/></a></nav><div class="site-footer-right"><a class="site-footer-qr-link recipe-qrcode-link" href="../../foto/aringhe-in-terrina/qr-code.png"><img alt="QR ricetta" src="../../foto/aringhe-in-terrina/qr-code.png"/></a></div></footer>
+</main>
 </main>
 </div>
 <script id="recipe-lightbox-script">(function(){
@@ -613,14 +631,16 @@ document.addEventListener('DOMContentLoaded', function(){
 
       var html = '';
       html += '<!DOCTYPE html><html lang="it"><head><meta charset="utf-8">';
-      html += '<meta name="viewport" content="width=device-width, initial-scale=1">';
+      html += '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">';
       html += '<title>' + escapeHtml(document.title) + '</title>';
       html += '<style>' + [
         '@page{size:A4;margin:16mm 0 16mm 0;}',
         'html,body{margin:0;padding:0;background:#fff !important;color:#111;}',
         'body{font-family:Georgia,"Times New Roman",serif;-webkit-print-color-adjust:exact;print-color-adjust:exact;}',
         '.print-doc{position:relative;width:210mm;min-height:auto;margin:0 auto;background:#fff;padding:0 22mm 0 22mm;box-sizing:border-box;overflow:visible;}',
-        '.print-decor-layer{position:absolute;inset:0;z-index:0;pointer-events:none;overflow:hidden;} .print-decor-layer img{position:absolute;display:block;height:auto;opacity:.44;filter:grayscale(8%) contrast(1.0) saturate(.92) brightness(1.03);mix-blend-mode:multiply;pointer-events:none;user-select:none;} .print-doc > *{position:relative;z-index:1;}',
+        '.print-debug-banner{position:absolute;top:4mm;right:4mm;z-index:9999;background:#c00;color:#fff;font:700 9pt/1.25 Arial,Helvetica,sans-serif;padding:2mm 3mm;border-radius:2mm;max-width:150mm;white-space:pre-wrap;}',
+        '.print-debug-probe{position:absolute;left:28mm;top:38mm;width:70mm;height:42mm;border:.5mm dashed rgba(200,0,0,.55);background:rgba(255,0,0,.05);z-index:9998;display:flex;align-items:center;justify-content:center;font:700 12pt/1 Arial,Helvetica,sans-serif;color:#900;}',
+        '.print-decor-layer{position:absolute;inset:0;z-index:999;pointer-events:none;overflow:visible;} .print-decor-layer img{position:absolute;display:block;height:auto;opacity:.34;filter:grayscale(4%) contrast(1.0) saturate(.94) brightness(1.02);pointer-events:none;user-select:none;z-index:1000;} .print-doc > *:not(.print-decor-layer){position:relative;z-index:1;} .print-debug-block{position:absolute;border:3px solid rgba(255,0,180,.98);background:rgba(255,0,180,.16);z-index:1001;pointer-events:none;} .print-debug-gap{position:absolute;border:4px dashed rgba(0,170,0,.98);background:rgba(0,220,0,.18);z-index:1002;pointer-events:none;} .print-debug-mask-initial{position:absolute;border:2px solid rgba(0,110,255,.9);background:rgba(0,110,255,.12);z-index:1001;pointer-events:none;} .print-debug-mask-occupied{position:absolute;border:2px solid rgba(220,0,0,.92);background:rgba(220,0,0,.12);z-index:1002;pointer-events:none;} .print-debug-mask-final{position:absolute;border:3px dashed rgba(0,160,0,.98);background:rgba(0,220,0,.14);z-index:1003;pointer-events:none;} .print-debug-label{position:absolute;left:2px;top:2px;background:rgba(255,255,255,.98);color:#000;font:700 8pt/1 Arial,Helvetica,sans-serif;padding:1px 3px;z-index:1004;} .print-debug-cross{position:absolute;width:18px;height:18px;margin:-9px 0 0 -9px;z-index:1005;pointer-events:none;} .print-debug-cross::before,.print-debug-cross::after{content:"";position:absolute;background:#0057ff;} .print-debug-cross::before{left:8px;top:0;width:2px;height:18px;} .print-debug-cross::after{left:0;top:8px;width:18px;height:2px;}',
         '.print-title{font-family:Arial,Helvetica,sans-serif;font-size:24pt;line-height:1.06;font-weight:700;letter-spacing:.01em;color:#111;margin:0 0 8mm 0;}',
         '.print-section{font-family:Georgia,"Times New Roman",serif;font-size:11pt;line-height:1.45;width:100%;max-width:166mm;margin:0 auto;}',
         '.print-section p{margin:0 0 3.4mm 0;font-size:inherit;line-height:inherit;} .print-section > *{font-size:inherit;line-height:inherit;}',
@@ -658,6 +678,8 @@ document.addEventListener('DOMContentLoaded', function(){
         '@media print{body{background:#fff !important;} .print-doc{margin:0;}}'
       ].join('') + '</style></head><body>';
       html += '<article class="print-doc">';
+      html += '<div class="print-debug-banner">PRINT ENGINE ATTIVO</div>';
+      html += '<div class="print-debug-probe">DEBUG PROBE</div>';
       html += '<h1 class="print-title">' + escapeHtml(title ? title.textContent.trim() : document.title) + '</h1>';
       html += collectIntroHtml(lead);
       html += collectIngredientsHtml(ingredientsSection);
@@ -691,6 +713,40 @@ document.addEventListener('DOMContentLoaded', function(){
       ];
     }
 
+    function collectIngredientDecorPool(doc){
+      var ingredientMap = {
+        'aringhe sciocche affumicate': [],
+        'carote': ['carota.jpg'],
+        'carota': ['carota.jpg'],
+        'cipolla': ['cipolla dorata.jpg'],
+        'cipolle': ['cipolla dorata.jpg'],
+        'bacche di ginepro': ['bacche di ginepro.jpg'],
+        'ginepro': ['bacche di ginepro.jpg'],
+        'limoni bio': ['arancia.jpg'],
+        'limoni': ['arancia.jpg'],
+        'limone': ['arancia.jpg'],
+        "olio extra vergine d'oliva": [],
+        'vino bianco secco': []
+      };
+      var seen = {};
+      var pool = [];
+      function pushName(fileName){
+        if(!fileName || seen[fileName]) return;
+        seen[fileName] = true;
+        pool.push(fileName);
+      }
+      Array.prototype.forEach.call(doc.querySelectorAll('.print-ingredients-block[data-ingredient-names]'), function(node){
+        String(node.getAttribute('data-ingredient-names') || '').split('|').forEach(function(raw){
+          var key = String(raw || '').trim().toLowerCase();
+          if(!key) return;
+          var mapped = ingredientMap[key] || [];
+          mapped.forEach(pushName);
+        });
+      });
+      PRINT_INGREDIENT_DECOR.forEach(pushName);
+      return pool;
+    }
+
     function mmToPx(doc, mm){
       var probe = doc.createElement('div');
       probe.style.position = 'absolute';
@@ -701,6 +757,19 @@ document.addEventListener('DOMContentLoaded', function(){
       var px = probe.getBoundingClientRect().width / 100 * mm;
       probe.remove();
       return px;
+    }
+
+    function pxToMm(doc, px){
+      var probe = doc.createElement('div');
+      probe.style.position = 'absolute';
+      probe.style.visibility = 'hidden';
+      probe.style.width = '100mm';
+      probe.style.height = '0';
+      doc.body.appendChild(probe);
+      var pxPer100mm = probe.getBoundingClientRect().width;
+      probe.remove();
+      if(!pxPer100mm) return 0;
+      return px * 100 / pxPer100mm;
     }
 
     function seededIndex(seed, mod){
@@ -731,6 +800,8 @@ document.addEventListener('DOMContentLoaded', function(){
       img.style.left = Math.round(opts.left) + 'px';
       img.style.top = Math.round(opts.top) + 'px';
       img.style.width = Math.round(opts.width) + 'px';
+      if(opts.height){ img.style.height = Math.round(opts.height) + 'px'; }
+      img.style.outline = '1px dashed rgba(200,0,0,.55)';
       var idx = 0;
       img.onerror = function(){
         idx += 1;
@@ -742,209 +813,550 @@ document.addEventListener('DOMContentLoaded', function(){
     }
 
     function collectPageBlocks(doc, printDoc, pageHeight){
+      var baseRect = printDoc.getBoundingClientRect();
+      var pages = {};
+      var mergePadX = 0;
+      var mergePadY = 0;
       var selectors = [
         '.print-title',
-        '.print-intro-wrap',
+        '.print-intro-wrap > p',
+        '.print-intro-wrap > figure',
         '.print-ingredients-block',
-        '.print-step',
+        '.print-step-num',
+        '.print-step-body > p',
+        '.print-step-body > div',
+        '.print-step-body > ul',
+        '.print-step-body > ol',
+        '.print-step-body > blockquote',
+        '.print-step-body > figure',
+        '.print-step .image-row',
+        '.print-step .image-row > figure',
         '.print-notes-block',
         '.print-footer'
       ].join(',');
-      var baseRect = printDoc.getBoundingClientRect();
-      var pages = {};
-      Array.prototype.forEach.call(doc.querySelectorAll(selectors), function(node){
-        var rect = node.getBoundingClientRect();
-        if(!rect || rect.height < 8 || rect.width < 8) return;
-        var top = rect.top - baseRect.top;
-        var bottom = rect.bottom - baseRect.top;
-        var page = Math.max(0, Math.floor(top / pageHeight));
+      var textSelector = '.print-intro-wrap > p, .print-step-body > p, .print-step-body > div, .print-step-body > ul, .print-step-body > ol, .print-step-body > blockquote';
+      var figureSelector = '.print-intro-wrap > figure, .print-step-body > figure, .print-step .image-row, .print-step .image-row > figure';
+
+      function normalizeRect(local, className, sourceKey){
+        if(!local) return null;
+        var out = {
+          top: local.top,
+          bottom: local.bottom,
+          left: local.left,
+          right: local.right,
+          width: local.right - local.left,
+          height: local.bottom - local.top,
+          className: className || '',
+          sourceKey: sourceKey || ''
+        };
+        if(out.width < 6 || out.height < 6) return null;
+        return out;
+      }
+
+      function addBlock(page, rect, className, sourceKey){
+        var normalized = normalizeRect(rect, className, sourceKey);
+        if(!normalized) return;
         if(!pages[page]) pages[page] = [];
-        pages[page].push({
-          top: top,
-          bottom: bottom,
+        pages[page].push(normalized);
+      }
+
+      function toLocalRect(node){
+        if(!node || !node.getBoundingClientRect) return null;
+        var rect = node.getBoundingClientRect();
+        if(!rect || rect.height < 1 || rect.width < 1) return null;
+        return {
+          top: rect.top - baseRect.top,
+          bottom: rect.bottom - baseRect.top,
           left: rect.left - baseRect.left,
-          right: rect.right - baseRect.left,
-          width: rect.width,
-          height: rect.height,
-          className: node.className || ''
+          right: rect.right - baseRect.left
+        };
+      }
+
+      function overlapRect(a, b){
+        return a && b && a.left < b.right && a.right > b.left && a.top < b.bottom && a.bottom > b.top;
+      }
+
+      function subtractRect(base, cut){
+        if(!overlapRect(base, cut)) return [base];
+        var pieces = [];
+        var ix1 = Math.max(base.left, cut.left);
+        var ix2 = Math.min(base.right, cut.right);
+        var iy1 = Math.max(base.top, cut.top);
+        var iy2 = Math.min(base.bottom, cut.bottom);
+
+        if(iy1 - base.top >= 6){
+          pieces.push({left: base.left, right: base.right, top: base.top, bottom: iy1});
+        }
+        if(base.bottom - iy2 >= 6){
+          pieces.push({left: base.left, right: base.right, top: iy2, bottom: base.bottom});
+        }
+        if(ix1 - base.left >= 6 && iy2 - iy1 >= 6){
+          pieces.push({left: base.left, right: ix1, top: iy1, bottom: iy2});
+        }
+        if(base.right - ix2 >= 6 && iy2 - iy1 >= 6){
+          pieces.push({left: ix2, right: base.right, top: iy1, bottom: iy2});
+        }
+        return pieces;
+      }
+
+      function collectSiblingFigureRects(node){
+        var scope = node.closest('.print-step-body') || node.closest('.print-intro-wrap');
+        if(!scope) return [];
+        return Array.prototype.map.call(scope.querySelectorAll('figure, .image-row'), function(fig){
+          return toLocalRect(fig);
+        }).filter(function(rect){ return !!rect; });
+      }
+
+      function horizontalOverlap(a, b){
+        return Math.max(0, Math.min(a.right, b.right) - Math.max(a.left, b.left));
+      }
+
+      function verticalOverlap(a, b){
+        return Math.max(0, Math.min(a.bottom, b.bottom) - Math.max(a.top, b.top));
+      }
+
+      function mergeRectPair(a, b){
+        return {
+          left: Math.min(a.left, b.left),
+          right: Math.max(a.right, b.right),
+          top: Math.min(a.top, b.top),
+          bottom: Math.max(a.bottom, b.bottom)
+        };
+      }
+
+      function cleanupTextPieces(pieces){
+        var filtered = pieces.filter(function(piece){
+          var width = piece.right - piece.left;
+          var height = piece.bottom - piece.top;
+          return width >= 18 && height >= 10;
+        }).sort(function(a, b){
+          if(Math.abs(a.top - b.top) > 0.5) return a.top - b.top;
+          return a.left - b.left;
         });
+        var changed = true;
+        while(changed){
+          changed = false;
+          outer: for(var i = 0; i < filtered.length; i += 1){
+            for(var j = i + 1; j < filtered.length; j += 1){
+              var a = filtered[i];
+              var b = filtered[j];
+              var sameColumn = horizontalOverlap(a, b) >= Math.min(a.right - a.left, b.right - b.left) * 0.65;
+              var verticalGap = Math.max(0, Math.max(a.top, b.top) - Math.min(a.bottom, b.bottom));
+              var sameRow = verticalOverlap(a, b) >= Math.min(a.bottom - a.top, b.bottom - b.top) * 0.65;
+              var horizontalGap = Math.max(0, Math.max(a.left, b.left) - Math.min(a.right, b.right));
+              if((sameColumn && verticalGap <= 18) || (sameRow && horizontalGap <= 14)){
+                filtered[i] = mergeRectPair(a, b);
+                filtered.splice(j, 1);
+                changed = true;
+                break outer;
+              }
+            }
+          }
+        }
+        return filtered;
+      }
+
+      function addTextBlockWithFigureHoles(node, nodeIdx){
+        var local = toLocalRect(node);
+        if(!local) return;
+        var sourceKey = 'text-' + nodeIdx;
+        var pieces = [local];
+        collectSiblingFigureRects(node).forEach(function(figRect){
+          var next = [];
+          pieces.forEach(function(piece){
+            subtractRect(piece, figRect).forEach(function(out){ next.push(out); });
+          });
+          pieces = next;
+        });
+        if(!pieces.length){
+          var page = Math.max(0, Math.floor(local.top / pageHeight));
+          addBlock(page, local, (node.className || node.tagName || '') + '|text-full', sourceKey);
+          return;
+        }
+        cleanupTextPieces(pieces).forEach(function(piece, idx){
+          var page = Math.max(0, Math.floor(piece.top / pageHeight));
+          addBlock(page, piece, (node.className || node.tagName || '') + '|text-hole-' + idx, sourceKey);
+        });
+      }
+
+      function rectsShouldMerge(a, b){
+        if(a.sourceKey && b.sourceKey && a.sourceKey === b.sourceKey){
+          var sameColumn = horizontalOverlap(a, b) >= Math.min(a.width, b.width) * 0.65;
+          var verticalGap = Math.max(0, Math.max(a.top, b.top) - Math.min(a.bottom, b.bottom));
+          var sameRow = verticalOverlap(a, b) >= Math.min(a.height, b.height) * 0.65;
+          var horizontalGap = Math.max(0, Math.max(a.left, b.left) - Math.min(a.right, b.right));
+          return (sameColumn && verticalGap <= 18) || (sameRow && horizontalGap <= 14);
+        }
+        var ax1 = a.left - mergePadX;
+        var ax2 = a.right + mergePadX;
+        var ay1 = a.top - mergePadY;
+        var ay2 = a.bottom + mergePadY;
+        var bx1 = b.left - mergePadX;
+        var bx2 = b.right + mergePadX;
+        var by1 = b.top - mergePadY;
+        var by2 = b.bottom + mergePadY;
+        return ax1 < bx2 && ax2 > bx1 && ay1 < by2 && ay2 > by1;
+      }
+
+      function mergePageBlocks(blocks){
+        var pending = blocks.slice();
+        var merged = [];
+        while(pending.length){
+          var current = pending.shift();
+          var changed = true;
+          while(changed){
+            changed = false;
+            for(var i = pending.length - 1; i >= 0; i -= 1){
+              if(!rectsShouldMerge(current, pending[i])) continue;
+              current = {
+                top: Math.min(current.top, pending[i].top),
+                bottom: Math.max(current.bottom, pending[i].bottom),
+                left: Math.min(current.left, pending[i].left),
+                right: Math.max(current.right, pending[i].right),
+                width: Math.max(current.right, pending[i].right) - Math.min(current.left, pending[i].left),
+                height: Math.max(current.bottom, pending[i].bottom) - Math.min(current.top, pending[i].top),
+                className: (current.className || '') + '|' + (pending[i].className || ''),
+                sourceKey: (current.sourceKey && pending[i].sourceKey && current.sourceKey === pending[i].sourceKey) ? current.sourceKey : ''
+              };
+              pending.splice(i, 1);
+              changed = true;
+            }
+          }
+          current.width = current.right - current.left;
+          current.height = current.bottom - current.top;
+          merged.push(current);
+        }
+        merged.sort(function(a,b){ return a.top - b.top; });
+        return merged;
+      }
+
+      Array.prototype.forEach.call(doc.querySelectorAll(selectors), function(node, nodeIdx){
+        if(!node || !node.getBoundingClientRect) return;
+        if(node.matches && node.matches(textSelector)){
+          addTextBlockWithFigureHoles(node, nodeIdx);
+          return;
+        }
+        var local = toLocalRect(node);
+        if(!local) return;
+        var page = Math.max(0, Math.floor(local.top / pageHeight));
+        addBlock(page, local, node.className || node.tagName || '', 'node-' + nodeIdx);
       });
+
       Object.keys(pages).forEach(function(key){
-        pages[key].sort(function(a,b){ return a.top - b.top; });
+        pages[key] = mergePageBlocks(pages[key] || []);
       });
       return pages;
     }
 
 
-    function injectPrintIngredientDecor(doc){
-      if(!doc || !PRINT_INGREDIENT_DECOR || !PRINT_INGREDIENT_DECOR.length) return;
+    
+function injectPrintIngredientDecor(doc){
+      function setBanner(message){
+        try{
+          var banner = doc && doc.querySelector ? doc.querySelector('.print-debug-banner') : null;
+          if(banner) banner.textContent = message;
+        }catch(_e){}
+      }
+      if(!doc) return Promise.resolve({status:'no-doc'});
       var printDoc = doc.querySelector('.print-doc');
-      if(!printDoc) return;
+      if(!printDoc) return Promise.resolve({status:'no-print-doc'});
       var layer = ensureDecorLayer(doc);
-      if(!layer) return;
+      if(!layer) return Promise.resolve({status:'no-layer'});
       layer.innerHTML = '';
-      var pxPerMm = mmToPx(doc, 10) / 10;
-      var pageHeight = mmToPx(doc, 265);
-      var minSideWidth = mmToPx(doc, 30);
-      var minGapHeight = mmToPx(doc, 16);
-      var minArea = 1000 * pxPerMm * pxPerMm; // 10 cm²
-      var edgePad = mmToPx(doc, 1.0);
-      var baseRect = printDoc.getBoundingClientRect();
-      var pages = collectPageBlocks(doc, printDoc, pageHeight);
-      var docWidth = baseRect.width;
-      var ingredientNamesAttr = '';
-      var ingredientsBlock = doc.querySelector('.print-ingredients-block');
-      if(ingredientsBlock) ingredientNamesAttr = (ingredientsBlock.getAttribute('data-ingredient-names') || '').toLowerCase();
-      var ingredientNames = ingredientNamesAttr.split('|').map(function(v){ return (v || '').trim(); }).filter(Boolean);
+      var rasterScale = 0.42;
+      var whiteThreshold = 250;
+      var freeAlpha = 54;
+      var pageHeightPx = mmToPx(doc, 265);
+      var maxRectsPerPage = 4;
 
-      function normalizeToken(v){
-        return (v || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
+      function addMaskRasterImage(topPx, widthPx, heightPx, dataUrl){
+        if(!dataUrl) return;
+        var img = doc.createElement('img');
+        img.alt = '';
+        img.setAttribute('aria-hidden', 'true');
+        img.src = dataUrl;
+        img.style.position = 'absolute';
+        img.style.left = '0px';
+        img.style.top = Math.round(topPx) + 'px';
+        img.style.width = Math.max(1, Math.round(widthPx)) + 'px';
+        img.style.height = Math.max(1, Math.round(heightPx)) + 'px';
+        img.style.pointerEvents = 'none';
+        img.style.zIndex = '1006';
+        layer.appendChild(img);
       }
-      var recipeTokens = [];
-      ingredientNames.forEach(function(name){
-        normalizeToken(name).split(/\s+/).forEach(function(tok){
-          if(tok && tok.length > 2 && recipeTokens.indexOf(tok) === -1) recipeTokens.push(tok);
-        });
-      });
-      function fileScore(name){
-        var base = normalizeToken(String(name).replace(/\.[a-z0-9]+$/i,''));
-        var score = 0;
-        recipeTokens.forEach(function(tok){
-          if(base.indexOf(tok) !== -1) score += (tok.length > 5 ? 4 : 2);
-        });
-        // penalità semplici per incongruenze forti
-        var vegHints = ['zucchina','zucchine','melanzana','melanzane','carota','carote','cavolo','broccoli','broccolo','cavolfiore','cipolla','cipolle','aglio','basilico','patata','patate','pomodoro','pomodori','fagioli','lenticchie','ceci'];
-        var meatHints = ['manzo','agnello','maiale','pollo','coniglio','anatra','fegato','fegatini','battuta','biancostato'];
-        var fishHints = ['alici','aringhe','bottarga','calamari','canoccia','cozze'];
-        var vegRecipe = recipeTokens.some(function(t){ return vegHints.indexOf(t) !== -1; });
-        var meatRecipe = recipeTokens.some(function(t){ return meatHints.indexOf(t) !== -1; });
-        var fishRecipe = recipeTokens.some(function(t){ return fishHints.indexOf(t) !== -1; });
-        var hasMeat = meatHints.some(function(t){ return base.indexOf(t) !== -1; });
-        var hasFish = fishHints.some(function(t){ return base.indexOf(t) !== -1; });
-        if(vegRecipe && !meatRecipe && !fishRecipe){
-          if(hasMeat || hasFish) score -= 8;
+      function addRectOutline(rect, label){
+        var el = doc.createElement('div');
+        el.style.position = 'absolute';
+        el.style.left = Math.round(rect.left) + 'px';
+        el.style.top = Math.round(rect.top) + 'px';
+        el.style.width = Math.max(1, Math.round(rect.width)) + 'px';
+        el.style.height = Math.max(1, Math.round(rect.height)) + 'px';
+        el.style.boxSizing = 'border-box';
+        el.style.border = '3px dashed rgba(0,110,255,.95)';
+        el.style.background = 'rgba(0,110,255,.08)';
+        el.style.zIndex = '1007';
+        el.style.pointerEvents = 'none';
+        if(label){
+          var lab = doc.createElement('div');
+          lab.textContent = label;
+          lab.style.position = 'absolute';
+          lab.style.left = '2px';
+          lab.style.top = '2px';
+          lab.style.background = 'rgba(255,255,255,.96)';
+          lab.style.color = '#000';
+          lab.style.font = '700 8pt/1 Arial,Helvetica,sans-serif';
+          lab.style.padding = '1px 3px';
+          lab.style.zIndex = '1008';
+          el.appendChild(lab);
         }
-        return score;
+        layer.appendChild(el);
       }
-      var decorPool = PRINT_INGREDIENT_DECOR.slice().sort(function(a,b){ return fileScore(b) - fileScore(a); });
-      if(!decorPool.length){ try{ console.log('print decor: no decorPool'); }catch(e){} return; }
-      try{ console.log('print decor pool', decorPool); }catch(e){}
-
-      function chooseDecorName(offset, usedNames){
-        for(var i = 0; i < decorPool.length; i += 1){
-          var name = decorPool[(offset + i) % decorPool.length];
-          if(usedNames.indexOf(name) === -1) return name;
-        }
-        return decorPool[offset % decorPool.length];
-      }
-
-      function intersects(a, b){
-        return !(a.left + a.width <= b.left || b.left + b.width <= a.left || a.top + a.height <= b.top || b.top + b.height <= a.top);
-      }
-
-      function pushCandidate(list, box){
-        if(!box) return;
-        var width = Math.max(0, box.width || 0);
-        var height = Math.max(0, box.height || 0);
-        var area = width * height;
-        if(width < minSideWidth || height < minGapHeight || area < minArea) return;
-        box.width = width;
-        box.height = height;
-        box.area = area;
-        var kindBoost = 1.0;
-        if(box.kind === 'tail-gap') kindBoost = 1.55;
-        else if(box.kind === 'vertical-gap') kindBoost = 1.35;
-        else if(box.kind === 'left-side' || box.kind === 'right-side') kindBoost = 0.62;
-        box.score = area * kindBoost;
-        list.push(box);
-      }
-
-      Object.keys(pages).sort(function(a,b){ return Number(a) - Number(b); }).forEach(function(pageKey){
-        var page = Number(pageKey);
-        var pageTop = page * pageHeight;
-        var pageBottom = pageTop + pageHeight;
-        var blocks = pages[page] || [];
-        if(!blocks.length) return;
-        var candidates = [];
-
-        blocks.forEach(function(block){
-          var top = Math.max(pageTop, block.top);
-          var bottom = Math.min(pageBottom, block.bottom);
-          var height = Math.max(0, bottom - top);
-          if(height < minGapHeight) return;
-          if(block.left >= minSideWidth){
-            pushCandidate(candidates, { kind:'left-side', left:0, top:top, width:block.left, height:height, rotate:-4, pageTop:pageTop, pageBottom:pageBottom });
-          }
-          var rightFree = docWidth - block.right;
-          if(rightFree >= minSideWidth){
-            pushCandidate(candidates, { kind:'right-side', left:block.right, top:top, width:rightFree, height:height, rotate:4, pageTop:pageTop, pageBottom:pageBottom });
-          }
-        });
-
-        var prevBottom = pageTop;
-        blocks.forEach(function(block){
-          var gapTop = prevBottom;
-          var gapBottom = block.top;
-          var gapHeight = gapBottom - gapTop;
-          if(gapHeight >= minGapHeight){
-            pushCandidate(candidates, { kind:'vertical-gap', left:0, top:gapTop, width:docWidth, height:gapHeight, rotate:(page % 2 === 0 ? -5 : 5), pageTop:pageTop, pageBottom:pageBottom });
-          }
-          prevBottom = Math.max(prevBottom, block.bottom);
-        });
-        var tailGap = pageBottom - prevBottom;
-        if(tailGap >= minGapHeight){
-          pushCandidate(candidates, { kind:'tail-gap', left:0, top:prevBottom, width:docWidth, height:tailGap, rotate:(page % 2 === 0 ? -4 : 4), pageTop:pageTop, pageBottom:pageBottom });
-        }
-
-        if(!candidates.length) return;
-        candidates.sort(function(a,b){ return b.score - a.score; });
-        var used = [];
-        var usedNames = [];
-        var placed = 0;
-        var maxPerPage = 2;
-        candidates.forEach(function(chosen, idx){
-          if(placed >= maxPerPage) return;
-          if((chosen.kind === 'left-side' || chosen.kind === 'right-side') && chosen.area < minArea * 1.8) return;
-          var availableW = chosen.width - edgePad * 2;
-          var availableH = chosen.height - edgePad * 2;
-          if(availableW <= 0 || availableH <= 0) return;
-          var width;
-          if(chosen.kind === 'tail-gap'){
-            width = Math.min(availableW * 0.42, mmToPx(doc, 50));
-          } else if(chosen.kind === 'vertical-gap'){
-            width = Math.min(availableW * 0.34, mmToPx(doc, 42));
-          } else {
-            width = Math.min(availableW * 0.68, mmToPx(doc, 34));
-          }
-          width = Math.max(width, mmToPx(doc, 22));
-          var decorH = width / 1.12;
-          if(decorH > availableH * 0.92){
-            decorH = availableH * 0.92;
-            width = decorH * 1.12;
-          }
-          if(width * decorH < minArea) return;
-          var left = chosen.left + Math.max(edgePad, (chosen.width - width) / 2);
-          var top = chosen.top + Math.max(edgePad, (chosen.height - decorH) / 2);
-          left = Math.max(edgePad, Math.min(left, docWidth - width - edgePad));
-          top = Math.max(pageTop + edgePad, Math.min(top, pageBottom - decorH - edgePad));
-          var rect = {left:left, top:top, width:width, height:decorH};
-          if(used.some(function(u){ return intersects(u, rect); })) return;
-          used.push(rect);
-          var name = chooseDecorName(page * 7 + idx * 5 + placed, usedNames);
-          usedNames.push(name);
-          placeDecorImage(doc, layer, ingredientDecorCandidates(name), {
-            left:left,
-            top:top,
-            width:width,
-            rotate:0
+      function waitForImages(root){
+        var images = Array.prototype.slice.call((root && root.querySelectorAll) ? root.querySelectorAll('img') : []);
+        return Promise.all(images.map(function(img){
+          return new Promise(function(resolve){
+            var done = false;
+            function finish(){ if(done) return; done = true; resolve(); }
+            try{
+              var src = img.currentSrc || img.getAttribute('src') || '';
+              if(!src){ finish(); return; }
+              if(img.complete && img.naturalWidth > 0){ finish(); return; }
+              img.addEventListener('load', finish, {once:true});
+              img.addEventListener('error', finish, {once:true});
+              setTimeout(finish, 2500);
+            }catch(_e){ finish(); }
           });
-          placed += 1;
+        }));
+      }
+      function waitForFonts(doc){
+        try{
+          if(doc && doc.fonts && doc.fonts.ready) return doc.fonts.ready.catch(function(){ return null; });
+        }catch(e){}
+        return Promise.resolve();
+      }
+      function loadHtml2Canvas(doc){
+        var w = doc && doc.defaultView ? doc.defaultView : window;
+        if(w.html2canvas) return Promise.resolve(w.html2canvas);
+        return new Promise(function(resolve, reject){
+          var existing = doc.getElementById('html2canvas-loader');
+          function done(){
+            if(w.html2canvas) resolve(w.html2canvas);
+            else reject(new Error('html2canvas unavailable'));
+          }
+          if(existing){
+            existing.addEventListener('load', done, {once:true});
+            existing.addEventListener('error', function(){ reject(new Error('html2canvas script load failed')); }, {once:true});
+            return;
+          }
+          var script = doc.createElement('script');
+          script.id = 'html2canvas-loader';
+          script.src = 'https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js';
+          script.onload = done;
+          script.onerror = function(){
+            var fallback = doc.createElement('script');
+            fallback.src = 'https://unpkg.com/html2canvas@1.4.1/dist/html2canvas.min.js';
+            fallback.onload = done;
+            fallback.onerror = function(){ reject(new Error('html2canvas script load failed')); };
+            doc.head.appendChild(fallback);
+          };
+          doc.head.appendChild(script);
         });
-        try{ console.log('print decor page', page, 'candidates', candidates.length, 'placed', placed, 'used', usedNames); }catch(e){}
+      }
+      function rasterizePrintDoc(){
+        return Promise.resolve()
+          .then(function(){ return waitForImages(doc); })
+          .then(function(){ return waitForFonts(doc); })
+          .then(function(){ return loadHtml2Canvas(doc); })
+          .then(function(html2canvas){
+            var banner = doc.querySelector('.print-debug-banner');
+            var probe = doc.querySelector('.print-debug-probe');
+            var oldText = banner ? banner.textContent : '';
+            if(banner) banner.textContent = 'PRINT ENGINE ATTIVO — R17-43 bitmap render';
+            if(probe) probe.style.display = 'none';
+            if(layer) layer.style.display = 'none';
+            return html2canvas(printDoc, {
+              backgroundColor: '#ffffff',
+              scale: rasterScale,
+              useCORS: true,
+              allowTaint: true,
+              logging: false,
+              imageTimeout: 0,
+              removeContainer: true,
+              foreignObjectRendering: false,
+              ignoreElements: function(el){
+                try{
+                  return !!(el && el.classList && (
+                    el.classList.contains('print-decor-layer') ||
+                    el.classList.contains('print-debug-banner') ||
+                    el.classList.contains('print-debug-probe')
+                  ));
+                }catch(_e){ return false; }
+              }
+            }).then(function(canvas){
+              if(probe) probe.style.display = '';
+              if(layer) layer.style.display = '';
+              if(banner) banner.textContent = oldText || 'PRINT ENGINE ATTIVO';
+              return canvas;
+            }).catch(function(err){
+              if(probe) probe.style.display = '';
+              if(layer) layer.style.display = '';
+              if(banner) banner.textContent = oldText || 'PRINT ENGINE ATTIVO';
+              throw err;
+            });
+          });
+      }
+      function buildFreeMaskOverlay(sliceCtx, width, height){
+        var src = sliceCtx.getImageData(0, 0, width, height);
+        var outCanvas = doc.createElement('canvas');
+        outCanvas.width = width;
+        outCanvas.height = height;
+        var outCtx = outCanvas.getContext('2d', {willReadFrequently:true});
+        var out = outCtx.createImageData(width, height);
+        var integral = new Uint32Array((width + 1) * (height + 1));
+        var data = src.data;
+        var outData = out.data;
+        for(var y = 0; y < height; y += 1){
+          var rowSum = 0;
+          var rowOffset = y * width;
+          for(var x = 0; x < width; x += 1){
+            var idx = (rowOffset + x) * 4;
+            var a = data[idx + 3];
+            var isFree = true;
+            if(a >= 8){
+              var r = data[idx], g = data[idx + 1], b = data[idx + 2];
+              isFree = (r >= whiteThreshold && g >= whiteThreshold && b >= whiteThreshold);
+            }
+            if(isFree){
+              outData[idx] = 0;
+              outData[idx + 1] = 180;
+              outData[idx + 2] = 0;
+              outData[idx + 3] = freeAlpha;
+              rowSum += 0;
+            }else{
+              outData[idx] = 0;
+              outData[idx + 1] = 0;
+              outData[idx + 2] = 0;
+              outData[idx + 3] = 0;
+              rowSum += 1;
+            }
+            integral[(y + 1) * (width + 1) + (x + 1)] = integral[y * (width + 1) + (x + 1)] + rowSum;
+          }
+        }
+        outCtx.putImageData(out, 0, 0);
+        return {dataUrl: outCanvas.toDataURL('image/png'), integral: integral};
+      }
+      function rectBlocked(integral, width, x, y, w, h){
+        var stride = width + 1;
+        var x2 = x + w, y2 = y + h;
+        return integral[y2 * stride + x2] - integral[y * stride + x2] - integral[y2 * stride + x] + integral[y * stride + x];
+      }
+      function overlapRatio(a, b){
+        var x1 = Math.max(a.left, b.left);
+        var y1 = Math.max(a.top, b.top);
+        var x2 = Math.min(a.left + a.width, b.left + b.width);
+        var y2 = Math.min(a.top + a.height, b.top + b.height);
+        if(x2 <= x1 || y2 <= y1) return 0;
+        var inter = (x2 - x1) * (y2 - y1);
+        return inter / Math.max(1, Math.min(a.width * a.height, b.width * b.height));
+      }
+      function pickRectanglesForPage(integral, width, height, pageTopPx){
+        var minW = Math.max(1, Math.ceil(mmToPx(doc, 70) * rasterScale));
+        var minH = Math.max(1, Math.ceil(mmToPx(doc, 40) * rasterScale));
+        var sizes = [
+          [minW, minH],
+          [Math.round(minW * 1.25), Math.round(minH * 1.25)],
+          [Math.round(minW * 1.5), Math.round(minH * 1.5)],
+          [Math.round(minW * 1.75), Math.round(minH * 1.75)],
+          [Math.round(minW * 2.0), Math.round(minH * 2.0)]
+        ].filter(function(pair){ return pair[0] <= width && pair[1] <= height; });
+        var candidates = [];
+        sizes.forEach(function(pair, sizeIdx){
+          var w = pair[0], h = pair[1];
+          var stepX = Math.max(6, Math.floor(w / 6));
+          var stepY = Math.max(6, Math.floor(h / 6));
+          for(var y = 0; y <= height - h; y += stepY){
+            for(var x = 0; x <= width - w; x += stepX){
+              if(rectBlocked(integral, width, x, y, w, h) !== 0) continue;
+              candidates.push({
+                left: x,
+                top: pageTopPx + y,
+                width: w,
+                height: h,
+                area: w * h,
+                sizeIdx: sizeIdx
+              });
+            }
+          }
+          var lastY = height - h;
+          if(lastY > 0 && (lastY % stepY)){
+            for(var x2 = 0; x2 <= width - w; x2 += stepX){
+              if(rectBlocked(integral, width, x2, lastY, w, h) !== 0) continue;
+              candidates.push({
+                left: x2,
+                top: pageTopPx + lastY,
+                width: w,
+                height: h,
+                area: w * h,
+                sizeIdx: sizeIdx
+              });
+            }
+          }
+        });
+        candidates.sort(function(a, b){
+          if(b.area !== a.area) return b.area - a.area;
+          if(a.top !== b.top) return a.top - b.top;
+          return a.left - b.left;
+        });
+        var selected = [];
+        candidates.forEach(function(rect){
+          if(selected.length >= maxRectsPerPage) return;
+          for(var i = 0; i < selected.length; i += 1){
+            if(overlapRatio(rect, selected[i]) > 0.20) return;
+          }
+          selected.push(rect);
+        });
+        return selected;
+      }
+
+      return rasterizePrintDoc().then(function(snapshotCanvas){
+        var pageHeightScaled = Math.max(1, Math.round(pageHeightPx * rasterScale));
+        var pageCount = Math.max(1, Math.ceil(snapshotCanvas.height / pageHeightScaled));
+        var stats = [];
+        for(var page = 0; page < pageCount; page += 1){
+          var pageTop = page * pageHeightScaled;
+          var sliceHeight = Math.max(1, Math.min(pageHeightScaled, snapshotCanvas.height - pageTop));
+          var sliceCanvas = doc.createElement('canvas');
+          sliceCanvas.width = snapshotCanvas.width;
+          sliceCanvas.height = sliceHeight;
+          var sliceCtx = sliceCanvas.getContext('2d', {willReadFrequently:true});
+          sliceCtx.drawImage(snapshotCanvas, 0, pageTop, snapshotCanvas.width, sliceHeight, 0, 0, snapshotCanvas.width, sliceHeight);
+
+          var mask = buildFreeMaskOverlay(sliceCtx, sliceCanvas.width, sliceCanvas.height);
+          addMaskRasterImage(pageTop / rasterScale, sliceCanvas.width / rasterScale, sliceHeight / rasterScale, mask.dataUrl);
+
+          var rects = pickRectanglesForPage(mask.integral, sliceCanvas.width, sliceCanvas.height, pageTop);
+          rects.forEach(function(rect, idx){
+            addRectOutline({
+              left: rect.left / rasterScale,
+              top: rect.top / rasterScale,
+              width: rect.width / rasterScale,
+              height: rect.height / rasterScale
+            }, 'R' + page + '.' + idx + ' ' + Math.round(pxToMm(doc, rect.width / rasterScale)) + 'x' + Math.round(pxToMm(doc, rect.height / rasterScale)) + 'mm');
+          });
+
+          stats.push('R17-43 p' + page + ': pure-bitmap white>=' + whiteThreshold + ' free-only rects=' + rects.length + ' min=70x40mm');
+        }
+        setBanner('PRINT ENGINE ATTIVO — ' + stats.join(' | '));
+        return {status:'ok', stats:stats};
+      }).catch(function(err){
+        var msg = (err && (err.message || err.toString())) || 'unknown-error';
+        setBanner('PRINT ENGINE ATTIVO — R17-43 ERROR: ' + msg);
+        return {status:'error', error:msg};
       });
     }
 
     function runEditorialPrint(){
+
       var html = buildPrintDocument();
       if(!html) return;
       var iframe = document.getElementById('recipeEditorialPrintFrame');
@@ -979,14 +1391,22 @@ document.addEventListener('DOMContentLoaded', function(){
         printTriggered = true;
         try{ w.focus(); w.print(); }catch(e){}
       }
+      var prepareStarted = false;
       function prepareAndTrigger(){
-        try{ injectPrintIngredientDecor(d); }catch(e){}
-        setTimeout(trigger, 180);
+        if(prepareStarted) return;
+        prepareStarted = true;
+        Promise.resolve()
+          .then(function(){ return injectPrintIngredientDecor(d); })
+          .catch(function(e){ try{ console.error('print decor error', e); }catch(_e){} })
+          .finally(function(){
+            try{ var probe=d.querySelector('.print-debug-probe'); if(probe){ probe.textContent='DEBUG PROBE OK'; } }catch(e){}
+            setTimeout(trigger, 500);
+          });
       }
       iframe.onload = function(){ prepareAndTrigger(); };
       w.addEventListener('afterprint', cleanup, {once:true});
       setTimeout(prepareAndTrigger, 600);
-      setTimeout(cleanup, 3200);
+      setTimeout(cleanup, 5000);
     }
 
     window.recipeEditorialPrint = runEditorialPrint;
