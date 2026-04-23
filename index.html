@@ -67,13 +67,13 @@ document.addEventListener("DOMContentLoaded", async () => {
   if (!container) return;
   container.innerHTML = '<div class="latest-loader">Caricamento ricette…</div>';
 
-  function sample(arr, n) {
+  function shuffle(arr) {
     const copy = arr.slice();
     for (let i = copy.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [copy[i], copy[j]] = [copy[j], copy[i]];
     }
-    return copy.slice(0, n);
+    return copy;
   }
 
   function imageExists(url) {
@@ -83,6 +83,19 @@ document.addEventListener("DOMContentLoaded", async () => {
       img.onerror = () => resolve(false);
       img.src = url;
     });
+  }
+
+  async function fetchExcerpt(url) {
+    try {
+      const res = await fetch(url, { cache: "no-store" });
+      const raw = await res.text();
+      const doc = new DOMParser().parseFromString(raw, "text/html");
+      const p = doc.querySelector(".lead p");
+      const excerpt = p ? p.textContent.trim().replace(/\s+/g, " ") : "";
+      return excerpt ? excerpt.slice(0, 180) + (excerpt.length > 180 ? " (...)" : "") : "";
+    } catch (e) {
+      return "";
+    }
   }
 
   function recipeInfoFromAnchor(a) {
@@ -105,6 +118,25 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
   }
 
+  function renderCard(item, excerpt, hasImage) {
+    const article = document.createElement("article");
+    article.className = "latest-card";
+    article.innerHTML = `
+      <a class="latest-card-link" href="${item.href}">
+        ${hasImage ? `
+          <figure class="step-photo">
+            <img src="${item.imgUrl}" alt="${item.title.replace(/"/g, '&quot;')}">
+          </figure>
+        ` : ""}
+        <div>
+          <h3>${item.title}</h3>
+          <p>${excerpt}</p>
+        </div>
+      </a>
+    `;
+    return article;
+  }
+
   try {
     const res = await fetch("indici/ricette.html", { cache: "no-store" });
     const raw = await res.text();
@@ -118,44 +150,33 @@ document.addEventListener("DOMContentLoaded", async () => {
       if (!map.has(info.slug)) map.set(info.slug, info);
     }
 
-    const items = Array.from(map.values());
-    const validItems = [];
-    for (const item of items) {
+    const items = shuffle(Array.from(map.values()));
+    const pool = items.slice(0, Math.min(12, items.length));
+    const chosen = [];
+    const fallbacks = [];
+
+    for (const item of pool) {
       const ok = await imageExists(item.imgUrl);
-      if (ok) validItems.push(item);
+      if (ok) {
+        chosen.push({ item, hasImage: true });
+        if (chosen.length >= 3) break;
+      } else {
+        fallbacks.push({ item, hasImage: false });
+      }
     }
 
-    const chosen = sample(validItems, Math.min(3, validItems.length));
+    while (chosen.length < 3 && fallbacks.length) {
+      chosen.push(fallbacks.shift());
+    }
 
     container.innerHTML = "";
 
-    for (const item of chosen) {
-      let excerpt = "";
-      try {
-        const r2 = await fetch(item.href, { cache: "no-store" });
-        const h2 = await r2.text();
-        const d2 = new DOMParser().parseFromString(h2, "text/html");
-        const p = d2.querySelector(".lead p");
-        excerpt = p ? p.textContent.trim().replace(/\s+/g, " ") : "";
-      } catch (e) {}
-
-      const article = document.createElement("article");
-      article.className = "latest-card";
-      article.innerHTML = `
-        <a class="latest-card-link" href="${item.href}">
-          <figure class="step-photo">
-            <img src="${item.imgUrl}" alt="${item.title.replace(/\"/g, '&quot;')}">
-          </figure>
-          <div>
-            <h3>${item.title}</h3>
-            <p>${excerpt ? excerpt.slice(0, 180) + (excerpt.length > 180 ? " (...)" : "") : ""}</p>
-          </div>
-        </a>
-      `;
-      container.appendChild(article);
+    for (const entry of chosen.slice(0, 3)) {
+      const excerpt = await fetchExcerpt(entry.item.href);
+      container.appendChild(renderCard(entry.item, excerpt, entry.hasImage));
     }
 
-    if (!chosen.length) {
+    if (!container.children.length) {
       container.innerHTML = '<div class="latest-loader">Nessuna ricetta disponibile.</div>';
     }
   } catch (e) {
