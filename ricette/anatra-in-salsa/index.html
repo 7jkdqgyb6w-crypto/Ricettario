@@ -180,14 +180,19 @@
   clear: both;
 }
 .recipe-page ol.steps > li > p.step-title{
-  clear: none !important;
+  clear:none !important;
   float:none;
-  display:flow-root;
+  display:block;
   width:auto !important;
+  font:inherit;
   font-weight:700;
-  font-size:1.08rem;
-  line-height:1.25;
+  color:inherit;
+  line-height:inherit;
+  letter-spacing:normal;
   margin:0 0 .35rem 0;
+  padding:0;
+  background:transparent;
+  border:0;
 }
 .recipe-page .lead > h2,
 .recipe-page .block > h2,
@@ -291,7 +296,7 @@ main figure img{cursor:zoom-in;}
 
 <main class="recipe-page">
 <main class="recipe-page">
-<div class="recipe-content"><h1>Anatra in salsa</h1><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Secondi</span></div><div class="meta-card"><strong>Geografia</strong><span>Italia – Veneto</span></div><div class="meta-card"><strong>Fonte</strong><span></span></div></section><section class="lead"><h2>Introduzione e contesto</h2><figure class="step-photo-large step-photo" style="width: 498px; max-width: 100%;"><img src="../../foto/anatra-in-salsa/01.jpg" width="498"/><figcaption>Ingredienti da AI</figcaption></figure><figure class="step-photo-right step-photo" style="width: 46%; max-width: 46%;"><img src="../../foto/anatra-in-salsa/rolle.jpg"/><figcaption>Rolle</figcaption></figure><p>Questa preparazione richiama la tradizione veneta della <strong>peverada</strong>, pur in una versione più semplice: le alici sotto sale, l’aceto e il fondo di cottura costruiscono una salsa intensa e sapida, alleggerita dalla mia abitudine di sgrassare il fondo e dalla presenza del limone.</p></section><section class="block">
+<div class="recipe-content"><h1>Anatra in salsa</h1><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Secondi</span></div><div class="meta-card"><strong>Geografia</strong><span>Italia – Veneto</span></div><div class="meta-card"><strong>Fonte</strong><span></span></div></section><section class="lead"><h2>Introduzione e contesto</h2><figure class="step-photo step-photo-large" style="width: 595px; max-width: 100%;"><img src="../../foto/anatra-in-salsa/01.jpg" width="595"/><figcaption>Ingredienti da AI</figcaption></figure><figure class="step-photo-right step-photo" style="width: 46%; max-width: 46%;"><img src="../../foto/anatra-in-salsa/rolle.jpg"/><figcaption>Rolle</figcaption></figure><p>Questa preparazione richiama la tradizione veneta della <strong>peverada</strong>, pur in una versione più semplice: le alici sotto sale, l’aceto e il fondo di cottura costruiscono una salsa intensa e sapida, alleggerita dalla mia abitudine di sgrassare il fondo e dalla presenza del limone.</p></section><section class="block">
 <h2>Ingredienti</h2>
 <div class="table-wrap">
 <table class="recipe-table">
@@ -299,7 +304,7 @@ main figure img{cursor:zoom-in;}
 <tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr>
 </thead>
 <tbody>
-<tr><td>Anatra</td><td>1,8</td><td>kg</td><td>Meglio se di cacciagione</td></tr>
+<tr><td>Anatra</td><td>1,8</td><td>kg</td><td><br/></td></tr>
 <tr><td>Soppressa veneta</td><td>200</td><td>gr</td><td></td></tr>
 <tr><td>Pancetta</td><td>70</td><td>gr</td><td></td></tr>
 <tr><td>Burro</td><td>30</td><td>gr</td><td></td></tr>
@@ -401,7 +406,7 @@ document.addEventListener('DOMContentLoaded', function(){
     return overlay;
   }
 
-  var PRINT_ENGINE_SRC = '../../foto/ui/recipe-editorial-print.js?v=CMS2-R17-99';
+  var PRINT_ENGINE_SRC = '../../foto/ui/recipe-editorial-print.js?v=CMS2-R17-113';
   var printEnginePromise = null;
 
   function loadRecipeEditorialPrintEngine(){
