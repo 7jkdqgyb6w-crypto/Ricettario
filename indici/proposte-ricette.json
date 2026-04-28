@@ -1,0 +1,1820 @@
+[
+  {
+    "slug": "agnolotti-al-sugo-d-arrosto",
+    "titolo": "Agnolotti al sugo d'arrosto",
+    "proposte": {
+      "porzioni": "6-8",
+      "tempo_attivo": "45-60 min",
+      "tempo_cottura": "2 h circa",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Polpa di manzo",
+        "Ossa di bovino",
+        "Doppione o biancostato",
+        "Gallina pulita",
+        "Pomodoro rosso",
+        "Bacche di ginepro"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "media",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per pasta ripiena da validare",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "anatra-all-arancia",
+    "titolo": "Anatra all'arancia",
+    "proposte": {
+      "porzioni": "6",
+      "tempo_attivo": "45-60 min",
+      "tempo_cottura": "2 h circa",
+      "tempo_riposo": "30 min",
+      "tempo_totale": "include riposo",
+      "ingredienti_chiave": [
+        "Anatra",
+        "Strutto",
+        "Brodo di carne",
+        "Passata di pomodoro",
+        "Prosciutto crudo",
+        "Lardo"
+      ]
+    },
+    "confidenza": "media",
+    "confidenza_campi": {
+      "porzioni": "alta",
+      "tempi": "media",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "porzioni esplicite nel testo",
+      "riposo dedotto da testo",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "anatra-in-salsa",
+    "titolo": "Anatra in salsa",
+    "proposte": {
+      "porzioni": "4-6",
+      "tempo_attivo": "30-45 min",
+      "tempo_cottura": "2 h circa",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Anatra",
+        "Soppressa veneta",
+        "Pancetta",
+        "Alici sotto sale"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "media",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per secondo piatto da validare",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "antipasto-di-canocce",
+    "titolo": "Antipasto di canocce",
+    "proposte": {
+      "porzioni": "4-6",
+      "tempo_attivo": "30-45 min",
+      "tempo_cottura": "6 min circa",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Canoccia",
+        "Insalata novella"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "media",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per antipasto/salsa/contorno",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "aringhe-in-terrina",
+    "titolo": "Aringhe in terrina",
+    "proposte": {
+      "porzioni": "4-6",
+      "tempo_attivo": "30-45 min",
+      "tempo_cottura": "15 min circa",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Aringhe sciocche affumicate",
+        "Carote",
+        "Bacche di ginepro",
+        "Limoni BIO"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "media",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per antipasto/salsa/contorno",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "arista-alla-birra",
+    "titolo": "Arista alla birra",
+    "proposte": {
+      "porzioni": "4-6",
+      "tempo_attivo": "30-45 min",
+      "tempo_cottura": "2 h circa",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Arista di maiale",
+        "Birra ambrata",
+        "Menta",
+        "Bacche di ginepro"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "media",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per secondo piatto da validare",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "baccala-mantecato",
+    "titolo": "Baccalà mantecato",
+    "proposte": {
+      "porzioni": "4-6",
+      "tempo_attivo": "30-45 min",
+      "tempo_cottura": "2 h circa",
+      "tempo_riposo": "48 h",
+      "tempo_totale": "include riposo",
+      "ingredienti_chiave": [
+        "Stoccafisso",
+        "Albume"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "media",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per antipasto/salsa/contorno",
+      "riposo/ammollo dedotto da parole chiave",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "bagna-cauda",
+    "titolo": "Bagna cauda",
+    "proposte": {
+      "porzioni": "4-6",
+      "tempo_attivo": "45-60 min",
+      "tempo_cottura": "1 h 30 min - 2 h",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Alici sotto sale",
+        "Panna",
+        "Cardo bianco gobbo",
+        "Topinambur",
+        "Peperoni sotto mosto",
+        "Carciofi"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "bassa",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per secondo piatto da validare",
+      "cottura lunga stimata da tecnica/parole chiave",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "battuta-di-manzo-alla-boscaiola",
+    "titolo": "Battuta di manzo alla boscaiola",
+    "proposte": {
+      "porzioni": "4",
+      "tempo_attivo": "45-60 min",
+      "tempo_cottura": "3 min circa",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Battuta di manzo",
+        "Corteccia",
+        "Pancetta",
+        "Ginepro"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "media",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "porzioni stimate da quantità di proteina principale",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "bibliografia-bagna-cauda",
+    "titolo": "Bibliografia bagna cauda",
+    "proposte": {
+      "porzioni": "4-6",
+      "tempo_attivo": "45-60 min",
+      "tempo_cottura": "1 h 30 min - 2 h",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "bibliografia",
+        "bagna",
+        "cauda"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "bassa",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per antipasto/salsa/contorno",
+      "cottura lunga stimata da tecnica/parole chiave",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "bigoli-in-salsa",
+    "titolo": "Bigoli in salsa",
+    "proposte": {
+      "porzioni": "4",
+      "tempo_attivo": "30-45 min",
+      "tempo_cottura": "1 h 30 min - 2 h",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Alici sotto sale",
+        "Bigoli"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "bassa",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per primo piatto da validare",
+      "cottura lunga stimata da tecnica/parole chiave",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "braciole-di-carne-di-cavallo",
+    "titolo": "Braciole di carne di cavallo",
+    "proposte": {
+      "porzioni": "4",
+      "tempo_attivo": "30-45 min",
+      "tempo_cottura": "1 h 30 min - 2 h",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Polpa di cavallo a fettine",
+        "Passato di pomodoro",
+        "Pecorino romano DOP"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "bassa",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "porzioni stimate da quantità di proteina principale",
+      "cottura lunga stimata da tecnica/parole chiave",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "calamari-ripieni",
+    "titolo": "Calamari ripieni",
+    "proposte": {
+      "porzioni": "4-6",
+      "tempo_attivo": "30-45 min",
+      "tempo_cottura": "15-30 min",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Calamari",
+        "Pecorino romano",
+        "Pelati San Marzano DOP"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "bassa",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per secondo piatto da validare",
+      "cottura breve stimata per assenza di segnali di lunga cottura",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "cous-cous-alla-trapanese",
+    "titolo": "Cous cous alla trapanese",
+    "proposte": {
+      "porzioni": "4",
+      "tempo_attivo": "45-60 min",
+      "tempo_cottura": "1 h 30 min - 2 h",
+      "tempo_riposo": "30 min",
+      "tempo_totale": "include riposo",
+      "ingredienti_chiave": [
+        "Cous cous"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "bassa",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per primo piatto da validare",
+      "riposo dedotto da testo",
+      "cottura lunga stimata da tecnica/parole chiave",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "crepes",
+    "titolo": "Crêpes",
+    "proposte": {
+      "porzioni": "4",
+      "tempo_attivo": "30-45 min",
+      "tempo_cottura": "20 min circa",
+      "tempo_riposo": "30 min",
+      "tempo_totale": "include riposo",
+      "ingredienti_chiave": [
+        "crêpes"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "media",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "fallback standard da validare",
+      "riposo dedotto da testo",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "daube",
+    "titolo": "Daube",
+    "proposte": {
+      "porzioni": "4-6",
+      "tempo_attivo": "45-60 min",
+      "tempo_cottura": "2 h circa",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Manzo",
+        "Concentrato di pomodoro",
+        "Lardo",
+        "Cipolle",
+        "Carote",
+        "Bouquet garni"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "media",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per secondo piatto da validare",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "fegato-alla-veneziana",
+    "titolo": "Fegato alla veneziana",
+    "proposte": {
+      "porzioni": "4-6",
+      "tempo_attivo": "15-30 min",
+      "tempo_cottura": "15-30 min",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Fegato",
+        "Cipolle"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "bassa",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per secondo piatto da validare",
+      "cottura breve stimata per assenza di segnali di lunga cottura",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "filettino-di-maiale",
+    "titolo": "Filettino di maiale",
+    "proposte": {
+      "porzioni": "4-6",
+      "tempo_attivo": "30-45 min",
+      "tempo_cottura": "15 min circa",
+      "tempo_riposo": "30 min",
+      "tempo_totale": "include riposo",
+      "ingredienti_chiave": [
+        "Filettino di maiale",
+        "Scalogno",
+        "Senape di Digione"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "media",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per secondo piatto da validare",
+      "riposo dedotto da testo",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "filetto-angus-alla-senape-di-digione",
+    "titolo": "Filetto Angus alla senape di Digione",
+    "proposte": {
+      "porzioni": "4-6",
+      "tempo_attivo": "15-30 min",
+      "tempo_cottura": "7 min circa",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Filetto angus",
+        "Senape"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "media",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per secondo piatto da validare",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "fusilli-carciofi-e-salmone",
+    "titolo": "Fusilli carciofi e salmone",
+    "proposte": {
+      "porzioni": "4",
+      "tempo_attivo": "30-45 min",
+      "tempo_cottura": "1 h 30 min - 2 h",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Salmone cotto a vapore",
+        "Fusilli",
+        "Carciofi"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "bassa",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per primo piatto da validare",
+      "cottura lunga stimata da tecnica/parole chiave",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "gigot-roti",
+    "titolo": "Gigot roti",
+    "proposte": {
+      "porzioni": "4-6",
+      "tempo_attivo": "45-60 min",
+      "tempo_cottura": "1 h circa",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Cosciotto d'agnello di almeno kg 1,5"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "media",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per secondo piatto da validare",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "gnocchetti-sardi-alla-urbaweb",
+    "titolo": "Gnocchetti sardi alla Urbaweb",
+    "proposte": {
+      "porzioni": "4-6",
+      "tempo_attivo": "45-60 min",
+      "tempo_cottura": "15-30 min",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Gnocchetti sardi",
+        "Zucchine",
+        "Pomodori",
+        "Peperoni",
+        "Schie",
+        "Olive verdi"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "bassa",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "porzioni stimate da quantità di proteina principale",
+      "cottura breve stimata per assenza di segnali di lunga cottura",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "gnocchi-con-le-trombette-dei-morti",
+    "titolo": "Gnocchi con le trombette dei morti",
+    "proposte": {
+      "porzioni": "4",
+      "tempo_attivo": "30-45 min",
+      "tempo_cottura": "15-30 min",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Gnocchetti di patate",
+        "Funghi trombette dei morti essiccati e grattugiati",
+        "Parmigiano Reggiano"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "bassa",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per primo piatto da validare",
+      "cottura breve stimata per assenza di segnali di lunga cottura",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "goulash-variante",
+    "titolo": "Gulash (variante)",
+    "proposte": {
+      "porzioni": "4",
+      "tempo_attivo": "45-60 min",
+      "tempo_cottura": "2 h circa",
+      "tempo_riposo": "30 min",
+      "tempo_totale": "include riposo",
+      "ingredienti_chiave": [
+        "Manzo",
+        "Patate",
+        "Carote",
+        "Pomodorini",
+        "Brodo vegetale",
+        "Cuminio"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "media",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "porzioni stimate da quantità di proteina principale",
+      "riposo dedotto da testo",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "medaglioni-di-manzo-con-porcini",
+    "titolo": "Medaglioni di manzo con porcini",
+    "proposte": {
+      "porzioni": "4-6",
+      "tempo_attivo": "30-45 min",
+      "tempo_cottura": "30-45 min",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Manzo",
+        "Funghi porcini",
+        "Lardo",
+        "Ginepro"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "bassa",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per secondo piatto da validare",
+      "cottura media stimata da tecnica/parole chiave",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "minestra-di-cavoli",
+    "titolo": "Minestra di cavoli",
+    "proposte": {
+      "porzioni": "4",
+      "tempo_attivo": "15-30 min",
+      "tempo_cottura": "5 min circa",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Cavolo",
+        "Lardo",
+        "Patate"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "media",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per primo piatto da validare",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "minestra-di-porri",
+    "titolo": "Minestra di porri",
+    "proposte": {
+      "porzioni": "4",
+      "tempo_attivo": "15-30 min",
+      "tempo_cottura": "5 min circa",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Porri",
+        "Bburro",
+        "Patate",
+        "Riso",
+        "Brodo"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "media",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per primo piatto da validare",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "orecchiette-baresi-alle-cime-di-rapa",
+    "titolo": "Orecchiette baresi alle cime di rapa",
+    "proposte": {
+      "porzioni": "4",
+      "tempo_attivo": "30-45 min",
+      "tempo_cottura": "30-45 min",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Peperoncino",
+        "Spicchio",
+        "Orecchiette baresi",
+        "Cime di rapa",
+        "Alici sotto sale"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "bassa",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per primo piatto da validare",
+      "cottura media stimata da tecnica/parole chiave",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "pappa-con-il-pomodoro",
+    "titolo": "Pappa con il pomodoro",
+    "proposte": {
+      "porzioni": "4",
+      "tempo_attivo": "30-45 min",
+      "tempo_cottura": "20 min circa",
+      "tempo_riposo": "30 min",
+      "tempo_totale": "include riposo",
+      "ingredienti_chiave": [
+        "Basilico",
+        "Pomodori",
+        "Porro"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "media",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per primo piatto da validare",
+      "riposo dedotto da testo",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "pasta-al-ragu-di-triglie-e-al-succo-d-arancia",
+    "titolo": "Pasta al ragù di triglie e al succo d'arancia",
+    "proposte": {
+      "porzioni": "4",
+      "tempo_attivo": "30-45 min",
+      "tempo_cottura": "1 h 30 min - 2 h",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Spaghetti",
+        "Triglie di scoglio",
+        "Mandorle sgusciate",
+        "Pomodorini maturi",
+        "Arancia matura",
+        "Origano"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "bassa",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per primo piatto da validare",
+      "cottura lunga stimata da tecnica/parole chiave",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "pasta-con-i-broccoli",
+    "titolo": "Pasta con i broccoli",
+    "proposte": {
+      "porzioni": "4",
+      "tempo_attivo": "45-60 min",
+      "tempo_cottura": "1 h 30 min - 2 h",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Uva passa",
+        "Broccoli",
+        "Pinoli",
+        "Pecorino romano"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "bassa",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per primo piatto da validare",
+      "cottura lunga stimata da tecnica/parole chiave",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "pasta-con-le-melanzane",
+    "titolo": "Pasta con le melanzane",
+    "proposte": {
+      "porzioni": "4",
+      "tempo_attivo": "15-30 min",
+      "tempo_cottura": "30-45 min",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Mezze penne rigate",
+        "melanzane lunche",
+        "d'aglio",
+        "peperoncino secco piccante"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "bassa",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per primo piatto da validare",
+      "cottura media stimata da tecnica/parole chiave",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "pasta-con-le-sarde",
+    "titolo": "Pasta con le sarde",
+    "proposte": {
+      "porzioni": "4",
+      "tempo_attivo": "45-60 min",
+      "tempo_cottura": "1 h 30 min - 2 h",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Pasta"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "bassa",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per primo piatto da validare",
+      "cottura lunga stimata da tecnica/parole chiave",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "pasta-con-pesto-alla-siciliana",
+    "titolo": "Pasta con pesto alla siciliana",
+    "proposte": {
+      "porzioni": "4",
+      "tempo_attivo": "30-45 min",
+      "tempo_cottura": "20 min circa",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Basilico",
+        "Spicchi d'aglio",
+        "Mandorle tostate e grattugiate",
+        "Pomodorini datterini o meglio San Marzano se di stagione",
+        "Capperi sotto sale",
+        "Bottarga di muggine intera"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "media",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per primo piatto da validare",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "pasta-e-fagioli",
+    "titolo": "Pasta e fagioli",
+    "proposte": {
+      "porzioni": "4",
+      "tempo_attivo": "30-45 min",
+      "tempo_cottura": "30-45 min",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Fagioli di Lamon",
+        "Osso di prosciutto",
+        "Subiotini"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "media",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per primo piatto da validare",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "patatine",
+    "titolo": "Patatine*",
+    "proposte": {
+      "porzioni": "4-6",
+      "tempo_attivo": "15-30 min",
+      "tempo_cottura": "5 min circa",
+      "tempo_riposo": "30 min",
+      "tempo_totale": "include riposo",
+      "ingredienti_chiave": [
+        "Patatine"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "media",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per antipasto/salsa/contorno",
+      "riposo dedotto da testo",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "pate-di-fegato",
+    "titolo": "Paté di fegato",
+    "proposte": {
+      "porzioni": "4-6",
+      "tempo_attivo": "30-45 min",
+      "tempo_cottura": "2 h circa",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "½ kg. di fegato di vitello",
+        "Fegatini di pollo",
+        "Panna",
+        "Lardo",
+        "Marsala",
+        "Strutto"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "media",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per antipasto/salsa/contorno",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "penne-alla-cannata",
+    "titolo": "Penne alla \"Cannata\"",
+    "proposte": {
+      "porzioni": "4",
+      "tempo_attivo": "45-60 min",
+      "tempo_cottura": "5 min circa",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Alici sotto sale",
+        "Capperi",
+        "Mezze penne rigate",
+        "Pomodorini",
+        "Peperoncino",
+        "Menta"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "media",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per primo piatto da validare",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "penne-con-mazzancolle-alle-verdure",
+    "titolo": "Penne con mazzancolle alle verdure",
+    "proposte": {
+      "porzioni": "4",
+      "tempo_attivo": "30-45 min",
+      "tempo_cottura": "1 h 30 min - 2 h",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Mazzancolla",
+        "Porro",
+        "Zafferano",
+        "Zucchina",
+        "Penne",
+        "Verdura"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "bassa",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per primo piatto da validare",
+      "cottura lunga stimata da tecnica/parole chiave",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "penne-con-zucchine",
+    "titolo": "Penne con zucchine",
+    "proposte": {
+      "porzioni": "4",
+      "tempo_attivo": "30-45 min",
+      "tempo_cottura": "30-45 min",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Mezze penne rigate",
+        "Zucchine",
+        "Spicco d'aglio",
+        "Parmigiano Reggiano"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "bassa",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per primo piatto da validare",
+      "cottura media stimata da tecnica/parole chiave",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "peperoni-alici-e-capperi",
+    "titolo": "Peperoni, alici e capperi",
+    "proposte": {
+      "porzioni": "4-6",
+      "tempo_attivo": "45-60 min",
+      "tempo_cottura": "1 h 30 min - 2 h",
+      "tempo_riposo": "30 min",
+      "tempo_totale": "include riposo",
+      "ingredienti_chiave": [
+        "Peperoni rossi e gialli",
+        "Capperi sotto sale",
+        "Alici sotto sale"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "bassa",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per antipasto/salsa/contorno",
+      "riposo dedotto da testo",
+      "cottura lunga stimata da tecnica/parole chiave",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "picana",
+    "titolo": "Picana",
+    "proposte": {
+      "porzioni": "4-6",
+      "tempo_attivo": "45-60 min",
+      "tempo_cottura": "1 h circa",
+      "tempo_riposo": "30 min",
+      "tempo_totale": "include riposo",
+      "ingredienti_chiave": [
+        "Picana (Lombata)"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "media",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per secondo piatto da validare",
+      "riposo dedotto da testo",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "puree-di-sedano",
+    "titolo": "Purée di sedano",
+    "proposte": {
+      "porzioni": "4-6",
+      "tempo_attivo": "15-30 min",
+      "tempo_cottura": "10 min circa",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Gambi di sedano",
+        "Patate",
+        "Noce moscata"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "media",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per antipasto/salsa/contorno",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "ratatouille-variante",
+    "titolo": "Ratatouille (variante)",
+    "proposte": {
+      "porzioni": "4-6",
+      "tempo_attivo": "30-45 min",
+      "tempo_cottura": "30-45 min",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Melanzane lunghe",
+        "Zucchine",
+        "Peperoni gialli e rossi",
+        "Basilico"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "bassa",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per antipasto/salsa/contorno",
+      "cottura media stimata da tecnica/parole chiave",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "ribollita",
+    "titolo": "Ribollita",
+    "proposte": {
+      "porzioni": "4",
+      "tempo_attivo": "15-30 min",
+      "tempo_cottura": "15-30 min",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "ribollita"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "bassa",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "fallback standard da validare",
+      "cottura breve stimata per assenza di segnali di lunga cottura",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "risi-e-bisi",
+    "titolo": "Risi e bisi",
+    "proposte": {
+      "porzioni": "4",
+      "tempo_attivo": "30-45 min",
+      "tempo_cottura": "25 min circa",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Piselli",
+        "Riso"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "media",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "fallback standard da validare",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "riso-cozze-e-patate",
+    "titolo": "Riso cozze e patate",
+    "proposte": {
+      "porzioni": "4",
+      "tempo_attivo": "45-60 min",
+      "tempo_cottura": "2 h circa",
+      "tempo_riposo": "30 min",
+      "tempo_totale": "include riposo",
+      "ingredienti_chiave": [
+        "di cozze",
+        "Riso",
+        "Patate",
+        "Pecorino romano DPO",
+        "Pomodori pelati DOP"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "media",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per primo piatto da validare",
+      "riposo dedotto da testo",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "roastbeef-arrosto-all-inglese",
+    "titolo": "Roastbeef (arrosto all'inglese)",
+    "proposte": {
+      "porzioni": "4",
+      "tempo_attivo": "30-45 min",
+      "tempo_cottura": "15 min circa",
+      "tempo_riposo": "30 min",
+      "tempo_totale": "include riposo",
+      "ingredienti_chiave": [
+        "Roastbeef"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "media",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "fallback standard da validare",
+      "riposo dedotto da testo",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "roux-brun",
+    "titolo": "Roux brun",
+    "proposte": {
+      "porzioni": "4-6",
+      "tempo_attivo": "15-30 min",
+      "tempo_cottura": "15-30 min",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Noce di burro"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "bassa",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per antipasto/salsa/contorno",
+      "cottura breve stimata per assenza di segnali di lunga cottura",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "salsa-verde",
+    "titolo": "Salsa verde",
+    "proposte": {
+      "porzioni": "4-6",
+      "tempo_attivo": "30-45 min",
+      "tempo_cottura": "15-30 min",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Capperi",
+        "Alici sotto sale",
+        "Mollica di pane imbevuto di latte"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "bassa",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per antipasto/salsa/contorno",
+      "cottura breve stimata per assenza di segnali di lunga cottura",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "sarde-a-beccafico",
+    "titolo": "Sarde a beccafico",
+    "proposte": {
+      "porzioni": "4-6",
+      "tempo_attivo": "45-60 min",
+      "tempo_cottura": "30-45 min",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Sarde di media grandezza",
+        "Pinoli",
+        "Uva sultanina",
+        "Alici sotto sale",
+        "Limoni bio"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "media",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per antipasto/salsa/contorno",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "sfogliata-pugliese",
+    "titolo": "Sfogliata pugliese",
+    "proposte": {
+      "porzioni": "4",
+      "tempo_attivo": "30-45 min",
+      "tempo_cottura": "15-30 min",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Pasta per pane",
+        "Olive nere snocciolate pugliesi",
+        "Alici sotto sale",
+        "Uva passa",
+        "Pomodori pelati DOP",
+        "Pecorino romano"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "bassa",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per primo piatto da validare",
+      "cottura breve stimata per assenza di segnali di lunga cottura",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "spaghetti-alla-bottarga",
+    "titolo": "Spaghetti alla bottarga",
+    "proposte": {
+      "porzioni": "4",
+      "tempo_attivo": "45-60 min",
+      "tempo_cottura": "1 h 30 min - 2 h",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Spaghetti",
+        "Bottarga di muggine",
+        "Peperoncino"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "bassa",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per primo piatto da validare",
+      "cottura lunga stimata da tecnica/parole chiave",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "spaghetti-alla-puttanesca",
+    "titolo": "Spaghetti alla puttanesca",
+    "proposte": {
+      "porzioni": "4",
+      "tempo_attivo": "30-45 min",
+      "tempo_cottura": "30-45 min",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Spaghetti o vermicelli",
+        "Peperoncini secchi piccanti",
+        "Olive di Gaeta",
+        "Capperi sotto sale",
+        "Alici sotto sale",
+        "Pelati"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "bassa",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per primo piatto da validare",
+      "cottura media stimata da tecnica/parole chiave",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "straccetti-di-pollo-al-limone",
+    "titolo": "Straccetti di pollo al limone",
+    "proposte": {
+      "porzioni": "4-6",
+      "tempo_attivo": "15-30 min",
+      "tempo_cottura": "15 min circa",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Petto di pollo allevato a terra"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "media",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per secondo piatto da validare",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
+    "titolo": "Straccetti su letto di porri con rucola e aceto balsamico di Modena",
+    "proposte": {
+      "porzioni": "4-6",
+      "tempo_attivo": "15-30 min",
+      "tempo_cottura": "15 min circa",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Carpaccio di manzo",
+        "Porri",
+        "Rucola"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "media",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per secondo piatto da validare",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "tagliate",
+    "titolo": "Tagliate",
+    "proposte": {
+      "porzioni": "4-6",
+      "tempo_attivo": "15-30 min",
+      "tempo_cottura": "20 min circa",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Fesa di tacchino"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "media",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per secondo piatto da validare",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "tajin-mqualli",
+    "titolo": "Tajin Mqualli",
+    "proposte": {
+      "porzioni": "4-6",
+      "tempo_attivo": "45-60 min",
+      "tempo_cottura": "1 h 30 min - 2 h",
+      "tempo_riposo": "2-12 h",
+      "tempo_totale": "include riposo",
+      "ingredienti_chiave": [
+        "Pollo",
+        "Coniglio",
+        "Montone",
+        "Cous cous",
+        "Cipollotti",
+        "Patate"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "bassa",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per secondo piatto da validare",
+      "riposo dedotto da marinatura",
+      "cottura lunga stimata da tecnica/parole chiave",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "tonno-alla-carlofortina",
+    "titolo": "Tonno alla CarloFortina",
+    "proposte": {
+      "porzioni": "4",
+      "tempo_attivo": "15-30 min",
+      "tempo_cottura": "2 h circa",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Tonno"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "media",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "fallback standard da validare",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "tortino-di-alici",
+    "titolo": "Tortino di alici",
+    "proposte": {
+      "porzioni": "4-6",
+      "tempo_attivo": "30-45 min",
+      "tempo_cottura": "30-45 min",
+      "tempo_riposo": "",
+      "tempo_totale": "da verificare",
+      "ingredienti_chiave": [
+        "Alici freschissime",
+        "Mollica o pangrattato",
+        "Pecorino romano DOP",
+        "Peperoncino",
+        "Nepetella",
+        "Origano"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "media",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per antipasto/salsa/contorno",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "vitello-tonnato",
+    "titolo": "Vitello tonnato",
+    "proposte": {
+      "porzioni": "4-6",
+      "tempo_attivo": "45-60 min",
+      "tempo_cottura": "2 h circa",
+      "tempo_riposo": "2-12 h",
+      "tempo_totale": "include riposo",
+      "ingredienti_chiave": [
+        "Girello di vitello intero",
+        "Cuore di sedano",
+        "Chiodi di garofano",
+        "Tonno in scatola",
+        "Capperi di Pantelleria DOP",
+        "Maionese"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "media",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per antipasto/salsa/contorno",
+      "riposo dedotto da marinatura",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  }
+]
