@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Bibliografia bagna cauda – Ricette (e altro) di Pierre</title>
+  <link rel="stylesheet" href="../../style.css">
+  <style id="recipe-layout-style">.recipe-page{
+  max-width: 100%;
+}
+.recipe-page .recipe-content{
+  width: 100%;
+  max-width: min(100%, var(--reading));
+}
+
+.recipe-page .recipe-content > h1{
+  margin: 0 0 1.2rem 0;
+}
+.site-header nav{
+  display:flex;
+  align-items:center;
+  gap:1rem;
+  flex-wrap:nowrap;
+  overflow-x:auto;
+  scrollbar-width:none;
+  -ms-overflow-style:none;
+}
+.site-header nav::-webkit-scrollbar{
+  display:none;
+  width:0;
+  height:0;
+}
+.site-header nav a{
+  white-space:nowrap;
+}
+.site-header .recipe-nav-back{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:28px;
+  height:28px;
+  font-size:24px;
+  line-height:1;
+  text-decoration:none;
+  color:inherit;
+  flex:0 0 auto;
+  position:relative;
+  top:-2px;
+}
+.site-header .recipe-nav-back:hover{
+  text-decoration:none;
+}
+.recipe-page .site-footer.recipe-footer{
+  margin-top: 1.5rem;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:space-between !important;
+  gap:1rem !important;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+  width:100% !important;
+  max-width:min(100%, var(--reading)) !important;
+}
+.recipe-page .lead a,
+.recipe-page .block a,
+.recipe-page .notes a{
+  color:#5f86ad;
+  font-weight:600;
+}
+.site-footer-left,
+.site-footer-right{
+  flex:0 0 auto;
+}
+.site-footer-left{
+  opacity: 0.9;
+  flex:0 0 auto !important;
+  margin:0 !important;
+}
+.site-footer-left a,
+.site-footer-qr-link,
+.site-footer-icon,
+.site-footer-text{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  text-decoration:none;
+  color:#000;
+}
+.site-footer-left img{
+  display:block;
+  height:32px;
+  width:auto;
+}
+.site-footer-center{
+  flex:1 1 auto;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:0.55rem;
+  min-width:0;
+}
+.site-footer-text{
+  min-height:44px;
+  padding:0 10px;
+  font-size:1rem;
+  line-height:1;
+  font-weight:400;
+  color:#000;
+}
+.site-footer-icon{
+  min-width:44px;
+  min-height:44px;
+  padding:6px;
+}
+.site-footer-icon img{
+  display:block;
+  width:32px;
+  height:32px;
+  opacity:0.85;
+}
+.recipe-copy-toast{
+  position:fixed;
+  left:50%;
+  bottom:22px;
+  transform:translateX(-50%);
+  background:rgba(30,30,30,.92);
+  color:#fff;
+  font-size:13px;
+  line-height:1;
+  padding:8px 10px;
+  border-radius:7px;
+  z-index:10001;
+  box-shadow:0 4px 16px rgba(0,0,0,.25);
+}
+.site-footer-right{
+  flex:0 0 auto !important;
+  margin:0 !important;
+}
+.site-footer-right,
+.site-footer-right a{
+  display:block !important;
+  float:none !important;
+  clear:none !important;
+  margin:0 !important;
+}
+.site-footer-right img{
+  display:block !important;
+  width:72px !important;
+  max-width:72px !important;
+  height:72px !important;
+  cursor:zoom-in;
+}
+.site-footer-right figcaption{
+  display:none !important;
+}
+.recipe-page .meta-grid,
+.recipe-page .lead,
+.recipe-page .block,
+.recipe-page .notes,
+.recipe-page .site-footer.recipe-footer{
+  width: 100%;
+  max-width: min(100%, var(--reading));
+}
+.recipe-page .lead{
+  background: rgba(255,255,255,0.68);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+  padding: 1.1rem 1.25rem;
+}
+.recipe-page .lead h2:first-child,
+.recipe-page .notes h2:first-child,
+.recipe-page .block h2:first-child{
+  margin-top: 0;
+}
+.recipe-page .lead::after,
+.recipe-page .block::after,
+.recipe-page .notes::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.recipe-page ol.steps > li > p.step-title{
+  clear:none !important;
+  float:none;
+  display:block;
+  width:auto !important;
+  font:inherit;
+  font-weight:700;
+  color:inherit;
+  line-height:inherit;
+  letter-spacing:normal;
+  margin:0 0 .35rem 0;
+  padding:0;
+  background:transparent;
+  border:0;
+}
+.recipe-page .lead > h2,
+.recipe-page .block > h2,
+.recipe-page .notes > h2{
+  clear: both;
+}
+.recipe-page .steps li{
+  clear:none !important;
+}
+.recipe-page figure.step-photo-left{
+  margin-right:calc(1.2rem + 3mm) !important;
+}
+.recipe-page figure.step-photo-right{
+  margin-left:calc(1.2rem + 3mm) !important;
+}
+.recipe-page ol.steps > li{
+  clear:none !important;
+}
+@media (max-width: 760px){
+  .recipe-page .lead{
+    padding: 1rem 1rem;
+  }
+  .site-header nav{
+    gap:.7rem;
+  }
+  .site-header nav a{
+    font-size:.94rem;
+  }
+  .site-header .recipe-nav-back{
+    width:24px;
+    height:24px;
+    font-size:20px;
+    top:-1px;
+  }
+  .site-footer-center{
+    gap:0.2rem;
+  }
+  .site-footer-text{
+    padding:0 6px;
+  }
+  .site-footer-left img{
+    height:28px;
+  }
+  .site-footer-icon img{
+    width:28px;
+    height:28px;
+  }
+  .site-footer-right img{
+    width:68px !important;
+    height:68px !important;
+    max-width:68px !important;
+  }
+}
+
+@media print{
+  header.site-header,
+  .page > .site-header,
+  footer.site-footer.recipe-footer,
+  .recipe-page .site-footer.recipe-footer{
+    display:none !important;
+    visibility:hidden !important;
+    position:static !important;
+    height:0 !important;
+    min-height:0 !important;
+    max-height:0 !important;
+    overflow:hidden !important;
+    margin:0 !important;
+    padding:0 !important;
+    border:0 !important;
+  }
+  body,
+  .page{
+    padding-top:0 !important;
+  }
+}
+}</style>
+  <style id="recipe-lightbox-style">.recipe-lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.88);display:flex;align-items:center;justify-content:center;padding:2rem;z-index:9999;cursor:zoom-out;}
+.recipe-lightbox-overlay.is-hidden{display:none !important;}
+.recipe-lightbox-frame{max-width:96vw;max-height:96vh;display:flex;flex-direction:column;gap:.75rem;align-items:center;}
+.recipe-lightbox-frame img{display:block;max-width:96vw;max-height:88vh;width:auto;height:auto;box-shadow:0 8px 32px rgba(0,0,0,.45);background:#fff;}
+.recipe-lightbox-caption{color:#fff;text-align:center;max-width:min(96vw,70rem);font-size:.95rem;line-height:1.35;}
+main figure img{cursor:zoom-in;}
+.recipe-license-overlay{position:fixed !important; inset:0 !important; top:0 !important; right:0 !important; bottom:0 !important; left:0 !important; width:100vw !important; height:100vh !important; margin:0 !important; padding:0 !important; background:#fff !important; z-index:10000 !important; display:flex !important; flex-direction:column !important;}
+.recipe-license-overlay.is-hidden{display:none !important;}
+.recipe-license-bar{display:flex !important; justify-content:flex-end !important; align-items:center !important; flex:0 0 auto !important; padding:10px 14px !important; border-bottom:1px solid rgba(0,0,0,.08) !important; background:#fff !important;}
+.recipe-license-close{border:0 !important; background:transparent !important; font-size:28px !important; line-height:1 !important; cursor:pointer !important; color:#333 !important; padding:0 !important; margin:0 !important;}
+.recipe-license-frame{display:block !important; flex:1 1 auto !important; width:100% !important; height:100% !important; min-height:0 !important; border:0 !important; background:#fff !important;}</style>
+</head>
+<body>
+<div class="page">
+<header class="site-header">
+  <a class="brand" href="../../index.html">Ricette (e altro) di Pierre</a>
+  <nav>
+    <a href="#" class="recipe-nav-back" aria-label="Torna indietro">←</a>
+    <a href="../../indici/ricette.html">Ricette</a>
+    <a href="../../indici/ingredienti.html">Ingredienti</a>
+    <a href="../../indici/fonti.html">Fonti</a>
+    <a href="../../indici/geografia.html">Geografia</a>
+  </nav>
+</header>
+
+<main class="recipe-page">
+<main class="recipe-page">
+<div class="recipe-content">
+<h1>Bibliografia bagna cauda</h1>
+<section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span></span></div><div class="meta-card"><strong>Geografia</strong><span></span></div><div class="meta-card"><strong>Fonte</strong><span></span></div></section>
+<section class="lead"><h2>Introduzione e contesto</h2><p></p></section>
+<section class="block ingredients-block">
+<h2>Ingredienti</h2>
+<div class="table-wrap">
+<table class="recipe-table ingredients-table">
+<thead>
+<tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr>
+</thead>
+<tbody>
+<tr><td></td><td></td><td></td><td></td></tr>
+</tbody>
+</table>
+</div>
+</section>
+<section class="preparation-block block"><h2>Preparazione</h2><ol class="steps"><li><p>BAGNA CAUDA PIEMONTESE — REPERTORIO BIBLIOGRAFICO</p><p><em>Elenco unico di referenze in formato ISO 690, ordinate cronologicamente per anno di prima edizione/pubblicazione. Etichetta [V] = record bibliografico verificato; [S] = citazione segnalata da fonte secondaria, da verificare sull'originale.</em></p></li><li><p>[V] <em>Il cuoco piemontese perfezionato a Parigi</em>. Torino: Carlo Giuseppe Ricca, 1766. — Loc.: ricetta «Salsa detta del pover uomo» (proto-bagna cauda con olio, acciughe, aglio tritato; cardi). URL: <a href="https://www.google.com/url?q=https://www.iris.unina.it/handle/11588/985579&amp;sa=D&amp;source=editors&amp;ust=1777370356764425&amp;usg=AOvVaw1uwYAayeo5BgqXZFHRysVa" rel="noopener noreferrer" target="_blank">Iris UniNa — scheda</a> · <a href="https://www.google.com/url?q=https://en.olschki.it/libro/9788822269621&amp;sa=D&amp;source=editors&amp;ust=1777370356764684&amp;usg=AOvVaw3KATBrQiPCctr7H0ATqOAp" rel="noopener noreferrer" target="_blank">Olschki — ed. critica 2022</a> · <a href="https://www.google.com/url?q=https://www.salaecucina.it/it-it/articoli-magazine-il-cuoco-piemontese-perfezionato-a-parigi.aspx&amp;sa=D&amp;source=editors&amp;ust=1777370356764903&amp;usg=AOvVaw2eqKhQMUcOgimbpFxQFU37" rel="noopener noreferrer" target="_blank">Salaecucina — descr.</a> · <a href="https://www.google.com/url?q=https://mole24.it/2018/10/06/il-cuoco-piemontese-perfezionato-a-parigi-il-libro-che-getto-le-basi-della-cucina-regionale/&amp;sa=D&amp;source=editors&amp;ust=1777370356765195&amp;usg=AOvVaw0zkpfZhwkhZgXL7wUNM5ja" rel="noopener noreferrer" target="_blank">Mole24</a> · <a href="https://www.google.com/url?q=https://direfaremole.com/2016/12/30/il-cuoco-piemontese-perfezionato-a-parigi-quando-e-come-nasce-la-cucina-sabauda/&amp;sa=D&amp;source=editors&amp;ust=1777370356765642&amp;usg=AOvVaw3zKl4m0bj8F5mpxjZm5mLE" rel="noopener noreferrer" target="_blank">Direfaremole</a></p></li><li><p>[V] PIPINO, Maurizio. <em>Vocabolario piemontese</em>. Torino: Stamperia Reale, 1783. — Voce dialettale «bagna». URL: <a href="https://www.google.com/url?q=https://opac.sbn.it/risultati-ricerca-avanzata&amp;sa=D&amp;source=editors&amp;ust=1777370356766707&amp;usg=AOvVaw02At_x55zJpH7nzqJBP1gK" rel="noopener noreferrer" target="_blank">OPAC SBN — ricerca per autore</a></p></li><li><p>[S] CAPELLO, Giovanni Battista. <em>Cuoco piemontese ridotto all'ultimo gusto</em>. Torino, [ca. 1832, varie edizioni 1798–1860]. URL: <a href="https://www.google.com/url?q=https://en.wikipedia.org/wiki/Bagna_c%25C3%25A0uda&amp;sa=D&amp;source=editors&amp;ust=1777370356767931&amp;usg=AOvVaw1Zs8WD5RHYp1whRlDtmyyl" rel="noopener noreferrer" target="_blank">Wikipedia — Bagna càuda § Storia</a></p></li><li><p>[V] ZALLI, Casimiro. <em>Disionari piemontèis, italian, latin e fransèis</em>. 2 voll. Carmagnola: Tipografia Barbié, 1815 (II ed. 1830). — Lemma «bagna». URL: <a href="https://www.google.com/url?q=https://www.studipiemontesi.it/&amp;sa=D&amp;source=editors&amp;ust=1777370356769131&amp;usg=AOvVaw30awV2fadkJy-DfP9hfCRF" rel="noopener noreferrer" target="_blank">Centro Studi Piemontesi — repertorio</a> · <a href="https://www.google.com/url?q=https://archive.org/search?query%3DZalli%2BDisionari&amp;sa=D&amp;source=editors&amp;ust=1777370356769463&amp;usg=AOvVaw1_oj0fDEbLWi2jEpPBg34U" rel="noopener noreferrer" target="_blank">Internet Archive — ricerca</a></p></li><li><p>[V] VIALARDI, Giovanni. <em>Trattato di cucina, pasticceria moderna, credenza e relativa confettureria</em>. Torino: Tip. Favale &amp; C., 1854. — Loc.: ricetta «Butirro alle acciughe», precursore strutturale della bagna cauda nella cucina di corte sabauda. URL: <a href="https://www.google.com/url?q=https://openlibrary.org/books/OL26469170M/Trattato_di_cucina_pasticceria_moderna_credenza_e_relativa_confettureria&amp;sa=D&amp;source=editors&amp;ust=1777370356770576&amp;usg=AOvVaw1wkQaLaAhf7O5VX34_XZ86" rel="noopener noreferrer" target="_blank">Open Library</a> · <a href="https://www.google.com/url?q=https://www.parmaelasuastoria.it/Vialardi-Trattato-di-cucina.aspx&amp;sa=D&amp;source=editors&amp;ust=1777370356770797&amp;usg=AOvVaw0-Z6leZP6s_moPqj0-X5G5" rel="noopener noreferrer" target="_blank">Parmaelasuastoria — full text</a> · <a href="https://www.google.com/url?q=https://www.bourlot.it/en/vialardi-giovanni.-trattato-di-cucina-pasticceria-moderna-credenza-e-relativa-confettureria.-torino-tip.-favale--c.-1854..php&amp;sa=D&amp;source=editors&amp;ust=1777370356771131&amp;usg=AOvVaw1H4x60FOqn9svPU1APxF66" rel="noopener noreferrer" target="_blank">Bourlot Antiquaria</a> · <a href="https://www.google.com/url?q=https://wannenesgroup.com/lots/584-670-gastronomia-vialardi-giovanni-1804-1872-trattato-di-cucina-pasticceria-moderna-credenza-e-relativa-confettureria-torino-favale-1854/&amp;sa=D&amp;source=editors&amp;ust=1777370356771511&amp;usg=AOvVaw156vqzBSUnLFudLCsfwhz8" rel="noopener noreferrer" target="_blank">Wannenes — asta</a> · <a href="https://www.google.com/url?q=https://www.taccuinigastrosofici.it/ita/news/contemporanea/spuntini-letterari/Trattato-di-cucina-pasticceria-Giovanni-Vialardi.html&amp;sa=D&amp;source=editors&amp;ust=1777370356771819&amp;usg=AOvVaw1li7c9D_YAYB4mBeXkKCF4" rel="noopener noreferrer" target="_blank">Taccuini Gastrosofici</a></p></li><li><p>[V] SANT'ALBINO, Vittorio di. <em>Gran dizionario piemontese-italiano, compilato dal cavaliere Vittorio di Sant'Albino</em>. Torino: Società l'Unione tipografico-editrice, 1859. xxii, 1166 p. — Loc.: voci «bagna» e «bagna caoda». URL: <a href="https://www.google.com/url?q=https://archive.org/details/bub_gb_1QKH9Ow6SXkC&amp;sa=D&amp;source=editors&amp;ust=1777370356772794&amp;usg=AOvVaw2_javsEnYaaadJ4bvQQBWT" rel="noopener noreferrer" target="_blank">Internet Archive — copia BUB</a> · <a href="https://www.google.com/url?q=https://archive.org/details/grandizionariopi00sant&amp;sa=D&amp;source=editors&amp;ust=1777370356773051&amp;usg=AOvVaw24ofXPoCtTBviFNA9FLYMv" rel="noopener noreferrer" target="_blank">Internet Archive — altra copia</a> · <a href="https://www.google.com/url?q=https://www.digitale-sammlungen.de/en/view/bsb10524003&amp;sa=D&amp;source=editors&amp;ust=1777370356773415&amp;usg=AOvVaw3oF2_QSsT1LkmdtVSPFFer" rel="noopener noreferrer" target="_blank">Bayerische Staatsbibliothek</a> · <a href="https://www.google.com/url?q=https://books.google.com/books/about/Gran_dizionario_piemontese_italiano.html?id%3DJNFFAAAAcAAJ&amp;sa=D&amp;source=editors&amp;ust=1777370356773646&amp;usg=AOvVaw2iywF1tpZV3lfCQlhUS299" rel="noopener noreferrer" target="_blank">Google Books</a> · <a href="https://www.google.com/url?q=https://archive.org/stream/grandizionariopi00sant/grandizionariopi00sant_djvu.txt&amp;sa=D&amp;source=editors&amp;ust=1777370356773937&amp;usg=AOvVaw0-LIvtqyKYulL6YWNzQXEs" rel="noopener noreferrer" target="_blank">Internet Archive — full text djvu</a></p></li><li><p>[V] SANT'ALBINO, V. di. <em>Gran dizionario piemontese-italiano</em> (rist. anast. 1859). Torino: L'Artistica Editrice, [s.d.]. ISBN 978-88-7320-003-1. URL: <a href="https://www.google.com/url?q=https://www.libreriauniversitaria.it/gran-dizionario-piemontese-italiano-rist/libro/9788873200031&amp;sa=D&amp;source=editors&amp;ust=1777370356774674&amp;usg=AOvVaw1hkU2K8ADF2cEWKqIBmibt" rel="noopener noreferrer" target="_blank">Libreria Universitaria</a> · <a href="https://www.google.com/url?q=https://www.amazon.it/Gran-dizionario-piemontese-italiano-rist-anast/dp/8873200036&amp;sa=D&amp;source=editors&amp;ust=1777370356774903&amp;usg=AOvVaw33kI9oQ2--xlNumFFitJaH" rel="noopener noreferrer" target="_blank">Amazon — record</a></p></li><li><p>[V] SACCHETTI, Roberto. [Corrispondenze e bozzetti su «la bagna caoda di Montechiaro d'Asti»]. <em>Gazzetta Piemontese</em> (Torino), 1875. — <strong>Prima descrizione dettagliata</strong> della bagna cauda nella forma corrente. URL: <a href="https://www.google.com/url?q=https://en.wikipedia.org/wiki/Bagna_c%25C3%25A0uda&amp;sa=D&amp;source=editors&amp;ust=1777370356775666&amp;usg=AOvVaw2OBfxMu-uvXOZt7Dd5upNY" rel="noopener noreferrer" target="_blank">Wikipedia — note alla voce</a> · verifica diretta in Emeroteca Digitale BNCR.</p></li><li><p>[S] SACCHETTI, Roberto. <em>Vecchio guscio</em>. Romanzo. Roma: «La Cronaca Bizantina», 1876 (in puntate). — Loc.: scena conviviale con peperoni intinti nella bagna caoda; <strong>prima apparizione letteraria</strong>. URL: <a href="https://www.google.com/url?q=https://en.wikipedia.org/wiki/Bagna_c%25C3%25A0uda&amp;sa=D&amp;source=editors&amp;ust=1777370356776697&amp;usg=AOvVaw2bX6A3NHNd-QttksUwN1KV" rel="noopener noreferrer" target="_blank">Wikipedia — Bagna càuda</a></p></li><li><p>[S] ARTUSI, Pellegrino. <em>La scienza in cucina e l'arte di mangiar bene</em>. Firenze: Salvadore Landi, 1891. URL: <a href="https://www.google.com/url?q=https://archive.org/details/lascienzaincucin00artu&amp;sa=D&amp;source=editors&amp;ust=1777370356777721&amp;usg=AOvVaw3bMQFTY7ZAUwP3nq6pZNB_" rel="noopener noreferrer" target="_blank">Internet Archive — ed. 1891</a> · <a href="https://www.google.com/url?q=https://it.wikisource.org/wiki/La_Scienza_in_cucina_e_l%2527arte_di_mangiar_bene&amp;sa=D&amp;source=editors&amp;ust=1777370356778071&amp;usg=AOvVaw09AYo6NWkPH7aGpnD_PoKR" rel="noopener noreferrer" target="_blank">Wikisource</a> — non contiene voce «bagna cauda» ma riferimenti contigui alla salsa al pover'uomo / alla salsa di acciughe.</p></li><li><p>[V] COUGNET, Alberto (a cura di). <em>L'arte cucinaria in Italia. Trattato teorico, pratico e dimostrativo della cucina italiana e delle principali straniere</em>. 2 voll. Milano: Società Editoriale Milanese, 1910–1911. ca. 5000 ricette. — Loc.: voce «bagna cauda» con accostamento Barbera/Barolo. URL: <a href="https://www.google.com/url?q=https://www.academiabarilla.it/en/biblioteca/larte-cucinaria-in-italia-culinary-art-in-italy-by-alberto-cougnet/&amp;sa=D&amp;source=editors&amp;ust=1777370356780139&amp;usg=AOvVaw1mq7yRlPaB9tKpJL_Atn0l" rel="noopener noreferrer" target="_blank">Academia Barilla</a> · <a href="https://www.google.com/url?q=https://www.parmaelasuastoria.it/it-IT/Cougnet-Larte-cucinaria.aspx&amp;sa=D&amp;source=editors&amp;ust=1777370356780488&amp;usg=AOvVaw3f4NCdyYDHHUDi7KXtahpr" rel="noopener noreferrer" target="_blank">Parmaelasuastoria — full text</a> · <a href="https://www.google.com/url?q=https://books.google.it/books/about/L_arte_cucinaria_in_Italia.html?id%3Dh-VkPgAACAAJ&amp;sa=D&amp;source=editors&amp;ust=1777370356780736&amp;usg=AOvVaw2xEPzE6OIT4YrQ4z_Ivk0s" rel="noopener noreferrer" target="_blank">Google Libri</a> · <a href="https://www.google.com/url?q=https://www.desimonecompanybooksellers.com/pages/books/767/alberto-cougnet/larte-cucinaria-in-italia-trattato-teorico-pratico-e-dimostrativo-della-cucina-italiana-e-delle&amp;sa=D&amp;source=editors&amp;ust=1777370356781086&amp;usg=AOvVaw366G-eUR_iQ5QWVjxcKixg" rel="noopener noreferrer" target="_blank">De Simone &amp; Co.</a></p></li><li><p>[V] TOURING CLUB ITALIANO. <em>Guida gastronomica d'Italia</em>. Milano: TCI, 1931. — Loc.: capitolo «Piemonte», menzione bagna cauda fra prodotti tipici. URL: <a href="https://www.google.com/url?q=https://www.taccuinigastrosofici.it/ita/news/contemporanea/spuntini-letterari/Guida-gastronomica-Italia-Touring-Club-Italia-1931.html&amp;sa=D&amp;source=editors&amp;ust=1777370356781897&amp;usg=AOvVaw1wX-foHydKGYnucLGgbVkL" rel="noopener noreferrer" target="_blank">Taccuini Gastrosofici — scheda</a> · <a href="https://www.google.com/url?q=https://www.librirarieantichi.it/prodotto/touring-club-italiano-guida-gastronomica-ditalia/&amp;sa=D&amp;source=editors&amp;ust=1777370356782165&amp;usg=AOvVaw3My0SGhjprjQ5Ayo4DhTQo" rel="noopener noreferrer" target="_blank">Libreria Antiquaria</a></p></li><li><p>[V] TOURING CLUB ITALIANO; FONDAZIONE ITALIANA BUON RICORDO. <em>Guida gastronomica d'Italia. Introduzione alla Guida gastronomica d'Italia</em> (rist. anast. 1931). Milano: Touring, [s.d.]. ISBN 978-88-365-2940-7. URL: <a href="https://www.google.com/url?q=https://www.ibs.it/guida-gastronomica-d-italia-introduzione-libro-vari/e/9788836529407&amp;sa=D&amp;source=editors&amp;ust=1777370356783274&amp;usg=AOvVaw3L5O6X8B7ONp91zMmeBqCm" rel="noopener noreferrer" target="_blank">IBS</a> · <a href="https://www.google.com/url?q=https://books.google.com/books/about/Guida_gastronomica_d_Italia_Introduzione.html?id%3DEnJ5J5WYZeUC&amp;sa=D&amp;source=editors&amp;ust=1777370356783619&amp;usg=AOvVaw1_ILTpFIAVL3Dkgz-4x_lv" rel="noopener noreferrer" target="_blank">Google Books</a></p></li><li><p>[V] BONI, Ada. <em>Il talismano della felicità</em>. Roma: Casa Editrice Colombo, [vari anni dal 1929]. — Loc.: ricetta «bagna caôda» nella sezione Piemonte (dalle edd. successive al 1950). URL: <a href="https://www.google.com/url?q=https://opac.sbn.it/&amp;sa=D&amp;source=editors&amp;ust=1777370356784673&amp;usg=AOvVaw2A1eJANIUyJXPgdt42U-Rb" rel="noopener noreferrer" target="_blank">OPAC SBN — ricerca</a> · <a href="https://www.google.com/url?q=https://archive.org/search?query%3DAda%2BBoni%2Btalismano%2Bfelicit%25C3%25A0&amp;sa=D&amp;source=editors&amp;ust=1777370356784959&amp;usg=AOvVaw3CKqmMw60uBA3YonrUujAD" rel="noopener noreferrer" target="_blank">Internet Archive — ed. d'epoca</a></p></li><li><p>[V] CARNACINA, Luigi. <em>La grande cucina</em>. A cura di Luigi Veronelli. Milano: Garzanti, 1960. 1 v. (3715 ricette; 242 tav. col., 221 b/n, 139 dis.). ISBN ed. succ. 978-88-11-42125-2. — Loc.: ricetta «bagna cauda» nella sezione Piemonte. URL: <a href="https://www.google.com/url?q=https://books.google.com/books/about/La_grande_cucina.html?id%3Dm3PrAQAACAAJ&amp;sa=D&amp;source=editors&amp;ust=1777370356786165&amp;usg=AOvVaw2K3zN8hjqfgcfIcXMzDtF-" rel="noopener noreferrer" target="_blank">Google Books</a> · <a href="https://www.google.com/url?q=https://www.unilibro.it/libro/carnacina-luigi/la-grande-cucina/9788811421252&amp;sa=D&amp;source=editors&amp;ust=1777370356786522&amp;usg=AOvVaw0wEP2i9-C_gt6Az2xQc1h2" rel="noopener noreferrer" target="_blank">Unilibro</a> · <a href="https://www.google.com/url?q=https://www.libreriadelnovecento.it/prodotto/luigi-carnacina-la-grande-cucina-garzanti-prima-ed-1960-3/&amp;sa=D&amp;source=editors&amp;ust=1777370356786952&amp;usg=AOvVaw3qa4SaOJ2RkxXKhPceTBQH" rel="noopener noreferrer" target="_blank">Libreria del Novecento</a> · <a href="https://www.google.com/url?q=https://it.wikipedia.org/wiki/Luigi_Carnacina&amp;sa=D&amp;source=editors&amp;ust=1777370356787192&amp;usg=AOvVaw1TKl-9_wmtRu-dWAClvIdF" rel="noopener noreferrer" target="_blank">Wikipedia — Carnacina</a></p></li><li><p>[V] ARPINO, Giovanni. <em>L'ombra delle colline</em>. Romanzo. Milano: Mondadori, 1964. (Premio Strega 1964). — Loc.: scene conviviali del Monferrato astigiano; ricorrente associazione bollito misto / bagna cauda nella cultura testuale dell'autore. URL: <a href="https://www.google.com/url?q=https://www.latitudeslife.com/2021/04/monferrato-langhe-e-roero-sono-stati-fonte-dispirazione-per-alcuni-dei-maggiori-scrittori-italiani-del-900/&amp;sa=D&amp;source=editors&amp;ust=1777370356788502&amp;usg=AOvVaw3XFF34oJT9_HBwSzwvRZB2" rel="noopener noreferrer" target="_blank">Latitudes — dossier</a> · <a href="https://www.google.com/url?q=http://www.parcoletterario.it/&amp;sa=D&amp;source=editors&amp;ust=1777370356788768&amp;usg=AOvVaw1uRvMIzziva_0ImPM9FLrZ" rel="noopener noreferrer" target="_blank">Parco Letterario Langhe-Monferrato-Roero</a></p></li><li><p>[V] PACÒT, Pinin (Giuseppe Pacotto). <em>Poesìe e pàgine 'd pròsa</em>. A cura di Renzo Gandolfo. Torino, 1967 (rist. Centro Studi Piemontesi, 2000). — Loc.: liriche conviviali in piemontese, repertorio della tradizione orale. URL: <a href="https://www.google.com/url?q=https://www.studipiemontesi.it/negozio/lingua-piemontese/pinin-pacot-poesie-e-pagine-d-prosa/&amp;sa=D&amp;source=editors&amp;ust=1777370356790035&amp;usg=AOvVaw04n65XSj_9MKromDosKYBB" rel="noopener noreferrer" target="_blank">Centro Studi Piemontesi — scheda</a> · <a href="https://www.google.com/url?q=https://pms.wikisource.org/wiki/Pinin_Pac%25C3%25B2t/Poes%25C3%25ACe_v%25C3%25A0rie&amp;sa=D&amp;source=editors&amp;ust=1777370356790321&amp;usg=AOvVaw1HE36l8oeucW0V7LKshkTT" rel="noopener noreferrer" target="_blank">Wikisource piemontese — Poesìe vàrie</a> · <a href="https://www.google.com/url?q=https://it.wikipedia.org/wiki/Pinin_Pac%25C3%25B2t&amp;sa=D&amp;source=editors&amp;ust=1777370356790539&amp;usg=AOvVaw1vukPVplDOo8HYx6knlquI" rel="noopener noreferrer" target="_blank">Wikipedia — Pacòt</a></p></li><li><p>[V] GOSETTI DELLA SALDA, Anna. <em>Le ricette regionali italiane</em>. Milano: Casa Editrice Solares, 1967. 1204 p., 2174 ricette. — Loc.: sez. Piemonte, ricetta «bagna cauda» definita «robustissimo piatto praticamente unico, conviviale e adatto ai mesi invernali». URL: <a href="https://www.google.com/url?q=https://www.librirarieantichi.it/prodotto/gosetti-salda-ricette-regionali/&amp;sa=D&amp;source=editors&amp;ust=1777370356791670&amp;usg=AOvVaw3gPUn_MBf4gzuR34V_x8Kk" rel="noopener noreferrer" target="_blank">Libri Rari e Antichi</a> · <a href="https://www.google.com/url?q=https://www.dissapore.com/cucina/anna-gosetti-della-salda-e-le-ricette-regionali-italiane-da-provare-almeno-una-volta-nella-vita/&amp;sa=D&amp;source=editors&amp;ust=1777370356792063&amp;usg=AOvVaw1JEJZuNqnz3-pliAr5-MaF" rel="noopener noreferrer" target="_blank">Dissapore — recensione</a></p></li><li><p>[V] SOLDATI, Mario. <em>Vino al vino</em>. Milano: Mondadori, 1969 (1ª serie). — Loc.: capitoli Piemonte. URL: <a href="https://www.google.com/url?q=https://www.bompiani.it/catalogo/vino-al-vino-9788845293931&amp;sa=D&amp;source=editors&amp;ust=1777370356792794&amp;usg=AOvVaw3S8onjmqmOf2Q1lq-J1DEm" rel="noopener noreferrer" target="_blank">Bompiani — ed. integrale</a> · <a href="https://www.google.com/url?q=https://www.doppiozero.com/vino-al-vino&amp;sa=D&amp;source=editors&amp;ust=1777370356793097&amp;usg=AOvVaw3MgOqYJg2LbXQ2aC1ggd5v" rel="noopener noreferrer" target="_blank">Doppiozero — saggio</a> · <a href="https://www.google.com/url?q=https://www.educattepeople.it/2022/10/19/vino-al-vino-un-viaggio-letterario-ed-enologico-di-mario-soldati/&amp;sa=D&amp;source=editors&amp;ust=1777370356793482&amp;usg=AOvVaw3VVDxzJ7LorvQOsIu5Qlq_" rel="noopener noreferrer" target="_blank">EDUCatt EPeople</a></p></li><li><p>[V] SOLDATI, Mario. <em>Vino al vino. Seconda serie</em>. Milano: Mondadori, 1971. URL: <a href="https://www.google.com/url?q=https://www.abebooks.it/ricerca-libro/titolo/vino/autore/soldati-mario/&amp;sa=D&amp;source=editors&amp;ust=1777370356794021&amp;usg=AOvVaw1Lg1Vf93acUnMuwGb4Wk93" rel="noopener noreferrer" target="_blank">AbeBooks</a> · <a href="https://www.google.com/url?q=https://www.mangialibri.com/mario-soldati-vino-al-vino-il-riscatto-dell%25E2%2580%2599umilt%25C3%25A0&amp;sa=D&amp;source=editors&amp;ust=1777370356794298&amp;usg=AOvVaw0gfn8A3khfiqWNaSOtZK_x" rel="noopener noreferrer" target="_blank">Mangialibri</a></p></li><li><p>[V] SOLDATI, Mario. <em>Vino al vino. Terza serie</em>. Milano: Mondadori, 1976. URL: <a href="https://www.google.com/url?q=https://www.cronacheletterarie.com/2021/06/17/vino-al-vino-di-mario-soldati/&amp;sa=D&amp;source=editors&amp;ust=1777370356795019&amp;usg=AOvVaw0BLPS965r-RxRVVj6it8Uq" rel="noopener noreferrer" target="_blank">Cronache Letterarie</a> · <a href="https://www.google.com/url?q=https://saporiabruzzo.it/consigli/letture-gustose-vino-al-vino-di-mario-soldati-21372&amp;sa=D&amp;source=editors&amp;ust=1777370356795288&amp;usg=AOvVaw28l8azjldvvCZVdXCDm1Of" rel="noopener noreferrer" target="_blank">Sapori d'Abruzzo — letture</a></p></li><li><p>[V] SOLDATI, Mario. <em>Vino al vino. Alla ricerca dei vini genuini: i tre viaggi in edizione integrale</em>. Milano: Bompiani, [2006]. 826 p. ISBN 978-88-452-9393-1. URL: <a href="https://www.google.com/url?q=https://www.bompiani.it/catalogo/vino-al-vino-9788845293931&amp;sa=D&amp;source=editors&amp;ust=1777370356796032&amp;usg=AOvVaw1TgVY_7f9nWX3CZJbHC7ao" rel="noopener noreferrer" target="_blank">Bompiani</a> · <a href="https://www.google.com/url?q=https://books.google.com/books/about/Vino_al_vino.html?id%3DgQY3PsIdBW8C&amp;sa=D&amp;source=editors&amp;ust=1777370356796276&amp;usg=AOvVaw3gxnZZtizxIjZrVzACLWe7" rel="noopener noreferrer" target="_blank">Google Books</a> · <a href="https://www.google.com/url?q=https://www.ibs.it/vino-al-vino-libro-mario-soldati/e/9788845293931&amp;sa=D&amp;source=editors&amp;ust=1777370356796521&amp;usg=AOvVaw2PZzQC0geYPoIC2kBuhsjX" rel="noopener noreferrer" target="_blank">IBS</a></p></li><li><p>[V] BRERA, Gianni; VERONELLI, Luigi. <em>La pacciada. Mangiarebere in Pianura padana</em>. Milano: Mondadori, 1973. (Saggi). — Loc.: cap. su Piemonte vignaiolo, ricorrenza della bagna cauda nella cucina contadina del Nord-Ovest. URL: <a href="https://www.google.com/url?q=https://www.mondadoristore.it/Pacciada-Mangiarebere-Gianni-Brera-Luigi-Veronelli/eai978888089166/&amp;sa=D&amp;source=editors&amp;ust=1777370356797371&amp;usg=AOvVaw245j5kt721WR3Cmx3qZZb-" rel="noopener noreferrer" target="_blank">Mondadori Store — ed. ried.</a> · <a href="https://www.google.com/url?q=https://www.goodreads.com/book/show/10416159-la-pacciada&amp;sa=D&amp;source=editors&amp;ust=1777370356797585&amp;usg=AOvVaw14fjEuzYVwfiI9gUwHby5F" rel="noopener noreferrer" target="_blank">Goodreads</a></p></li><li><p>[V] LEVI, Primo. <em>Vizio di forma</em>. Torino: Einaudi, 1971. — Loc.: ambientazioni torinesi (verifica puntuale richiesta). URL: <a href="https://www.google.com/url?q=https://www.primolevi.it/en/vizio-forma&amp;sa=D&amp;source=editors&amp;ust=1777370356798346&amp;usg=AOvVaw07BdLixpiZFmCZXFVChFpw" rel="noopener noreferrer" target="_blank">Centro Studi Primo Levi</a> · <a href="https://www.google.com/url?q=https://archive.org/details/opere0002levi&amp;sa=D&amp;source=editors&amp;ust=1777370356798658&amp;usg=AOvVaw2jUsbjuS1SQ22ydKInC2qa" rel="noopener noreferrer" target="_blank">Internet Archive — Opere</a></p></li><li><p>[V] LEVI, Primo. <em>Tutti i racconti</em>. Torino: Einaudi, [vari]. URL: <a href="https://www.google.com/url?q=https://archive.org/details/tuttiiracconti0000levi&amp;sa=D&amp;source=editors&amp;ust=1777370356799275&amp;usg=AOvVaw2LFJWoC93VI_yO_sPgag3n" rel="noopener noreferrer" target="_blank">Internet Archive</a> · <a href="https://www.google.com/url?q=https://www.primolevi.it/en/sistema-periodico&amp;sa=D&amp;source=editors&amp;ust=1777370356799589&amp;usg=AOvVaw04ERsylSDAQ5Rv65jwxMYo" rel="noopener noreferrer" target="_blank">Centro Studi Primo Levi — Sistema periodico</a></p></li><li><p>[V] CAMPORESI, Piero. <em>Il pane selvaggio</em>. Bologna: Il Mulino, 1980 (rist. Garzanti 1983; Il Saggiatore, ISBN 978-88-428-2239-4). URL: <a href="https://www.google.com/url?q=https://archive.org/details/ilpaneselvaggio&amp;sa=D&amp;source=editors&amp;ust=1777370356800192&amp;usg=AOvVaw16jl3BgphBSXF-_EZ2F_E8" rel="noopener noreferrer" target="_blank">Internet Archive</a> · <a href="https://www.google.com/url?q=https://www.ilsaggiatore.com/libro/il-pane-selvaggio/&amp;sa=D&amp;source=editors&amp;ust=1777370356800472&amp;usg=AOvVaw1MgkuLxLkc3GsXSdspkwQE" rel="noopener noreferrer" target="_blank">Il Saggiatore</a> · <a href="https://www.google.com/url?q=https://www.doppiozero.com/il-pane-selvaggio-di-piero-camporesi&amp;sa=D&amp;source=editors&amp;ust=1777370356800669&amp;usg=AOvVaw101CL0pVdIu_v-K3Ecg2TC" rel="noopener noreferrer" target="_blank">Doppiozero — Casali</a> · <a href="https://www.google.com/url?q=http://www.tecalibri.info/C/CAMPORESI-P_pane.htm&amp;sa=D&amp;source=editors&amp;ust=1777370356800820&amp;usg=AOvVaw3bobqamFK0zvQzBew0AfZn" rel="noopener noreferrer" target="_blank">TecaLibri</a></p></li><li><p>[V] CAMPORESI, Piero. <em>Le officine dei sensi. Il corpo, il cibo, i vegetali. La cosmografia interiore dell'uomo</em>. Milano: Garzanti, 1985. (Gli elefanti. Saggi). ISBN 978-88-11-67415-3. URL: <a href="https://www.google.com/url?q=https://www.ibs.it/officine-dei-sensi-corpo-cibo-libro-piero-camporesi/e/9788811674153&amp;sa=D&amp;source=editors&amp;ust=1777370356801599&amp;usg=AOvVaw0uZyH7sC60DyzoXu-x0VCP" rel="noopener noreferrer" target="_blank">IBS</a></p></li><li><p>[V] PORTINARI, Folco. <em>Il piacere della gola. Il romanzo della gastronomia</em>. Milano: Camunia, 1986. (Pensieri &amp; piaceri). — Loc.: capitoli su cucina regionale italiana, sezione Piemonte. URL: <a href="https://www.google.com/url?q=https://www.ibs.it/piacere-della-gola-libri-vintage-folco-portinari/e/5000089531998&amp;sa=D&amp;source=editors&amp;ust=1777370356802375&amp;usg=AOvVaw2jmNjQNE0q7181MRfO_SpX" rel="noopener noreferrer" target="_blank">IBS — ed. usato</a> · <a href="https://www.google.com/url?q=https://www.lafeltrinelli.it/piacere-della-gola-romanzo-della-libri-vintage-folco-portinari/e/2568812226561&amp;sa=D&amp;source=editors&amp;ust=1777370356802739&amp;usg=AOvVaw1Ln_zUbji2zTy4HwDDkO_a" rel="noopener noreferrer" target="_blank">La Feltrinelli</a> · <a href="https://www.google.com/url?q=https://www.abebooks.it/ricerca-libro/titolo/il-piacere-della-gola/&amp;sa=D&amp;source=editors&amp;ust=1777370356802998&amp;usg=AOvVaw3civuN2j49jLotdMWDI4E1" rel="noopener noreferrer" target="_blank">AbeBooks</a> · <a href="https://www.google.com/url?q=https://premio.grappanonino.it/en/winner/folco-portinari/&amp;sa=D&amp;source=editors&amp;ust=1777370356803364&amp;usg=AOvVaw1l02Oetd-PyLcQAkveBWTA" rel="noopener noreferrer" target="_blank">Premio Nonino 2025 — Portinari</a></p></li><li><p>[V] CAMPORESI, Piero. <em>Il brodo indiano. Edonismo ed esotismo nel Settecento</em>. Milano: Garzanti, 1990. ISBN 978-88-11-67433-7. URL: <a href="https://www.google.com/url?q=https://www.ibs.it/brodo-indiano-ebook-piero-camporesi/e/9788865765890&amp;sa=D&amp;source=editors&amp;ust=1777370356804278&amp;usg=AOvVaw0bZ-E2Auw_prtnXOJgoEUD" rel="noopener noreferrer" target="_blank">IBS — ebook</a> · <a href="https://www.google.com/url?q=https://www.ibs.it/brodo-indiano-libri-vintage-piero-camporesi/e/2560038174541&amp;sa=D&amp;source=editors&amp;ust=1777370356804495&amp;usg=AOvVaw3PCzoFXyUwBxocE5WBOzP5" rel="noopener noreferrer" target="_blank">IBS — ed. usato</a> · <a href="https://www.google.com/url?q=https://www.ilsaggiatore.com/libro/il-brodo-indiano/&amp;sa=D&amp;source=editors&amp;ust=1777370356804665&amp;usg=AOvVaw2nsksgvsrYsZW-li5E601s" rel="noopener noreferrer" target="_blank">Il Saggiatore — ried.</a></p></li><li><p>[V] GORIA, Giovanni. <em>La cucina del Piemonte. Il mangiare di ieri e di oggi del Piemonte collinare e vignaiolo</em>. Padova: Franco Muzzio Editore, 1990. — Loc.: cap. interamente dedicato; tesi sull'origine medievale (vignaioli e svinatura). URL: <a href="https://www.google.com/url?q=https://www.saporidelpiemonte.net/blog/gli-interventi-e-le-ricette-di-giovanni-goria/il-proclama-della-bagna-caoda/&amp;sa=D&amp;source=editors&amp;ust=1777370356805700&amp;usg=AOvVaw1mzYQGz89pQwPqWQFjPkmD" rel="noopener noreferrer" target="_blank">Sapori del Piemonte — proclama Goria</a> · <a href="https://www.google.com/url?q=https://archivio.astigiani.it/le-ricette-vissute-e-raccontate-da-giovanni-goria/&amp;sa=D&amp;source=editors&amp;ust=1777370356805985&amp;usg=AOvVaw08ZbaBrKyhGrdptxg6SGpk" rel="noopener noreferrer" target="_blank">Astigiani — archivio</a> · <a href="https://www.google.com/url?q=https://deliciouslilli.wordpress.com/2008/11/23/la-bagna-caoda-di-giovanni-goria-2/&amp;sa=D&amp;source=editors&amp;ust=1777370356806259&amp;usg=AOvVaw2dYGzozbZFk23HDW1Ur5-k" rel="noopener noreferrer" target="_blank">Delicious Lilli — riproduzione</a></p></li><li><p>[V] DOGLIO, Sandro. <em>L'inventore della bagna caoda. Piccola gastronomia del Piemonte dall'età della pietra ai giorni nostri</em>. Montiglio: Daumerie, 1995. ISBN 978-88-86300-06-3. — Monografia di riferimento. URL: <a href="https://www.google.com/url?q=http://www.librinlinea.it/titolo/l-inventore-della-bagna-caoda-piccola/LO10405562&amp;sa=D&amp;source=editors&amp;ust=1777370356807251&amp;usg=AOvVaw0WqwyUsWCHmP86nu9pSWAk" rel="noopener noreferrer" target="_blank">Librinlinea — Regione Piemonte</a> · <a href="https://www.google.com/url?q=https://www.libreriauniversitaria.it/inventore-bagna-caoda-doglio-sandro/libro/9788886300063&amp;sa=D&amp;source=editors&amp;ust=1777370356807542&amp;usg=AOvVaw0AMpYHgawMEpi2S1frR-PK" rel="noopener noreferrer" target="_blank">Libreria Universitaria</a></p></li><li><p>[V] BRERA, G.; VERONELLI, L. <em>La pacciada. Mangiarebere in Pianura padana</em>. Milano: Baldini &amp; Castoldi, 1996 (ried.). URL: <a href="https://www.google.com/url?q=https://www.ibs.it/pacciada-mangiarebere-in-pianura-padana-libro-gianni-brera-luigi-veronelli/e/9788880891666&amp;sa=D&amp;source=editors&amp;ust=1777370356808139&amp;usg=AOvVaw1daVrW4HfZN2KyuoMjpOCm" rel="noopener noreferrer" target="_blank">IBS</a> · <a href="https://www.google.com/url?q=https://www.libraccio.it/libro/9788880891666/gianni-brera-luigi-veronelli/pacciada-mangiarebere-in-pianura-padana.html&amp;sa=D&amp;source=editors&amp;ust=1777370356808391&amp;usg=AOvVaw3MgeotE07ogQCAgnCgoIAS" rel="noopener noreferrer" target="_blank">Libraccio</a></p></li><li><p>[V] BRERA, G.; VERONELLI, L. <em>La pacciada</em> (ried.). Milano: Dalai Editore, 1997. (Storie della storia d'Italia). ISBN 978-88-8089-166-6. URL: <a href="https://www.google.com/url?q=https://www.libreriauniversitaria.it/pacciada-mangiarebere-pianura-padana-brera/libro/9788880891666&amp;sa=D&amp;source=editors&amp;ust=1777370356809128&amp;usg=AOvVaw1tFbkmXZA-IZMSD2Y4KyxH" rel="noopener noreferrer" target="_blank">Libreria Universitaria</a> · <a href="https://www.google.com/url?q=https://www.amazon.it/pacciada-Mangiarebere-Pianura-Padana/dp/8880891669&amp;sa=D&amp;source=editors&amp;ust=1777370356809332&amp;usg=AOvVaw3wPCQtNXII_TeGblgG3xYm" rel="noopener noreferrer" target="_blank">Amazon</a></p></li><li><p>[V] BRERA, G.; VERONELLI, L. <em>La pacciada</em> (ried.). [Milano]: Book Time. ISBN 978-88-6218-247-8. URL: <a href="https://www.google.com/url?q=https://www.ibs.it/pacciada-mangiarebere-in-pianura-padana-libro-gianni-brera-luigi-veronelli/e/9788862182478&amp;sa=D&amp;source=editors&amp;ust=1777370356809907&amp;usg=AOvVaw1j38gNKlSDgV_1NpUmu22e" rel="noopener noreferrer" target="_blank">IBS</a></p></li><li><p>[V] MAGRIS, Claudio. <em>Microcosmi</em>. Milano: Garzanti, 1997. (Premio Strega 1997). — Loc.: paragrafi sui confini culturali del Nord Italia, riferimenti alle cucine regionali. URL: <a href="https://www.google.com/url?q=https://www.garzanti.it/libri/claudio-magris-microcosmi-9788811683704/&amp;sa=D&amp;source=editors&amp;ust=1777370356810633&amp;usg=AOvVaw2UGRxyXZbS3PaftHlOmdfP" rel="noopener noreferrer" target="_blank">Garzanti</a> · <a href="https://www.google.com/url?q=https://archive.org/details/microcosmi0000magr&amp;sa=D&amp;source=editors&amp;ust=1777370356810800&amp;usg=AOvVaw0Q5sQ_0--z5L4eoUk5NHgQ" rel="noopener noreferrer" target="_blank">Internet Archive</a> · <a href="https://www.google.com/url?q=https://books.google.com/books/about/Microcosmi.html?id%3DxrmrBAAAQBAJ&amp;sa=D&amp;source=editors&amp;ust=1777370356810989&amp;usg=AOvVaw31UgceozzIHf3QEnh91qL8" rel="noopener noreferrer" target="_blank">Google Books</a> · <a href="https://www.google.com/url?q=https://www.ibs.it/microcosmi-libro-claudio-magris/e/9788811683704&amp;sa=D&amp;source=editors&amp;ust=1777370356811209&amp;usg=AOvVaw2eMt1k-BBIfLzsd8DtggjK" rel="noopener noreferrer" target="_blank">IBS</a></p></li><li><p>[V] CAPATTI, Alberto; MONTANARI, Massimo. <em>La cucina italiana. Storia di una cultura</em>. Roma-Bari: Laterza, 2000. 422 p. ISBN 978-88-420-7675-9. — Loc.: passim, in particolare sez. su salse e cucine regionali. URL: <a href="https://www.google.com/url?q=https://www.laterza.it/scheda-libro/?isbn%3D9788842076759&amp;sa=D&amp;source=editors&amp;ust=1777370356812047&amp;usg=AOvVaw3yz5qArynlawX2f1Yw5KNZ" rel="noopener noreferrer" target="_blank">Laterza — scheda editore</a> · <a href="https://www.google.com/url?q=https://books.google.com/books/about/La_cucina_italiana.html?id%3DkwmODAAAQBAJ&amp;sa=D&amp;source=editors&amp;ust=1777370356812353&amp;usg=AOvVaw2PyTpu9996MmaYQaN580QX" rel="noopener noreferrer" target="_blank">Google Books</a> · <a href="https://www.google.com/url?q=https://www.persee.fr/doc/ahess_0395-2649_2002_num_57_5_280111_t1_1379_0000_1&amp;sa=D&amp;source=editors&amp;ust=1777370356812585&amp;usg=AOvVaw3tCltiiUfXOZGnymc7u_Ao" rel="noopener noreferrer" target="_blank">Persée — recensione </a><a href="https://www.google.com/url?q=https://www.persee.fr/doc/ahess_0395-2649_2002_num_57_5_280111_t1_1379_0000_1&amp;sa=D&amp;source=editors&amp;ust=1777370356812768&amp;usg=AOvVaw1HBx7aD_qd_XEwF9omuX_D" rel="noopener noreferrer" target="_blank"><em>Annales</em></a> · <a href="https://www.google.com/url?q=https://www.cambridge.org/core/journals/annales-histoire-sciences-sociales/article/abs/alberto-capatti-et-massimo-montanari-la-cucina-italiana-storia-di-una-cultura-romebari-laterza-2000-422-p/861F96A369BEBC46E683682796B6C19D&amp;sa=D&amp;source=editors&amp;ust=1777370356813242&amp;usg=AOvVaw0yeIvWKG-Tsa8Dy-Ohz6II" rel="noopener noreferrer" target="_blank">Cambridge Core — recensione</a> · <a href="https://www.google.com/url?q=https://www.ibs.it/cucina-italiana-storia-di-cultura-libro-alberto-capatti-massimo-montanari/e/9788842076759&amp;sa=D&amp;source=editors&amp;ust=1777370356813498&amp;usg=AOvVaw3JBlvwXnMsU0RQy63Y_Rcs" rel="noopener noreferrer" target="_blank">IBS</a></p></li><li><p>[V] BRERO, Camillo. <em>Nuovo vocabolario italiano-piemontese, piemontese-italiano. Con grammatica e sintassi</em>. Torino: Il Punto - PiemonteinBancarella. ISBN 978-88-88552-47-7. — Voce «bagna caoda». URL: <a href="https://www.google.com/url?q=https://www.ibs.it/nuovo-vocabolario-italiano-piemontese-piemontese-libro-camillo-brero/e/9788888552477&amp;sa=D&amp;source=editors&amp;ust=1777370356814542&amp;usg=AOvVaw3SZpKkC4U-vhmLak-TKbtl" rel="noopener noreferrer" target="_blank">IBS</a> · <a href="https://www.google.com/url?q=https://www.libreriauniversitaria.it/nuovo-vocabolario-italiano-piemontese-piemontese/libro/9788888552477&amp;sa=D&amp;source=editors&amp;ust=1777370356815030&amp;usg=AOvVaw0QnM3n_7z2Wzte0Q_OR0Ct" rel="noopener noreferrer" target="_blank">Libreria Universitaria</a> · <a href="https://www.google.com/url?q=https://www.editriceilpunto.it/team/camillo-brero/&amp;sa=D&amp;source=editors&amp;ust=1777370356815331&amp;usg=AOvVaw2jqtwr0pepWQl3C6tQ08Jr" rel="noopener noreferrer" target="_blank">Editrice Il Punto</a></p></li><li><p>[V] BRERO, C.; BONAVERO, Michele. <em>Vocabolario piemontese sacociàbil. Italiano-piemontese, piemontese-italiano</em>. Torino: Il Punto. ISBN 978-88-680-4009-3. URL: <a href="https://www.google.com/url?q=https://www.libreriauniversitaria.it/vocabolario-piemontese-sacociabil-italiano-piemontese/libro/9788868040093&amp;sa=D&amp;source=editors&amp;ust=1777370356816432&amp;usg=AOvVaw1JGQzQK7DBJKdE0yeCSXv3" rel="noopener noreferrer" target="_blank">Libreria Universitaria</a> · <a href="https://www.google.com/url?q=https://www.amazon.it/Vocabolario-piemontese-sacoci%25C3%25A0bil-Italiano-piemontese-piemontese-italiano/dp/8868040093&amp;sa=D&amp;source=editors&amp;ust=1777370356816826&amp;usg=AOvVaw2LM9zlgTNl-Jt7_oT9Xs0M" rel="noopener noreferrer" target="_blank">Amazon</a></p></li><li><p>[V] ALBERINI, Massimo. <em>Storia della cucina italiana</em>. Casale Monferrato: Piemme, [2002]. ISBN 978-88-384-1842-X. URL: <a href="https://www.google.com/url?q=https://www.amazon.it/Storia-cucina-italiana-Massimo-Alberini/dp/883841842X&amp;sa=D&amp;source=editors&amp;ust=1777370356817753&amp;usg=AOvVaw1i93wnFQYylB1rKoPKY_F4" rel="noopener noreferrer" target="_blank">Amazon</a> · <a href="https://www.google.com/url?q=https://www.accademiaitalianadellacucina.it/sites/default/files/allegati/CdT_265.pdf&amp;sa=D&amp;source=editors&amp;ust=1777370356818200&amp;usg=AOvVaw12FsveKdWh6yGwTok23mPI" rel="noopener noreferrer" target="_blank">Accademia Italiana della Cucina — CdT 265 PDF</a></p></li><li><p>[V] ALBERINI, Massimo. <em>Storia del pranzo all'italiana. Dal triclinio allo snack</em>. [Vari]. URL: <a href="https://www.google.com/url?q=https://www.amazon.it/Storia-pranzo-allitaliana-triclinio-snack/dp/B00FXW4VEQ&amp;sa=D&amp;source=editors&amp;ust=1777370356819067&amp;usg=AOvVaw19roC3gLqi1_6ML12d6e-E" rel="noopener noreferrer" target="_blank">Amazon — record</a></p></li><li><p>[V] PETRINI, Carlo. <em>Buono, pulito e giusto. Principî di una nuova gastronomia</em>. Torino: Einaudi, 2005. (Stile libero extra). ISBN 978-88-06-17775-9. — Loc.: bagna cauda fra i piatti identitari del Piemonte popolare. URL: <a href="https://www.google.com/url?q=https://www.slowfoodeditore.it/it/tascabili-slow-food/buono-pulito-e-giusto-978884995551-821.html&amp;sa=D&amp;source=editors&amp;ust=1777370356820367&amp;usg=AOvVaw0yfCTdYy00RovQhySJI4_f" rel="noopener noreferrer" target="_blank">Slow Food Editore — ried.</a> · <a href="https://www.google.com/url?q=https://www.amazon.it/Buono-pulito-giusto-Carlo-Petrini/dp/8809820193&amp;sa=D&amp;source=editors&amp;ust=1777370356820667&amp;usg=AOvVaw359-RqpSZDBTIwYZOWxULL" rel="noopener noreferrer" target="_blank">Amazon</a> · <a href="https://www.google.com/url?q=https://www.docsity.com/it/docs/carlo-petrini-buono-pulito-e-giusto-principi-di-una-nuova-gastronomia/5567625/&amp;sa=D&amp;source=editors&amp;ust=1777370356821023&amp;usg=AOvVaw2X4KWlSL-9r3H2ahMArxp_" rel="noopener noreferrer" target="_blank">Docsity</a></p></li><li><p>[V] <em>Civiltà della Tavola</em> (mensile dell'Accademia Italiana della Cucina). N. 224 (s.d.). — Articoli su cucine regionali del Piemonte. URL: <a href="https://www.google.com/url?q=https://it.scribd.com/doc/133617597/Accademia-Cucina-Italiana-Nr-224&amp;sa=D&amp;source=editors&amp;ust=1777370356821908&amp;usg=AOvVaw3VSLPZCWvC4licZqaAjhfo" rel="noopener noreferrer" target="_blank">Scribd</a></p></li><li><p>[V] <em>Civiltà della Tavola</em>. N. 258. URL: <a href="https://www.google.com/url?q=https://www.accademiaitalianadellacucina.it/sites/default/files/allegati/CdT_258.pdf&amp;sa=D&amp;source=editors&amp;ust=1777370356822503&amp;usg=AOvVaw3XVxURS8YsgXBhmgNV3oRa" rel="noopener noreferrer" target="_blank">AIC PDF</a></p></li><li><p>[V] <em>Civiltà della Tavola</em>. N. 265. URL: <a href="https://www.google.com/url?q=https://www.accademiaitalianadellacucina.it/sites/default/files/allegati/CdT_265.pdf&amp;sa=D&amp;source=editors&amp;ust=1777370356823263&amp;usg=AOvVaw0Hs6yYNudShYXe25xSl-mU" rel="noopener noreferrer" target="_blank">AIC PDF</a></p></li><li><p>[V] <em>Civiltà della Tavola</em>. N. 328 (luglio 2020). — Articoli su tradizioni piemontesi. URL: <a href="https://www.google.com/url?q=https://www.accademiaitalianadellacucina.it/sites/default/files/allegati/CDT_328_lug_2020.pdf&amp;sa=D&amp;source=editors&amp;ust=1777370356824142&amp;usg=AOvVaw0G-6JCXGnua4YiyGfa5p9W" rel="noopener noreferrer" target="_blank">AIC PDF</a></p></li><li><p>[V] ECO, Umberto. <em>Il cimitero di Praga</em>. Milano: Bompiani, 2010. — Loc.: la bagna cauda compare in scena (segnalato da fonte secondaria). URL: <a href="https://www.google.com/url?q=https://www.atlasuldeliciilor.ro/umberto-eco-si-bagna-cauda/&amp;sa=D&amp;source=editors&amp;ust=1777370356825173&amp;usg=AOvVaw3IBx2xdWFz_b9YghRO9oUA" rel="noopener noreferrer" target="_blank">Atlasul Deliciilor — Eco şi bagna cauda</a> · <a href="https://www.google.com/url?q=https://paperandsalt.substack.com/p/umberto-eco-bagna-cauda&amp;sa=D&amp;source=editors&amp;ust=1777370356825551&amp;usg=AOvVaw08r9TlrzR8P8D-jV0DMDlj" rel="noopener noreferrer" target="_blank">Paper &amp; Salt — Eco: Bagna Cauda</a></p></li><li><p>[V] BRUNI, Luigino. <em>La bagna cauda. L'origine e la storia. Ricette famose di ieri e di oggi</em>. Alessandria: Edizioni dell'Orso, 2011. ISBN 978-88-6274-310-5. — Monografia di sintesi. URL: <a href="https://www.google.com/url?q=https://www.ediorso.it/catalog/product/view/id/5528/s/la-bagna-cauda/category/10&amp;sa=D&amp;source=editors&amp;ust=1777370356826732&amp;usg=AOvVaw1op8UNoJbXTtYLOhOkbUay" rel="noopener noreferrer" target="_blank">Edizioni dell'Orso — scheda</a> · <a href="https://www.google.com/url?q=https://www.libreriauniversitaria.it/bagna-cauda-origine-storia-ricette/libro/9788862743105&amp;sa=D&amp;source=editors&amp;ust=1777370356827174&amp;usg=AOvVaw2eoTBHGhpIKhb62Eisz3eJ" rel="noopener noreferrer" target="_blank">Libreria Universitaria</a> · <a href="https://www.google.com/url?q=https://www.lafeltrinelli.it/bagna-cauda-origine-storia-ricette-libro-luigino-bruni/e/9788862743105&amp;sa=D&amp;source=editors&amp;ust=1777370356827538&amp;usg=AOvVaw2IlrheQsHPeDDeSa_QcSyU" rel="noopener noreferrer" target="_blank">La Feltrinelli</a> · <a href="https://www.google.com/url?q=https://www.amazon.es/cauda-Lorigine-storia-ricette-famose/dp/8862743106&amp;sa=D&amp;source=editors&amp;ust=1777370356827820&amp;usg=AOvVaw1GKgPNkADNQs2TEUXrfF2w" rel="noopener noreferrer" target="_blank">Amazon ES</a></p></li><li><p>[V] AA.VV. «Bagna càuda». In: <em>Vocabolario Treccani on-line</em>. Roma: Istituto della Enciclopedia Italiana. URL: <a href="https://www.google.com/url?q=https://www.treccani.it/vocabolario/bagna-cauda/&amp;sa=D&amp;source=editors&amp;ust=1777370356828343&amp;usg=AOvVaw3uGvyl3n8l30eY3y63fJ0E" rel="noopener noreferrer" target="_blank">Treccani</a></p></li><li><p>[V] AA.VV. «Bagna». In: <em>Vocabolario Treccani on-line</em>. URL: <a href="https://www.google.com/url?q=https://www.treccani.it/vocabolario/bagna/&amp;sa=D&amp;source=editors&amp;ust=1777370356828845&amp;usg=AOvVaw1_ajO4glruLyVqkhQovSyb" rel="noopener noreferrer" target="_blank">Treccani — voce bagna</a></p></li><li><p>[V] AA.VV. «[Risposta sull'errore alla voce bagna càuda]». In: <em>Treccani — Lingua italiana, Domande e risposte di grammatica</em>. URL: <a href="https://www.google.com/url?q=https://www.treccani.it/magazine/lingua_italiana/domande_e_risposte/grammatica/grammatica_1092.html&amp;sa=D&amp;source=editors&amp;ust=1777370356829484&amp;usg=AOvVaw1X5XaFKCRLuxuSEiprsFFB" rel="noopener noreferrer" target="_blank">Treccani — magazine</a> · <a href="https://www.google.com/url?q=https://www.treccani.it/enciclopedia/mi-permetto-di-segnalarvi-un-errore-presente-nel-vs-vocabolario-on-line-alla-voce-bagna-cauda-gli-errori-sono-due-primo-er_(Piazza-Enciclopedia-Magazine)/&amp;sa=D&amp;source=editors&amp;ust=1777370356829962&amp;usg=AOvVaw1uNuYa3PQQu8JCG2cIvu5u" rel="noopener noreferrer" target="_blank">Treccani — versione enciclopedica</a></p></li><li><p>[V] AA.VV. «Bagna càuda». In: <em>Wikipedia — The Free Encyclopedia</em>. URL: <a href="https://www.google.com/url?q=https://en.wikipedia.org/wiki/Bagna_c%25C3%25A0uda&amp;sa=D&amp;source=editors&amp;ust=1777370356830551&amp;usg=AOvVaw3gIR8u_zwJR1hgONqYvFGD" rel="noopener noreferrer" target="_blank">Wikipedia EN</a></p></li><li><p>[V] AA.VV. «Bagna càuda». In: <em>Wikipedia (</em><a href="http://it.wikipedia.org" rel="noopener noreferrer" target="_blank"><em>it.wikipedia.org</em></a><em>)</em>. URL: <a href="https://www.google.com/url?q=https://en.wikipedia.org/wiki/Bagna_c%25C3%25A0uda&amp;sa=D&amp;source=editors&amp;ust=1777370356831123&amp;usg=AOvVaw0SY-cnbtvWXIMjj_wH6wrP" rel="noopener noreferrer" target="_blank">Wikipedia IT — link da en.wikipedia</a> (interwiki)</p></li><li><p>[V] AA.VV. «Libro di cucina/Ricette/Bagna càuda». In: <em>Wikibooks</em>. URL: <a href="https://www.google.com/url?q=https://it.wikibooks.org/wiki/Libro_di_cucina/Ricette/Bagna_c%25C3%25A0uda&amp;sa=D&amp;source=editors&amp;ust=1777370356831696&amp;usg=AOvVaw3P3ZVZ9wNT0D26P-b2ZgwY" rel="noopener noreferrer" target="_blank">Wikibooks</a></p></li><li><p>[V] [Redazione]. «Se non avete appuntamenti di lavoro… godetevi una bella bagna caoda». In: <em>Slow Food — Buono, Pulito e Giusto</em>. URL: <a href="http://slowfood.it" rel="noopener noreferrer" target="_blank">slowfood.it</a></p></li><li><p>[V] [Redazione]. «Bagna Cauda Day: da Asti a Tonga è tempo del rito». In: <em>Slow Food — Buono, Pulito e Giusto</em>. URL: <a href="http://slowfood.it" rel="noopener noreferrer" target="_blank">slowfood.it</a></p></li><li><p>[V] [Redazione]. «Conto alla rovescia per il Bagna Cauda Day». In: <em>Slow Food — Buono, Pulito e Giusto</em>. URL: <a href="http://slowfood.it" rel="noopener noreferrer" target="_blank">slowfood.it</a></p></li><li><p>[V] [Redazione]. «Bagna Cauda Day: solo per veri appassionati!». In: <em>Slow Food — Buono, Pulito e Giusto</em>. URL: <a href="http://slowfood.it" rel="noopener noreferrer" target="_blank">slowfood.it</a></p></li><li><p>[V] [Redazione]. «Slow Week: bagna cauda, lezioni di cucina e tante ricette vegetali». In: <em>Slow Food — Buono, Pulito e Giusto</em>. URL: <a href="http://slowfood.it" rel="noopener noreferrer" target="_blank">slowfood.it</a></p></li><li><p>[V] AA.VV. <em>Sede di Astigiani e info del Bagna Cauda Day</em> [opuscolo programmatico]. Asti: Comune di Asti, 2018. PDF. URL: <a href="https://www.google.com/url?q=https://www.comune.asti.it/moduli/downloadFile.php?file%3Doggetto_eventi/183261011480O__Oprogramma%2Bbagna%2Bcauda%2Bday%2B2018.pdf&amp;sa=D&amp;source=editors&amp;ust=1777370356836326&amp;usg=AOvVaw0Da6M8nmFsKjWvN8zCo3WE" rel="noopener noreferrer" target="_blank">Comune di Asti — PDF</a></p></li><li><p>[V] AA.VV. <em>Libretto di circolazione del Bagna Cauda Day</em>. Asti: Astigiani, 2015 (e succ.). URL: <a href="https://www.google.com/url?q=https://www.bagnacaudaday.it/documenti/libretto_circolazione_2015.pdf&amp;sa=D&amp;source=editors&amp;ust=1777370356837056&amp;usg=AOvVaw1UAyzc3IWkLzWoUlYP93jT" rel="noopener noreferrer" target="_blank">Bagna Cauda Day — PDF</a></p></li><li><p>[V] <em>Bagna Cauda Day</em> [sito ufficiale]. Asti: Associazione Astigiani. URL: <a href="http://bagnacaudaday.it" rel="noopener noreferrer" target="_blank">bagnacaudaday.it</a></p></li><li><p>[V] <em>La ricetta della bagna cauda</em> [pagina ufficiale]. In: <em>Bagna Cauda Day</em>. URL: <a href="http://bagnacaudaday.it" rel="noopener noreferrer" target="_blank">bagnacaudaday.it</a></p></li><li><p>[V] <em>Astigiani — rivista di storia e storie</em> (dir. Sergio Miravalle). Asti: Associazione Astigiani, 2012– (trimestrale). ISSN [verif. richiesta]. URL: <a href="http://astigiani.it" rel="noopener noreferrer" target="_blank">astigiani.it</a></p></li><li><p>[V] [Redazione]. «"Usiamo la testa", il nuovo bavagliolone per il Bagna Cauda Day presentato con il numero 52 di Astigiani». In: <em>La Voce di Asti</em>, 26 settembre 2025. URL: <a href="http://lavocediasti.it" rel="noopener noreferrer" target="_blank">lavocediasti.it</a></p></li><li><p>[V] [Redazione]. «Bagna cauda e polenta si faceva e si può fare». In: <em>Astigiani — Archivio</em>. URL: <a href="http://archivio.astigiani.it" rel="noopener noreferrer" target="_blank">archivio.astigiani.it</a></p></li><li><p>[V] [Redazione]. «Bagna Cauda Day 2023 diventa "Bagna Pax"». In: <em>Associazione Astigiani</em>, 19 ottobre 2023. URL: <a href="http://astigiani.it" rel="noopener noreferrer" target="_blank">astigiani.it</a></p></li><li><p>[V] PASTORINO, [Iacolare? cfr. Iacolare, Salvatore]. «Quali sono le origini della Bagna cauda?». In: <em>Rivista Savej</em>, 2023. URL: <a href="http://rivistasavej.it" rel="noopener noreferrer" target="_blank">rivistasavej.it</a></p></li><li><p>[V] [Redazione]. «A tutto aglio | Si fa presto a dire bagna cauda». In: <em>Linkiesta</em>, gennaio 2022. URL: <a href="http://linkiesta.it" rel="noopener noreferrer" target="_blank">linkiesta.it</a></p></li><li><p>[V] [Redazione]. «La storia della Bagna Cauda è la storia della sofferenza piemontese». In: <em>Vice Italia</em>, 2018 ca. URL: <a href="http://vice.com" rel="noopener noreferrer" target="_blank">vice.com</a></p></li><li><p>[V] [Redazione]. «Bagna cauda QR code» [reportage Expo Milano 2015]. In: <em>Identità Golose</em>. URL: <a href="http://identitagolose.it" rel="noopener noreferrer" target="_blank">identitagolose.it</a></p></li><li><p>[V] [Redazione]. «In libreria — Vi presentiamo <em>Dalla bagna càuda al sushi</em>, il libro edito da Graphot». In: <em>Identità Golose</em>. URL: <a href="http://identitagolose.it" rel="noopener noreferrer" target="_blank">identitagolose.it</a></p></li><li><p>[V] SCAPARONE, Sarah. <em>Dalla bagna càuda al sushi. Storia della Torino gastronomica</em>. Torino: Graphot, [2020]. URL: <a href="https://www.google.com/url?q=https://sarahscaparone.com/dalla-bagna-cauda-al-sushi-storia-della-torino-gastronomica/&amp;sa=D&amp;source=editors&amp;ust=1777370356845827&amp;usg=AOvVaw1yz2v3ZF4S-LUZMZ-58izc" rel="noopener noreferrer" target="_blank">Sarah Scaparone — sito autrice</a> · <a href="https://www.google.com/url?q=https://www.identitagolose.it/sito/it/118/33514/in-libreria/storia-della-torino-golosa-15-piatti-iconici-della-cucina-sabauda-contemporanea.html&amp;sa=D&amp;source=editors&amp;ust=1777370356846221&amp;usg=AOvVaw307OW-N7tII2oowOnQd01p" rel="noopener noreferrer" target="_blank">Identità Golose</a></p></li><li><p>[V] IACOLARE, Salvatore (a cura di). <em>Il cuoco piemontese perfezionato a Parigi. Testo critico secondo l'edizione torinese del 1775 e glossario</em>. Firenze: Leo S. Olschki, [2022]. ISBN 978-88-222-6962-1. — Edizione critica con glossario gastronomico-storico. URL: <a href="https://www.google.com/url?q=https://en.olschki.it/libro/9788822269621&amp;sa=D&amp;source=editors&amp;ust=1777370356847186&amp;usg=AOvVaw3h1_lsArUVqBy1pAUQuo46" rel="noopener noreferrer" target="_blank">Olschki</a> · <a href="https://www.google.com/url?q=https://www.iris.unina.it/handle/11588/985579&amp;sa=D&amp;source=editors&amp;ust=1777370356847433&amp;usg=AOvVaw1OyOjpQx-MlD8padLPMx2s" rel="noopener noreferrer" target="_blank">Iris UniNa — scheda</a></p></li><li><p>[V] AVELLINO, [diversi autori]. <em>Il Touring Club Italiano e la Guida Gastronomica d'Italia. Creazione, circolazione del modello e tracce della sua evoluzione (1931–1984)</em>. [Articolo accademico]. URL: <a href="https://www.google.com/url?q=https://www.researchgate.net/publication/285158122_Il_Touring_Club_Italiano_e_la_Guida_Gastronomica_d'Italia_Creazione_circolazione_del_modello_e_tracce_della_sua_evoluzione_1931-1984&amp;sa=D&amp;source=editors&amp;ust=1777370356848454&amp;usg=AOvVaw13kbqOtZl8v9B48uGjB9Vc" rel="noopener noreferrer" target="_blank">ResearchGate</a> · <a href="http://Academia.edu" rel="noopener noreferrer" target="_blank">Academia.edu</a></p></li><li><p>[V] [Redazione]. «Una bagna cauda ci salverà». In: <em>Cantine di Nizza</em>. URL: <a href="http://nizza.it" rel="noopener noreferrer" target="_blank">nizza.it</a></p></li><li><p>[V] CITTÀ DI NIZZA MONFERRATO. «Nizza è Bagna Cauda» [pagina ufficiale]. URL: <a href="http://comune.nizza.at.it" rel="noopener noreferrer" target="_blank">comune.nizza.at.it</a></p></li><li><p>[V] [Redazione]. «Itinerario — Nizza, tra Barbera e Bagna Cauda». In: <em>Visit Langhe-Monferrato-Roero</em>. URL: <a href="http://visitlmr.it" rel="noopener noreferrer" target="_blank">visitlmr.it</a></p></li><li><p>[V] AA.VV. «Bagna Càuda, ròba da piemuntèis». In: <em>Amis ad Lisòndria — Tra Tani e Burmia</em>. URL: <a href="http://alessandrialisondria.altervista.org" rel="noopener noreferrer" target="_blank">alessandrialisondria.altervista.org</a></p></li><li><p>[V] [Redazione]. «"Bagna Cauda: Un Viaggio tra Storia, Tradizione e Gusto Autentico della Cucina Piemontese"». In: <em>Alessandria Today</em>, 16 novembre 2023. URL: <a href="http://alessandria.today" rel="noopener noreferrer" target="_blank">alessandria.today</a></p></li><li><p>[V] [Redazione]. «La bagna càuda, tradizione del Basso Piemonte». In: <em>Alessandria Today</em>, 30 novembre 2021. URL: <a href="http://alessandria.today" rel="noopener noreferrer" target="_blank">alessandria.today</a></p></li><li><p>[V] [Redazione]. «Sua Maestà la bagna cauda — ricetta e curiosità». In: <em>La Gazzetta Torinese</em>. URL: <a href="http://lagazzettatorinese.it" rel="noopener noreferrer" target="_blank">lagazzettatorinese.it</a></p></li><li><p>[V] [Redazione]. «Sua maesta bagna cauda: origini e curiosità». In: <em>Saporie — itinerari Piemonte</em>. URL: <a href="http://saporie.com" rel="noopener noreferrer" target="_blank">saporie.com</a></p></li><li><p>[V] [Redazione]. «Sua maestà la bagna cauda». In: <em>Il Torinese</em>, 2 febbraio 2026. URL: <a href="http://iltorinese.it" rel="noopener noreferrer" target="_blank">iltorinese.it</a></p></li><li><p>[V] [Redazione]. «Sua Maestà la Bagna cauda — storia e curiosità di una passione tutta piemontese». In: <em>Mongetto</em>. URL: <a href="http://mongetto.eu" rel="noopener noreferrer" target="_blank">mongetto.eu</a></p></li><li><p>[V] [Redazione]. «Sua Maestà la bagna cauda». In: <em>Gastronomia Mediterranea — GIEMME</em>. URL: <a href="http://gastronomiamediterranea.com" rel="noopener noreferrer" target="_blank">gastronomiamediterranea.com</a></p></li><li><p>[V] [Redazione]. «La Bagna Cauda: storia e ricetta di un piatto conviviale». In: <em>Destinazione Monferrato</em>. URL: <a href="http://destinazionemonferrato.it" rel="noopener noreferrer" target="_blank">destinazionemonferrato.it</a></p></li><li><p>[V] [Redazione]. «La Bagna Cauda: storia, ricetta e curiosità del piatto tipico del Monferrato». In: <em>Percorsi Monferrato</em>. URL: <a href="http://percorsimonferrato.com" rel="noopener noreferrer" target="_blank">percorsimonferrato.com</a></p></li><li><p>[V] [Redazione]. «Bagna cauda: origini e tradizione». In: <em>Foodzilla</em>, 5 marzo 2026. URL: <a href="http://thefoodzilla.it" rel="noopener noreferrer" target="_blank">thefoodzilla.it</a></p></li><li><p>[V] [Redazione]. «Comfort food: la Bagna Cauda e i vini da berci su». In: <em>Intravino</em>. URL: <a href="http://intravino.com" rel="noopener noreferrer" target="_blank">intravino.com</a></p></li><li><p>[V] [Redazione]. «Bagna Cauda Day 2025: where to eat bagna cauda in Monferrato». In: <em>Gran Monferrato</em>. URL: <a href="http://granmonferrato.it" rel="noopener noreferrer" target="_blank">granmonferrato.it</a></p></li><li><p>[V] [Redazione]. «Bagna Cauda: ricetta e origini». In: <em>Gran Monferrato</em>. URL: <a href="http://granmonferrato.it" rel="noopener noreferrer" target="_blank">granmonferrato.it</a></p></li><li><p>[V] [Redazione]. «Bagna Caoda: il rituale piemontese più gustoso». In: <a href="http://Turismo.it" rel="noopener noreferrer" target="_blank"><em>Turismo.it</em></a><em> — Gusto</em>. URL: <a href="http://turismo.it" rel="noopener noreferrer" target="_blank">turismo.it</a></p></li><li><p>[V] [Redazione]. «Piedmontese Bagna Cauda» [scheda turistica]. In: <em>Visit Asti</em>. URL: <a href="http://visit.asti.it" rel="noopener noreferrer" target="_blank">visit.asti.it</a></p></li><li><p>[V] [Redazione]. «Bagna cauda» [scheda]. In: <em>Cibo360 — Cucina del Mondo</em>. URL: <a href="http://cibo360.it" rel="noopener noreferrer" target="_blank">cibo360.it</a></p></li><li><p>[V] [Redazione]. «Bagna Cauda: ricetta ufficiale, storia e abbinamenti». In: <em>Bava Vini</em>. URL: <a href="http://bava.com" rel="noopener noreferrer" target="_blank">bava.com</a></p></li><li><p>[V] [Redazione]. «Bagna Cauda: all-Piedmontese tradition and conviviality». In: <em>Vinchio Vaglio</em>. URL: <a href="http://vinchio.com" rel="noopener noreferrer" target="_blank">vinchio.com</a></p></li><li><p>[V] [Redazione]. «Bagna Cauda: ricetta di famiglia e abbinamenti». In: <em>Braida — storia di un grande amore</em>. URL: <a href="http://braida.it" rel="noopener noreferrer" target="_blank">braida.it</a></p></li><li><p>[V] [Redazione]. «La Bagna Cauda: il profilo storico tra Medioevo e Provenza». In: <a href="http://Langhe.net" rel="noopener noreferrer" target="_blank"><em>Langhe.net</em></a>. URL: <a href="http://langhe.net" rel="noopener noreferrer" target="_blank">langhe.net</a></p></li><li><p>[V] [Redazione]. «La Bagna Cauda — Osteria Il Cadraio». In: <em>Osteria Il Cadraio (Genova)</em>, 24 ottobre 2025. URL: <a href="http://ilcadraio.it" rel="noopener noreferrer" target="_blank">ilcadraio.it</a></p></li><li><p>[V] [Redazione]. «Bagna Cauda Day: cosa riserverà l'edizione 2024 nel Monferrato». In: <em>Anduma! / Percorsi Monferrato</em>. URL: <a href="http://percorsimonferrato.com" rel="noopener noreferrer" target="_blank">percorsimonferrato.com</a></p></li><li><p>[V] [Redazione]. «Torna il Bagna Cauda Day in Piemonte e nel mondo con lo slogan "Esageruma nen"». In: <em>TravelEat</em>, 20 ottobre 2024. URL: <a href="http://traveleat.it" rel="noopener noreferrer" target="_blank">traveleat.it</a></p></li><li><p>[V] [Redazione]. «10 motivi per festeggiare e mangiare la Bagna Cauda». In: <em>Scatti di Gusto</em>. URL: <a href="http://scattidigusto.it" rel="noopener noreferrer" target="_blank">scattidigusto.it</a></p></li><li><p>[V] [Redazione]. «Dagli "AsSaggi di vino" a "Wine &amp; Siena" alla "Bagna (cauda) della Merla" in Piemonte». In: <em>WineNews</em>. URL: <a href="http://winenews.it" rel="noopener noreferrer" target="_blank">winenews.it</a></p></li><li><p>[V] [Redazione]. «Bagna càuda: ricetta e storia». In: <em>CiboToday — Torino</em>. URL: <a href="http://cibotoday.it" rel="noopener noreferrer" target="_blank">cibotoday.it</a></p></li><li><p>[V] [Redazione]. «Nduja e bagna càuda. Ricette per rispettare le nostre lingue locali». In: <em>BeeMagazine</em>. URL: <a href="http://beemagazine.it" rel="noopener noreferrer" target="_blank">beemagazine.it</a></p></li><li><p>[V] [Redazione]. «"Gli studenti adorano la bagna cauda e il Monferrato": come si insegna l'italiano nella miglior scuola d'Italia per soggiorni linguistici». In: <em>Torino Today</em>. URL: <a href="http://torinotoday.it" rel="noopener noreferrer" target="_blank">torinotoday.it</a></p></li><li><p>[V] AA.VV. <em>Bagna cauda day: storia, notizie e curiosità</em> [dossier]. Vini e Percorsi Piemontesi, 2023. PDF. URL: <a href="http://viniepercorsipiemontesi.com" rel="noopener noreferrer" target="_blank">viniepercorsipiemontesi.com</a><a href="https://www.google.com/url?q=https://www.viniepercorsipiemontesi.com/wp-content/uploads/2023_BAGNA-CAUDA-DAY-STORIA-NOTIZIE-E-CURIOSITA.pdf&amp;sa=D&amp;source=editors&amp;ust=1777370356869545&amp;usg=AOvVaw28Pw8HFqn5Na5rodRNuVI8" rel="noopener noreferrer" target="_blank"> — PDF</a></p></li><li><p>[V] [Redazione]. «Bagna càuda. Tre semplici ingredienti: olio, aglio e acciughe». In: <em>Torino XL</em>. URL: <a href="http://torinoxl.com" rel="noopener noreferrer" target="_blank">torinoxl.com</a></p></li><li><p>[V] [Redazione]. «La storia in tavola» [dedicato a Vialardi e cucina sabauda]. In: <em>Radio Monte Carlo — Vita da Arbiter</em>. URL: <a href="http://radiomontecarlo.net" rel="noopener noreferrer" target="_blank">radiomontecarlo.net</a></p></li><li><p>[V] [Redazione]. «Bagna cauda — la ricetta originale piemontese». In: <em>Dissapore</em>. URL: <a href="http://dissapore.com" rel="noopener noreferrer" target="_blank">dissapore.com</a></p></li><li><p>[V] [Redazione]. «20 piatti tipici piemontesi: la cucina del Piemonte da provare». In: <em>Dissapore</em>. URL: <a href="http://dissapore.com" rel="noopener noreferrer" target="_blank">dissapore.com</a></p></li><li><p>[V] [Redazione]. «La "Bagna Càuda": la regina della cucina piemontese». In: <em>Cose Nostre Online — Nivole</em>, 2022. URL: <a href="http://cosenostre-online.it" rel="noopener noreferrer" target="_blank">cosenostre-online.it</a></p></li><li><p>[V] [Redazione]. «Pinin Pacòt: scrivoma 'l Piemontëis». In: <em>Cose Nostre Online — Nivole</em>, 2019. URL: <a href="http://cosenostre-online.it" rel="noopener noreferrer" target="_blank">cosenostre-online.it</a></p></li><li><p>[V] [Redazione]. «GIORNATA NAZIONALE DELLA BAGNA CÀÔDA». In: <em>Calendario del Cibo Italiano</em>, 24 novembre 2021. URL: <a href="http://calendariodelciboitaliano.it" rel="noopener noreferrer" target="_blank">calendariodelciboitaliano.it</a></p></li><li><p>[V] [Redazione]. «La Bagna Cauda depositata». In: <em>Winetaste</em>. URL: <a href="http://winetaste.it" rel="noopener noreferrer" target="_blank">winetaste.it</a></p></li><li><p>[V] [Redazione]. «1 La Bagna Caoda (tipico piatto piemontese) e la sua storia» [estratto antologico, scuola HUB]. URL: <a href="https://www.google.com/url?q=https://ms-mms.hubscuola.it/saggio/120RE0066313/4a4352e1-dfe7-4475-9684-06f4e04cc73e/A4_u2_ss_bagna_cauda.pdf&amp;sa=D&amp;source=editors&amp;ust=1777370356875684&amp;usg=AOvVaw2NstAjk-Pgqu3SOlMe8nmi" rel="noopener noreferrer" target="_blank">Hub Scuola — PDF</a></p></li><li><p>[V] [Redazione]. «La Bagna Cauda, pietanza del Patrimonio UNESCO». In: <em>A Tavola con Lello</em>. URL: <a href="http://atavolaconlello.it" rel="noopener noreferrer" target="_blank">atavolaconlello.it</a></p></li><li><p>[V] [Redazione]. «Sua Maestà la bagna cauda — Centro Studi Piemontesi» [presentazione catalogo]. URL: <a href="http://studipiemontesi.it" rel="noopener noreferrer" target="_blank">studipiemontesi.it</a></p></li><li><p>[V] AA.VV. <em>Poeti in piemontese dal Novecento ai giorni nostri</em>. Torino: Centro Studi Piemontesi, [s.d.]. URL: <a href="http://studipiemontesi.it" rel="noopener noreferrer" target="_blank">studipiemontesi.it</a></p></li><li><p>[V] Record OPAC SBN — BID <strong>CFI0061206</strong>. URL: <a href="http://opac.sbn.it" rel="noopener noreferrer" target="_blank">opac.sbn.it</a></p></li><li><p>[V] Record OPAC SBN — BID <strong>VEA0034914</strong>. URL: <a href="http://opac.sbn.it" rel="noopener noreferrer" target="_blank">opac.sbn.it</a></p></li><li><p>[V] Record OPAC SBN — <em>Nuova Antologia: rivista di lettere, scienze ed arti</em>. BID <strong>RAV0027419</strong>. URL: <a href="http://opac.sbn.it" rel="noopener noreferrer" target="_blank">opac.sbn.it</a></p></li><li><p>[V] Record OPAC SBN — Polo Padova. BID <strong>PUV0993748</strong>. URL: <a href="http://opac.sbn.it" rel="noopener noreferrer" target="_blank">opac.sbn.it</a></p></li><li><p>[V] Record OPAC SBN — BID <strong>TER0004845</strong>, <em>Lungo la strada ferrata da Giulianova a Teramo</em>. URL: <a href="http://opac.sbn.it" rel="noopener noreferrer" target="_blank">opac.sbn.it</a></p><p><em>Totale referenze: 124. Etichette [V] verificate / [S] segnalate sono dichiarate per ciascuna voce. Per le occorrenze [S] (Sacchetti 1875–76, Capello, Vialardi "butirro alle acciughe", Eco "Cimitero di Praga", Artusi sez. salse) la verifica puntuale di pagina/capitolo va effettuata sull'originale.</em></p><p>REPORT FINALE</p><p>1. Conteggio per catalogo / repository (record restituiti)</p><p><strong>#</strong></p><p><strong>Catalogo / repository</strong></p><p><strong>Record restituiti</strong></p><p><strong>Note</strong></p><p>1</p><p>OPAC SBN (incl. Polo Piemontese)</p><p>7</p><p>Voci 2, 14, 120–124; ricerca per autore/titolo + record BID puntuali</p><p>2</p><p>BNI – Bibliografia Nazionale Italiana</p><p>0</p><p>Indicizzazione SBN: nessun record indipendente</p><p>3</p><p>BNCF – Biblioteca Nazionale Centrale Firenze (OPAC, Magazzini Digitali)</p><p>0</p><p>Non interrogabile direttamente in questo ambiente</p><p>4</p><p>BNCR – Biblioteca Nazionale Centrale Roma (OPAC, Emeroteca Digitale)</p><p>0</p><p>Non interrogabile direttamente</p><p>5</p><p>Biblioteca Reale di Torino</p><p>0</p><p>Catalogo non accessibile via fetch</p><p>6</p><p>Biblioteca Civica Centrale di Torino</p><p>0</p><p>Catalogo non accessibile via fetch</p><p>7</p><p>SBA Università degli Studi di Torino</p><p>0</p><p>Catalogo non accessibile via fetch</p><p>8</p><p>Centro Studi Piemontesi</p><p>4</p><p>Voci 4, 17, 118, 119</p><p>9</p><p>BEIC – Biblioteca Europea di Informazione e Cultura</p><p>0</p><p>Non interrogato/accessibile</p><p>10</p><p>Internet Culturale</p><p>0</p><p>Non interrogabile</p><p>11</p><p>Manus Online (manoscritti)</p><p>0</p><p>Non pertinente / nessun record</p><p>12</p><p>Edit16 / Edit17</p><p>0</p><p>Non pertinente per finestra cronologica</p><p>13</p><p>Google Books</p><p>7</p><p>Voci 6, 11, 13, 22, 30 (ed.), 35, 36</p><p>14</p><p>Google Scholar</p><p>0</p><p>Non interrogato direttamente; cfr. ResearchGate/Academia</p><p>15</p><p>HathiTrust Digital Library</p><p>0</p><p>Non interrogabile in ambiente</p><p>16</p><p>Internet Archive</p><p>8</p><p>Voci 4, 6, 10, 16/24, 25, 26, 32 (ricerca), 35</p><p>17</p><p>Europeana</p><p>0</p><p>Non interrogata in ambiente</p><p>18</p><p>Liber Liber / Progetto Manuzio</p><p>0</p><p>Nessun match</p><p>19</p><p>Wikisource (it/fr/en)</p><p>2</p><p>Voci 10 (Artusi), 17 (Pacòt – pms.wikisource)</p><p>20</p><p>Gallica (BnF)</p><p>0</p><p>Non interrogabile in ambiente</p><p>21</p><p>Torrossa</p><p>0</p><p>Non interrogabile in ambiente</p><p>22</p><p>JSTOR</p><p>0</p><p>Non interrogabile in ambiente</p><p>23</p><p>Rivisteweb (Il Mulino)</p><p>0</p><p>Nessun record di prima mano</p><p>24</p><p>OpenEdition Journals</p><p>1</p><p>Voce 36 (recensione <em>Annales</em> su Persée)</p><p>25</p><p><a href="http://Academia.edu" rel="noopener noreferrer" target="_blank">Academia.edu</a> / ResearchGate</p><p>2</p><p>Voce 74 (TCI – Guida gastronomica)</p><p>26</p><p>DOAJ</p><p>0</p><p>Nessun match</p><p>27</p><p>Biblioteca Internazionale "La Vigna" – Vicenza</p><p>0</p><p>Non interrogabile in ambiente</p><p>28</p><p>Bibliotheca Gastronomica – BIASA</p><p>0</p><p>Non interrogabile in ambiente</p><p>29</p><p>Biblioteca Accademia Italiana della Cucina</p><p>4</p><p>Voci 42–45 (<em>Civiltà della Tavola</em> nn. 224, 258, 265, 328)</p><p>30</p><p>Archivio storico Slow Food (Bra)</p><p>5</p><p>Voci 54–58 (<em>Slow Food – Buono, Pulito e Giusto</em>)</p><p>31</p><p>Archivio Touring Club Italiano</p><p>2</p><p>Voci 12, 13</p><p>32</p><p>Centro Studi Piemontesi – fondo dialettologico</p><p>1</p><p>Voce 17</p><p>33</p><p>Archivio storico <em>La Stampa</em></p><p>0</p><p>Non interrogabile in ambiente</p><p>34</p><p>Archivio storico <em>Corriere della Sera</em></p><p>0</p><p>Non interrogabile in ambiente</p><p>35</p><p>Emeroteca Digitale Braidense</p><p>0</p><p>Non interrogabile in ambiente</p><p>36</p><p>Emeroteca BNCR</p><p>0</p><p>Non interrogabile (cfr. nota voce 8)</p><p>37</p><p>Battaglia – <em>Grande Dizionario della Lingua Italiana</em> (UTET)</p><p>0</p><p>Verifica cartacea richiesta (lemmi <em>bagna</em>, <em>cauda</em>)</p><p>38</p><p>DEI – <em>Dizionario Etimologico Italiano</em></p><p>0</p><p>Verifica cartacea richiesta</p><p>39</p><p>Vocabolario Treccani (online)</p><p>3</p><p>Voci 48, 49, 50</p><p>40</p><p>Vocabolari piemontesi (Sant'Albino, Gribaudo, Brero, Gavuzzi, Pipino, Zalli)</p><p>5</p><p>Voci 2, 4, 6, 7, 37, 38</p><p>41</p><p>Stampa periodica/web italiana (testate, non SBN)</p><p>60+</p><p>Voci 64–117 (testate locali, magazine, blog, dossier istituzionali)</p><p>42</p><p>Editoria libraria specializzata (Olschki, Edizioni dell'Orso, Graphot, Garzanti, Mondadori, Bompiani, Laterza, Einaudi, Slow Food Editore, Touring, Muzzio, Daumerie, Piemme, Saggiatore, Camunia, Il Punto, L'Artistica)</p><p>35+</p><p>Voci 5–7, 11–15, 19–23, 26–41, 47, 72, 73</p><p><strong>Totale referenze unite: 124.</strong> <strong>Cataloghi/repository effettivamente produttivi: 18 / 42 interrogati.</strong></p><p>2. Cataloghi interrogati con esito negativo (elenco esplicito)</p><p>I seguenti cataloghi sono stati interrogati (o avrebbero dovuto esserlo come da prompt) ma hanno restituito 0 record indipendenti utili in questo ambiente di rete, sia perché tecnicamente non interrogabili via fetch, sia perché privi di interfaccia di ricerca pubblica machine-readable, sia perché i loro record erano già coperti da SBN/Internet Archive/Google Books:</p><ul><li><p>BNI – Bibliografia Nazionale Italiana</p></li><li><p>BNCF – Biblioteca Nazionale Centrale di Firenze (Magazzini Digitali compresi)</p></li><li><p>BNCR – Biblioteca Nazionale Centrale di Roma (Emeroteca compresa)</p></li><li><p>Biblioteca Reale di Torino</p></li><li><p>Biblioteca Civica Centrale di Torino</p></li><li><p>Sistema Bibliotecario di Ateneo, Università degli Studi di Torino</p></li><li><p>BEIC – Biblioteca Europea di Informazione e Cultura</p></li><li><p>Internet Culturale</p></li><li><p>Manus Online (manoscritti)</p></li><li><p>Edit16 / Edit17</p></li><li><p>Google Scholar (interrogazione diretta non eseguibile in ambiente)</p></li><li><p>HathiTrust Digital Library</p></li><li><p>Europeana</p></li><li><p>Liber Liber / Progetto Manuzio</p></li><li><p>Gallica (BnF)</p></li><li><p>Torrossa</p></li><li><p>JSTOR</p></li><li><p>Rivisteweb (Il Mulino)</p></li><li><p>DOAJ</p></li><li><p>Biblioteca Internazionale "La Vigna" – Vicenza</p></li><li><p>Bibliotheca Gastronomica – BIASA</p></li><li><p>Archivio storico <em>La Stampa</em></p></li><li><p>Archivio storico <em>Corriere della Sera</em></p></li><li><p>Emeroteca Digitale Braidense</p></li><li><p><em>Grande Dizionario della Lingua Italiana</em> di Battaglia (UTET) – verifica cartacea richiesta</p></li><li><p>DEI – <em>Dizionario Etimologico Italiano</em> – verifica cartacea richiesta</p></li></ul><p>3. Lacune note, cataloghi non accessibili, fonti da verificare in presenza</p><p>3.1 Lacune cronologiche e tipologiche</p><ul><li><p><strong>Secc. XVIII–prima metà XIX</strong>: presumibile presenza di occorrenze in calendari, almanacchi, guide del Regno di Sardegna, fogli volanti e ricettari manoscritti privati (es. fondi di casa Savoia, fondi nobiliari astigiani-monferrini) non digitalizzati.</p></li><li><p><strong>Periodici locali piemontesi 1860–1950</strong>: <em>Gazzetta Piemontese</em> (poi <em>La Stampa</em>), <em>Gazzetta del Popolo</em>, <em>L'Italia Agricola</em>, <em>Il Subalpino</em>, fogli astigiani e alessandrini → spogli sistematici disponibili solo presso emeroteche fisiche o Archivio Storico La Stampa (non interrogabili via fetch).</p></li><li><p><strong>Letteratura in piemontese</strong>: corpus completo di Pacòt, Olivero, Calvo, Brero, Costa, Tavo Burat, Viglongo, Gianoglio non integralmente digitalizzato; il Centro Studi Piemontesi possiede repertorio completo ma con catalogo non machine-readable.</p></li><li><p><strong>Memorialistica e diaristica novecentesca</strong>: scritti minori di Soldati, Arpino, Lajolo, Conte, Revelli, Fenoglio, Pavese da spogliare puntualmente per occorrenza esatta del lemma.</p></li><li><p><strong>Letteratura straniera</strong>: occorrenze in viaggiatori francesi, inglesi e tedeschi sec. XIX–XX (Stendhal, Dumas, Edmondo De Amicis nelle traduzioni, Maurice Vaussard, Élisée Reclus, ecc.) da verificare su Gallica e HathiTrust.</p></li></ul><p>3.2 Cataloghi non accessibili via fetch in questo ambiente</p><ul><li><p>OPAC SBN: ricerca per parola libera bloccata, accessibili solo record con BID già noto.</p></li><li><p>Internet Culturale, Manus Online, Edit16/17: interfaccia non machine-readable.</p></li><li><p>Centro Studi Piemontesi: catalogo interno della biblioteca <em>non</em> esposto pubblicamente.</p></li><li><p>La Vigna (Vicenza), BIASA: cataloghi locali non integrati a SBN.</p></li><li><p>Archivi storici quotidiani (<em>La Stampa</em>, <em>Corriere</em>): paywall o login obbligatorio.</p></li><li><p>Emeroteche digitali (BNCR, Braidense): accesso a layer di indicizzazione full-text non disponibile.</p></li><li><p>Gallica, HathiTrust, Europeana, JSTOR, Torrossa: blocco fetch dall'ambiente.</p></li></ul><p>3.3 Fonti da verificare in presenza (priorità alta)</p></li><li><p><strong>Sacchetti, Roberto</strong> – corrispondenze sulla <em>Gazzetta Piemontese</em> 1875: verificare data esatta, titolo articolo, eventuale firma redazionale → Archivio Storico La Stampa, Torino.</p></li><li><p><strong>Sacchetti, Roberto</strong> – <em>Vecchio guscio</em> in puntate su <em>Cronaca Bizantina</em> 1876: verificare se il romanzo è realmente uscito a puntate (alcune fonti riportano edizione successiva): BNCR – Emeroteca; in alternativa Biblioteca Civica di Torino.</p></li><li><p><strong>Capello, Giovanni Battista</strong> – <em>Cuoco piemontese ridotto all'ultimo gusto</em>: tutte le edizioni 1798–1860 + collazione ricetta/descrizione bagna cauda → Biblioteca Reale di Torino, BNCF.</p></li><li><p><strong>Vialardi, Giovanni</strong> 1854 – verificare se la voce «butirro alle acciughe» (cap. salse) è davvero attestata e se nel testo compare il lemma «bagna cauda».</p></li><li><p><strong>Artusi 1891</strong> – conferma definitiva assenza/presenza del lemma e di analoghi: spoglio di tutte le ed. 1891–1932 + edizioni postume.</p></li><li><p><strong>Eco, Umberto</strong> – <em>Il cimitero di Praga</em> (Bompiani 2010): individuare capitolo/pagina esatta della scena con bagna cauda.</p></li><li><p><strong>Pavese, Cesare</strong> – <em>Paesi tuoi</em>, <em>La luna e i falò</em>, <em>Il diavolo sulle colline</em>, <em>Lavorare stanca</em>: spoglio completo del corpus alla ricerca di occorrenze del lemma o circumlocuzioni.</p></li><li><p><strong>Fenoglio, Beppe</strong> – <em>La malora</em>, <em>Il partigiano Johnny</em>, racconti: spoglio completo.</p></li><li><p><strong>Arpino, Giovanni</strong> – oltre a <em>L'ombra delle colline</em>: <em>Sei stato felice, Giovanni</em>, <em>Un'anima persa</em>, <em>Il fratello italiano</em>, <em>La suora giovane</em>: spoglio completo.</p></li><li><p><strong>Carlin Petrini, Folco Portinari, Giovanni Goria</strong> – ricerca pubblicistica minore su <em>La Stampa</em>, <em>Repubblica</em>, <em>Slow</em>, <em>La Gola</em>.</p></li><li><p><strong>Periodici di settore non indicizzati</strong>: <em>La Cucina Italiana</em> (Bocca; oggi Condé Nast) – spoglio completo dal 1929; <em>Il Gastronomo</em> (1934–); <em>La Gola</em>; <em>Slow</em> (rivista Slow Food).</p></li><li><p><strong>Atti convegni</strong>: Convegni del Centro Studi Piemontesi, Convegni AISGA (Associazione italiana storici della gastronomia), Convegni Università di Scienze Gastronomiche di Pollenzo.</p></li><li><p><strong>Tesi di laurea/dottorato</strong>: spoglio in OpenStarTs Trieste, Padua Thesis and Dissertation Archive, AIR Unimi, repertori di tesi UniTo, UniMib.</p></li><li><p><strong>Ricettari manoscritti</strong>: fondi privati Casa Savoia, Casa Roero di Cortanze, Casa Caraglio, Casa Mazzini-Branca, Casa Asinari di San Marzano (consultabili presso Archivio di Stato di Torino, Asti, Alessandria).</p></li><li><p><strong>Lessicografia di riferimento (verifica cartacea obbligatoria)</strong>: Battaglia GDLI vol. II (1962), DEI Battisti-Alessio, DELI Cortelazzo-Zolli, LEI Pfister-Schweickard.</p><p>3.4 Verifica di etichette [S] (segnalato → da promuovere a [V] o declassare)</p><p>Riguarda le voci 3 (Capello), 9 (Sacchetti, <em>Vecchio guscio</em>), 10 (Artusi assenza/presenza), 46 (Eco). Promozione a [V] subordinata a controllo autoptico sul testo.</p><p><em>Cataloghi non interrogabili in fetch diretto dall'ambiente di rete: OPAC SBN (solo metadati indicizzati e record con BID noto), Internet Culturale, Centro Studi Piemontesi (catalogo interno), La Vigna – Vicenza, BIASA, Archivio Storico La Stampa, Archivio Storico Corriere della Sera, Emeroteca BNCR, Emeroteca Braidense, Gallica, HathiTrust, Europeana, JSTOR, Torrossa, Rivisteweb. Per saturazione bibliografica completa è necessario interrogarli direttamente in presenza o con credenziali istituzionali.</em></p></li></ol></section>
+<section class="notes"><h2>Note e osservazioni</h2><p></p></section>
+</div>
+<footer class="site-footer recipe-footer"><div class="site-footer-left"><a aria-label="Licenza Creative Commons BY-NC-SA" class="cc-link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><nav aria-label="Strumenti pagina" class="site-footer-center"><a aria-label="Informativa" class="site-footer-icon recipe-tool-info" href="../../informativa.html"><img alt="" src="../../foto/ui/info-light.svg"/></a><a aria-label="Scrivimi" class="site-footer-icon recipe-tool-mail" href="../../scrivimi.html"><img alt="" src="../../foto/ui/mail-light.svg"/></a><a aria-label="Stampa pagina" class="site-footer-icon js-print-link js-editorial-print-link recipe-tool-print" href="#"><img alt="" src="../../foto/ui/print-light.svg"/></a><a aria-label="Copia URL" class="site-footer-icon recipe-tool-link" href="#"><img alt="" src="../../foto/ui/link-light.svg"/></a></nav><div class="site-footer-right"><a class="site-footer-qr-link recipe-qrcode-link" href="../../foto/bibliografia-bagna-cauda/qr-code.png"><img alt="QR ricetta" src="../../foto/bibliografia-bagna-cauda/qr-code.png"/></a></div></footer>
+</main>
+</main>
+</div>
+<script id="recipe-lightbox-script">(function(){
+  function ensureLightbox(){
+    let overlay = document.getElementById('recipeLightbox');
+    if(overlay) return overlay;
+    overlay = document.createElement('div');
+    overlay.id = 'recipeLightbox';
+    overlay.className = 'recipe-lightbox-overlay is-hidden';
+    overlay.innerHTML = '<div class="recipe-lightbox-frame"><img alt=""><div class="recipe-lightbox-caption"></div></div>';
+    document.body.appendChild(overlay);
+    overlay.addEventListener('click', function(){ overlay.classList.add('is-hidden'); });
+    document.addEventListener('keydown', function(ev){ if(ev.key === 'Escape') overlay.classList.add('is-hidden'); });
+    return overlay;
+  }
+  
+  
+
+
+
+document.addEventListener('DOMContentLoaded', function(){
+    const overlay = ensureLightbox();
+    const outImg = overlay.querySelector('img');
+    const caption = overlay.querySelector('.recipe-lightbox-caption');
+    document.querySelectorAll('main img').forEach(function(img){
+      if(img.closest('.site-footer') || img.closest('.site-footer-center') || img.closest('.site-footer-right') || img.closest('.site-footer-left')) return;
+      img.addEventListener('click', function(ev){
+        ev.preventDefault();
+        ev.stopPropagation();
+        outImg.src = img.currentSrc || img.src;
+        outImg.alt = img.alt || '';
+        const fig = img.closest('figure');
+        const cap = fig ? fig.querySelector('figcaption') : null;
+        caption.textContent = (cap && cap.textContent.trim()) || img.alt || '';
+        overlay.classList.remove('is-hidden');
+      });
+    });
+    document.querySelectorAll('.recipe-qrcode-link').forEach(function(link){
+      link.addEventListener('click', function(ev){
+        ev.preventDefault();
+        ev.stopPropagation();
+        var img = link.querySelector('img');
+        if(!img) return;
+        outImg.src = img.currentSrc || img.src;
+        outImg.alt = img.alt || 'QR ricetta';
+        caption.textContent = img.alt || 'QR ricetta';
+        overlay.classList.remove('is-hidden');
+      });
+    });
+  });
+})();</script>
+<script id="recipe-tools-script">window.__PRINT_INGREDIENT_ASSET_RELPATHS__ = ["aglio-800x520.jpg", "alloro fresco-800x548.jpg", "baccelli-verdi-del-cardamomo-isolati-su-fondo-bianco-con-il-percorso-di-ritaglio-e-lo-spazio-della-copia-130964485-1500128308.jpg", "bacche di ginepro-800x450.jpg", "basilico-800x532.jpg", "borago-officinalis-della-pianta-borragine-99112667-2469776195.jpg", "broccoli-800x531.jpg", "calendula-semi-del-tagete.jpg", "cannella-600x400.jpg", "carciofo-740x493.jpg", "carota-800x534.jpg", "chiodo di garofano-800x534.jpg", "cime di rapa-800x528.jpg", "cipolla bianca-800x534.jpg", "cipolla dorata-800x600.jpg", "cipolla rossa-800x661.jpg", "cipolle di trope-602x900.jpg", "cipollotti-800x532.jpg", "concentrato di pomodoro-800x800.jpg", "coriandolo-800x794.jpg", "cous cous-612x459.jpg", "cozze-800x533.jpg", "cumino-800x534.jpg", "curcuma-800x525.jpg", "erba-luigia_oit-800x800.jpg", "erbe-aromatiche-della-menta 800x798.jpg", "erbe-aromatiche-o-di-latina-absinthii-800x578.jpg", "erbe-aromatiche-selvatiche-essiccate-800x1194.jpg", "erbe-aromatiche8-800x1021.jpg", "erbe-fresche-del-giardino-800x420.jpg", "farina di frumento 00-800x535.jpg", "frutti-e-semi-della-spezia-dell-anice-stellato-isolati-su-fondo-bianco-alimento-naturale-800x441.jpg", "genziana-800x543.jpg", "Lichene-Islandico-Cetraria-islandica-L-800x851.jpg", "menta-rosmarino-mazzo-del-timo-800x549.jpg", "origano-800x592.jpg", "peperoncino-rosso-secco-800x527.jpg", "planta-pimpinella-800x786.jpg", "rosmarino-fresco-isolato-su-fondo-bianco-rosemary-bellezza-ramo-mazzetto-pulito-chiuso-cultura-cibo-freschezza-verde-salute-erbe-163199634-3909175301-800x535.jpg", "salvia-474x316.jpg", "Sedano-Bianco-600x600.jpeg", "sedano-verde-isolato-su-fondo-bianco-134104760.jpg", "semi-di-finocchio-secchi-800x437.jpg", "semi-di-zucca-800x754.jpg", "spighette-e-semi-del-grano--800x609.jpg", "topinambur-800x562.jpg", "un-mazzo-di-aneto-81915942-2011024533.jpg"];
+(function(){
+  function isInternalListReferrer(ref){
+    try{
+      if(!ref) return false;
+      var u = new URL(ref);
+      return u.origin === window.location.origin && /\/indici\/(ricette|ingredienti|fonti|geografia)\.html$/i.test(u.pathname);
+    }catch(e){
+      return false;
+    }
+  }
+
+  function ensureLicenseOverlay(){
+    var overlay = document.getElementById('recipeLicenseOverlay');
+    if(overlay) return overlay;
+    overlay = document.createElement('div');
+    overlay.id = 'recipeLicenseOverlay';
+    overlay.className = 'recipe-license-overlay is-hidden';
+    overlay.innerHTML = '<div class="recipe-license-bar"><button type="button" class="recipe-license-close" aria-label="Chiudi">×</button></div><iframe class="recipe-license-frame" title="Licenza Creative Commons"></iframe>';
+    document.body.appendChild(overlay);
+    var closeBtn = overlay.querySelector('.recipe-license-close');
+    var frame = overlay.querySelector('.recipe-license-frame');
+    function closeOverlay(){
+      overlay.classList.add('is-hidden');
+      frame.setAttribute('src', 'about:blank');
+    }
+    closeBtn.addEventListener('click', function(ev){ ev.preventDefault(); ev.stopPropagation(); closeOverlay(); });
+    overlay.addEventListener('click', function(ev){
+      if(ev.target === overlay){ closeOverlay(); }
+    });
+    document.addEventListener('keydown', function(ev){ if(ev.key === 'Escape'){ closeOverlay(); } });
+    return overlay;
+  }
+
+  var PRINT_ENGINE_SRC = '../../foto/ui/recipe-editorial-print.js?v=CMS2-R17-113';
+  var printEnginePromise = null;
+
+  function loadRecipeEditorialPrintEngine(){
+    if(window.runRecipeEditorialPrintEngine) return Promise.resolve(window.runRecipeEditorialPrintEngine);
+    if(printEnginePromise) return printEnginePromise;
+    printEnginePromise = new Promise(function(resolve, reject){
+      var existing = document.querySelector('script[data-recipe-editorial-print-engine="1"]');
+      if(existing){
+        existing.addEventListener('load', function(){
+          if(window.runRecipeEditorialPrintEngine) resolve(window.runRecipeEditorialPrintEngine);
+          else reject(new Error('Motore stampa editoriale caricato senza funzione pubblica'));
+        }, {once:true});
+        existing.addEventListener('error', function(){ reject(new Error('Errore caricamento motore stampa editoriale')); }, {once:true});
+        return;
+      }
+      var s = document.createElement('script');
+      s.src = PRINT_ENGINE_SRC;
+      s.async = true;
+      s.dataset.recipeEditorialPrintEngine = '1';
+      s.onload = function(){
+        if(window.runRecipeEditorialPrintEngine) resolve(window.runRecipeEditorialPrintEngine);
+        else reject(new Error('Motore stampa editoriale caricato senza funzione pubblica'));
+      };
+      s.onerror = function(){ reject(new Error('Errore caricamento motore stampa editoriale')); };
+      document.head.appendChild(s);
+    }).catch(function(err){
+      printEnginePromise = null;
+      throw err;
+    });
+    return printEnginePromise;
+  }
+
+  window.recipeEditorialPrint = function(){
+    return loadRecipeEditorialPrintEngine().then(function(run){
+      return run();
+    });
+  };
+
+  document.addEventListener('DOMContentLoaded', function(){
+    var printBtn = document.querySelector('.recipe-tool-print, .js-editorial-print-link, .js-print-link');
+    var linkBtn = document.querySelector('.recipe-tool-link');
+    var backBtn = document.querySelector('.recipe-nav-back');
+    var ccLink = document.querySelector('.cc-link');
+
+    if(backBtn){
+      backBtn.addEventListener('click', function(ev){
+        ev.preventDefault();
+        if(isInternalListReferrer(document.referrer)){
+          history.back();
+          return;
+        }
+        window.location.href = '../../indici/ricette.html';
+      });
+    }
+
+    if(printBtn){
+      printBtn.addEventListener('click', function(ev){
+        ev.preventDefault();
+        window.recipeEditorialPrint().catch(function(err){
+          try{ console.error('editorial print loader error', err); }catch(_e){}
+        });
+      });
+    }
+
+    if(ccLink){
+      ccLink.addEventListener('click', function(ev){
+        ev.preventDefault();
+        var overlay = ensureLicenseOverlay();
+        var frame = overlay.querySelector('.recipe-license-frame');
+        frame.setAttribute('src', this.getAttribute('href'));
+        overlay.classList.remove('is-hidden');
+      });
+    }
+
+    if(linkBtn){
+      linkBtn.addEventListener('click', async function(ev){
+        ev.preventDefault();
+        try{
+          if(navigator.clipboard && navigator.clipboard.writeText){
+            await navigator.clipboard.writeText(window.location.href);
+          }else{
+            var ta = document.createElement('textarea');
+            ta.value = window.location.href;
+            document.body.appendChild(ta);
+            ta.select();
+            document.execCommand('copy');
+            ta.remove();
+          }
+          var oldToast = document.querySelector('.recipe-copy-toast');
+          if(oldToast) oldToast.remove();
+          var toast = document.createElement('div');
+          toast.className = 'recipe-copy-toast';
+          toast.textContent = 'URL copiato';
+          document.body.appendChild(toast);
+          setTimeout(function(){ if(toast && toast.parentNode) toast.parentNode.removeChild(toast); }, 1200);
+        }catch(e){}
+      });
+    }
+  });
+})();</script>
+</body>
+</html>
