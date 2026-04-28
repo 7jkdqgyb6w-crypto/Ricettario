@@ -35,8 +35,14 @@
 </a>
 </section>
 <section class="block">
-<h2>Altri indici</h2>
+<h2>Altri accessi</h2>
 <ul class="home-secondary-list">
+<li>
+<a class="js-home-term-search" href="indici/ricette.html">
+<strong>Termini</strong>
+<span>Ricerca per termini fra le ricette (dati e metadati).</span>
+</a>
+</li>
 <li>
 <a href="indici/ingredienti.html">
 <strong>Ingredienti</strong>
@@ -57,6 +63,17 @@
 </li>
 </ul>
 </section>
+<div class="home-search-overlay is-hidden" id="homeTermSearchOverlay" aria-hidden="true">
+  <div class="home-search-panel" role="dialog" aria-modal="true" aria-labelledby="homeTermSearchTitle">
+    <button class="home-search-close" type="button" aria-label="Chiudi ricerca">×</button>
+    <h2 id="homeTermSearchTitle">Cerca per termini</h2>
+    <form id="homeTermSearchForm" class="home-search-form">
+      <input id="homeTermSearchInput" type="search" name="q" placeholder="Cerca per titolo, ingrediente, luogo…" autocomplete="off">
+      <button type="submit">Cerca</button>
+    </form>
+    <p>La ricerca prosegue nell’indice delle ricette e usa dati e metadati disponibili.</p>
+  </div>
+</div>
 <section class="block">
 <h2>Alcune ricette</h2>
 <div class="latest-grid" id="latestGrid"></div>
@@ -159,19 +176,19 @@ document.addEventListener("DOMContentLoaded", async () => {
       const ok = await imageExists(item.imgUrl);
       if (ok) {
         chosen.push({ item, hasImage: true });
-        if (chosen.length >= 3) break;
+        if (chosen.length >= 4) break;
       } else {
         fallbacks.push({ item, hasImage: false });
       }
     }
 
-    while (chosen.length < 3 && fallbacks.length) {
+    while (chosen.length < 4 && fallbacks.length) {
       chosen.push(fallbacks.shift());
     }
 
     container.innerHTML = "";
 
-    for (const entry of chosen.slice(0, 3)) {
+    for (const entry of chosen.slice(0, 4)) {
       const excerpt = await fetchExcerpt(entry.item.href);
       container.appendChild(renderCard(entry.item, excerpt, entry.hasImage));
     }
@@ -181,6 +198,57 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
   } catch (e) {
     container.innerHTML = '<div class="latest-loader">Caricamento non riuscito.</div>';
+  }
+});
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const openLink = document.querySelector(".js-home-term-search");
+  const overlay = document.getElementById("homeTermSearchOverlay");
+  const form = document.getElementById("homeTermSearchForm");
+  const input = document.getElementById("homeTermSearchInput");
+  const closeBtn = overlay ? overlay.querySelector(".home-search-close") : null;
+
+  function openSearch() {
+    if (!overlay || !input) return;
+    input.value = "";
+    overlay.classList.remove("is-hidden");
+    overlay.setAttribute("aria-hidden", "false");
+    setTimeout(() => input.focus(), 30);
+  }
+
+  function closeSearch() {
+    if (!overlay) return;
+    overlay.classList.add("is-hidden");
+    overlay.setAttribute("aria-hidden", "true");
+  }
+
+  if (openLink) {
+    openLink.addEventListener("click", function(ev) {
+      ev.preventDefault();
+      openSearch();
+    });
+  }
+
+  if (closeBtn) closeBtn.addEventListener("click", closeSearch);
+
+  if (overlay) {
+    overlay.addEventListener("click", function(ev) {
+      if (ev.target === overlay) closeSearch();
+    });
+  }
+
+  document.addEventListener("keydown", function(ev) {
+    if (ev.key === "Escape") closeSearch();
+  });
+
+  if (form) {
+    form.addEventListener("submit", function(ev) {
+      ev.preventDefault();
+      const q = (input ? input.value : "").trim();
+      const url = q ? "indici/ricette.html?q=" + encodeURIComponent(q) : "indici/ricette.html";
+      window.location.href = url;
+    });
   }
 });
 </script>
