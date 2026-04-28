@@ -2,7 +2,7 @@
 <html lang="it">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Categorie - Ricette (e altro) di Pierre</title>
 <link rel="stylesheet" href="../style.css">
 <style>
@@ -26,6 +26,34 @@
 .recipe-index-body p{margin:0 0 .7rem;}
 .recipe-index-meta{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:.55rem 1.2rem;}
 .recipe-index-meta li{margin:0;}
+.recipe-refine-panel{margin:0 0 1.5rem 0;padding:.45rem 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
+.recipe-refine summary{cursor:pointer;font-size:.95rem;color:#566064;}
+.recipe-refine-grid{display:grid;gap:.7rem;margin:.75rem 0 0 0;}
+.recipe-refine-group h2{font-size:.82rem;text-transform:uppercase;letter-spacing:.04em;margin:0 0 .35rem 0;color:#566064;}
+.recipe-refine-buttons{display:flex;flex-wrap:wrap;gap:.35rem;}
+.recipe-refine-btn{border:1px solid #c9c1b8;background:#fff;border-radius:999px;padding:.28rem .58rem;font:inherit;font-size:.86rem;line-height:1.2;cursor:pointer;}
+.recipe-refine-btn.is-active{background:#566064;color:#fff;border-color:#566064;}
+.recipe-refine-actions{margin:.55rem 0 0 0;}
+.recipe-reset-btn{border:1px solid #c9c1b8;background:#fff;border-radius:999px;padding:.28rem .62rem;font:inherit;font-size:.86rem;line-height:1.2;cursor:pointer;color:#566064;}
+.recipe-reset-btn:hover{border-color:#566064;color:#222;}
+.recipe-result-count{margin:.6rem 0 0 0;font-size:.9rem;color:#566064;}
+.recipe-result-count strong,.recipe-search-count strong{font-weight:700;color:#222;}
+.recipe-current-query{color:#566064;}
+.recipe-clear-search{border:1px solid #c9c1b8;background:#fff;border-radius:999px;padding:.18rem .52rem;font:inherit;font-size:.82rem;line-height:1.2;cursor:pointer;color:#566064;margin-left:.45rem;}
+.recipe-clear-search:hover{border-color:#566064;color:#222;}
+
+.site-search-button{display:inline-flex;align-items:center;justify-content:center;border:0;background:transparent;color:inherit;padding:.15rem .1rem;cursor:pointer;vertical-align:middle;}
+.site-search-button svg{width:1.08em;height:1.08em;stroke:currentColor;stroke-width:2;fill:none;}
+.recipe-search-overlay{position:fixed;inset:0;z-index:2000;display:none;}
+.recipe-search-overlay.is-open{display:block;}
+.recipe-search-backdrop{position:absolute;inset:0;background:rgba(0,0,0,.10);}
+.recipe-search-dialog{position:fixed;top:4.8rem;right:2rem;width:min(410px,calc(100vw - 2rem));margin:0;padding:.95rem 1rem;background:#fff;border:1px solid #8b837b;box-shadow:0 18px 45px rgba(0,0,0,.22);border-radius:.45rem;}
+.recipe-search-dialog h2{margin:0 2rem .55rem 0;font-size:1.05rem;}
+.recipe-search-close{position:absolute;top:.45rem;right:.65rem;border:0;background:transparent;font:inherit;font-size:1.45rem;line-height:1;cursor:pointer;color:#566064;}
+.recipe-search-input{box-sizing:border-box;width:100%;border:1px solid #9d948b;border-radius:.45rem;padding:.55rem .65rem;font:inherit;background:#fff;}
+.recipe-search-hint{margin:.45rem 0 0 0;font-size:.84rem;color:#566064;}
+.recipe-search-actions{display:flex;align-items:center;justify-content:space-between;gap:.7rem;margin:.55rem 0 0 0;}
+.recipe-search-count{margin:0;font-size:.84rem;color:#566064;}
 @media (min-width: 760px){
   .recipe-index-card{grid-template-columns:minmax(200px,24%) minmax(0,1fr);}
 }
@@ -61,8 +89,17 @@
     </a>
   </nav>
   <div class="site-footer-right">
-    </div>
-</footer></div></main></div>
+  </div>
+</footer><div class="recipe-search-overlay" id="recipeSearchOverlay" aria-hidden="true">
+  <div class="recipe-search-backdrop js-site-search-close"></div>
+  <section class="recipe-search-dialog" role="dialog" aria-modal="true" aria-labelledby="recipeSearchTitle">
+    <button class="recipe-search-close js-site-search-close" type="button" aria-label="Chiudi">×</button>
+    <h2 id="recipeSearchTitle">Cerca nel ricettario</h2>
+    <input id="recipeSearchInput" class="recipe-search-input" type="search" placeholder="Titolo, ingrediente, luogo…" autocomplete="off">
+    <p class="recipe-search-hint">Cerca in titoli, ingredienti, luoghi e metadati.</p>
+    <div class="recipe-search-actions"><p class="recipe-search-count" id="recipeSearchCount" aria-live="polite"></p></div>
+  </section>
+</div></div></main></div>
 <script>
 document.addEventListener('DOMContentLoaded', function () {
   const wrap = document.querySelector('.index-filter');
@@ -94,6 +131,7 @@ document.addEventListener('DOMContentLoaded', function () {
     lb.className='site-lightbox';
     lb.innerHTML='<button class="site-lightbox-close" aria-label="Chiudi">×</button><img class="site-lightbox-image" alt="">';
     lb.addEventListener('click', function(ev){
+  // chiude su overlay, su X e anche sull'immagine (come index)
   if (
     ev.target === lb ||
     ev.target.classList.contains('site-lightbox-close') ||
@@ -122,22 +160,7 @@ document.addEventListener('DOMContentLoaded', function () {
     setTimeout(function(){ if(toast && toast.parentNode) toast.parentNode.removeChild(toast); }, 1200);
   }
   document.addEventListener('DOMContentLoaded', function(){
-    var qrMap = {
-      'ricette.html': '../foto/qr-statiche/ricette.png',
-      'ingredienti.html': '../foto/qr-statiche/ingredienti.png',
-      'fonti.html': '../foto/qr-statiche/fonti.png',
-      'geografia.html': '../foto/qr-statiche/geografia.png',
-      'autore.html': '../foto/qr-statiche/index.png',
-      'categorie.html': '../foto/qr-statiche/index.png',
-      'tecniche.html': '../foto/qr-statiche/index.png'
-    };
-    var file = (window.location.pathname.split('/').pop() || '').toLowerCase();
-    var qr = qrMap[file] || '../foto/qr-statiche/index.png';
-    document.querySelectorAll('.site-footer-qr-link').forEach(function(a){
-      a.setAttribute('href', qr);
-      var img = a.querySelector('img');
-      if(img) img.setAttribute('src', qr);
-    });
+    /* Indici: nessun QR nel footer. QR riservati alle singole ricette. */
 
     document.querySelectorAll('.js-print-link').forEach(function(a){
       a.addEventListener('click', function(ev){ ev.preventDefault(); window.print(); });
