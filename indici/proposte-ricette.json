@@ -256,7 +256,8 @@
         "Battuta di manzo",
         "Corteccia",
         "Pancetta",
-        "Ginepro"
+        "Ginepro",
+        "Patate"
       ]
     },
     "confidenza": "bassa",
@@ -481,7 +482,7 @@
     "titolo": "Fegato alla veneziana",
     "proposte": {
       "porzioni": "4-6",
-      "tempo_attivo": "15-30 min",
+      "tempo_attivo": "30-45 min",
       "tempo_cottura": "15-30 min",
       "tempo_riposo": "",
       "tempo_totale": "da verificare",
@@ -506,10 +507,10 @@
   },
   {
     "slug": "filettino-di-maiale",
-    "titolo": "Filettino di maiale",
+    "titolo": "Filettin o di maiale",
     "proposte": {
       "porzioni": "4-6",
-      "tempo_attivo": "30-45 min",
+      "tempo_attivo": "45-60 min",
       "tempo_cottura": "15 min circa",
       "tempo_riposo": "30 min",
       "tempo_totale": "include riposo",
@@ -596,7 +597,7 @@
     "titolo": "Gigot roti",
     "proposte": {
       "porzioni": "4-6",
-      "tempo_attivo": "45-60 min",
+      "tempo_attivo": "30-45 min",
       "tempo_cottura": "1 h circa",
       "tempo_riposo": "",
       "tempo_totale": "da verificare",
