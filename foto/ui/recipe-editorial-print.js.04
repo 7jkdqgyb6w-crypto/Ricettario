@@ -551,7 +551,7 @@ function injectPrintIngredientDecor(doc){
   var rasterScale = 0.60;
   var whiteThreshold = 235;
   var ingredientAssetRelpaths = Array.isArray(window.__PRINT_INGREDIENT_ASSET_RELPATHS__) ? window.__PRINT_INGREDIENT_ASSET_RELPATHS__.slice() : [];
-  var ingredientBaseHref = '/ingredienti/';
+  var ingredientBaseHref = '/Ingredienti/';
 
   function resolveIngredientAssetUrl(relpath){
     if(!relpath) return '';
