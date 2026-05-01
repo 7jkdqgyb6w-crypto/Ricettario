@@ -117,16 +117,13 @@ function escapeHtml(value){
       if(!list) return collectSectionHtml(section, {cls:'print-body'});
       var out = document.createElement('ol');
       out.className = 'print-steps';
-      Array.from(list.children).forEach(function(li, idx){
+      Array.from(list.children).forEach(function(li){
         if(!li || li.tagName.toLowerCase() !== 'li') return;
         var clone = sanitizeElementForPrint(li);
         clone.removeAttribute('style');
-        // R18-037: la paginazione manuale può distribuire i <li> su più <ol>.
-        // Il valore esplicito mantiene la numerazione naturale anche a cambio pagina.
-        clone.setAttribute('value', String(idx + 1));
         out.appendChild(clone);
       });
-      return '<section class="print-section print-body">' + out.outerHTML + '</section>'; // R18-037: numerazione naturale preservata con value sui li
+      return '<section class="print-section print-body">' + out.outerHTML + '</section>'; // R18-021: numerazione naturale del browser, nessun numero JS artificiale
     }
 
     function collectRecipeMeta(){

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Filettin o di maiale – Ricette (e altro) di Pierre</title>
+  <title>Aringhe in terrina – Ricette (e altro) di Pierre</title>
   <link rel="stylesheet" href="../../style.css">
   <style id="recipe-layout-style">.recipe-page{
   max-width: 100%;
@@ -15,6 +15,27 @@
 
 .recipe-page .recipe-content > h1{
   margin: 0 0 1.2rem 0;
+}
+.recipe-page .meta-grid{
+  display:grid;
+  grid-template-columns:repeat(4, minmax(0, 1fr));
+  gap:.85rem 1.5rem;
+  margin-bottom:1.05rem;
+}
+.recipe-page .meta-grid .meta-card{
+  padding-top:.42rem;
+}
+.recipe-page .meta-grid .meta-card strong{
+  margin-bottom:.08rem;
+}
+.recipe-page .meta-grid .meta-card:nth-child(n+5){
+  display:none !important;
+}
+ (max-width: 900px){
+  .recipe-page .meta-grid{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap:.75rem 1.15rem;
+  }
 }
 .site-header nav{
   display:flex;
@@ -343,20 +364,6 @@
 .ingredients-overlay .recipe-table td:nth-child(4){
   display:table-cell;
 }
-.recipe-table tr.ingredient-section-row td,
-.ingredients-table tr.ingredient-section-row td{
-  display:table-cell !important;
-  background:rgba(255,255,255,.58);
-  border-top:1px solid var(--line);
-  border-bottom:1px solid var(--line);
-  font-weight:700;
-  text-transform:uppercase;
-  letter-spacing:.035em;
-  color:#566064;
-  font-size:.86rem;
-  line-height:1.25;
-  padding:.42rem .45rem;
-}
 .ingredients-overlay{
   position:fixed;
   inset:0;
@@ -397,33 +404,7 @@
   .recipe-quick-meta span{flex:1 1 100%;}
   .ingredients-overlay{padding:.75rem;}
   .ingredients-overlay-panel{max-height:92vh;padding:.9rem;}
-}
-
-
-/* R18-035 — metadati principali su 4 colonne, secondari nella quick-meta */
-.recipe-page .meta-grid{
-  display:grid;
-  grid-template-columns:repeat(4, minmax(0, 1fr));
-  gap:.85rem 1.5rem;
-  margin-bottom:1.05rem;
-}
-.recipe-page .meta-grid .meta-card{
-  padding-top:.42rem;
-}
-.recipe-page .meta-grid .meta-card strong{
-  margin-bottom:.08rem;
-}
-.recipe-page .meta-grid .meta-card:nth-child(n+5){
-  display:none !important;
-}
-@media (max-width: 900px){
-  .recipe-page .meta-grid{
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap:.75rem 1.15rem;
-  }
-}
-
-</style>
+}</style>
   <style id="recipe-lightbox-style">.recipe-lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.88);display:flex;align-items:center;justify-content:center;padding:2rem;z-index:9999;cursor:zoom-out;}
 .recipe-lightbox-overlay.is-hidden{display:none !important;}
 .recipe-lightbox-frame{max-width:96vw;max-height:96vh;display:flex;flex-direction:column;gap:.75rem;align-items:center;}
@@ -451,8 +432,8 @@ main figure img{cursor:zoom-in;}
 
 <main class="recipe-page">
 <main class="recipe-page">
-<div class="recipe-content"><h1>Filettin<figure class="step-photo-right step-photo" style="width: 46%; max-width: 46%; clear: none;"><img data-align="left" data-pm-slice="0 0 []" data-width-style="651.786px" src="" width="651.7857666015625"/><figcaption></figcaption></figure>o di maiale</h1><section class="lead"><h2>Introduzione e contesto</h2><p><a href="https://photos.app.goo.gl/LUzLgEfzptyZsnnr9" rel="noopener noreferrer" target="_blank">Hvar</a> ci sono stato diverse volte.<br/>Una volta era poco conosciuta; oggi, forse considerata tra le isole più belle del Mediterraneo, ha perso molto nei luoghi più esposti.</p><figure class="step-photo-right step-photo" style="width: 156px; max-width: 100%;"><img src="../../foto/filettino-di-maiale/IMGP6321.jpg" width="156"/><figcaption>Umac</figcaption></figure><p>Ma basta allontanarsi dal capoluogo per ritrovare un’isola ancora vera: coltivazioni viticole che scendono fino al mare, sistemi di irrigazione di origine greca (oggi patrimonio UNESCO), ristoranti che hanno conosciuto solo il fuoco.<br/></p><p>Questo filettino l’ho mangiato la prima volta da Hanibal, in piazza a Hvar. Il locale non c’è più. Si è spostato, reinventato, probabilmente anche snaturato.</p><figure class="step-photo-right step-photo" style="width: 649px; max-width: 100%;"><img src="../../foto/filettino-di-maiale/01.jpg" width="649"/></figure><p>Io ho provato a ricostruire quel piatto partendo dai sapori.</p></section><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Secondi</span></div><div class="meta-card"><strong>Geografia</strong><span>Croazia</span></div><div class="meta-card"><strong>Fonte</strong><span>Ristorante</span></div></section><section class="block ingredients-block"><h2>Ingredienti</h2><div class="table-wrap"><table class="recipe-table ingredients-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Filettino di maiale</td><td>1</td><td></td><td>Il filettino di maiale non dovrebbe essere troppo grosso</td></tr><tr><td>Scalogno</td><td>1</td><td></td><td></td></tr><tr><td>Senape di Digione</td><td>2</td><td>cucchiai</td><td></td></tr><tr><td>Timo</td><td></td><td></td><td></td></tr><tr><td>Olio extra vergine d'oliva</td><td></td><td></td><td></td></tr><tr><td>Sale</td><td></td><td></td><td></td></tr><tr><td>Pepe</td><td></td><td></td><td></td></tr></tbody></table></div></section><section class="preparation-block block"><h2>Preparazione</h2><ol class="steps"><li><p><strong>Il filetto di maiale.</strong></p><figure class="step-photo-right step-photo" style="width: 175px; max-width: 100%;"><img src="../../foto/filettino-di-maiale/02.jpg" width="175"/></figure><p>Il filettino di maiale non dovrebbe essere troppo grosso e andrà pulito di grasso o parti di tendini presenti all'esterno. Tutte le parti bianche.</p></li><li><p><strong>Rosolatura.</strong></p><figure class="step-photo-left step-photo" style="width: 193px; max-width: 100%;"><img src="../../foto/filettino-di-maiale/03.jpg" width="193"/></figure><p>Lo rosolo in padella a fuoco alto per circa 15 minuti, girandolo in modo da colorarlo bene su tutti i lati. Qui il punto è importante: fuori deve risultare ben cotto, quasi croccante, e può anche scurirsi un poco, purché non arrivi mai a bruciare. Se serve aggiungo pochissimo olio, solo per accompagnare la rosolatura. Dentro, invece, non deve cuocere troppo. Alla fine di questa fase lo voglio appena oltre il rosso vivo: internamente ancora rosa, ma non crudo.</p></li><li><p><strong>Base della salsa.</strong></p><div class="image-row" data-layout="image-row" data-row-group="row-1777408743609-qucjlu" style="display:flex !important;flex-wrap:wrap !important;gap:12px !important;align-items:flex-start !important;justify-content:flex-start !important;clear:both !important;width:100% !important;margin:12px 0 !important;box-sizing:border-box !important;"><figure class="step-photo-right step-photo" style="display:block !important;float:none !important;clear:none !important;margin:0 !important;flex:0 0 calc((100% - 36px) / 4) !important;width:calc((100% - 36px) / 4) !important;max-width:calc((100% - 36px) / 4) !important;box-sizing:border-box !important;"><img src="../../foto/filettino-di-maiale/06.jpg" style="width:100%;display:block;" width="175"/></figure><figure class="step-photo-right step-photo" style="display:block !important;float:none !important;clear:none !important;margin:0 !important;flex:0 0 calc((100% - 36px) / 4) !important;width:calc((100% - 36px) / 4) !important;max-width:calc((100% - 36px) / 4) !important;box-sizing:border-box !important;"><img src="../../foto/filettino-di-maiale/07.jpg" style="width:100%;display:block;" width="161"/></figure></div><p>Intanto preparo la salsa.</p><p>Faccio appassire in poco olio lo scalogno tritato finemente, poi aggiungo la senape di Digione e allungo con poca acqua, quel tanto che basta per ottenere una base fluida ma non debole. La senape, con la cottura, cambia molto. Perde buona parte del suo afrore e della spinta piccante e si arrotonda. Diventa una base più morbida, meno aggressiva, che lega la carne senza dominarla. È anche per questo che funziona bene nelle preparazioni cotte, non solo come accompagnamento a crudo.</p><p>In alcune prove ho usato anche il pepe verde. L’esperimento, almeno per me, non è stato convincente: tende a portare il piatto altrove.</p></li><li><p><strong>Riposo caldo.</strong></p><div class="image-row" data-layout="image-row" data-row-group="row-1777408743610-qdauvn" style="display:flex !important;flex-wrap:wrap !important;gap:12px !important;align-items:flex-start !important;justify-content:flex-start !important;clear:both !important;width:100% !important;margin:12px 0 !important;box-sizing:border-box !important;"><figure class="step-photo-right step-photo" style="display:block !important;float:none !important;clear:none !important;margin:0 !important;flex:0 0 calc((100% - 36px) / 4) !important;width:calc((100% - 36px) / 4) !important;max-width:calc((100% - 36px) / 4) !important;box-sizing:border-box !important;"><img src="../../foto/filettino-di-maiale/05.jpg" style="width:100%;display:block;" width="180"/></figure><figure class="step-photo-right step-photo" style="display:block !important;float:none !important;clear:none !important;margin:0 !important;flex:0 0 calc((100% - 36px) / 4) !important;width:calc((100% - 36px) / 4) !important;max-width:calc((100% - 36px) / 4) !important;box-sizing:border-box !important;"><img src="../../foto/filettino-di-maiale/04.jpg" style="width:100%;display:block;" width="157"/></figure></div><p>Tolgo il filetto dalla padella e lo avvolgo in stagnola con un rametto di rosmarino. Lo tengo in caldo, per esempio in forno a 50 °C, oppure ben coperto in un canovaccio. Questo passaggio è decisivo.</p><p>Il filetto continua a cuocere all’interno in modo più controllato, si assesta, e soprattutto conserva umidità.</p></li><li><p><strong>Taglio e finitura.</strong></p><div class="image-row" data-layout="image-row" data-row-group="row-1777408743610-0cmm22" style="display:flex !important;flex-wrap:wrap !important;gap:12px !important;align-items:flex-start !important;justify-content:flex-start !important;clear:both !important;width:100% !important;margin:12px 0 !important;box-sizing:border-box !important;"><figure class="step-photo-right step-photo" style="display:block !important;float:none !important;clear:none !important;margin:0 !important;flex:0 0 calc((100% - 36px) / 4) !important;width:calc((100% - 36px) / 4) !important;max-width:calc((100% - 36px) / 4) !important;box-sizing:border-box !important;"><img src="../../foto/filettino-di-maiale/08.jpg" style="width:100%;display:block;" width="231"/></figure><figure class="step-photo-right step-photo" style="display:block !important;float:none !important;clear:none !important;margin:0 !important;flex:0 0 calc((100% - 36px) / 4) !important;width:calc((100% - 36px) / 4) !important;max-width:calc((100% - 36px) / 4) !important;box-sizing:border-box !important;"><img src="../../foto/filettino-di-maiale/09.jpg" style="width:100%;display:block;" width="208"/></figure></div><p>Dopo il riposo, lo affetto a rondelle di circa 1 cm. Più sottili tendono ad asciugarsi troppo velocemente.</p><p>Le fette le passo nella padella della salsa, a fuoco basso, per pochi minuti. Aggiungo timo in quantità generosa. Deve sentirsi chiaramente, deve profumare il piatto. Ma è una soglia delicata: se si eccede, prende una nota quasi medicinale che copre tutto.</p><p>La carne di maiale passa rapidamente da una tonalità rosata a un colore beige spento: è un attimo, e quando succede è già troppo tardi. Quindi bastano pochi minuti.</p><p>Il punto giusto è un equilibrio sottile: non deve essere cruda (cosa che con il maiale fresco non è accettabile), ma non deve nemmeno arrivare a una cottura completa, che la renderebbe asciutta e stopposa.</p><p>Deve cuocere esattamente il necessario. Questo si sente.</p></li><li><p><strong>Servizio.</strong></p><p>Lo porto in tavola caldo, con patate.</p><p>In questo caso, per me, funzionano particolarmente bene in fricassea. Non dovrà aver perso di umidità e tenerezza.</p><p>Il segreto è tutto nella cottura protratta nella stagnola.</p></li><li><p><strong>Vino.</strong></p><p>Non ho dubbi: <a href="https://zlatanotok.hr/zlatan-plavac-hvar-2/" rel="noopener noreferrer" target="_blank">Zlatan Plavac.</a></p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><p>Il punto di cottura si gioca tutto sull’equilibrio fra rosolatura iniziale e riposo successivo.</p><p>La stagnola non serve a “tenere caldo” soltanto: serve a completare la cottura con maggiore dolcezza.</p><p>Se il filetto perde umidità, il piatto è compromesso: qui tenerezza e succosità contano più di qualunque salsa.</p><p>Conviene avere già pronto il forno tiepido prima di iniziare, se si sceglie questa soluzione per il riposo.</p><p>I tempi di riposo vanno rispettati: aiutano sia la struttura della carne sia l’integrazione del sapore.</p></section></div>
-<footer class="site-footer recipe-footer"><div class="site-footer-left"><a aria-label="Licenza Creative Commons BY-NC-SA" class="cc-link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><nav aria-label="Strumenti pagina" class="site-footer-center"><a aria-label="Informativa" class="site-footer-icon recipe-tool-info" href="../../informativa.html"><img alt="" src="../../foto/ui/info-light.svg"/></a><a aria-label="Scrivimi" class="site-footer-icon recipe-tool-mail" href="../../scrivimi.html"><img alt="" src="../../foto/ui/mail-light.svg"/></a><a aria-label="Stampa pagina" class="site-footer-icon js-print-link js-editorial-print-link recipe-tool-print" href="#"><img alt="" src="../../foto/ui/print-light.svg"/></a><a aria-label="Copia URL" class="site-footer-icon recipe-tool-link" href="#"><img alt="" src="../../foto/ui/link-light.svg"/></a></nav><div class="site-footer-right"><a class="site-footer-qr-link recipe-qrcode-link" href="../../foto/filettino-di-maiale/qr-code.png"><img alt="QR ricetta" src="../../foto/filettino-di-maiale/qr-code.png"/></a></div></footer>
+<div class="recipe-content"><h1>Aringhe in terrina</h1><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Antipasti</span></div><div class="meta-card"><strong>Geografia</strong><span>Francia - Alsazia</span></div><div class="meta-card"><strong>Fonte</strong><span>Jacqueline Gibert</span></div><div class="meta-card"><strong>Porzioni</strong><span>4-6</span></div><div class="meta-card"><strong>Tempo attivo</strong><span>15 min</span></div><div class="meta-card"><strong>Tempo cottura</strong><span></span></div><div class="meta-card"><strong>Tempo riposo</strong><span></span></div><div class="meta-card"><strong>Tempo totale</strong><span></span></div></section><section class="lead"><h2>Introduzione e contesto</h2><figure class="step-photo-large step-photo" style="width: 651.786px; max-width: 100%;"><img src="../../foto/aringhe-in-terrina/01.jpg" width="651.7857666015625"/></figure><p>Quando ero ragazzo erano spesso presenti in casa mia. Ottimi panini con il pane imburrato...</p></section><section class="block"><h2>Ingredienti</h2><table class="recipe-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Aringhe sciocche affumicate</td><td>1</td><td>n</td><td>confezione</td></tr><tr><td>Carote</td><td>2</td><td>n</td><td></td></tr><tr><td>Cipolla</td><td>2</td><td>n</td><td>bianca</td></tr><tr><td>Bacche di ginepro</td><td>5</td><td>n</td><td></td></tr><tr><td>Limoni BIO</td><td>2</td><td>n</td><td></td></tr><tr><td>Vino bianco secco</td><td>1</td><td>dl</td><td></td></tr><tr><td>Olio extra vergine d'oliva</td><td>qb</td><td></td><td></td></tr></tbody></table></section><section class="block preparation-block"><h2>Preparazione</h2><ol class="steps"><li><p><strong>Le aringhe.</strong></p><p>Gli ingredienti devono essere freschi e profumati. In particolare le aringhe. Devono essere delicate (per quanto possibile parlando di aringhe...)</p></li><li><p><strong>Tagliare.</strong></p><div class="image-row" data-layout="image-row" data-row-group="row-1777524131645-w45no6" style="display:flex !important;flex-wrap:wrap !important;gap:12px !important;align-items:flex-start !important;justify-content:flex-start !important;clear:both !important;width:100% !important;margin:12px 0 !important;box-sizing:border-box !important;"><figure class="step-photo-right step-photo" style="display:block !important;float:none !important;clear:none !important;margin:0 !important;flex:0 0 calc((100% - 36px) / 4) !important;width:calc((100% - 36px) / 4) !important;max-width:calc((100% - 36px) / 4) !important;box-sizing:border-box !important;"><img src="../../foto/aringhe-in-terrina/03.jpg" style="width:100%;display:block;" width="166"/></figure><figure class="step-photo-right step-photo" style="display:block !important;float:none !important;clear:none !important;margin:0 !important;flex:0 0 calc((100% - 36px) / 4) !important;width:calc((100% - 36px) / 4) !important;max-width:calc((100% - 36px) / 4) !important;box-sizing:border-box !important;"><img src="../../foto/aringhe-in-terrina/02.jpg" style="width:100%;display:block;" width="167"/></figure></div><p>Io taglio le aringhe a pezzi di circa 2 cm. Affetto le carote, le cipolle e un limone.</p></li><li><p><strong>Marinata.</strong></p><figure class="step-photo-right step-photo" style="width: 162px; max-width: 100%;"><img src="../../foto/aringhe-in-terrina/01.old.jpg" width="162"/></figure><p>Metto tutto in una terrina. Aggiungo il succo del limone restante, le bacche di ginepro e un poco di vino bianco, fino a coprire.</p></li><li><p><strong>Proteggere.</strong></p><p>Verso un filo d’olio per isolare dall’ossigeno. Copro e lascio in frigorifero per alcuni giorni, il tempo che si insaporisca bene.</p></li><li><p><strong>Disposizione.</strong></p><p>Servo con pane abbrustolito e leggermente imburrato.</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><p>Indicazione di tempo presente nel testo: 15 minuti<br/>alcuni giorni... diciamo un almeno un paio, e poi consumare un 2 o 3 giorni. Meglio</p></section></div>
+<footer class="site-footer recipe-footer"><div class="site-footer-left"><a aria-label="Licenza Creative Commons BY-NC-SA" class="cc-link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><nav aria-label="Strumenti pagina" class="site-footer-center"><a aria-label="Informativa" class="site-footer-icon recipe-tool-info" href="../../informativa.html"><img alt="" src="../../foto/ui/info-light.svg"/></a><a aria-label="Scrivimi" class="site-footer-icon recipe-tool-mail" href="../../scrivimi.html"><img alt="" src="../../foto/ui/mail-light.svg"/></a><a aria-label="Stampa pagina" class="site-footer-icon js-print-link js-editorial-print-link recipe-tool-print" href="#"><img alt="" src="../../foto/ui/print-light.svg"/></a><a aria-label="Copia URL" class="site-footer-icon recipe-tool-link" href="#"><img alt="" src="../../foto/ui/link-light.svg"/></a></nav><div class="site-footer-right"><a class="site-footer-qr-link recipe-qrcode-link" href="../../foto/aringhe-in-terrina/qr-code.png"><img alt="QR ricetta" src="../../foto/aringhe-in-terrina/qr-code.png"/></a></div></footer>
 </main>
 </main>
 </div>
@@ -539,7 +520,7 @@ document.addEventListener('DOMContentLoaded', function(){
     return overlay;
   }
 
-  var PRINT_ENGINE_SRC = '../../foto/ui/recipe-editorial-print.js?v=CMS2-R18-036';
+  var PRINT_ENGINE_SRC = '../../foto/ui/recipe-editorial-print.js?v=CMS2-R18-006';
   var printEnginePromise = null;
 
   function loadRecipeEditorialPrintEngine(){
@@ -704,55 +685,33 @@ document.addEventListener('DOMContentLoaded', function(){
 
     function enhanceIngredientsTable(){
       var section = null;
-      document.querySelectorAll('section').forEach(function(sec){
+      document.querySelectorAll('section.block').forEach(function(sec){
         if(section) return;
         var h2 = sec.querySelector(':scope > h2');
         if((h2 && h2.textContent || '').trim().toLowerCase() === 'ingredienti') section = sec;
       });
-      if(!section){
-        var fallbackTable = document.querySelector('.recipe-table.ingredients-table, .ingredients-table, .recipe-table');
-        if(fallbackTable) section = fallbackTable.closest('section') || fallbackTable.parentElement;
-      }
       if(!section) return;
-      var table = section.querySelector('table.recipe-table, table.ingredients-table, table');
-      if(!table) return;
-      table.classList.add('recipe-table');
-      table.classList.add('ingredients-table');
-      var tableWrap = table.closest('.table-wrap');
-      if(!tableWrap){
-        tableWrap = document.createElement('div');
-        tableWrap.className = 'table-wrap';
-        table.parentNode.insertBefore(tableWrap, table);
-        tableWrap.appendChild(table);
-      }
-      section.classList.add('ingredients-block');
+      var tableWrap = section.querySelector('.table-wrap');
+      if(!tableWrap || section.querySelector('.ingredients-expand-btn')) return;
       section.classList.add('ingredients-compact-table');
       var h2 = section.querySelector(':scope > h2');
-      var head = section.querySelector(':scope > .recipe-ingredients-head');
-      if(!head){
-        head = document.createElement('div');
-        head.className = 'recipe-ingredients-head';
-        if(h2){
-          h2.parentNode.insertBefore(head, h2);
-          head.appendChild(h2);
-        }else{
-          section.insertBefore(head, section.firstChild);
-          var newH = document.createElement('h2');
-          newH.textContent = 'Ingredienti';
-          head.appendChild(newH);
-        }
+      var head = document.createElement('div');
+      head.className = 'recipe-ingredients-head';
+      if(h2){
+        h2.parentNode.insertBefore(head, h2);
+        head.appendChild(h2);
+      }else{
+        section.insertBefore(head, section.firstChild);
+        var newH = document.createElement('h2');
+        newH.textContent = 'Ingredienti';
+        head.appendChild(newH);
       }
-      var btn = head.querySelector('.ingredients-expand-btn') || section.querySelector('.ingredients-expand-btn');
-      if(!btn){
-        btn = document.createElement('button');
-        btn.type = 'button';
-        btn.className = 'ingredients-expand-btn';
-        btn.textContent = 'Apri tabella completa';
-        btn.setAttribute('aria-haspopup', 'dialog');
-        head.appendChild(btn);
-      }
-      if(btn.dataset.ingredientsOverlayBound === '1') return;
-      btn.dataset.ingredientsOverlayBound = '1';
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'ingredients-expand-btn';
+      btn.textContent = 'Apri tabella completa';
+      btn.setAttribute('aria-haspopup', 'dialog');
+      head.appendChild(btn);
       btn.addEventListener('click', function(){
         var overlay = ensureIngredientsOverlay();
         var target = overlay.querySelector('#ingredientsOverlayContent');

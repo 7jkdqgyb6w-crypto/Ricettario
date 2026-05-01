@@ -149,22 +149,6 @@
     "img": "../foto/battuta-di-manzo-alla-boscaiola/01.jpg"
   },
   {
-    "slug": "bibliografia-bagna-cauda",
-    "titolo": "Bibliografia bagna cauda",
-    "categoria": "",
-    "geografia": "",
-    "regime_minimo": "vegano",
-    "stagioni": [
-      "inverno"
-    ],
-    "ingredienti_chiave": [],
-    "termini_ricerca": [],
-    "search_text": "bibliografia bagna cauda inverno vegano",
-    "metadati_fonte": "auto",
-    "href": "../ricette/bibliografia-bagna-cauda/index.html",
-    "img": "../foto/bibliografia-bagna-cauda/01.jpg"
-  },
-  {
     "slug": "bigoli-in-salsa",
     "titolo": "Bigoli in salsa",
     "categoria": "Primi",
@@ -207,7 +191,7 @@
     ],
     "ingredienti_chiave": [],
     "termini_ricerca": [],
-    "search_text": "calamari ripieni secondi italia - puglia nicola f. qui il calamaro fa la differenza... se è troppo fresco può risultare sorprendentemente duro. meglio che sia stato abbattuto oppure lasciato riposare qualche giorno. calamari uova prezzemolo pecorino romano aglio pelati san marzano dop olio extra verdine d'oliva sale pepe tutto_anno pescetariano",
+    "search_text": "calamari ripieni secondi italia - puglia nicola f. qui il calamaro fa la differenza... se è troppo fresco può risultare sorprendentemente duro. meglio che sia stato abbattuto oppure lasciato riposare un paio di giorni. calamari uova prezzemolo pecorino romano aglio pelati san marzano dop olio extra verdine d'oliva pepe sale tutto_anno pescetariano",
     "metadati_fonte": "auto",
     "href": "../ricette/calamari-ripieni/index.html",
     "img": "../foto/calamari-ripieni/01.jpg"

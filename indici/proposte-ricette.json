@@ -71,8 +71,8 @@
       "porzioni": "4-6",
       "tempo_attivo": "30-45 min",
       "tempo_cottura": "2 h circa",
-      "tempo_riposo": "",
-      "tempo_totale": "da verificare",
+      "tempo_riposo": "30 min",
+      "tempo_totale": "include riposo",
       "ingredienti_chiave": [
         "Anatra",
         "Soppressa veneta",
@@ -88,6 +88,7 @@
     },
     "note": [
       "range standard per secondo piatto da validare",
+      "riposo dedotto da testo",
       "tempo cottura ricavato da durate esplicite presenti nel testo",
       "tempo attivo stimato da numero ingredienti/passaggi",
       "ingredienti chiave proposti da tabella ingredienti/titolo"
@@ -100,9 +101,9 @@
     "proposte": {
       "porzioni": "4-6",
       "tempo_attivo": "30-45 min",
-      "tempo_cottura": "6 min circa",
-      "tempo_riposo": "",
-      "tempo_totale": "da verificare",
+      "tempo_cottura": "30-45 min",
+      "tempo_riposo": "30 min",
+      "tempo_totale": "include riposo",
       "ingredienti_chiave": [
         "Canoccia",
         "Insalata novella"
@@ -116,6 +117,7 @@
     },
     "note": [
       "range standard per antipasto/salsa/contorno",
+      "riposo dedotto da testo",
       "tempo cottura ricavato da durate esplicite presenti nel testo",
       "tempo attivo stimato da numero ingredienti/passaggi",
       "ingredienti chiave proposti da tabella ingredienti/titolo"
@@ -129,8 +131,8 @@
       "porzioni": "4-6",
       "tempo_attivo": "30-45 min",
       "tempo_cottura": "15 min circa",
-      "tempo_riposo": "",
-      "tempo_totale": "da verificare",
+      "tempo_riposo": "30 min",
+      "tempo_totale": "include riposo",
       "ingredienti_chiave": [
         "Aringhe sciocche affumicate",
         "Carote",
@@ -146,6 +148,7 @@
     },
     "note": [
       "range standard per antipasto/salsa/contorno",
+      "riposo dedotto da testo",
       "tempo cottura ricavato da durate esplicite presenti nel testo",
       "tempo attivo stimato da numero ingredienti/passaggi",
       "ingredienti chiave proposti da tabella ingredienti/titolo"
@@ -159,8 +162,8 @@
       "porzioni": "4-6",
       "tempo_attivo": "30-45 min",
       "tempo_cottura": "2 h circa",
-      "tempo_riposo": "",
-      "tempo_totale": "da verificare",
+      "tempo_riposo": "30 min",
+      "tempo_totale": "include riposo",
       "ingredienti_chiave": [
         "Arista di maiale",
         "Birra ambrata",
@@ -176,6 +179,7 @@
     },
     "note": [
       "range standard per secondo piatto da validare",
+      "riposo dedotto da testo",
       "tempo cottura ricavato da durate esplicite presenti nel testo",
       "tempo attivo stimato da numero ingredienti/passaggi",
       "ingredienti chiave proposti da tabella ingredienti/titolo"
@@ -275,35 +279,6 @@
     "stato": "da_validare"
   },
   {
-    "slug": "bibliografia-bagna-cauda",
-    "titolo": "Bibliografia bagna cauda",
-    "proposte": {
-      "porzioni": "4-6",
-      "tempo_attivo": "45-60 min",
-      "tempo_cottura": "1 h 30 min - 2 h",
-      "tempo_riposo": "",
-      "tempo_totale": "da verificare",
-      "ingredienti_chiave": [
-        "bibliografia",
-        "bagna",
-        "cauda"
-      ]
-    },
-    "confidenza": "bassa",
-    "confidenza_campi": {
-      "porzioni": "bassa",
-      "tempi": "bassa",
-      "ingredienti_chiave": "media"
-    },
-    "note": [
-      "range standard per antipasto/salsa/contorno",
-      "cottura lunga stimata da tecnica/parole chiave",
-      "tempo attivo stimato da numero ingredienti/passaggi",
-      "ingredienti chiave proposti da tabella ingredienti/titolo"
-    ],
-    "stato": "da_validare"
-  },
-  {
     "slug": "bigoli-in-salsa",
     "titolo": "Bigoli in salsa",
     "proposte": {
@@ -366,9 +341,9 @@
     "proposte": {
       "porzioni": "4-6",
       "tempo_attivo": "30-45 min",
-      "tempo_cottura": "15-30 min",
-      "tempo_riposo": "",
-      "tempo_totale": "da verificare",
+      "tempo_cottura": "30-45 min",
+      "tempo_riposo": "30 min",
+      "tempo_totale": "include riposo",
       "ingredienti_chiave": [
         "Calamari",
         "Pecorino romano",
@@ -378,12 +353,13 @@
     "confidenza": "bassa",
     "confidenza_campi": {
       "porzioni": "bassa",
-      "tempi": "bassa",
+      "tempi": "media",
       "ingredienti_chiave": "media"
     },
     "note": [
       "range standard per secondo piatto da validare",
-      "cottura breve stimata per assenza di segnali di lunga cottura",
+      "riposo dedotto da testo",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
       "tempo attivo stimato da numero ingredienti/passaggi",
       "ingredienti chiave proposti da tabella ingredienti/titolo"
     ],

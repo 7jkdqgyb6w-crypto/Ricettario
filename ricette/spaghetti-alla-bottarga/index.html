@@ -268,7 +268,162 @@
     padding-top:0 !important;
   }
 }
-}</style>
+}
+
+/* R18-003 — Ingredienti e tempi: mock implementato per valutazione complessiva */
+.recipe-quick-meta{
+  display:flex;
+  flex-wrap:wrap;
+  gap:.55rem .75rem;
+  max-width:min(100%, var(--reading));
+  margin:1.1rem auto 2rem;
+  padding:.65rem .75rem;
+  border:1px solid var(--line);
+  background:rgba(255,255,255,.48);
+}
+.recipe-quick-meta span{
+  display:inline-flex;
+  gap:.35rem;
+  align-items:baseline;
+  font-size:.92rem;
+  line-height:1.25;
+  color:var(--text);
+}
+.recipe-quick-meta strong{
+  text-transform:uppercase;
+  letter-spacing:.035em;
+  font-size:.72rem;
+  color:var(--muted);
+}
+.meta-card.recipe-meta-secondary{
+  display:none !important;
+}
+.recipe-ingredients-head{
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap:1rem;
+  margin-bottom:.35rem;
+}
+.recipe-ingredients-head h2{
+  margin:0;
+  transform:translateY(1px);
+}
+.ingredients-expand-btn{
+  border:1px solid var(--line);
+  background:rgba(255,255,255,.75);
+  color:var(--link);
+  border-radius:999px;
+  padding:.35rem .65rem;
+  font:inherit;
+  font-size:.82rem;
+  cursor:pointer;
+}
+.ingredients-compact-table .table-wrap{
+  margin-top:.2rem;
+}
+.ingredients-compact-table .recipe-table{
+  width:100%;
+  font-size:.93rem;
+}
+.ingredients-compact-table .recipe-table th,
+.ingredients-compact-table .recipe-table td{
+  padding:.32rem .45rem;
+  line-height:1.25;
+}
+.ingredients-compact-table .recipe-table th:nth-child(1),
+.ingredients-compact-table .recipe-table td:nth-child(1){min-width:10rem;}
+.ingredients-compact-table .recipe-table th:nth-child(4),
+.ingredients-compact-table .recipe-table td:nth-child(4){min-width:9rem;}
+.recipe-page .ingredients-compact-table .recipe-table th:nth-child(4),
+.recipe-page .ingredients-compact-table .recipe-table td:nth-child(4){
+  display:none;
+}
+.ingredients-overlay .recipe-table th:nth-child(4),
+.ingredients-overlay .recipe-table td:nth-child(4){
+  display:table-cell;
+}
+.recipe-table tr.ingredient-section-row td,
+.ingredients-table tr.ingredient-section-row td{
+  display:table-cell !important;
+  background:rgba(255,255,255,.58);
+  border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);
+  font-weight:700;
+  text-transform:uppercase;
+  letter-spacing:.035em;
+  color:#566064;
+  font-size:.86rem;
+  line-height:1.25;
+  padding:.42rem .45rem;
+}
+.ingredients-overlay{
+  position:fixed;
+  inset:0;
+  z-index:5000;
+  display:none;
+  align-items:center;
+  justify-content:center;
+  padding:2rem;
+  background:rgba(20,25,26,.66);
+}
+.ingredients-overlay.is-open{display:flex;}
+.ingredients-overlay-panel{
+  width:min(980px,96vw);
+  max-height:88vh;
+  overflow:auto;
+  background:var(--bg);
+  border:1px solid var(--line);
+  box-shadow:0 16px 42px rgba(0,0,0,.24);
+  padding:1.25rem;
+}
+.ingredients-overlay-head{
+  display:flex;
+  justify-content:space-between;
+  gap:1rem;
+  align-items:center;
+  margin-bottom:.85rem;
+}
+.ingredients-overlay-head h2{margin:0;}
+.ingredients-overlay-close{
+  border:0;
+  background:transparent;
+  font-size:1.8rem;
+  line-height:1;
+  cursor:pointer;
+}
+@media (max-width:768px){
+  .recipe-quick-meta{margin-top:.8rem;}
+  .recipe-quick-meta span{flex:1 1 100%;}
+  .ingredients-overlay{padding:.75rem;}
+  .ingredients-overlay-panel{max-height:92vh;padding:.9rem;}
+}
+
+
+/* R18-035 — metadati principali su 4 colonne, secondari nella quick-meta */
+.recipe-page .meta-grid{
+  display:grid;
+  grid-template-columns:repeat(4, minmax(0, 1fr));
+  gap:.85rem 1.5rem;
+  margin-bottom:1.05rem;
+}
+.recipe-page .meta-grid .meta-card{
+  padding-top:.42rem;
+}
+.recipe-page .meta-grid .meta-card strong{
+  margin-bottom:.08rem;
+}
+.recipe-page .meta-grid .meta-card:nth-child(n+5){
+  display:none !important;
+}
+@media (max-width: 900px){
+  .recipe-page .meta-grid{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap:.75rem 1.15rem;
+  }
+}
+
+</style>
   <style id="recipe-lightbox-style">.recipe-lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.88);display:flex;align-items:center;justify-content:center;padding:2rem;z-index:9999;cursor:zoom-out;}
 .recipe-lightbox-overlay.is-hidden{display:none !important;}
 .recipe-lightbox-frame{max-width:96vw;max-height:96vh;display:flex;flex-direction:column;gap:.75rem;align-items:center;}
@@ -296,7 +451,7 @@ main figure img{cursor:zoom-in;}
 
 <main class="recipe-page">
 <main class="recipe-page">
-<div class="recipe-content"><h1>Spaghetti alla bottarga</h1><section class="lead"><h2>Introduzione e contesto</h2><p>Provenienza: liberamente ispirato da una cena di Franco Chiaromonte. Ritengo che esista solo un modo per assaporare l'essenza di quella prelibatezza che è la bottarga di muggine.</p><figure class="step-photo step-photo-large" style="width: 651.786px; max-width: 100%;"><img src="../../foto/spaghetti-alla-bottarga/IMG_0034.jpg" width="651.7857666015625"/></figure><p>La bottarga è un ingrediente che non perdona.<br/>Se sbagli temperatura o sequenza, diventa amara e piatta. Se la tratti bene, invece, resta marina, profonda, quasi vellutata.</p><p>Io la uso sempre di muggine: più fine, meno aggressiva, non copre il piatto.</p><p>Il punto chiave è uno solo: <strong>non deve mai cuocere</strong>.<br/>Deve sciogliersi con il calore della pasta, non con il fuoco.</p><p>Il pangrattato tostato, mescolato alla bottarga, non è un’aggiunta folkloristica: serve a distribuire meglio il sapore e a evitare che si compatti. È tecnica, non decorazione.</p></section><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Primi</span></div><div class="meta-card"><strong>Geografia</strong><span>Sicilia</span></div><div class="meta-card"><strong>Fonte</strong><span>Franco C.</span></div></section><section class="block"><h2>Ingredienti</h2><table class="recipe-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Spaghetti</td><td></td><td></td><td>Senatore Cappelli</td></tr><tr><td>Bottarga di muggine</td><td></td><td></td><td>evitare assolutamente quella già grattugiata</td></tr><tr><td>Aglio</td><td></td><td></td><td></td></tr><tr><td>Olio extra vergine d'oliva</td><td></td><td></td><td></td></tr><tr><td>Peperoncino</td><td></td><td></td><td></td></tr><tr><td>Pangrattato</td><td></td><td></td><td></td></tr><tr><td>Prezzemolo. </td><td></td><td></td><td></td></tr></tbody></table></section><section class="preparation-block block"><h2>Preparazione</h2><ol class="steps"><li><p><strong>Pangrattato.</strong></p><p>In una padella piccola: cucchiaio di olio EVO, pangrattato. Tosto a fuoco medio fino a un colore nocciola chiaro. Deve restare asciutto e fragrante, non unto. Tolgo dal fuoco e, quando è freddo, lo mescolo con: bottarga grattata (rapporto circa 1:2).Tengo da parte.</p></li><li><p><strong>Soffritto.</strong></p><p>In una padella ampia: olio extra vergine d'oliva (non troppo caldo), aglio in camicia o leggermente schiacciato, peperoncino (meglio intero o a pezzi grossi).</p><p>Lascio dorare appena l’aglio, senza farlo scurire. Spengo l’aglio e lo tolgo.</p><p>Aggiungo un po’ di prezzemolo tritato fine. Deve restare un olio profumato, non un soffritto dominante.</p></li><li><p><strong>Pasta.</strong></p><p>Cuocio gli spaghetti in acqua meno salata del normale: Li scolo molto al dente.</p></li><li><p><strong>Mantecatura.</strong></p><p>Trasferisco gli spaghetti nella padella con l’olio. Salto 30–40 secondi al massimo. Se serve, aggiungo pochissima acqua di cottura (un cucchiaio) solo per legare. Poi: spengo il fuoco.</p></li><li><p><strong>Spadellare.</strong></p><figure class="step-photo-right step-photo" style="width: 46%; max-width: 46%;"><img src="../../foto/spaghetti-alla-bottarga/IMG_9899.jpg"/></figure><p>A questo punto aggiungo:</p><ul><li><p>bottarga + pangrattato</p></li><li><p>qualche lamella sottile di bottarga</p></li><li><p>poco prezzemolo (facoltativo)</p></li></ul><p>Mescolo rapidamente. La bottarga deve sciogliersi appena, non cuocere.</p></li><li><p><strong>Impiattamento.</strong></p><figure class="step-photo-right step-photo" style="width: 288px; max-width: 100%;"><img src="../../foto/spaghetti-alla-bottarga/IMG_0034-1-.jpg" width="288"/></figure><p>Piatto caldo. Formo un nido alto con gli spaghetti. Completo con: lamelle sottilissime di bottarga un pizzico di pangrattato un filo minimo di olio extra vergine d'oliva.</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><p><strong>Bottarga:</strong></p><p>meglio di muggine: più elegante, meno aggressiva</p><p>grattugiata fine per la parte che deve sciogliersi</p><p>a lamelle sottilissime per la finitura</p><p><strong>Errore principale:</strong></p><p>aggiungerla con il fuoco acceso → perde profumo e diventa amara</p><p><strong>Olio:</strong></p><p>mai troppo caldo: rovina gli aromi della bottarga</p><p><strong>Pangrattato:</strong></p><p>serve a separare e distribuire la bottarga</p><p>evita grumi e migliora la diffusione del sapore</p><p><strong>Peperoncino:</strong></p><p>meglio intero o poco rotto → profuma senza coprire</p><p><strong>Variante:</strong></p><p>una grattata minima di scorza di limone (quasi impercettibile) può “accendere” il piatto</p><p><strong>Pasta:</strong></p><p>trafilata al bronzo, superficie ruvida</p><p>funzionano bene anche grani antichi (Senatore Cappelli, Timilia)</p><p><strong>Vino:</strong></p><p>Grillo<br/>alternative: Vermentino di Gallura, Nuragus, Etna Bianco</p></section></div>
+<div class="recipe-content"><h1>Spaghetti alla bottarga</h1><section class="lead"><h2>Introduzione e contesto</h2><p>Provenienza: liberamente ispirato da una cena di Franco Chiaromonte. Ritengo che esista solo un modo per assaporare l'essenza di quella prelibatezza che è la bottarga di muggine.</p><figure class="step-photo step-photo-large" style="width: 651.786px; max-width: 100%;"><img src="../../foto/spaghetti-alla-bottarga/IMG_0034.jpg" width="651.7857666015625"/></figure><p>La bottarga è un ingrediente che non perdona.<br/>Se sbagli temperatura o sequenza, diventa amara e piatta. Se la tratti bene, invece, resta marina, profonda, quasi vellutata.</p><p>Io la uso sempre di muggine: più fine, meno aggressiva, non copre il piatto.</p><p>Il punto chiave è uno solo: <strong>non deve mai cuocere</strong>.<br/>Deve sciogliersi con il calore della pasta, non con il fuoco.</p><p>Il pangrattato tostato, mescolato alla bottarga, non è un’aggiunta folkloristica: serve a distribuire meglio il sapore e a evitare che si compatti. È tecnica, non decorazione.</p></section><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Primi</span></div><div class="meta-card"><strong>Geografia</strong><span>Sicilia</span></div><div class="meta-card"><strong>Fonte</strong><span>Franco C.</span></div></section><section class="block ingredients-block"><h2>Ingredienti</h2><div class="table-wrap"><table class="recipe-table ingredients-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Spaghetti</td><td></td><td></td><td>Senatore Cappelli</td></tr><tr><td>Bottarga di muggine</td><td></td><td></td><td>evitare assolutamente quella già grattugiata</td></tr><tr><td>Aglio</td><td></td><td></td><td></td></tr><tr><td>Olio extra vergine d'oliva</td><td></td><td></td><td></td></tr><tr><td>Peperoncino</td><td></td><td></td><td></td></tr><tr><td>Pangrattato</td><td></td><td></td><td></td></tr><tr><td>Prezzemolo. </td><td></td><td></td><td></td></tr></tbody></table></div></section><section class="preparation-block block"><h2>Preparazione</h2><ol class="steps"><li><p><strong>Pangrattato.</strong></p><p>In una padella piccola: cucchiaio di olio EVO, pangrattato. Tosto a fuoco medio fino a un colore nocciola chiaro. Deve restare asciutto e fragrante, non unto. Tolgo dal fuoco e, quando è freddo, lo mescolo con: bottarga grattata (rapporto circa 1:2).Tengo da parte.</p></li><li><p><strong>Soffritto.</strong></p><p>In una padella ampia: olio extra vergine d'oliva (non troppo caldo), aglio in camicia o leggermente schiacciato, peperoncino (meglio intero o a pezzi grossi).</p><p>Lascio dorare appena l’aglio, senza farlo scurire. Spengo l’aglio e lo tolgo.</p><p>Aggiungo un po’ di prezzemolo tritato fine. Deve restare un olio profumato, non un soffritto dominante.</p></li><li><p><strong>Pasta.</strong></p><p>Cuocio gli spaghetti in acqua meno salata del normale: Li scolo molto al dente.</p></li><li><p><strong>Mantecatura.</strong></p><p>Trasferisco gli spaghetti nella padella con l’olio. Salto 30–40 secondi al massimo. Se serve, aggiungo pochissima acqua di cottura (un cucchiaio) solo per legare. Poi: spengo il fuoco.</p></li><li><p><strong>Spadellare.</strong></p><figure class="step-photo-right step-photo" style="width: 46%; max-width: 46%;"><img src="../../foto/spaghetti-alla-bottarga/IMG_9899.jpg"/></figure><p>A questo punto aggiungo:</p><ul><li><p>bottarga + pangrattato</p></li><li><p>qualche lamella sottile di bottarga</p></li><li><p>poco prezzemolo (facoltativo)</p></li></ul><p>Mescolo rapidamente. La bottarga deve sciogliersi appena, non cuocere.</p></li><li><p><strong>Impiattamento.</strong></p><figure class="step-photo-right step-photo" style="width: 288px; max-width: 100%;"><img src="../../foto/spaghetti-alla-bottarga/IMG_0034-1-.jpg" width="288"/></figure><p>Piatto caldo. Formo un nido alto con gli spaghetti. Completo con: lamelle sottilissime di bottarga un pizzico di pangrattato un filo minimo di olio extra vergine d'oliva.</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><p><strong>Bottarga:</strong></p><p>meglio di muggine: più elegante, meno aggressiva</p><p>grattugiata fine per la parte che deve sciogliersi</p><p>a lamelle sottilissime per la finitura</p><p><strong>Errore principale:</strong></p><p>aggiungerla con il fuoco acceso → perde profumo e diventa amara</p><p><strong>Olio:</strong></p><p>mai troppo caldo: rovina gli aromi della bottarga</p><p><strong>Pangrattato:</strong></p><p>serve a separare e distribuire la bottarga</p><p>evita grumi e migliora la diffusione del sapore</p><p><strong>Peperoncino:</strong></p><p>meglio intero o poco rotto → profuma senza coprire</p><p><strong>Variante:</strong></p><p>una grattata minima di scorza di limone (quasi impercettibile) può “accendere” il piatto</p><p><strong>Pasta:</strong></p><p>trafilata al bronzo, superficie ruvida</p><p>funzionano bene anche grani antichi (Senatore Cappelli, Timilia)</p><p><strong>Vino:</strong></p><p>Grillo<br/>alternative: Vermentino di Gallura, Nuragus, Etna Bianco</p></section></div>
 <footer class="site-footer recipe-footer"><div class="site-footer-left"><a aria-label="Licenza Creative Commons BY-NC-SA" class="cc-link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><nav aria-label="Strumenti pagina" class="site-footer-center"><a aria-label="Informativa" class="site-footer-icon recipe-tool-info" href="../../informativa.html"><img alt="" src="../../foto/ui/info-light.svg"/></a><a aria-label="Scrivimi" class="site-footer-icon recipe-tool-mail" href="../../scrivimi.html"><img alt="" src="../../foto/ui/mail-light.svg"/></a><a aria-label="Stampa pagina" class="site-footer-icon js-print-link js-editorial-print-link recipe-tool-print" href="#"><img alt="" src="../../foto/ui/print-light.svg"/></a><a aria-label="Copia URL" class="site-footer-icon recipe-tool-link" href="#"><img alt="" src="../../foto/ui/link-light.svg"/></a></nav><div class="site-footer-right"><a class="site-footer-qr-link recipe-qrcode-link" href="../../foto/spaghetti-alla-bottarga/qr-code.png"><img alt="QR ricetta" src="../../foto/spaghetti-alla-bottarga/qr-code.png"/></a></div></footer>
 </main>
 </main>
@@ -384,7 +539,7 @@ document.addEventListener('DOMContentLoaded', function(){
     return overlay;
   }
 
-  var PRINT_ENGINE_SRC = '../../foto/ui/recipe-editorial-print.js?v=CMS2-R17-113';
+  var PRINT_ENGINE_SRC = '../../foto/ui/recipe-editorial-print.js?v=CMS2-R18-036';
   var printEnginePromise = null;
 
   function loadRecipeEditorialPrintEngine(){
@@ -483,6 +638,136 @@ document.addEventListener('DOMContentLoaded', function(){
         }catch(e){}
       });
     }
+
+    function normalizeLabel(text){
+      return (text || '').toLowerCase().replace(/\s+/g, ' ').trim();
+    }
+
+    function getMetaValue(label){
+      var wanted = normalizeLabel(label);
+      var cards = document.querySelectorAll('.meta-grid .meta-card');
+      for(var i=0;i<cards.length;i++){
+        var strong = cards[i].querySelector('strong');
+        var span = cards[i].querySelector('span');
+        if(normalizeLabel(strong && strong.textContent) === wanted){
+          return (span && span.textContent || '').replace(/\s+/g, ' ').trim();
+        }
+      }
+      return '';
+    }
+
+    function enhanceRecipeQuickMeta(){
+      var grid = document.querySelector('.recipe-content .meta-grid, .meta-grid');
+      if(!grid) return;
+      var secondaryLabels = {'porzioni':1,'tempo attivo':1,'tempo cottura':1,'tempo riposo':1,'tempo totale':1};
+      grid.querySelectorAll('.meta-card').forEach(function(card){
+        var strong = card.querySelector('strong');
+        var key = normalizeLabel(strong && strong.textContent);
+        if(secondaryLabels[key]) card.classList.add('recipe-meta-secondary');
+      });
+      if(document.querySelector('.recipe-quick-meta')) return;
+      var items = [
+        ['Porzioni', getMetaValue('Porzioni')],
+        ['Tempo attivo', getMetaValue('Tempo attivo')],
+        ['Cottura', getMetaValue('Tempo cottura')],
+        ['Riposo', getMetaValue('Tempo riposo')],
+        ['Totale', getMetaValue('Tempo totale')]
+      ].filter(function(x){ return !!x[1]; });
+      if(!items.length) return;
+      var quick = document.createElement('section');
+      quick.className = 'recipe-quick-meta';
+      quick.setAttribute('aria-label', 'Tempi e porzioni');
+      quick.innerHTML = items.map(function(x){
+        return '<span><strong>' + x[0] + ':</strong> ' + x[1] + '</span>';
+      }).join('<span class="recipe-quick-meta-sep" aria-hidden="true">|</span>');
+      grid.insertAdjacentElement('afterend', quick);
+    }
+
+    function ensureIngredientsOverlay(){
+      var overlay = document.getElementById('ingredientsOverlay');
+      if(overlay) return overlay;
+      overlay = document.createElement('div');
+      overlay.id = 'ingredientsOverlay';
+      overlay.className = 'ingredients-overlay';
+      overlay.setAttribute('aria-hidden', 'true');
+      overlay.innerHTML = '<div class="ingredients-overlay-panel" role="dialog" aria-modal="true" aria-label="Ingredienti completi"><div class="ingredients-overlay-head"><h2>Ingredienti completi</h2><button class="ingredients-overlay-close" type="button" aria-label="Chiudi">×</button></div><div id="ingredientsOverlayContent"></div></div>';
+      document.body.appendChild(overlay);
+      function close(){
+        overlay.classList.remove('is-open');
+        overlay.setAttribute('aria-hidden', 'true');
+      }
+      overlay.querySelector('.ingredients-overlay-close').addEventListener('click', close);
+      overlay.addEventListener('click', function(ev){ if(ev.target === overlay) close(); });
+      document.addEventListener('keydown', function(ev){ if(ev.key === 'Escape') close(); });
+      return overlay;
+    }
+
+    function enhanceIngredientsTable(){
+      var section = null;
+      document.querySelectorAll('section').forEach(function(sec){
+        if(section) return;
+        var h2 = sec.querySelector(':scope > h2');
+        if((h2 && h2.textContent || '').trim().toLowerCase() === 'ingredienti') section = sec;
+      });
+      if(!section){
+        var fallbackTable = document.querySelector('.recipe-table.ingredients-table, .ingredients-table, .recipe-table');
+        if(fallbackTable) section = fallbackTable.closest('section') || fallbackTable.parentElement;
+      }
+      if(!section) return;
+      var table = section.querySelector('table.recipe-table, table.ingredients-table, table');
+      if(!table) return;
+      table.classList.add('recipe-table');
+      table.classList.add('ingredients-table');
+      var tableWrap = table.closest('.table-wrap');
+      if(!tableWrap){
+        tableWrap = document.createElement('div');
+        tableWrap.className = 'table-wrap';
+        table.parentNode.insertBefore(tableWrap, table);
+        tableWrap.appendChild(table);
+      }
+      section.classList.add('ingredients-block');
+      section.classList.add('ingredients-compact-table');
+      var h2 = section.querySelector(':scope > h2');
+      var head = section.querySelector(':scope > .recipe-ingredients-head');
+      if(!head){
+        head = document.createElement('div');
+        head.className = 'recipe-ingredients-head';
+        if(h2){
+          h2.parentNode.insertBefore(head, h2);
+          head.appendChild(h2);
+        }else{
+          section.insertBefore(head, section.firstChild);
+          var newH = document.createElement('h2');
+          newH.textContent = 'Ingredienti';
+          head.appendChild(newH);
+        }
+      }
+      var btn = head.querySelector('.ingredients-expand-btn') || section.querySelector('.ingredients-expand-btn');
+      if(!btn){
+        btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'ingredients-expand-btn';
+        btn.textContent = 'Apri tabella completa';
+        btn.setAttribute('aria-haspopup', 'dialog');
+        head.appendChild(btn);
+      }
+      if(btn.dataset.ingredientsOverlayBound === '1') return;
+      btn.dataset.ingredientsOverlayBound = '1';
+      btn.addEventListener('click', function(){
+        var overlay = ensureIngredientsOverlay();
+        var target = overlay.querySelector('#ingredientsOverlayContent');
+        target.innerHTML = '';
+        var clone = tableWrap.cloneNode(true);
+        clone.querySelectorAll('[contenteditable]').forEach(function(el){ el.removeAttribute('contenteditable'); });
+        target.appendChild(clone);
+        overlay.classList.add('is-open');
+        overlay.setAttribute('aria-hidden', 'false');
+      });
+    }
+
+    enhanceRecipeQuickMeta();
+    enhanceIngredientsTable();
+
   });
 })();</script>
 </body>

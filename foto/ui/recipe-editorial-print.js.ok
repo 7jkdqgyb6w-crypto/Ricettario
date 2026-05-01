@@ -117,16 +117,13 @@ function escapeHtml(value){
       if(!list) return collectSectionHtml(section, {cls:'print-body'});
       var out = document.createElement('ol');
       out.className = 'print-steps';
-      Array.from(list.children).forEach(function(li, idx){
+      Array.from(list.children).forEach(function(li){
         if(!li || li.tagName.toLowerCase() !== 'li') return;
         var clone = sanitizeElementForPrint(li);
         clone.removeAttribute('style');
-        // R18-037: la paginazione manuale può distribuire i <li> su più <ol>.
-        // Il valore esplicito mantiene la numerazione naturale anche a cambio pagina.
-        clone.setAttribute('value', String(idx + 1));
         out.appendChild(clone);
       });
-      return '<section class="print-section print-body">' + out.outerHTML + '</section>'; // R18-037: numerazione naturale preservata con value sui li
+      return '<section class="print-section print-body">' + out.outerHTML + '</section>'; // R18-021: numerazione naturale del browser, nessun numero JS artificiale
     }
 
     function collectRecipeMeta(){
@@ -141,13 +138,9 @@ function escapeHtml(value){
     }
 
     function collectIngredientsHtml(section){
-      if(!section){
-        return '';
-      }
-      var table = section.querySelector('table.recipe-table') || section.querySelector('table.ingredients-table') || section.querySelector('table');
-      if(!table){
-        return '';
-      }
+      if(!section) return '';
+      var table = section.querySelector('table.recipe-table');
+      if(!table) return '';
       var rows = [];
       var ingredientNames = [];
       table.querySelectorAll('tbody tr, tr').forEach(function(tr){
@@ -182,9 +175,7 @@ function escapeHtml(value){
         line += '</div>';
         rows.push(line);
       });
-      if(!rows.length){
-        return '';
-      }
+      if(!rows.length) return '';
       var meta = collectRecipeMeta();
       var timeRows = [];
       if(meta['porzioni']) timeRows.push(['Porzioni', meta['porzioni']]);
@@ -251,22 +242,14 @@ function escapeHtml(value){
       var title = root.querySelector('h1');
       var lead = root.querySelector('section.lead');
       var notes = root.querySelector('section.notes');
-      // R18-029: riconoscimento sezioni robusto rispetto al DOM modificato
-      // dall'overlay Ingredienti. La fonte primaria sono le classi stabili;
-      // il riconoscimento per titolo resta solo come fallback retrocompatibile.
-      var ingredientsSection = root.querySelector('section.ingredients-block') || null;
-      var prepSection = root.querySelector('section.preparation-block') || null;
-      if(!ingredientsSection || !prepSection){
-        root.querySelectorAll('section.block, section').forEach(function(sec){
-          if(ingredientsSection && prepSection) return;
-          var h2 = sec.querySelector(':scope > h2') ||
-                   sec.querySelector(':scope > .recipe-ingredients-head > h2') ||
-                   sec.querySelector(':scope > .recipe-preparation-head > h2');
-          var label = (h2 ? h2.textContent : '').trim().toLowerCase();
-          if(!ingredientsSection && label === 'ingredienti') ingredientsSection = sec;
-          else if(!prepSection && label === 'preparazione') prepSection = sec;
-        });
-      }
+      var ingredientsSection = null;
+      var prepSection = null;
+      root.querySelectorAll('section.block').forEach(function(sec){
+        var h2 = sec.querySelector(':scope > h2');
+        var label = (h2 ? h2.textContent : '').trim().toLowerCase();
+        if(!ingredientsSection && label === 'ingredienti') ingredientsSection = sec;
+        else if(!prepSection && label === 'preparazione') prepSection = sec;
+      });
 
       var ccLinkNode = document.querySelector('.cc-link');
       var ccImgNode = document.querySelector('.site-footer-left img');
@@ -326,8 +309,7 @@ function escapeHtml(value){
       html += '<article class="print-doc">';
       html += '<h1 class="print-title">' + escapeHtml(title ? title.textContent.trim() : document.title) + '</h1>';
       html += collectIntroHtml(lead);
-      var ingredientsHtml = collectIngredientsHtml(ingredientsSection);
-      html += ingredientsHtml;
+      html += collectIngredientsHtml(ingredientsSection);
       html += collectPreparationHtml(prepSection);
       var notesHtml = collectNotesHtml(notes);
       html += '<section class="print-endmatter">';
@@ -551,7 +533,7 @@ function injectPrintIngredientDecor(doc){
   var rasterScale = 0.60;
   var whiteThreshold = 235;
   var ingredientAssetRelpaths = Array.isArray(window.__PRINT_INGREDIENT_ASSET_RELPATHS__) ? window.__PRINT_INGREDIENT_ASSET_RELPATHS__.slice() : [];
-  var ingredientBaseHref = '/Ingredienti/';
+  var ingredientBaseHref = '/ingredienti/';
 
   function resolveIngredientAssetUrl(relpath){
     if(!relpath) return '';
@@ -1431,6 +1413,7 @@ function injectPrintIngredientDecor(doc){
       var occPct = ((mask.occupiedPixels / mask.totalPixels) * 100).toFixed(1);
       var statLine = 'p' + page + ' top=' + pageTopScaled + ' bottom=' + pageBottomScaled + ' canvas=' + snapshotCanvas.width + 'x' + snapshotCanvas.height + ' free=' + freePct + '% occupied=' + occPct + '% candidates=' + candidates.length + ' rects=' + rects.length;
       stats.push(statLine);
+      try{ console.log('PAGE', page, {top:pageTopScaled, bottom:pageBottomScaled, canvas:{w:snapshotCanvas.width, h:snapshotCanvas.height}, freePct:freePct, occPct:occPct, candidates:candidates.length, rects:rects.length, assetPool:eligible.pool.length}); }catch(_e){}
       if(rectInfo && !Array.isArray(rectInfo)){
         if(typeof rectInfo.freePct === 'undefined') rectInfo.freePct = freePct;
         if(typeof rectInfo.occPct === 'undefined') rectInfo.occPct = occPct;
@@ -1448,6 +1431,7 @@ function injectPrintIngredientDecor(doc){
     return Promise.all(pagePromises).then(function(results){
       var debugPages = results.filter(function(item){ return item && item.dataUrl; });
       if(false && debugPages.length) appendDebugPages(debugPages);
+      try{ console.log('print decor ready', {whiteThreshold:whiteThreshold, rasterScale:rasterScale, stats:stats, minRectMm:'40x30', assetPool:eligible.pool.length}); }catch(_e){}
       return {status:'ok', stats:stats, assetPool:eligible.pool.length};
     });
   }).catch(function(err){
@@ -1458,9 +1442,8 @@ function injectPrintIngredientDecor(doc){
 }
 
     function runEditorialPrint(){
-      return new Promise(function(resolve){
-        var html = buildPrintDocument();
-        if(!html){ resolve({status:'no-print-document'}); return; }
+      var html = buildPrintDocument();
+      if(!html) return;
       var iframe = document.getElementById('recipeEditorialPrintFrame');
       if(iframe && iframe.parentNode) iframe.parentNode.removeChild(iframe);
       iframe = document.createElement('iframe');
@@ -1507,9 +1490,7 @@ function injectPrintIngredientDecor(doc){
       iframe.onload = function(){ prepareAndTrigger(); };
       w.addEventListener('afterprint', cleanup, {once:true});
       setTimeout(prepareAndTrigger, 600);
-      setTimeout(function(){ cleanup(); resolve({status:'queued'}); }, 5000);
-      setTimeout(function(){ resolve({status:'queued'}); }, 700);
-      });
+      setTimeout(cleanup, 5000);
     }
 
     

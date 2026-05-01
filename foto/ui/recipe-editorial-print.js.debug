@@ -1,4 +1,5 @@
 (function(){
+  try{ console.warn('[PRINT][BOOT] CMS2-R18-031 engine loaded', {src:(document.currentScript && document.currentScript.src)||null, href:window.location.href}); }catch(_e){}
 function escapeHtml(value){
       return String(value == null ? '' : value)
         .replace(/&/g, '&amp;')
@@ -117,16 +118,13 @@ function escapeHtml(value){
       if(!list) return collectSectionHtml(section, {cls:'print-body'});
       var out = document.createElement('ol');
       out.className = 'print-steps';
-      Array.from(list.children).forEach(function(li, idx){
+      Array.from(list.children).forEach(function(li){
         if(!li || li.tagName.toLowerCase() !== 'li') return;
         var clone = sanitizeElementForPrint(li);
         clone.removeAttribute('style');
-        // R18-037: la paginazione manuale può distribuire i <li> su più <ol>.
-        // Il valore esplicito mantiene la numerazione naturale anche a cambio pagina.
-        clone.setAttribute('value', String(idx + 1));
         out.appendChild(clone);
       });
-      return '<section class="print-section print-body">' + out.outerHTML + '</section>'; // R18-037: numerazione naturale preservata con value sui li
+      return '<section class="print-section print-body">' + out.outerHTML + '</section>'; // R18-021: numerazione naturale del browser, nessun numero JS artificiale
     }
 
     function collectRecipeMeta(){
@@ -142,10 +140,20 @@ function escapeHtml(value){
 
     function collectIngredientsHtml(section){
       if(!section){
+        console.warn('[PRINT][ING] collectIngredientsHtml: section mancante');
         return '';
       }
       var table = section.querySelector('table.recipe-table') || section.querySelector('table.ingredients-table') || section.querySelector('table');
+      console.log('[PRINT][ING] collectIngredientsHtml', {
+        sectionTag: section.tagName,
+        sectionClass: section.className,
+        hasTable: !!table,
+        tableClass: table ? table.className : null,
+        rows: table ? table.querySelectorAll('tbody tr, tr').length : 0,
+        cells: table ? table.querySelectorAll('td').length : 0
+      });
       if(!table){
+        console.warn('[PRINT][ING] collectIngredientsHtml: tabella mancante nella section Ingredienti', section);
         return '';
       }
       var rows = [];
@@ -182,7 +190,9 @@ function escapeHtml(value){
         line += '</div>';
         rows.push(line);
       });
+      console.log('[PRINT][ING] righe box raccolte', {rows: rows.length, ingredientNames: ingredientNames.length});
       if(!rows.length){
+        console.warn('[PRINT][ING] collectIngredientsHtml: nessuna riga utile estratta dalla tabella');
         return '';
       }
       var meta = collectRecipeMeta();
@@ -208,6 +218,7 @@ function escapeHtml(value){
       html += '</div>';
       html += '<aside class="print-ingredients-media" aria-hidden="true"></aside>';
       html += '</section>';
+      console.log('[PRINT][ING] html box costruito', {length: html.length, isLong: isLong});
       return html;
     }
 
@@ -256,6 +267,14 @@ function escapeHtml(value){
       // il riconoscimento per titolo resta solo come fallback retrocompatibile.
       var ingredientsSection = root.querySelector('section.ingredients-block') || null;
       var prepSection = root.querySelector('section.preparation-block') || null;
+      console.log('[PRINT][ING] buildPrintDocument: selezione iniziale', {
+        rootClass: root.className,
+        ingredientsFound: !!ingredientsSection,
+        ingredientsClass: ingredientsSection ? ingredientsSection.className : null,
+        ingredientsTables: ingredientsSection ? ingredientsSection.querySelectorAll('table').length : 0,
+        prepFound: !!prepSection,
+        prepClass: prepSection ? prepSection.className : null
+      });
       if(!ingredientsSection || !prepSection){
         root.querySelectorAll('section.block, section').forEach(function(sec){
           if(ingredientsSection && prepSection) return;
@@ -327,6 +346,10 @@ function escapeHtml(value){
       html += '<h1 class="print-title">' + escapeHtml(title ? title.textContent.trim() : document.title) + '</h1>';
       html += collectIntroHtml(lead);
       var ingredientsHtml = collectIngredientsHtml(ingredientsSection);
+      console.log('[PRINT][ING] buildPrintDocument: inserimento box', {
+        ingredientsHtmlLength: ingredientsHtml ? ingredientsHtml.length : 0,
+        containsKitchenCard: !!(ingredientsHtml && ingredientsHtml.indexOf('print-kitchen-card') !== -1)
+      });
       html += ingredientsHtml;
       html += collectPreparationHtml(prepSection);
       var notesHtml = collectNotesHtml(notes);
@@ -551,7 +574,7 @@ function injectPrintIngredientDecor(doc){
   var rasterScale = 0.60;
   var whiteThreshold = 235;
   var ingredientAssetRelpaths = Array.isArray(window.__PRINT_INGREDIENT_ASSET_RELPATHS__) ? window.__PRINT_INGREDIENT_ASSET_RELPATHS__.slice() : [];
-  var ingredientBaseHref = '/Ingredienti/';
+  var ingredientBaseHref = '/ingredienti/';
 
   function resolveIngredientAssetUrl(relpath){
     if(!relpath) return '';
@@ -1431,6 +1454,7 @@ function injectPrintIngredientDecor(doc){
       var occPct = ((mask.occupiedPixels / mask.totalPixels) * 100).toFixed(1);
       var statLine = 'p' + page + ' top=' + pageTopScaled + ' bottom=' + pageBottomScaled + ' canvas=' + snapshotCanvas.width + 'x' + snapshotCanvas.height + ' free=' + freePct + '% occupied=' + occPct + '% candidates=' + candidates.length + ' rects=' + rects.length;
       stats.push(statLine);
+      try{ console.log('PAGE', page, {top:pageTopScaled, bottom:pageBottomScaled, canvas:{w:snapshotCanvas.width, h:snapshotCanvas.height}, freePct:freePct, occPct:occPct, candidates:candidates.length, rects:rects.length, assetPool:eligible.pool.length}); }catch(_e){}
       if(rectInfo && !Array.isArray(rectInfo)){
         if(typeof rectInfo.freePct === 'undefined') rectInfo.freePct = freePct;
         if(typeof rectInfo.occPct === 'undefined') rectInfo.occPct = occPct;
@@ -1448,6 +1472,7 @@ function injectPrintIngredientDecor(doc){
     return Promise.all(pagePromises).then(function(results){
       var debugPages = results.filter(function(item){ return item && item.dataUrl; });
       if(false && debugPages.length) appendDebugPages(debugPages);
+      try{ console.log('print decor ready', {whiteThreshold:whiteThreshold, rasterScale:rasterScale, stats:stats, minRectMm:'40x30', assetPool:eligible.pool.length}); }catch(_e){}
       return {status:'ok', stats:stats, assetPool:eligible.pool.length};
     });
   }).catch(function(err){
@@ -1458,6 +1483,7 @@ function injectPrintIngredientDecor(doc){
 }
 
     function runEditorialPrint(){
+      try{ console.warn('[PRINT][BOOT] runEditorialPrint CMS2-R18-031', {href:window.location.href, engineScript:(document.querySelector('script[data-recipe-editorial-print-engine="1"]')||{}).src||null}); }catch(_e){}
       return new Promise(function(resolve){
         var html = buildPrintDocument();
         if(!html){ resolve({status:'no-print-document'}); return; }

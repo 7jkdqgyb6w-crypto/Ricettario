@@ -117,16 +117,13 @@ function escapeHtml(value){
       if(!list) return collectSectionHtml(section, {cls:'print-body'});
       var out = document.createElement('ol');
       out.className = 'print-steps';
-      Array.from(list.children).forEach(function(li, idx){
+      Array.from(list.children).forEach(function(li){
         if(!li || li.tagName.toLowerCase() !== 'li') return;
         var clone = sanitizeElementForPrint(li);
         clone.removeAttribute('style');
-        // R18-037: la paginazione manuale può distribuire i <li> su più <ol>.
-        // Il valore esplicito mantiene la numerazione naturale anche a cambio pagina.
-        clone.setAttribute('value', String(idx + 1));
         out.appendChild(clone);
       });
-      return '<section class="print-section print-body">' + out.outerHTML + '</section>'; // R18-037: numerazione naturale preservata con value sui li
+      return '<section class="print-section print-body">' + out.outerHTML + '</section>'; // R18-021: numerazione naturale del browser, nessun numero JS artificiale
     }
 
     function collectRecipeMeta(){
@@ -1431,6 +1428,7 @@ function injectPrintIngredientDecor(doc){
       var occPct = ((mask.occupiedPixels / mask.totalPixels) * 100).toFixed(1);
       var statLine = 'p' + page + ' top=' + pageTopScaled + ' bottom=' + pageBottomScaled + ' canvas=' + snapshotCanvas.width + 'x' + snapshotCanvas.height + ' free=' + freePct + '% occupied=' + occPct + '% candidates=' + candidates.length + ' rects=' + rects.length;
       stats.push(statLine);
+      try{ console.log('PAGE', page, {top:pageTopScaled, bottom:pageBottomScaled, canvas:{w:snapshotCanvas.width, h:snapshotCanvas.height}, freePct:freePct, occPct:occPct, candidates:candidates.length, rects:rects.length, assetPool:eligible.pool.length}); }catch(_e){}
       if(rectInfo && !Array.isArray(rectInfo)){
         if(typeof rectInfo.freePct === 'undefined') rectInfo.freePct = freePct;
         if(typeof rectInfo.occPct === 'undefined') rectInfo.occPct = occPct;
@@ -1448,6 +1446,7 @@ function injectPrintIngredientDecor(doc){
     return Promise.all(pagePromises).then(function(results){
       var debugPages = results.filter(function(item){ return item && item.dataUrl; });
       if(false && debugPages.length) appendDebugPages(debugPages);
+      try{ console.log('print decor ready', {whiteThreshold:whiteThreshold, rasterScale:rasterScale, stats:stats, minRectMm:'40x30', assetPool:eligible.pool.length}); }catch(_e){}
       return {status:'ok', stats:stats, assetPool:eligible.pool.length};
     });
   }).catch(function(err){

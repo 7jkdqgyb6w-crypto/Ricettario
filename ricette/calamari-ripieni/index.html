@@ -16,6 +16,27 @@
 .recipe-page .recipe-content > h1{
   margin: 0 0 1.2rem 0;
 }
+.recipe-page .meta-grid{
+  display:grid;
+  grid-template-columns:repeat(4, minmax(0, 1fr));
+  gap:.85rem 1.5rem;
+  margin-bottom:1.05rem;
+}
+.recipe-page .meta-grid .meta-card{
+  padding-top:.42rem;
+}
+.recipe-page .meta-grid .meta-card strong{
+  margin-bottom:.08rem;
+}
+.recipe-page .meta-grid .meta-card:nth-child(n+5){
+  display:none !important;
+}
+@media (max-width: 900px){
+  .recipe-page .meta-grid{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap:.75rem 1.15rem;
+  }
+}
 .site-header nav{
   display:flex;
   align-items:center;
@@ -268,6 +289,121 @@
     padding-top:0 !important;
   }
 }
+}
+
+/* R18-003 — Ingredienti e tempi: mock implementato per valutazione complessiva */
+.recipe-quick-meta{
+  display:flex;
+  flex-wrap:wrap;
+  gap:.55rem .75rem;
+  max-width:min(100%, var(--reading));
+  margin:1.1rem auto 2rem;
+  padding:.65rem .75rem;
+  border:1px solid var(--line);
+  background:rgba(255,255,255,.48);
+}
+.recipe-quick-meta span{
+  display:inline-flex;
+  gap:.35rem;
+  align-items:baseline;
+  font-size:.92rem;
+  line-height:1.25;
+  color:var(--text);
+}
+.recipe-quick-meta strong{
+  text-transform:uppercase;
+  letter-spacing:.035em;
+  font-size:.72rem;
+  color:var(--muted);
+}
+.meta-card.recipe-meta-secondary{
+  display:none !important;
+}
+.recipe-ingredients-head{
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap:1rem;
+  margin-bottom:.35rem;
+}
+.recipe-ingredients-head h2{
+  margin:0;
+  transform:translateY(1px);
+}
+.ingredients-expand-btn{
+  border:1px solid var(--line);
+  background:rgba(255,255,255,.75);
+  color:var(--link);
+  border-radius:999px;
+  padding:.35rem .65rem;
+  font:inherit;
+  font-size:.82rem;
+  cursor:pointer;
+}
+.ingredients-compact-table .table-wrap{
+  margin-top:.2rem;
+}
+.ingredients-compact-table .recipe-table{
+  width:100%;
+  font-size:.93rem;
+}
+.ingredients-compact-table .recipe-table th,
+.ingredients-compact-table .recipe-table td{
+  padding:.32rem .45rem;
+  line-height:1.25;
+}
+.ingredients-compact-table .recipe-table th:nth-child(1),
+.ingredients-compact-table .recipe-table td:nth-child(1){min-width:10rem;}
+.ingredients-compact-table .recipe-table th:nth-child(4),
+.ingredients-compact-table .recipe-table td:nth-child(4){min-width:9rem;}
+.recipe-page .ingredients-compact-table .recipe-table th:nth-child(4),
+.recipe-page .ingredients-compact-table .recipe-table td:nth-child(4){
+  display:none;
+}
+.ingredients-overlay .recipe-table th:nth-child(4),
+.ingredients-overlay .recipe-table td:nth-child(4){
+  display:table-cell;
+}
+.ingredients-overlay{
+  position:fixed;
+  inset:0;
+  z-index:5000;
+  display:none;
+  align-items:center;
+  justify-content:center;
+  padding:2rem;
+  background:rgba(20,25,26,.66);
+}
+.ingredients-overlay.is-open{display:flex;}
+.ingredients-overlay-panel{
+  width:min(980px,96vw);
+  max-height:88vh;
+  overflow:auto;
+  background:var(--bg);
+  border:1px solid var(--line);
+  box-shadow:0 16px 42px rgba(0,0,0,.24);
+  padding:1.25rem;
+}
+.ingredients-overlay-head{
+  display:flex;
+  justify-content:space-between;
+  gap:1rem;
+  align-items:center;
+  margin-bottom:.85rem;
+}
+.ingredients-overlay-head h2{margin:0;}
+.ingredients-overlay-close{
+  border:0;
+  background:transparent;
+  font-size:1.8rem;
+  line-height:1;
+  cursor:pointer;
+}
+@media (max-width:768px){
+  .recipe-quick-meta{margin-top:.8rem;}
+  .recipe-quick-meta span{flex:1 1 100%;}
+  .ingredients-overlay{padding:.75rem;}
+  .ingredients-overlay-panel{max-height:92vh;padding:.9rem;}
 }</style>
   <style id="recipe-lightbox-style">.recipe-lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.88);display:flex;align-items:center;justify-content:center;padding:2rem;z-index:9999;cursor:zoom-out;}
 .recipe-lightbox-overlay.is-hidden{display:none !important;}
@@ -296,7 +432,7 @@ main figure img{cursor:zoom-in;}
 
 <main class="recipe-page">
 <main class="recipe-page">
-<div class="recipe-content"><h1>Calamari ripieni</h1><section class="lead" data-box-id="rich-box-1"><h2>Introduzione e contesto</h2><figure class="step-photo step-photo-large" style="width: 651.786px; max-width: 100%;"><img src="../../foto/calamari-ripieni/01.jpg" width="651.7857666015625"/></figure><p>Qui il calamaro fa la differenza...<br/>Se è troppo fresco può risultare sorprendentemente duro.<br/>Meglio che sia stato abbattuto oppure lasciato riposare qualche giorno.</p></section><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Secondi</span></div><div class="meta-card"><strong>Geografia</strong><span>Italia - Puglia</span></div><div class="meta-card"><strong>Fonte</strong><span>Nicola F.</span></div></section><section class="block"><h2>Ingredienti</h2><table class="recipe-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Calamari</td><td>10</td><td>n</td><td></td></tr><tr><td>Uova</td><td>10</td><td>n</td><td></td></tr><tr><td>Prezzemolo</td><td>qb</td><td></td><td></td></tr><tr><td>Pecorino romano</td><td>150</td><td>g</td><td>Bronzetto</td></tr><tr><td>Aglio</td><td>1</td><td>spicchio</td><td></td></tr><tr><td>Pelati San Marzano DOP</td><td></td><td></td><td></td></tr><tr><td>Olio extra verdine d'oliva</td><td></td><td></td><td></td></tr><tr><td>Sale</td><td></td><td></td><td></td></tr><tr><td>Pepe</td><td></td><td></td><td></td></tr></tbody></table></section><section class="preparation-block block"><h2>Preparazione</h2><ol class="steps"><li><p><strong>I calamari.</strong></p><p>li pulisco e levo pure la pelle.</p><p>Trito finemente i tentacoli più lunghi.</p></li><li><p><strong>Il ripieno.</strong></p><div class="image-row" data-layout="image-row" data-row-group="row-1777376473351-yee4lx" style="display:flex !important;flex-wrap:wrap !important;gap:12px !important;align-items:flex-start !important;justify-content:flex-start !important;clear:both !important;width:100% !important;margin:12px 0 !important;box-sizing:border-box !important;"><figure class="step-photo-right step-photo" style="display:block !important;float:none !important;clear:none !important;margin:0 !important;flex:0 0 calc((100% - 36px) / 4) !important;width:calc((100% - 36px) / 4) !important;max-width:calc((100% - 36px) / 4) !important;box-sizing:border-box !important;"><img src="../../foto/calamari-ripieni/04.jpg" style="width:100%;display:block;" width="140"/><figcaption>Pulisco e trituro</figcaption></figure><figure class="step-photo-right step-photo" style="display:block !important;float:none !important;clear:none !important;margin:0 !important;flex:0 0 calc((100% - 36px) / 4) !important;width:calc((100% - 36px) / 4) !important;max-width:calc((100% - 36px) / 4) !important;box-sizing:border-box !important;"><img src="../../foto/calamari-ripieni/07.jpg" style="width:100%;display:block;"/><figcaption>Cuocio dolcemente</figcaption></figure><figure class="step-photo-right step-photo" style="display:block !important;float:none !important;clear:none !important;margin:0 !important;flex:0 0 calc((100% - 36px) / 4) !important;width:calc((100% - 36px) / 4) !important;max-width:calc((100% - 36px) / 4) !important;box-sizing:border-box !important;"><img src="../../foto/calamari-ripieni/05.jpg" style="width:100%;display:block;"/><figcaption>Limite della cottura</figcaption></figure></div><p>Io preparo per prima cosa il ripieno. Cuocio molto lentamente in padella, con poco olio, il trito di calamaro, le uova sbattute con pecorino, sale, pepe e prezzemolo. Qui bisogna fare attenzione: non deve diventare una frittata. Devono restare morbide, quasi cremose. Per riuscirci tengo il fuoco basso e interrompo spesso la cottura, spostando la padella dal calore per non far salire troppo la temperatura. Quando sono appena rapprese le tolgo e le lascio raffreddare un poco, in modo che non continuino a solidificare.</p></li><li><p><strong>La farcitura.</strong></p><p>Riempio i calamari con questo composto, senza forzarli troppo, e li richiudo con la testa. Li cucio con ago e filo bianco.</p></li><li><p><strong>La cottura.</strong></p><div class="image-row" data-layout="image-row" data-row-group="row-1777376473352-96iap9" style="display:flex !important;flex-wrap:wrap !important;gap:12px !important;align-items:flex-start !important;justify-content:flex-start !important;clear:both !important;width:100% !important;margin:12px 0 !important;box-sizing:border-box !important;"><figure class="step-photo-right step-photo" style="display:block !important;float:none !important;clear:none !important;margin:0 !important;flex:0 0 calc((100% - 36px) / 4) !important;width:calc((100% - 36px) / 4) !important;max-width:calc((100% - 36px) / 4) !important;box-sizing:border-box !important;"><img src="../../foto/calamari-ripieni/calamari-ripieni-08.jpg" style="width:100%;display:block;" width="120"/><figcaption>Faccio l'aglio rosso</figcaption></figure><figure class="step-photo-right step-photo" style="display:block !important;float:none !important;clear:none !important;margin:0 !important;flex:0 0 calc((100% - 36px) / 4) !important;width:calc((100% - 36px) / 4) !important;max-width:calc((100% - 36px) / 4) !important;box-sizing:border-box !important;"><img src="../../foto/calamari-ripieni/06.jpg" style="width:100%;display:block;"/><figcaption>Rosolo i calameri</figcaption></figure></div><p>In una padella larga a sufficienza rendo l'aglio rossa in olio extra vergine d'olive.</p><p>Quindi rosolo i calamari.</p><p>Quando l'acqua dei calamari si sarà consumata abbastanza, aggiungere pelati strizzati, prezzemolo, sale e pepe. </p><p>Se usiamo del pomodoro solo scottato e cuociamo più a lungo i calamari prima di aggiungere la salsa, il risultato è un sapore più fresco.</p></li><li><p><strong>Presentazione.</strong></p><figure class="step-photo-right step-photo" style="width: 120px; max-width: 100%;"><img src="../../foto/calamari-ripieni/01.old.jpg" width="120"/></figure><p>Affettati e ricoperti in parte con la loro salsa.</p></li></ol></section><section class="notes" data-box-id="rich-box-3"><h2>Note e osservazioni</h2><p><strong>La cottura dei calamari è sempre un equilibrio.</strong><br/>Poco cotti sono teneri. <br/>Se si insiste un po’ diventano duri. <br/>Solo con una cottura lunga tornano morbidi.<br/>Qui conviene stare nella prima zona: cottura controllata, senza prolungarla troppo.  </p></section></div>
+<div class="recipe-content"><h1>Calamari ripieni</h1><section class="lead" data-box-id="rich-box-1"><h2>Introduzione e contesto</h2><figure class="step-photo-large step-photo" style="width: 651.786px; max-width: 100%;"><img src="../../foto/calamari-ripieni/01.jpg" width="651.7857666015625"/></figure><p>Qui il calamaro fa la differenza...<br/>Se è troppo fresco può risultare sorprendentemente duro.<br/>Meglio che sia stato abbattuto oppure lasciato riposare un paio di giorni.</p></section><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Secondi</span></div><div class="meta-card"><strong>Geografia</strong><span>Italia - Puglia</span></div><div class="meta-card"><strong>Fonte</strong><span>Nicola F.</span></div><div class="meta-card"><strong>Porzioni</strong><span>4-6</span></div><div class="meta-card"><strong>Tempo attivo</strong><span>30-45 min</span></div><div class="meta-card"><strong>Tempo cottura</strong><span>15-30 min</span></div><div class="meta-card"><strong>Tempo riposo</strong><span></span></div><div class="meta-card"><strong>Tempo totale</strong><span></span></div></section><section class="block ingredients-block"><h2>Ingredienti</h2><div class="table-wrap"><table class="recipe-table ingredients-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Calamari</td><td>10</td><td>n</td><td></td></tr><tr><td>Uova</td><td>10</td><td>n</td><td></td></tr><tr><td>Prezzemolo</td><td>qb</td><td></td><td></td></tr><tr><td>Pecorino romano</td><td>150</td><td>g</td><td>Bronzetto</td></tr><tr><td>Aglio</td><td>1</td><td>spicchio</td><td></td></tr><tr><td>Pelati San Marzano DOP</td><td>800</td><td>g</td><td></td></tr><tr><td>Olio extra verdine d'oliva</td><td>qb</td><td></td><td></td></tr><tr><td>Pepe</td><td></td><td></td><td></td></tr><tr><td>Sale</td><td></td><td></td><td></td></tr></tbody></table></div></section><section class="preparation-block block"><h2>Preparazione</h2><ol class="steps"><li><p><strong>I calamari.</strong></p><p>li pulisco e levo pure la pelle.</p><p>Trito finemente i tentacoli più lunghi.</p></li><li><p><strong>Il ripieno.</strong></p><div class="image-row" data-layout="image-row" data-row-group="row-1777492758690-15tjol" style="display:flex !important;flex-wrap:wrap !important;gap:12px !important;align-items:flex-start !important;justify-content:flex-start !important;clear:both !important;width:100% !important;margin:12px 0 !important;box-sizing:border-box !important;"><figure class="step-photo-right step-photo" style="display:block !important;float:none !important;clear:none !important;margin:0 !important;flex:0 0 calc((100% - 36px) / 4) !important;width:calc((100% - 36px) / 4) !important;max-width:calc((100% - 36px) / 4) !important;box-sizing:border-box !important;"><img src="../../foto/calamari-ripieni/04.jpg" style="width:100%;display:block;" width="140"/><figcaption>Pulisco e trituro</figcaption></figure><figure class="step-photo-right step-photo" style="display:block !important;float:none !important;clear:none !important;margin:0 !important;flex:0 0 calc((100% - 36px) / 4) !important;width:calc((100% - 36px) / 4) !important;max-width:calc((100% - 36px) / 4) !important;box-sizing:border-box !important;"><img src="../../foto/calamari-ripieni/07.jpg" style="width:100%;display:block;"/><figcaption>Cuocio dolcemente</figcaption></figure><figure class="step-photo-right step-photo" style="display:block !important;float:none !important;clear:none !important;margin:0 !important;flex:0 0 calc((100% - 36px) / 4) !important;width:calc((100% - 36px) / 4) !important;max-width:calc((100% - 36px) / 4) !important;box-sizing:border-box !important;"><img src="../../foto/calamari-ripieni/05.jpg" style="width:100%;display:block;"/><figcaption>Limite della cottura</figcaption></figure></div><p>Io preparo per prima cosa il ripieno. Cuocio molto lentamente in padella, con poco olio, il trito di calamaro, le uova sbattute con pecorino, sale, pepe e prezzemolo. Qui bisogna fare attenzione: non deve diventare una frittata. Devono restare morbide, quasi cremose. Per riuscirci tengo il fuoco basso e interrompo spesso la cottura, spostando la padella dal calore per non far salire troppo la temperatura. Quando sono appena rapprese le tolgo e le lascio raffreddare un poco, in modo che non continuino a solidificare.</p></li><li><p><strong>La farcitura.</strong></p><p>Riempio i calamari con questo composto, senza forzarli troppo, e li richiudo con la testa. Li cucio con ago e filo bianco.</p></li><li><p><strong>La cottura.</strong></p><div class="image-row" data-layout="image-row" data-row-group="row-1777492758691-u7ek85" style="display:flex !important;flex-wrap:wrap !important;gap:12px !important;align-items:flex-start !important;justify-content:flex-start !important;clear:both !important;width:100% !important;margin:12px 0 !important;box-sizing:border-box !important;"><figure class="step-photo-right step-photo" style="display:block !important;float:none !important;clear:none !important;margin:0 !important;flex:0 0 calc((100% - 36px) / 4) !important;width:calc((100% - 36px) / 4) !important;max-width:calc((100% - 36px) / 4) !important;box-sizing:border-box !important;"><img src="../../foto/calamari-ripieni/calamari-ripieni-08.jpg" style="width:100%;display:block;" width="120"/><figcaption>Faccio l'aglio rosso</figcaption></figure><figure class="step-photo-right step-photo" style="display:block !important;float:none !important;clear:none !important;margin:0 !important;flex:0 0 calc((100% - 36px) / 4) !important;width:calc((100% - 36px) / 4) !important;max-width:calc((100% - 36px) / 4) !important;box-sizing:border-box !important;"><img src="../../foto/calamari-ripieni/06.jpg" style="width:100%;display:block;"/><figcaption>Rosolo i calameri</figcaption></figure></div><p>In una padella larga a sufficienza rendo l'aglio rossa in olio extra vergine d'olive.</p><p>Quindi rosolo i calamari.</p><p>Quando l'acqua dei calamari si sarà consumata abbastanza, aggiungere pelati strizzati, prezzemolo, sale e pepe. </p><p>Se usiamo del pomodoro solo scottato e cuociamo più a lungo i calamari prima di aggiungere la salsa, il risultato è un sapore più fresco.</p></li><li><p><strong>Presentazione.</strong></p><figure class="step-photo-right step-photo" style="width: 264px; max-width: 100%;"><img src="../../foto/calamari-ripieni/01.old.jpg" width="264"/></figure><p>Affettati e ricoperti in parte con la loro salsa.</p></li></ol></section><section class="notes" data-box-id="rich-box-3"><h2>Note e osservazioni</h2><p><strong>La cottura dei calamari è sempre un equilibrio.</strong><br/>Poco cotti sono teneri. <br/>Se si insiste un po’ diventano duri. <br/>Solo con una cottura lunga tornano morbidi.<br/>Qui conviene stare nella prima zona: cottura controllata, senza prolungarla troppo.  </p></section></div>
 <div class="image-row" data-layout="image-row" style="display:flex !important;flex-wrap:wrap !important;gap:12px !important;align-items:flex-start !important;justify-content:flex-start !important;clear:both !important;width:100% !important;margin:12px 0 !important;box-sizing:border-box !important;"></div><div class="image-row" data-layout="image-row" style="display:flex !important;flex-wrap:wrap !important;gap:12px !important;align-items:flex-start !important;justify-content:flex-start !important;clear:both !important;width:100% !important;margin:12px 0 !important;box-sizing:border-box !important;"></div><div class="image-row" data-layout="image-row" style="display:flex !important;flex-wrap:wrap !important;gap:12px !important;align-items:flex-start !important;justify-content:flex-start !important;clear:both !important;width:100% !important;margin:12px 0 !important;box-sizing:border-box !important;"></div>
 <footer class="site-footer recipe-footer"><div class="site-footer-left"><a aria-label="Licenza Creative Commons BY-NC-SA" class="cc-link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><nav aria-label="Strumenti pagina" class="site-footer-center"><a aria-label="Informativa" class="site-footer-icon recipe-tool-info" href="../../informativa.html"><img alt="" src="../../foto/ui/info-light.svg"/></a><a aria-label="Scrivimi" class="site-footer-icon recipe-tool-mail" href="../../scrivimi.html"><img alt="" src="../../foto/ui/mail-light.svg"/></a><a aria-label="Stampa pagina" class="site-footer-icon js-print-link js-editorial-print-link recipe-tool-print" href="#"><img alt="" src="../../foto/ui/print-light.svg"/></a><a aria-label="Copia URL" class="site-footer-icon recipe-tool-link" href="#"><img alt="" src="../../foto/ui/link-light.svg"/></a></nav><div class="site-footer-right"><a class="site-footer-qr-link recipe-qrcode-link" href="../../foto/calamari-ripieni/qr-code.png"><img alt="QR ricetta" src="../../foto/calamari-ripieni/qr-code.png"/></a></div></footer>
 </main>
@@ -385,7 +521,7 @@ document.addEventListener('DOMContentLoaded', function(){
     return overlay;
   }
 
-  var PRINT_ENGINE_SRC = '../../foto/ui/recipe-editorial-print.js?v=CMS2-R17-113';
+  var PRINT_ENGINE_SRC = '../../foto/ui/recipe-editorial-print.js?v=CMS2-R18-036';
   var printEnginePromise = null;
 
   function loadRecipeEditorialPrintEngine(){
@@ -484,6 +620,136 @@ document.addEventListener('DOMContentLoaded', function(){
         }catch(e){}
       });
     }
+
+    function normalizeLabel(text){
+      return (text || '').toLowerCase().replace(/\s+/g, ' ').trim();
+    }
+
+    function getMetaValue(label){
+      var wanted = normalizeLabel(label);
+      var cards = document.querySelectorAll('.meta-grid .meta-card');
+      for(var i=0;i<cards.length;i++){
+        var strong = cards[i].querySelector('strong');
+        var span = cards[i].querySelector('span');
+        if(normalizeLabel(strong && strong.textContent) === wanted){
+          return (span && span.textContent || '').replace(/\s+/g, ' ').trim();
+        }
+      }
+      return '';
+    }
+
+    function enhanceRecipeQuickMeta(){
+      var grid = document.querySelector('.recipe-content .meta-grid, .meta-grid');
+      if(!grid) return;
+      var secondaryLabels = {'porzioni':1,'tempo attivo':1,'tempo cottura':1,'tempo riposo':1,'tempo totale':1};
+      grid.querySelectorAll('.meta-card').forEach(function(card){
+        var strong = card.querySelector('strong');
+        var key = normalizeLabel(strong && strong.textContent);
+        if(secondaryLabels[key]) card.classList.add('recipe-meta-secondary');
+      });
+      if(document.querySelector('.recipe-quick-meta')) return;
+      var items = [
+        ['Porzioni', getMetaValue('Porzioni')],
+        ['Tempo attivo', getMetaValue('Tempo attivo')],
+        ['Cottura', getMetaValue('Tempo cottura')],
+        ['Riposo', getMetaValue('Tempo riposo')],
+        ['Totale', getMetaValue('Tempo totale')]
+      ].filter(function(x){ return !!x[1]; });
+      if(!items.length) return;
+      var quick = document.createElement('section');
+      quick.className = 'recipe-quick-meta';
+      quick.setAttribute('aria-label', 'Tempi e porzioni');
+      quick.innerHTML = items.map(function(x){
+        return '<span><strong>' + x[0] + ':</strong> ' + x[1] + '</span>';
+      }).join('<span class="recipe-quick-meta-sep" aria-hidden="true">|</span>');
+      grid.insertAdjacentElement('afterend', quick);
+    }
+
+    function ensureIngredientsOverlay(){
+      var overlay = document.getElementById('ingredientsOverlay');
+      if(overlay) return overlay;
+      overlay = document.createElement('div');
+      overlay.id = 'ingredientsOverlay';
+      overlay.className = 'ingredients-overlay';
+      overlay.setAttribute('aria-hidden', 'true');
+      overlay.innerHTML = '<div class="ingredients-overlay-panel" role="dialog" aria-modal="true" aria-label="Ingredienti completi"><div class="ingredients-overlay-head"><h2>Ingredienti completi</h2><button class="ingredients-overlay-close" type="button" aria-label="Chiudi">×</button></div><div id="ingredientsOverlayContent"></div></div>';
+      document.body.appendChild(overlay);
+      function close(){
+        overlay.classList.remove('is-open');
+        overlay.setAttribute('aria-hidden', 'true');
+      }
+      overlay.querySelector('.ingredients-overlay-close').addEventListener('click', close);
+      overlay.addEventListener('click', function(ev){ if(ev.target === overlay) close(); });
+      document.addEventListener('keydown', function(ev){ if(ev.key === 'Escape') close(); });
+      return overlay;
+    }
+
+    function enhanceIngredientsTable(){
+      var section = null;
+      document.querySelectorAll('section').forEach(function(sec){
+        if(section) return;
+        var h2 = sec.querySelector(':scope > h2');
+        if((h2 && h2.textContent || '').trim().toLowerCase() === 'ingredienti') section = sec;
+      });
+      if(!section){
+        var fallbackTable = document.querySelector('.recipe-table.ingredients-table, .ingredients-table, .recipe-table');
+        if(fallbackTable) section = fallbackTable.closest('section') || fallbackTable.parentElement;
+      }
+      if(!section) return;
+      var table = section.querySelector('table.recipe-table, table.ingredients-table, table');
+      if(!table) return;
+      table.classList.add('recipe-table');
+      table.classList.add('ingredients-table');
+      var tableWrap = table.closest('.table-wrap');
+      if(!tableWrap){
+        tableWrap = document.createElement('div');
+        tableWrap.className = 'table-wrap';
+        table.parentNode.insertBefore(tableWrap, table);
+        tableWrap.appendChild(table);
+      }
+      section.classList.add('ingredients-block');
+      section.classList.add('ingredients-compact-table');
+      var h2 = section.querySelector(':scope > h2');
+      var head = section.querySelector(':scope > .recipe-ingredients-head');
+      if(!head){
+        head = document.createElement('div');
+        head.className = 'recipe-ingredients-head';
+        if(h2){
+          h2.parentNode.insertBefore(head, h2);
+          head.appendChild(h2);
+        }else{
+          section.insertBefore(head, section.firstChild);
+          var newH = document.createElement('h2');
+          newH.textContent = 'Ingredienti';
+          head.appendChild(newH);
+        }
+      }
+      var btn = head.querySelector('.ingredients-expand-btn') || section.querySelector('.ingredients-expand-btn');
+      if(!btn){
+        btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'ingredients-expand-btn';
+        btn.textContent = 'Apri tabella completa';
+        btn.setAttribute('aria-haspopup', 'dialog');
+        head.appendChild(btn);
+      }
+      if(btn.dataset.ingredientsOverlayBound === '1') return;
+      btn.dataset.ingredientsOverlayBound = '1';
+      btn.addEventListener('click', function(){
+        var overlay = ensureIngredientsOverlay();
+        var target = overlay.querySelector('#ingredientsOverlayContent');
+        target.innerHTML = '';
+        var clone = tableWrap.cloneNode(true);
+        clone.querySelectorAll('[contenteditable]').forEach(function(el){ el.removeAttribute('contenteditable'); });
+        target.appendChild(clone);
+        overlay.classList.add('is-open');
+        overlay.setAttribute('aria-hidden', 'false');
+      });
+    }
+
+    enhanceRecipeQuickMeta();
+    enhanceIngredientsTable();
+
   });
 })();</script>
 </body>
