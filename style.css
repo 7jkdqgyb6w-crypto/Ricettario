@@ -1542,3 +1542,26 @@ main.recipe-page .image-row.image-group-continuation{
   html,body,.page,.recipe-page,.recipe-content{overflow:visible !important;}
   .step-photo-large{break-inside:auto !important;page-break-inside:auto !important;}
 }
+
+/* ROOT-R18-045 — home footer: casetta esterna piena, opacità calibrata */
+.site-footer-home-link{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  text-decoration:none;
+  color:#000;
+}
+.site-footer-home-link img{
+  display:block;
+  height:32px;
+  width:auto;
+  opacity:0.78;
+}
+.site-footer-home-link:hover img{
+  opacity:0.9;
+}
+@media (max-width: 760px){
+  .site-footer-home-link img{
+    height:28px;
+  }
+}

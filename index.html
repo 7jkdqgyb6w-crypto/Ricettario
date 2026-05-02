@@ -36,9 +36,9 @@
 </section>
 <section class="block">
 <h2>Altri accessi</h2>
-<ul class="home-secondary-list">
+<ul class="home-secondary-list home-secondary-list-four">
 <li>
-<a class="js-home-term-search" href="indici/ricette.html">
+<a class="js-home-term-search" href="indici/ricette.html" aria-haspopup="dialog">
 <strong>Termini</strong>
 <span>Ricerca per termini fra le ricette (dati e metadati).</span>
 </a>
@@ -63,17 +63,6 @@
 </li>
 </ul>
 </section>
-<div class="home-search-overlay is-hidden" id="homeTermSearchOverlay" aria-hidden="true">
-  <div class="home-search-panel" role="dialog" aria-modal="true" aria-labelledby="homeTermSearchTitle">
-    <button class="home-search-close" type="button" aria-label="Chiudi ricerca">×</button>
-    <h2 id="homeTermSearchTitle">Cerca per termini</h2>
-    <form id="homeTermSearchForm" class="home-search-form">
-      <input id="homeTermSearchInput" type="search" name="q" placeholder="Cerca per titolo, ingrediente, luogo…" autocomplete="off">
-      <button type="submit">Cerca</button>
-    </form>
-    <p>La ricerca prosegue nell’indice delle ricette e usa dati e metadati disponibili.</p>
-  </div>
-</div>
 <section class="block">
 <h2>Alcune ricette</h2>
 <div class="latest-grid" id="latestGrid"></div>
@@ -201,65 +190,48 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 });
 </script>
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  const openLink = document.querySelector(".js-home-term-search");
-  const overlay = document.getElementById("homeTermSearchOverlay");
-  const form = document.getElementById("homeTermSearchForm");
-  const input = document.getElementById("homeTermSearchInput");
-  const closeBtn = overlay ? overlay.querySelector(".home-search-close") : null;
-
-  function openSearch() {
-    if (!overlay || !input) return;
-    input.value = "";
-    overlay.classList.remove("is-hidden");
-    overlay.setAttribute("aria-hidden", "false");
-    setTimeout(() => input.focus(), 30);
-  }
-
-  function closeSearch() {
-    if (!overlay) return;
-    overlay.classList.add("is-hidden");
-    overlay.setAttribute("aria-hidden", "true");
-  }
-
-  if (openLink) {
-    openLink.addEventListener("click", function(ev) {
-      ev.preventDefault();
-      openSearch();
-    });
-  }
-
-  if (closeBtn) closeBtn.addEventListener("click", closeSearch);
-
-  if (overlay) {
-    overlay.addEventListener("click", function(ev) {
-      if (ev.target === overlay) closeSearch();
-    });
-  }
-
-  document.addEventListener("keydown", function(ev) {
-    if (ev.key === "Escape") closeSearch();
-  });
-
-  if (form) {
-    form.addEventListener("submit", function(ev) {
-      ev.preventDefault();
-      const q = (input ? input.value : "").trim();
-      const url = q ? "indici/ricette.html?q=" + encodeURIComponent(q) : "indici/ricette.html";
-      window.location.href = url;
-    });
-  }
-});
-</script>
-<footer class="site-footer"><div class="site-footer-left"></div><nav aria-label="Strumenti pagina" class="site-footer-center">
+<div class="home-search-overlay is-hidden" role="dialog" aria-modal="true" aria-labelledby="homeSearchTitle">
+  <div class="home-search-panel">
+    <button class="home-search-close" type="button" aria-label="Chiudi">×</button>
+    <h2 id="homeSearchTitle">Cerca nel ricettario</h2>
+    <form class="home-search-form" action="indici/ricette.html" method="get">
+      <label class="sr-only" for="homeSearchInput">Termine di ricerca</label>
+      <input id="homeSearchInput" name="q" type="search" autocomplete="off" placeholder="Cerca per titolo, ingrediente, luogo…">
+      <button type="submit">Cerca</button>
+    </form>
+  </div>
+</div>
+<footer class="site-footer"><div class="site-footer-left"><a aria-label="Home Pierre Piccotti" class="site-footer-home-link" href="https://sites.google.com/site/pierrepiccotti/"><img alt="Home Pierre Piccotti" src="foto/ui/home-light.svg"/></a></div><nav aria-label="Strumenti pagina" class="site-footer-center">
 <a class="site-footer-text" href="informativa.html"><img alt="" src="foto/ui/info-light.svg"/></a>
 <a aria-label="Scrivimi" class="site-footer-icon" href="scrivimi.html"><img alt="" src="foto/ui/mail-light.svg"/></a><a aria-label="Stampa pagina" class="site-footer-icon js-print-link" href="#"><img alt="" src="foto/ui/print-light.svg"/></a>
 <a aria-label="Copia link pagina" class="site-footer-icon js-copy-link" href="#"><img alt="" src="foto/ui/link-light.svg"/></a>
 
-</nav><div class="site-footer-right"></div></footer></div>
+</nav><div class="site-footer-right"><a aria-label="QR pagina home" class="site-footer-qr-link" href="foto/home/qr-code.png"><img alt="QR pagina home" src="foto/home/qr-code.png"/></a></div></footer></div>
 </main>
 </div>
+<script id="home-search-script">
+(function(){
+  function ready(fn){ if(document.readyState !== 'loading') fn(); else document.addEventListener('DOMContentLoaded', fn); }
+  ready(function(){
+    var openBtn = document.querySelector('.js-home-term-search');
+    var overlay = document.querySelector('.home-search-overlay');
+    var closeBtn = document.querySelector('.home-search-close');
+    var form = document.querySelector('.home-search-form');
+    var input = document.getElementById('homeSearchInput');
+    if(!openBtn || !overlay || !form || !input) return;
+    function closeSearch(){ overlay.classList.add('is-hidden'); }
+    openBtn.addEventListener('click', function(ev){ ev.preventDefault(); input.value=''; overlay.classList.remove('is-hidden'); setTimeout(function(){ input.focus(); }, 20); });
+    if(closeBtn) closeBtn.addEventListener('click', closeSearch);
+    overlay.addEventListener('click', function(ev){ if(ev.target === overlay) closeSearch(); });
+    document.addEventListener('keydown', function(ev){ if(ev.key === 'Escape' && !overlay.classList.contains('is-hidden')) closeSearch(); });
+    form.addEventListener('submit', function(ev){
+      ev.preventDefault();
+      var q=(input.value||'').trim();
+      window.location.href = q ? 'indici/ricette.html?q=' + encodeURIComponent(q) : 'indici/ricette.html';
+    });
+  });
+})();
+</script>
 <script id="site-footer-script">
 (function(){
   function ensureLightbox(){
@@ -310,10 +282,7 @@ document.addEventListener("DOMContentLoaded", function() {
       img.addEventListener('click', function(ev){
         ev.preventDefault();
         ev.stopPropagation();
-        outImg.src = img.currentSrc || img.src;
-        outImg.alt = img.alt || '';
-        caption.textContent = img.alt || '';
-        overlay.classList.remove('is-hidden');
+        openLightbox(img.currentSrc || img.src, img.alt || 'QR pagina home');
       });
     });
     document.querySelectorAll('.js-print-link').forEach(function(a){
