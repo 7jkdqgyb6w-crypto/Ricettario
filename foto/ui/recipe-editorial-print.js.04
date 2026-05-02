@@ -194,8 +194,9 @@ function escapeHtml(value){
       if(meta['tempo totale']) timeRows.push(['Totale', meta['tempo totale']]);
       var ingredientAttr = escapeHtml(ingredientNames.join('|'));
       var isLong = rows.length > 14;
-      var cardClass = 'print-kitchen-card print-primary-block ' + (isLong ? 'print-kitchen-card-long' : 'print-kitchen-card-side');
-      var html = '<section class="' + cardClass + '" data-print-occupied="1" data-ingredient-names="' + ingredientAttr + '">';
+      var initialCols = rows.length > 32 ? 'print-kitchen-card-cols-3' : (isLong ? 'print-kitchen-card-cols-2' : 'print-kitchen-card-side');
+      var cardClass = 'print-kitchen-card print-primary-block ' + (isLong ? 'print-kitchen-card-long ' : '') + initialCols;
+      var html = '<section class="' + cardClass + '" data-print-occupied="1" data-ingredient-names="' + ingredientAttr + '" data-print-kitchen-card="1">';
       html += '<div class="print-ingredients-box" data-print-occupied="1"><h3>Ingredienti</h3><div class="print-ingredients-list">' + rows.join('') + '</div>';
       if(timeRows.length){
         html += '<div class="print-ingredients-meta">';
@@ -285,7 +286,7 @@ function escapeHtml(value){
         'html,body{margin:0;padding:0;background:#fff !important;color:#111;}',
         'body{font-family:Georgia,"Times New Roman",serif;-webkit-print-color-adjust:exact;print-color-adjust:exact;}',
         '.print-doc{position:relative;width:210mm;min-height:auto;margin:0 auto;background:#fff;padding:0;box-sizing:border-box;overflow:visible;}',
-        '.print-page{position:relative;width:210mm;min-height:265mm;margin:0 auto;padding:0 22mm;box-sizing:border-box;break-after:page;page-break-after:always;} .print-page:last-child{break-after:auto;page-break-after:auto;}',
+        '.print-page{position:relative;width:210mm;min-height:265mm;margin:0 auto;padding:0 22mm;box-sizing:border-box;break-inside:avoid;page-break-inside:avoid;break-after:auto;page-break-after:auto;}',
         '.print-page-content{position:relative;min-height:265mm;box-sizing:border-box;}',
         '.print-decor-layer,.print-page-decor-layer{position:absolute;inset:0;z-index:0;pointer-events:none;overflow:visible;} .print-decor-layer .print-decor-slot,.print-page-decor-layer .print-decor-slot{position:absolute;display:block;overflow:visible;pointer-events:none;user-select:none;z-index:0;} .print-decor-layer .print-decor-slot img,.print-page-decor-layer .print-decor-slot img{position:absolute;display:block;max-width:none;pointer-events:none;user-select:none;z-index:0;} .print-doc > *:not(.print-decor-layer){position:relative;z-index:1;}',
         '.print-title{font-family:Arial,Helvetica,sans-serif;font-size:24pt;line-height:1.06;font-weight:700;letter-spacing:.01em;color:#111;margin:0 0 8mm 0;}',
@@ -294,7 +295,10 @@ function escapeHtml(value){
         '.print-intro{font-size:11pt;line-height:1.45;font-style:italic;color:#333;margin:0 0 3.2mm 0;white-space:pre-line;}',
         '.print-intro-wrap p{margin:0 0 2.8mm 0;} .print-intro-wrap::after{content:"";display:block;clear:both;}',
         '.print-kitchen-card{position:relative;width:100%;max-width:166mm;margin:0 auto 6mm auto;break-inside:avoid;page-break-inside:avoid;box-sizing:border-box;overflow:visible;text-align:left;}',
-        '.print-kitchen-card-side{display:block;} .print-kitchen-card-side .print-ingredients-box{float:left;width:54mm;min-width:54mm;max-width:54mm;margin:0 6mm 3.5mm 0;} .print-kitchen-card-long{display:block;clear:both;} .print-kitchen-card-long .print-ingredients-list{columns:2;column-gap:7mm;}',
+        '.print-kitchen-card::after{content:"";display:block;clear:both;}',
+        '.print-kitchen-card-side{display:block;} .print-kitchen-card-side .print-ingredients-box{float:left;width:54mm;min-width:54mm;max-width:54mm;margin:0 6mm 3.5mm 0;} .print-kitchen-card-long{display:block;clear:both;}',
+        '.print-kitchen-card-cols-1 .print-ingredients-box,.print-kitchen-card-cols-2 .print-ingredients-box,.print-kitchen-card-cols-3 .print-ingredients-box{float:none;width:100%;min-width:0;max-width:100%;margin:0;}',
+        '.print-kitchen-card-cols-1 .print-ingredients-list{columns:1;column-gap:7mm;} .print-kitchen-card-cols-2 .print-ingredients-list{columns:2;column-gap:7mm;} .print-kitchen-card-cols-3 .print-ingredients-list{columns:3;column-gap:6mm;}',
         '.print-ingredients-box{border:.25mm solid #595959;padding:3mm 3.4mm;background:#fff;font-family:Arial,Helvetica,sans-serif;font-size:8.7pt;line-height:1.24;color:#111;box-sizing:border-box;box-shadow:none;}',
         '.print-ingredients-box h3{margin:0 0 2.1mm 0;font-family:Arial,Helvetica,sans-serif;font-size:8.4pt;line-height:1.1;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:#222;}',
         '.print-ingredients-list{columns:1;column-gap:7mm;} .print-ingredient-row{break-inside:avoid;margin:0 0 .75mm 0;white-space:normal;overflow-wrap:anywhere;word-break:normal;} .print-ingredient-section{break-inside:avoid;margin:2mm 0 1mm 0;padding-top:1.2mm;border-top:.25mm solid #aaa;font-weight:700;text-transform:uppercase;letter-spacing:.035em;font-size:7.9pt;line-height:1.22;color:#333;} .print-ingredient-name{font-weight:500;} .print-ingredient-detail{margin-left:1.1mm;color:#222;} .print-ingredient-note{margin-left:.9mm;color:#222;font-style:normal;} .print-ingredients-meta{border-top:.25mm solid #999;margin-top:2.2mm;padding-top:1.6mm;font-size:7.9pt;line-height:1.25;color:#222;} .print-ingredients-meta strong{font-family:Arial,Helvetica,sans-serif;font-weight:700;} .print-meta-separator{color:#777;}',
@@ -439,8 +443,55 @@ function escapeHtml(value){
       printDoc.appendChild(current.page);
       pages.push(current);
 
+      function isKitchenCard(block){
+        return !!(block && block.classList && block.classList.contains('print-kitchen-card'));
+      }
+
+      function setKitchenCardMode(block, mode){
+        if(!isKitchenCard(block)) return;
+        block.classList.remove('print-kitchen-card-side','print-kitchen-card-cols-1','print-kitchen-card-cols-2','print-kitchen-card-cols-3');
+        if(mode === 'side') block.classList.add('print-kitchen-card-side');
+        else if(mode === 'cols2') block.classList.add('print-kitchen-card-cols-2');
+        else if(mode === 'cols3') block.classList.add('print-kitchen-card-cols-3');
+        else block.classList.add('print-kitchen-card-cols-1');
+      }
+
+      function kitchenCardModes(block){
+        if(!isKitchenCard(block)) return [];
+        // R18-041: i box piccoli/a una sola colonna restano laterali.
+        // Non vanno espansi a tutta larghezza solo per farli entrare:
+        // se non c'è spazio residuo sufficiente, si spostano interi alla pagina successiva.
+        if(block.classList.contains('print-kitchen-card-side')) return ['side'];
+        // I box lunghi usano solo layout realmente multicolonna, evitando il
+        // caso largo a una colonna che crea molto bianco interno.
+        return ['cols2','cols3'];
+      }
+
+      function fitKitchenCardOnPage(block, pageInfo){
+        if(!isKitchenCard(block) || !pageInfo) return false;
+        var modes = kitchenCardModes(block);
+        for(var i=0; i<modes.length; i+=1){
+          setKitchenCardMode(block, modes[i]);
+          if(contentHeight(pageInfo) <= pageHeightPx + 0.5) return true;
+        }
+        setKitchenCardMode(block, modes[modes.length - 1] || 'cols3');
+        return contentHeight(pageInfo) <= pageHeightPx + 0.5;
+      }
+
       function appendBlockToCurrent(block){
         current.content.appendChild(block);
+        if(isKitchenCard(block) && contentHeight(current) > pageHeightPx + 0.5){
+          if(fitKitchenCardOnPage(block, current)) return;
+          if(pageHasContent(current) && current.content.children.length > 1){
+            block.remove();
+            current = newPage();
+            printDoc.appendChild(current.page);
+            pages.push(current);
+            current.content.appendChild(block);
+            fitKitchenCardOnPage(block, current);
+            return;
+          }
+        }
         if(contentHeight(current) > pageHeightPx + 0.5 && pageHasContent(current) && current.content.children.length > 1){
           block.remove();
           current = newPage();
@@ -460,7 +511,7 @@ function escapeHtml(value){
             ensurePageContentBlocks(current);
             var currentList = current.content.querySelector('.print-steps:last-of-type') || current.content.querySelector('.print-steps');
             currentList.appendChild(li);
-            if(contentHeight(current) > pageHeightPx + 0.5 && pageHasContent(current) && currentList.children.length > 1){
+            if(contentHeight(current) > pageHeightPx + 0.5 && pageHasContent(current) && (currentList.children.length > 1 || current.content.children.length > 1)){
               li.remove();
               cleanupEmptyStepLists(current);
               current = newPage();
@@ -482,7 +533,7 @@ function escapeHtml(value){
               ensurePageContentBlocks(current);
               var currentList = current.content.querySelector('.print-steps:last-of-type') || current.content.querySelector('.print-steps');
               currentList.appendChild(li);
-              if(contentHeight(current) > pageHeightPx + 0.5 && pageHasContent(current) && currentList.children.length > 1){
+              if(contentHeight(current) > pageHeightPx + 0.5 && pageHasContent(current) && (currentList.children.length > 1 || current.content.children.length > 1)){
                 li.remove();
                 cleanupEmptyStepLists(current);
                 current = newPage();
@@ -551,7 +602,7 @@ function injectPrintIngredientDecor(doc){
   var rasterScale = 0.60;
   var whiteThreshold = 235;
   var ingredientAssetRelpaths = Array.isArray(window.__PRINT_INGREDIENT_ASSET_RELPATHS__) ? window.__PRINT_INGREDIENT_ASSET_RELPATHS__.slice() : [];
-  var ingredientBaseHref = '/Ingredienti/';
+  var ingredientBaseHref = '/ingredienti/';
 
   function resolveIngredientAssetUrl(relpath){
     if(!relpath) return '';
@@ -613,29 +664,24 @@ function injectPrintIngredientDecor(doc){
     var infos = [];
     var physicalIndex = 0;
     pages.forEach(function(page, domPageIndex){
-      var contentNode = page.querySelector('.print-page-content') || page;
-      var rects = Array.prototype.slice.call(contentNode.getClientRects ? contentNode.getClientRects() : []).filter(function(r){
-        return r && r.height > 2 && r.width > 2;
-      });
-      if(!rects.length){
-        var pageRect = page.getBoundingClientRect();
-        rects = [pageRect];
-      }
-      rects.forEach(function(rect, part){
-        var topPx = Math.max(0, rect.top - printRect.top);
-        var bottomPx = Math.max(topPx + 1, rect.bottom - printRect.top);
-        infos.push({
-          physicalIndex: physicalIndex++,
-          domPageIndex: domPageIndex,
-          page: page,
-          partIndex: part,
-          pageTop: topPx,
-          topPx: topPx,
-          bottomPx: bottomPx,
-          nominalPageHeight: nominalPageHeight,
-          printRect: printRect,
-          fragmentRect: rect
-        });
+      var pageRect = page.getBoundingClientRect();
+      var topPx = Math.max(0, pageRect.top - printRect.top);
+      // R18-041: le decorazioni devono cercare spazi sull'intera pagina fisica,
+      // non solo nel bounding box del contenuto già presente. Altrimenti le
+      // ampie aree bianche sotto un blocco corto (es. Ingredienti) non vengono
+      // viste come candidabili.
+      var bottomPx = topPx + nominalPageHeight;
+      infos.push({
+        physicalIndex: physicalIndex++,
+        domPageIndex: domPageIndex,
+        page: page,
+        partIndex: 0,
+        pageTop: topPx,
+        topPx: topPx,
+        bottomPx: bottomPx,
+        nominalPageHeight: nominalPageHeight,
+        printRect: printRect,
+        fragmentRect: pageRect
       });
     });
     return infos;
