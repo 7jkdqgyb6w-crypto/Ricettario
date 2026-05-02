@@ -1,0 +1,1604 @@
+{
+  "versione": "CMS2-R18-046",
+  "tassonomia_versione": "TASS-CUCINA-005",
+  "timestamp": "2026-05-02T23:06:14",
+  "root": "G:\\Il mio Drive\\Esperienze\\Ricette",
+  "search_data": "G:\\Il mio Drive\\Esperienze\\Ricette\\indici\\search-data.json",
+  "proposte": "G:\\Il mio Drive\\Esperienze\\Ricette\\indici\\proposte-ricette.json",
+  "tassonomia": "G:\\Il mio Drive\\Esperienze\\Ricette\\CMS2-R18-046\\tassonomia-cucina.json",
+  "apply": true,
+  "processed": 60,
+  "changed": 57,
+  "missing_proposals": [],
+  "no_structural_terms": [
+    "patatine",
+    "picana",
+    "ribollita",
+    "roux-brun"
+  ],
+  "items": [
+    {
+      "slug": "agnolotti-al-sugo-d-arrosto",
+      "titolo": "Agnolotti al sugo d'arrosto",
+      "ingredienti_chiave_da_proposte": [
+        "Polpa di manzo",
+        "Ossa di bovino",
+        "Doppione o biancostato",
+        "Gallina pulita",
+        "Pomodoro rosso",
+        "Bacche di ginepro"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "carne",
+        "bovino",
+        "manzo",
+        "pollame",
+        "verdura",
+        "ortaggi"
+      ],
+      "allergeni": [],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "manzo",
+        "pollo",
+        "topinambur"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "anatra-all-arancia",
+      "titolo": "Anatra all'arancia",
+      "ingredienti_chiave_da_proposte": [
+        "Anatra",
+        "Strutto",
+        "Brodo di carne",
+        "Passata di pomodoro",
+        "Prosciutto crudo",
+        "Lardo"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "carne",
+        "suino",
+        "maiale",
+        "verdura",
+        "ortaggi",
+        "pollame",
+        "anatra"
+      ],
+      "allergeni": [],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "maiale",
+        "topinambur",
+        "anatra"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "anatra-in-salsa",
+      "titolo": "Anatra in salsa",
+      "ingredienti_chiave_da_proposte": [
+        "Anatra",
+        "Soppressa veneta",
+        "Pancetta",
+        "Alici sotto sale"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "carne",
+        "suino",
+        "maiale",
+        "pesce",
+        "alici",
+        "pollame",
+        "anatra"
+      ],
+      "allergeni": [
+        "pesce"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "maiale",
+        "alici",
+        "anatra"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "antipasto-di-canocce",
+      "titolo": "Antipasto di canocce",
+      "ingredienti_chiave_da_proposte": [
+        "Canoccia",
+        "Insalata novella"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "verdura",
+        "ortaggi",
+        "crostacei",
+        "canoccia"
+      ],
+      "allergeni": [
+        "crostacei"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "topinambur",
+        "canoccia"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "aringhe-in-terrina",
+      "titolo": "Aringhe in terrina",
+      "ingredienti_chiave_da_proposte": [
+        "Aringhe sciocche affumicate",
+        "Carote",
+        "Bacche di ginepro",
+        "Limoni BIO"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "pesce",
+        "aringhe",
+        "verdura",
+        "ortaggi",
+        "carote"
+      ],
+      "allergeni": [
+        "pesce"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "aringhe",
+        "carote"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "arista-alla-birra",
+      "titolo": "Arista alla birra",
+      "ingredienti_chiave_da_proposte": [
+        "Arista di maiale",
+        "Birra ambrata",
+        "Menta",
+        "Bacche di ginepro"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "carne",
+        "suino",
+        "maiale"
+      ],
+      "allergeni": [],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "maiale"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "baccala-mantecato",
+      "titolo": "Baccalà mantecato",
+      "ingredienti_chiave_da_proposte": [
+        "Stoccafisso",
+        "Albume"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "uova",
+        "pesce",
+        "baccala",
+        "stoccafisso"
+      ],
+      "allergeni": [
+        "uova",
+        "pesce"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "uova",
+        "baccala"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "bagna-cauda",
+      "titolo": "Bagna cauda",
+      "ingredienti_chiave_da_proposte": [
+        "Alici sotto sale",
+        "Panna",
+        "Cardo bianco gobbo",
+        "Topinambur",
+        "Peperoni sotto mosto",
+        "Carciofi"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "verdura",
+        "ortaggi",
+        "pesce",
+        "alici",
+        "carciofi",
+        "peperoni"
+      ],
+      "allergeni": [
+        "latte",
+        "pesce"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "latte",
+        "topinambur",
+        "alici",
+        "carciofi",
+        "peperoni"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "battuta-di-manzo-alla-boscaiola",
+      "titolo": "Battuta di manzo alla boscaiola",
+      "ingredienti_chiave_da_proposte": [
+        "Battuta di manzo",
+        "Corteccia",
+        "Pancetta",
+        "Ginepro",
+        "Patate"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "carne",
+        "suino",
+        "maiale",
+        "bovino",
+        "manzo",
+        "verdura",
+        "ortaggi",
+        "patate"
+      ],
+      "allergeni": [],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "maiale",
+        "manzo",
+        "patate"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "bigoli-in-salsa",
+      "titolo": "Bigoli in salsa",
+      "ingredienti_chiave_da_proposte": [
+        "Alici sotto sale",
+        "Bigoli"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "pasta",
+        "pesce",
+        "alici"
+      ],
+      "allergeni": [
+        "cereali contenenti glutine",
+        "pesce"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "spaghetti",
+        "alici"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "braciole-di-carne-di-cavallo",
+      "titolo": "Braciole di carne di cavallo",
+      "ingredienti_chiave_da_proposte": [
+        "Polpa di cavallo a fettine",
+        "Passato di pomodoro",
+        "Pecorino romano DOP"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "verdura",
+        "ortaggi",
+        "carne",
+        "equino",
+        "cavallo"
+      ],
+      "allergeni": [
+        "latte"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "latte",
+        "topinambur",
+        "cavallo"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "calamari-ripieni",
+      "titolo": "Calamari ripieni",
+      "ingredienti_chiave_da_proposte": [
+        "Calamari",
+        "Pecorino romano",
+        "Pelati San Marzano DOP"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "molluschi",
+        "calamari"
+      ],
+      "allergeni": [
+        "latte",
+        "molluschi"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "latte",
+        "calamari"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "cous-cous-alla-trapanese",
+      "titolo": "Cous cous alla trapanese",
+      "ingredienti_chiave_da_proposte": [
+        "Cous cous"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "verdura",
+        "ortaggi",
+        "cous cous"
+      ],
+      "allergeni": [
+        "cereali contenenti glutine"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "farina",
+        "topinambur",
+        "cous cous"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "crepes",
+      "titolo": "Crêpes",
+      "ingredienti_chiave_da_proposte": [
+        "crêpes"
+      ],
+      "fonte_semantica": "fallback-search-text",
+      "termini_ricerca": [
+        "uova"
+      ],
+      "allergeni": [
+        "latte",
+        "cereali contenenti glutine",
+        "uova"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "latte",
+        "farina",
+        "uova"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "daube",
+      "titolo": "Daube",
+      "ingredienti_chiave_da_proposte": [
+        "Manzo",
+        "Concentrato di pomodoro",
+        "Lardo",
+        "Cipolle",
+        "Carote",
+        "Bouquet garni"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "carne",
+        "suino",
+        "maiale",
+        "bovino",
+        "manzo",
+        "verdura",
+        "ortaggi",
+        "carote"
+      ],
+      "allergeni": [],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "maiale",
+        "manzo",
+        "topinambur",
+        "carote"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "fegato-alla-veneziana",
+      "titolo": "Fegato alla veneziana",
+      "ingredienti_chiave_da_proposte": [
+        "Fegato",
+        "Cipolle"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "carne",
+        "frattaglie",
+        "fegato"
+      ],
+      "allergeni": [],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "fegato"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "filettino-di-maiale",
+      "titolo": "Filettin o di maiale",
+      "ingredienti_chiave_da_proposte": [
+        "Filettino di maiale",
+        "Scalogno",
+        "Senape di Digione"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "carne",
+        "suino",
+        "maiale"
+      ],
+      "allergeni": [
+        "senape"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "maiale",
+        "senape"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "filetto-angus-alla-senape-di-digione",
+      "titolo": "Filetto Angus alla senape di Digione",
+      "ingredienti_chiave_da_proposte": [
+        "Filetto angus",
+        "Senape"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "carne",
+        "bovino",
+        "manzo"
+      ],
+      "allergeni": [
+        "senape"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "manzo",
+        "senape"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "fusilli-carciofi-e-salmone",
+      "titolo": "Fusilli carciofi e salmone",
+      "ingredienti_chiave_da_proposte": [
+        "Salmone cotto a vapore",
+        "Fusilli",
+        "Carciofi"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "pasta",
+        "verdura",
+        "ortaggi",
+        "carciofi",
+        "pesce",
+        "salmone"
+      ],
+      "allergeni": [
+        "cereali contenenti glutine",
+        "pesce"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "spaghetti",
+        "carciofi",
+        "salmone"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "gigot-roti",
+      "titolo": "Gigot roti",
+      "ingredienti_chiave_da_proposte": [
+        "Cosciotto d'agnello di almeno kg 1,5"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "carne",
+        "ovino",
+        "agnello"
+      ],
+      "allergeni": [],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "agnello"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "gnocchetti-sardi-alla-urbaweb",
+      "titolo": "Gnocchetti sardi alla Urbaweb",
+      "ingredienti_chiave_da_proposte": [
+        "Gnocchetti sardi",
+        "Zucchine",
+        "Pomodori",
+        "Peperoni",
+        "Schie",
+        "Olive verdi"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "pasta",
+        "verdura",
+        "ortaggi",
+        "zucchine",
+        "peperoni",
+        "crostacei",
+        "schie"
+      ],
+      "allergeni": [
+        "cereali contenenti glutine",
+        "crostacei"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "spaghetti",
+        "topinambur",
+        "zucchine",
+        "peperoni",
+        "schie"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "gnocchi-con-le-trombette-dei-morti",
+      "titolo": "Gnocchi con le trombette dei morti",
+      "ingredienti_chiave_da_proposte": [
+        "Gnocchetti di patate",
+        "Funghi trombette dei morti essiccati e grattugiati",
+        "Parmigiano Reggiano"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "funghi",
+        "verdura",
+        "ortaggi",
+        "patate"
+      ],
+      "allergeni": [
+        "latte"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "funghi",
+        "latte",
+        "patate"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "goulash-variante",
+      "titolo": "Gulash (variante)",
+      "ingredienti_chiave_da_proposte": [
+        "Manzo",
+        "Patate",
+        "Carote",
+        "Pomodorini",
+        "Brodo vegetale",
+        "Cuminio"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "carne",
+        "bovino",
+        "manzo",
+        "verdura",
+        "ortaggi",
+        "carote",
+        "patate"
+      ],
+      "allergeni": [],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "manzo",
+        "topinambur",
+        "carote",
+        "patate"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "medaglioni-di-manzo-con-porcini",
+      "titolo": "Medaglioni di manzo con porcini",
+      "ingredienti_chiave_da_proposte": [
+        "Manzo",
+        "Funghi porcini",
+        "Lardo",
+        "Ginepro"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "carne",
+        "suino",
+        "maiale",
+        "bovino",
+        "manzo",
+        "funghi"
+      ],
+      "allergeni": [],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "maiale",
+        "manzo",
+        "funghi"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "minestra-di-cavoli",
+      "titolo": "Minestra di cavoli",
+      "ingredienti_chiave_da_proposte": [
+        "Cavolo",
+        "Lardo",
+        "Patate"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "carne",
+        "suino",
+        "maiale",
+        "verdura",
+        "ortaggi",
+        "cavoli",
+        "patate"
+      ],
+      "allergeni": [],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "maiale",
+        "cavolo",
+        "patate"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "minestra-di-porri",
+      "titolo": "Minestra di porri",
+      "ingredienti_chiave_da_proposte": [
+        "Porri",
+        "Bburro",
+        "Patate",
+        "Riso",
+        "Brodo"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "riso",
+        "verdura",
+        "ortaggi",
+        "patate",
+        "porri"
+      ],
+      "allergeni": [
+        "latte"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "latte",
+        "riso",
+        "patate",
+        "porri"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "orecchiette-baresi-alle-cime-di-rapa",
+      "titolo": "Orecchiette baresi alle cime di rapa",
+      "ingredienti_chiave_da_proposte": [
+        "Peperoncino",
+        "Spicchio",
+        "Orecchiette baresi",
+        "Cime di rapa",
+        "Alici sotto sale"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "pasta",
+        "verdura",
+        "ortaggi",
+        "cime di rapa",
+        "pesce",
+        "alici"
+      ],
+      "allergeni": [
+        "cereali contenenti glutine",
+        "pesce"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "spaghetti",
+        "cime di rapa",
+        "topinambur",
+        "alici"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "pappa-con-il-pomodoro",
+      "titolo": "Pappa con il pomodoro",
+      "ingredienti_chiave_da_proposte": [
+        "Basilico",
+        "Pomodori",
+        "Porro"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "verdura",
+        "ortaggi",
+        "porri"
+      ],
+      "allergeni": [],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "topinambur",
+        "porri"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "pasta-al-ragu-di-triglie-e-al-succo-d-arancia",
+      "titolo": "Pasta al ragù di triglie e al succo d'arancia",
+      "ingredienti_chiave_da_proposte": [
+        "Spaghetti",
+        "Triglie di scoglio",
+        "Mandorle sgusciate",
+        "Pomodorini maturi",
+        "Arancia matura",
+        "Origano"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "pasta",
+        "verdura",
+        "ortaggi",
+        "pesce",
+        "triglia"
+      ],
+      "allergeni": [
+        "cereali contenenti glutine",
+        "noci",
+        "pesce"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "spaghetti",
+        "topinambur",
+        "mandorle",
+        "triglie"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "pasta-con-i-broccoli",
+      "titolo": "Pasta con i broccoli",
+      "ingredienti_chiave_da_proposte": [
+        "Uva passa",
+        "Broccoli",
+        "Pinoli",
+        "Pecorino romano"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "pasta",
+        "verdura",
+        "ortaggi",
+        "broccoli"
+      ],
+      "allergeni": [
+        "latte",
+        "cereali contenenti glutine",
+        "noci"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "latte",
+        "spaghetti",
+        "mandorle",
+        "broccoli"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "pasta-con-le-melanzane",
+      "titolo": "Pasta con le melanzane",
+      "ingredienti_chiave_da_proposte": [
+        "Mezze penne rigate",
+        "melanzane lunche",
+        "d'aglio",
+        "peperoncino secco piccante"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "pasta",
+        "verdura",
+        "ortaggi",
+        "melanzane"
+      ],
+      "allergeni": [
+        "cereali contenenti glutine"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "spaghetti",
+        "melanzane"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "pasta-con-le-sarde",
+      "titolo": "Pasta con le sarde",
+      "ingredienti_chiave_da_proposte": [
+        "Pasta"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "pasta",
+        "pesce",
+        "sarde"
+      ],
+      "allergeni": [
+        "cereali contenenti glutine",
+        "pesce"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "spaghetti",
+        "sarde"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "pasta-con-pesto-alla-siciliana",
+      "titolo": "Pasta con pesto alla siciliana",
+      "ingredienti_chiave_da_proposte": [
+        "Basilico",
+        "Spicchi d'aglio",
+        "Mandorle tostate e grattugiate",
+        "Pomodorini datterini o meglio San Marzano se di stagione",
+        "Capperi sotto sale",
+        "Bottarga di muggine intera"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "pasta",
+        "verdura",
+        "ortaggi",
+        "pesce",
+        "bottarga"
+      ],
+      "allergeni": [
+        "cereali contenenti glutine",
+        "noci",
+        "pesce"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "spaghetti",
+        "topinambur",
+        "mandorle",
+        "bottarga"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "pasta-e-fagioli",
+      "titolo": "Pasta e fagioli",
+      "ingredienti_chiave_da_proposte": [
+        "Fagioli di Lamon",
+        "Osso di prosciutto",
+        "Subiotini"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "carne",
+        "suino",
+        "maiale",
+        "pasta",
+        "verdura",
+        "legumi",
+        "fagioli"
+      ],
+      "allergeni": [
+        "cereali contenenti glutine"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "maiale",
+        "spaghetti",
+        "fagioli"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "patatine",
+      "titolo": "Patatine*",
+      "ingredienti_chiave_da_proposte": [
+        "Patatine"
+      ],
+      "fonte_semantica": "excluded-slug",
+      "termini_ricerca": [],
+      "allergeni": [],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [],
+      "modificato": false
+    },
+    {
+      "slug": "pate-di-fegato",
+      "titolo": "Paté di fegato",
+      "ingredienti_chiave_da_proposte": [
+        "½ kg. di fegato di vitello",
+        "Fegatini di pollo",
+        "Panna",
+        "Lardo",
+        "Marsala",
+        "Strutto"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "carne",
+        "suino",
+        "maiale",
+        "bovino",
+        "manzo",
+        "pollame",
+        "frattaglie",
+        "fegato"
+      ],
+      "allergeni": [
+        "latte"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "maiale",
+        "manzo",
+        "latte",
+        "pollo",
+        "fegato"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "penne-alla-cannata",
+      "titolo": "Penne alla \"Cannata\"",
+      "ingredienti_chiave_da_proposte": [
+        "Alici sotto sale",
+        "Capperi",
+        "Mezze penne rigate",
+        "Pomodorini",
+        "Peperoncino",
+        "Menta"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "pasta",
+        "verdura",
+        "ortaggi",
+        "pesce",
+        "alici"
+      ],
+      "allergeni": [
+        "cereali contenenti glutine",
+        "pesce"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "spaghetti",
+        "topinambur",
+        "alici"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "penne-con-mazzancolle-alle-verdure",
+      "titolo": "Penne con mazzancolle alle verdure",
+      "ingredienti_chiave_da_proposte": [
+        "Mazzancolla",
+        "Porro",
+        "Zafferano",
+        "Zucchina",
+        "Penne",
+        "Verdura"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "pasta",
+        "crostacei",
+        "mazzancolle",
+        "verdura",
+        "ortaggi",
+        "zucchine",
+        "porri"
+      ],
+      "allergeni": [
+        "cereali contenenti glutine",
+        "crostacei"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "spaghetti",
+        "mazzancolla",
+        "zucchine",
+        "porri"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "penne-con-zucchine",
+      "titolo": "Penne con zucchine",
+      "ingredienti_chiave_da_proposte": [
+        "Mezze penne rigate",
+        "Zucchine",
+        "Spicco d'aglio",
+        "Parmigiano Reggiano"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "pasta",
+        "verdura",
+        "ortaggi",
+        "zucchine"
+      ],
+      "allergeni": [
+        "latte",
+        "cereali contenenti glutine"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "latte",
+        "spaghetti",
+        "zucchine"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "peperoni-alici-e-capperi",
+      "titolo": "Peperoni, alici e capperi",
+      "ingredienti_chiave_da_proposte": [
+        "Peperoni rossi e gialli",
+        "Capperi sotto sale",
+        "Alici sotto sale"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "pesce",
+        "alici",
+        "verdura",
+        "ortaggi",
+        "peperoni"
+      ],
+      "allergeni": [
+        "pesce"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "alici",
+        "peperoni"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "picana",
+      "titolo": "Picana",
+      "ingredienti_chiave_da_proposte": [
+        "Picana (Lombata)"
+      ],
+      "fonte_semantica": "excluded-slug",
+      "termini_ricerca": [],
+      "allergeni": [],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [],
+      "modificato": false
+    },
+    {
+      "slug": "puree-di-sedano",
+      "titolo": "Purée di sedano",
+      "ingredienti_chiave_da_proposte": [
+        "Gambi di sedano",
+        "Patate",
+        "Noce moscata"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "verdura",
+        "ortaggi",
+        "sedano",
+        "patate"
+      ],
+      "allergeni": [
+        "sedano"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "sedano",
+        "patate"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "ratatouille-variante",
+      "titolo": "Ratatouille (variante)",
+      "ingredienti_chiave_da_proposte": [
+        "Melanzane lunghe",
+        "Zucchine",
+        "Peperoni gialli e rossi",
+        "Basilico"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "verdura",
+        "ortaggi",
+        "melanzane",
+        "zucchine",
+        "peperoni"
+      ],
+      "allergeni": [],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "melanzane",
+        "zucchine",
+        "peperoni"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "ribollita",
+      "titolo": "Ribollita",
+      "ingredienti_chiave_da_proposte": [
+        "ribollita"
+      ],
+      "fonte_semantica": "excluded-slug",
+      "termini_ricerca": [],
+      "allergeni": [],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [],
+      "modificato": false
+    },
+    {
+      "slug": "risi-e-bisi",
+      "titolo": "Risi e bisi",
+      "ingredienti_chiave_da_proposte": [
+        "Piselli",
+        "Riso"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "verdura",
+        "legumi",
+        "piselli",
+        "riso"
+      ],
+      "allergeni": [],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "piselli",
+        "riso"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "riso-cozze-e-patate",
+      "titolo": "Riso cozze e patate",
+      "ingredienti_chiave_da_proposte": [
+        "di cozze",
+        "Riso",
+        "Patate",
+        "Pecorino romano DPO",
+        "Pomodori pelati DOP"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "verdura",
+        "ortaggi",
+        "riso",
+        "molluschi",
+        "cozze",
+        "patate"
+      ],
+      "allergeni": [
+        "latte",
+        "molluschi"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "latte",
+        "topinambur",
+        "riso",
+        "cozze",
+        "patate"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "roastbeef-arrosto-all-inglese",
+      "titolo": "Roastbeef (arrosto all'inglese)",
+      "ingredienti_chiave_da_proposte": [
+        "Roastbeef"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "carne",
+        "bovino",
+        "manzo"
+      ],
+      "allergeni": [],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "manzo"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "roux-brun",
+      "titolo": "Roux brun",
+      "ingredienti_chiave_da_proposte": [
+        "Noce di burro"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [],
+      "allergeni": [
+        "latte"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "latte"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "salsa-verde",
+      "titolo": "Salsa verde",
+      "ingredienti_chiave_da_proposte": [
+        "Capperi",
+        "Alici sotto sale",
+        "Mollica di pane imbevuto di latte"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "pesce",
+        "alici"
+      ],
+      "allergeni": [
+        "latte",
+        "cereali contenenti glutine",
+        "pesce"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "latte",
+        "farina",
+        "alici"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "sarde-a-beccafico",
+      "titolo": "Sarde a beccafico",
+      "ingredienti_chiave_da_proposte": [
+        "Sarde di media grandezza",
+        "Pinoli",
+        "Uva sultanina",
+        "Alici sotto sale",
+        "Limoni bio"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "pesce",
+        "alici",
+        "sarde"
+      ],
+      "allergeni": [
+        "noci",
+        "pesce"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "mandorle",
+        "alici",
+        "sarde"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "sfogliata-pugliese",
+      "titolo": "Sfogliata pugliese",
+      "ingredienti_chiave_da_proposte": [
+        "Pasta per pane",
+        "Olive nere snocciolate pugliesi",
+        "Alici sotto sale",
+        "Uva passa",
+        "Pomodori pelati DOP",
+        "Pecorino romano"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "pasta",
+        "verdura",
+        "ortaggi",
+        "pesce",
+        "alici"
+      ],
+      "allergeni": [
+        "latte",
+        "cereali contenenti glutine",
+        "pesce"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "latte",
+        "farina",
+        "spaghetti",
+        "topinambur",
+        "alici"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "spaghetti-alla-bottarga",
+      "titolo": "Spaghetti alla bottarga",
+      "ingredienti_chiave_da_proposte": [
+        "Spaghetti",
+        "Bottarga di muggine",
+        "Peperoncino"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "pasta",
+        "pesce",
+        "bottarga"
+      ],
+      "allergeni": [
+        "cereali contenenti glutine",
+        "pesce"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "spaghetti",
+        "bottarga"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "spaghetti-alla-puttanesca",
+      "titolo": "Spaghetti alla puttanesca",
+      "ingredienti_chiave_da_proposte": [
+        "Spaghetti o vermicelli",
+        "Peperoncini secchi piccanti",
+        "Olive di Gaeta",
+        "Capperi sotto sale",
+        "Alici sotto sale",
+        "Pelati"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "pasta",
+        "pesce",
+        "alici"
+      ],
+      "allergeni": [
+        "cereali contenenti glutine",
+        "pesce"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "spaghetti",
+        "alici"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "straccetti-di-pollo-al-limone",
+      "titolo": "Straccetti di pollo al limone",
+      "ingredienti_chiave_da_proposte": [
+        "Petto di pollo allevato a terra"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "carne",
+        "pollame"
+      ],
+      "allergeni": [],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "pollo"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
+      "titolo": "Straccetti su letto di porri con rucola e aceto balsamico di Modena",
+      "ingredienti_chiave_da_proposte": [
+        "Carpaccio di manzo",
+        "Porri",
+        "Rucola"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "carne",
+        "bovino",
+        "manzo",
+        "verdura",
+        "ortaggi",
+        "porri"
+      ],
+      "allergeni": [],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "manzo",
+        "topinambur",
+        "porri"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "tagliate",
+      "titolo": "Tagliate",
+      "ingredienti_chiave_da_proposte": [
+        "Fesa di tacchino"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "carne",
+        "pollame"
+      ],
+      "allergeni": [],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "pollo"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "tajin-mqualli",
+      "titolo": "Tajin Mqualli",
+      "ingredienti_chiave_da_proposte": [
+        "Pollo",
+        "Coniglio",
+        "Montone",
+        "Cous cous",
+        "Cipollotti",
+        "Patate"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "carne",
+        "pollame",
+        "verdura",
+        "ortaggi",
+        "ovino",
+        "agnello",
+        "cous cous",
+        "coniglio",
+        "patate"
+      ],
+      "allergeni": [
+        "cereali contenenti glutine"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "pollo",
+        "topinambur",
+        "agnello",
+        "cous cous",
+        "coniglio",
+        "patate"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "tonno-alla-carlofortina",
+      "titolo": "Tonno alla CarloFortina",
+      "ingredienti_chiave_da_proposte": [
+        "Tonno"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "pesce",
+        "tonno"
+      ],
+      "allergeni": [
+        "pesce"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "tonno"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "tortino-di-alici",
+      "titolo": "Tortino di alici",
+      "ingredienti_chiave_da_proposte": [
+        "Alici freschissime",
+        "Mollica o pangrattato",
+        "Pecorino romano DOP",
+        "Peperoncino",
+        "Nepetella",
+        "Origano"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "pesce",
+        "alici"
+      ],
+      "allergeni": [
+        "latte",
+        "cereali contenenti glutine",
+        "pesce"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "latte",
+        "farina",
+        "alici"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "vitello-tonnato",
+      "titolo": "Vitello tonnato",
+      "ingredienti_chiave_da_proposte": [
+        "Girello di vitello intero",
+        "Cuore di sedano",
+        "Chiodi di garofano",
+        "Tonno in scatola",
+        "Capperi di Pantelleria DOP",
+        "Maionese"
+      ],
+      "fonte_semantica": "proposte+titolo",
+      "termini_ricerca": [
+        "carne",
+        "bovino",
+        "manzo",
+        "verdura",
+        "ortaggi",
+        "sedano",
+        "pesce",
+        "tonno"
+      ],
+      "allergeni": [
+        "latte",
+        "sedano",
+        "pesce"
+      ],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "manzo",
+        "latte",
+        "sedano",
+        "tonno"
+      ],
+      "modificato": true
+    }
+  ]
+}
