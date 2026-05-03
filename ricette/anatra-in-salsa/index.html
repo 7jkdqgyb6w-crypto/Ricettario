@@ -16,6 +16,27 @@
 .recipe-page .recipe-content > h1{
   margin: 0 0 1.2rem 0;
 }
+.recipe-page .meta-grid{
+  display:grid;
+  grid-template-columns:repeat(4, minmax(0, 1fr));
+  gap:.85rem 1.5rem;
+  margin-bottom:1.05rem;
+}
+.recipe-page .meta-grid .meta-card{
+  padding-top:.42rem;
+}
+.recipe-page .meta-grid .meta-card strong{
+  margin-bottom:.08rem;
+}
+.recipe-page .meta-grid .meta-card:nth-child(n+5){
+  display:none !important;
+}
+ (max-width: 900px){
+  .recipe-page .meta-grid{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap:.75rem 1.15rem;
+  }
+}
 .site-header nav{
   display:flex;
   align-items:center;
@@ -397,33 +418,7 @@
   .recipe-quick-meta span{flex:1 1 100%;}
   .ingredients-overlay{padding:.75rem;}
   .ingredients-overlay-panel{max-height:92vh;padding:.9rem;}
-}
-
-
-/* R18-035 — metadati principali su 4 colonne, secondari nella quick-meta */
-.recipe-page .meta-grid{
-  display:grid;
-  grid-template-columns:repeat(4, minmax(0, 1fr));
-  gap:.85rem 1.5rem;
-  margin-bottom:1.05rem;
-}
-.recipe-page .meta-grid .meta-card{
-  padding-top:.42rem;
-}
-.recipe-page .meta-grid .meta-card strong{
-  margin-bottom:.08rem;
-}
-.recipe-page .meta-grid .meta-card:nth-child(n+5){
-  display:none !important;
-}
-@media (max-width: 900px){
-  .recipe-page .meta-grid{
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap:.75rem 1.15rem;
-  }
-}
-
-</style>
+}</style>
   <style id="recipe-lightbox-style">.recipe-lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.88);display:flex;align-items:center;justify-content:center;padding:2rem;z-index:9999;cursor:zoom-out;}
 .recipe-lightbox-overlay.is-hidden{display:none !important;}
 .recipe-lightbox-frame{max-width:96vw;max-height:96vh;display:flex;flex-direction:column;gap:.75rem;align-items:center;}
@@ -451,7 +446,7 @@ main figure img{cursor:zoom-in;}
 
 <main class="recipe-page">
 <main class="recipe-page">
-<div class="recipe-content"><h1>Anatra in salsa</h1><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Secondi</span></div><div class="meta-card"><strong>Geografia</strong><span>Italia – Veneto</span></div><div class="meta-card"><strong>Fonte</strong><span></span></div><div class="meta-card"><strong>Porzioni</strong><span>4-6</span></div><div class="meta-card"><strong>Tempo attivo</strong><span>30-45 min</span></div><div class="meta-card"><strong>Tempo cottura</strong><span>2 h circa</span></div><div class="meta-card"><strong>Tempo riposo</strong><span></span></div><div class="meta-card"><strong>Tempo totale</strong><span>da verificare</span></div></section><section class="lead"><h2>Introduzione e contesto</h2><figure class="step-photo step-photo-large" style="width: 651.786px; max-width: 100%;"><img src="../../foto/anatra-in-salsa/01.jpg" width="651.7857666015625"/><figcaption>Ingredienti da AI</figcaption></figure><figure class="step-photo step-photo-right" style="width: 46%; max-width: 46%;"><img src="../../foto/anatra-in-salsa/rolle.jpg"/><figcaption>Rolle</figcaption></figure><p>Questa preparazione richiama la tradizione veneta della <strong>peverada</strong>, pur in una versione più semplice: le alici sotto sale, l’aceto e il fondo di cottura costruiscono una salsa intensa e sapida, alleggerita dalla mia abitudine di sgrassare il fondo e dalla presenza del limone.</p></section><section class="block ingredients-block">
+<div class="recipe-content"><h1>Anatra in salsa</h1><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Secondi</span></div><div class="meta-card"><strong>Geografia</strong><span>Italia – Veneto</span></div><div class="meta-card"><strong>Fonte</strong><span></span></div><div class="meta-card"><strong>Porzioni</strong><span>4-6</span></div><div class="meta-card"><strong>Tempo attivo</strong><span>30-45 min</span></div><div class="meta-card"><strong>Tempo cottura</strong><span>2 h circa</span></div><div class="meta-card"><strong>Tempo riposo</strong><span></span></div><div class="meta-card"><strong>Tempo totale</strong><span>da verificare</span></div></section><section class="lead"><h2>Introduzione e contesto</h2><figure class="step-photo-large step-photo" style="width: 651.786px; max-width: 100%;"><img src="../../foto/anatra-in-salsa/01.jpg" width="651.7857666015625"/><figcaption>Ingredienti da AI</figcaption></figure><figure class="step-photo step-photo-right" style="width: 46%; max-width: 46%;"><img src="../../foto/anatra-in-salsa/rolle.jpg"/><figcaption>Rolle</figcaption></figure><p>Questa preparazione richiama la tradizione veneta della <strong>peverada</strong>, pur in una versione più semplice: le alici sotto sale, l’aceto e il fondo di cottura costruiscono una salsa intensa e sapida, alleggerita dalla mia abitudine di sgrassare il fondo e dalla presenza del limone.</p></section><section class="block ingredients-block">
 <h2>Ingredienti</h2>
 <div class="table-wrap">
 <table class="recipe-table ingredients-table">
@@ -473,7 +468,7 @@ main figure img{cursor:zoom-in;}
 </tbody>
 </table>
 </div>
-</section><section class="preparation-block block"><h2>Preparazione</h2><ol class="steps"><li><p><strong>La base.</strong></p><p>Trito la pancetta e la metto in una teglia con una noce di burro, salvia e rosmarino. Lascio rosolare leggermente, giusto il tempo di far sciogliere i grassi e sviluppare il profumo, senza far prendere colore.</p></li><li><p><strong>La cottura.</strong></p><p>Tolgo dal fuoco e adagio l’anatra nella teglia. Aggiungo un limone diviso a metà, salo e pepo leggermente. Metto in forno già caldo a 180°C e lascio cuocere, irrorando di tanto in tanto con il fondo di cottura.</p></li><li><p><strong>La salsa peverada.</strong></p><p>Trito finemente l’aglio e, a parte, la soppressa. Lavo e dilisco le alici (se sono sotto sale le dissalo bene), quindi le trito. Metto tutto in una casseruolina e faccio soffriggere molto dolcemente per circa 10 minuti, lasciando che i grassi si sciolgano senza prendere colore. Aggiungo quindi l’aceto, mescolo e tolgo subito dal fuoco.</p></li><li><p><strong>Disposizione.</strong></p><p>Quando l’anatra è cotta (ca. due ore), la tolgo dalla teglia, la taglio a pezzi e la dispongo in un piatto da forno.</p><p>Verso sopra la salsa e il fondo di cottura, che nel frattempo ho sgrassato con cura. Metto il piatto in forno caldo ma spento e lascio insaporire per circa 20 minuti.</p><p>Accompagno con patate al forno.</p></li><li><p><strong>Vino.</strong></p><p>Cabernet Sauvignon</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><p>Conviene preriscaldare bene il forno prima di iniziare la cottura.</p><p>Indicazione di tempo presente nel testo: 2 ore</p></section></div>
+</section><section class="block preparation-block"><h2>Preparazione</h2><ol class="steps"><li><p><strong>La base.</strong></p><p>Trito la pancetta e la metto in una teglia con una noce di burro, salvia e rosmarino. Lascio rosolare leggermente, giusto il tempo di far sciogliere i grassi e sviluppare il profumo, senza far prendere colore.</p></li><li><p><strong>La cottura.</strong></p><p>Tolgo dal fuoco e adagio l’anatra nella teglia. Aggiungo un limone diviso a metà, salo e pepo leggermente. Metto in forno già caldo a 180°C e lascio cuocere, irrorando di tanto in tanto con il fondo di cottura.</p></li><li><p><strong>La salsa peverada.</strong></p><p>Trito finemente l’aglio e, a parte, la soppressa. Lavo e dilisco le alici (se sono sotto sale le dissalo bene), quindi le trito. Metto tutto in una casseruolina e faccio soffriggere molto dolcemente per circa 10 minuti, lasciando che i grassi si sciolgano senza prendere colore. Aggiungo quindi l’aceto, mescolo e tolgo subito dal fuoco.</p></li><li><p><strong>Disposizione.</strong></p><p>Quando l’anatra è cotta (ca. due ore), la tolgo dalla teglia, la taglio a pezzi e la dispongo in un piatto da forno.</p><p>Verso sopra la salsa e il fondo di cottura, che nel frattempo ho sgrassato con cura. Metto il piatto in forno caldo ma spento e lascio insaporire per circa 20 minuti.</p><p>Accompagno con patate al forno.</p></li><li><p><strong>Vino.</strong></p><p>Cabernet Sauvignon</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><p>Conviene preriscaldare bene il forno prima di iniziare la cottura.</p><p>Indicazione di tempo presente nel testo: 2 ore</p></section></div>
 <footer class="site-footer recipe-footer"><div class="site-footer-left"><a aria-label="Licenza Creative Commons BY-NC-SA" class="cc-link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><nav aria-label="Strumenti pagina" class="site-footer-center"><a aria-label="Informativa" class="site-footer-icon recipe-tool-info" href="../../informativa.html"><img alt="" src="../../foto/ui/info-light.svg"/></a><a aria-label="Scrivimi" class="site-footer-icon recipe-tool-mail" href="../../scrivimi.html"><img alt="" src="../../foto/ui/mail-light.svg"/></a><a aria-label="Stampa pagina" class="site-footer-icon js-print-link js-editorial-print-link recipe-tool-print" href="#"><img alt="" src="../../foto/ui/print-light.svg"/></a><a aria-label="Copia URL" class="site-footer-icon recipe-tool-link" href="#"><img alt="" src="../../foto/ui/link-light.svg"/></a></nav><div class="site-footer-right"><a class="site-footer-qr-link recipe-qrcode-link" href="../../foto/anatra-in-salsa/qr-code.png"><img alt="QR ricetta" src="../../foto/anatra-in-salsa/qr-code.png"/></a></div></footer>
 </main>
 </main>
@@ -561,7 +556,7 @@ document.addEventListener('DOMContentLoaded', function(){
     return overlay;
   }
 
-  var PRINT_ENGINE_SRC = '../../foto/ui/recipe-editorial-print.js?v=CMS2-R18-036';
+  var PRINT_ENGINE_SRC = '../../foto/ui/recipe-editorial-print.js?v=CMS2-R18-053';
   var printEnginePromise = null;
 
   function loadRecipeEditorialPrintEngine(){

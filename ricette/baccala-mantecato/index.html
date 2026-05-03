@@ -16,6 +16,27 @@
 .recipe-page .recipe-content > h1{
   margin: 0 0 1.2rem 0;
 }
+.recipe-page .meta-grid{
+  display:grid;
+  grid-template-columns:repeat(4, minmax(0, 1fr));
+  gap:.85rem 1.5rem;
+  margin-bottom:1.05rem;
+}
+.recipe-page .meta-grid .meta-card{
+  padding-top:.42rem;
+}
+.recipe-page .meta-grid .meta-card strong{
+  margin-bottom:.08rem;
+}
+.recipe-page .meta-grid .meta-card:nth-child(n+5){
+  display:none !important;
+}
+ (max-width: 900px){
+  .recipe-page .meta-grid{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap:.75rem 1.15rem;
+  }
+}
 .site-header nav{
   display:flex;
   align-items:center;
@@ -397,33 +418,7 @@
   .recipe-quick-meta span{flex:1 1 100%;}
   .ingredients-overlay{padding:.75rem;}
   .ingredients-overlay-panel{max-height:92vh;padding:.9rem;}
-}
-
-
-/* R18-035 — metadati principali su 4 colonne, secondari nella quick-meta */
-.recipe-page .meta-grid{
-  display:grid;
-  grid-template-columns:repeat(4, minmax(0, 1fr));
-  gap:.85rem 1.5rem;
-  margin-bottom:1.05rem;
-}
-.recipe-page .meta-grid .meta-card{
-  padding-top:.42rem;
-}
-.recipe-page .meta-grid .meta-card strong{
-  margin-bottom:.08rem;
-}
-.recipe-page .meta-grid .meta-card:nth-child(n+5){
-  display:none !important;
-}
-@media (max-width: 900px){
-  .recipe-page .meta-grid{
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap:.75rem 1.15rem;
-  }
-}
-
-</style>
+}</style>
   <style id="recipe-lightbox-style">.recipe-lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.88);display:flex;align-items:center;justify-content:center;padding:2rem;z-index:9999;cursor:zoom-out;}
 .recipe-lightbox-overlay.is-hidden{display:none !important;}
 .recipe-lightbox-frame{max-width:96vw;max-height:96vh;display:flex;flex-direction:column;gap:.75rem;align-items:center;}
@@ -451,7 +446,7 @@ main figure img{cursor:zoom-in;}
 
 <main class="recipe-page">
 <main class="recipe-page">
-<div class="recipe-content"><h1>Baccalà mantecato</h1><section class="lead"><h2>Introduzione e contesto</h2><p>A Venezia ho lavorato per molti anni. Di immagini ne sono rimaste poche.</p><p>Questa è una di quelle, dall’Ospedale Civile. Fa parte della raccolta <a href="https://photos.app.goo.gl/QFqJZ1GQMsxSK8Ex9" rel="noopener noreferrer" target="_blank">Venezia- Architetture</a>.</p><figure class="step-photo-right step-photo" style="width: 18%; max-width: 18%;"><img src="../../foto/baccala-mantecato/IMG_5508.jpg"/><figcaption>La passerella all'ospedlae civile di Venezia</figcaption></figure><p>Il baccalà mantecato è uno di quei piatti che sembrano semplici, ma non lo sono. Il nome stesso: baccalà, ma in realtà si tratta di stoccafisso. Essiccato nelle isole Lofoten davanti al mare.</p><p>Più che una ricetta, per me è un metodo che ho affinato nel tempo, anche grazie a persone che hanno lasciato qualcosa nella mia cucina.</p><figure class="step-photo-left step-photo" style="width: 51.2%; max-width: 51.2%;"><img src="../../foto/baccala-mantecato/01.jpg"/><figcaption>Ingredienti da AI</figcaption></figure></section><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Antipasti</span></div><div class="meta-card"><strong>Geografia</strong><span>Italia- Veneto - Venezia</span></div><div class="meta-card"><strong>Fonte</strong><span></span></div></section><section class="block ingredients-block"><h2>Ingredienti</h2><div class="table-wrap"><table class="recipe-table ingredients-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Stoccafisso</td><td>300</td><td>g</td><td>qualità RAGNO</td></tr><tr><td>Olio extra vergine di oliva </td><td>1/4</td><td></td><td>del peso dello stoccafisso</td></tr><tr><td>Latte</td><td>qb</td><td></td><td></td></tr><tr><td>Albume</td><td></td><td></td><td>solo se necessario</td></tr><tr><td>Pepe</td><td></td><td></td><td></td></tr><tr><td>Sale</td><td></td><td></td><td></td></tr></tbody></table></div></section><section class="preparation-block block"><h2>Preparazione</h2><ol class="steps"><li><p><strong>Ammollo</strong></p><p>Dopo averlo battuto con un bastone, metto lo stoccafisso (RAGNO) a mollo per circa 48 ore, con un filo d’acqua corrente. Non salto questo passaggio: è determinante per il risultato finale.</p></li><li><p><strong>Cottura</strong></p><p>Lo divido in pezzi, lasciando anche pelle e parte interna più gelatinosa: aiutano l’emulsione. Lo lesso poi per due o tre minuti in acqua leggermente salata.</p></li><li><p><strong>Mantecatura</strong></p><p>rasferisco il tutto in una zangola, quando ce l’ho. In alternativa uso un macinatutto robusto con lame da sbattitore (non affilate). Aggiungo l’olio poco alla volta, circa un quarto del peso dello stoccafisso come riferimento iniziale. Uso olio extra vergine d’oliva, oppure — se voglio un risultato più neutro — anche di arachide. Continuo finché il composto prende consistenza e diventa una crema. Non c’è un tempo preciso: ci si arriva lavorandolo.</p></li><li><p><strong>Regolazione</strong></p><p>Aggiusto di sale e pepe e aggiungo un trito molto fine di aglio, appena percettibile. Se serve, allungo leggermente con un po’ di brodo di cottura o con latte caldo.</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><p>Note</p><p>La quantità di olio non è fissa: dipende dallo stoccafisso e da come voglio la consistenza finale.</p><p>Un accorgimento, che uso ogni tanto, viene da Lisbeth: aggiungere un poco di albume durante la lavorazione. Aiuta a dare struttura alla crema. Ha origini da un piatto simile francese.</p><p>Il risultato deve restare leggero e lavorabile, non compatto.</p><p>Lo servo con pane bianco veneziano.<br/>In abbinamento, un <a href="https://colvendra.it/schede/GRAN%20BRUT%20DOCG%20BRUT.pdf" rel="noopener noreferrer" target="_blank">Prosecco DOCG</a> funziona bene: pulisce senza coprire.</p></section></div>
+<div class="recipe-content"><h1>Baccalà mantecato</h1><section class="lead"><h2>Introduzione e contesto</h2><p>A Venezia ho lavorato per molti anni. Di immagini ne sono rimaste poche.</p><p>Questa è una di quelle, dall’Ospedale Civile. Fa parte della raccolta <a href="https://photos.app.goo.gl/QFqJZ1GQMsxSK8Ex9" rel="noopener noreferrer" target="_blank">Venezia- Architetture</a>.</p><figure class="step-photo step-photo-right" style="width: 18%; max-width: 18%;"><img src="../../foto/baccala-mantecato/IMG_5508.jpg"/><figcaption>La passerella all'ospedlae civile di Venezia</figcaption></figure><p>Il baccalà mantecato è uno di quei piatti che sembrano semplici, ma non lo sono. Il nome stesso: baccalà, ma in realtà si tratta di stoccafisso. Essiccato nelle isole Lofoten davanti al mare.</p><p>Più che una ricetta, per me è un metodo che ho affinato nel tempo, anche grazie a persone che hanno lasciato qualcosa nella mia cucina.</p><figure class="step-photo-left step-photo" style="width: 51.2%; max-width: 51.2%;"><img src="../../foto/baccala-mantecato/01.jpg"/><figcaption>Ingredienti da AI</figcaption></figure></section><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Antipasti</span></div><div class="meta-card"><strong>Geografia</strong><span>Italia- Veneto - Venezia</span></div><div class="meta-card"><strong>Fonte</strong><span></span></div><div class="meta-card"><strong>Porzioni</strong><span>4-6</span></div><div class="meta-card"><strong>Tempo attivo</strong><span>30-45 min</span></div><div class="meta-card"><strong>Tempo cottura</strong><span>2 h circa</span></div><div class="meta-card"><strong>Tempo riposo</strong><span>48 h</span></div><div class="meta-card"><strong>Tempo totale</strong><span>include riposo</span></div></section><section class="block ingredients-block"><h2>Ingredienti</h2><div class="table-wrap"><table class="recipe-table ingredients-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Stoccafisso</td><td>300</td><td>g</td><td>qualità RAGNO</td></tr><tr><td>Olio extra vergine di oliva </td><td>1/4</td><td></td><td>del peso dello stoccafisso</td></tr><tr><td>Latte</td><td>qb</td><td></td><td></td></tr><tr><td>Albume</td><td></td><td></td><td>solo se necessario</td></tr><tr><td>Pepe</td><td></td><td></td><td></td></tr><tr><td>Sale</td><td></td><td></td><td></td></tr></tbody></table></div></section><section class="block preparation-block"><h2>Preparazione</h2><ol class="steps"><li><p><strong>Ammollo</strong></p><p>Dopo averlo battuto con un bastone, metto lo stoccafisso (RAGNO) a mollo per circa 48 ore, con un filo d’acqua corrente. Non salto questo passaggio: è determinante per il risultato finale.</p></li><li><p><strong>Cottura</strong></p><p>Lo divido in pezzi, lasciando anche pelle e parte interna più gelatinosa: aiutano l’emulsione. Lo lesso poi per due ore o più in acqua leggermente salata.</p></li><li><p><strong>Mantecatura</strong></p><p>Trasferisco il tutto in una zangola, quando ce l’ho. In alternativa uso un macinatutto robusto con lame da sbattitore (non affilate). Aggiungo l’olio poco alla volta, circa un quarto del peso dello stoccafisso come riferimento iniziale. Uso olio extra vergine d’oliva, oppure — se voglio un risultato più neutro — anche di arachide. Continuo finché il composto prende consistenza e diventa una crema. Non c’è un tempo preciso: ci si arriva lavorandolo.</p></li><li><p><strong>Regolazione</strong></p><p>Aggiusto di sale e pepe e aggiungo un trito molto fine di aglio, appena percettibile. Se serve, allungo leggermente con un po’ di brodo di cottura o con latte caldo.</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><p>Note</p><p>La quantità di olio non è fissa: dipende dallo stoccafisso e da come voglio la consistenza finale.</p><p>Un accorgimento, che uso ogni tanto, viene da Lisbeth: aggiungere un poco di albume durante la lavorazione. Aiuta a dare struttura alla crema. Ha origini da un piatto simile francese.</p><p>Il risultato deve restare leggero e lavorabile, non compatto.</p><p>Lo servo con pane bianco veneziano.<br/>In abbinamento, un <a href="https://colvendra.it/schede/GRAN%20BRUT%20DOCG%20BRUT.pdf" rel="noopener noreferrer" target="_blank">Prosecco DOCG</a> funziona bene: pulisce senza coprire.</p></section></div>
 <footer class="site-footer recipe-footer"><div class="site-footer-left"><a aria-label="Licenza Creative Commons BY-NC-SA" class="cc-link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><nav aria-label="Strumenti pagina" class="site-footer-center"><a aria-label="Informativa" class="site-footer-icon recipe-tool-info" href="../../informativa.html"><img alt="" src="../../foto/ui/info-light.svg"/></a><a aria-label="Scrivimi" class="site-footer-icon recipe-tool-mail" href="../../scrivimi.html"><img alt="" src="../../foto/ui/mail-light.svg"/></a><a aria-label="Stampa pagina" class="site-footer-icon js-print-link js-editorial-print-link recipe-tool-print" href="#"><img alt="" src="../../foto/ui/print-light.svg"/></a><a aria-label="Copia URL" class="site-footer-icon recipe-tool-link" href="#"><img alt="" src="../../foto/ui/link-light.svg"/></a></nav><div class="site-footer-right"><a class="site-footer-qr-link recipe-qrcode-link" href="../../foto/baccala-mantecato/qr-code.png"><img alt="QR ricetta" src="../../foto/baccala-mantecato/qr-code.png"/></a></div></footer>
 </main>
 </main>
@@ -539,7 +534,7 @@ document.addEventListener('DOMContentLoaded', function(){
     return overlay;
   }
 
-  var PRINT_ENGINE_SRC = '../../foto/ui/recipe-editorial-print.js?v=CMS2-R18-036';
+  var PRINT_ENGINE_SRC = '../../foto/ui/recipe-editorial-print.js?v=CMS2-R18-053';
   var printEnginePromise = null;
 
   function loadRecipeEditorialPrintEngine(){

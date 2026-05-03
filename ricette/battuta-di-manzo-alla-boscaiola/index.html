@@ -16,6 +16,27 @@
 .recipe-page .recipe-content > h1{
   margin: 0 0 1.2rem 0;
 }
+.recipe-page .meta-grid{
+  display:grid;
+  grid-template-columns:repeat(4, minmax(0, 1fr));
+  gap:.85rem 1.5rem;
+  margin-bottom:1.05rem;
+}
+.recipe-page .meta-grid .meta-card{
+  padding-top:.42rem;
+}
+.recipe-page .meta-grid .meta-card strong{
+  margin-bottom:.08rem;
+}
+.recipe-page .meta-grid .meta-card:nth-child(n+5){
+  display:none !important;
+}
+ (max-width: 900px){
+  .recipe-page .meta-grid{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap:.75rem 1.15rem;
+  }
+}
 .site-header nav{
   display:flex;
   align-items:center;
@@ -397,33 +418,7 @@
   .recipe-quick-meta span{flex:1 1 100%;}
   .ingredients-overlay{padding:.75rem;}
   .ingredients-overlay-panel{max-height:92vh;padding:.9rem;}
-}
-
-
-/* R18-035 — metadati principali su 4 colonne, secondari nella quick-meta */
-.recipe-page .meta-grid{
-  display:grid;
-  grid-template-columns:repeat(4, minmax(0, 1fr));
-  gap:.85rem 1.5rem;
-  margin-bottom:1.05rem;
-}
-.recipe-page .meta-grid .meta-card{
-  padding-top:.42rem;
-}
-.recipe-page .meta-grid .meta-card strong{
-  margin-bottom:.08rem;
-}
-.recipe-page .meta-grid .meta-card:nth-child(n+5){
-  display:none !important;
-}
-@media (max-width: 900px){
-  .recipe-page .meta-grid{
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap:.75rem 1.15rem;
-  }
-}
-
-</style>
+}</style>
   <style id="recipe-lightbox-style">.recipe-lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.88);display:flex;align-items:center;justify-content:center;padding:2rem;z-index:9999;cursor:zoom-out;}
 .recipe-lightbox-overlay.is-hidden{display:none !important;}
 .recipe-lightbox-frame{max-width:96vw;max-height:96vh;display:flex;flex-direction:column;gap:.75rem;align-items:center;}
@@ -451,7 +446,7 @@ main figure img{cursor:zoom-in;}
 
 <main class="recipe-page">
 <main class="recipe-page">
-<div class="recipe-content"><h1>Battuta di manzo alla boscaiola</h1><section class="meta-grid" style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Secondi</span></div><div class="meta-card"><strong>Geografia</strong><span>Italia - Veneto - Alpago</span></div><div class="meta-card"><strong>Fonte</strong><span>Antonio S.</span></div></section><section class="lead"><h2>Introduzione e contesto</h2><figure class="step-photo step-photo-large" style="width: 651.786px; max-width: 100%;"><img src="../../foto/battuta-di-manzo-alla-boscaiola/01.jpg" width="651.7857666015625"/></figure><p>Questa ricetta mi è stata inviata da Antonio e probabilmente nasce in area Alpago.</p><p>Non è una battuta classica: qui conta l’insieme. La corteccia scaldata in forno rilascia profumo di resina, la pancetta porta grasso e calore, le bucce di patata danno croccantezza.</p><p>È una preparazione semplice solo in apparenza: ogni elemento ha un ruolo preciso.</p></section><section class="block ingredients-block">
+<div class="recipe-content"><h1>Battuta di manzo alla boscaiola</h1><section class="meta-grid" style="display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Secondi</span></div><div class="meta-card"><strong>Geografia</strong><span>Italia - Veneto - Alpago</span></div><div class="meta-card"><strong>Fonte</strong><span>Antonio S.</span></div><div class="meta-card"><strong>Porzioni</strong><span>4</span></div><div class="meta-card"><strong>Tempo attivo</strong><span>45-60 min</span></div><div class="meta-card"><strong>Tempo cottura</strong><span>3 min circa</span></div><div class="meta-card"><strong>Tempo riposo</strong><span></span></div><div class="meta-card"><strong>Tempo totale</strong><span></span></div></section><section class="lead"><h2>Introduzione e contesto</h2><figure class="step-photo-large step-photo" style="width: 652px; max-width: 100%;"><img src="../../foto/battuta-di-manzo-alla-boscaiola/01.jpg" width="652"/><figcaption>La battuta servita</figcaption></figure><p>Questa ricetta mi è stata inviata da Antonio e probabilmente nasce in area Alpago.</p><p>Non è una battuta classica: qui conta l’insieme. La corteccia scaldata in forno rilascia profumo di resina, la pancetta porta grasso e calore, le bucce di patata danno croccantezza.</p><p>È una preparazione semplice solo in apparenza: ogni elemento ha un ruolo preciso.</p></section><section class="block ingredients-block">
 <h2>Ingredienti</h2>
 <div class="table-wrap">
 <table class="recipe-table ingredients-table">
@@ -459,7 +454,7 @@ main figure img{cursor:zoom-in;}
 <tbody><tr><td>Battuta di manzo</td><td>800</td><td>gr</td><td>A mano a coltello</td></tr><tr><td>Olio extra verdine d'oliva</td><td>qb</td><td></td><td></td></tr><tr><td>Corteccia</td><td>20x20</td><td>cm</td><td></td></tr><tr><td>Pancetta</td><td>100</td><td>gr</td><td></td></tr><tr><td>Ginepro</td><td>6</td><td>n</td><td>Bacche</td></tr><tr><td>Patate</td><td>1</td><td>kg</td><td></td></tr></tbody>
 </table>
 </div>
-</section><section class="preparation-block block"><h2>Preparazione</h2><ol class="steps"><li><p><strong>Preparo la corteccia di abete.</strong></p><figure class="step-photo-right step-photo" style="width: 174px; max-width: 100%;"><img src="../../foto/battuta-di-manzo-alla-boscaiola/IMG_8938.jpg" width="174"/></figure><p>Se mi fermo dove hanno tagliato i tronchi lungo la strada ne trovo facilmente.</p><p>Prendo pezzi abbastanza grandi, come un piatto, evitando se possibile quelli con bostrico.</p><p>La pulisco con cura e la sciacquo bene. Meglio farlo in anticipo.</p></li><li><p><strong>Preparo il manzo.</strong></p><figure class="step-photo-left step-photo" style="width: 169px; max-width: 100%;"><img src="../../foto/battuta-di-manzo-alla-boscaiola/IMG_8939.jpg" width="169"/></figure><p>Io utilizzo sottofiletto, costata, o altri tagli pregiati, ma non il filetto, poco gustoso e troppo delicato per questa preparazione piuttosto rustica.</p><p>Lo taglio (o se gentili lo faccio tagliare) a punta di coltello, come si fa in Piemonte, e lo condisco leggermente con olio EVO, sale grosso e un rametto di timo. </p></li><li><p><strong>Preparo le patate.</strong></p><figure class="step-photo-right step-photo" style="width: 164px; max-width: 100%;"><img src="../../foto/battuta-di-manzo-alla-boscaiola/IMG_8940.jpg" width="164"/></figure><p>Le lesso, poi le pelo con attenzione.</p><p>Tengo da parte le bucce e le rendo croccanti in forno: danno una nota leggermente amara e molto interessante.</p></li><li><p><strong>Preparo il contorno.</strong></p><figure class="step-photo-left step-photo" style="width: 136px; max-width: 100%;"><img src="../../foto/battuta-di-manzo-alla-boscaiola/IMG_8941.jpg" width="136"/></figure><p>Schiaccio grossolanamente le patate con una forchetta.</p><p>Aggiungo una noce di burro e, se voglio, un po’ di noci tritate.</p></li><li><p><strong>Preparo la pancetta.</strong></p><figure class="step-photo-right step-photo" style="width: 159px; max-width: 100%;"><img src="../../foto/battuta-di-manzo-alla-boscaiola/IMG_8937.jpg" width="159"/></figure><p>La faccio rosolare in padella finché diventa ben croccante.</p></li><li><p><strong>Metto le cortecce in forno</strong>. </p><p>Devono scaldarsi fino a fumare leggermente ed emanare il profumo di resina. Appoggio sulla corteccia la battuta di manzo cruda, leggermente condita. </p><p>Re-inforno per 2 o 3 minuti, appena per intiepidire la carne.</p></li><li><p><strong>Impiatto</strong>.</p><figure class="step-photo-right step-photo" style="width: 155px; max-width: 100%;"><img src="../../foto/battuta-di-manzo-alla-boscaiola/IMG_8947.jpg" width="155"/></figure><p>Tolgo dal forno e ci verso sopra la pancetta con il suo grasso caldo.</p><p>Completo con le bucce di patata croccanti e, a lato, le patate schiacciate.</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><p>Il Bostrico... Vaia.<br/>Bisogna leggere Mario Rigoni Stern. <a href="https://cipputi-antichimestieri.blogspot.com/2020/02/le-conifere-di-montagna-raccontate-da.html" rel="noopener noreferrer" target="_blank">Qui</a> in una intervista, ma questo tema lo tratta anche anche in "<a href="https://it.wikipedia.org/wiki/Uomini,_boschi_e_api" rel="noopener noreferrer" target="_blank">Uomini, boschi e api</a>".<br/>Come la monocultura dell'abete rosso si è dimostrata nefanda per i boschi. E così fu dai tempi della Serenissima che utilizzava queste conifere per gli alberi delle proprie navi.<br/>Poi venne <a href="https://it.wikipedia.org/wiki/Tempesta_Vaia" rel="noopener noreferrer" target="_blank">Vaia</a>, e gli abeti rossi andarono giù mentre i pini sopravvivono ancora.<br/>Poi, complice Vaia, venne il <a href="https://it.wikipedia.org/wiki/Ips_typographus" rel="noopener noreferrer" target="_blank">Bostrico</a>, mentre i pini sopravvivono ancora.<br/>Ma purtroppo l'abete rosso ha un uso commerciale molto più ampio di pini o altre conifere. Più pregiate, ma con utilizzi più ristretti.<br/>Da chiedersi come mai si continua a perseguire questa strada.</p><figure class="step-photo-left step-photo" style="width: 250px; max-width: 100%;"><img src="../../foto/battuta-di-manzo-alla-boscaiola/IMG_6506.jpg" width="250"/></figure><figure class="step-photo-right step-photo" style="width: 241px; max-width: 100%;"><img src="../../foto/battuta-di-manzo-alla-boscaiola/IMG_0556.jpg" width="241"/></figure></section></div>
+</section><section class="block preparation-block"><h2>Preparazione</h2><ol class="steps"><li><p><strong>Preparo la corteccia di abete.</strong></p><figure class="step-photo step-photo-right" style="width: 174px; max-width: 100%;"><img src="../../foto/battuta-di-manzo-alla-boscaiola/IMG_8938.jpg" width="174"/><figcaption>Le cortecce</figcaption></figure><p>Se mi fermo dove hanno tagliato i tronchi lungo la strada ne trovo facilmente.</p><p>Prendo pezzi abbastanza grandi, come un piatto, evitando se possibile quelli con bostrico.</p><p>La pulisco con cura e la sciacquo bene. Meglio farlo in anticipo.</p></li><li><p><strong>Preparo il manzo.</strong></p><figure class="step-photo-left step-photo" style="width: 169px; max-width: 100%;"><img src="../../foto/battuta-di-manzo-alla-boscaiola/IMG_8939.jpg" width="169"/><figcaption>La battuta condita</figcaption></figure><p>Io utilizzo sottofiletto, costata, o altri tagli pregiati, ma non il filetto, poco gustoso e troppo delicato per questa preparazione piuttosto rustica.</p><p>Lo taglio (o se gentili lo faccio tagliare) a punta di coltello, come si fa in Piemonte, e lo condisco leggermente con olio extra vergine d'oliva, sale grosso e un rametto di timo. </p></li><li><p><strong>Preparo le patate.</strong></p><figure class="step-photo step-photo-right" style="width: 164px; max-width: 100%;"><img src="../../foto/battuta-di-manzo-alla-boscaiola/IMG_8940.jpg" width="164"/><figcaption>Bucce di patata</figcaption></figure><p>Le lesso, poi le pelo con attenzione.</p><p>Tengo da parte le bucce e le rendo croccanti in forno: danno una nota leggermente amara e molto interessante.</p></li><li><p><strong>Preparo il contorno.</strong></p><figure class="step-photo-left step-photo" style="width: 136px; max-width: 100%;"><img src="../../foto/battuta-di-manzo-alla-boscaiola/IMG_8941.jpg" width="136"/><figcaption>Patate schiacciate</figcaption></figure><p>Schiaccio grossolanamente le patate con una forchetta.</p><p>Aggiungo una noce di burro e, se voglio, un po’ di noci tritate.</p></li><li><p><strong>Preparo la pancetta.</strong></p><figure class="step-photo step-photo-right" style="width: 159px; max-width: 100%;"><img src="../../foto/battuta-di-manzo-alla-boscaiola/IMG_8937.jpg" width="159"/><figcaption>Pancetta</figcaption></figure><p>La faccio rosolare in padella finché diventa ben croccante.</p></li><li><p><strong>Metto le cortecce in forno</strong>. </p><p>Devono scaldarsi fino a fumare leggermente ed emanare il profumo di resina. Appoggio sulla corteccia la battuta di manzo cruda, leggermente condita. </p><p>Re-inforno per 2 o 3 minuti, appena per intiepidire la carne.</p></li><li><p><strong>Impiatto</strong>.</p><figure class="step-photo step-photo-right" style="width: 155px; max-width: 100%;"><img src="../../foto/battuta-di-manzo-alla-boscaiola/IMG_8947.jpg" width="155"/></figure><p>Tolgo dal forno e ci verso sopra la pancetta con il suo grasso caldo.</p><p>Completo con le bucce di patata croccanti e, a lato, le patate schiacciate.</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><p>Il Bostrico... Vaia.<br/>Bisogna leggere Mario Rigoni Stern. <a href="https://cipputi-antichimestieri.blogspot.com/2020/02/le-conifere-di-montagna-raccontate-da.html" rel="noopener noreferrer" target="_blank">Qui</a> in una intervista, ma questo tema lo tratta anche anche in "<a href="https://it.wikipedia.org/wiki/Uomini,_boschi_e_api" rel="noopener noreferrer" target="_blank">Uomini, boschi e api</a>".<br/>Come la monocultura dell'abete rosso si è dimostrata nefanda per i boschi. E così fu dai tempi della Serenissima che utilizzava queste conifere per gli alberi delle proprie navi.<br/>Poi venne <a href="https://it.wikipedia.org/wiki/Tempesta_Vaia" rel="noopener noreferrer" target="_blank">Vaia</a>, e gli abeti rossi andarono giù mentre i pini sopravvivono ancora.<br/>Poi, complice Vaia, venne il <a href="https://it.wikipedia.org/wiki/Ips_typographus" rel="noopener noreferrer" target="_blank">Bostrico</a>, mentre i pini sopravvivono ancora.<br/>Ma purtroppo l'abete rosso ha un uso commerciale molto più ampio di pini o altre conifere. Più pregiate, ma con utilizzi più ristretti.<br/>Da chiedersi come mai si continua a perseguire questa strada.</p><figure class="step-photo-large step-photo" style="width: 100%; max-width: 100%;"><img src="../../foto/battuta-di-manzo-alla-boscaiola/IMG_6506.jpg"/><figcaption>Pini in val d'Oten</figcaption></figure><figure class="step-photo-large step-photo" style="width: 652px; max-width: 100%;"><img src="../../foto/battuta-di-manzo-alla-boscaiola/IMG_0556.jpg" width="652"/><figcaption>Abete rosso abbattuto da Vaia</figcaption></figure></section></div>
 <footer class="site-footer recipe-footer"><div class="site-footer-left"><a aria-label="Licenza Creative Commons BY-NC-SA" class="cc-link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><nav aria-label="Strumenti pagina" class="site-footer-center"><a aria-label="Informativa" class="site-footer-icon recipe-tool-info" href="../../informativa.html"><img alt="" src="../../foto/ui/info-light.svg"/></a><a aria-label="Scrivimi" class="site-footer-icon recipe-tool-mail" href="../../scrivimi.html"><img alt="" src="../../foto/ui/mail-light.svg"/></a><a aria-label="Stampa pagina" class="site-footer-icon js-print-link js-editorial-print-link recipe-tool-print" href="#"><img alt="" src="../../foto/ui/print-light.svg"/></a><a aria-label="Copia URL" class="site-footer-icon recipe-tool-link" href="#"><img alt="" src="../../foto/ui/link-light.svg"/></a></nav><div class="site-footer-right"><a class="site-footer-qr-link recipe-qrcode-link" href="../../foto/battuta-di-manzo-alla-boscaiola/qr-code.png"><img alt="QR ricetta" src="../../foto/battuta-di-manzo-alla-boscaiola/qr-code.png"/></a></div></footer>
 </main>
 </main>
@@ -547,7 +542,7 @@ document.addEventListener('DOMContentLoaded', function(){
     return overlay;
   }
 
-  var PRINT_ENGINE_SRC = '../../foto/ui/recipe-editorial-print.js?v=CMS2-R18-036';
+  var PRINT_ENGINE_SRC = '../../foto/ui/recipe-editorial-print.js?v=CMS2-R18-053';
   var printEnginePromise = null;
 
   function loadRecipeEditorialPrintEngine(){

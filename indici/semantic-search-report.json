@@ -1,13 +1,13 @@
 {
   "versione": "CMS2-R18-051",
   "semantica_versione": "ING-SEMANTICA-003",
-  "timestamp": "2026-05-03T08:10:24",
+  "timestamp": "2026-05-03T21:24:26",
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette",
   "search_data": "G:\\Il mio Drive\\Esperienze\\Ricette\\indici\\search-data.json",
-  "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\CMS2-R18-051\\ingredienti-semantica.json",
+  "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\CMS2-R18-053\\ingredienti-semantica.json",
   "apply": true,
-  "processed": 60,
-  "changed": 40,
+  "processed": 61,
+  "changed": 58,
   "missing_source": [],
   "no_structural_terms": [
     "patatine",
@@ -643,7 +643,7 @@
       "regole_matchate": [
         "cous cous"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "crepes",
@@ -734,7 +734,7 @@
         "sale",
         "bouquet garni"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "fegato-alla-veneziana",
@@ -832,7 +832,7 @@
         "senape",
         "sale"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "fusilli-carciofi-e-salmone",
@@ -1000,7 +1000,7 @@
         "funghi",
         "latte"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "goulash-variante",
@@ -1127,7 +1127,7 @@
         "maiale",
         "patate"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "minestra-di-porri",
@@ -1200,7 +1200,47 @@
         "topinambur",
         "alici"
       ],
-      "modificato": false
+      "modificato": true
+    },
+    {
+      "slug": "paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero",
+      "titolo": "Paccheri di Gragnano IGP con orata, pomodorini, capperi e zenzero",
+      "fonte_semantica": "html-ingredienti",
+      "ingredienti_usati": [
+        "Paccheri di Gragnano IGP",
+        "Filetti di orata",
+        "Pomodorini",
+        "Capperi sotto sale",
+        "Zenzero",
+        "Vino bianco secco",
+        "Concentrato di pomodori",
+        "Olio extra vergine d'oliva",
+        "Sale",
+        "Pepe",
+        "Prezzemolo tritato"
+      ],
+      "termini_ricerca": [
+        "verdura",
+        "ortaggi"
+      ],
+      "allergeni": [],
+      "tag_accessori_esclusi": [
+        "spezie",
+        "condimenti",
+        "condimenti liquidi",
+        "erbe aromatiche"
+      ],
+      "regole_matchate": [
+        "topinambur",
+        "sale",
+        "capperi",
+        "olio",
+        "barbera",
+        "olive",
+        "prezzemolo tritato",
+        "prezzemolo"
+      ],
+      "modificato": true
     },
     {
       "slug": "pappa-con-il-pomodoro",
@@ -1239,7 +1279,7 @@
         "sedano",
         "farina"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "pasta-al-ragu-di-triglie-e-al-succo-d-arancia",
@@ -1385,7 +1425,7 @@
       "regole_matchate": [
         "spaghetti"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "pasta-con-pesto-alla-siciliana",
@@ -1474,7 +1514,7 @@
         "maiale",
         "spaghetti"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "patatine",
@@ -1625,7 +1665,7 @@
         "spaghetti",
         "verdura"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "penne-con-zucchine",
@@ -1744,7 +1784,7 @@
         "latte",
         "sale"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "ratatouille-variante",
@@ -1781,7 +1821,7 @@
         "prezzemolo",
         "sale"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "ribollita",
@@ -1831,7 +1871,7 @@
         "sedano",
         "riso"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "riso-cozze-e-patate",
@@ -1899,7 +1939,7 @@
       "regole_matchate": [
         "manzo"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "roux-brun",
@@ -1919,7 +1959,7 @@
         "latte",
         "farina"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "salsa-verde",
@@ -2237,7 +2277,7 @@
       "regole_matchate": [
         "pollo"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "tajin-mqualli",
@@ -2325,7 +2365,7 @@
       "regole_matchate": [
         "tonno"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "tortino-di-alici",
