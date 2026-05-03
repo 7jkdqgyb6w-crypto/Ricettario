@@ -131,30 +131,10 @@ function escapeHtml(value){
 
     function collectRecipeMeta(){
       var out = {};
-      function cleanLabel(value){
-        return String(value || '').replace(/[:：]\s*$/,'').replace(/\s+/g,' ').trim().toLowerCase();
-      }
       var cards = document.querySelectorAll('.meta-grid .meta-card');
       cards.forEach(function(card){
-        var label = cleanLabel(card.querySelector('strong') && card.querySelector('strong').textContent);
+        var label = (card.querySelector('strong') && card.querySelector('strong').textContent || '').replace(/\s+/g,' ').trim().toLowerCase();
         var value = (card.querySelector('span') && card.querySelector('span').textContent || '').replace(/\s+/g,' ').trim();
-        if(label && value) out[label] = value;
-      });
-      // R18-052: gli allergeni sono aggiunti nella quick-meta via JS
-      // sincronizzato da search-data.json; la stampa editoriale non li vedeva
-      // perché leggeva solo la meta-grid statica. Si legge anche la quick-meta,
-      // senza modificare HTML ricetta o logica di ricerca.
-      document.querySelectorAll('.recipe-quick-meta span').forEach(function(item){
-        if(!item || (item.classList && item.classList.contains('recipe-quick-meta-sep'))) return;
-        var strong = item.querySelector('strong');
-        var label = cleanLabel(strong && strong.textContent);
-        if(!label) return;
-        var raw = (item.textContent || '').replace(/\s+/g,' ').trim();
-        var strongText = (strong && strong.textContent || '').replace(/\s+/g,' ').trim();
-        var value = raw;
-        if(strongText && raw.indexOf(strongText) === 0){
-          value = raw.slice(strongText.length).replace(/^[:：]?\s*/, '').trim();
-        }
         if(label && value) out[label] = value;
       });
       return out;
@@ -212,7 +192,6 @@ function escapeHtml(value){
       if(meta['tempo cottura']) timeRows.push(['Cottura', meta['tempo cottura']]);
       if(meta['tempo riposo']) timeRows.push(['Riposo', meta['tempo riposo']]);
       if(meta['tempo totale']) timeRows.push(['Totale', meta['tempo totale']]);
-      if(meta['allergeni']) timeRows.push(['Allergeni', meta['allergeni']]);
       var ingredientAttr = escapeHtml(ingredientNames.join('|'));
       var isLong = rows.length > 14;
       var initialCols = rows.length > 32 ? 'print-kitchen-card-cols-3' : (isLong ? 'print-kitchen-card-cols-2' : 'print-kitchen-card-side');
@@ -317,7 +296,7 @@ function escapeHtml(value){
         '.print-intro-wrap p{margin:0 0 2.8mm 0;} .print-intro-wrap::after{content:"";display:block;clear:both;}',
         '.print-kitchen-card{position:relative;width:100%;max-width:166mm;margin:0 auto 6mm auto;break-inside:avoid;page-break-inside:avoid;box-sizing:border-box;overflow:visible;text-align:left;}',
         '.print-kitchen-card::after{content:"";display:block;clear:both;}',
-        '.print-kitchen-card-side{display:block;float:left;width:54mm;max-width:54mm;margin:0 6mm 3.5mm 0;} .print-kitchen-card-side::after{content:none;display:none;clear:none;} .print-kitchen-card-side .print-ingredients-box{float:none;width:54mm;min-width:54mm;max-width:54mm;margin:0;} .print-kitchen-card-long{display:block;clear:both;}',
+        '.print-kitchen-card-side{display:block;} .print-kitchen-card-side .print-ingredients-box{float:left;width:54mm;min-width:54mm;max-width:54mm;margin:0 6mm 3.5mm 0;} .print-kitchen-card-long{display:block;clear:both;}',
         '.print-kitchen-card-cols-1{width:54mm;max-width:54mm;margin-left:0;margin-right:auto;} .print-kitchen-card-cols-2{width:110mm;max-width:110mm;margin-left:0;margin-right:auto;} .print-kitchen-card-cols-3{width:166mm;max-width:166mm;margin-left:auto;margin-right:auto;}',
         '.print-kitchen-card-cols-1 .print-ingredients-box,.print-kitchen-card-cols-2 .print-ingredients-box,.print-kitchen-card-cols-3 .print-ingredients-box{float:none;width:100%;min-width:0;max-width:100%;margin:0;}',
         '.print-kitchen-card-cols-1 .print-ingredients-list{columns:1;column-gap:7mm;} .print-kitchen-card-cols-2 .print-ingredients-list{columns:2;column-gap:7mm;} .print-kitchen-card-cols-3 .print-ingredients-list{columns:3;column-gap:6mm;}',
