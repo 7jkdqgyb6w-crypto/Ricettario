@@ -718,9 +718,9 @@
   {
     "slug": "paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero",
     "titolo": "Paccheri di Gragnano IGP con orata, pomodorini, capperi e zenzero",
-    "categoria": "",
-    "geografia": "",
-    "regime_minimo": "vegano",
+    "categoria": "Primi",
+    "geografia": "Italia- Sardegna",
+    "regime_minimo": "pescetariano",
     "stagioni": [
       "estate"
     ],
@@ -730,7 +730,7 @@
       "ortaggi"
     ],
     "allergeni": [],
-    "search_text": "paccheri di gragnano igp con orata, pomodorini, capperi e zenzero dal disciplinate della pasta di gragnano igp. la “pasta di gragnano” è il prodotto ottenuto dall’impasto della semola di grano duro con acqua della falda acquifera locale. i formati immessi al consumo sono, diversi,… paccheri di gragnano igp filetti di orata pomodorini capperi sotto sale zenzero vino bianco secco concentrato di pomodori olio extra vergine d'oliva sale pepe prezzemolo tritato estate vegano verdura ortaggi",
+    "search_text": "paccheri di gragnano igp con orata, pomodorini, capperi e zenzero primi italia- sardegna mix risto bottega sarda dal disciplinate della pasta di gragnano igp. la “pasta di gragnano” è il prodotto ottenuto dall’impasto della semola di grano duro con acqua della falda acquifera locale. i formati immessi al consumo sono, diversi,… paccheri di gragnano igp filetti di orata pomodorini capperi sotto sale zenzero vino bianco secco concentrato di pomodori olio extra vergine d'oliva sale pepe prezzemolo tritato estate pescetariano verdura ortaggi",
     "metadati_fonte": "auto",
     "href": "../ricette/paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero/index.html",
     "img": "../foto/paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero/01.jpg"
@@ -1198,7 +1198,7 @@
       "molluschi",
       "latte"
     ],
-    "search_text": "riso cozze e patate primi puglia nicola f. cozze, peoci, mitili: facciamo chiarezza. sono rigorosamente vietati quelli atlantici. solo mediterranei, in particolare del sud adriatico o del tirreno. non vi è confronto. quelli atlantici vanno bene per le ricette… di cozze riso patate aglio prezzemolo pecorino romano dpo pomodori pelati dop olio extra vergine d'oliva sale pepe estate pescetariano molluschi verdura ortaggi latte",
+    "search_text": "riso cozze e patate primi puglia nicola f. cozze, peoci, mitili: facciamo chiarezza. sono rigorosamente vietati quelli atlantici. solo mediterranee, in particolare del sud adriatico o del tirreno . non vi è confronto. quelli atlantici vanno bene per le… cozze riso patate aglio prezzemolo pecorino romano dpo pomodori pelati dop olio extra vergine d'oliva sale pepe estate pescetariano molluschi verdura ortaggi latte",
     "metadati_fonte": "auto",
     "href": "../ricette/riso-cozze-e-patate/index.html",
     "img": "../foto/riso-cozze-e-patate/01.jpg"

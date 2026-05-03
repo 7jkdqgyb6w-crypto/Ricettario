@@ -1,7 +1,7 @@
 {
   "versione": "CMS2-R18-051",
   "semantica_versione": "ING-SEMANTICA-003",
-  "timestamp": "2026-05-03T21:24:26",
+  "timestamp": "2026-05-03T23:25:34",
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette",
   "search_data": "G:\\Il mio Drive\\Esperienze\\Ricette\\indici\\search-data.json",
   "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\CMS2-R18-053\\ingredienti-semantica.json",
@@ -1878,7 +1878,7 @@
       "titolo": "Riso cozze e patate",
       "fonte_semantica": "html-ingredienti",
       "ingredienti_usati": [
-        "di cozze",
+        "Cozze",
         "Riso",
         "Patate",
         "Aglio",

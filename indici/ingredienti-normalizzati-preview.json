@@ -4634,6 +4634,199 @@
     ]
   },
   {
+    "slug": "paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero",
+    "ingredienti": [
+      {
+        "originale": "Paccheri di Gragnano IGP",
+        "normalizzato": "paccheri gragnano igp",
+        "token_chiave": [
+          "paccheri",
+          "pacchero",
+          "gragnano"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
+      },
+      {
+        "originale": "Filetti di orata",
+        "normalizzato": "filetti orata",
+        "token_chiave": [
+          "filetti",
+          "filetto",
+          "orata"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
+      },
+      {
+        "originale": "Pomodorini",
+        "normalizzato": "pomodorini",
+        "token_chiave": [
+          "pomodorini",
+          "pomodorino"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "topinambur"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Capperi sotto sale",
+        "normalizzato": "capperi sotto sale",
+        "token_chiave": [
+          "capperi",
+          "cappero",
+          "sotto",
+          "sale"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie",
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "sale",
+          "capperi"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Zenzero",
+        "normalizzato": "zenzero",
+        "token_chiave": [
+          "zenzero"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Vino bianco secco",
+        "normalizzato": "vino bianco secco",
+        "token_chiave": [
+          "vino"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi"
+        ],
+        "regole_matchate": [
+          "olio",
+          "barbera"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Concentrato di pomodori",
+        "normalizzato": "concentrato pomodori",
+        "token_chiave": [
+          "concentrato",
+          "pomodori",
+          "pomodoro"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "topinambur"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Olio extra vergine d'oliva",
+        "normalizzato": "olio d oliva",
+        "token_chiave": [
+          "olio",
+          "d",
+          "oliva"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi",
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "olio",
+          "olive"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Sale",
+        "normalizzato": "sale",
+        "token_chiave": [
+          "sale"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Pepe",
+        "normalizzato": "pepe",
+        "token_chiave": [
+          "pepe"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Prezzemolo tritato",
+        "normalizzato": "prezzemolo tritato",
+        "token_chiave": [
+          "prezzemolo"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo tritato",
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      }
+    ]
+  },
+  {
     "slug": "pappa-con-il-pomodoro",
     "ingredienti": [
       {
@@ -6669,7 +6862,7 @@
     "slug": "riso-cozze-e-patate",
     "ingredienti": [
       {
-        "originale": "di cozze",
+        "originale": "Cozze",
         "normalizzato": "cozze",
         "token_chiave": [
           "cozze",

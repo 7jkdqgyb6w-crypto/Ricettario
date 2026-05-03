@@ -1,21 +1,30 @@
 {
   "versione": "CMS2-R18-051",
-  "timestamp": "2026-05-03T08:04:12",
+  "timestamp": "2026-05-03T23:25:03",
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette",
-  "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\CMS2-R18-051\\ingredienti-semantica.json",
-  "ricette_elaborate": 60,
-  "ingredienti_distinti": 212,
-  "ingredienti_non_riconosciuti_distinti": 0,
+  "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\CMS2-R18-053\\ingredienti-semantica.json",
+  "ricette_elaborate": 61,
+  "ingredienti_distinti": 215,
+  "ingredienti_non_riconosciuti_distinti": 2,
   "ingredienti_accessori_riconosciuti_distinti": 77,
-  "non_riconosciuti_top": [],
+  "non_riconosciuti_top": [
+    [
+      "paccheri gragnano igp",
+      1
+    ],
+    [
+      "filetti orata",
+      1
+    ]
+  ],
   "accessori_riconosciuti_top": [
     [
       "olio d oliva",
-      28
+      29
     ],
     [
       "sale",
-      25
+      26
     ],
     [
       "aglio",
@@ -23,7 +32,7 @@
     ],
     [
       "pepe",
-      19
+      20
     ],
     [
       "prezzemolo",
@@ -62,6 +71,10 @@
       4
     ],
     [
+      "capperi sotto sale",
+      4
+    ],
+    [
       "bacche ginepro",
       3
     ],
@@ -71,6 +84,10 @@
     ],
     [
       "salvia",
+      3
+    ],
+    [
+      "vino bianco secco",
       3
     ],
     [
@@ -86,10 +103,6 @@
       3
     ],
     [
-      "capperi sotto sale",
-      3
-    ],
-    [
       "capperi",
       3
     ],
@@ -99,10 +112,6 @@
     ],
     [
       "noce moscata",
-      2
-    ],
-    [
-      "vino bianco secco",
       2
     ],
     [
@@ -122,6 +131,10 @@
       2
     ],
     [
+      "prezzemolo tritato",
+      2
+    ],
+    [
       "cipolle",
       2
     ],
@@ -131,6 +144,10 @@
     ],
     [
       "cumino",
+      2
+    ],
+    [
+      "zenzero",
       2
     ],
     [
@@ -195,10 +212,6 @@
     ],
     [
       "acqua",
-      1
-    ],
-    [
-      "prezzemolo tritato",
       1
     ],
     [
@@ -295,10 +308,6 @@
     ],
     [
       "curcuma",
-      1
-    ],
-    [
-      "zenzero",
       1
     ],
     [
@@ -480,6 +489,12 @@
       "ingredienti": 5,
       "non_riconosciuti": 0,
       "accessori_riconosciuti": 2
+    },
+    {
+      "slug": "paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero",
+      "ingredienti": 11,
+      "non_riconosciuti": 2,
+      "accessori_riconosciuti": 7
     },
     {
       "slug": "pappa-con-il-pomodoro",

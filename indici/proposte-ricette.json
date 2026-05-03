@@ -818,9 +818,9 @@
     "slug": "paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero",
     "titolo": "Paccheri di Gragnano IGP con orata, pomodorini, capperi e zenzero",
     "proposte": {
-      "porzioni": "4-6",
+      "porzioni": "4",
       "tempo_attivo": "30-45 min",
-      "tempo_cottura": "15-30 min",
+      "tempo_cottura": "30-45 min",
       "tempo_riposo": "30 min",
       "tempo_totale": "include riposo",
       "ingredienti_chiave": [
@@ -835,13 +835,13 @@
     "confidenza": "bassa",
     "confidenza_campi": {
       "porzioni": "bassa",
-      "tempi": "bassa",
+      "tempi": "media",
       "ingredienti_chiave": "media"
     },
     "note": [
-      "range standard per antipasto/salsa/contorno",
+      "range standard per primo piatto da validare",
       "riposo dedotto da testo",
-      "cottura breve stimata per assenza di segnali di lunga cottura",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
       "tempo attivo stimato da numero ingredienti/passaggi",
       "ingredienti chiave proposti da tabella ingredienti/titolo"
     ],
@@ -1388,12 +1388,12 @@
     "titolo": "Riso cozze e patate",
     "proposte": {
       "porzioni": "4",
-      "tempo_attivo": "45-60 min",
+      "tempo_attivo": "30-45 min",
       "tempo_cottura": "2 h circa",
       "tempo_riposo": "30 min",
       "tempo_totale": "include riposo",
       "ingredienti_chiave": [
-        "di cozze",
+        "Cozze",
         "Riso",
         "Patate",
         "Pecorino romano DPO",
