@@ -1,0 +1,8791 @@
+[
+  {
+    "slug": "agnolotti-al-sugo-d-arrosto",
+    "ingredienti": [
+      {
+        "originale": "Per il brodo",
+        "normalizzato": "brodo",
+        "token_chiave": [
+          "brodo"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi"
+        ],
+        "regole_matchate": [
+          "olio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Polpa di manzo",
+        "normalizzato": "polpa manzo",
+        "token_chiave": [
+          "polpa",
+          "manzo"
+        ],
+        "tag": [
+          "carne",
+          "bovino",
+          "manzo"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "manzo"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Ossa di bovino",
+        "normalizzato": "ossa bovino",
+        "token_chiave": [
+          "ossa",
+          "bovino"
+        ],
+        "tag": [
+          "carne",
+          "bovino",
+          "manzo"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "manzo"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Doppione o biancostato",
+        "normalizzato": "doppione biancostato",
+        "token_chiave": [
+          "doppione",
+          "doppiona",
+          "biancostato"
+        ],
+        "tag": [
+          "carne",
+          "bovino",
+          "manzo"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "manzo"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Gallina pulita",
+        "normalizzato": "gallina pulita",
+        "token_chiave": [
+          "gallina"
+        ],
+        "tag": [
+          "carne",
+          "pollame"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "pollo"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Sedano",
+        "normalizzato": "sedano",
+        "token_chiave": [
+          "sedano"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "sedano"
+        ],
+        "allergeni": [
+          "sedano"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "sedano"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Carota",
+        "normalizzato": "carota",
+        "token_chiave": [
+          "carota"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "carote"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "carote"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Cipolla",
+        "normalizzato": "cipolla",
+        "token_chiave": [
+          "cipolla"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Pomodoro rosso",
+        "normalizzato": "pomodoro rosso",
+        "token_chiave": [
+          "pomodoro"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "topinambur"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Acqua fredda",
+        "normalizzato": "acqua fredda",
+        "token_chiave": [
+          "acqua",
+          "fredda"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi"
+        ],
+        "regole_matchate": [
+          "olio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Sale",
+        "normalizzato": "sale",
+        "token_chiave": [
+          "sale"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Alloro",
+        "normalizzato": "alloro",
+        "token_chiave": [
+          "alloro"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Bacche di ginepro",
+        "normalizzato": "bacche ginepro",
+        "token_chiave": [
+          "bacche",
+          "baccha",
+          "ginepro"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Chiodi di garofano",
+        "normalizzato": "chiodi garofano",
+        "token_chiave": [
+          "chiodi",
+          "chiodo",
+          "garofano"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Prezzemolo",
+        "normalizzato": "prezzemolo",
+        "token_chiave": [
+          "prezzemolo"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Pepe in grani",
+        "normalizzato": "pepe grani",
+        "token_chiave": [
+          "pepe",
+          "grani",
+          "grano"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Per il ripieno e il sugo",
+        "normalizzato": "ripieno sugo",
+        "token_chiave": [
+          "ripieno",
+          "sugo"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "voce strutturale"
+        ],
+        "regole_matchate": [
+          "ripieno sugo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Reale di vitello",
+        "normalizzato": "reale vitello",
+        "token_chiave": [
+          "reale",
+          "reala",
+          "vitello"
+        ],
+        "tag": [
+          "carne",
+          "bovino",
+          "manzo"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "manzo"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Polpa di suino",
+        "normalizzato": "polpa suino",
+        "token_chiave": [
+          "polpa",
+          "suino"
+        ],
+        "tag": [
+          "carne",
+          "suino",
+          "maiale"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "maiale"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Lardo non aromatizzato",
+        "normalizzato": "lardo non aromatizzato",
+        "token_chiave": [
+          "lardo",
+          "non",
+          "aromatizzato"
+        ],
+        "tag": [
+          "carne",
+          "suino",
+          "maiale"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "maiale"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Prosciutto cotto",
+        "normalizzato": "prosciutto cotto",
+        "token_chiave": [
+          "prosciutto",
+          "cotto"
+        ],
+        "tag": [
+          "carne",
+          "suino",
+          "maiale"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "maiale"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Riso bollito nel latte",
+        "normalizzato": "riso bollito latte",
+        "token_chiave": [
+          "riso",
+          "bollito",
+          "latte",
+          "latta"
+        ],
+        "tag": [
+          "riso"
+        ],
+        "allergeni": [
+          "latte"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "latte",
+          "riso"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Spinaci",
+        "normalizzato": "spinaci",
+        "token_chiave": [
+          "spinaci",
+          "spinaco"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "spinaci"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "spinaci"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Cipolle dorate",
+        "normalizzato": "cipolle dorate",
+        "token_chiave": [
+          "cipolle",
+          "cipolla"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Carota",
+        "normalizzato": "carota",
+        "token_chiave": [
+          "carota"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "carote"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "carote"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Sedano",
+        "normalizzato": "sedano",
+        "token_chiave": [
+          "sedano"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "sedano"
+        ],
+        "allergeni": [
+          "sedano"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "sedano"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Rosmarino",
+        "normalizzato": "rosmarino",
+        "token_chiave": [
+          "rosmarino"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Alloro",
+        "normalizzato": "alloro",
+        "token_chiave": [
+          "alloro"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Cannella",
+        "normalizzato": "cannella",
+        "token_chiave": [
+          "cannella"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Chiodi di garofano",
+        "normalizzato": "chiodi garofano",
+        "token_chiave": [
+          "chiodi",
+          "chiodo",
+          "garofano"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Salvia",
+        "normalizzato": "salvia",
+        "token_chiave": [
+          "salvia"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Noce moscata",
+        "normalizzato": "noce moscata",
+        "token_chiave": [
+          "noce",
+          "moscata"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Barbera",
+        "normalizzato": "barbera",
+        "token_chiave": [
+          "barbera"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi"
+        ],
+        "regole_matchate": [
+          "barbera"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Uova",
+        "normalizzato": "uova",
+        "token_chiave": [
+          "uova"
+        ],
+        "tag": [
+          "uova"
+        ],
+        "allergeni": [
+          "uova"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "uova"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Parmigiano reggiano",
+        "normalizzato": "parmigiano reggiano",
+        "token_chiave": [
+          "parmigiano"
+        ],
+        "tag": [],
+        "allergeni": [
+          "latte"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "latte"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Burro",
+        "normalizzato": "burro",
+        "token_chiave": [
+          "burro"
+        ],
+        "tag": [],
+        "allergeni": [
+          "latte"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "latte"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Olio extra vergine d'oliva",
+        "normalizzato": "olio d oliva",
+        "token_chiave": [
+          "olio",
+          "d",
+          "oliva"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi",
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "olio",
+          "olive"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Sale",
+        "normalizzato": "sale",
+        "token_chiave": [
+          "sale"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Pepe",
+        "normalizzato": "pepe",
+        "token_chiave": [
+          "pepe"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "per la pasta",
+        "normalizzato": "pasta",
+        "token_chiave": [
+          "pasta"
+        ],
+        "tag": [
+          "pasta"
+        ],
+        "allergeni": [
+          "cereali contenenti glutine"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "spaghetti"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Uova",
+        "normalizzato": "uova",
+        "token_chiave": [
+          "uova"
+        ],
+        "tag": [
+          "uova"
+        ],
+        "allergeni": [
+          "uova"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "uova"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Farina di frumento tipo 00",
+        "normalizzato": "farina frumento tipo",
+        "token_chiave": [
+          "farina",
+          "frumento",
+          "tipo"
+        ],
+        "tag": [],
+        "allergeni": [
+          "cereali contenenti glutine"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "farina"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Sale",
+        "normalizzato": "sale",
+        "token_chiave": [
+          "sale"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Olio extra vergine d'oliva",
+        "normalizzato": "olio d oliva",
+        "token_chiave": [
+          "olio",
+          "d",
+          "oliva"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi",
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "olio",
+          "olive"
+        ],
+        "stato": "accessorio_riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "anatra-all-arancia",
+    "ingredienti": [
+      {
+        "originale": "Anatra",
+        "normalizzato": "anatra",
+        "token_chiave": [
+          "anatra"
+        ],
+        "tag": [
+          "carne",
+          "pollame",
+          "anatra"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "anatra"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Strutto",
+        "normalizzato": "strutto",
+        "token_chiave": [
+          "strutto"
+        ],
+        "tag": [
+          "carne",
+          "suino",
+          "maiale"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "maiale"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Farina",
+        "normalizzato": "farina",
+        "token_chiave": [
+          "farina"
+        ],
+        "tag": [],
+        "allergeni": [
+          "cereali contenenti glutine"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "farina"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Brodo di carne",
+        "normalizzato": "brodo carne",
+        "token_chiave": [
+          "brodo",
+          "carne",
+          "carna"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi"
+        ],
+        "regole_matchate": [
+          "olio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Passata di pomodoro",
+        "normalizzato": "pomodoro",
+        "token_chiave": [
+          "pomodoro"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "topinambur"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Vino bianco secco",
+        "normalizzato": "vino bianco secco",
+        "token_chiave": [
+          "vino"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi"
+        ],
+        "regole_matchate": [
+          "olio",
+          "barbera"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Prosciutto crudo",
+        "normalizzato": "prosciutto crudo",
+        "token_chiave": [
+          "prosciutto",
+          "crudo"
+        ],
+        "tag": [
+          "carne",
+          "suino",
+          "maiale"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "maiale"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Lardo",
+        "normalizzato": "lardo",
+        "token_chiave": [
+          "lardo"
+        ],
+        "tag": [
+          "carne",
+          "suino",
+          "maiale"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "maiale"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Arancia",
+        "normalizzato": "arancia",
+        "token_chiave": [
+          "arancia"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "agrumi",
+          "arancia"
+        ],
+        "regole_matchate": [
+          "arancia"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Burro",
+        "normalizzato": "burro",
+        "token_chiave": [
+          "burro"
+        ],
+        "tag": [],
+        "allergeni": [
+          "latte"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "latte"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Curaçao",
+        "normalizzato": "curacao",
+        "token_chiave": [
+          "curacao"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi"
+        ],
+        "regole_matchate": [
+          "olio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Carota",
+        "normalizzato": "carota",
+        "token_chiave": [
+          "carota"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "carote"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "carote"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Cipolla",
+        "normalizzato": "cipolla",
+        "token_chiave": [
+          "cipolla"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Alloro",
+        "normalizzato": "alloro",
+        "token_chiave": [
+          "alloro"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Timo",
+        "normalizzato": "timo",
+        "token_chiave": [
+          "timo"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Ginepro",
+        "normalizzato": "ginepro",
+        "token_chiave": [
+          "ginepro"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Rosmarino",
+        "normalizzato": "rosmarino",
+        "token_chiave": [
+          "rosmarino"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Fegato di anatra",
+        "normalizzato": "fegato anatra",
+        "token_chiave": [
+          "fegato",
+          "anatra"
+        ],
+        "tag": [
+          "carne",
+          "frattaglie",
+          "fegato",
+          "pollame",
+          "anatra"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "fegato",
+          "anatra"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Sale",
+        "normalizzato": "sale",
+        "token_chiave": [
+          "sale"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Pepe nero",
+        "normalizzato": "pepe nero",
+        "token_chiave": [
+          "pepe"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "anatra-in-salsa",
+    "ingredienti": [
+      {
+        "originale": "Anatra",
+        "normalizzato": "anatra",
+        "token_chiave": [
+          "anatra"
+        ],
+        "tag": [
+          "carne",
+          "pollame",
+          "anatra"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "anatra"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Soppressa veneta",
+        "normalizzato": "soppressa veneta",
+        "token_chiave": [
+          "soppressa",
+          "veneta"
+        ],
+        "tag": [
+          "carne",
+          "suino",
+          "maiale"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "maiale"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Pancetta",
+        "normalizzato": "pancetta",
+        "token_chiave": [
+          "pancetta"
+        ],
+        "tag": [
+          "carne",
+          "suino",
+          "maiale"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "maiale"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Burro",
+        "normalizzato": "burro",
+        "token_chiave": [
+          "burro"
+        ],
+        "tag": [],
+        "allergeni": [
+          "latte"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "latte"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Salvia",
+        "normalizzato": "salvia",
+        "token_chiave": [
+          "salvia"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Rosmarino",
+        "normalizzato": "rosmarino",
+        "token_chiave": [
+          "rosmarino"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Limone",
+        "normalizzato": "limone",
+        "token_chiave": [
+          "limone",
+          "limona"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "agrumi",
+          "limone"
+        ],
+        "regole_matchate": [
+          "limone"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Alici sotto sale",
+        "normalizzato": "alici",
+        "token_chiave": [
+          "alici",
+          "alico"
+        ],
+        "tag": [
+          "pesce",
+          "alici"
+        ],
+        "allergeni": [
+          "pesce"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "alici"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Aceto di vino bianco",
+        "normalizzato": "aceto vino bianco",
+        "token_chiave": [
+          "aceto",
+          "vino"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi"
+        ],
+        "regole_matchate": [
+          "olio",
+          "barbera"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Sale",
+        "normalizzato": "sale",
+        "token_chiave": [
+          "sale"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Pepe",
+        "normalizzato": "pepe",
+        "token_chiave": [
+          "pepe"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "antipasto-di-canocce",
+    "ingredienti": [
+      {
+        "originale": "Canoccia",
+        "normalizzato": "canoccia",
+        "token_chiave": [
+          "canoccia"
+        ],
+        "tag": [
+          "crostacei",
+          "canoccia"
+        ],
+        "allergeni": [
+          "crostacei"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "canoccia"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Sedano",
+        "normalizzato": "sedano",
+        "token_chiave": [
+          "sedano"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "sedano"
+        ],
+        "allergeni": [
+          "sedano"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "sedano"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Insalata novella",
+        "normalizzato": "insalata novella",
+        "token_chiave": [
+          "insalata"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "topinambur"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Olio extra vergine d'oliva",
+        "normalizzato": "olio d oliva",
+        "token_chiave": [
+          "olio",
+          "d",
+          "oliva"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi",
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "olio",
+          "olive"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Sale",
+        "normalizzato": "sale",
+        "token_chiave": [
+          "sale"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Pepe bianco",
+        "normalizzato": "pepe bianco",
+        "token_chiave": [
+          "pepe"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Limone",
+        "normalizzato": "limone",
+        "token_chiave": [
+          "limone",
+          "limona"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "agrumi",
+          "limone"
+        ],
+        "regole_matchate": [
+          "limone"
+        ],
+        "stato": "accessorio_riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "aringhe-in-terrina",
+    "ingredienti": [
+      {
+        "originale": "Aringhe sciocche affumicate",
+        "normalizzato": "aringhe sciocche affumicate",
+        "token_chiave": [
+          "aringhe",
+          "aringha",
+          "sciocche",
+          "scioccha"
+        ],
+        "tag": [
+          "pesce",
+          "aringhe"
+        ],
+        "allergeni": [
+          "pesce"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "aringhe"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Carote",
+        "normalizzato": "carote",
+        "token_chiave": [
+          "carote",
+          "carota"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "carote"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "carote"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Cipolla",
+        "normalizzato": "cipolla",
+        "token_chiave": [
+          "cipolla"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Bacche di ginepro",
+        "normalizzato": "bacche ginepro",
+        "token_chiave": [
+          "bacche",
+          "baccha",
+          "ginepro"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Limoni BIO",
+        "normalizzato": "limone",
+        "token_chiave": [
+          "limone",
+          "limona"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "agrumi",
+          "limone"
+        ],
+        "regole_matchate": [
+          "limone"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Vino bianco secco",
+        "normalizzato": "vino bianco secco",
+        "token_chiave": [
+          "vino"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi"
+        ],
+        "regole_matchate": [
+          "olio",
+          "barbera"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Olio extra vergine d'oliva",
+        "normalizzato": "olio d oliva",
+        "token_chiave": [
+          "olio",
+          "d",
+          "oliva"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi",
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "olio",
+          "olive"
+        ],
+        "stato": "accessorio_riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "arista-alla-birra",
+    "ingredienti": [
+      {
+        "originale": "Arista di maiale",
+        "normalizzato": "arista maiale",
+        "token_chiave": [
+          "arista",
+          "maiale",
+          "maiala"
+        ],
+        "tag": [
+          "carne",
+          "suino",
+          "maiale"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "maiale"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Birra ambrata",
+        "normalizzato": "birra ambrata",
+        "token_chiave": [
+          "birra"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi"
+        ],
+        "regole_matchate": [
+          "olio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Prezzemolo",
+        "normalizzato": "prezzemolo",
+        "token_chiave": [
+          "prezzemolo"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Alloro",
+        "normalizzato": "alloro",
+        "token_chiave": [
+          "alloro"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Sedano",
+        "normalizzato": "sedano",
+        "token_chiave": [
+          "sedano"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "sedano"
+        ],
+        "allergeni": [
+          "sedano"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "sedano"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Cipolla",
+        "normalizzato": "cipolla",
+        "token_chiave": [
+          "cipolla"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Timo",
+        "normalizzato": "timo",
+        "token_chiave": [
+          "timo"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Salvia",
+        "normalizzato": "salvia",
+        "token_chiave": [
+          "salvia"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Menta",
+        "normalizzato": "menta",
+        "token_chiave": [
+          "menta"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Bacche di ginepro",
+        "normalizzato": "bacche ginepro",
+        "token_chiave": [
+          "bacche",
+          "baccha",
+          "ginepro"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Pepe",
+        "normalizzato": "pepe",
+        "token_chiave": [
+          "pepe"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "baccala-mantecato",
+    "ingredienti": [
+      {
+        "originale": "Stoccafisso",
+        "normalizzato": "stoccafisso",
+        "token_chiave": [
+          "stoccafisso"
+        ],
+        "tag": [
+          "pesce",
+          "baccala",
+          "stoccafisso"
+        ],
+        "allergeni": [
+          "pesce"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "baccala"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Olio extra vergine di oliva",
+        "normalizzato": "olio oliva",
+        "token_chiave": [
+          "olio",
+          "oliva"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi",
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "olio",
+          "olive"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Latte",
+        "normalizzato": "latte",
+        "token_chiave": [
+          "latte",
+          "latta"
+        ],
+        "tag": [],
+        "allergeni": [
+          "latte"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "latte"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Albume",
+        "normalizzato": "albume",
+        "token_chiave": [
+          "albume",
+          "albuma"
+        ],
+        "tag": [
+          "uova"
+        ],
+        "allergeni": [
+          "uova"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "uova"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Pepe",
+        "normalizzato": "pepe",
+        "token_chiave": [
+          "pepe"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Sale",
+        "normalizzato": "sale",
+        "token_chiave": [
+          "sale"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "bagna-cauda",
+    "ingredienti": [
+      {
+        "originale": "Aglio",
+        "normalizzato": "aglio",
+        "token_chiave": [
+          "aglio"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Alici sotto sale",
+        "normalizzato": "alici",
+        "token_chiave": [
+          "alici",
+          "alico"
+        ],
+        "tag": [
+          "pesce",
+          "alici"
+        ],
+        "allergeni": [
+          "pesce"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "alici"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Olio extravergine d'oliva",
+        "normalizzato": "olio d oliva",
+        "token_chiave": [
+          "olio",
+          "d",
+          "oliva"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi",
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "olio",
+          "olive"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Panna",
+        "normalizzato": "panna",
+        "token_chiave": [
+          "panna"
+        ],
+        "tag": [],
+        "allergeni": [
+          "latte"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "latte"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Cardo bianco gobbo",
+        "normalizzato": "cardo bianco gobbo",
+        "token_chiave": [
+          "cardo",
+          "gobbo"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "topinambur"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Topinambur",
+        "normalizzato": "topinambur",
+        "token_chiave": [
+          "topinambur"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "topinambur"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Peperoni sotto mosto",
+        "normalizzato": "peperoni sotto mosto",
+        "token_chiave": [
+          "peperoni",
+          "peperono",
+          "sotto",
+          "mosto"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "peperoni"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "peperoni"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Sedano",
+        "normalizzato": "sedano",
+        "token_chiave": [
+          "sedano"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "sedano"
+        ],
+        "allergeni": [
+          "sedano"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "sedano"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Carciofi",
+        "normalizzato": "carciofi",
+        "token_chiave": [
+          "carciofi",
+          "carciofo"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "carciofi"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "carciofi"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Rape",
+        "normalizzato": "rape",
+        "token_chiave": [
+          "rape"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "topinambur"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Finocchi",
+        "normalizzato": "finocchi",
+        "token_chiave": [
+          "finocchi",
+          "finoccho"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "topinambur"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Ravanelli",
+        "normalizzato": "ravanelli",
+        "token_chiave": [
+          "ravanelli",
+          "ravanello"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "topinambur"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Cavolfiore",
+        "normalizzato": "cavolfiore",
+        "token_chiave": [
+          "cavolfiore",
+          "cavolfiora"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "cavoli"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "cavolo"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Carote",
+        "normalizzato": "carote",
+        "token_chiave": [
+          "carote",
+          "carota"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "carote"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "carote"
+        ],
+        "stato": "riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "battuta-di-manzo-alla-boscaiola",
+    "ingredienti": [
+      {
+        "originale": "Battuta di manzo",
+        "normalizzato": "battuta manzo",
+        "token_chiave": [
+          "battuta",
+          "manzo"
+        ],
+        "tag": [
+          "carne",
+          "bovino",
+          "manzo"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "manzo"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Olio extra verdine d'oliva",
+        "normalizzato": "olio d oliva",
+        "token_chiave": [
+          "olio",
+          "d",
+          "oliva"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi",
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "olio",
+          "olive"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Corteccia",
+        "normalizzato": "corteccia",
+        "token_chiave": [
+          "corteccia"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "corteccia"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Pancetta",
+        "normalizzato": "pancetta",
+        "token_chiave": [
+          "pancetta"
+        ],
+        "tag": [
+          "carne",
+          "suino",
+          "maiale"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "maiale"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Ginepro",
+        "normalizzato": "ginepro",
+        "token_chiave": [
+          "ginepro"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Patate",
+        "normalizzato": "patate",
+        "token_chiave": [
+          "patate",
+          "patata"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "patate"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "patate"
+        ],
+        "stato": "riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "bigoli-in-salsa",
+    "ingredienti": [
+      {
+        "originale": "Cipolla",
+        "normalizzato": "cipolla",
+        "token_chiave": [
+          "cipolla"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Olio extra vergine d'oliva",
+        "normalizzato": "olio d oliva",
+        "token_chiave": [
+          "olio",
+          "d",
+          "oliva"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi",
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "olio",
+          "olive"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Alici sotto sale",
+        "normalizzato": "alici",
+        "token_chiave": [
+          "alici",
+          "alico"
+        ],
+        "tag": [
+          "pesce",
+          "alici"
+        ],
+        "allergeni": [
+          "pesce"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "alici"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Bigoli",
+        "normalizzato": "bigoli",
+        "token_chiave": [
+          "bigoli",
+          "bigolo"
+        ],
+        "tag": [
+          "pasta"
+        ],
+        "allergeni": [
+          "cereali contenenti glutine"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "spaghetti"
+        ],
+        "stato": "riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "braciole-di-carne-di-cavallo",
+    "ingredienti": [
+      {
+        "originale": "Polpa di cavallo a fettine",
+        "normalizzato": "polpa cavallo fettine",
+        "token_chiave": [
+          "polpa",
+          "cavallo",
+          "fettine",
+          "fettina"
+        ],
+        "tag": [
+          "carne",
+          "equino",
+          "cavallo"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "cavallo"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Passato di pomodoro",
+        "normalizzato": "pomodoro",
+        "token_chiave": [
+          "pomodoro"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "topinambur"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Olio extra vergine d'oliva",
+        "normalizzato": "olio d oliva",
+        "token_chiave": [
+          "olio",
+          "d",
+          "oliva"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi",
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "olio",
+          "olive"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Vino rosso",
+        "normalizzato": "vino rosso",
+        "token_chiave": [
+          "vino"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi"
+        ],
+        "regole_matchate": [
+          "olio",
+          "barbera"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Cipolla viola",
+        "normalizzato": "cipolla viola",
+        "token_chiave": [
+          "cipolla"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Aglio",
+        "normalizzato": "aglio",
+        "token_chiave": [
+          "aglio"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Prezzemolo",
+        "normalizzato": "prezzemolo",
+        "token_chiave": [
+          "prezzemolo"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Alloro",
+        "normalizzato": "alloro",
+        "token_chiave": [
+          "alloro"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Sale",
+        "normalizzato": "sale",
+        "token_chiave": [
+          "sale"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Pepe",
+        "normalizzato": "pepe",
+        "token_chiave": [
+          "pepe"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Pecorino romano DOP",
+        "normalizzato": "pecorino romano dop",
+        "token_chiave": [
+          "pecorino"
+        ],
+        "tag": [],
+        "allergeni": [
+          "latte"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "latte"
+        ],
+        "stato": "riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "calamari-ripieni",
+    "ingredienti": [
+      {
+        "originale": "Calamari",
+        "normalizzato": "calamari",
+        "token_chiave": [
+          "calamari",
+          "calamaro"
+        ],
+        "tag": [
+          "molluschi",
+          "calamari"
+        ],
+        "allergeni": [
+          "molluschi"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "calamari"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Uova",
+        "normalizzato": "uova",
+        "token_chiave": [
+          "uova"
+        ],
+        "tag": [
+          "uova"
+        ],
+        "allergeni": [
+          "uova"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "uova"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Prezzemolo",
+        "normalizzato": "prezzemolo",
+        "token_chiave": [
+          "prezzemolo"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Pecorino romano",
+        "normalizzato": "pecorino romano",
+        "token_chiave": [
+          "pecorino"
+        ],
+        "tag": [],
+        "allergeni": [
+          "latte"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "latte"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Aglio",
+        "normalizzato": "aglio",
+        "token_chiave": [
+          "aglio"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Pelati San Marzano DOP",
+        "normalizzato": "pomodori san marzano dop",
+        "token_chiave": [
+          "pomodori",
+          "pomodoro"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "topinambur"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Olio extra verdine d'oliva",
+        "normalizzato": "olio d oliva",
+        "token_chiave": [
+          "olio",
+          "d",
+          "oliva"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi",
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "olio",
+          "olive"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Pepe",
+        "normalizzato": "pepe",
+        "token_chiave": [
+          "pepe"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Sale",
+        "normalizzato": "sale",
+        "token_chiave": [
+          "sale"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "cous-cous-alla-trapanese",
+    "ingredienti": [
+      {
+        "originale": "Cous cous",
+        "normalizzato": "cous cous",
+        "token_chiave": [
+          "cous"
+        ],
+        "tag": [
+          "cous cous"
+        ],
+        "allergeni": [
+          "cereali contenenti glutine"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "cous cous"
+        ],
+        "stato": "riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "crepes",
+    "ingredienti": [
+      {
+        "originale": "Uova",
+        "normalizzato": "uova",
+        "token_chiave": [
+          "uova"
+        ],
+        "tag": [
+          "uova"
+        ],
+        "allergeni": [
+          "uova"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "uova"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Farina di frumento 00",
+        "normalizzato": "farina frumento",
+        "token_chiave": [
+          "farina",
+          "frumento"
+        ],
+        "tag": [],
+        "allergeni": [
+          "cereali contenenti glutine"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "farina"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Burro",
+        "normalizzato": "burro",
+        "token_chiave": [
+          "burro"
+        ],
+        "tag": [],
+        "allergeni": [
+          "latte"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "latte"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Latte intero",
+        "normalizzato": "latte intero",
+        "token_chiave": [
+          "latte",
+          "latta"
+        ],
+        "tag": [],
+        "allergeni": [
+          "latte"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "latte"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Acqua",
+        "normalizzato": "acqua",
+        "token_chiave": [
+          "acqua"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi"
+        ],
+        "regole_matchate": [
+          "olio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Sale",
+        "normalizzato": "sale",
+        "token_chiave": [
+          "sale"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Zucchero di canna",
+        "normalizzato": "zucchero canna",
+        "token_chiave": [
+          "zucchero",
+          "canna"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "dolcificanti"
+        ],
+        "regole_matchate": [
+          "zucchero"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Limone",
+        "normalizzato": "limone",
+        "token_chiave": [
+          "limone",
+          "limona"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "agrumi",
+          "limone"
+        ],
+        "regole_matchate": [
+          "limone"
+        ],
+        "stato": "accessorio_riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "daube",
+    "ingredienti": [
+      {
+        "originale": "Manzo",
+        "normalizzato": "manzo",
+        "token_chiave": [
+          "manzo"
+        ],
+        "tag": [
+          "carne",
+          "bovino",
+          "manzo"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "manzo"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Concentrato di pomodoro",
+        "normalizzato": "pomodoro",
+        "token_chiave": [
+          "pomodoro"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "topinambur"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Lardo",
+        "normalizzato": "lardo",
+        "token_chiave": [
+          "lardo"
+        ],
+        "tag": [
+          "carne",
+          "suino",
+          "maiale"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "maiale"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Prezzemolo tritato",
+        "normalizzato": "prezzemolo tritato",
+        "token_chiave": [
+          "prezzemolo"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo tritato",
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Aglio",
+        "normalizzato": "aglio",
+        "token_chiave": [
+          "aglio"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Cipolle",
+        "normalizzato": "cipolle",
+        "token_chiave": [
+          "cipolle",
+          "cipolla"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Carote",
+        "normalizzato": "carote",
+        "token_chiave": [
+          "carote",
+          "carota"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "carote"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "carote"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Vino rosso",
+        "normalizzato": "vino rosso",
+        "token_chiave": [
+          "vino"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi"
+        ],
+        "regole_matchate": [
+          "olio",
+          "barbera"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Sale",
+        "normalizzato": "sale",
+        "token_chiave": [
+          "sale"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Pepe tritato",
+        "normalizzato": "pepe tritato",
+        "token_chiave": [
+          "pepe"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Bouquet garni",
+        "normalizzato": "bouquet garni",
+        "token_chiave": [
+          "bouquet",
+          "garni",
+          "garno"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "bouquet garni"
+        ],
+        "stato": "accessorio_riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "fegato-alla-veneziana",
+    "ingredienti": [
+      {
+        "originale": "Fegato",
+        "normalizzato": "fegato",
+        "token_chiave": [
+          "fegato"
+        ],
+        "tag": [
+          "carne",
+          "frattaglie",
+          "fegato"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "fegato"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Cipolle",
+        "normalizzato": "cipolle",
+        "token_chiave": [
+          "cipolle",
+          "cipolla"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Burro",
+        "normalizzato": "burro",
+        "token_chiave": [
+          "burro"
+        ],
+        "tag": [],
+        "allergeni": [
+          "latte"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "latte"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Olio extra vergine d'oliva",
+        "normalizzato": "olio d oliva",
+        "token_chiave": [
+          "olio",
+          "d",
+          "oliva"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi",
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "olio",
+          "olive"
+        ],
+        "stato": "accessorio_riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "filettino-di-maiale",
+    "ingredienti": [
+      {
+        "originale": "Filettino di maiale",
+        "normalizzato": "filettino maiale",
+        "token_chiave": [
+          "filettino",
+          "maiale",
+          "maiala"
+        ],
+        "tag": [
+          "carne",
+          "suino",
+          "maiale"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "maiale"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Scalogno",
+        "normalizzato": "scalogno",
+        "token_chiave": [
+          "scalogno"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Senape di Digione",
+        "normalizzato": "senape digione",
+        "token_chiave": [
+          "senape",
+          "senapa"
+        ],
+        "tag": [],
+        "allergeni": [
+          "senape"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "senape"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Timo",
+        "normalizzato": "timo",
+        "token_chiave": [
+          "timo"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Olio extra vergine d'oliva",
+        "normalizzato": "olio d oliva",
+        "token_chiave": [
+          "olio",
+          "d",
+          "oliva"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi",
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "olio",
+          "olive"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Sale",
+        "normalizzato": "sale",
+        "token_chiave": [
+          "sale"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Pepe",
+        "normalizzato": "pepe",
+        "token_chiave": [
+          "pepe"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "filetto-angus-alla-senape-di-digione",
+    "ingredienti": [
+      {
+        "originale": "Filetto angus",
+        "normalizzato": "filetto angus",
+        "token_chiave": [
+          "filetto",
+          "angus"
+        ],
+        "tag": [
+          "carne",
+          "bovino",
+          "manzo"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "manzo"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Senape",
+        "normalizzato": "senape",
+        "token_chiave": [
+          "senape",
+          "senapa"
+        ],
+        "tag": [],
+        "allergeni": [
+          "senape"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "senape"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Sale grosso",
+        "normalizzato": "sale grosso",
+        "token_chiave": [
+          "sale",
+          "grosso"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "fusilli-carciofi-e-salmone",
+    "ingredienti": [
+      {
+        "originale": "Salmone cotto a vapore",
+        "normalizzato": "salmone cotto vapore",
+        "token_chiave": [
+          "salmone",
+          "salmona",
+          "cotto",
+          "vapore",
+          "vapora"
+        ],
+        "tag": [
+          "pesce",
+          "salmone"
+        ],
+        "allergeni": [
+          "pesce"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "salmone"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Fusilli",
+        "normalizzato": "fusilli",
+        "token_chiave": [
+          "fusilli",
+          "fusillo"
+        ],
+        "tag": [
+          "pasta"
+        ],
+        "allergeni": [
+          "cereali contenenti glutine"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "spaghetti"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Carciofi",
+        "normalizzato": "carciofi",
+        "token_chiave": [
+          "carciofi",
+          "carciofo"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "carciofi"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "carciofi"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Aglio",
+        "normalizzato": "aglio",
+        "token_chiave": [
+          "aglio"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Sale",
+        "normalizzato": "sale",
+        "token_chiave": [
+          "sale"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Pepe",
+        "normalizzato": "pepe",
+        "token_chiave": [
+          "pepe"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Prezzemolo",
+        "normalizzato": "prezzemolo",
+        "token_chiave": [
+          "prezzemolo"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Olio extra vergine d'oliva",
+        "normalizzato": "olio d oliva",
+        "token_chiave": [
+          "olio",
+          "d",
+          "oliva"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi",
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "olio",
+          "olive"
+        ],
+        "stato": "accessorio_riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "gigot-roti",
+    "ingredienti": [
+      {
+        "originale": "Cosciotto d'agnello di almeno kg 1,5",
+        "normalizzato": "cosciotto d agnello almeno kg",
+        "token_chiave": [
+          "cosciotto",
+          "d",
+          "agnello",
+          "kg"
+        ],
+        "tag": [
+          "carne",
+          "ovino",
+          "agnello"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "agnello"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Sale",
+        "normalizzato": "sale",
+        "token_chiave": [
+          "sale"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Pepe",
+        "normalizzato": "pepe",
+        "token_chiave": [
+          "pepe"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Timo",
+        "normalizzato": "timo",
+        "token_chiave": [
+          "timo"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Aglio",
+        "normalizzato": "aglio",
+        "token_chiave": [
+          "aglio"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Olio extra vergine d'oliva",
+        "normalizzato": "olio d oliva",
+        "token_chiave": [
+          "olio",
+          "d",
+          "oliva"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi",
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "olio",
+          "olive"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Rosmarino",
+        "normalizzato": "rosmarino",
+        "token_chiave": [
+          "rosmarino"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Alloro",
+        "normalizzato": "alloro",
+        "token_chiave": [
+          "alloro"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "gnocchetti-sardi-alla-urbaweb",
+    "ingredienti": [
+      {
+        "originale": "Gnocchetti sardi",
+        "normalizzato": "gnocchetti sardi",
+        "token_chiave": [
+          "gnocchetti",
+          "gnocchetto",
+          "sardi",
+          "sardo"
+        ],
+        "tag": [
+          "pasta"
+        ],
+        "allergeni": [
+          "cereali contenenti glutine"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "spaghetti"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Zucchine",
+        "normalizzato": "zucchine",
+        "token_chiave": [
+          "zucchine",
+          "zucchina"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "zucchine"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "zucchine"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Pomodori",
+        "normalizzato": "pomodori",
+        "token_chiave": [
+          "pomodori",
+          "pomodoro"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "topinambur"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Peperoni",
+        "normalizzato": "peperoni",
+        "token_chiave": [
+          "peperoni",
+          "peperono"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "peperoni"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "peperoni"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Sedano",
+        "normalizzato": "sedano",
+        "token_chiave": [
+          "sedano"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "sedano"
+        ],
+        "allergeni": [
+          "sedano"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "sedano"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Schie",
+        "normalizzato": "schie",
+        "token_chiave": [
+          "schie",
+          "schia"
+        ],
+        "tag": [
+          "crostacei",
+          "schie"
+        ],
+        "allergeni": [
+          "crostacei"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "schie"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Olive verdi",
+        "normalizzato": "olive verdi",
+        "token_chiave": [
+          "olive",
+          "oliva",
+          "verdi",
+          "verdo"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "olive"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Olive di Gaeta",
+        "normalizzato": "olive gaeta",
+        "token_chiave": [
+          "olive",
+          "oliva"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "olive"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Pesce spada affumicato",
+        "normalizzato": "pesce spada affumicato",
+        "token_chiave": [
+          "pesce",
+          "pesca",
+          "spada"
+        ],
+        "tag": [
+          "pesce",
+          "pesce spada"
+        ],
+        "allergeni": [
+          "pesce"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "pesce spada"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Basilico",
+        "normalizzato": "basilico",
+        "token_chiave": [
+          "basilico"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Olio extra vergine d’oliva",
+        "normalizzato": "olio d oliva",
+        "token_chiave": [
+          "olio",
+          "d",
+          "oliva"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi",
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "olio",
+          "olive"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Sale",
+        "normalizzato": "sale",
+        "token_chiave": [
+          "sale"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Pepe",
+        "normalizzato": "pepe",
+        "token_chiave": [
+          "pepe"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Menta",
+        "normalizzato": "menta",
+        "token_chiave": [
+          "menta"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "gnocchi-con-le-trombette-dei-morti",
+    "ingredienti": [
+      {
+        "originale": "Gnocchetti di patate",
+        "normalizzato": "gnocchetti patate",
+        "token_chiave": [
+          "gnocchetti",
+          "gnocchetto",
+          "patate",
+          "patata"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "patate"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "patate"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Funghi trombette dei morti essiccati e grattugiati",
+        "normalizzato": "funghi trombette morti essiccati grattugiati",
+        "token_chiave": [
+          "funghi",
+          "fungho",
+          "trombette",
+          "trombetta",
+          "morti",
+          "morto",
+          "essiccati",
+          "essiccato"
+        ],
+        "tag": [
+          "funghi"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "funghi"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Burro",
+        "normalizzato": "burro",
+        "token_chiave": [
+          "burro"
+        ],
+        "tag": [],
+        "allergeni": [
+          "latte"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "latte"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Parmigiano Reggiano",
+        "normalizzato": "parmigiano reggiano",
+        "token_chiave": [
+          "parmigiano"
+        ],
+        "tag": [],
+        "allergeni": [
+          "latte"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "latte"
+        ],
+        "stato": "riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "goulash-variante",
+    "ingredienti": [
+      {
+        "originale": "Manzo",
+        "normalizzato": "manzo",
+        "token_chiave": [
+          "manzo"
+        ],
+        "tag": [
+          "carne",
+          "bovino",
+          "manzo"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "manzo"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Patate",
+        "normalizzato": "patate",
+        "token_chiave": [
+          "patate",
+          "patata"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "patate"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "patate"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Cipolla",
+        "normalizzato": "cipolla",
+        "token_chiave": [
+          "cipolla"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Carote",
+        "normalizzato": "carote",
+        "token_chiave": [
+          "carote",
+          "carota"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "carote"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "carote"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Pomodorini",
+        "normalizzato": "pomodorini",
+        "token_chiave": [
+          "pomodorini",
+          "pomodorino"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "topinambur"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Sedano",
+        "normalizzato": "sedano",
+        "token_chiave": [
+          "sedano"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "sedano"
+        ],
+        "allergeni": [
+          "sedano"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "sedano"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Brodo vegetale",
+        "normalizzato": "brodo vegetale",
+        "token_chiave": [
+          "brodo",
+          "vegetale",
+          "vegetala"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi"
+        ],
+        "regole_matchate": [
+          "olio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Burro",
+        "normalizzato": "burro",
+        "token_chiave": [
+          "burro"
+        ],
+        "tag": [],
+        "allergeni": [
+          "latte"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "latte"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Prezzemolo",
+        "normalizzato": "prezzemolo",
+        "token_chiave": [
+          "prezzemolo"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Cuminio",
+        "normalizzato": "cumino",
+        "token_chiave": [
+          "cumino"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Paprika",
+        "normalizzato": "paprika",
+        "token_chiave": [
+          "paprika"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Sale",
+        "normalizzato": "sale",
+        "token_chiave": [
+          "sale"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Pepe",
+        "normalizzato": "pepe",
+        "token_chiave": [
+          "pepe"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Timo",
+        "normalizzato": "timo",
+        "token_chiave": [
+          "timo"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Scorza di limone grattugiata",
+        "normalizzato": "limone",
+        "token_chiave": [
+          "limone",
+          "limona"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "agrumi",
+          "limone"
+        ],
+        "regole_matchate": [
+          "limone"
+        ],
+        "stato": "accessorio_riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "medaglioni-di-manzo-con-porcini",
+    "ingredienti": [
+      {
+        "originale": "Manzo",
+        "normalizzato": "manzo",
+        "token_chiave": [
+          "manzo"
+        ],
+        "tag": [
+          "carne",
+          "bovino",
+          "manzo"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "manzo"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Funghi porcini",
+        "normalizzato": "funghi porcini",
+        "token_chiave": [
+          "funghi",
+          "fungho",
+          "porcini",
+          "porcino"
+        ],
+        "tag": [
+          "funghi"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "funghi"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Lardo",
+        "normalizzato": "lardo",
+        "token_chiave": [
+          "lardo"
+        ],
+        "tag": [
+          "carne",
+          "suino",
+          "maiale"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "maiale"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Ginepro",
+        "normalizzato": "ginepro",
+        "token_chiave": [
+          "ginepro"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Timo",
+        "normalizzato": "timo",
+        "token_chiave": [
+          "timo"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Aglio",
+        "normalizzato": "aglio",
+        "token_chiave": [
+          "aglio"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Prezzemolo",
+        "normalizzato": "prezzemolo",
+        "token_chiave": [
+          "prezzemolo"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Olio extra vergine d'oliva",
+        "normalizzato": "olio d oliva",
+        "token_chiave": [
+          "olio",
+          "d",
+          "oliva"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi",
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "olio",
+          "olive"
+        ],
+        "stato": "accessorio_riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "minestra-di-cavoli",
+    "ingredienti": [
+      {
+        "originale": "Cavolo",
+        "normalizzato": "cavolo",
+        "token_chiave": [
+          "cavolo"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "cavoli"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "cavolo"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Lardo",
+        "normalizzato": "lardo",
+        "token_chiave": [
+          "lardo"
+        ],
+        "tag": [
+          "carne",
+          "suino",
+          "maiale"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "maiale"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Patate",
+        "normalizzato": "patate",
+        "token_chiave": [
+          "patate",
+          "patata"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "patate"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "patate"
+        ],
+        "stato": "riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "minestra-di-porri",
+    "ingredienti": [
+      {
+        "originale": "Porri",
+        "normalizzato": "porri",
+        "token_chiave": [
+          "porri",
+          "porro"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "porri"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "porri"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Olio extra vergine d'oliva",
+        "normalizzato": "olio d oliva",
+        "token_chiave": [
+          "olio",
+          "d",
+          "oliva"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi",
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "olio",
+          "olive"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Bburro",
+        "normalizzato": "burro",
+        "token_chiave": [
+          "burro"
+        ],
+        "tag": [],
+        "allergeni": [
+          "latte"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "latte"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Patate",
+        "normalizzato": "patate",
+        "token_chiave": [
+          "patate",
+          "patata"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "patate"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "patate"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Riso",
+        "normalizzato": "riso",
+        "token_chiave": [
+          "riso"
+        ],
+        "tag": [
+          "riso"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "riso"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Brodo",
+        "normalizzato": "brodo",
+        "token_chiave": [
+          "brodo"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi"
+        ],
+        "regole_matchate": [
+          "olio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "orecchiette-baresi-alle-cime-di-rapa",
+    "ingredienti": [
+      {
+        "originale": "Peperoncino",
+        "normalizzato": "peperoncino",
+        "token_chiave": [
+          "peperoncino"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Spicchio",
+        "normalizzato": "spicchio",
+        "token_chiave": [
+          "spicchio"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "spicchio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Orecchiette baresi",
+        "normalizzato": "orecchiette baresi",
+        "token_chiave": [
+          "orecchiette",
+          "orecchietta",
+          "baresi",
+          "bareso"
+        ],
+        "tag": [
+          "pasta"
+        ],
+        "allergeni": [
+          "cereali contenenti glutine"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "spaghetti"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Cime di rapa",
+        "normalizzato": "cime rapa",
+        "token_chiave": [
+          "cime",
+          "rapa"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "cime rapa"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "cime rapa",
+          "topinambur"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Alici sotto sale",
+        "normalizzato": "alici",
+        "token_chiave": [
+          "alici",
+          "alico"
+        ],
+        "tag": [
+          "pesce",
+          "alici"
+        ],
+        "allergeni": [
+          "pesce"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "alici"
+        ],
+        "stato": "riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "pappa-con-il-pomodoro",
+    "ingredienti": [
+      {
+        "originale": "Basilico",
+        "normalizzato": "basilico",
+        "token_chiave": [
+          "basilico"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Carota",
+        "normalizzato": "carota",
+        "token_chiave": [
+          "carota"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "carote"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "carote"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Aglio",
+        "normalizzato": "aglio",
+        "token_chiave": [
+          "aglio"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Pomodori",
+        "normalizzato": "pomodori",
+        "token_chiave": [
+          "pomodori",
+          "pomodoro"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "topinambur"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Porro",
+        "normalizzato": "porro",
+        "token_chiave": [
+          "porro"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "porri"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "porri"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Sedano",
+        "normalizzato": "sedano",
+        "token_chiave": [
+          "sedano"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "sedano"
+        ],
+        "allergeni": [
+          "sedano"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "sedano"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Pane toscano",
+        "normalizzato": "pane toscano",
+        "token_chiave": [
+          "pane",
+          "toscano"
+        ],
+        "tag": [],
+        "allergeni": [
+          "cereali contenenti glutine"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "farina"
+        ],
+        "stato": "riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "pasta-al-ragu-di-triglie-e-al-succo-d-arancia",
+    "ingredienti": [
+      {
+        "originale": "Spaghetti",
+        "normalizzato": "spaghetti",
+        "token_chiave": [
+          "spaghetti",
+          "spaghetto"
+        ],
+        "tag": [
+          "pasta"
+        ],
+        "allergeni": [
+          "cereali contenenti glutine"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "spaghetti"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Triglie di scoglio",
+        "normalizzato": "triglie scoglio",
+        "token_chiave": [
+          "triglie",
+          "triglia"
+        ],
+        "tag": [
+          "pesce",
+          "triglia"
+        ],
+        "allergeni": [
+          "pesce"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "triglie"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Mandorle sgusciate",
+        "normalizzato": "mandorle sgusciate",
+        "token_chiave": [
+          "mandorle",
+          "mandorla"
+        ],
+        "tag": [],
+        "allergeni": [
+          "noci"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "mandorle"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Pomodorini maturi",
+        "normalizzato": "pomodorini maturi",
+        "token_chiave": [
+          "pomodorini",
+          "pomodorino"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "pomodorini maturi",
+          "topinambur"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Arancia matura",
+        "normalizzato": "arancia",
+        "token_chiave": [
+          "arancia"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "agrumi",
+          "arancia"
+        ],
+        "regole_matchate": [
+          "arancia"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Prezzemolo",
+        "normalizzato": "prezzemolo",
+        "token_chiave": [
+          "prezzemolo"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Aglio",
+        "normalizzato": "aglio",
+        "token_chiave": [
+          "aglio"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Olio extra vergine d'oliva",
+        "normalizzato": "olio d oliva",
+        "token_chiave": [
+          "olio",
+          "d",
+          "oliva"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi",
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "olio",
+          "olive"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Origano",
+        "normalizzato": "origano",
+        "token_chiave": [
+          "origano"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Pistilli di zafferano.",
+        "normalizzato": "pistilli zafferano",
+        "token_chiave": [
+          "pistilli",
+          "pistillo",
+          "zafferano"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "pasta-con-i-broccoli",
+    "ingredienti": [
+      {
+        "originale": "Uva passa",
+        "normalizzato": "uva passa",
+        "token_chiave": [
+          "uva",
+          "passa"
+        ],
+        "tag": [
+          "frutta secca",
+          "uvetta"
+        ],
+        "allergeni": [
+          "anidride solforosa e solfiti"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "uva passa"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Broccoli",
+        "normalizzato": "broccoli",
+        "token_chiave": [
+          "broccoli",
+          "broccolo"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "broccoli"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "broccoli"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Aglio",
+        "normalizzato": "aglio",
+        "token_chiave": [
+          "aglio"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Pinoli",
+        "normalizzato": "pinoli",
+        "token_chiave": [
+          "pinoli",
+          "pinolo"
+        ],
+        "tag": [],
+        "allergeni": [
+          "noci"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "mandorle"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Olio EVO",
+        "normalizzato": "olio",
+        "token_chiave": [
+          "olio"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi"
+        ],
+        "regole_matchate": [
+          "olio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Pecorino romano",
+        "normalizzato": "pecorino romano",
+        "token_chiave": [
+          "pecorino"
+        ],
+        "tag": [],
+        "allergeni": [
+          "latte"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "latte"
+        ],
+        "stato": "riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "pasta-con-le-melanzane",
+    "ingredienti": [
+      {
+        "originale": "Mezze penne rigate",
+        "normalizzato": "penne",
+        "token_chiave": [
+          "penne",
+          "penna"
+        ],
+        "tag": [
+          "pasta"
+        ],
+        "allergeni": [
+          "cereali contenenti glutine"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "spaghetti"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "melanzane lunche",
+        "normalizzato": "melanzane lunche",
+        "token_chiave": [
+          "melanzane",
+          "melanzana",
+          "lunche",
+          "luncha"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "melanzane"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "melanzane"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "d'aglio",
+        "normalizzato": "aglio",
+        "token_chiave": [
+          "aglio"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "olio",
+        "normalizzato": "olio",
+        "token_chiave": [
+          "olio"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi"
+        ],
+        "regole_matchate": [
+          "olio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "peperoncino secco piccante",
+        "normalizzato": "peperoncino secco piccante",
+        "token_chiave": [
+          "peperoncino",
+          "piccante",
+          "piccanta"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "prezzemolo",
+        "normalizzato": "prezzemolo",
+        "token_chiave": [
+          "prezzemolo"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "pasta-con-le-sarde",
+    "ingredienti": [
+      {
+        "originale": "Pasta",
+        "normalizzato": "pasta",
+        "token_chiave": [
+          "pasta"
+        ],
+        "tag": [
+          "pasta"
+        ],
+        "allergeni": [
+          "cereali contenenti glutine"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "spaghetti"
+        ],
+        "stato": "riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "pasta-con-pesto-alla-siciliana",
+    "ingredienti": [
+      {
+        "originale": "Basilico",
+        "normalizzato": "basilico",
+        "token_chiave": [
+          "basilico"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Spicchi d'aglio",
+        "normalizzato": "aglio",
+        "token_chiave": [
+          "aglio"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Mandorle tostate e grattugiate",
+        "normalizzato": "mandorle tostate grattugiate",
+        "token_chiave": [
+          "mandorle",
+          "mandorla"
+        ],
+        "tag": [],
+        "allergeni": [
+          "noci"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "mandorle"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Olio extra vergine d'olive gustoso",
+        "normalizzato": "olio d olive gustoso",
+        "token_chiave": [
+          "olio",
+          "d",
+          "olive",
+          "oliva",
+          "gustoso"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi",
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "olio",
+          "olive"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Pomodorini datterini o meglio San Marzano se di stagione",
+        "normalizzato": "pomodorini datterini meglio san marzano se stagione",
+        "token_chiave": [
+          "pomodorini",
+          "pomodorino",
+          "datterini",
+          "datterino",
+          "meglio",
+          "se",
+          "stagione",
+          "stagiona"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "topinambur"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Capperi sotto sale",
+        "normalizzato": "capperi sotto sale",
+        "token_chiave": [
+          "capperi",
+          "cappero",
+          "sotto",
+          "sale"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie",
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "sale",
+          "capperi"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Bottarga di muggine intera",
+        "normalizzato": "bottarga muggine intera",
+        "token_chiave": [
+          "bottarga",
+          "muggine",
+          "muggina"
+        ],
+        "tag": [
+          "pesce",
+          "bottarga"
+        ],
+        "allergeni": [
+          "pesce"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "bottarga"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Pasta",
+        "normalizzato": "pasta",
+        "token_chiave": [
+          "pasta"
+        ],
+        "tag": [
+          "pasta"
+        ],
+        "allergeni": [
+          "cereali contenenti glutine"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "spaghetti"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Mentuccia.",
+        "normalizzato": "mentuccia",
+        "token_chiave": [
+          "mentuccia"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "pasta-e-fagioli",
+    "ingredienti": [
+      {
+        "originale": "Fagioli di Lamon",
+        "normalizzato": "fagioli lamon",
+        "token_chiave": [
+          "fagioli",
+          "fagiolo"
+        ],
+        "tag": [
+          "verdura",
+          "legumi",
+          "fagioli"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "fagioli"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Cipolla",
+        "normalizzato": "cipolla",
+        "token_chiave": [
+          "cipolla"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Carota",
+        "normalizzato": "carota",
+        "token_chiave": [
+          "carota"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "carote"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "carote"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Rosmarino",
+        "normalizzato": "rosmarino",
+        "token_chiave": [
+          "rosmarino"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Alloro",
+        "normalizzato": "alloro",
+        "token_chiave": [
+          "alloro"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Osso di prosciutto",
+        "normalizzato": "osso prosciutto",
+        "token_chiave": [
+          "osso",
+          "prosciutto"
+        ],
+        "tag": [
+          "carne",
+          "suino",
+          "maiale"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "maiale"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Subiotini",
+        "normalizzato": "subiotini",
+        "token_chiave": [
+          "subiotini",
+          "subiotino"
+        ],
+        "tag": [
+          "pasta"
+        ],
+        "allergeni": [
+          "cereali contenenti glutine"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "spaghetti"
+        ],
+        "stato": "riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "patatine",
+    "ingredienti": [
+      {
+        "originale": "Patatine",
+        "normalizzato": "patatine",
+        "token_chiave": [
+          "patatine",
+          "patatina"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "patate"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "patatine"
+        ],
+        "stato": "riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "pate-di-fegato",
+    "ingredienti": [
+      {
+        "originale": "½ kg. di fegato di vitello",
+        "normalizzato": "kg fegato vitello",
+        "token_chiave": [
+          "kg",
+          "fegato",
+          "vitello"
+        ],
+        "tag": [
+          "carne",
+          "bovino",
+          "manzo",
+          "frattaglie",
+          "fegato"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "manzo",
+          "fegato"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Fegatini di pollo",
+        "normalizzato": "fegatini pollo",
+        "token_chiave": [
+          "fegatini",
+          "fegatino",
+          "pollo"
+        ],
+        "tag": [
+          "carne",
+          "pollame",
+          "frattaglie",
+          "fegato"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "pollo",
+          "fegato"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Panna",
+        "normalizzato": "panna",
+        "token_chiave": [
+          "panna"
+        ],
+        "tag": [],
+        "allergeni": [
+          "latte"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "latte"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Lardo",
+        "normalizzato": "lardo",
+        "token_chiave": [
+          "lardo"
+        ],
+        "tag": [
+          "carne",
+          "suino",
+          "maiale"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "maiale"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Cipolla",
+        "normalizzato": "cipolla",
+        "token_chiave": [
+          "cipolla"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Aglio",
+        "normalizzato": "aglio",
+        "token_chiave": [
+          "aglio"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Alloro",
+        "normalizzato": "alloro",
+        "token_chiave": [
+          "alloro"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Rosmarino",
+        "normalizzato": "rosmarino",
+        "token_chiave": [
+          "rosmarino"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Marsala",
+        "normalizzato": "marsala",
+        "token_chiave": [
+          "marsala"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi"
+        ],
+        "regole_matchate": [
+          "olio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Strutto",
+        "normalizzato": "strutto",
+        "token_chiave": [
+          "strutto"
+        ],
+        "tag": [
+          "carne",
+          "suino",
+          "maiale"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "maiale"
+        ],
+        "stato": "riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "penne-alla-cannata",
+    "ingredienti": [
+      {
+        "originale": "Alici sotto sale",
+        "normalizzato": "alici",
+        "token_chiave": [
+          "alici",
+          "alico"
+        ],
+        "tag": [
+          "pesce",
+          "alici"
+        ],
+        "allergeni": [
+          "pesce"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "alici"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Capperi",
+        "normalizzato": "capperi",
+        "token_chiave": [
+          "capperi",
+          "cappero"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "capperi"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Mezze penne rigate",
+        "normalizzato": "penne",
+        "token_chiave": [
+          "penne",
+          "penna"
+        ],
+        "tag": [
+          "pasta"
+        ],
+        "allergeni": [
+          "cereali contenenti glutine"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "spaghetti"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Pomodorini",
+        "normalizzato": "pomodorini",
+        "token_chiave": [
+          "pomodorini",
+          "pomodorino"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "topinambur"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Peperoncino",
+        "normalizzato": "peperoncino",
+        "token_chiave": [
+          "peperoncino"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Pangrattato",
+        "normalizzato": "pangrattato",
+        "token_chiave": [
+          "pangrattato"
+        ],
+        "tag": [],
+        "allergeni": [
+          "cereali contenenti glutine"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "farina"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Aglio",
+        "normalizzato": "aglio",
+        "token_chiave": [
+          "aglio"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Sale",
+        "normalizzato": "sale",
+        "token_chiave": [
+          "sale"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Pepe",
+        "normalizzato": "pepe",
+        "token_chiave": [
+          "pepe"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Menta",
+        "normalizzato": "menta",
+        "token_chiave": [
+          "menta"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Origano",
+        "normalizzato": "origano",
+        "token_chiave": [
+          "origano"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Olio extra vergine d'oliva",
+        "normalizzato": "olio d oliva",
+        "token_chiave": [
+          "olio",
+          "d",
+          "oliva"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi",
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "olio",
+          "olive"
+        ],
+        "stato": "accessorio_riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "penne-con-mazzancolle-alle-verdure",
+    "ingredienti": [
+      {
+        "originale": "Aglio",
+        "normalizzato": "aglio",
+        "token_chiave": [
+          "aglio"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Carota",
+        "normalizzato": "carota",
+        "token_chiave": [
+          "carota"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "carote"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "carote"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Mazzancolla",
+        "normalizzato": "mazzancolla",
+        "token_chiave": [
+          "mazzancolla"
+        ],
+        "tag": [
+          "crostacei",
+          "mazzancolle"
+        ],
+        "allergeni": [
+          "crostacei"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "mazzancolla"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Porro",
+        "normalizzato": "porro",
+        "token_chiave": [
+          "porro"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "porri"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "porri"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Zafferano",
+        "normalizzato": "zafferano",
+        "token_chiave": [
+          "zafferano"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Zucchina",
+        "normalizzato": "zucchina",
+        "token_chiave": [
+          "zucchina"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "zucchine"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "zucchine"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Penne",
+        "normalizzato": "penne",
+        "token_chiave": [
+          "penne",
+          "penna"
+        ],
+        "tag": [
+          "pasta"
+        ],
+        "allergeni": [
+          "cereali contenenti glutine"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "spaghetti"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Verdura",
+        "normalizzato": "verdura",
+        "token_chiave": [
+          "verdura"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "verdura"
+        ],
+        "stato": "riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "penne-con-zucchine",
+    "ingredienti": [
+      {
+        "originale": "Mezze penne rigate",
+        "normalizzato": "penne",
+        "token_chiave": [
+          "penne",
+          "penna"
+        ],
+        "tag": [
+          "pasta"
+        ],
+        "allergeni": [
+          "cereali contenenti glutine"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "spaghetti"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Zucchine",
+        "normalizzato": "zucchine",
+        "token_chiave": [
+          "zucchine",
+          "zucchina"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "zucchine"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "zucchine"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Olio extra vergine d'oliva",
+        "normalizzato": "olio d oliva",
+        "token_chiave": [
+          "olio",
+          "d",
+          "oliva"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi",
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "olio",
+          "olive"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Spicco d'aglio",
+        "normalizzato": "spicco aglio",
+        "token_chiave": [
+          "spicco",
+          "aglio"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Parmigiano Reggiano",
+        "normalizzato": "parmigiano reggiano",
+        "token_chiave": [
+          "parmigiano"
+        ],
+        "tag": [],
+        "allergeni": [
+          "latte"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "latte"
+        ],
+        "stato": "riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "peperoni-alici-e-capperi",
+    "ingredienti": [
+      {
+        "originale": "Peperoni rossi e gialli",
+        "normalizzato": "peperoni rossi gialli",
+        "token_chiave": [
+          "peperoni",
+          "peperono"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "peperoni"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "peperoni"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Capperi sotto sale",
+        "normalizzato": "capperi sotto sale",
+        "token_chiave": [
+          "capperi",
+          "cappero",
+          "sotto",
+          "sale"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie",
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "sale",
+          "capperi"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Alici sotto sale",
+        "normalizzato": "alici",
+        "token_chiave": [
+          "alici",
+          "alico"
+        ],
+        "tag": [
+          "pesce",
+          "alici"
+        ],
+        "allergeni": [
+          "pesce"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "alici"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Olio extra vergine d'oliva pugliese",
+        "normalizzato": "olio d oliva pugliese",
+        "token_chiave": [
+          "olio",
+          "d",
+          "oliva",
+          "pugliese",
+          "pugliesa"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi",
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "olio",
+          "olive"
+        ],
+        "stato": "accessorio_riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "picana",
+    "ingredienti": [
+      {
+        "originale": "Picana (Lombata)",
+        "normalizzato": "picana",
+        "token_chiave": [
+          "picana"
+        ],
+        "tag": [
+          "carne",
+          "bovino",
+          "manzo"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "picana"
+        ],
+        "stato": "riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "puree-di-sedano",
+    "ingredienti": [
+      {
+        "originale": "Sedano rapa",
+        "normalizzato": "sedano rapa",
+        "token_chiave": [
+          "sedano",
+          "rapa"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "sedano"
+        ],
+        "allergeni": [
+          "sedano"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "topinambur",
+          "sedano"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Gambi di sedano",
+        "normalizzato": "gambi sedano",
+        "token_chiave": [
+          "gambi",
+          "gambo",
+          "sedano"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "sedano"
+        ],
+        "allergeni": [
+          "sedano"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "sedano"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Cipolla",
+        "normalizzato": "cipolla",
+        "token_chiave": [
+          "cipolla"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Aglio",
+        "normalizzato": "aglio",
+        "token_chiave": [
+          "aglio"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Patate",
+        "normalizzato": "patate",
+        "token_chiave": [
+          "patate",
+          "patata"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "patate"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "patate"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Burro",
+        "normalizzato": "burro",
+        "token_chiave": [
+          "burro"
+        ],
+        "tag": [],
+        "allergeni": [
+          "latte"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "latte"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Noce moscata",
+        "normalizzato": "noce moscata",
+        "token_chiave": [
+          "noce",
+          "moscata"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "ratatouille-variante",
+    "ingredienti": [
+      {
+        "originale": "Melanzane lunghe",
+        "normalizzato": "melanzane lunghe",
+        "token_chiave": [
+          "melanzane",
+          "melanzana"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "melanzane"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "melanzane"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Zucchine",
+        "normalizzato": "zucchine",
+        "token_chiave": [
+          "zucchine",
+          "zucchina"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "zucchine"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "zucchine"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Peperoni gialli e rossi",
+        "normalizzato": "peperoni gialli rossi",
+        "token_chiave": [
+          "peperoni",
+          "peperono"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "peperoni"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "peperoni"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Cipolla bianca",
+        "normalizzato": "cipolla bianca",
+        "token_chiave": [
+          "cipolla"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Aglio",
+        "normalizzato": "aglio",
+        "token_chiave": [
+          "aglio"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Basilico",
+        "normalizzato": "basilico",
+        "token_chiave": [
+          "basilico"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Sale",
+        "normalizzato": "sale",
+        "token_chiave": [
+          "sale"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Pepe",
+        "normalizzato": "pepe",
+        "token_chiave": [
+          "pepe"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "ribollita",
+    "ingredienti": []
+  },
+  {
+    "slug": "risi-e-bisi",
+    "ingredienti": [
+      {
+        "originale": "Carota",
+        "normalizzato": "carota",
+        "token_chiave": [
+          "carota"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "carote"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "carote"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Cipolla",
+        "normalizzato": "cipolla",
+        "token_chiave": [
+          "cipolla"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Pepe",
+        "normalizzato": "pepe",
+        "token_chiave": [
+          "pepe"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Piselli",
+        "normalizzato": "piselli",
+        "token_chiave": [
+          "piselli",
+          "pisello"
+        ],
+        "tag": [
+          "verdura",
+          "legumi",
+          "piselli"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "piselli"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Sale",
+        "normalizzato": "sale",
+        "token_chiave": [
+          "sale"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Sedano",
+        "normalizzato": "sedano",
+        "token_chiave": [
+          "sedano"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "sedano"
+        ],
+        "allergeni": [
+          "sedano"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "sedano"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Riso",
+        "normalizzato": "riso",
+        "token_chiave": [
+          "riso"
+        ],
+        "tag": [
+          "riso"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "riso"
+        ],
+        "stato": "riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "riso-cozze-e-patate",
+    "ingredienti": [
+      {
+        "originale": "di cozze",
+        "normalizzato": "cozze",
+        "token_chiave": [
+          "cozze",
+          "cozza"
+        ],
+        "tag": [
+          "molluschi",
+          "cozze"
+        ],
+        "allergeni": [
+          "molluschi"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "cozze"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Riso",
+        "normalizzato": "riso",
+        "token_chiave": [
+          "riso"
+        ],
+        "tag": [
+          "riso"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "riso"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Patate",
+        "normalizzato": "patate",
+        "token_chiave": [
+          "patate",
+          "patata"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "patate"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "patate"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Aglio",
+        "normalizzato": "aglio",
+        "token_chiave": [
+          "aglio"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Prezzemolo",
+        "normalizzato": "prezzemolo",
+        "token_chiave": [
+          "prezzemolo"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Pecorino romano DPO",
+        "normalizzato": "pecorino romano dpo",
+        "token_chiave": [
+          "pecorino",
+          "dpo"
+        ],
+        "tag": [],
+        "allergeni": [
+          "latte"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "latte"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Pomodori pelati DOP",
+        "normalizzato": "pomodori dop",
+        "token_chiave": [
+          "pomodori",
+          "pomodoro"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "topinambur"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Olio extra vergine d'oliva",
+        "normalizzato": "olio d oliva",
+        "token_chiave": [
+          "olio",
+          "d",
+          "oliva"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi",
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "olio",
+          "olive"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Sale",
+        "normalizzato": "sale",
+        "token_chiave": [
+          "sale"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Pepe",
+        "normalizzato": "pepe",
+        "token_chiave": [
+          "pepe"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "roastbeef-arrosto-all-inglese",
+    "ingredienti": [
+      {
+        "originale": "Roastbeef",
+        "normalizzato": "roastbeef",
+        "token_chiave": [
+          "roastbeef"
+        ],
+        "tag": [
+          "carne",
+          "bovino",
+          "manzo"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "manzo"
+        ],
+        "stato": "riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "roux-brun",
+    "ingredienti": [
+      {
+        "originale": "Noce di burro",
+        "normalizzato": "burro",
+        "token_chiave": [
+          "burro"
+        ],
+        "tag": [],
+        "allergeni": [
+          "latte"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "latte"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Farina 00",
+        "normalizzato": "farina",
+        "token_chiave": [
+          "farina"
+        ],
+        "tag": [],
+        "allergeni": [
+          "cereali contenenti glutine"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "farina"
+        ],
+        "stato": "riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "salsa-verde",
+    "ingredienti": [
+      {
+        "originale": "Prezzemolo",
+        "normalizzato": "prezzemolo",
+        "token_chiave": [
+          "prezzemolo"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Aglio",
+        "normalizzato": "aglio",
+        "token_chiave": [
+          "aglio"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Capperi",
+        "normalizzato": "capperi",
+        "token_chiave": [
+          "capperi",
+          "cappero"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "capperi"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Alici sotto sale",
+        "normalizzato": "alici",
+        "token_chiave": [
+          "alici",
+          "alico"
+        ],
+        "tag": [
+          "pesce",
+          "alici"
+        ],
+        "allergeni": [
+          "pesce"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "alici"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Mollica di pane imbevuto di latte",
+        "normalizzato": "mollica pane imbevuto latte",
+        "token_chiave": [
+          "mollica",
+          "pane",
+          "imbevuto",
+          "latte",
+          "latta"
+        ],
+        "tag": [],
+        "allergeni": [
+          "latte",
+          "cereali contenenti glutine"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "latte",
+          "farina"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Olio extra vergine d'oliva",
+        "normalizzato": "olio d oliva",
+        "token_chiave": [
+          "olio",
+          "d",
+          "oliva"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi",
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "olio",
+          "olive"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Aceto",
+        "normalizzato": "aceto",
+        "token_chiave": [
+          "aceto"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi"
+        ],
+        "regole_matchate": [
+          "olio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Sale",
+        "normalizzato": "sale",
+        "token_chiave": [
+          "sale"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "sarde-a-beccafico",
+    "ingredienti": [
+      {
+        "originale": "Sarde di media grandezza",
+        "normalizzato": "sarde media grandezza",
+        "token_chiave": [
+          "sarde",
+          "sarda",
+          "grandezza"
+        ],
+        "tag": [
+          "pesce",
+          "sarde"
+        ],
+        "allergeni": [
+          "pesce"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "sarde"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Pangrattato",
+        "normalizzato": "pangrattato",
+        "token_chiave": [
+          "pangrattato"
+        ],
+        "tag": [],
+        "allergeni": [
+          "cereali contenenti glutine"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "farina"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Pinoli",
+        "normalizzato": "pinoli",
+        "token_chiave": [
+          "pinoli",
+          "pinolo"
+        ],
+        "tag": [],
+        "allergeni": [
+          "noci"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "mandorle"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Uva sultanina",
+        "normalizzato": "uva passa",
+        "token_chiave": [
+          "uva",
+          "passa"
+        ],
+        "tag": [
+          "frutta secca",
+          "uvetta"
+        ],
+        "allergeni": [
+          "anidride solforosa e solfiti"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "uva passa"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Alici sotto sale",
+        "normalizzato": "alici",
+        "token_chiave": [
+          "alici",
+          "alico"
+        ],
+        "tag": [
+          "pesce",
+          "alici"
+        ],
+        "allergeni": [
+          "pesce"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "alici"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Alloro fresco",
+        "normalizzato": "alloro fresco",
+        "token_chiave": [
+          "alloro"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Prezzemolo",
+        "normalizzato": "prezzemolo",
+        "token_chiave": [
+          "prezzemolo"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Olio extra vergine d'oliva",
+        "normalizzato": "olio d oliva",
+        "token_chiave": [
+          "olio",
+          "d",
+          "oliva"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi",
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "olio",
+          "olive"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Limoni bio",
+        "normalizzato": "limone",
+        "token_chiave": [
+          "limone",
+          "limona"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "agrumi",
+          "limone"
+        ],
+        "regole_matchate": [
+          "limone"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Zucchero di canna",
+        "normalizzato": "zucchero canna",
+        "token_chiave": [
+          "zucchero",
+          "canna"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "dolcificanti"
+        ],
+        "regole_matchate": [
+          "zucchero"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Sale",
+        "normalizzato": "sale",
+        "token_chiave": [
+          "sale"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Pepe",
+        "normalizzato": "pepe",
+        "token_chiave": [
+          "pepe"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "sfogliata-pugliese",
+    "ingredienti": [
+      {
+        "originale": "Pasta per pane",
+        "normalizzato": "pasta pane",
+        "token_chiave": [
+          "pasta",
+          "pane"
+        ],
+        "tag": [
+          "pasta"
+        ],
+        "allergeni": [
+          "cereali contenenti glutine"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "farina",
+          "spaghetti"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Olive nere snocciolate pugliesi",
+        "normalizzato": "olive nere snocciolate pugliesi",
+        "token_chiave": [
+          "olive",
+          "oliva",
+          "nere",
+          "pugliesi",
+          "puglieso"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "olive"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Alici sotto sale",
+        "normalizzato": "alici",
+        "token_chiave": [
+          "alici",
+          "alico"
+        ],
+        "tag": [
+          "pesce",
+          "alici"
+        ],
+        "allergeni": [
+          "pesce"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "alici"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Uva passa",
+        "normalizzato": "uva passa",
+        "token_chiave": [
+          "uva",
+          "passa"
+        ],
+        "tag": [
+          "frutta secca",
+          "uvetta"
+        ],
+        "allergeni": [
+          "anidride solforosa e solfiti"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "uva passa"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Pomodori pelati DOP",
+        "normalizzato": "pomodori dop",
+        "token_chiave": [
+          "pomodori",
+          "pomodoro"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "topinambur"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Pecorino romano",
+        "normalizzato": "pecorino romano",
+        "token_chiave": [
+          "pecorino"
+        ],
+        "tag": [],
+        "allergeni": [
+          "latte"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "latte"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Capperi",
+        "normalizzato": "capperi",
+        "token_chiave": [
+          "capperi",
+          "cappero"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "capperi"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Olio extra vergine d'oliva",
+        "normalizzato": "olio d oliva",
+        "token_chiave": [
+          "olio",
+          "d",
+          "oliva"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi",
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "olio",
+          "olive"
+        ],
+        "stato": "accessorio_riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "spaghetti-alla-bottarga",
+    "ingredienti": [
+      {
+        "originale": "Spaghetti",
+        "normalizzato": "spaghetti",
+        "token_chiave": [
+          "spaghetti",
+          "spaghetto"
+        ],
+        "tag": [
+          "pasta"
+        ],
+        "allergeni": [
+          "cereali contenenti glutine"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "spaghetti"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Bottarga di muggine",
+        "normalizzato": "bottarga muggine",
+        "token_chiave": [
+          "bottarga",
+          "muggine",
+          "muggina"
+        ],
+        "tag": [
+          "pesce",
+          "bottarga"
+        ],
+        "allergeni": [
+          "pesce"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "bottarga"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Aglio",
+        "normalizzato": "aglio",
+        "token_chiave": [
+          "aglio"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Olio extra vergine d'oliva",
+        "normalizzato": "olio d oliva",
+        "token_chiave": [
+          "olio",
+          "d",
+          "oliva"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi",
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "olio",
+          "olive"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Peperoncino",
+        "normalizzato": "peperoncino",
+        "token_chiave": [
+          "peperoncino"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Pangrattato",
+        "normalizzato": "pangrattato",
+        "token_chiave": [
+          "pangrattato"
+        ],
+        "tag": [],
+        "allergeni": [
+          "cereali contenenti glutine"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "farina"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Prezzemolo.",
+        "normalizzato": "prezzemolo",
+        "token_chiave": [
+          "prezzemolo"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "spaghetti-alla-puttanesca",
+    "ingredienti": [
+      {
+        "originale": "Spaghetti o vermicelli",
+        "normalizzato": "spaghetti vermicelli",
+        "token_chiave": [
+          "spaghetti",
+          "spaghetto",
+          "vermicelli",
+          "vermicello"
+        ],
+        "tag": [
+          "pasta"
+        ],
+        "allergeni": [
+          "cereali contenenti glutine"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "spaghetti"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Aglio",
+        "normalizzato": "aglio",
+        "token_chiave": [
+          "aglio"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Peperoncini secchi piccanti",
+        "normalizzato": "peperoncini secchi piccanti",
+        "token_chiave": [
+          "peperoncini",
+          "peperoncino",
+          "piccanti",
+          "piccanto"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Olive di Gaeta",
+        "normalizzato": "olive gaeta",
+        "token_chiave": [
+          "olive",
+          "oliva"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "olive"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Capperi sotto sale",
+        "normalizzato": "capperi sotto sale",
+        "token_chiave": [
+          "capperi",
+          "cappero",
+          "sotto",
+          "sale"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie",
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "sale",
+          "capperi"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Alici sotto sale",
+        "normalizzato": "alici",
+        "token_chiave": [
+          "alici",
+          "alico"
+        ],
+        "tag": [
+          "pesce",
+          "alici"
+        ],
+        "allergeni": [
+          "pesce"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "alici"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Olio extravergine d'oliva",
+        "normalizzato": "olio d oliva",
+        "token_chiave": [
+          "olio",
+          "d",
+          "oliva"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi",
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "olio",
+          "olive"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Pelati",
+        "normalizzato": "pomodori",
+        "token_chiave": [
+          "pomodori",
+          "pomodoro"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "topinambur"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Prezzemolo",
+        "normalizzato": "prezzemolo",
+        "token_chiave": [
+          "prezzemolo"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "straccetti-di-pollo-al-limone",
+    "ingredienti": [
+      {
+        "originale": "Petto di pollo allevato a terra",
+        "normalizzato": "petto pollo allevato terra",
+        "token_chiave": [
+          "petto",
+          "pollo"
+        ],
+        "tag": [
+          "carne",
+          "pollame"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "pollo"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Limone",
+        "normalizzato": "limone",
+        "token_chiave": [
+          "limone",
+          "limona"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "agrumi",
+          "limone"
+        ],
+        "regole_matchate": [
+          "limone"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Rosmarino",
+        "normalizzato": "rosmarino",
+        "token_chiave": [
+          "rosmarino"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Olio extra vergine d'oliva",
+        "normalizzato": "olio d oliva",
+        "token_chiave": [
+          "olio",
+          "d",
+          "oliva"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi",
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "olio",
+          "olive"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Sale",
+        "normalizzato": "sale",
+        "token_chiave": [
+          "sale"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Pepe",
+        "normalizzato": "pepe",
+        "token_chiave": [
+          "pepe"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
+    "ingredienti": [
+      {
+        "originale": "Carpaccio di manzo",
+        "normalizzato": "carpaccio manzo",
+        "token_chiave": [
+          "carpaccio",
+          "manzo"
+        ],
+        "tag": [
+          "carne",
+          "bovino",
+          "manzo"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "manzo"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Porri",
+        "normalizzato": "porri",
+        "token_chiave": [
+          "porri",
+          "porro"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "porri"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "porri"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Rucola",
+        "normalizzato": "rucola",
+        "token_chiave": [
+          "rucola"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "topinambur"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Aceto balsamico di Modena",
+        "normalizzato": "aceto balsamico modena",
+        "token_chiave": [
+          "aceto",
+          "balsamico",
+          "modena"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi"
+        ],
+        "regole_matchate": [
+          "olio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Olio",
+        "normalizzato": "olio",
+        "token_chiave": [
+          "olio"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi"
+        ],
+        "regole_matchate": [
+          "olio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Sale e pepe",
+        "normalizzato": "sale pepe",
+        "token_chiave": [
+          "sale",
+          "pepe"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "tagliate",
+    "ingredienti": [
+      {
+        "originale": "Fesa di tacchino",
+        "normalizzato": "fesa tacchino",
+        "token_chiave": [
+          "fesa",
+          "tacchino"
+        ],
+        "tag": [
+          "carne",
+          "pollame"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "pollo"
+        ],
+        "stato": "riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "tajin-mqualli",
+    "ingredienti": [
+      {
+        "originale": "Pollo",
+        "normalizzato": "pollo",
+        "token_chiave": [
+          "pollo"
+        ],
+        "tag": [
+          "carne",
+          "pollame"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "pollo"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Coniglio",
+        "normalizzato": "coniglio",
+        "token_chiave": [
+          "coniglio"
+        ],
+        "tag": [
+          "carne",
+          "coniglio"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "coniglio"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Montone",
+        "normalizzato": "montone",
+        "token_chiave": [
+          "montone",
+          "montona"
+        ],
+        "tag": [
+          "carne",
+          "ovino",
+          "agnello"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "agnello"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Cous cous",
+        "normalizzato": "cous cous",
+        "token_chiave": [
+          "cous"
+        ],
+        "tag": [
+          "cous cous"
+        ],
+        "allergeni": [
+          "cereali contenenti glutine"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "cous cous"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Cipollotti",
+        "normalizzato": "cipollotti",
+        "token_chiave": [
+          "cipollotti",
+          "cipollotto"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "topinambur"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Prezzemolo,",
+        "normalizzato": "prezzemolo",
+        "token_chiave": [
+          "prezzemolo"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Patate",
+        "normalizzato": "patate",
+        "token_chiave": [
+          "patate",
+          "patata"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "patate"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "patate"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Carote",
+        "normalizzato": "carote",
+        "token_chiave": [
+          "carote",
+          "carota"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "carote"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "carote"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Finocchi",
+        "normalizzato": "finocchi",
+        "token_chiave": [
+          "finocchi",
+          "finoccho"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "topinambur"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Olive nere",
+        "normalizzato": "olive nere",
+        "token_chiave": [
+          "olive",
+          "oliva",
+          "nere"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "olive"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Limone,",
+        "normalizzato": "limone",
+        "token_chiave": [
+          "limone",
+          "limona"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "agrumi",
+          "limone"
+        ],
+        "regole_matchate": [
+          "limone"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Curcuma,",
+        "normalizzato": "curcuma",
+        "token_chiave": [
+          "curcuma"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Zenzero,",
+        "normalizzato": "zenzero",
+        "token_chiave": [
+          "zenzero"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Coriandolo,",
+        "normalizzato": "coriandolo",
+        "token_chiave": [
+          "coriandolo"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Menta",
+        "normalizzato": "menta",
+        "token_chiave": [
+          "menta"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Cumino",
+        "normalizzato": "cumino",
+        "token_chiave": [
+          "cumino"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Zafferano",
+        "normalizzato": "zafferano",
+        "token_chiave": [
+          "zafferano"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Pepe",
+        "normalizzato": "pepe",
+        "token_chiave": [
+          "pepe"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Aglio",
+        "normalizzato": "aglio",
+        "token_chiave": [
+          "aglio"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Sale",
+        "normalizzato": "sale",
+        "token_chiave": [
+          "sale"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Olio extra vergine d'oliva",
+        "normalizzato": "olio d oliva",
+        "token_chiave": [
+          "olio",
+          "d",
+          "oliva"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi",
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "olio",
+          "olive"
+        ],
+        "stato": "accessorio_riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "tonno-alla-carlofortina",
+    "ingredienti": [
+      {
+        "originale": "Tonno",
+        "normalizzato": "tonno",
+        "token_chiave": [
+          "tonno"
+        ],
+        "tag": [
+          "pesce",
+          "tonno"
+        ],
+        "allergeni": [
+          "pesce"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "tonno"
+        ],
+        "stato": "riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "tortino-di-alici",
+    "ingredienti": [
+      {
+        "originale": "Alici freschissime",
+        "normalizzato": "alici freschissime",
+        "token_chiave": [
+          "alici",
+          "alico",
+          "freschissime",
+          "freschissima"
+        ],
+        "tag": [
+          "pesce",
+          "alici"
+        ],
+        "allergeni": [
+          "pesce"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "alici"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Mollica o pangrattato",
+        "normalizzato": "mollica pangrattato",
+        "token_chiave": [
+          "mollica",
+          "pangrattato"
+        ],
+        "tag": [],
+        "allergeni": [
+          "cereali contenenti glutine"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "farina"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Pecorino romano DOP",
+        "normalizzato": "pecorino romano dop",
+        "token_chiave": [
+          "pecorino"
+        ],
+        "tag": [],
+        "allergeni": [
+          "latte"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "latte"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Olio extra vergine d'oliva",
+        "normalizzato": "olio d oliva",
+        "token_chiave": [
+          "olio",
+          "d",
+          "oliva"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi",
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "olio",
+          "olive"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Sale",
+        "normalizzato": "sale",
+        "token_chiave": [
+          "sale"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Peperoncino",
+        "normalizzato": "peperoncino",
+        "token_chiave": [
+          "peperoncino"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Nepetella",
+        "normalizzato": "nepetella",
+        "token_chiave": [
+          "nepetella"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Prezzemolo",
+        "normalizzato": "prezzemolo",
+        "token_chiave": [
+          "prezzemolo"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Origano",
+        "normalizzato": "origano",
+        "token_chiave": [
+          "origano"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Limone BIO",
+        "normalizzato": "limone",
+        "token_chiave": [
+          "limone",
+          "limona"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "agrumi",
+          "limone"
+        ],
+        "regole_matchate": [
+          "limone"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Pepe",
+        "normalizzato": "pepe",
+        "token_chiave": [
+          "pepe"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "vitello-tonnato",
+    "ingredienti": [
+      {
+        "originale": "Girello di vitello intero",
+        "normalizzato": "girello vitello intero",
+        "token_chiave": [
+          "girello",
+          "vitello"
+        ],
+        "tag": [
+          "carne",
+          "bovino",
+          "manzo"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "manzo"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Vino bianco molto secco",
+        "normalizzato": "vino bianco molto secco",
+        "token_chiave": [
+          "vino"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti liquidi"
+        ],
+        "regole_matchate": [
+          "olio",
+          "barbera"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Alloro",
+        "normalizzato": "alloro",
+        "token_chiave": [
+          "alloro"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Cuore di sedano",
+        "normalizzato": "cuore sedano",
+        "token_chiave": [
+          "cuore",
+          "cuora",
+          "sedano"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "sedano"
+        ],
+        "allergeni": [
+          "sedano"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "sedano"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Carota",
+        "normalizzato": "carota",
+        "token_chiave": [
+          "carota"
+        ],
+        "tag": [
+          "verdura",
+          "ortaggi",
+          "carote"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "carote"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Cipolla",
+        "normalizzato": "cipolla",
+        "token_chiave": [
+          "cipolla"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Aglio",
+        "normalizzato": "aglio",
+        "token_chiave": [
+          "aglio"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "aromi"
+        ],
+        "regole_matchate": [
+          "aglio"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Chiodi di garofano",
+        "normalizzato": "chiodi garofano",
+        "token_chiave": [
+          "chiodi",
+          "chiodo",
+          "garofano"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Pepe nero",
+        "normalizzato": "pepe nero",
+        "token_chiave": [
+          "pepe"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Prezzemolo",
+        "normalizzato": "prezzemolo",
+        "token_chiave": [
+          "prezzemolo"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Tonno in scatola",
+        "normalizzato": "tonno scatola",
+        "token_chiave": [
+          "tonno",
+          "scatola"
+        ],
+        "tag": [
+          "pesce",
+          "tonno"
+        ],
+        "allergeni": [
+          "pesce"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "tonno"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Capperi di Pantelleria DOP",
+        "normalizzato": "capperi pantelleria dop",
+        "token_chiave": [
+          "capperi",
+          "cappero"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "condimenti"
+        ],
+        "regole_matchate": [
+          "capperi"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Maionese",
+        "normalizzato": "maionese",
+        "token_chiave": [
+          "maionese",
+          "maionesa"
+        ],
+        "tag": [],
+        "allergeni": [
+          "latte"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "latte"
+        ],
+        "stato": "riconosciuto"
+      }
+    ]
+  }
+]

@@ -1,0 +1,684 @@
+{
+  "versione": "CMS2-R18-051",
+  "timestamp": "2026-05-03T08:04:12",
+  "root": "G:\\Il mio Drive\\Esperienze\\Ricette",
+  "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\CMS2-R18-051\\ingredienti-semantica.json",
+  "ricette_elaborate": 60,
+  "ingredienti_distinti": 212,
+  "ingredienti_non_riconosciuti_distinti": 0,
+  "ingredienti_accessori_riconosciuti_distinti": 77,
+  "non_riconosciuti_top": [],
+  "accessori_riconosciuti_top": [
+    [
+      "olio d oliva",
+      28
+    ],
+    [
+      "sale",
+      25
+    ],
+    [
+      "aglio",
+      23
+    ],
+    [
+      "pepe",
+      19
+    ],
+    [
+      "prezzemolo",
+      17
+    ],
+    [
+      "cipolla",
+      11
+    ],
+    [
+      "alloro",
+      9
+    ],
+    [
+      "limone",
+      9
+    ],
+    [
+      "rosmarino",
+      7
+    ],
+    [
+      "timo",
+      6
+    ],
+    [
+      "menta",
+      4
+    ],
+    [
+      "basilico",
+      4
+    ],
+    [
+      "peperoncino",
+      4
+    ],
+    [
+      "bacche ginepro",
+      3
+    ],
+    [
+      "chiodi garofano",
+      3
+    ],
+    [
+      "salvia",
+      3
+    ],
+    [
+      "ginepro",
+      3
+    ],
+    [
+      "origano",
+      3
+    ],
+    [
+      "olio",
+      3
+    ],
+    [
+      "capperi sotto sale",
+      3
+    ],
+    [
+      "capperi",
+      3
+    ],
+    [
+      "brodo",
+      2
+    ],
+    [
+      "noce moscata",
+      2
+    ],
+    [
+      "vino bianco secco",
+      2
+    ],
+    [
+      "arancia",
+      2
+    ],
+    [
+      "pepe nero",
+      2
+    ],
+    [
+      "vino rosso",
+      2
+    ],
+    [
+      "zucchero canna",
+      2
+    ],
+    [
+      "cipolle",
+      2
+    ],
+    [
+      "olive gaeta",
+      2
+    ],
+    [
+      "cumino",
+      2
+    ],
+    [
+      "zafferano",
+      2
+    ],
+    [
+      "acqua fredda",
+      1
+    ],
+    [
+      "pepe grani",
+      1
+    ],
+    [
+      "ripieno sugo",
+      1
+    ],
+    [
+      "cipolle dorate",
+      1
+    ],
+    [
+      "cannella",
+      1
+    ],
+    [
+      "barbera",
+      1
+    ],
+    [
+      "brodo carne",
+      1
+    ],
+    [
+      "curacao",
+      1
+    ],
+    [
+      "aceto vino bianco",
+      1
+    ],
+    [
+      "pepe bianco",
+      1
+    ],
+    [
+      "birra ambrata",
+      1
+    ],
+    [
+      "olio oliva",
+      1
+    ],
+    [
+      "corteccia",
+      1
+    ],
+    [
+      "cipolla viola",
+      1
+    ],
+    [
+      "acqua",
+      1
+    ],
+    [
+      "prezzemolo tritato",
+      1
+    ],
+    [
+      "pepe tritato",
+      1
+    ],
+    [
+      "bouquet garni",
+      1
+    ],
+    [
+      "scalogno",
+      1
+    ],
+    [
+      "sale grosso",
+      1
+    ],
+    [
+      "olive verdi",
+      1
+    ],
+    [
+      "brodo vegetale",
+      1
+    ],
+    [
+      "paprika",
+      1
+    ],
+    [
+      "spicchio",
+      1
+    ],
+    [
+      "pistilli zafferano",
+      1
+    ],
+    [
+      "peperoncino secco piccante",
+      1
+    ],
+    [
+      "olio d olive gustoso",
+      1
+    ],
+    [
+      "mentuccia",
+      1
+    ],
+    [
+      "marsala",
+      1
+    ],
+    [
+      "spicco aglio",
+      1
+    ],
+    [
+      "olio d oliva pugliese",
+      1
+    ],
+    [
+      "cipolla bianca",
+      1
+    ],
+    [
+      "aceto",
+      1
+    ],
+    [
+      "alloro fresco",
+      1
+    ],
+    [
+      "olive nere snocciolate pugliesi",
+      1
+    ],
+    [
+      "peperoncini secchi piccanti",
+      1
+    ],
+    [
+      "aceto balsamico modena",
+      1
+    ],
+    [
+      "sale pepe",
+      1
+    ],
+    [
+      "olive nere",
+      1
+    ],
+    [
+      "curcuma",
+      1
+    ],
+    [
+      "zenzero",
+      1
+    ],
+    [
+      "coriandolo",
+      1
+    ],
+    [
+      "nepetella",
+      1
+    ],
+    [
+      "vino bianco molto secco",
+      1
+    ],
+    [
+      "capperi pantelleria dop",
+      1
+    ]
+  ],
+  "per_ricetta": [
+    {
+      "slug": "agnolotti-al-sugo-d-arrosto",
+      "ingredienti": 44,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 23
+    },
+    {
+      "slug": "anatra-all-arancia",
+      "ingredienti": 20,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 11
+    },
+    {
+      "slug": "anatra-in-salsa",
+      "ingredienti": 11,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 6
+    },
+    {
+      "slug": "antipasto-di-canocce",
+      "ingredienti": 7,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 4
+    },
+    {
+      "slug": "aringhe-in-terrina",
+      "ingredienti": 7,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 5
+    },
+    {
+      "slug": "arista-alla-birra",
+      "ingredienti": 11,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 9
+    },
+    {
+      "slug": "baccala-mantecato",
+      "ingredienti": 6,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 3
+    },
+    {
+      "slug": "bagna-cauda",
+      "ingredienti": 14,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 2
+    },
+    {
+      "slug": "battuta-di-manzo-alla-boscaiola",
+      "ingredienti": 6,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 3
+    },
+    {
+      "slug": "bigoli-in-salsa",
+      "ingredienti": 4,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 2
+    },
+    {
+      "slug": "braciole-di-carne-di-cavallo",
+      "ingredienti": 11,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 8
+    },
+    {
+      "slug": "calamari-ripieni",
+      "ingredienti": 9,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 5
+    },
+    {
+      "slug": "cous-cous-alla-trapanese",
+      "ingredienti": 1,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 0
+    },
+    {
+      "slug": "crepes",
+      "ingredienti": 8,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 4
+    },
+    {
+      "slug": "daube",
+      "ingredienti": 11,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 7
+    },
+    {
+      "slug": "fegato-alla-veneziana",
+      "ingredienti": 4,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 2
+    },
+    {
+      "slug": "filettino-di-maiale",
+      "ingredienti": 7,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 5
+    },
+    {
+      "slug": "filetto-angus-alla-senape-di-digione",
+      "ingredienti": 3,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 1
+    },
+    {
+      "slug": "fusilli-carciofi-e-salmone",
+      "ingredienti": 8,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 5
+    },
+    {
+      "slug": "gigot-roti",
+      "ingredienti": 8,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 7
+    },
+    {
+      "slug": "gnocchetti-sardi-alla-urbaweb",
+      "ingredienti": 14,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 7
+    },
+    {
+      "slug": "gnocchi-con-le-trombette-dei-morti",
+      "ingredienti": 4,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 0
+    },
+    {
+      "slug": "goulash-variante",
+      "ingredienti": 15,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 9
+    },
+    {
+      "slug": "medaglioni-di-manzo-con-porcini",
+      "ingredienti": 8,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 5
+    },
+    {
+      "slug": "minestra-di-cavoli",
+      "ingredienti": 3,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 0
+    },
+    {
+      "slug": "minestra-di-porri",
+      "ingredienti": 6,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 2
+    },
+    {
+      "slug": "orecchiette-baresi-alle-cime-di-rapa",
+      "ingredienti": 5,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 2
+    },
+    {
+      "slug": "pappa-con-il-pomodoro",
+      "ingredienti": 7,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 2
+    },
+    {
+      "slug": "pasta-al-ragu-di-triglie-e-al-succo-d-arancia",
+      "ingredienti": 10,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 6
+    },
+    {
+      "slug": "pasta-con-i-broccoli",
+      "ingredienti": 6,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 2
+    },
+    {
+      "slug": "pasta-con-le-melanzane",
+      "ingredienti": 6,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 4
+    },
+    {
+      "slug": "pasta-con-le-sarde",
+      "ingredienti": 1,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 0
+    },
+    {
+      "slug": "pasta-con-pesto-alla-siciliana",
+      "ingredienti": 9,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 5
+    },
+    {
+      "slug": "pasta-e-fagioli",
+      "ingredienti": 7,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 3
+    },
+    {
+      "slug": "patatine",
+      "ingredienti": 1,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 0
+    },
+    {
+      "slug": "pate-di-fegato",
+      "ingredienti": 10,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 5
+    },
+    {
+      "slug": "penne-alla-cannata",
+      "ingredienti": 12,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 8
+    },
+    {
+      "slug": "penne-con-mazzancolle-alle-verdure",
+      "ingredienti": 8,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 2
+    },
+    {
+      "slug": "penne-con-zucchine",
+      "ingredienti": 5,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 2
+    },
+    {
+      "slug": "peperoni-alici-e-capperi",
+      "ingredienti": 4,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 2
+    },
+    {
+      "slug": "picana",
+      "ingredienti": 1,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 0
+    },
+    {
+      "slug": "puree-di-sedano",
+      "ingredienti": 7,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 3
+    },
+    {
+      "slug": "ratatouille-variante",
+      "ingredienti": 8,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 5
+    },
+    {
+      "slug": "ribollita",
+      "ingredienti": 0,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 0
+    },
+    {
+      "slug": "risi-e-bisi",
+      "ingredienti": 7,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 3
+    },
+    {
+      "slug": "riso-cozze-e-patate",
+      "ingredienti": 10,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 5
+    },
+    {
+      "slug": "roastbeef-arrosto-all-inglese",
+      "ingredienti": 1,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 0
+    },
+    {
+      "slug": "roux-brun",
+      "ingredienti": 2,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 0
+    },
+    {
+      "slug": "salsa-verde",
+      "ingredienti": 8,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 6
+    },
+    {
+      "slug": "sarde-a-beccafico",
+      "ingredienti": 12,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 7
+    },
+    {
+      "slug": "sfogliata-pugliese",
+      "ingredienti": 8,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 3
+    },
+    {
+      "slug": "spaghetti-alla-bottarga",
+      "ingredienti": 7,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 4
+    },
+    {
+      "slug": "spaghetti-alla-puttanesca",
+      "ingredienti": 9,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 6
+    },
+    {
+      "slug": "straccetti-di-pollo-al-limone",
+      "ingredienti": 6,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 5
+    },
+    {
+      "slug": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
+      "ingredienti": 6,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 3
+    },
+    {
+      "slug": "tagliate",
+      "ingredienti": 1,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 0
+    },
+    {
+      "slug": "tajin-mqualli",
+      "ingredienti": 21,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 13
+    },
+    {
+      "slug": "tonno-alla-carlofortina",
+      "ingredienti": 1,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 0
+    },
+    {
+      "slug": "tortino-di-alici",
+      "ingredienti": 11,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 8
+    },
+    {
+      "slug": "vitello-tonnato",
+      "ingredienti": 13,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 8
+    }
+  ],
+  "nota": "Gli accessori riconosciuti non entrano nei termini_ricerca e non sono più conteggiati come non riconosciuti."
+}

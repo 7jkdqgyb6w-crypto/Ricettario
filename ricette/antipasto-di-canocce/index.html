@@ -762,5 +762,73 @@ document.addEventListener('DOMContentLoaded', function(){
 
   });
 })();</script>
+<script id="recipe-allergens-quickmeta-script">(function(){
+  function normalizeText(value){
+    return (value || '').toString().replace(/\s+/g, ' ').trim();
+  }
+
+  function slugFromLocation(){
+    var m = (window.location.pathname || '').match(/\/ricette\/([^\/]+)\/index\.html$/i);
+    return m ? decodeURIComponent(m[1]) : '';
+  }
+
+  function ensureQuickMeta(){
+    var quick = document.querySelector('.recipe-quick-meta');
+    if(quick) return quick;
+    var grid = document.querySelector('.recipe-content .meta-grid, .meta-grid');
+    if(!grid) return null;
+    quick = document.createElement('section');
+    quick.className = 'recipe-quick-meta';
+    quick.setAttribute('aria-label', 'Tempi, porzioni e allergeni');
+    grid.insertAdjacentElement('afterend', quick);
+    return quick;
+  }
+
+  function appendSeparatorIfNeeded(quick){
+    if(!quick || !quick.children.length) return;
+    var last = quick.lastElementChild;
+    if(last && last.classList && last.classList.contains('recipe-quick-meta-sep')) return;
+    var sep = document.createElement('span');
+    sep.className = 'recipe-quick-meta-sep';
+    sep.setAttribute('aria-hidden', 'true');
+    sep.textContent = '|';
+    quick.appendChild(sep);
+  }
+
+  function renderAllergens(allergeni){
+    if(!Array.isArray(allergeni) || !allergeni.length) return;
+    var quick = ensureQuickMeta();
+    if(!quick) return;
+    var old = quick.querySelector('.recipe-allergens-meta');
+    if(old) old.remove();
+    appendSeparatorIfNeeded(quick);
+    var item = document.createElement('span');
+    item.className = 'recipe-allergens-meta';
+    var strong = document.createElement('strong');
+    strong.textContent = 'Allergeni:';
+    item.appendChild(strong);
+    item.appendChild(document.createTextNode(' ' + allergeni.map(normalizeText).filter(Boolean).join(', ')));
+    quick.appendChild(item);
+  }
+
+  function loadAllergens(){
+    var slug = slugFromLocation();
+    if(!slug) return;
+    fetch('../../indici/search-data.json', {cache:'no-store'})
+      .then(function(res){ if(!res.ok) throw new Error('search-data non disponibile'); return res.json(); })
+      .then(function(items){
+        if(!Array.isArray(items)) return;
+        var found = items.find(function(item){ return item && item.slug === slug; });
+        if(found && found.allergeni) renderAllergens(found.allergeni);
+      })
+      .catch(function(err){ try{ console.warn('[ALLERGENI] quick-meta non aggiornata', err); }catch(_e){} });
+  }
+
+  if(document.readyState === 'loading'){
+    document.addEventListener('DOMContentLoaded', function(){ setTimeout(loadAllergens, 0); });
+  }else{
+    setTimeout(loadAllergens, 0);
+  }
+})();</script>
 </body>
 </html>
