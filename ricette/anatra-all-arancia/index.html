@@ -1,11 +1,12 @@
 <!DOCTYPE html>
+
 <html lang="it">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Anatra all'arancia – Ricette (e altro) di Pierre</title>
-  <link rel="stylesheet" href="../../style.css">
-  <style id="recipe-layout-style">.recipe-page{
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<title>Anatra all'arancia – Ricette (e altro) di Pierre</title>
+<link href="../../style.css" rel="stylesheet"/>
+<style id="recipe-layout-style">.recipe-page{
   max-width: 100%;
 }
 .recipe-page .recipe-content{
@@ -237,15 +238,16 @@
     padding: 1rem 1rem;
   }
   .site-header nav{
-    gap:.7rem;
+    gap:.42rem;
   }
   .site-header nav a{
-    font-size:.94rem;
+    font-size:.88rem;
+    letter-spacing:-.01em;
   }
   .site-header .recipe-nav-back{
-    width:24px;
-    height:24px;
-    font-size:20px;
+    width:20px;
+    height:22px;
+    font-size:18px;
     top:-1px;
   }
   .site-footer-center{
@@ -267,7 +269,6 @@
     max-width:68px !important;
   }
 }
-
 
 /* R18-058 — lente ricerca nell'header ricetta */
 .site-header .recipe-nav-search{
@@ -301,6 +302,24 @@
     height:20px;
   }
 }
+
+/* R18-064 — header ricetta unico: freccia, 4 voci, lente con modulo locale; mobile iPhone 12 */
+.site-header .site-search-button.recipe-nav-search{
+  display:inline-flex;align-items:center;justify-content:center;border:0;background:transparent;color:inherit;padding:.15rem .1rem;cursor:pointer;vertical-align:middle;text-decoration:none;flex:0 0 auto;
+}
+.site-header .site-search-button.recipe-nav-search svg{width:1.08em;height:1.08em;stroke:currentColor;stroke-width:2;fill:none;display:block;}
+.site-header .site-search-button.recipe-nav-search:hover{text-decoration:none;}
+.recipe-term-search-overlay{position:fixed;inset:0;z-index:2000;display:none;}
+.recipe-term-search-overlay.is-open{display:block;}
+.recipe-term-search-backdrop{position:absolute;inset:0;background:rgba(0,0,0,.10);}
+.recipe-term-search-dialog{position:fixed;top:4.8rem;right:2rem;width:min(410px,calc(100vw - 2rem));margin:0;padding:.95rem 1rem;background:#fff;border:1px solid #8b837b;box-shadow:0 18px 45px rgba(0,0,0,.22);border-radius:.45rem;}
+.recipe-term-search-dialog h2{margin:0 2rem .55rem 0;font-size:1.05rem;}
+.recipe-term-search-close{position:absolute;top:.45rem;right:.65rem;border:0;background:transparent;font:inherit;font-size:1.45rem;line-height:1;cursor:pointer;color:#566064;}
+.recipe-term-search-input{box-sizing:border-box;width:100%;border:1px solid #9d948b;border-radius:.45rem;padding:.55rem .65rem;font:inherit;background:#fff;}
+.recipe-term-search-hint{margin:.45rem 0 .65rem 0;font-size:.84rem;color:#566064;}
+.recipe-term-search-submit{border:1px solid #8b837b;background:#fff;border-radius:999px;padding:.32rem .78rem;font:inherit;font-size:.9rem;cursor:pointer;}
+.recipe-term-search-submit:hover{border-color:#566064;}
+@media (max-width:640px){.recipe-term-search-dialog{top:4rem;right:1rem;left:1rem;width:auto;}}
 
 @media print{
   header.site-header,
@@ -453,7 +472,7 @@
   .ingredients-overlay{padding:.75rem;}
   .ingredients-overlay-panel{max-height:92vh;padding:.9rem;}
 }</style>
-  <style id="recipe-lightbox-style">.recipe-lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.88);display:flex;align-items:center;justify-content:center;padding:2rem;z-index:9999;cursor:zoom-out;}
+<style id="recipe-lightbox-style">.recipe-lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.88);display:flex;align-items:center;justify-content:center;padding:2rem;z-index:9999;cursor:zoom-out;}
 .recipe-lightbox-overlay.is-hidden{display:none !important;}
 .recipe-lightbox-frame{max-width:96vw;max-height:96vh;display:flex;flex-direction:column;gap:.75rem;align-items:center;}
 .recipe-lightbox-frame img{display:block;max-width:96vw;max-height:88vh;width:auto;height:auto;box-shadow:0 8px 32px rgba(0,0,0,.45);background:#fff;}
@@ -468,21 +487,20 @@ main figure img{cursor:zoom-in;}
 <body>
 <div class="page">
 <header class="site-header">
-  <a class="brand" href="../../index.html">Ricette (e altro) di Pierre</a>
-  <nav>
-    <a href="#" class="recipe-nav-back" aria-label="Torna indietro" title="Torna indietro">←</a>
-    <a href="../../indici/ricette.html" class="recipe-nav-search" aria-label="Cerca tra le ricette" title="Cerca tra le ricette"><img alt="" src="../../foto/ui/search-light.svg"></a>
-    <a href="../../indici/ricette.html" title="Indice delle ricette">Ricette</a>
-    <a href="../../indici/ingredienti.html" title="Indice degli ingredienti">Ingredienti</a>
-    <a href="../../indici/fonti.html" title="Indice delle fonti">Fonti</a>
-    <a href="../../indici/geografia.html" title="Indice geografico">Geografia</a>
-  </nav>
+<a class="brand" href="../../index.html">Ricette (e altro) di Pierre</a>
+<nav>
+<a aria-label="Torna indietro" class="recipe-nav-back" href="#" title="Torna indietro">←</a>
+<a href="../../indici/ricette.html" title="Indice delle ricette">Ricette</a>
+<a href="../../indici/ingredienti.html" title="Indice degli ingredienti">Ingredienti</a>
+<a href="../../indici/fonti.html" title="Indice delle fonti">Fonti</a>
+<a href="../../indici/geografia.html" title="Indice geografico">Geografia</a>
+<button aria-label="Cerca nel ricettario" class="site-search-button recipe-nav-search js-recipe-search-open" title="Cerca nel ricettario" type="button"><svg aria-hidden="true" viewbox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="M15.5 15.5L21 21"></path></svg></button>
+</nav>
 </header>
-
 <main class="recipe-page">
 <main class="recipe-page">
-<div class="recipe-content"><h1>Anatra all'arancia</h1><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Secondi</span></div><div class="meta-card"><strong>Geografia</strong><span>Francia</span></div><div class="meta-card"><strong>Fonte</strong><span>Aimée Gibert</span></div><div class="meta-card"><strong>Porzioni</strong><span>6</span></div><div class="meta-card"><strong>Tempo attivo</strong><span>120 + min</span></div><div class="meta-card"><strong>Tempo cottura</strong><span>2 h circa</span></div><div class="meta-card"><strong>Tempo riposo</strong><span>6 h</span></div><div class="meta-card"><strong>Tempo totale</strong><span>include riposo</span></div></section><section class="recipe-quick-meta" aria-label="Tempi, porzioni e allergeni"><span class="recipe-allergens-meta"><strong>Allergeni:</strong> cereali contenenti glutine, latte</span></section><section class="lead"><h2>Introduzione e contesto</h2><figure class="step-photo-large step-photo" style="width: 652px; max-width: 100%;"><img src="../../foto/anatra-all-arancia/01-3.jpg" width="652"/></figure><p>Questa ricetta proviene da appunti da un ricettario di mia nonna. Con il tempo ho cercato di alleggerirla... ma i miracoli non sono possibili.<br/>E' importante rispettare i tempi di cottura per non alterare il gusto. Per 6 persone ci voglio due ore buone.<br/>Interessante in Wikipedia il testo sulle origini condivise della ricetta <a href="https://fr.wikipedia.org/wiki/Canard_%C3%A0_l%27orange" rel="noopener noreferrer" target="_blank">Wiki</a>.<br/>Oggi è comunque considerata una storica ricetta parigina. E ho voluto raccontare una (cliccami-&gt;) <a href="https://photos.app.goo.gl/BkdtEUa2anZyDyPR6" rel="noopener noreferrer" target="_blank">Parigi </a>diversa, dopo il Covid. Con le piste ciclabili e il silenzio della mancanza di auto (impressionante reu de Rivoli). I giardini selvatici, i lavori di Notre Dame. Con luoghi forse inusuali al turista.</p></section><section class="block ingredients-block"><h2>Ingredienti</h2><div class="table-wrap"><table class="recipe-table ingredients-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Anatra</td><td></td><td></td><td>Allevata<br/></td></tr><tr><td>Strutto</td><td>50</td><td>g</td><td></td></tr><tr><td>Farina</td><td>40</td><td>g</td><td>00</td></tr><tr><td>Brodo di carne</td><td><span style="text-align: start; text-wrap-mode: wrap;">½</span></td><td>l</td><td></td></tr><tr><td>Passata di pomodoro</td><td>1</td><td>cucchiaio da minestra<br/></td><td></td></tr><tr><td>Vino bianco secco</td><td>1</td><td>bicchiere</td><td></td></tr><tr><td>Prosciutto crudo</td><td>150</td><td>g</td><td></td></tr><tr><td>Lardo</td><td>150</td><td>g</td><td></td></tr><tr><td>Arancia</td><td>diverse</td><td></td><td></td></tr><tr><td>Burro</td><td>100</td><td>g</td><td></td></tr><tr><td>Curaçao</td><td></td><td></td><td></td></tr><tr><td>Carota</td><td>3</td><td>n</td><td></td></tr><tr><td>Cipolla</td><td>1</td><td>n</td><td></td></tr><tr><td>Alloro</td><td>1</td><td>foglia</td><td></td></tr><tr><td>Timo</td><td></td><td></td><td></td></tr><tr><td>Ginepro</td><td>5</td><td>bacche</td><td></td></tr><tr><td>Rosmarino</td><td>1</td><td>rametto </td><td></td></tr><tr><td>Fegato di anatra</td><td>1</td><td></td><td></td></tr><tr><td>Sale</td><td></td><td></td><td></td></tr><tr><td>Pepe nero</td><td></td><td></td><td></td></tr></tbody></table></div></section><section class="block preparation-block"><h2>Preparazione</h2><ol class="steps"><li><p><strong>Preparazione dell'anatra.</strong></p><p>Calcolo circa 1/2 kg di anatra viva a persona. Per spennarla la immergo in acqua bollente con un mestolo di acqua fredda, così da facilitare il distacco delle piume.</p><p>Se l’anatra è selvatica, la lascio frollare da 5 a 8 giorni, in ambiente controllato e ben ventilato (temperatura bassa, non oltre 4–6°C).</p><p>Prima della cottura la tengo a macerare per almeno 6 ore in vino bianco con alloro, bacche di ginepro e rosmarino.</p></li><li><p><strong>Preparo una salsa bruna.</strong></p><p>Lavoro 50 g di strutto con 40 g di farina, cuocendo molto lentamente in una terrina fino a ottenere un colore bruno castagna, senza bruciare. Aggiungo lentamente 1/2 litro di brodo di carne alla salsa bruna, mescolando con la frusta fino a portarla a ebollizione.</p><p>Unisco un cucchiaio di passata di pomodoro , giusto per dare una leggera profondità, senza farla prevalere.</p></li><li><p><strong>Preparo la farcia.</strong></p><p>Lavoro 150 g di prosciutto crudo tritato con la scorza finemente tagliata (senza parte bianca) di due arance e 100 g di burro morbido, aggiungendo un tocco di spezie. Il composto deve risultare omogeneo ma compatto.</p><p>A parte preparo altra scorza di arancia (sempre senza bianco), la taglio fine, la sbollento per 2–3 minuti in acqua e la lascio poi in infusione nel curaçao.</p><p>Farcisco l’anatra e la ricucio con cura, senza comprimere troppo il ripieno, per evitare fuoriuscite durante la cottura.</p></li><li><p><strong>Cottura.</strong></p><p>La rosolo bene in casseruola con poco burro e qualche pezzetto di lardo, partendo a fuoco medio e lasciando che prenda colore in modo uniforme. Solo quando è ben dorata, salo leggermente e sfumo con vino bianco, lasciando evaporare completamente.</p><p>A questo punto aggiungo la salsa bruna, il succo di un’arancia e una piccola parte della scorza preparata, quindi porto a cottura in brasatura dolce, coperto, aggiungendo brodo se necessario.</p><p>Il tempo varia da 1 a 2 ore, in funzione della dimensione dell’anatra.</p><p>A fine cottura separo l’anatra, la tengo al caldo e sgrasso con cura il fondo , eliminando l’eccesso di grasso in superficie.</p><p>Taglio quindi l’anatra a pezzi.</p></li><li><p><strong>La salsa.</strong></p><p>Al fondo di cottura aggiungo l’infusione di Curaçao con le scorze e il succo di un’arancia, quindi lascio ridurre leggermente sul fuoco fino a ottenere una consistenza più legata.</p><p>Passo la salsa al setaccio fine e incorporo il fegato crudo dell’anatra, finemente pestato, mescolando bene e riportando brevemente sul fuoco senza far bollire, per dare corpo e profondità.</p></li><li><p><strong>Riposo.</strong></p><p>Rimetto i pezzi di anatra nella salsa e li lascio insaporire per alcuni minuti.</p><p>Nel frattempo preparo le arance: le taglio a fette eliminando i semi.</p></li><li><p><strong>Disposizione.</strong></p><p>Dispongo l’anatra su un piatto di portata ben caldo, nappata con parte della salsa, contornata da patate a cubetti (circa mezzo centimetro) saltate nel burro e con le fette di arancia ai lati. Servo a parte la restante salsa.</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><p>Indicazione di tempo presente nel testo: ca. 2 ore.</p><p>Questa è una preparazione ricca, come da tradizione. Durante la cottura però elimino sempre con cura il grasso che affiora in superficie, a caldo o, quando possibile, anche a freddo. In questo modo il piatto resta pieno e profondo, ma più equilibrato.</p><p>Proposta abbinamento vino: <br/>Su questo piatto doppia possibilità.<br/>Un Chianti Classico Riserva, come il <a href="https://shop.piccini1882.it/it/eur/it/prodotti/chianti-classico-docg-contessa-di-radda-riserva-2020-geografico" rel="noopener noreferrer" target="_blank">Contessa di Radda Chianti Classico Riserva</a>, funziona bene se ha qualche anno: struttura e acidità puliscono il grasso senza appesantire.<br/>In alternativa scelgo un Pinot Noir, meglio se di Borgogna, oppure un buon Pinot Nero dell’Alto Adige, più fine e lineare, particolarmente adatto a sostenere l’arancia senza entrare in contrasto con la sua componente amaricante.</p></section></div>
-<footer class="site-footer recipe-footer"><div class="site-footer-left"><a aria-label="Licenza Creative Commons BY-NC-SA" class="cc-link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" title="Licenza Creative Commons BY-NC-SA"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><nav aria-label="Strumenti pagina" class="site-footer-center"><a aria-label="Informativa" class="site-footer-icon recipe-tool-info" href="../../informativa.html" title="Informativa"><img alt="" src="../../foto/ui/info-light.svg"/></a><a aria-label="Scrivimi" class="site-footer-icon recipe-tool-mail" href="../../scrivimi.html" title="Scrivimi"><img alt="" src="../../foto/ui/mail-light.svg"/></a><a aria-label="Stampa pagina" class="site-footer-icon js-print-link js-editorial-print-link recipe-tool-print" href="#" title="Stampa pagina"><img alt="" src="../../foto/ui/print-light.svg"/></a><a aria-label="Copia URL" class="site-footer-icon recipe-tool-link" href="#" title="Copia URL"><img alt="" src="../../foto/ui/link-light.svg"/></a></nav><div class="site-footer-right"><a class="site-footer-qr-link recipe-qrcode-link" href="../../foto/anatra-all-arancia/qr-code.png" title="QR della ricetta" aria-label="QR della ricetta"><img alt="Anatra all'arancia" src="../../foto/anatra-all-arancia/qr-code.png" title="Anatra all'arancia"/></a></div></footer>
+<div class="recipe-content"><h1>Anatra all'arancia</h1><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Secondi</span></div><div class="meta-card"><strong>Geografia</strong><span>Francia</span></div><div class="meta-card"><strong>Fonte</strong><span>Aimée Gibert</span></div><div class="meta-card"><strong>Porzioni</strong><span>6+</span></div><div class="meta-card"><strong>Tempo attivo</strong><span>120 + min</span></div><div class="meta-card"><strong>Tempo cottura</strong><span>2 h circa</span></div><div class="meta-card"><strong>Tempo riposo</strong><span>6 h</span></div><div class="meta-card"><strong>Tempo totale</strong><span>include riposo</span></div></section><section aria-label="Tempi, porzioni e allergeni" class="recipe-quick-meta"><span class="recipe-time-meta"><strong>Porzioni:</strong> 6+</span><span aria-hidden="true" class="recipe-quick-meta-sep">|</span><span class="recipe-time-meta"><strong>Tempo attivo:</strong> 120 + min</span><span aria-hidden="true" class="recipe-quick-meta-sep">|</span><span class="recipe-time-meta"><strong>Cottura:</strong> 2 h circa</span><span aria-hidden="true" class="recipe-quick-meta-sep">|</span><span class="recipe-time-meta"><strong>Riposo:</strong> 6 h</span><span aria-hidden="true" class="recipe-quick-meta-sep">|</span><span class="recipe-time-meta"><strong>Totale:</strong> include riposo</span><span aria-hidden="true" class="recipe-quick-meta-sep">|</span><span class="recipe-allergens-meta"><strong>Allergeni:</strong> cereali contenenti glutine, latte</span></section><section class="lead"><h2>Introduzione e contesto</h2><figure class="step-photo-large step-photo" style="width: 652px; max-width: 100%;"><img src="../../foto/anatra-all-arancia/01-3.jpg" width="652"/></figure><p>Questa ricetta proviene da appunti da un ricettario di mia nonna. Con il tempo ho cercato di alleggerirla... ma i miracoli non sono possibili.<br/>E' importante rispettare i tempi di cottura per non alterare il gusto. Per 6 persone ci voglio due ore buone.<br/>Interessante in Wikipedia il testo sulle origini condivise della ricetta <a href="https://fr.wikipedia.org/wiki/Canard_%C3%A0_l%27orange" rel="noopener noreferrer" target="_blank">Wiki</a>.<br/>Oggi è comunque considerata una storica ricetta parigina. E ho voluto raccontare una (cliccami-&gt;) <a href="https://photos.app.goo.gl/BkdtEUa2anZyDyPR6" rel="noopener noreferrer" target="_blank">Parigi </a>diversa, dopo il Covid. Con le piste ciclabili e il silenzio della mancanza di auto (impressionante reu de Rivoli). I giardini selvatici, i lavori di Notre Dame. Con luoghi forse inusuali al turista.</p></section><section class="block ingredients-block"><h2>Ingredienti</h2><div class="table-wrap"><table class="recipe-table ingredients-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Anatra</td><td></td><td></td><td>Allevata<br/></td></tr><tr><td>Strutto</td><td>50</td><td>g</td><td></td></tr><tr><td>Farina</td><td>40</td><td>g</td><td>00</td></tr><tr><td>Brodo di carne</td><td><span style="text-align: start; text-wrap-mode: wrap;">½</span></td><td>l</td><td></td></tr><tr><td>Passata di pomodoro</td><td>1</td><td>cucchiaio da minestra<br/></td><td></td></tr><tr><td>Vino bianco secco</td><td>1</td><td>bicchiere</td><td></td></tr><tr><td>Prosciutto crudo</td><td>150</td><td>g</td><td></td></tr><tr><td>Lardo</td><td>150</td><td>g</td><td></td></tr><tr><td>Arancia</td><td>diverse</td><td></td><td></td></tr><tr><td>Burro</td><td>100</td><td>g</td><td></td></tr><tr><td>Curaçao</td><td></td><td></td><td></td></tr><tr><td>Carota</td><td>3</td><td>n</td><td></td></tr><tr><td>Cipolla</td><td>1</td><td>n</td><td></td></tr><tr><td>Alloro</td><td>1</td><td>foglia</td><td></td></tr><tr><td>Timo</td><td></td><td></td><td></td></tr><tr><td>Ginepro</td><td>5</td><td>bacche</td><td></td></tr><tr><td>Rosmarino</td><td>1</td><td>rametto </td><td></td></tr><tr><td>Fegato di anatra</td><td>1</td><td></td><td></td></tr><tr><td>Sale</td><td></td><td></td><td></td></tr><tr><td>Pepe nero</td><td></td><td></td><td></td></tr></tbody></table></div></section><section class="preparation-block block"><h2>Preparazione</h2><ol class="steps"><li><p><strong>Preparazione dell'anatra.</strong></p><p>Calcolo circa 1/2 kg di anatra viva a persona. Per spennarla la immergo in acqua bollente con un mestolo di acqua fredda, così da facilitare il distacco delle piume.</p><p>Se l’anatra è selvatica, la lascio frollare da 5 a 8 giorni, in ambiente controllato e ben ventilato (temperatura bassa, non oltre 4–6°C).</p><p>Prima della cottura la tengo a macerare per almeno 6 ore in vino bianco con alloro, bacche di ginepro e rosmarino.</p></li><li><p><strong>Preparo una salsa bruna.</strong></p><p>Lavoro 50 g di strutto con 40 g di farina, cuocendo molto lentamente in una terrina fino a ottenere un colore bruno castagna, senza bruciare. Aggiungo lentamente 1/2 litro di brodo di carne alla salsa bruna, mescolando con la frusta fino a portarla a ebollizione.</p><p>Unisco un cucchiaio di passata di pomodoro , giusto per dare una leggera profondità, senza farla prevalere.</p></li><li><p><strong>Preparo la farcia.</strong></p><p>Lavoro 150 g di prosciutto crudo tritato con la scorza finemente tagliata (senza parte bianca) di due arance e 100 g di burro morbido, aggiungendo un tocco di spezie. Il composto deve risultare omogeneo ma compatto.</p><p>A parte preparo altra scorza di arancia (sempre senza bianco), la taglio fine, la sbollento per 2–3 minuti in acqua e la lascio poi in infusione nel curaçao.</p><p>Farcisco l’anatra e la ricucio con cura, senza comprimere troppo il ripieno, per evitare fuoriuscite durante la cottura.</p></li><li><p><strong>Cottura.</strong></p><p>La rosolo bene in casseruola con poco burro e qualche pezzetto di lardo, partendo a fuoco medio e lasciando che prenda colore in modo uniforme. Solo quando è ben dorata, salo leggermente e sfumo con vino bianco, lasciando evaporare completamente.</p><p>A questo punto aggiungo la salsa bruna, il succo di un’arancia e una piccola parte della scorza preparata, quindi porto a cottura in brasatura dolce, coperto, aggiungendo brodo se necessario.</p><p>Il tempo varia da 1 a 2 ore, in funzione della dimensione dell’anatra.</p><p>A fine cottura separo l’anatra, la tengo al caldo e sgrasso con cura il fondo , eliminando l’eccesso di grasso in superficie.</p><p>Taglio quindi l’anatra a pezzi.</p></li><li><p><strong>La salsa.</strong></p><p>Al fondo di cottura aggiungo l’infusione di Curaçao con le scorze e il succo di un’arancia, quindi lascio ridurre leggermente sul fuoco fino a ottenere una consistenza più legata.</p><p>Passo la salsa al setaccio fine e incorporo il fegato crudo dell’anatra, finemente pestato, mescolando bene e riportando brevemente sul fuoco senza far bollire, per dare corpo e profondità.</p></li><li><p><strong>Riposo.</strong></p><p>Rimetto i pezzi di anatra nella salsa e li lascio insaporire per alcuni minuti.</p><p>Nel frattempo preparo le arance: le taglio a fette eliminando i semi.</p></li><li><p><strong>Disposizione.</strong></p><p>Dispongo l’anatra su un piatto di portata ben caldo, nappata con parte della salsa, contornata da patate a cubetti (circa mezzo centimetro) saltate nel burro e con le fette di arancia ai lati. Servo a parte la restante salsa.</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><p>Indicazione di tempo presente nel testo: ca. 2 ore.</p><p>Questa è una preparazione ricca, come da tradizione. Durante la cottura però elimino sempre con cura il grasso che affiora in superficie, a caldo o, quando possibile, anche a freddo. In questo modo il piatto resta pieno e profondo, ma più equilibrato.</p><p>Proposta abbinamento vino:  <br/>Su questo piatto doppia possibilità.<br/>Un Chianti Classico Riserva, come il <a href="https://shop.piccini1882.it/it/eur/it/prodotti/chianti-classico-docg-contessa-di-radda-riserva-2020-geografico" rel="noopener noreferrer" target="_blank">Contessa di Radda Chianti Classico Riserva</a>, funziona bene se ha qualche anno: struttura e acidità puliscono il grasso senza appesantire.<br/>In alternativa scelgo un Pinot Noir, meglio se di Borgogna, oppure un buon Pinot Nero dell’Alto Adige, più fine e lineare, particolarmente adatto a sostenere l’arancia senza entrare in contrasto con la sua componente amaricante.</p></section></div>
+<footer class="site-footer recipe-footer"><div class="site-footer-left"><a aria-label="Licenza Creative Commons BY-NC-SA" class="cc-link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><nav aria-label="Strumenti pagina" class="site-footer-center"><a aria-label="Informativa" class="site-footer-icon recipe-tool-info" href="../../informativa.html" title="Informativa"><img alt="" src="../../foto/ui/info-light.svg"/></a><a aria-label="Scrivimi" class="site-footer-icon recipe-tool-mail" href="../../scrivimi.html" title="Scrivimi"><img alt="" src="../../foto/ui/mail-light.svg"/></a><a aria-label="Stampa pagina" class="site-footer-icon js-print-link js-editorial-print-link recipe-tool-print" href="#" title="Stampa pagina"><img alt="" src="../../foto/ui/print-light.svg"/></a><a aria-label="Copia URL" class="site-footer-icon recipe-tool-link" href="#" title="Copia URL"><img alt="" src="../../foto/ui/link-light.svg"/></a></nav><div class="site-footer-right"><a aria-label="QR della ricetta" class="site-footer-qr-link recipe-qrcode-link" href="../../foto/anatra-all-arancia/qr-code.png" title="QR della ricetta"><img alt="QR della ricetta" src="../../foto/anatra-all-arancia/qr-code.png" title="QR della ricetta"/></a></div></footer>
 </main>
 </main>
 </div>
@@ -528,8 +546,8 @@ document.addEventListener('DOMContentLoaded', function(){
         var img = link.querySelector('img');
         if(!img) return;
         outImg.src = img.currentSrc || img.src;
-        outImg.alt = img.alt || 'QR ricetta';
-        caption.textContent = img.alt || 'QR ricetta';
+        outImg.alt = img.alt || link.getAttribute('aria-label') || 'QR della ricetta';
+        caption.textContent = link.getAttribute('title') || link.getAttribute('aria-label') || img.alt || 'QR della ricetta';
         overlay.classList.remove('is-hidden');
       });
     });
@@ -569,7 +587,7 @@ document.addEventListener('DOMContentLoaded', function(){
     return overlay;
   }
 
-  var PRINT_ENGINE_SRC = '../../foto/ui/recipe-editorial-print.js?v=CMS2-R18-053';
+  var PRINT_ENGINE_SRC = '../../foto/ui/recipe-editorial-print.js?v=CMS2-R18-058';
   var printEnginePromise = null;
 
   function loadRecipeEditorialPrintEngine(){
@@ -859,7 +877,7 @@ document.addEventListener('DOMContentLoaded', function(){
         var found = items.find(function(item){ return item && item.slug === slug; });
         if(found && found.allergeni) renderAllergens(found.allergeni);
       })
-      .catch(function(err){ try{ console.warn('[ALLERGENI] quick-meta runtime non aggiornata; resta eventuale HTML statico', err); }catch(_e){} });
+      .catch(function(err){ try{ console.warn('[ALLERGENI] quick-meta non aggiornata', err); }catch(_e){} });
   }
 
   if(document.readyState === 'loading'){
@@ -868,5 +886,40 @@ document.addEventListener('DOMContentLoaded', function(){
     setTimeout(loadAllergens, 0);
   }
 })();</script>
+<div aria-hidden="true" class="recipe-term-search-overlay" id="recipeTermSearchOverlay">
+<div class="recipe-term-search-backdrop js-recipe-search-close"></div>
+<section aria-labelledby="recipeTermSearchTitle" aria-modal="true" class="recipe-term-search-dialog" role="dialog">
+<button aria-label="Chiudi" class="recipe-term-search-close js-recipe-search-close" type="button">×</button>
+<h2 id="recipeTermSearchTitle">Cerca nel ricettario</h2>
+<form action="../../indici/ricette.html" id="recipeTermSearchForm" method="get">
+<input autocomplete="off" class="recipe-term-search-input" id="recipeTermSearchInput" name="q" placeholder="Titolo, ingrediente, luogo…" type="search"/>
+<p class="recipe-term-search-hint">Inserisci un termine: l’indice Ricette si aprirà già filtrato.</p>
+<button class="recipe-term-search-submit" type="submit">Cerca</button>
+</form>
+</section>
+</div>
+<script id="recipe-term-search-script">
+(function(){
+  function initRecipeTermSearch(){
+    var openBtn=document.querySelector('.js-recipe-search-open');
+    var overlay=document.getElementById('recipeTermSearchOverlay');
+    var input=document.getElementById('recipeTermSearchInput');
+    var form=document.getElementById('recipeTermSearchForm');
+    if(!openBtn||!overlay||!input||!form) return;
+    function openSearch(){input.value='';overlay.classList.add('is-open');overlay.setAttribute('aria-hidden','false');setTimeout(function(){input.focus();},30);}
+    function closeSearch(){overlay.classList.remove('is-open');overlay.setAttribute('aria-hidden','true');}
+    openBtn.addEventListener('click',function(ev){ev.preventDefault();openSearch();});
+    document.querySelectorAll('.js-recipe-search-close').forEach(function(btn){btn.addEventListener('click',closeSearch);});
+    document.addEventListener('keydown',function(ev){if(ev.key==='Escape') closeSearch();});
+    form.addEventListener('submit',function(ev){
+      var q=(input.value||'').replace(/\s+/g,' ').trim();
+      if(!q){ev.preventDefault();input.focus();return;}
+      ev.preventDefault();
+      window.location.href='../../indici/ricette.html?q='+encodeURIComponent(q);
+    });
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',initRecipeTermSearch); else initRecipeTermSearch();
+})();
+</script>
 </body>
 </html>

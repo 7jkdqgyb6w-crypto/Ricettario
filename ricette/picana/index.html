@@ -200,15 +200,16 @@
     padding: 1rem 1rem;
   }
   .site-header nav{
-    gap:.7rem;
+    gap:.42rem;
   }
   .site-header nav a{
-    font-size:.94rem;
+    font-size:.88rem;
+    letter-spacing:-.01em;
   }
   .site-header .recipe-nav-back{
-    width:24px;
-    height:24px;
-    font-size:20px;
+    width:20px;
+    height:22px;
+    font-size:18px;
     top:-1px;
   }
   .site-footer-center{
@@ -232,38 +233,23 @@
 }
 
 
-/* R18-058 — lente ricerca nell'header ricetta */
-.site-header .recipe-nav-search{
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  width:28px;
-  height:28px;
-  flex:0 0 auto;
-  text-decoration:none;
-  position:relative;
-  top:-1px;
+/* R18-064 — header ricetta unico: freccia, 4 voci, lente con modulo locale; mobile iPhone 12 */
+.site-header .site-search-button.recipe-nav-search{
+  display:inline-flex;align-items:center;justify-content:center;border:0;background:transparent;color:inherit;padding:.15rem .1rem;cursor:pointer;vertical-align:middle;text-decoration:none;flex:0 0 auto;
 }
-.site-header .recipe-nav-search img{
-  display:block;
-  width:22px;
-  height:22px;
-  opacity:.86;
-}
-.site-header .recipe-nav-search:hover{
-  text-decoration:none;
-}
-@media (max-width: 760px){
-  .site-header .recipe-nav-search{
-    width:24px;
-    height:24px;
-    top:-1px;
-  }
-  .site-header .recipe-nav-search img{
-    width:20px;
-    height:20px;
-  }
-}
+.site-header .site-search-button.recipe-nav-search svg{width:1.08em;height:1.08em;stroke:currentColor;stroke-width:2;fill:none;display:block;}
+.site-header .site-search-button.recipe-nav-search:hover{text-decoration:none;}
+.recipe-term-search-overlay{position:fixed;inset:0;z-index:2000;display:none;}
+.recipe-term-search-overlay.is-open{display:block;}
+.recipe-term-search-backdrop{position:absolute;inset:0;background:rgba(0,0,0,.10);}
+.recipe-term-search-dialog{position:fixed;top:4.8rem;right:2rem;width:min(410px,calc(100vw - 2rem));margin:0;padding:.95rem 1rem;background:#fff;border:1px solid #8b837b;box-shadow:0 18px 45px rgba(0,0,0,.22);border-radius:.45rem;}
+.recipe-term-search-dialog h2{margin:0 2rem .55rem 0;font-size:1.05rem;}
+.recipe-term-search-close{position:absolute;top:.45rem;right:.65rem;border:0;background:transparent;font:inherit;font-size:1.45rem;line-height:1;cursor:pointer;color:#566064;}
+.recipe-term-search-input{box-sizing:border-box;width:100%;border:1px solid #9d948b;border-radius:.45rem;padding:.55rem .65rem;font:inherit;background:#fff;}
+.recipe-term-search-hint{margin:.45rem 0 .65rem 0;font-size:.84rem;color:#566064;}
+.recipe-term-search-submit{border:1px solid #8b837b;background:#fff;border-radius:999px;padding:.32rem .78rem;font:inherit;font-size:.9rem;cursor:pointer;}
+.recipe-term-search-submit:hover{border-color:#566064;}
+@media (max-width:640px){.recipe-term-search-dialog{top:4rem;right:1rem;left:1rem;width:auto;}}
 
 @media print{
   header.site-header,
@@ -439,9 +425,7 @@
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap:.75rem 1.15rem;
   }
-}
-
-</style>
+}</style>
 <style id="recipe-lightbox-style">.recipe-lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.88);display:flex;align-items:center;justify-content:center;padding:2rem;z-index:9999;cursor:zoom-out;}
 .recipe-lightbox-overlay.is-hidden{display:none !important;}
 .recipe-lightbox-frame{max-width:96vw;max-height:96vh;display:flex;flex-direction:column;gap:.75rem;align-items:center;}
@@ -459,8 +443,13 @@ main figure img{cursor:zoom-in;}
 <header class="site-header">
 <a class="brand" href="../../index.html">Ricette (e altro) di Pierre</a>
 <nav>
-<a aria-label="Torna indietro" class="recipe-nav-back" href="#" title="Torna indietro">←</a>
-    <a href="../../indici/ricette.html" class="recipe-nav-search" aria-label="Cerca tra le ricette" title="Cerca tra le ricette"><img alt="" src="../../foto/ui/search-light.svg"></a><a href="../../indici/ricette.html" title="Indice delle ricette">Ricette</a><a href="../../indici/ingredienti.html" title="Indice degli ingredienti">Ingredienti</a><a href="../../indici/fonti.html" title="Indice delle fonti">Fonti</a><a href="../../indici/geografia.html" title="Indice geografico">Geografia</a></nav>
+    <a href="#" class="recipe-nav-back" aria-label="Torna indietro" title="Torna indietro">←</a>
+    <a href="../../indici/ricette.html" title="Indice delle ricette">Ricette</a>
+    <a href="../../indici/ingredienti.html" title="Indice degli ingredienti">Ingredienti</a>
+    <a href="../../indici/fonti.html" title="Indice delle fonti">Fonti</a>
+    <a href="../../indici/geografia.html" title="Indice geografico">Geografia</a>
+    <button type="button" class="site-search-button recipe-nav-search js-recipe-search-open" aria-label="Cerca nel ricettario" title="Cerca nel ricettario"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="M15.5 15.5L21 21"></path></svg></button>
+  </nav>
 </header>
 <main class="recipe-page">
 <main class="recipe-page">
@@ -874,5 +863,41 @@ document.addEventListener('DOMContentLoaded', function(){
     setTimeout(loadAllergens, 0);
   }
 })();</script>
+
+<div class="recipe-term-search-overlay" id="recipeTermSearchOverlay" aria-hidden="true">
+  <div class="recipe-term-search-backdrop js-recipe-search-close"></div>
+  <section class="recipe-term-search-dialog" role="dialog" aria-modal="true" aria-labelledby="recipeTermSearchTitle">
+    <button class="recipe-term-search-close js-recipe-search-close" type="button" aria-label="Chiudi">×</button>
+    <h2 id="recipeTermSearchTitle">Cerca nel ricettario</h2>
+    <form id="recipeTermSearchForm" action="../../indici/ricette.html" method="get">
+      <input id="recipeTermSearchInput" name="q" class="recipe-term-search-input" type="search" placeholder="Titolo, ingrediente, luogo…" autocomplete="off">
+      <p class="recipe-term-search-hint">Inserisci un termine: l’indice Ricette si aprirà già filtrato.</p>
+      <button class="recipe-term-search-submit" type="submit">Cerca</button>
+    </form>
+  </section>
+</div>
+<script id="recipe-term-search-script">
+(function(){
+  function initRecipeTermSearch(){
+    var openBtn=document.querySelector('.js-recipe-search-open');
+    var overlay=document.getElementById('recipeTermSearchOverlay');
+    var input=document.getElementById('recipeTermSearchInput');
+    var form=document.getElementById('recipeTermSearchForm');
+    if(!openBtn||!overlay||!input||!form) return;
+    function openSearch(){input.value='';overlay.classList.add('is-open');overlay.setAttribute('aria-hidden','false');setTimeout(function(){input.focus();},30);}
+    function closeSearch(){overlay.classList.remove('is-open');overlay.setAttribute('aria-hidden','true');}
+    openBtn.addEventListener('click',function(ev){ev.preventDefault();openSearch();});
+    document.querySelectorAll('.js-recipe-search-close').forEach(function(btn){btn.addEventListener('click',closeSearch);});
+    document.addEventListener('keydown',function(ev){if(ev.key==='Escape') closeSearch();});
+    form.addEventListener('submit',function(ev){
+      var q=(input.value||'').replace(/\s+/g,' ').trim();
+      if(!q){ev.preventDefault();input.focus();return;}
+      ev.preventDefault();
+      window.location.href='../../indici/ricette.html?q='+encodeURIComponent(q);
+    });
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',initRecipeTermSearch); else initRecipeTermSearch();
+})();
+</script>
 </body>
 </html>

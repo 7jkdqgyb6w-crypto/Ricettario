@@ -57,6 +57,14 @@
 @media (min-width: 760px){
   .recipe-index-card{grid-template-columns:minmax(200px,24%) minmax(0,1fr);}
 }
+@media (max-width: 760px){
+  .site-header nav{gap:.42rem;}
+  .site-header nav a{font-size:.88rem;letter-spacing:-.01em;}
+  .site-header .recipe-nav-back{width:20px;height:22px;font-size:18px;top:-1px;}
+  .site-header .site-search-button{padding:.05rem 0;}
+  .site-header .site-search-button svg{width:.95em;height:.95em;}
+}
+@media (max-width:640px){.recipe-search-dialog{top:4rem;right:1rem;left:1rem;width:auto;}}
 </style>
 </head>
 <body>
@@ -64,6 +72,7 @@
 <header class="site-header">
   <a class="brand" href="../index.html">Ricette (e altro) di Pierre</a>
   <nav>
+    <a class="recipe-nav-back index-nav-back" href="../index.html" aria-label="Torna alla home" title="Torna alla home">←</a>
     <a href="ricette.html">Ricette</a>
     <a href="ingredienti.html">Ingredienti</a>
     <a href="geografia.html">Geografia</a>
@@ -188,7 +197,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
   function clearFilters() { clearRefineButtons(); apply(); }
   function clearSearch() { state.q = ''; if (input) input.value = ''; apply(); }
-  function openSearch() { if (!overlay || !input) return; input.value = ''; overlay.classList.add('is-open'); overlay.setAttribute('aria-hidden', 'false'); if (searchCount) searchCount.innerHTML = ''; setTimeout(() => input.focus(), 30); }
+  function openSearch() { var q = window.prompt('Cerca nel ricettario:'); q = normalize(q || ''); if(q) window.location.href = 'ricette.html?q=' + encodeURIComponent(q); }
   function closeSearch() { if (!overlay) return; overlay.classList.remove('is-open'); overlay.setAttribute('aria-hidden', 'true'); }
   if (openBtn) openBtn.addEventListener('click', function(ev){ ev.preventDefault(); openSearch(); });
   if (resetBtn) resetBtn.addEventListener('click', clearFilters);
@@ -212,14 +221,14 @@ document.addEventListener('DOMContentLoaded', function () {
   <div class="site-footer-left">
   </div>
   <nav class="site-footer-center" aria-label="Strumenti pagina">
-    <a class="site-footer-text" href="../informativa.html" aria-label="Informativa"><img src="../foto/ui/info-light.svg" alt=""></a>
-    <a class="site-footer-icon" href="../scrivimi.html" aria-label="Scrivimi">
+    <a class="site-footer-text" href="../informativa.html" aria-label="Informativa" title="Informativa"><img src="../foto/ui/info-light.svg" alt=""></a>
+    <a class="site-footer-icon" href="../scrivimi.html" aria-label="Scrivimi" title="Scrivimi">
       <img src="../foto/ui/mail-light.svg" alt="">
     </a>
-    <a class="site-footer-icon js-print-link" href="#" aria-label="Stampa pagina">
+    <a class="site-footer-icon js-print-link" href="#" aria-label="Stampa pagina" title="Stampa pagina">
       <img src="../foto/ui/print-light.svg" alt="">
     </a>
-    <a class="site-footer-icon js-copy-link" href="#" aria-label="Copia link pagina">
+    <a class="site-footer-icon js-copy-link" href="#" aria-label="Copia link pagina" title="Copia link pagina">
       <img src="../foto/ui/link-light.svg" alt="">
     </a>
   </nav>
@@ -264,7 +273,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if(lb) return lb;
     lb=document.createElement('div');
     lb.className='site-lightbox';
-    lb.innerHTML='<button class="site-lightbox-close" aria-label="Chiudi">×</button><img class="site-lightbox-image" alt="">';
+    lb.innerHTML='<button class="site-lightbox-close" aria-label="Chiudi">×</button><figure class="site-lightbox-frame"><img class="site-lightbox-image" alt=""><figcaption class="site-lightbox-caption"></figcaption></figure>';
     lb.addEventListener('click', function(ev){
   // chiude su overlay, su X e anche sull'immagine (come index)
   if (
@@ -282,7 +291,9 @@ document.addEventListener('DOMContentLoaded', function () {
   function openLightbox(src, alt){
     var lb=ensureLightbox();
     var img=lb.querySelector('.site-lightbox-image');
+    var cap=lb.querySelector('.site-lightbox-caption');
     img.src=src; img.alt=alt||'';
+    if(cap) cap.textContent=alt||'';
     lb.classList.add('is-open');
   }
   function showCopyToast(){

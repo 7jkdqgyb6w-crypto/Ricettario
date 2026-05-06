@@ -1,11 +1,12 @@
 <!DOCTYPE html>
+
 <html lang="it">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Aringhe in terrina – Ricette (e altro) di Pierre</title>
-  <link rel="stylesheet" href="../../style.css">
-  <style id="recipe-layout-style">.recipe-page{
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<title>Aringhe in terrina – Ricette (e altro) di Pierre</title>
+<link href="../../style.css" rel="stylesheet"/>
+<style id="recipe-layout-style">.recipe-page{
   max-width: 100%;
 }
 .recipe-page .recipe-content{
@@ -237,15 +238,16 @@
     padding: 1rem 1rem;
   }
   .site-header nav{
-    gap:.7rem;
+    gap:.42rem;
   }
   .site-header nav a{
-    font-size:.94rem;
+    font-size:.88rem;
+    letter-spacing:-.01em;
   }
   .site-header .recipe-nav-back{
-    width:24px;
-    height:24px;
-    font-size:20px;
+    width:20px;
+    height:22px;
+    font-size:18px;
     top:-1px;
   }
   .site-footer-center{
@@ -269,38 +271,23 @@
 }
 
 
-/* R18-058 — lente ricerca nell'header ricetta */
-.site-header .recipe-nav-search{
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  width:28px;
-  height:28px;
-  flex:0 0 auto;
-  text-decoration:none;
-  position:relative;
-  top:-1px;
+/* R18-064 — header ricetta unico: freccia, 4 voci, lente con modulo locale; mobile iPhone 12 */
+.site-header .site-search-button.recipe-nav-search{
+  display:inline-flex;align-items:center;justify-content:center;border:0;background:transparent;color:inherit;padding:.15rem .1rem;cursor:pointer;vertical-align:middle;text-decoration:none;flex:0 0 auto;
 }
-.site-header .recipe-nav-search img{
-  display:block;
-  width:22px;
-  height:22px;
-  opacity:.86;
-}
-.site-header .recipe-nav-search:hover{
-  text-decoration:none;
-}
-@media (max-width: 760px){
-  .site-header .recipe-nav-search{
-    width:24px;
-    height:24px;
-    top:-1px;
-  }
-  .site-header .recipe-nav-search img{
-    width:20px;
-    height:20px;
-  }
-}
+.site-header .site-search-button.recipe-nav-search svg{width:1.08em;height:1.08em;stroke:currentColor;stroke-width:2;fill:none;display:block;}
+.site-header .site-search-button.recipe-nav-search:hover{text-decoration:none;}
+.recipe-term-search-overlay{position:fixed;inset:0;z-index:2000;display:none;}
+.recipe-term-search-overlay.is-open{display:block;}
+.recipe-term-search-backdrop{position:absolute;inset:0;background:rgba(0,0,0,.10);}
+.recipe-term-search-dialog{position:fixed;top:4.8rem;right:2rem;width:min(410px,calc(100vw - 2rem));margin:0;padding:.95rem 1rem;background:#fff;border:1px solid #8b837b;box-shadow:0 18px 45px rgba(0,0,0,.22);border-radius:.45rem;}
+.recipe-term-search-dialog h2{margin:0 2rem .55rem 0;font-size:1.05rem;}
+.recipe-term-search-close{position:absolute;top:.45rem;right:.65rem;border:0;background:transparent;font:inherit;font-size:1.45rem;line-height:1;cursor:pointer;color:#566064;}
+.recipe-term-search-input{box-sizing:border-box;width:100%;border:1px solid #9d948b;border-radius:.45rem;padding:.55rem .65rem;font:inherit;background:#fff;}
+.recipe-term-search-hint{margin:.45rem 0 .65rem 0;font-size:.84rem;color:#566064;}
+.recipe-term-search-submit{border:1px solid #8b837b;background:#fff;border-radius:999px;padding:.32rem .78rem;font:inherit;font-size:.9rem;cursor:pointer;}
+.recipe-term-search-submit:hover{border-color:#566064;}
+@media (max-width:640px){.recipe-term-search-dialog{top:4rem;right:1rem;left:1rem;width:auto;}}
 
 @media print{
   header.site-header,
@@ -453,7 +440,7 @@
   .ingredients-overlay{padding:.75rem;}
   .ingredients-overlay-panel{max-height:92vh;padding:.9rem;}
 }</style>
-  <style id="recipe-lightbox-style">.recipe-lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.88);display:flex;align-items:center;justify-content:center;padding:2rem;z-index:9999;cursor:zoom-out;}
+<style id="recipe-lightbox-style">.recipe-lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.88);display:flex;align-items:center;justify-content:center;padding:2rem;z-index:9999;cursor:zoom-out;}
 .recipe-lightbox-overlay.is-hidden{display:none !important;}
 .recipe-lightbox-frame{max-width:96vw;max-height:96vh;display:flex;flex-direction:column;gap:.75rem;align-items:center;}
 .recipe-lightbox-frame img{display:block;max-width:96vw;max-height:88vh;width:auto;height:auto;box-shadow:0 8px 32px rgba(0,0,0,.45);background:#fff;}
@@ -468,21 +455,20 @@ main figure img{cursor:zoom-in;}
 <body>
 <div class="page">
 <header class="site-header">
-  <a class="brand" href="../../index.html">Ricette (e altro) di Pierre</a>
-  <nav>
-    <a href="#" class="recipe-nav-back" aria-label="Torna indietro" title="Torna indietro">←</a>
-    <a href="../../indici/ricette.html" class="recipe-nav-search" aria-label="Cerca tra le ricette" title="Cerca tra le ricette"><img alt="" src="../../foto/ui/search-light.svg"></a>
-    <a href="../../indici/ricette.html" title="Indice delle ricette">Ricette</a>
-    <a href="../../indici/ingredienti.html" title="Indice degli ingredienti">Ingredienti</a>
-    <a href="../../indici/fonti.html" title="Indice delle fonti">Fonti</a>
-    <a href="../../indici/geografia.html" title="Indice geografico">Geografia</a>
-  </nav>
+<a class="brand" href="../../index.html">Ricette (e altro) di Pierre</a>
+<nav>
+<a aria-label="Torna indietro" class="recipe-nav-back" href="#" title="Torna indietro">←</a>
+<a href="../../indici/ricette.html" title="Indice delle ricette">Ricette</a>
+<a href="../../indici/ingredienti.html" title="Indice degli ingredienti">Ingredienti</a>
+<a href="../../indici/fonti.html" title="Indice delle fonti">Fonti</a>
+<a href="../../indici/geografia.html" title="Indice geografico">Geografia</a>
+<button aria-label="Cerca nel ricettario" class="site-search-button recipe-nav-search js-recipe-search-open" title="Cerca nel ricettario" type="button"><svg aria-hidden="true" viewbox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="M15.5 15.5L21 21"></path></svg></button>
+</nav>
 </header>
-
 <main class="recipe-page">
 <main class="recipe-page">
-<div class="recipe-content"><h1>Aringhe in terrina</h1><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Antipasti</span></div><div class="meta-card"><strong>Geografia</strong><span>Francia - Alsazia</span></div><div class="meta-card"><strong>Fonte</strong><span>Jacqueline Gibert</span></div><div class="meta-card"><strong>Porzioni</strong><span>4-6</span></div><div class="meta-card"><strong>Tempo attivo</strong><span>15 min</span></div><div class="meta-card"><strong>Tempo cottura</strong><span></span></div><div class="meta-card"><strong>Tempo riposo</strong><span>2 g.</span></div><div class="meta-card"><strong>Tempo totale</strong><span>include riposo</span></div></section><section class="recipe-quick-meta" aria-label="Tempi, porzioni e allergeni"><span class="recipe-allergens-meta"><strong>Allergeni:</strong> pesce</span></section><section class="lead"><h2>Introduzione e contesto</h2><figure class="step-photo-large step-photo" style="width: 652px; max-width: 100%;"><img src="../../foto/aringhe-in-terrina/01.jpg" width="652"/></figure><p>Quando ero ragazzo erano spesso presenti in casa mia. Ottimi panini con il pane imburrato...</p></section><section class="block ingredients-block"><h2>Ingredienti</h2><div class="table-wrap"><table class="recipe-table ingredients-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Aringhe sciocche affumicate</td><td>1</td><td>n</td><td>confezione</td></tr><tr><td>Carote</td><td>2</td><td>n</td><td></td></tr><tr><td>Cipolla</td><td>2</td><td>n</td><td>bianca</td></tr><tr><td>Bacche di ginepro</td><td>5</td><td>n</td><td></td></tr><tr><td>Limoni BIO</td><td>2</td><td>n</td><td></td></tr><tr><td>Vino bianco secco</td><td>1</td><td>dl</td><td></td></tr><tr><td>Olio extra vergine d'oliva</td><td>qb</td><td></td><td></td></tr></tbody></table></div></section><section class="block preparation-block"><h2>Preparazione</h2><ol class="steps"><li><p><strong>Le aringhe.</strong></p><p>Gli ingredienti devono essere freschi e profumati. In particolare le aringhe. Devono essere delicate (per quanto possibile parlando di aringhe...)</p></li><li><p><strong>Tagliare.</strong></p><div class="image-row" data-layout="image-row" data-row-group="row-1777807502952-2j6t46" style="display:flex !important;flex-wrap:wrap !important;gap:12px !important;align-items:flex-start !important;justify-content:flex-start !important;clear:both !important;width:100% !important;margin:12px 0 !important;box-sizing:border-box !important;"><figure class="step-photo step-photo-right" style="display:block !important;float:none !important;clear:none !important;margin:0 !important;flex:0 0 calc((100% - 36px) / 4) !important;width:calc((100% - 36px) / 4) !important;max-width:calc((100% - 36px) / 4) !important;box-sizing:border-box !important;"><img src="../../foto/aringhe-in-terrina/03.jpg" style="width:100%;display:block;" width="166"/></figure><figure class="step-photo step-photo-right" style="display:block !important;float:none !important;clear:none !important;margin:0 !important;flex:0 0 calc((100% - 36px) / 4) !important;width:calc((100% - 36px) / 4) !important;max-width:calc((100% - 36px) / 4) !important;box-sizing:border-box !important;"><img src="../../foto/aringhe-in-terrina/02.jpg" style="width:100%;display:block;" width="167"/></figure></div><p>Io taglio le aringhe a pezzi di circa 2 cm. Affetto le carote, le cipolle e un limone.</p></li><li><p><strong>Marinata.</strong></p><figure class="step-photo step-photo-right" style="width: 162px; max-width: 100%;"><img src="../../foto/aringhe-in-terrina/01.old.jpg" width="162"/></figure><p>Metto tutto in una terrina. Aggiungo il succo del limone restante, le bacche di ginepro e un poco di vino bianco, fino a coprire.</p></li><li><p><strong>Proteggere.</strong></p><p>Verso un filo d’olio per isolare dall’ossigeno. Copro e lascio in frigorifero per alcuni giorni, il tempo che si insaporisca bene.</p></li><li><p><strong>Disposizione.</strong></p><p>Servo con pane abbrustolito e leggermente imburrato.</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><p>Indicazione di tempo presente nel testo: 15 minuti<br/>alcuni giorni... diciamo un almeno un paio, e poi consumare un 2 o 3 giorni. Meglio</p></section></div>
-<footer class="site-footer recipe-footer"><div class="site-footer-left"><a aria-label="Licenza Creative Commons BY-NC-SA" class="cc-link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" title="Licenza Creative Commons BY-NC-SA"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><nav aria-label="Strumenti pagina" class="site-footer-center"><a aria-label="Informativa" class="site-footer-icon recipe-tool-info" href="../../informativa.html" title="Informativa"><img alt="" src="../../foto/ui/info-light.svg"/></a><a aria-label="Scrivimi" class="site-footer-icon recipe-tool-mail" href="../../scrivimi.html" title="Scrivimi"><img alt="" src="../../foto/ui/mail-light.svg"/></a><a aria-label="Stampa pagina" class="site-footer-icon js-print-link js-editorial-print-link recipe-tool-print" href="#" title="Stampa pagina"><img alt="" src="../../foto/ui/print-light.svg"/></a><a aria-label="Copia URL" class="site-footer-icon recipe-tool-link" href="#" title="Copia URL"><img alt="" src="../../foto/ui/link-light.svg"/></a></nav><div class="site-footer-right"><a class="site-footer-qr-link recipe-qrcode-link" href="../../foto/aringhe-in-terrina/qr-code.png" title="QR della ricetta" aria-label="QR della ricetta"><img alt="Aringhe in terrina" src="../../foto/aringhe-in-terrina/qr-code.png" title="Aringhe in terrina"/></a></div></footer>
+<div class="recipe-content"><h1>Aringhe in terrina</h1><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Antipasti</span></div><div class="meta-card"><strong>Geografia</strong><span>Francia - Alsazia</span></div><div class="meta-card"><strong>Fonte</strong><span>Jacqueline Gibert</span></div><div class="meta-card"><strong>Porzioni</strong><span>4-6</span></div><div class="meta-card"><strong>Tempo attivo</strong><span>15 min</span></div><div class="meta-card"><strong>Tempo cottura</strong><span></span></div><div class="meta-card"><strong>Tempo riposo</strong><span>2 g.</span></div><div class="meta-card"><strong>Tempo totale</strong><span>include riposo</span></div></section><section aria-label="Tempi, porzioni e allergeni" class="recipe-quick-meta"><span class="recipe-time-meta"><strong>Porzioni:</strong> 4-6</span><span aria-hidden="true" class="recipe-quick-meta-sep">|</span><span class="recipe-time-meta"><strong>Tempo attivo:</strong> 15 min</span><span aria-hidden="true" class="recipe-quick-meta-sep">|</span><span class="recipe-time-meta"><strong>Riposo:</strong> 2 g.</span><span aria-hidden="true" class="recipe-quick-meta-sep">|</span><span class="recipe-time-meta"><strong>Totale:</strong> include riposo</span><span aria-hidden="true" class="recipe-quick-meta-sep">|</span><span class="recipe-allergens-meta"><strong>Allergeni:</strong> pesce</span></section><section class="lead"><h2>Introduzione e contesto</h2><figure class="step-photo-large step-photo" style="width: 652px; max-width: 100%;"><img src="../../foto/aringhe-in-terrina/01.jpg" width="652"/></figure><p>Quando ero ragazzo erano spesso presenti in casa mia. Ottimi panini con il pane imburrato...</p></section><section class="block ingredients-block"><h2>Ingredienti</h2><div class="table-wrap"><table class="recipe-table ingredients-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Aringhe sciocche affumicate</td><td>1</td><td>n</td><td>confezione</td></tr><tr><td>Carote</td><td>2</td><td>n</td><td></td></tr><tr><td>Cipolla</td><td>2</td><td>n</td><td>bianca</td></tr><tr><td>Bacche di ginepro</td><td>5</td><td>n</td><td></td></tr><tr><td>Limoni BIO</td><td>2</td><td>n</td><td></td></tr><tr><td>Vino bianco secco</td><td>1</td><td>dl</td><td></td></tr><tr><td>Olio extra vergine d'oliva</td><td>qb</td><td></td><td></td></tr></tbody></table></div></section><section class="block preparation-block"><h2>Preparazione</h2><ol class="steps"><li><p><strong>Le aringhe.</strong></p><p>Gli ingredienti devono essere freschi e profumati. In particolare le aringhe. Devono essere delicate (per quanto possibile parlando di aringhe...)</p></li><li><p><strong>Tagliare.</strong></p><div class="image-row" data-layout="image-row" data-row-group="row-1777807502952-2j6t46" style="display:flex !important;flex-wrap:wrap !important;gap:12px !important;align-items:flex-start !important;justify-content:flex-start !important;clear:both !important;width:100% !important;margin:12px 0 !important;box-sizing:border-box !important;"><figure class="step-photo step-photo-right" style="display:block !important;float:none !important;clear:none !important;margin:0 !important;flex:0 0 calc((100% - 36px) / 4) !important;width:calc((100% - 36px) / 4) !important;max-width:calc((100% - 36px) / 4) !important;box-sizing:border-box !important;"><img src="../../foto/aringhe-in-terrina/03.jpg" style="width:100%;display:block;" width="166"/></figure><figure class="step-photo step-photo-right" style="display:block !important;float:none !important;clear:none !important;margin:0 !important;flex:0 0 calc((100% - 36px) / 4) !important;width:calc((100% - 36px) / 4) !important;max-width:calc((100% - 36px) / 4) !important;box-sizing:border-box !important;"><img src="../../foto/aringhe-in-terrina/02.jpg" style="width:100%;display:block;" width="167"/></figure></div><p>Io taglio le aringhe a pezzi di circa 2 cm. Affetto le carote, le cipolle e un limone.</p></li><li><p><strong>Marinata.</strong></p><figure class="step-photo step-photo-right" style="width: 162px; max-width: 100%;"><img src="../../foto/aringhe-in-terrina/01.old.jpg" width="162"/></figure><p>Metto tutto in una terrina. Aggiungo il succo del limone restante, le bacche di ginepro e un poco di vino bianco, fino a coprire.</p></li><li><p><strong>Proteggere.</strong></p><p>Verso un filo d’olio per isolare dall’ossigeno. Copro e lascio in frigorifero per alcuni giorni, il tempo che si insaporisca bene.</p></li><li><p><strong>Disposizione.</strong></p><p>Servo con pane abbrustolito e leggermente imburrato.</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><p>Indicazione di tempo presente nel testo: 15 minuti<br/>alcuni giorni... diciamo un almeno un paio, e poi consumare un 2 o 3 giorni. Meglio</p></section></div>
+<footer class="site-footer recipe-footer"><div class="site-footer-left"><a aria-label="Licenza Creative Commons BY-NC-SA" class="cc-link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" title="Licenza Creative Commons BY-NC-SA"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><nav aria-label="Strumenti pagina" class="site-footer-center"><a aria-label="Informativa" class="site-footer-icon recipe-tool-info" href="../../informativa.html" title="Informativa"><img alt="" src="../../foto/ui/info-light.svg"/></a><a aria-label="Scrivimi" class="site-footer-icon recipe-tool-mail" href="../../scrivimi.html" title="Scrivimi"><img alt="" src="../../foto/ui/mail-light.svg"/></a><a aria-label="Stampa pagina" class="site-footer-icon js-print-link js-editorial-print-link recipe-tool-print" href="#" title="Stampa pagina"><img alt="" src="../../foto/ui/print-light.svg"/></a><a aria-label="Copia URL" class="site-footer-icon recipe-tool-link" href="#" title="Copia URL"><img alt="" src="../../foto/ui/link-light.svg"/></a></nav><div class="site-footer-right"><a aria-label="QR della ricetta" class="site-footer-qr-link recipe-qrcode-link" href="../../foto/aringhe-in-terrina/qr-code.png" title="QR della ricetta"><img alt="Aringhe in terrina" src="../../foto/aringhe-in-terrina/qr-code.png" title="Aringhe in terrina"/></a></div></footer>
 </main>
 </main>
 </div>
@@ -868,5 +854,40 @@ document.addEventListener('DOMContentLoaded', function(){
     setTimeout(loadAllergens, 0);
   }
 })();</script>
+<div aria-hidden="true" class="recipe-term-search-overlay" id="recipeTermSearchOverlay">
+<div class="recipe-term-search-backdrop js-recipe-search-close"></div>
+<section aria-labelledby="recipeTermSearchTitle" aria-modal="true" class="recipe-term-search-dialog" role="dialog">
+<button aria-label="Chiudi" class="recipe-term-search-close js-recipe-search-close" type="button">×</button>
+<h2 id="recipeTermSearchTitle">Cerca nel ricettario</h2>
+<form action="../../indici/ricette.html" id="recipeTermSearchForm" method="get">
+<input autocomplete="off" class="recipe-term-search-input" id="recipeTermSearchInput" name="q" placeholder="Titolo, ingrediente, luogo…" type="search"/>
+<p class="recipe-term-search-hint">Inserisci un termine: l’indice Ricette si aprirà già filtrato.</p>
+<button class="recipe-term-search-submit" type="submit">Cerca</button>
+</form>
+</section>
+</div>
+<script id="recipe-term-search-script">
+(function(){
+  function initRecipeTermSearch(){
+    var openBtn=document.querySelector('.js-recipe-search-open');
+    var overlay=document.getElementById('recipeTermSearchOverlay');
+    var input=document.getElementById('recipeTermSearchInput');
+    var form=document.getElementById('recipeTermSearchForm');
+    if(!openBtn||!overlay||!input||!form) return;
+    function openSearch(){input.value='';overlay.classList.add('is-open');overlay.setAttribute('aria-hidden','false');setTimeout(function(){input.focus();},30);}
+    function closeSearch(){overlay.classList.remove('is-open');overlay.setAttribute('aria-hidden','true');}
+    openBtn.addEventListener('click',function(ev){ev.preventDefault();openSearch();});
+    document.querySelectorAll('.js-recipe-search-close').forEach(function(btn){btn.addEventListener('click',closeSearch);});
+    document.addEventListener('keydown',function(ev){if(ev.key==='Escape') closeSearch();});
+    form.addEventListener('submit',function(ev){
+      var q=(input.value||'').replace(/\s+/g,' ').trim();
+      if(!q){ev.preventDefault();input.focus();return;}
+      ev.preventDefault();
+      window.location.href='../../indici/ricette.html?q='+encodeURIComponent(q);
+    });
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',initRecipeTermSearch); else initRecipeTermSearch();
+})();
+</script>
 </body>
 </html>

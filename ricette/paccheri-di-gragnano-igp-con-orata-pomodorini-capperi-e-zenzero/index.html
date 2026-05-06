@@ -1,11 +1,12 @@
 <!DOCTYPE html>
+
 <html lang="it">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Paccheri di Gragnano IGP con orata, pomodorini, capperi e zenzero – Ricette (e altro) di Pierre</title>
-  <link rel="stylesheet" href="../../style.css">
-  <style id="recipe-layout-style">.recipe-page{
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<title>Paccheri di Gragnano IGP con orata, pomodorini, capperi e zenzero – Ricette (e altro) di Pierre</title>
+<link href="../../style.css" rel="stylesheet"/>
+<style id="recipe-layout-style">.recipe-page{
   max-width: 100%;
 }
 .recipe-page .recipe-content{
@@ -237,15 +238,16 @@
     padding: 1rem 1rem;
   }
   .site-header nav{
-    gap:.7rem;
+    gap:.42rem;
   }
   .site-header nav a{
-    font-size:.94rem;
+    font-size:.88rem;
+    letter-spacing:-.01em;
   }
   .site-header .recipe-nav-back{
-    width:24px;
-    height:24px;
-    font-size:20px;
+    width:20px;
+    height:22px;
+    font-size:18px;
     top:-1px;
   }
   .site-footer-center{
@@ -269,38 +271,23 @@
 }
 
 
-/* R18-058 — lente ricerca nell'header ricetta */
-.site-header .recipe-nav-search{
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  width:28px;
-  height:28px;
-  flex:0 0 auto;
-  text-decoration:none;
-  position:relative;
-  top:-1px;
+/* R18-064 — header ricetta unico: freccia, 4 voci, lente con modulo locale; mobile iPhone 12 */
+.site-header .site-search-button.recipe-nav-search{
+  display:inline-flex;align-items:center;justify-content:center;border:0;background:transparent;color:inherit;padding:.15rem .1rem;cursor:pointer;vertical-align:middle;text-decoration:none;flex:0 0 auto;
 }
-.site-header .recipe-nav-search img{
-  display:block;
-  width:22px;
-  height:22px;
-  opacity:.86;
-}
-.site-header .recipe-nav-search:hover{
-  text-decoration:none;
-}
-@media (max-width: 760px){
-  .site-header .recipe-nav-search{
-    width:24px;
-    height:24px;
-    top:-1px;
-  }
-  .site-header .recipe-nav-search img{
-    width:20px;
-    height:20px;
-  }
-}
+.site-header .site-search-button.recipe-nav-search svg{width:1.08em;height:1.08em;stroke:currentColor;stroke-width:2;fill:none;display:block;}
+.site-header .site-search-button.recipe-nav-search:hover{text-decoration:none;}
+.recipe-term-search-overlay{position:fixed;inset:0;z-index:2000;display:none;}
+.recipe-term-search-overlay.is-open{display:block;}
+.recipe-term-search-backdrop{position:absolute;inset:0;background:rgba(0,0,0,.10);}
+.recipe-term-search-dialog{position:fixed;top:4.8rem;right:2rem;width:min(410px,calc(100vw - 2rem));margin:0;padding:.95rem 1rem;background:#fff;border:1px solid #8b837b;box-shadow:0 18px 45px rgba(0,0,0,.22);border-radius:.45rem;}
+.recipe-term-search-dialog h2{margin:0 2rem .55rem 0;font-size:1.05rem;}
+.recipe-term-search-close{position:absolute;top:.45rem;right:.65rem;border:0;background:transparent;font:inherit;font-size:1.45rem;line-height:1;cursor:pointer;color:#566064;}
+.recipe-term-search-input{box-sizing:border-box;width:100%;border:1px solid #9d948b;border-radius:.45rem;padding:.55rem .65rem;font:inherit;background:#fff;}
+.recipe-term-search-hint{margin:.45rem 0 .65rem 0;font-size:.84rem;color:#566064;}
+.recipe-term-search-submit{border:1px solid #8b837b;background:#fff;border-radius:999px;padding:.32rem .78rem;font:inherit;font-size:.9rem;cursor:pointer;}
+.recipe-term-search-submit:hover{border-color:#566064;}
+@media (max-width:640px){.recipe-term-search-dialog{top:4rem;right:1rem;left:1rem;width:auto;}}
 
 @media print{
   header.site-header,
@@ -453,7 +440,7 @@
   .ingredients-overlay{padding:.75rem;}
   .ingredients-overlay-panel{max-height:92vh;padding:.9rem;}
 }</style>
-  <style id="recipe-lightbox-style">.recipe-lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.88);display:flex;align-items:center;justify-content:center;padding:2rem;z-index:9999;cursor:zoom-out;}
+<style id="recipe-lightbox-style">.recipe-lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.88);display:flex;align-items:center;justify-content:center;padding:2rem;z-index:9999;cursor:zoom-out;}
 .recipe-lightbox-overlay.is-hidden{display:none !important;}
 .recipe-lightbox-frame{max-width:96vw;max-height:96vh;display:flex;flex-direction:column;gap:.75rem;align-items:center;}
 .recipe-lightbox-frame img{display:block;max-width:96vw;max-height:88vh;width:auto;height:auto;box-shadow:0 8px 32px rgba(0,0,0,.45);background:#fff;}
@@ -468,22 +455,21 @@ main figure img{cursor:zoom-in;}
 <body>
 <div class="page">
 <header class="site-header">
-  <a class="brand" href="../../index.html">Ricette (e altro) di Pierre</a>
-  <nav>
-    <a href="#" class="recipe-nav-back" aria-label="Torna indietro" title="Torna indietro">←</a>
-    <a href="../../indici/ricette.html" class="recipe-nav-search" aria-label="Cerca tra le ricette" title="Cerca tra le ricette"><img alt="" src="../../foto/ui/search-light.svg"></a>
-    <a href="../../indici/ricette.html" title="Indice delle ricette">Ricette</a>
-    <a href="../../indici/ingredienti.html" title="Indice degli ingredienti">Ingredienti</a>
-    <a href="../../indici/fonti.html" title="Indice delle fonti">Fonti</a>
-    <a href="../../indici/geografia.html" title="Indice geografico">Geografia</a>
-  </nav>
+<a class="brand" href="../../index.html">Ricette (e altro) di Pierre</a>
+<nav>
+<a aria-label="Torna indietro" class="recipe-nav-back" href="#" title="Torna indietro">←</a>
+<a href="../../indici/ricette.html" title="Indice delle ricette">Ricette</a>
+<a href="../../indici/ingredienti.html" title="Indice degli ingredienti">Ingredienti</a>
+<a href="../../indici/fonti.html" title="Indice delle fonti">Fonti</a>
+<a href="../../indici/geografia.html" title="Indice geografico">Geografia</a>
+<button aria-label="Cerca nel ricettario" class="site-search-button recipe-nav-search js-recipe-search-open" title="Cerca nel ricettario" type="button"><svg aria-hidden="true" viewbox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="M15.5 15.5L21 21"></path></svg></button>
+</nav>
 </header>
-
 <main class="recipe-page">
 <main class="recipe-page">
 <div class="recipe-content">
 <h1>Paccheri di Gragnano IGP con orata, pomodorini, capperi e zenzero</h1>
-<section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Primi</span></div><div class="meta-card"><strong>Geografia</strong><span>Italia- Sardegna</span></div><div class="meta-card"><strong>Fonte</strong><span>Mix Risto bottega sarda</span></div><div class="meta-card"><strong>Porzioni</strong><span>4</span></div><div class="meta-card"><strong>Tempo attivo</strong><span>30-45 min</span></div><div class="meta-card"><strong>Tempo cottura</strong><span>15-30 min</span></div><div class="meta-card"><strong>Tempo riposo</strong><span></span></div><div class="meta-card"><strong>Tempo totale</strong><span></span></div></section>
+<section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Primi</span></div><div class="meta-card"><strong>Geografia</strong><span>Italia- Sardegna</span></div><div class="meta-card"><strong>Fonte</strong><span>Mix Risto bottega sarda</span></div><div class="meta-card"><strong>Porzioni</strong><span>4</span></div><div class="meta-card"><strong>Tempo attivo</strong><span>30-45 min</span></div><div class="meta-card"><strong>Tempo cottura</strong><span>15-30 min</span></div><div class="meta-card"><strong>Tempo riposo</strong><span></span></div><div class="meta-card"><strong>Tempo totale</strong><span></span></div></section><section aria-label="Tempi, porzioni e allergeni" class="recipe-quick-meta"><span class="recipe-time-meta"><strong>Porzioni:</strong> 4</span><span aria-hidden="true" class="recipe-quick-meta-sep">|</span><span class="recipe-time-meta"><strong>Tempo attivo:</strong> 30-45 min</span><span aria-hidden="true" class="recipe-quick-meta-sep">|</span><span class="recipe-time-meta"><strong>Cottura:</strong> 15-30 min</span></section>
 <section class="lead"><h2>Introduzione e contesto</h2><p>Dal disciplinate della Pasta di Gragnano IGP.</p><figure class="step-photo step-photo-right" style="width: 46%; max-width: 46%;"><img src="../../foto/paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero/OIP-2219084004.jpg"/></figure><p><br/>La “Pasta di Gragnano” è il prodotto ottenuto dall’impasto della semola di grano duro con acqua della falda acquifera locale.</p><p>I formati immessi al consumo sono, diversi, tutti tipici, frutto della fantasia dei pastai gragnanesi.</p><p>Il prodotto all'atto dell'immissione al consumo, deve possedere le seguenti caratteristiche:</p><p>2.1 Caratteristiche fisiche:</p><p>aspetto esterno: omogeneo senza macchie bianche o nere; assenza di bolle d'aria, di fessure o tagli, di muffe, larve o parassiti e di corpi estranei;</p><p>sezione di frattura: vitrea;</p><p>colore: giallo paglierino;</p><p>rugosità: presente quale caratteristica dell’uso delle trafile in bronzo.</p><p>Alla cottura la “Pasta di Gragnano” IGP si presenta di:</p><p>consistenza: soda ed elastica;</p><p>omogeneità della cottura: uniforme;</p><p>tenuta di cottura: buona e lunga;</p><p>collosità: assente o impercettibile.</p><p>2.2 Caratteristiche chimiche:</p><p>umidità: non superiore al 12,5% sul prodotto finito;</p><p>proteine minimo: 13% sulla sostanza secca;</p><p>ceneri max.: 0.86% sulla sostanza secca.</p><p>2.3 Caratteristiche organolettiche:</p><p>sapore: sapido con gusto deciso di grano duro;</p><p>odore: di grano maturo.</p><figure class="step-photo-large step-photo" style="width: 652px; max-width: 100%;"><img src="../../foto/paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero/IMG_0125.old.jpg" width="652"/></figure><figure class="step-photo step-photo-right" style="width: 215px; max-width: 100%;"><img src="../../foto/paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero/IMG_9613.jpg" width="215"/></figure><p>Un gennaio piovoso, uscendo dalla <a href="https://photos.app.goo.gl/ZYwWrKWB3YnMHk7H7" rel="noopener noreferrer" target="_blank">Centrale Montemartini</a> (notevole) in Roma, in via Ostiense, scoprimmo una trattoria: Mix Risto bottega sarda. Cucina sarda con profumi orientali. Ho provato a rifare un piatto che mi ha particolarmente colpito.</p></section>
 <section class="block ingredients-block">
 <h2>Ingredienti</h2>
@@ -501,7 +487,7 @@ main figure img{cursor:zoom-in;}
 <section class="block preparation-block"><h2>Preparazione</h2><ol class="steps"><li><p><strong>I filetti di orata.</strong></p><figure class="step-photo step-photo-right" style="width: 151px; max-width: 100%;"><img src="../../foto/paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero/IMG_0123.jpg" width="151"/></figure><p>Meglio freschi, ma ottimi anche quelli congelati.Vanno spellati, ma non è difficile.</p></li><li><p><strong>La base.</strong></p><figure class="step-photo-left step-photo" style="width: 166px; max-width: 100%;"><img src="../../foto/paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero/IMG_0122.jpg" width="166"/></figure><p>In una padella abbastanza larga, faccio appassire i pomodorini in olio e aglio (senza germoglio). Aggiungo il concentrato di pomodoro, i capperi accuratamente lavati dal sale, lo zenzero tagliato a fettine sottili.</p></li><li><p><strong>La salsa.</strong></p><figure class="step-photo-left step-photo" style="width: 171px; max-width: 100%;"><img src="../../foto/paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero/IMG_0124.jpg" width="171"/></figure><p>Contemporaneamente ho cotto con poco olio i filetti di di orata, liho sfumati con il vino bianco, e ora li aggiungo alla base.</p><p>A fine cottura aggiungo sale, pepe, prezzemolo.</p></li><li><p><strong>La pasta</strong></p><p>Gragnano IGP. Cotta al giusto.</p><p>E aggiungo alla salsa, spadello un paio di minuti.</p></li></ol></section>
 <section class="notes"><h2>Note e osservazioni</h2><p>A fare la differenza è lo zenzero e la pasta di Gragnano IGP.</p></section>
 </div>
-<footer class="site-footer recipe-footer"><div class="site-footer-left"><a aria-label="Licenza Creative Commons BY-NC-SA" class="cc-link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" title="Licenza Creative Commons BY-NC-SA"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><nav aria-label="Strumenti pagina" class="site-footer-center"><a aria-label="Informativa" class="site-footer-icon recipe-tool-info" href="../../informativa.html" title="Informativa"><img alt="" src="../../foto/ui/info-light.svg"/></a><a aria-label="Scrivimi" class="site-footer-icon recipe-tool-mail" href="../../scrivimi.html" title="Scrivimi"><img alt="" src="../../foto/ui/mail-light.svg"/></a><a aria-label="Stampa pagina" class="site-footer-icon js-print-link js-editorial-print-link recipe-tool-print" href="#" title="Stampa pagina"><img alt="" src="../../foto/ui/print-light.svg"/></a><a aria-label="Copia URL" class="site-footer-icon recipe-tool-link" href="#" title="Copia URL"><img alt="" src="../../foto/ui/link-light.svg"/></a></nav><div class="site-footer-right"><a class="site-footer-qr-link recipe-qrcode-link" href="../../foto/paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero/qr-code.png" title="QR della ricetta" aria-label="QR della ricetta"><img alt="Paccheri di Gragnano IGP con orata, pomodorini, capperi e zenzero" src="../../foto/paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero/qr-code.png" title="Paccheri di Gragnano IGP con orata, pomodorini, capperi e zenzero"/></a></div></footer>
+<footer class="site-footer recipe-footer"><div class="site-footer-left"><a aria-label="Licenza Creative Commons BY-NC-SA" class="cc-link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" title="Licenza Creative Commons BY-NC-SA"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><nav aria-label="Strumenti pagina" class="site-footer-center"><a aria-label="Informativa" class="site-footer-icon recipe-tool-info" href="../../informativa.html" title="Informativa"><img alt="" src="../../foto/ui/info-light.svg"/></a><a aria-label="Scrivimi" class="site-footer-icon recipe-tool-mail" href="../../scrivimi.html" title="Scrivimi"><img alt="" src="../../foto/ui/mail-light.svg"/></a><a aria-label="Stampa pagina" class="site-footer-icon js-print-link js-editorial-print-link recipe-tool-print" href="#" title="Stampa pagina"><img alt="" src="../../foto/ui/print-light.svg"/></a><a aria-label="Copia URL" class="site-footer-icon recipe-tool-link" href="#" title="Copia URL"><img alt="" src="../../foto/ui/link-light.svg"/></a></nav><div class="site-footer-right"><a aria-label="QR della ricetta" class="site-footer-qr-link recipe-qrcode-link" href="../../foto/paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero/qr-code.png" title="QR della ricetta"><img alt="Paccheri di Gragnano IGP con orata, pomodorini, capperi e zenzero" src="../../foto/paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero/qr-code.png" title="Paccheri di Gragnano IGP con orata, pomodorini, capperi e zenzero"/></a></div></footer>
 </main>
 </main>
 </div>
@@ -887,5 +873,40 @@ document.addEventListener('DOMContentLoaded', function(){
     setTimeout(loadAllergens, 0);
   }
 })();</script>
+<div aria-hidden="true" class="recipe-term-search-overlay" id="recipeTermSearchOverlay">
+<div class="recipe-term-search-backdrop js-recipe-search-close"></div>
+<section aria-labelledby="recipeTermSearchTitle" aria-modal="true" class="recipe-term-search-dialog" role="dialog">
+<button aria-label="Chiudi" class="recipe-term-search-close js-recipe-search-close" type="button">×</button>
+<h2 id="recipeTermSearchTitle">Cerca nel ricettario</h2>
+<form action="../../indici/ricette.html" id="recipeTermSearchForm" method="get">
+<input autocomplete="off" class="recipe-term-search-input" id="recipeTermSearchInput" name="q" placeholder="Titolo, ingrediente, luogo…" type="search"/>
+<p class="recipe-term-search-hint">Inserisci un termine: l’indice Ricette si aprirà già filtrato.</p>
+<button class="recipe-term-search-submit" type="submit">Cerca</button>
+</form>
+</section>
+</div>
+<script id="recipe-term-search-script">
+(function(){
+  function initRecipeTermSearch(){
+    var openBtn=document.querySelector('.js-recipe-search-open');
+    var overlay=document.getElementById('recipeTermSearchOverlay');
+    var input=document.getElementById('recipeTermSearchInput');
+    var form=document.getElementById('recipeTermSearchForm');
+    if(!openBtn||!overlay||!input||!form) return;
+    function openSearch(){input.value='';overlay.classList.add('is-open');overlay.setAttribute('aria-hidden','false');setTimeout(function(){input.focus();},30);}
+    function closeSearch(){overlay.classList.remove('is-open');overlay.setAttribute('aria-hidden','true');}
+    openBtn.addEventListener('click',function(ev){ev.preventDefault();openSearch();});
+    document.querySelectorAll('.js-recipe-search-close').forEach(function(btn){btn.addEventListener('click',closeSearch);});
+    document.addEventListener('keydown',function(ev){if(ev.key==='Escape') closeSearch();});
+    form.addEventListener('submit',function(ev){
+      var q=(input.value||'').replace(/\s+/g,' ').trim();
+      if(!q){ev.preventDefault();input.focus();return;}
+      ev.preventDefault();
+      window.location.href='../../indici/ricette.html?q='+encodeURIComponent(q);
+    });
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',initRecipeTermSearch); else initRecipeTermSearch();
+})();
+</script>
 </body>
 </html>
