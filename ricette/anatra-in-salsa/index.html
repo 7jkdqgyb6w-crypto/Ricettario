@@ -32,7 +32,7 @@
 .recipe-page .meta-grid .meta-card:nth-child(n+5){
   display:none !important;
 }
- (max-width: 900px){
+@media (max-width: 900px){
   .recipe-page .meta-grid{
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap:.75rem 1.15rem;
@@ -184,9 +184,9 @@
   max-width: min(100%, var(--reading));
 }
 .recipe-page .lead{
-  background: rgba(255,255,255,0.68);
+  background:#fff;
   border: 1px solid var(--line);
-  box-shadow: var(--shadow);
+  box-shadow:none;
   padding: 1.1rem 1.25rem;
 }
 .recipe-page .lead h2:first-child,
@@ -271,7 +271,9 @@
 }
 
 
-/* R18-064 — header ricetta unico: freccia, 4 voci, lente con modulo locale; mobile iPhone 12 */
+
+/* R18-066 — ricerca termine: overlay unico con bottone, senza prompt nativi */
+.site-header nav{margin-left:auto;justify-content:flex-end;}
 .site-header .site-search-button.recipe-nav-search{
   display:inline-flex;align-items:center;justify-content:center;border:0;background:transparent;color:inherit;padding:.15rem .1rem;cursor:pointer;vertical-align:middle;text-decoration:none;flex:0 0 auto;
 }
@@ -285,8 +287,12 @@
 .recipe-term-search-close{position:absolute;top:.45rem;right:.65rem;border:0;background:transparent;font:inherit;font-size:1.45rem;line-height:1;cursor:pointer;color:#566064;}
 .recipe-term-search-input{box-sizing:border-box;width:100%;border:1px solid #9d948b;border-radius:.45rem;padding:.55rem .65rem;font:inherit;background:#fff;}
 .recipe-term-search-hint{margin:.45rem 0 .65rem 0;font-size:.84rem;color:#566064;}
-.recipe-term-search-submit{border:1px solid #8b837b;background:#fff;border-radius:999px;padding:.32rem .78rem;font:inherit;font-size:.9rem;cursor:pointer;}
+.recipe-term-search-actions{display:flex;align-items:center;justify-content:flex-start;gap:.7rem;margin:.55rem 0 0 0;}
+.recipe-term-search-submit{display:inline-flex;align-items:center;justify-content:center;width:auto;min-width:5.8rem;border:1px solid #8b837b;background:#fff;border-radius:999px;padding:.32rem .78rem;font:inherit;font-size:.9rem;line-height:1.2;cursor:pointer;}
 .recipe-term-search-submit:hover{border-color:#566064;}
+.recipe-quick-meta{display:flex;flex-wrap:wrap;align-items:baseline;gap:.35rem .45rem;}
+.recipe-quick-meta-sep{display:inline-flex;margin:0 .1rem;color:#566064;}
+@media (max-width:760px){.site-header nav{margin-left:auto;justify-content:flex-end;gap:.38rem;}.site-header nav a{font-size:.94rem;letter-spacing:-.01em;}.site-header .recipe-nav-back{width:22px;height:24px;font-size:20px;top:-1px;}.site-header .site-search-button.recipe-nav-search{padding:.05rem 0;}.site-header .site-search-button.recipe-nav-search svg{width:1em;height:1em;}}
 @media (max-width:640px){.recipe-term-search-dialog{top:4rem;right:1rem;left:1rem;width:auto;}}
 
 @media print{
@@ -885,6 +891,41 @@ document.addEventListener('DOMContentLoaded', function(){
 <input autocomplete="off" class="recipe-term-search-input" id="recipeTermSearchInput" name="q" placeholder="Titolo, ingrediente, luogo…" type="search"/>
 <p class="recipe-term-search-hint">Inserisci un termine: l’indice Ricette si aprirà già filtrato.</p>
 <button class="recipe-term-search-submit" type="submit">Cerca</button>
+</form>
+</section>
+</div>
+<script id="recipe-term-search-script">
+(function(){
+  function initRecipeTermSearch(){
+    var openBtn=document.querySelector('.js-recipe-search-open');
+    var overlay=document.getElementById('recipeTermSearchOverlay');
+    var input=document.getElementById('recipeTermSearchInput');
+    var form=document.getElementById('recipeTermSearchForm');
+    if(!openBtn||!overlay||!input||!form) return;
+    function openSearch(){input.value='';overlay.classList.add('is-open');overlay.setAttribute('aria-hidden','false');setTimeout(function(){input.focus();},30);}
+    function closeSearch(){overlay.classList.remove('is-open');overlay.setAttribute('aria-hidden','true');}
+    openBtn.addEventListener('click',function(ev){ev.preventDefault();openSearch();});
+    document.querySelectorAll('.js-recipe-search-close').forEach(function(btn){btn.addEventListener('click',closeSearch);});
+    document.addEventListener('keydown',function(ev){if(ev.key==='Escape') closeSearch();});
+    form.addEventListener('submit',function(ev){
+      var q=(input.value||'').replace(/\s+/g,' ').trim();
+      if(!q){ev.preventDefault();input.focus();return;}
+      ev.preventDefault();
+      window.location.href='../../indici/ricette.html?q='+encodeURIComponent(q);
+    });
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',initRecipeTermSearch); else initRecipeTermSearch();
+})();
+</script>
+<div aria-hidden="true" class="recipe-term-search-overlay" id="recipeTermSearchOverlay">
+<div class="recipe-term-search-backdrop js-recipe-search-close"></div>
+<section aria-labelledby="recipeTermSearchTitle" aria-modal="true" class="recipe-term-search-dialog" role="dialog">
+<button aria-label="Chiudi" class="recipe-term-search-close js-recipe-search-close" type="button">×</button>
+<h2 id="recipeTermSearchTitle">Cerca nel ricettario</h2>
+<form action="../../indici/ricette.html" id="recipeTermSearchForm" method="get">
+<input autocomplete="off" class="recipe-term-search-input" id="recipeTermSearchInput" name="q" placeholder="Titolo, ingrediente, luogo…" type="search"/>
+<p class="recipe-term-search-hint">Inserisci un termine: l’indice Ricette si aprirà già filtrato.</p>
+<div class="recipe-term-search-actions"><button class="recipe-term-search-submit" type="submit">Cerca</button></div>
 </form>
 </section>
 </div>
