@@ -1,11 +1,12 @@
 <!DOCTYPE html>
+
 <html lang="it">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Filetto Angus alla senape di Digione – Ricette (e altro) di Pierre</title>
-  <link rel="stylesheet" href="../../style.css">
-  <style id="recipe-layout-style">.recipe-page{
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<title>Filetto Angus alla senape di Digione – Ricette (e altro) di Pierre</title>
+<link href="../../style.css" rel="stylesheet"/>
+<style id="recipe-layout-style">.recipe-page{
   max-width: 100%;
 }
 .recipe-page .recipe-content{
@@ -250,28 +251,34 @@
 
 
 
-/* R18-066 — ricerca termine: overlay unico con bottone, senza prompt nativi */
-.site-header nav{margin-left:auto;justify-content:flex-end;}
-.site-header .site-search-button.recipe-nav-search{
-  display:inline-flex;align-items:center;justify-content:center;border:0;background:transparent;color:inherit;padding:.15rem .1rem;cursor:pointer;vertical-align:middle;text-decoration:none;flex:0 0 auto;
-}
+
+/* R18-068 — header, overlay ricerca e quick-meta unificati */
+.site-header nav{margin-left:auto;justify-content:flex-end;align-items:center;}
+.site-header .recipe-nav-back{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;font-size:24px;line-height:1;text-decoration:none;color:inherit;flex:0 0 auto;position:relative;top:-2px;}
+.site-header .recipe-nav-back:hover{text-decoration:none;}
+.site-header .site-search-button.recipe-nav-search{display:inline-flex;align-items:center;justify-content:center;border:0;background:transparent;color:inherit;padding:.15rem .1rem;cursor:pointer;vertical-align:middle;text-decoration:none;flex:0 0 auto;}
 .site-header .site-search-button.recipe-nav-search svg{width:1.08em;height:1.08em;stroke:currentColor;stroke-width:2;fill:none;display:block;}
 .site-header .site-search-button.recipe-nav-search:hover{text-decoration:none;}
-.recipe-term-search-overlay{position:fixed;inset:0;z-index:2000;display:none;}
-.recipe-term-search-overlay.is-open{display:block;}
-.recipe-term-search-backdrop{position:absolute;inset:0;background:rgba(0,0,0,.10);}
-.recipe-term-search-dialog{position:fixed;top:4.8rem;right:2rem;width:min(410px,calc(100vw - 2rem));margin:0;padding:.95rem 1rem;background:#fff;border:1px solid #8b837b;box-shadow:0 18px 45px rgba(0,0,0,.22);border-radius:.45rem;}
-.recipe-term-search-dialog h2{margin:0 2rem .55rem 0;font-size:1.05rem;}
-.recipe-term-search-close{position:absolute;top:.45rem;right:.65rem;border:0;background:transparent;font:inherit;font-size:1.45rem;line-height:1;cursor:pointer;color:#566064;}
-.recipe-term-search-input{box-sizing:border-box;width:100%;border:1px solid #9d948b;border-radius:.45rem;padding:.55rem .65rem;font:inherit;background:#fff;}
-.recipe-term-search-hint{margin:.45rem 0 .65rem 0;font-size:.84rem;color:#566064;}
-.recipe-term-search-actions{display:flex;align-items:center;justify-content:flex-start;gap:.7rem;margin:.55rem 0 0 0;}
-.recipe-term-search-submit{display:inline-flex;align-items:center;justify-content:center;width:auto;min-width:5.8rem;border:1px solid #8b837b;background:#fff;border-radius:999px;padding:.32rem .78rem;font:inherit;font-size:.9rem;line-height:1.2;cursor:pointer;}
-.recipe-term-search-submit:hover{border-color:#566064;}
-.recipe-quick-meta{display:flex;flex-wrap:wrap;align-items:baseline;gap:.35rem .45rem;}
-.recipe-quick-meta-sep{display:inline-flex;margin:0 .1rem;color:#566064;}
-@media (max-width:760px){.site-header nav{margin-left:auto;justify-content:flex-end;gap:.38rem;}.site-header nav a{font-size:.94rem;letter-spacing:-.01em;}.site-header .recipe-nav-back{width:22px;height:24px;font-size:20px;top:-1px;}.site-header .site-search-button.recipe-nav-search{padding:.05rem 0;}.site-header .site-search-button.recipe-nav-search svg{width:1em;height:1em;}}
-@media (max-width:640px){.recipe-term-search-dialog{top:4rem;right:1rem;left:1rem;width:auto;}}
+.recipe-search-overlay{position:fixed;inset:0;z-index:2000;display:none;}
+.recipe-search-overlay.is-open{display:block;}
+.recipe-search-backdrop{position:absolute;inset:0;background:rgba(0,0,0,.10);}
+.recipe-search-dialog{position:fixed;top:4.8rem;right:2rem;width:min(410px,calc(100vw - 2rem));margin:0;padding:.95rem 1rem;background:#fff;border:1px solid #8b837b;box-shadow:0 18px 45px rgba(0,0,0,.22);border-radius:.45rem;}
+.recipe-search-dialog h2{margin:0 2rem .55rem 0;font-size:1.05rem;}
+.recipe-search-close{position:absolute;top:.45rem;right:.65rem;border:0;background:transparent;font:inherit;font-size:1.45rem;line-height:1;cursor:pointer;color:#566064;}
+.recipe-search-input{box-sizing:border-box;width:100%;border:1px solid #9d948b;border-radius:.45rem;padding:.55rem .65rem;font:inherit;background:#fff;}
+.recipe-search-hint{margin:.45rem 0 .65rem 0;font-size:.84rem;color:#566064;}
+.recipe-search-actions{display:flex;align-items:center;justify-content:flex-start;gap:.7rem;margin:.55rem 0 0 0;}
+.recipe-search-submit{display:inline-flex;align-items:center;justify-content:center;width:auto;min-width:5.8rem;border:1px solid #8b837b;background:#fff;border-radius:999px;padding:.32rem .78rem;font:inherit;font-size:.9rem;line-height:1.2;cursor:pointer;}
+.recipe-search-submit:hover{border-color:#566064;}
+.recipe-page .lead{background:#fff !important;box-shadow:none !important;}
+.recipe-page .lead img,.recipe-page .lead figure{box-shadow:none !important;background:#fff !important;}
+.recipe-quick-meta{display:flex !important;flex-wrap:wrap;align-items:baseline;gap:.15rem .42rem;line-height:1.55;margin:1.1rem auto 2rem;max-width:min(100%, var(--reading));padding:0;border:0;background:transparent;}
+.recipe-quick-meta span{display:inline-flex !important;align-items:baseline;white-space:nowrap;font-size:.92rem;line-height:1.55;color:var(--text);}
+.recipe-quick-meta span:not(:last-child)::after{content:'|';margin-left:.42rem;color:#566064;font-weight:400;}
+.recipe-quick-meta strong{text-transform:uppercase;letter-spacing:.035em;font-size:.72rem;color:var(--muted);margin-right:.22rem;}
+.recipe-quick-meta-sep{display:none !important;}
+@media (max-width:760px){.site-header nav{margin-left:auto;justify-content:flex-end;gap:.32rem;}.site-header nav a{font-size:.95rem;letter-spacing:-.015em;}.site-header .recipe-nav-back{width:20px;height:22px;font-size:18px;top:-1px;}.site-header .site-search-button.recipe-nav-search{padding:.05rem 0;}.site-header .site-search-button.recipe-nav-search svg{width:.98em;height:.98em;}.recipe-quick-meta{gap:.05rem .34rem;}.recipe-quick-meta span{font-size:.94rem;line-height:1.5;}.recipe-quick-meta span:not(:last-child)::after{margin-left:.34rem;}}
+@media (max-width:640px){.recipe-search-dialog{top:4rem;right:1rem;left:1rem;width:auto;}}
 
 @media print{
   header.site-header,
@@ -448,7 +455,7 @@
     gap:.75rem 1.15rem;
   }
 }</style>
-  <style id="recipe-lightbox-style">.recipe-lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.88);display:flex;align-items:center;justify-content:center;padding:2rem;z-index:9999;cursor:zoom-out;}
+<style id="recipe-lightbox-style">.recipe-lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.88);display:flex;align-items:center;justify-content:center;padding:2rem;z-index:9999;cursor:zoom-out;}
 .recipe-lightbox-overlay.is-hidden{display:none !important;}
 .recipe-lightbox-frame{max-width:96vw;max-height:96vh;display:flex;flex-direction:column;gap:.75rem;align-items:center;}
 .recipe-lightbox-frame img{display:block;max-width:96vw;max-height:88vh;width:auto;height:auto;box-shadow:0 8px 32px rgba(0,0,0,.45);background:#fff;}
@@ -463,21 +470,20 @@ main figure img{cursor:zoom-in;}
 <body>
 <div class="page">
 <header class="site-header">
-  <a class="brand" href="../../index.html">Ricette (e altro) di Pierre</a>
-  <nav>
-    <a href="#" class="recipe-nav-back" aria-label="Torna indietro" title="Torna indietro">←</a>
-    <a href="../../indici/ricette.html" title="Indice delle ricette">Ricette</a>
-    <a href="../../indici/ingredienti.html" title="Indice degli ingredienti">Ingredienti</a>
-    <a href="../../indici/fonti.html" title="Indice delle fonti">Fonti</a>
-    <a href="../../indici/geografia.html" title="Indice geografico">Geografia</a>
-    <button type="button" class="site-search-button recipe-nav-search js-recipe-search-open" aria-label="Cerca nel ricettario" title="Cerca nel ricettario"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="M15.5 15.5L21 21"></path></svg></button>
-  </nav>
+<a class="brand" href="../../index.html">Ricette (e altro) di Pierre</a>
+<nav>
+<a aria-label="Torna indietro" class="recipe-nav-back" href="#" title="Torna indietro">←</a>
+<a href="../../indici/ricette.html" title="Indice delle ricette">Ricette</a>
+<a href="../../indici/ingredienti.html" title="Indice degli ingredienti">Ingredienti</a>
+<a href="../../indici/fonti.html" title="Indice delle fonti">Fonti</a>
+<a href="../../indici/geografia.html" title="Indice geografico">Geografia</a>
+<button aria-label="Cerca nel ricettario" class="site-search-button recipe-nav-search js-recipe-search-open" title="Cerca nel ricettario" type="button"><svg aria-hidden="true" viewbox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="M15.5 15.5L21 21"></path></svg></button>
+</nav>
 </header>
-
 <main class="recipe-page">
 <main class="recipe-page">
-<div class="recipe-content"><h1>Filetto Angus alla senape di Digione</h1><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Secondi</span></div><div class="meta-card"><strong>Geografia</strong><span></span></div><div class="meta-card"><strong>Fonte</strong><span>Serena S.</span></div></section><section class="recipe-quick-meta" aria-label="Tempi, porzioni e allergeni"><span class="recipe-allergens-meta"><strong>Allergeni:</strong> senape</span></section><section class="lead"><h2>Introduzione e contesto</h2><figure class="step-photo step-photo-large" style="width: 651.786px; max-width: 100%;"><img src="../../foto/filetto-angus-alla-senape-di-digione/01.jpg" width="651.7857666015625"/><figcaption>Ingredienti da AI</figcaption></figure><p>Serena: "La ricetta di cui parlavo è stata passata da un amico, Andrea Tanzi, cui devo eterna gratitudine per averla fatta (e quindo l'ho assaggiata) e poi generosamente spiegata."</p></section><section class="block ingredients-block"><h2>Ingredienti</h2><div class="table-wrap"><table class="recipe-table ingredients-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Filetto angus</td><td></td><td></td><td></td></tr><tr><td>Senape</td><td></td><td></td><td></td></tr><tr><td>Sale grosso</td><td></td><td></td><td></td></tr></tbody></table></div></section><section class="preparation-block block"><h2>Preparazione</h2><ol class="steps"><li><p>"<em>Circa 1 chilo di filetto Angus, olio e.v., senape forte di Digione (non temete! non temete! io la detesto eppure), sale grosso.</em></p><p><em>Forno già caldo al suo massimo.</em></p><p><em>Spalmate bene la carne di senape da tutte le parti, spolverate di sale grosso, deponete in teglia comoda con olio a coprire bene il fondo.</em></p><p><em>Cacciare in forno rovente, aspettare esattamente 7 minuti e 1/2.</em></p><p><em>Tirare fuori, girare il pezzo di filetto, reinfornare, aspettare esattamente altri 7 minuti e 1/2.</em></p><p><em>Togliere dal forno, bucherellare la carne da ogni parte con una forchetta.</em></p><p><em>Piazzarci sopra un piatto e sul piatto un paio di bei vocabolari grossi (dopo il liceo servono solo ad usi culinari).</em></p><p><em>Lasciare raffreddare: esce il suo sughetto.</em></p><p><em>A freddo, tagliare a fette, far rapprendere il sughetto, che può essere versato sopra o presentato in salsiera a parte.</em>"</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><p>Così come l'ho ricevuta.</p></section></div>
-<footer class="site-footer recipe-footer"><div class="site-footer-left"><a aria-label="Licenza Creative Commons BY-NC-SA" class="cc-link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" title="Licenza Creative Commons BY-NC-SA"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><nav aria-label="Strumenti pagina" class="site-footer-center"><a aria-label="Informativa" class="site-footer-icon recipe-tool-info" href="../../informativa.html" title="Informativa"><img alt="" src="../../foto/ui/info-light.svg"/></a><a aria-label="Scrivimi" class="site-footer-icon recipe-tool-mail" href="../../scrivimi.html" title="Scrivimi"><img alt="" src="../../foto/ui/mail-light.svg"/></a><a aria-label="Stampa pagina" class="site-footer-icon js-print-link js-editorial-print-link recipe-tool-print" href="#" title="Stampa pagina"><img alt="" src="../../foto/ui/print-light.svg"/></a><a aria-label="Copia URL" class="site-footer-icon recipe-tool-link" href="#" title="Copia URL"><img alt="" src="../../foto/ui/link-light.svg"/></a></nav><div class="site-footer-right"><a class="site-footer-qr-link recipe-qrcode-link" href="../../foto/filetto-angus-alla-senape-di-digione/qr-code.png" title="QR della ricetta" aria-label="QR della ricetta"><img alt="Filetto Angus alla senape di Digione" src="../../foto/filetto-angus-alla-senape-di-digione/qr-code.png" title="Filetto Angus alla senape di Digione"/></a></div></footer>
+<div class="recipe-content"><h1>Filetto Angus alla senape di Digione</h1><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Secondi</span></div><div class="meta-card"><strong>Geografia</strong><span></span></div><div class="meta-card"><strong>Fonte</strong><span>Serena S.</span></div></section><section aria-label="Tempi, porzioni e allergeni" class="recipe-quick-meta"><span class="recipe-allergens-meta"><strong>Allergeni:</strong> senape</span></section><section class="lead"><h2>Introduzione e contesto</h2><figure class="step-photo step-photo-large" style="width: 651.786px; max-width: 100%;"><img src="../../foto/filetto-angus-alla-senape-di-digione/01.jpg" width="651.7857666015625"/><figcaption>Ingredienti da AI</figcaption></figure><p>Serena: "La ricetta di cui parlavo è stata passata da un amico, Andrea Tanzi, cui devo eterna gratitudine per averla fatta (e quindo l'ho assaggiata) e poi generosamente spiegata."</p></section><section class="block ingredients-block"><h2>Ingredienti</h2><div class="table-wrap"><table class="recipe-table ingredients-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Filetto angus</td><td></td><td></td><td></td></tr><tr><td>Senape</td><td></td><td></td><td></td></tr><tr><td>Sale grosso</td><td></td><td></td><td></td></tr></tbody></table></div></section><section class="preparation-block block"><h2>Preparazione</h2><ol class="steps"><li><p>"<em>Circa 1 chilo di filetto Angus, olio e.v., senape forte di Digione (non temete! non temete! io la detesto eppure), sale grosso.</em></p><p><em>Forno già caldo al suo massimo.</em></p><p><em>Spalmate bene la carne di senape da tutte le parti, spolverate di sale grosso, deponete in teglia comoda con olio a coprire bene il fondo.</em></p><p><em>Cacciare in forno rovente, aspettare esattamente 7 minuti e 1/2.</em></p><p><em>Tirare fuori, girare il pezzo di filetto, reinfornare, aspettare esattamente altri 7 minuti e 1/2.</em></p><p><em>Togliere dal forno, bucherellare la carne da ogni parte con una forchetta.</em></p><p><em>Piazzarci sopra un piatto e sul piatto un paio di bei vocabolari grossi (dopo il liceo servono solo ad usi culinari).</em></p><p><em>Lasciare raffreddare: esce il suo sughetto.</em></p><p><em>A freddo, tagliare a fette, far rapprendere il sughetto, che può essere versato sopra o presentato in salsiera a parte.</em>"</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><p>Così come l'ho ricevuta.</p></section></div>
+<footer class="site-footer recipe-footer"><div class="site-footer-left"><a aria-label="Licenza Creative Commons BY-NC-SA" class="cc-link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" title="Licenza Creative Commons BY-NC-SA"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><nav aria-label="Strumenti pagina" class="site-footer-center"><a aria-label="Informativa" class="site-footer-icon recipe-tool-info" href="../../informativa.html" title="Informativa"><img alt="" src="../../foto/ui/info-light.svg"/></a><a aria-label="Scrivimi" class="site-footer-icon recipe-tool-mail" href="../../scrivimi.html" title="Scrivimi"><img alt="" src="../../foto/ui/mail-light.svg"/></a><a aria-label="Stampa pagina" class="site-footer-icon js-print-link js-editorial-print-link recipe-tool-print" href="#" title="Stampa pagina"><img alt="" src="../../foto/ui/print-light.svg"/></a><a aria-label="Copia URL" class="site-footer-icon recipe-tool-link" href="#" title="Copia URL"><img alt="" src="../../foto/ui/link-light.svg"/></a></nav><div class="site-footer-right"><a aria-label="QR della ricetta" class="site-footer-qr-link recipe-qrcode-link" href="../../foto/filetto-angus-alla-senape-di-digione/qr-code.png" title="QR della ricetta"><img alt="Filetto Angus alla senape di Digione" src="../../foto/filetto-angus-alla-senape-di-digione/qr-code.png" title="Filetto Angus alla senape di Digione"/></a></div></footer>
 </main>
 </main>
 </div>
@@ -863,26 +869,25 @@ document.addEventListener('DOMContentLoaded', function(){
     setTimeout(loadAllergens, 0);
   }
 })();</script>
-
-<div class="recipe-term-search-overlay" id="recipeTermSearchOverlay" aria-hidden="true">
-  <div class="recipe-term-search-backdrop js-recipe-search-close"></div>
-  <section class="recipe-term-search-dialog" role="dialog" aria-modal="true" aria-labelledby="recipeTermSearchTitle">
-    <button class="recipe-term-search-close js-recipe-search-close" type="button" aria-label="Chiudi">×</button>
-    <h2 id="recipeTermSearchTitle">Cerca nel ricettario</h2>
-    <form id="recipeTermSearchForm" action="../../indici/ricette.html" method="get">
-      <input id="recipeTermSearchInput" name="q" class="recipe-term-search-input" type="search" placeholder="Titolo, ingrediente, luogo…" autocomplete="off">
-      <p class="recipe-term-search-hint">Inserisci un termine: l’indice Ricette si aprirà già filtrato.</p>
-      <div class="recipe-term-search-actions"><button class="recipe-term-search-submit" type="submit">Cerca</button></div>
-    </form>
-  </section>
+<div aria-hidden="true" class="recipe-search-overlay" id="recipeSearchOverlay">
+<div class="recipe-search-backdrop js-recipe-search-close"></div>
+<section aria-labelledby="recipeSearchTitle" aria-modal="true" class="recipe-search-dialog" role="dialog">
+<button aria-label="Chiudi" class="recipe-search-close js-recipe-search-close" type="button">×</button>
+<h2 id="recipeSearchTitle">Cerca nel ricettario</h2>
+<form action="../../indici/ricette.html" id="recipeSearchForm" method="get">
+<input autocomplete="off" class="recipe-search-input" id="recipeSearchInput" name="q" placeholder="Titolo, ingrediente, luogo…" type="search"/>
+<p class="recipe-search-hint">Inserisci un termine: l’indice Ricette si aprirà già filtrato.</p>
+<div class="recipe-search-actions"><button class="recipe-search-submit" type="submit">Cerca</button></div>
+</form>
+</section>
 </div>
-<script id="recipe-term-search-script">
+<script id="recipe-search-script">
 (function(){
-  function initRecipeTermSearch(){
+  function initRecipeSearch(){
     var openBtn=document.querySelector('.js-recipe-search-open');
-    var overlay=document.getElementById('recipeTermSearchOverlay');
-    var input=document.getElementById('recipeTermSearchInput');
-    var form=document.getElementById('recipeTermSearchForm');
+    var overlay=document.getElementById('recipeSearchOverlay');
+    var input=document.getElementById('recipeSearchInput');
+    var form=document.getElementById('recipeSearchForm');
     if(!openBtn||!overlay||!input||!form) return;
     function openSearch(){input.value='';overlay.classList.add('is-open');overlay.setAttribute('aria-hidden','false');setTimeout(function(){input.focus();},30);}
     function closeSearch(){overlay.classList.remove('is-open');overlay.setAttribute('aria-hidden','true');}
@@ -896,7 +901,7 @@ document.addEventListener('DOMContentLoaded', function(){
       window.location.href='../../indici/ricette.html?q='+encodeURIComponent(q);
     });
   }
-  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',initRecipeTermSearch); else initRecipeTermSearch();
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',initRecipeSearch); else initRecipeSearch();
 })();
 </script>
 </body>

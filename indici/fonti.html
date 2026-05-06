@@ -18,10 +18,11 @@
 .index-category{padding-top:.7rem;border-top:1px solid var(--line);margin-bottom:1.4rem;}
 .index-category h2{margin-bottom:.9rem;}
 .recipe-index-list{display:grid;gap:1.6rem;}
-.recipe-index-card{display:grid;gap:1rem;align-items:start;padding-top:1rem;border-top:1px solid var(--line);}
+.recipe-index-card{display:block;padding-top:1.2rem;border-top:1px solid var(--line);}
 .recipe-index-card:first-child{border-top:0;padding-top:0;}
-.recipe-index-media{display:flex;justify-content:center;align-items:flex-start;}
-.recipe-index-media img{width:85%;box-shadow:var(--shadow);}
+.recipe-index-media{display:block;width:100%;margin:0 0 1rem 0;}
+.recipe-index-media a{display:block;width:100%;}
+.recipe-index-media img{display:block;width:100%;max-width:100%;height:auto;box-shadow:none;background:#fff;}
 .recipe-index-body h3{margin:0 0 .45rem;font-size:1.15rem;line-height:1.2;color:#566064;}
 .recipe-index-body p{margin:0 0 .7rem;}
 .recipe-index-meta{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:.55rem 1.2rem;}
@@ -41,9 +42,13 @@
 .recipe-current-query{color:#566064;}
 .recipe-clear-search{border:1px solid #c9c1b8;background:#fff;border-radius:999px;padding:.18rem .52rem;font:inherit;font-size:.82rem;line-height:1.2;cursor:pointer;color:#566064;margin-left:.45rem;}
 .recipe-clear-search:hover{border-color:#566064;color:#222;}
-
-.site-search-button{display:inline-flex;align-items:center;justify-content:center;border:0;background:transparent;color:inherit;padding:.15rem .1rem;cursor:pointer;vertical-align:middle;}
-.site-search-button svg{width:1.08em;height:1.08em;stroke:currentColor;stroke-width:2;fill:none;}
+.site-header nav{display:flex;align-items:center;gap:1rem;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none;margin-left:auto;justify-content:flex-end;}
+.site-header nav::-webkit-scrollbar{display:none;width:0;height:0;}
+.site-header nav a{white-space:nowrap;}
+.site-header .index-nav-back{display:inline-flex !important;align-items:center;justify-content:center;width:28px;height:28px;font-size:24px;line-height:1;text-decoration:none;color:inherit;flex:0 0 auto;position:relative;top:-2px;visibility:visible !important;}
+.site-header .index-nav-back:hover{text-decoration:none;}
+.site-search-button{display:inline-flex;align-items:center;justify-content:center;border:0;background:transparent;color:inherit;padding:.15rem .1rem;cursor:pointer;vertical-align:middle;flex:0 0 auto;}
+.site-search-button svg{width:1.08em;height:1.08em;stroke:currentColor;stroke-width:2;fill:none;display:block;}
 .recipe-search-overlay{position:fixed;inset:0;z-index:2000;display:none;}
 .recipe-search-overlay.is-open{display:block;}
 .recipe-search-backdrop{position:absolute;inset:0;background:rgba(0,0,0,.10);}
@@ -51,19 +56,12 @@
 .recipe-search-dialog h2{margin:0 2rem .55rem 0;font-size:1.05rem;}
 .recipe-search-close{position:absolute;top:.45rem;right:.65rem;border:0;background:transparent;font:inherit;font-size:1.45rem;line-height:1;cursor:pointer;color:#566064;}
 .recipe-search-input{box-sizing:border-box;width:100%;border:1px solid #9d948b;border-radius:.45rem;padding:.55rem .65rem;font:inherit;background:#fff;}
-.recipe-search-hint{margin:.45rem 0 0 0;font-size:.84rem;color:#566064;}
-.recipe-search-actions{display:flex;align-items:center;justify-content:space-between;gap:.7rem;margin:.55rem 0 0 0;}
+.recipe-search-hint{margin:.45rem 0 .65rem 0;font-size:.84rem;color:#566064;}
+.recipe-search-actions{display:flex;align-items:center;justify-content:flex-start;gap:.7rem;margin:.55rem 0 0 0;}
+.recipe-search-submit{display:inline-flex;align-items:center;justify-content:center;width:auto;min-width:5.8rem;border:1px solid #8b837b;background:#fff;border-radius:999px;padding:.32rem .78rem;font:inherit;font-size:.9rem;line-height:1.2;cursor:pointer;}
+.recipe-search-submit:hover{border-color:#566064;}
 .recipe-search-count{margin:0;font-size:.84rem;color:#566064;}
-@media (min-width: 760px){
-  .recipe-index-card{grid-template-columns:minmax(200px,24%) minmax(0,1fr);}
-}
-@media (max-width: 760px){
-  .site-header nav{gap:.42rem;}
-  .site-header nav a{font-size:.88rem;letter-spacing:-.01em;}
-  .site-header .recipe-nav-back{width:20px;height:22px;font-size:18px;top:-1px;}
-  .site-header .site-search-button{padding:.05rem 0;}
-  .site-header .site-search-button svg{width:.95em;height:.95em;}
-}
+@media (max-width:760px){.site-header nav{gap:.32rem;margin-left:auto;justify-content:flex-end;}.site-header nav a{font-size:.95rem;letter-spacing:-.015em;}.site-header .index-nav-back{width:20px;height:22px;font-size:18px;top:-1px;}.site-header .site-search-button{padding:.05rem 0;}.site-header .site-search-button svg{width:.98em;height:.98em;}}
 @media (max-width:640px){.recipe-search-dialog{top:4rem;right:1rem;left:1rem;width:auto;}}
 </style>
 </head>
@@ -72,7 +70,7 @@
 <header class="site-header">
   <a class="brand" href="../index.html">Ricette (e altro) di Pierre</a>
   <nav>
-    <a class="recipe-nav-back index-nav-back" href="../index.html" aria-label="Torna alla home" title="Torna alla home">←</a>
+    <a class="index-nav-back" href="../index.html" aria-label="Torna alla home" title="Torna alla home">←</a>
     <a href="ricette.html">Ricette</a>
     <a href="ingredienti.html">Ingredienti</a>
     <a href="geografia.html">Geografia</a>
@@ -197,7 +195,7 @@ document.addEventListener('DOMContentLoaded', function () {
   }
   function clearFilters() { clearRefineButtons(); apply(); }
   function clearSearch() { state.q = ''; if (input) input.value = ''; apply(); }
-  function openSearch() { var q = window.prompt('Cerca nel ricettario:'); q = normalize(q || ''); if(q) window.location.href = 'ricette.html?q=' + encodeURIComponent(q); }
+  function openSearch() { if (!overlay || !input) return; input.value = ''; overlay.classList.add('is-open'); overlay.setAttribute('aria-hidden', 'false'); if (searchCount) searchCount.innerHTML = ''; setTimeout(function(){ input.focus(); }, 30); }
   function closeSearch() { if (!overlay) return; overlay.classList.remove('is-open'); overlay.setAttribute('aria-hidden', 'true'); }
   if (openBtn) openBtn.addEventListener('click', function(ev){ ev.preventDefault(); openSearch(); });
   if (resetBtn) resetBtn.addEventListener('click', clearFilters);
@@ -239,11 +237,29 @@ document.addEventListener('DOMContentLoaded', function () {
   <section class="recipe-search-dialog" role="dialog" aria-modal="true" aria-labelledby="recipeSearchTitle">
     <button class="recipe-search-close js-site-search-close" type="button" aria-label="Chiudi">×</button>
     <h2 id="recipeSearchTitle">Cerca nel ricettario</h2>
-    <input id="recipeSearchInput" class="recipe-search-input" type="search" placeholder="Titolo, ingrediente, luogo…" autocomplete="off">
-    <p class="recipe-search-hint">Cerca in titoli, ingredienti, luoghi e metadati.</p>
-    <div class="recipe-search-actions"><p class="recipe-search-count" id="recipeSearchCount" aria-live="polite"></p></div>
+    <form id="recipeSearchForm" action="ricette.html" method="get">
+      <input id="recipeSearchInput" name="q" class="recipe-search-input" type="search" placeholder="Titolo, ingrediente, luogo…" autocomplete="off">
+      <p class="recipe-search-hint">Inserisci un termine: l’indice Ricette si aprirà già filtrato.</p>
+      <div class="recipe-search-actions"><button class="recipe-search-submit" type="submit">Cerca</button><p class="recipe-search-count" id="recipeSearchCount" aria-live="polite"></p></div>
+    </form>
   </section>
-</div></div></main></div>
+</div>
+<script id="index-term-search-submit-script">
+(function(){
+  function initIndexTermSearchSubmit(){
+    var form=document.getElementById('recipeSearchForm');
+    var input=document.getElementById('recipeSearchInput');
+    if(!form||!input) return;
+    form.addEventListener('submit',function(ev){
+      var q=(input.value||'').replace(/\s+/g,' ').trim();
+      if(!q){ev.preventDefault();input.focus();return;}
+      ev.preventDefault();
+      window.location.href='ricette.html?q='+encodeURIComponent(q);
+    });
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',initIndexTermSearchSubmit); else initIndexTermSearchSubmit();
+})();
+</script></div></main></div>
 <script>
 document.addEventListener('DOMContentLoaded', function () {
   const wrap = document.querySelector('.index-filter');
