@@ -247,6 +247,40 @@
   }
 }
 
+
+/* R18-058 — lente ricerca nell'header ricetta */
+.site-header .recipe-nav-search{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:28px;
+  height:28px;
+  flex:0 0 auto;
+  text-decoration:none;
+  position:relative;
+  top:-1px;
+}
+.site-header .recipe-nav-search img{
+  display:block;
+  width:22px;
+  height:22px;
+  opacity:.86;
+}
+.site-header .recipe-nav-search:hover{
+  text-decoration:none;
+}
+@media (max-width: 760px){
+  .site-header .recipe-nav-search{
+    width:24px;
+    height:24px;
+    top:-1px;
+  }
+  .site-header .recipe-nav-search img{
+    width:20px;
+    height:20px;
+  }
+}
+
 @media print{
   header.site-header,
   .page > .site-header,
@@ -441,17 +475,18 @@ main figure img{cursor:zoom-in;}
 <header class="site-header">
   <a class="brand" href="../../index.html">Ricette (e altro) di Pierre</a>
   <nav>
-    <a href="#" class="recipe-nav-back" aria-label="Torna indietro">←</a>
-    <a href="../../indici/ricette.html">Ricette</a>
-    <a href="../../indici/ingredienti.html">Ingredienti</a>
-    <a href="../../indici/fonti.html">Fonti</a>
-    <a href="../../indici/geografia.html">Geografia</a>
+    <a href="#" class="recipe-nav-back" aria-label="Torna indietro" title="Torna indietro">←</a>
+    <a href="../../indici/ricette.html" class="recipe-nav-search" aria-label="Cerca tra le ricette" title="Cerca tra le ricette"><img alt="" src="../../foto/ui/search-light.svg"></a>
+    <a href="../../indici/ricette.html" title="Indice delle ricette">Ricette</a>
+    <a href="../../indici/ingredienti.html" title="Indice degli ingredienti">Ingredienti</a>
+    <a href="../../indici/fonti.html" title="Indice delle fonti">Fonti</a>
+    <a href="../../indici/geografia.html" title="Indice geografico">Geografia</a>
   </nav>
 </header>
 
 <main class="recipe-page">
 <main class="recipe-page">
-<div class="recipe-content"><h1>Cous cous alla trapanese</h1><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Primi</span></div><div class="meta-card"><strong>Geografia</strong><span>Sicilia Trapani</span></div><div class="meta-card"><strong>Fonte</strong><span>Web</span></div></section><section class="lead"><h2>Introduzione e contesto</h2><p>Questo è un piatto che sto ancora cercando di mettere a fuoco.</p><p>Le versioni che si trovano sono molto diverse tra loro, spesso costruite più per essere presentate che per essere mangiate. Qui parto da una traccia e provo a lavorarci sopra.</p><p>Per ora il risultato è corretto, ma ancora troppo leggero: il gusto c’è, ma manca struttura. È su questo che devo intervenire.</p><figure class="step-photo step-photo-large" style="width: 651.786px; max-width: 100%;"><img src="../../foto/cous-cous-alla-trapanese/01.jpg" width="651.7857666015625"/></figure></section><section class="block ingredients-block"><h2>Ingredienti</h2><div class="table-wrap"><table class="recipe-table ingredients-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Cous cous</td><td></td><td></td><td></td></tr></tbody></table></div></section><section class="preparation-block block"><h2>Preparazione</h2><ol class="steps"><li><p><strong>Brodo di pesce.</strong></p><p>Parto da un brodo abbastanza ricco, usando pesci da zuppa: scorfano, gallinella, eventualmente un po’ di cernia o grongo, che aiuta a dare corpo. Metto in casseruola acqua, cipolla, alloro, qualche grano di pepe e porto a bollore. Aggiungo il pesce e lascio cuocere senza fretta, in modo che il brodo si strutturi. A fine cottura filtro e tengo da parte sia il liquido sia il pesce, che pulisco con calma eliminando lische e pelle.</p></li><li><p><strong>Base di pomodoro e mandorla.</strong></p><p>Preparo una base leggera con cipolla e poco olio, lasciandola andare senza fretta. Aggiungo pomodoro in quantità moderata — non deve dominare — e una piccola quantità di mandorle pelate e pestate, che servono più a legare che a dare sapore. Unisco quindi parte del brodo di pesce e lascio restringere leggermente.</p></li><li><p><strong>Lavorazione del cous cous.</strong></p><p>Metto il cous cous in un recipiente largo e lo bagno poco alla volta con acqua tiepida salata ed emulsionata con olio. Lo lavoro con le dita per sgranarlo, senza fretta, e lo lascio riposare coperto con un panno umido.</p></li><li><p><strong>Cottura a vapore.</strong></p><p>Trasferisco il cous cous nella parte superiore della cuscusiera, sopra il brodo in ebollizione. La cottura avviene a vapore: il cous cous non deve entrare in contatto diretto con il liquido, ma assorbirne gli aromi. Dopo una prima fase di cottura lo lavoro ancora brevemente e lo rimetto sul vapore.</p></li><li><p><strong>Integrazione.</strong></p><p>Quando il cous cous è cotto, lo condisco con parte della base di brodo e pomodoro, aggiungendo il pesce pulito e sminuzzato. Rimetto sul vapore per un ultimo passaggio breve, giusto per legare il tutto.</p></li><li><p><strong>Riposo.</strong></p><p>Spengo e lascio riposare. Questo passaggio è importante: il cous cous si assesta e prende consistenza.</p></li><li><p><strong>Servizio.</strong></p><figure class="step-photo-right step-photo" style="width: 215px; max-width: 100%;"><img src="../../foto/cous-cous-alla-trapanese/01.old.jpg" width="215"/></figure><p>Porto in tavola il cous cous con altro brodo a parte, in modo che ciascuno possa regolare la consistenza.</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><p>Al momento il risultato è troppo delicato: il brodo deve essere più deciso, probabilmente lavorando meglio sulla base e sulla scelta dei pesci.</p><p>La presenza del pomodoro va controllata: serve a dare profondità, non a caratterizzare il piatto.</p><p>Le mandorle funzionano, ma devono restare sullo sfondo.</p><p>Le versioni con guarnizioni (gamberi, calamari, pesce spada) mi sembrano più costruite che necessarie: per ora le escludo.</p><p>Da verificare meglio l’equilibrio finale tra cous cous e brodo: è lì che si gioca il risultato.</p></section></div><footer class="site-footer recipe-footer"><div class="site-footer-left"><a aria-label="Licenza Creative Commons BY-NC-SA" class="cc-link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><nav aria-label="Strumenti pagina" class="site-footer-center"><a aria-label="Informativa" class="site-footer-icon recipe-tool-info" href="../../informativa.html"><img alt="" src="../../foto/ui/info-light.svg"/></a><a aria-label="Scrivimi" class="site-footer-icon recipe-tool-mail" href="../../scrivimi.html"><img alt="" src="../../foto/ui/mail-light.svg"/></a><a aria-label="Stampa pagina" class="site-footer-icon js-print-link js-editorial-print-link recipe-tool-print" href="#"><img alt="" src="../../foto/ui/print-light.svg"/></a><a aria-label="Copia URL" class="site-footer-icon recipe-tool-link" href="#"><img alt="" src="../../foto/ui/link-light.svg"/></a></nav><div class="site-footer-right"><a class="site-footer-qr-link recipe-qrcode-link" href="../../foto/cous-cous-alla-trapanese/qr-code.png"><img alt="QR ricetta" src="../../foto/cous-cous-alla-trapanese/qr-code.png"/></a></div></footer>
+<div class="recipe-content"><h1>Cous cous alla trapanese</h1><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Primi</span></div><div class="meta-card"><strong>Geografia</strong><span>Sicilia Trapani</span></div><div class="meta-card"><strong>Fonte</strong><span>Web</span></div></section><section class="recipe-quick-meta" aria-label="Tempi, porzioni e allergeni"><span class="recipe-allergens-meta"><strong>Allergeni:</strong> cereali contenenti glutine</span></section><section class="lead"><h2>Introduzione e contesto</h2><p>Questo è un piatto che sto ancora cercando di mettere a fuoco.</p><p>Le versioni che si trovano sono molto diverse tra loro, spesso costruite più per essere presentate che per essere mangiate. Qui parto da una traccia e provo a lavorarci sopra.</p><p>Per ora il risultato è corretto, ma ancora troppo leggero: il gusto c’è, ma manca struttura. È su questo che devo intervenire.</p><figure class="step-photo step-photo-large" style="width: 651.786px; max-width: 100%;"><img src="../../foto/cous-cous-alla-trapanese/01.jpg" width="651.7857666015625"/></figure></section><section class="block ingredients-block"><h2>Ingredienti</h2><div class="table-wrap"><table class="recipe-table ingredients-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Cous cous</td><td></td><td></td><td></td></tr></tbody></table></div></section><section class="preparation-block block"><h2>Preparazione</h2><ol class="steps"><li><p><strong>Brodo di pesce.</strong></p><p>Parto da un brodo abbastanza ricco, usando pesci da zuppa: scorfano, gallinella, eventualmente un po’ di cernia o grongo, che aiuta a dare corpo. Metto in casseruola acqua, cipolla, alloro, qualche grano di pepe e porto a bollore. Aggiungo il pesce e lascio cuocere senza fretta, in modo che il brodo si strutturi. A fine cottura filtro e tengo da parte sia il liquido sia il pesce, che pulisco con calma eliminando lische e pelle.</p></li><li><p><strong>Base di pomodoro e mandorla.</strong></p><p>Preparo una base leggera con cipolla e poco olio, lasciandola andare senza fretta. Aggiungo pomodoro in quantità moderata — non deve dominare — e una piccola quantità di mandorle pelate e pestate, che servono più a legare che a dare sapore. Unisco quindi parte del brodo di pesce e lascio restringere leggermente.</p></li><li><p><strong>Lavorazione del cous cous.</strong></p><p>Metto il cous cous in un recipiente largo e lo bagno poco alla volta con acqua tiepida salata ed emulsionata con olio. Lo lavoro con le dita per sgranarlo, senza fretta, e lo lascio riposare coperto con un panno umido.</p></li><li><p><strong>Cottura a vapore.</strong></p><p>Trasferisco il cous cous nella parte superiore della cuscusiera, sopra il brodo in ebollizione. La cottura avviene a vapore: il cous cous non deve entrare in contatto diretto con il liquido, ma assorbirne gli aromi. Dopo una prima fase di cottura lo lavoro ancora brevemente e lo rimetto sul vapore.</p></li><li><p><strong>Integrazione.</strong></p><p>Quando il cous cous è cotto, lo condisco con parte della base di brodo e pomodoro, aggiungendo il pesce pulito e sminuzzato. Rimetto sul vapore per un ultimo passaggio breve, giusto per legare il tutto.</p></li><li><p><strong>Riposo.</strong></p><p>Spengo e lascio riposare. Questo passaggio è importante: il cous cous si assesta e prende consistenza.</p></li><li><p><strong>Servizio.</strong></p><figure class="step-photo-right step-photo" style="width: 215px; max-width: 100%;"><img src="../../foto/cous-cous-alla-trapanese/01.old.jpg" width="215"/></figure><p>Porto in tavola il cous cous con altro brodo a parte, in modo che ciascuno possa regolare la consistenza.</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><p>Al momento il risultato è troppo delicato: il brodo deve essere più deciso, probabilmente lavorando meglio sulla base e sulla scelta dei pesci.</p><p>La presenza del pomodoro va controllata: serve a dare profondità, non a caratterizzare il piatto.</p><p>Le mandorle funzionano, ma devono restare sullo sfondo.</p><p>Le versioni con guarnizioni (gamberi, calamari, pesce spada) mi sembrano più costruite che necessarie: per ora le escludo.</p><p>Da verificare meglio l’equilibrio finale tra cous cous e brodo: è lì che si gioca il risultato.</p></section></div><footer class="site-footer recipe-footer"><div class="site-footer-left"><a aria-label="Licenza Creative Commons BY-NC-SA" class="cc-link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" title="Licenza Creative Commons BY-NC-SA"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><nav aria-label="Strumenti pagina" class="site-footer-center"><a aria-label="Informativa" class="site-footer-icon recipe-tool-info" href="../../informativa.html" title="Informativa"><img alt="" src="../../foto/ui/info-light.svg"/></a><a aria-label="Scrivimi" class="site-footer-icon recipe-tool-mail" href="../../scrivimi.html" title="Scrivimi"><img alt="" src="../../foto/ui/mail-light.svg"/></a><a aria-label="Stampa pagina" class="site-footer-icon js-print-link js-editorial-print-link recipe-tool-print" href="#" title="Stampa pagina"><img alt="" src="../../foto/ui/print-light.svg"/></a><a aria-label="Copia URL" class="site-footer-icon recipe-tool-link" href="#" title="Copia URL"><img alt="" src="../../foto/ui/link-light.svg"/></a></nav><div class="site-footer-right"><a class="site-footer-qr-link recipe-qrcode-link" href="../../foto/cous-cous-alla-trapanese/qr-code.png" title="QR della ricetta" aria-label="QR della ricetta"><img alt="Cous cous alla trapanese" src="../../foto/cous-cous-alla-trapanese/qr-code.png" title="Cous cous alla trapanese"/></a></div></footer>
 </main>
 </main>
 </div>
@@ -828,7 +863,7 @@ document.addEventListener('DOMContentLoaded', function(){
         var found = items.find(function(item){ return item && item.slug === slug; });
         if(found && found.allergeni) renderAllergens(found.allergeni);
       })
-      .catch(function(err){ try{ console.warn('[ALLERGENI] quick-meta non aggiornata', err); }catch(_e){} });
+      .catch(function(err){ try{ console.warn('[ALLERGENI] quick-meta runtime non aggiornata; resta eventuale HTML statico', err); }catch(_e){} });
   }
 
   if(document.readyState === 'loading'){

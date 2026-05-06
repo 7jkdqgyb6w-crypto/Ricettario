@@ -268,6 +268,40 @@
   }
 }
 
+
+/* R18-058 — lente ricerca nell'header ricetta */
+.site-header .recipe-nav-search{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:28px;
+  height:28px;
+  flex:0 0 auto;
+  text-decoration:none;
+  position:relative;
+  top:-1px;
+}
+.site-header .recipe-nav-search img{
+  display:block;
+  width:22px;
+  height:22px;
+  opacity:.86;
+}
+.site-header .recipe-nav-search:hover{
+  text-decoration:none;
+}
+@media (max-width: 760px){
+  .site-header .recipe-nav-search{
+    width:24px;
+    height:24px;
+    top:-1px;
+  }
+  .site-header .recipe-nav-search img{
+    width:20px;
+    height:20px;
+  }
+}
+
 @media print{
   header.site-header,
   .page > .site-header,
@@ -436,11 +470,12 @@ main figure img{cursor:zoom-in;}
 <header class="site-header">
   <a class="brand" href="../../index.html">Ricette (e altro) di Pierre</a>
   <nav>
-    <a href="#" class="recipe-nav-back" aria-label="Torna indietro">←</a>
-    <a href="../../indici/ricette.html">Ricette</a>
-    <a href="../../indici/ingredienti.html">Ingredienti</a>
-    <a href="../../indici/fonti.html">Fonti</a>
-    <a href="../../indici/geografia.html">Geografia</a>
+    <a href="#" class="recipe-nav-back" aria-label="Torna indietro" title="Torna indietro">←</a>
+    <a href="../../indici/ricette.html" class="recipe-nav-search" aria-label="Cerca tra le ricette" title="Cerca tra le ricette"><img alt="" src="../../foto/ui/search-light.svg"></a>
+    <a href="../../indici/ricette.html" title="Indice delle ricette">Ricette</a>
+    <a href="../../indici/ingredienti.html" title="Indice degli ingredienti">Ingredienti</a>
+    <a href="../../indici/fonti.html" title="Indice delle fonti">Fonti</a>
+    <a href="../../indici/geografia.html" title="Indice geografico">Geografia</a>
   </nav>
 </header>
 
@@ -466,7 +501,7 @@ main figure img{cursor:zoom-in;}
 <section class="block preparation-block"><h2>Preparazione</h2><ol class="steps"><li><p><strong>I filetti di orata.</strong></p><figure class="step-photo step-photo-right" style="width: 151px; max-width: 100%;"><img src="../../foto/paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero/IMG_0123.jpg" width="151"/></figure><p>Meglio freschi, ma ottimi anche quelli congelati.Vanno spellati, ma non è difficile.</p></li><li><p><strong>La base.</strong></p><figure class="step-photo-left step-photo" style="width: 166px; max-width: 100%;"><img src="../../foto/paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero/IMG_0122.jpg" width="166"/></figure><p>In una padella abbastanza larga, faccio appassire i pomodorini in olio e aglio (senza germoglio). Aggiungo il concentrato di pomodoro, i capperi accuratamente lavati dal sale, lo zenzero tagliato a fettine sottili.</p></li><li><p><strong>La salsa.</strong></p><figure class="step-photo-left step-photo" style="width: 171px; max-width: 100%;"><img src="../../foto/paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero/IMG_0124.jpg" width="171"/></figure><p>Contemporaneamente ho cotto con poco olio i filetti di di orata, liho sfumati con il vino bianco, e ora li aggiungo alla base.</p><p>A fine cottura aggiungo sale, pepe, prezzemolo.</p></li><li><p><strong>La pasta</strong></p><p>Gragnano IGP. Cotta al giusto.</p><p>E aggiungo alla salsa, spadello un paio di minuti.</p></li></ol></section>
 <section class="notes"><h2>Note e osservazioni</h2><p>A fare la differenza è lo zenzero e la pasta di Gragnano IGP.</p></section>
 </div>
-<footer class="site-footer recipe-footer"><div class="site-footer-left"><a aria-label="Licenza Creative Commons BY-NC-SA" class="cc-link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><nav aria-label="Strumenti pagina" class="site-footer-center"><a aria-label="Informativa" class="site-footer-icon recipe-tool-info" href="../../informativa.html"><img alt="" src="../../foto/ui/info-light.svg"/></a><a aria-label="Scrivimi" class="site-footer-icon recipe-tool-mail" href="../../scrivimi.html"><img alt="" src="../../foto/ui/mail-light.svg"/></a><a aria-label="Stampa pagina" class="site-footer-icon js-print-link js-editorial-print-link recipe-tool-print" href="#"><img alt="" src="../../foto/ui/print-light.svg"/></a><a aria-label="Copia URL" class="site-footer-icon recipe-tool-link" href="#"><img alt="" src="../../foto/ui/link-light.svg"/></a></nav><div class="site-footer-right"><a class="site-footer-qr-link recipe-qrcode-link" href="../../foto/paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero/qr-code.png"><img alt="QR ricetta" src="../../foto/paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero/qr-code.png"/></a></div></footer>
+<footer class="site-footer recipe-footer"><div class="site-footer-left"><a aria-label="Licenza Creative Commons BY-NC-SA" class="cc-link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" title="Licenza Creative Commons BY-NC-SA"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><nav aria-label="Strumenti pagina" class="site-footer-center"><a aria-label="Informativa" class="site-footer-icon recipe-tool-info" href="../../informativa.html" title="Informativa"><img alt="" src="../../foto/ui/info-light.svg"/></a><a aria-label="Scrivimi" class="site-footer-icon recipe-tool-mail" href="../../scrivimi.html" title="Scrivimi"><img alt="" src="../../foto/ui/mail-light.svg"/></a><a aria-label="Stampa pagina" class="site-footer-icon js-print-link js-editorial-print-link recipe-tool-print" href="#" title="Stampa pagina"><img alt="" src="../../foto/ui/print-light.svg"/></a><a aria-label="Copia URL" class="site-footer-icon recipe-tool-link" href="#" title="Copia URL"><img alt="" src="../../foto/ui/link-light.svg"/></a></nav><div class="site-footer-right"><a class="site-footer-qr-link recipe-qrcode-link" href="../../foto/paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero/qr-code.png" title="QR della ricetta" aria-label="QR della ricetta"><img alt="Paccheri di Gragnano IGP con orata, pomodorini, capperi e zenzero" src="../../foto/paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero/qr-code.png" title="Paccheri di Gragnano IGP con orata, pomodorini, capperi e zenzero"/></a></div></footer>
 </main>
 </main>
 </div>
@@ -843,7 +878,7 @@ document.addEventListener('DOMContentLoaded', function(){
         var found = items.find(function(item){ return item && item.slug === slug; });
         if(found && found.allergeni) renderAllergens(found.allergeni);
       })
-      .catch(function(err){ try{ console.warn('[ALLERGENI] quick-meta non aggiornata', err); }catch(_e){} });
+      .catch(function(err){ try{ console.warn('[ALLERGENI] quick-meta runtime non aggiornata; resta eventuale HTML statico', err); }catch(_e){} });
   }
 
   if(document.readyState === 'loading'){

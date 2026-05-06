@@ -1,10 +1,10 @@
 {
   "versione": "CMS2-R18-051",
   "semantica_versione": "ING-SEMANTICA-003",
-  "timestamp": "2026-05-03T23:25:34",
+  "timestamp": "2026-05-05T22:39:52",
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette",
   "search_data": "G:\\Il mio Drive\\Esperienze\\Ricette\\indici\\search-data.json",
-  "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\CMS2-R18-053\\ingredienti-semantica.json",
+  "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\CMS2-R18-057\\ingredienti-semantica.json",
   "apply": true,
   "processed": 61,
   "changed": 58,
@@ -1413,17 +1413,50 @@
       "titolo": "Pasta con le sarde",
       "fonte_semantica": "html-ingredienti",
       "ingredienti_usati": [
-        "Pasta"
+        "Bucatini",
+        "Finocchietto",
+        "Cipolla",
+        "Concentrato di pomodoro",
+        "Alici sotto sale",
+        "Uva passa",
+        "Pinoli",
+        "Zafferano",
+        "Pangrattato",
+        "Olio extra vergine d'oliva",
+        "Mandorle"
       ],
       "termini_ricerca": [
-        "pasta"
+        "pasta",
+        "verdura",
+        "ortaggi",
+        "pesce",
+        "alici",
+        "frutta secca",
+        "uvetta"
       ],
       "allergeni": [
-        "cereali contenenti glutine"
+        "cereali contenenti glutine",
+        "pesce",
+        "anidride solforosa e solfiti",
+        "noci"
       ],
-      "tag_accessori_esclusi": [],
+      "tag_accessori_esclusi": [
+        "aromi",
+        "spezie",
+        "condimenti liquidi",
+        "condimenti"
+      ],
       "regole_matchate": [
-        "spaghetti"
+        "spaghetti",
+        "aglio",
+        "topinambur",
+        "alici",
+        "uva passa",
+        "mandorle",
+        "sale",
+        "farina",
+        "olio",
+        "olive"
       ],
       "modificato": true
     },
