@@ -273,6 +273,7 @@
 
 
 
+
 /* R18-068 — header, overlay ricerca e quick-meta unificati */
 .site-header nav{margin-left:auto;justify-content:flex-end;align-items:center;}
 .site-header .recipe-nav-back{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;font-size:24px;line-height:1;text-decoration:none;color:inherit;flex:0 0 auto;position:relative;top:-2px;}
@@ -885,76 +886,6 @@ document.addEventListener('DOMContentLoaded', function(){
     setTimeout(loadAllergens, 0);
   }
 })();</script>
-<div aria-hidden="true" class="recipe-term-search-overlay" id="recipeTermSearchOverlay">
-<div class="recipe-term-search-backdrop js-recipe-search-close"></div>
-<section aria-labelledby="recipeTermSearchTitle" aria-modal="true" class="recipe-term-search-dialog" role="dialog">
-<button aria-label="Chiudi" class="recipe-term-search-close js-recipe-search-close" type="button">×</button>
-<h2 id="recipeTermSearchTitle">Cerca nel ricettario</h2>
-<form action="../../indici/ricette.html" id="recipeTermSearchForm" method="get">
-<input autocomplete="off" class="recipe-term-search-input" id="recipeTermSearchInput" name="q" placeholder="Titolo, ingrediente, luogo…" type="search"/>
-<p class="recipe-term-search-hint">Inserisci un termine: l’indice Ricette si aprirà già filtrato.</p>
-<button class="recipe-term-search-submit" type="submit">Cerca</button>
-</form>
-</section>
-</div>
-<script id="recipe-term-search-script">
-(function(){
-  function initRecipeTermSearch(){
-    var openBtn=document.querySelector('.js-recipe-search-open');
-    var overlay=document.getElementById('recipeTermSearchOverlay');
-    var input=document.getElementById('recipeTermSearchInput');
-    var form=document.getElementById('recipeTermSearchForm');
-    if(!openBtn||!overlay||!input||!form) return;
-    function openSearch(){input.value='';overlay.classList.add('is-open');overlay.setAttribute('aria-hidden','false');setTimeout(function(){input.focus();},30);}
-    function closeSearch(){overlay.classList.remove('is-open');overlay.setAttribute('aria-hidden','true');}
-    openBtn.addEventListener('click',function(ev){ev.preventDefault();openSearch();});
-    document.querySelectorAll('.js-recipe-search-close').forEach(function(btn){btn.addEventListener('click',closeSearch);});
-    document.addEventListener('keydown',function(ev){if(ev.key==='Escape') closeSearch();});
-    form.addEventListener('submit',function(ev){
-      var q=(input.value||'').replace(/\s+/g,' ').trim();
-      if(!q){ev.preventDefault();input.focus();return;}
-      ev.preventDefault();
-      window.location.href='../../indici/ricette.html?q='+encodeURIComponent(q);
-    });
-  }
-  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',initRecipeTermSearch); else initRecipeTermSearch();
-})();
-</script>
-<div aria-hidden="true" class="recipe-term-search-overlay" id="recipeTermSearchOverlay">
-<div class="recipe-term-search-backdrop js-recipe-search-close"></div>
-<section aria-labelledby="recipeTermSearchTitle" aria-modal="true" class="recipe-term-search-dialog" role="dialog">
-<button aria-label="Chiudi" class="recipe-term-search-close js-recipe-search-close" type="button">×</button>
-<h2 id="recipeTermSearchTitle">Cerca nel ricettario</h2>
-<form action="../../indici/ricette.html" id="recipeTermSearchForm" method="get">
-<input autocomplete="off" class="recipe-term-search-input" id="recipeTermSearchInput" name="q" placeholder="Titolo, ingrediente, luogo…" type="search"/>
-<p class="recipe-term-search-hint">Inserisci un termine: l’indice Ricette si aprirà già filtrato.</p>
-<div class="recipe-term-search-actions"><button class="recipe-term-search-submit" type="submit">Cerca</button></div>
-</form>
-</section>
-</div>
-<script id="recipe-term-search-script">
-(function(){
-  function initRecipeTermSearch(){
-    var openBtn=document.querySelector('.js-recipe-search-open');
-    var overlay=document.getElementById('recipeTermSearchOverlay');
-    var input=document.getElementById('recipeTermSearchInput');
-    var form=document.getElementById('recipeTermSearchForm');
-    if(!openBtn||!overlay||!input||!form) return;
-    function openSearch(){input.value='';overlay.classList.add('is-open');overlay.setAttribute('aria-hidden','false');setTimeout(function(){input.focus();},30);}
-    function closeSearch(){overlay.classList.remove('is-open');overlay.setAttribute('aria-hidden','true');}
-    openBtn.addEventListener('click',function(ev){ev.preventDefault();openSearch();});
-    document.querySelectorAll('.js-recipe-search-close').forEach(function(btn){btn.addEventListener('click',closeSearch);});
-    document.addEventListener('keydown',function(ev){if(ev.key==='Escape') closeSearch();});
-    form.addEventListener('submit',function(ev){
-      var q=(input.value||'').replace(/\s+/g,' ').trim();
-      if(!q){ev.preventDefault();input.focus();return;}
-      ev.preventDefault();
-      window.location.href='../../indici/ricette.html?q='+encodeURIComponent(q);
-    });
-  }
-  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',initRecipeTermSearch); else initRecipeTermSearch();
-})();
-</script>
 <div aria-hidden="true" class="recipe-search-overlay" id="recipeSearchOverlay">
 <div class="recipe-search-backdrop js-recipe-search-close"></div>
 <section aria-labelledby="recipeSearchTitle" aria-modal="true" class="recipe-search-dialog" role="dialog">
