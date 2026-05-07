@@ -271,9 +271,6 @@
 }
 
 
-
-
-
 /* R18-068 — header, overlay ricerca e quick-meta unificati */
 .site-header nav{margin-left:auto;justify-content:flex-end;align-items:center;}
 .site-header .recipe-nav-back{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;font-size:24px;line-height:1;text-decoration:none;color:inherit;flex:0 0 auto;position:relative;top:-2px;}
@@ -302,6 +299,8 @@
 @media (max-width:760px){.site-header nav{margin-left:auto;justify-content:flex-end;gap:.32rem;}.site-header nav a{font-size:.95rem;letter-spacing:-.015em;}.site-header .recipe-nav-back{width:20px;height:22px;font-size:18px;top:-1px;}.site-header .site-search-button.recipe-nav-search{padding:.05rem 0;}.site-header .site-search-button.recipe-nav-search svg{width:.98em;height:.98em;}.recipe-quick-meta{gap:.05rem .34rem;}.recipe-quick-meta span{font-size:.94rem;line-height:1.5;}.recipe-quick-meta span:not(:last-child)::after{margin-left:.34rem;}}
 @media (max-width:640px){.recipe-search-dialog{top:4rem;right:1rem;left:1rem;width:auto;}}
 
+
+
 @media print{
   header.site-header,
   .page > .site-header,
@@ -327,8 +326,8 @@
 
 /* R18-003 — Ingredienti e tempi: mock implementato per valutazione complessiva */
 .recipe-quick-meta{
-  display:flex;
-  flex-wrap:wrap;
+  display:block;
+  line-height:1.55;
   gap:.55rem .75rem;
   max-width:min(100%, var(--reading));
   margin:1.1rem auto 2rem;
@@ -449,7 +448,6 @@
 }
 @media (max-width:768px){
   .recipe-quick-meta{margin-top:.8rem;}
-  .recipe-quick-meta span{flex:1 1 100%;}
   .ingredients-overlay{padding:.75rem;}
   .ingredients-overlay-panel{max-height:92vh;padding:.9rem;}
 }</style>
@@ -488,15 +486,15 @@ main figure img{cursor:zoom-in;}
 <tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr>
 </thead>
 <tbody>
-<tr><td>Canoccia</td><td>5</td><td>p.p.</td><td></td></tr>
+<tr><td>Canoccia</td><td>500</td><td>gr</td><td></td></tr>
 <tr><td>Sedano</td><td>1</td><td>gambo</td><td></td></tr>
 <tr><td>Insalata novella</td><td>qb</td><td></td><td></td></tr>
 <tr><td>Olio extra vergine d'oliva</td><td>qb</td><td></td><td></td></tr>
 <tr><td>Sale</td><td></td><td></td><td></td></tr><tr><td>Pepe bianco</td><td></td><td></td><td></td></tr><tr><td>Limone</td><td>1</td><td>n</td><td><br/></td></tr></tbody>
 </table>
 </div>
-</section><section class="block preparation-block"><h2>Preparazione</h2><ol class="steps"><li><p><strong>Le canocce</strong>.</p><p>Scelgo canocce (cicale di mare) vive e ben piene , cioè con la polpa consistente. La stagione migliore è quella invernale.</p></li><li><p><strong>La cottura.</strong></p><p>Le immergo in abbondante acqua bollente, aromatizzata con un mazzetto di prezzemolo e sedano. In alternativa, si possono cuocere a vapore.</p><p>Lascio cuocere per 5–6 minuti: devono diventare rossicce. Non prolungo la cottura, altrimenti tendono a svuotarsi.</p><p>Le raffreddo rapidamente in acqua fredda per fermare la cottura.</p></li><li><p><strong>L'apertura.</strong></p><div class="image-row" data-layout="image-row" data-row-group="row-1777807478342-fgk1fy" style="display:flex !important;flex-wrap:wrap !important;gap:12px !important;align-items:flex-start !important;justify-content:flex-start !important;clear:both !important;width:100% !important;margin:12px 0 !important;box-sizing:border-box !important;"><figure class="step-photo step-photo-right" style="display:block !important;float:none !important;clear:none !important;margin:0 !important;flex:0 0 calc((100% - 36px) / 4) !important;width:calc((100% - 36px) / 4) !important;max-width:calc((100% - 36px) / 4) !important;box-sizing:border-box !important;"><img src="../../foto/antipasto-di-canocce/02.jpg" style="width:100%;display:block;" width="176"/></figure><figure class="step-photo step-photo-right" style="display:block !important;float:none !important;clear:none !important;margin:0 !important;flex:0 0 calc((100% - 36px) / 4) !important;width:calc((100% - 36px) / 4) !important;max-width:calc((100% - 36px) / 4) !important;box-sizing:border-box !important;"><img src="../../foto/antipasto-di-canocce/03.jpg" style="width:100%;display:block;" width="268"/></figure></div><p>Passo quindi all’apertura, che sembra complessa ma non lo è. Taglio con forbici da cucina i bordi laterali, in corrispondenza delle articolazioni, per pochi millimetri, senza intaccare la polpa.</p><p>Sollevo poi delicatamente la parte inferiore del carapace partendo dalla coda, aiutandomi con le unghie, facendo attenzione a non lasciare attaccata la polpa.</p><p>Preferisco questo metodo perché permette di servire le canocce con la parte superiore del carapace integra e ben colorata.</p></li><li><p><strong>Disposizione.</strong></p><figure class="step-photo step-photo-right" style="width: 46%; max-width: 46%;"><img src="../../foto/antipasto-di-canocce/01.old.jpg"/></figure><p>Dispongo un letto di insalatina novella e vi adagio sopra le canocce, inizialmente rovesciate.</p><p>Condisco con prezzemolo tritato, sale, pepe bianco e poco olio extravergine di oliva, preferibilmente delicato.</p><p>Rivolto quindi le canocce, in modo che non assorbano troppo il condimento ma lo cedano all’insalatina sottostante.</p><p>Guarnisco con limone. il profumo, non il gusto</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><p>È una valutazione personale, ma le trovo superiori ad astici e aragoste: più delicate, più dolci, e con un carattere  tutto loro.</p></section></div>
-<footer class="site-footer recipe-footer"><div class="site-footer-left"><a aria-label="Licenza Creative Commons BY-NC-SA" class="cc-link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" title="Licenza Creative Commons BY-NC-SA"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><nav aria-label="Strumenti pagina" class="site-footer-center"><a aria-label="Informativa" class="site-footer-icon recipe-tool-info" href="../../informativa.html" title="Informativa"><img alt="" src="../../foto/ui/info-light.svg"/></a><a aria-label="Scrivimi" class="site-footer-icon recipe-tool-mail" href="../../scrivimi.html" title="Scrivimi"><img alt="" src="../../foto/ui/mail-light.svg"/></a><a aria-label="Stampa pagina" class="site-footer-icon js-print-link js-editorial-print-link recipe-tool-print" href="#" title="Stampa pagina"><img alt="" src="../../foto/ui/print-light.svg"/></a><a aria-label="Copia URL" class="site-footer-icon recipe-tool-link" href="#" title="Copia URL"><img alt="" src="../../foto/ui/link-light.svg"/></a></nav><div class="site-footer-right"><a aria-label="QR della ricetta" class="site-footer-qr-link recipe-qrcode-link" href="../../foto/antipasto-di-canocce/qr-code.png" title="QR della ricetta"><img alt="Antipasto di canocce" src="../../foto/antipasto-di-canocce/qr-code.png" title="Antipasto di canocce"/></a></div></footer>
+</section><section class="block preparation-block"><h2>Preparazione</h2><ol class="steps"><li><p><strong>Le canocce</strong>.</p><p>Scelgo canocce (cicale di mare) vive e ben piene , cioè con la polpa consistente. La stagione migliore è quella invernale.</p></li><li><p><strong>La cottura.</strong></p><p>Le immergo in abbondante acqua bollente, aromatizzata con un mazzetto di prezzemolo e sedano. In alternativa, si possono cuocere a vapore.</p><p>Lascio cuocere per 5–6 minuti: devono diventare rossicce. Non prolungo la cottura, altrimenti tendono a svuotarsi.</p><p>Le raffreddo rapidamente in acqua fredda per fermare la cottura.</p></li><li><p><strong>L'apertura.</strong></p><div class="image-row" data-layout="image-row" data-row-group="row-1778166962158-bf0vui" style="display:flex !important;flex-wrap:wrap !important;gap:12px !important;align-items:flex-start !important;justify-content:flex-start !important;clear:both !important;width:100% !important;margin:12px 0 !important;box-sizing:border-box !important;"><figure class="step-photo step-photo-right" style="display:block !important;float:none !important;clear:none !important;margin:0 !important;flex:0 0 calc((100% - 36px) / 4) !important;width:calc((100% - 36px) / 4) !important;max-width:calc((100% - 36px) / 4) !important;box-sizing:border-box !important;"><img src="../../foto/antipasto-di-canocce/02.jpg" style="width:100%;display:block;" width="176"/></figure><figure class="step-photo step-photo-right" style="display:block !important;float:none !important;clear:none !important;margin:0 !important;flex:0 0 calc((100% - 36px) / 4) !important;width:calc((100% - 36px) / 4) !important;max-width:calc((100% - 36px) / 4) !important;box-sizing:border-box !important;"><img src="../../foto/antipasto-di-canocce/03.jpg" style="width:100%;display:block;" width="268"/></figure></div><p>Passo quindi all’apertura, che sembra complessa ma non lo è. Taglio con forbici da cucina i bordi laterali, in corrispondenza delle articolazioni, per pochi millimetri, senza intaccare la polpa.</p><p>Sollevo poi delicatamente la parte inferiore del carapace partendo dalla coda, aiutandomi con le unghie, facendo attenzione a non lasciare attaccata la polpa.</p><p>Preferisco questo metodo perché permette di servire le canocce con la parte superiore del carapace integra e ben colorata.</p></li><li><p><strong>Disposizione.</strong></p><figure class="step-photo step-photo-right" style="width: 46%; max-width: 46%;"><img src="../../foto/antipasto-di-canocce/01.old.jpg"/></figure><p>Dispongo un letto di insalatina novella e vi adagio sopra le canocce, inizialmente rovesciate.</p><p>Condisco con prezzemolo tritato, sale, pepe bianco e poco olio extravergine di oliva, preferibilmente delicato.</p><p>Rivolto quindi le canocce, in modo che non assorbano troppo il condimento ma lo cedano all’insalatina sottostante.</p><p>Guarnisco con limone. il profumo, non il gusto</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><p>È una valutazione personale, ma le trovo superiori ad astici e aragoste: più delicate, più dolci, e con un carattere  tutto loro.</p></section></div>
+<footer class="site-footer recipe-footer"><div class="site-footer-left"><a aria-label="Licenza Creative Commons BY-NC-SA" class="cc-link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><nav aria-label="Strumenti pagina" class="site-footer-center"><a aria-label="Informativa" class="site-footer-icon recipe-tool-info" href="../../informativa.html" title="Informativa"><img alt="" src="../../foto/ui/info-light.svg"/></a><a aria-label="Scrivimi" class="site-footer-icon recipe-tool-mail" href="../../scrivimi.html" title="Scrivimi"><img alt="" src="../../foto/ui/mail-light.svg"/></a><a aria-label="Stampa pagina" class="site-footer-icon js-print-link js-editorial-print-link recipe-tool-print" href="#" title="Stampa pagina"><img alt="" src="../../foto/ui/print-light.svg"/></a><a aria-label="Copia URL" class="site-footer-icon recipe-tool-link" href="#" title="Copia URL"><img alt="" src="../../foto/ui/link-light.svg"/></a></nav><div class="site-footer-right"><a aria-label="QR della ricetta" class="site-footer-qr-link recipe-qrcode-link" href="../../foto/antipasto-di-canocce/qr-code.png" title="QR della ricetta"><img alt="QR della ricetta" src="../../foto/antipasto-di-canocce/qr-code.png" title="QR della ricetta"/></a></div></footer>
 </main>
 </main>
 </div>
@@ -542,8 +540,8 @@ document.addEventListener('DOMContentLoaded', function(){
         var img = link.querySelector('img');
         if(!img) return;
         outImg.src = img.currentSrc || img.src;
-        outImg.alt = img.alt || 'QR ricetta';
-        caption.textContent = img.alt || 'QR ricetta';
+        outImg.alt = img.alt || link.getAttribute('aria-label') || 'QR della ricetta';
+        caption.textContent = link.getAttribute('title') || link.getAttribute('aria-label') || img.alt || 'QR della ricetta';
         overlay.classList.remove('is-hidden');
       });
     });
@@ -583,7 +581,7 @@ document.addEventListener('DOMContentLoaded', function(){
     return overlay;
   }
 
-  var PRINT_ENGINE_SRC = '../../foto/ui/recipe-editorial-print.js?v=CMS2-R18-053';
+  var PRINT_ENGINE_SRC = '../../foto/ui/recipe-editorial-print.js?v=CMS2-R18-071';
   var printEnginePromise = null;
 
   function loadRecipeEditorialPrintEngine(){
@@ -709,22 +707,25 @@ document.addEventListener('DOMContentLoaded', function(){
         var key = normalizeLabel(strong && strong.textContent);
         if(secondaryLabels[key]) card.classList.add('recipe-meta-secondary');
       });
-      if(document.querySelector('.recipe-quick-meta')) return;
+      var existingQuick = document.querySelector('.recipe-quick-meta');
       var items = [
         ['Porzioni', getMetaValue('Porzioni')],
         ['Tempo attivo', getMetaValue('Tempo attivo')],
         ['Cottura', getMetaValue('Tempo cottura')],
         ['Riposo', getMetaValue('Tempo riposo')],
-        ['Totale', getMetaValue('Tempo totale')]
+        ['Totale', getMetaValue('Tempo totale')],
+        ['Kcal indicative', getMetaValue('Kcal indicative')]
       ].filter(function(x){ return !!x[1]; });
       if(!items.length) return;
-      var quick = document.createElement('section');
+      var quick = existingQuick || document.createElement('section');
       quick.className = 'recipe-quick-meta';
-      quick.setAttribute('aria-label', 'Tempi e porzioni');
-      quick.innerHTML = items.map(function(x){
-        return '<span><strong>' + x[0] + ':</strong> ' + x[1] + '</span>';
-      }).join('<span class="recipe-quick-meta-sep" aria-hidden="true">|</span>');
-      grid.insertAdjacentElement('afterend', quick);
+      quick.setAttribute('aria-label', 'Tempi, porzioni, kcal indicative e allergeni');
+      if(quick.querySelector('.recipe-time-meta')) return;
+      var allergens = quick.querySelector('.recipe-allergens-meta');
+      var timeHtml = items.map(function(x){ return '<span class="recipe-time-meta"><strong>' + x[0] + ':</strong> ' + x[1] + '</span>'; }).join('<span class="recipe-quick-meta-sep" aria-hidden="true">|</span>');
+      if(allergens){ quick.insertAdjacentHTML('afterbegin', timeHtml + '<span class="recipe-quick-meta-sep" aria-hidden="true">|</span>'); }
+      else { quick.innerHTML = timeHtml; }
+      if(!existingQuick) grid.insertAdjacentElement('afterend', quick);
     }
 
     function ensureIngredientsOverlay(){
@@ -831,7 +832,7 @@ document.addEventListener('DOMContentLoaded', function(){
     if(!grid) return null;
     quick = document.createElement('section');
     quick.className = 'recipe-quick-meta';
-    quick.setAttribute('aria-label', 'Tempi, porzioni e allergeni');
+    quick.setAttribute('aria-label', 'Tempi, porzioni, kcal indicative e allergeni');
     grid.insertAdjacentElement('afterend', quick);
     return quick;
   }
@@ -873,7 +874,7 @@ document.addEventListener('DOMContentLoaded', function(){
         var found = items.find(function(item){ return item && item.slug === slug; });
         if(found && found.allergeni) renderAllergens(found.allergeni);
       })
-      .catch(function(err){ try{ console.warn('[ALLERGENI] quick-meta runtime non aggiornata; resta eventuale HTML statico', err); }catch(_e){} });
+      .catch(function(err){ try{ console.warn('[ALLERGENI] quick-meta non aggiornata', err); }catch(_e){} });
   }
 
   if(document.readyState === 'loading'){

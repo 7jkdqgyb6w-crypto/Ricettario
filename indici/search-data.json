@@ -109,14 +109,16 @@
     "geografia": "Italia - Campania",
     "regime_minimo": "onnivoro",
     "stagioni": [
+      "autunno",
       "inverno"
     ],
     "ingredienti_chiave": [],
     "termini_ricerca": [],
     "allergeni": [
+      "cereali contenenti glutine",
       "sedano"
     ],
-    "search_text": "arista alla birra secondi italia - campania nicola d. questa ricetta mi arriva da nicola, anzi dalla sua ex moglie. è una di quelle preparazioni che richiedono tempo più che tecnica: la carne cuoce lentamente nella birra e si trasforma, diventando morbida e saporita. io… arista di maiale birra ambrata prezzemolo alloro sedano cipolla timo salvia menta bacche di ginepro pepe sedano inverno onnivoro",
+    "search_text": "arista alla birra secondi italia - campania nicola d. questa ricetta mi arriva da nicola, anzi dalla sua ex moglie. è una di quelle preparazioni che richiedono tempo più che tecnica: la carne cuoce lentamente nella birra e si trasforma, diventando morbida e saporita. io… arista di maiale birra ambrata prezzemolo melograno funghi settembrini alloro sedano cipolla timo salvia menta bacche di ginepro pepe cereali contenenti glutine sedano autunno inverno onnivoro",
     "metadati_fonte": "auto",
     "href": "../ricette/arista-alla-birra/index.html",
     "img": "../foto/arista-alla-birra/01.jpg"

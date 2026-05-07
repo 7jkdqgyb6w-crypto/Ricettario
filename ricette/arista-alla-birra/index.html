@@ -271,9 +271,6 @@
 }
 
 
-
-
-
 /* R18-068 — header, overlay ricerca e quick-meta unificati */
 .site-header nav{margin-left:auto;justify-content:flex-end;align-items:center;}
 .site-header .recipe-nav-back{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;font-size:24px;line-height:1;text-decoration:none;color:inherit;flex:0 0 auto;position:relative;top:-2px;}
@@ -302,6 +299,8 @@
 @media (max-width:760px){.site-header nav{margin-left:auto;justify-content:flex-end;gap:.32rem;}.site-header nav a{font-size:.95rem;letter-spacing:-.015em;}.site-header .recipe-nav-back{width:20px;height:22px;font-size:18px;top:-1px;}.site-header .site-search-button.recipe-nav-search{padding:.05rem 0;}.site-header .site-search-button.recipe-nav-search svg{width:.98em;height:.98em;}.recipe-quick-meta{gap:.05rem .34rem;}.recipe-quick-meta span{font-size:.94rem;line-height:1.5;}.recipe-quick-meta span:not(:last-child)::after{margin-left:.34rem;}}
 @media (max-width:640px){.recipe-search-dialog{top:4rem;right:1rem;left:1rem;width:auto;}}
 
+
+
 @media print{
   header.site-header,
   .page > .site-header,
@@ -327,8 +326,8 @@
 
 /* R18-003 — Ingredienti e tempi: mock implementato per valutazione complessiva */
 .recipe-quick-meta{
-  display:flex;
-  flex-wrap:wrap;
+  display:block;
+  line-height:1.55;
   gap:.55rem .75rem;
   max-width:min(100%, var(--reading));
   margin:1.1rem auto 2rem;
@@ -449,7 +448,6 @@
 }
 @media (max-width:768px){
   .recipe-quick-meta{margin-top:.8rem;}
-  .recipe-quick-meta span{flex:1 1 100%;}
   .ingredients-overlay{padding:.75rem;}
   .ingredients-overlay-panel{max-height:92vh;padding:.9rem;}
 }</style>
@@ -480,8 +478,8 @@ main figure img{cursor:zoom-in;}
 </header>
 <main class="recipe-page">
 <main class="recipe-page">
-<div class="recipe-content"><h1>Arista alla birra</h1><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Secondi</span></div><div class="meta-card"><strong>Geografia</strong><span>Italia - Campania</span></div><div class="meta-card"><strong>Fonte</strong><span>Nicola D.</span></div><div class="meta-card"><strong>Porzioni</strong><span>4-6</span></div><div class="meta-card"><strong>Tempo attivo</strong><span>30-45 min</span></div><div class="meta-card"><strong>Tempo cottura</strong><span>2 h circa</span></div><div class="meta-card"><strong>Tempo riposo</strong><span></span></div><div class="meta-card"><strong>Tempo totale</strong><span>da verificare</span></div></section><section aria-label="Tempi, porzioni, kcal indicative e allergeni" class="recipe-quick-meta"><span class="recipe-time-meta"><strong>Porzioni:</strong> 4-6</span><span class="recipe-time-meta"><strong>Tempo attivo:</strong> 30-45 min</span><span class="recipe-time-meta"><strong>Cottura:</strong> 2 h circa</span><span class="recipe-time-meta"><strong>Totale:</strong> da verificare</span><span class="recipe-allergens-meta"><strong>Allergeni:</strong> sedano</span></section><section class="lead"><h2>Introduzione e contesto</h2><figure class="step-photo-large step-photo" style="width: 595px; max-width: 100%;"><img src="../../foto/arista-alla-birra/01.jpg" width="595"/></figure><p>Questa ricetta mi arriva da Nicola, anzi dalla sua ex moglie. È una di quelle preparazioni che richiedono tempo più che tecnica: la carne cuoce lentamente nella birra e si trasforma, diventando morbida e saporita. Io preferisco usare anche la parte iniziale dell’arista, più ricca di collagene, perché regge meglio la lunga cottura e dà più struttura al piatto.</p></section><section class="block ingredients-block"><h2>Ingredienti</h2><div class="table-wrap"><table class="recipe-table ingredients-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Arista di maiale</td><td>1,5</td><td>Kg</td><td>(lonza)</td></tr><tr><td>Birra ambrata</td><td>2x60</td><td>cl</td><td></td></tr><tr><td>Prezzemolo</td><td></td><td></td><td></td></tr><tr><td>Alloro</td><td>1</td><td>foglia</td><td></td></tr><tr><td>Sedano</td><td>2</td><td>gambi</td><td></td></tr><tr><td>Cipolla</td><td>1</td><td>n</td><td></td></tr><tr><td>Timo</td><td></td><td></td><td></td></tr><tr><td>Salvia</td><td></td><td></td><td></td></tr><tr><td>Menta</td><td></td><td></td><td></td></tr><tr><td>Bacche di ginepro</td><td>4</td><td>bacche</td><td></td></tr><tr><td>Pepe</td><td><br/></td><td></td><td></td></tr></tbody></table></div></section><section class="block preparation-block"><h2>Preparazione</h2><ol class="steps"><li><p><strong>L'arista.</strong></p><p>Per far stare il trancio in pentola lo lego per accorciarlo. Lo tengo fuori dal frigo almeno un paio d’ore e lo massaggio con un cucchiaino di zucchero, che favorisce la reazione di Maillard, cioè la caramellizzazione delle proteine in superficie, e aiuta la formazione della crosticina. Rosolo in poco olio EVO fino a ottenere non solo la chiusura dei pori, ma anche una crosticina su tutta la superficie.</p></li><li><p><strong>La cottura.</strong></p><p>A questo punto aggiungo la birra fino a coprire la carne e unisco le erbe e gli aromi. Metto pochissimo sale e un cucchiaino di brodo vegetale. Copro e cuocio per circa un’ora a fuoco bassissimo. Poi apro e lascio asciugare lentamente. Tolgo le erbe. A piacere posso aggiungere funghi, per esempio cannellini (settembrini) secchi, ma anche altre varietà. Proseguo la cottura fino a ottenere un sugo molto concentrato.</p><p>In totale ci vogliono circa altre 2 ore di cottura, ma dipende dal sugo, che deve risultare leggermente denso, e dalla carne, che deve tagliarsi facilmente (almeno in superficie).</p></li><li><p><strong>Il melograno.</strong></p><p>Sgrano il melograno (in rete si trovano diversi modi per farlo facilmente).</p></li><li><p><strong>Presentazione.</strong></p><figure class="step-photo step-photo-right" style="width: 170px; max-width: 100%;"><img src="../../foto/arista-alla-birra/IMG_1718.jpg" width="170"/><figcaption>In tavola!</figcaption></figure><p>Taglio l’arista a fette sottili, per quanto possibile. Le allineo su un piatto di portata caldo, copro con il sugo ai funghi e completo con il melograno.</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><p>La riuscita dipende da una cottura dolce e continua, senza accelerare i tempi.</p><p>Se il sugo si concentra troppo, allungarlo con poco liquido di cottura o brodo caldo.</p></section></div>
-<footer class="site-footer recipe-footer"><div class="site-footer-left"><a aria-label="Licenza Creative Commons BY-NC-SA" class="cc-link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" title="Licenza Creative Commons BY-NC-SA"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><nav aria-label="Strumenti pagina" class="site-footer-center"><a aria-label="Informativa" class="site-footer-icon recipe-tool-info" href="../../informativa.html" title="Informativa"><img alt="" src="../../foto/ui/info-light.svg"/></a><a aria-label="Scrivimi" class="site-footer-icon recipe-tool-mail" href="../../scrivimi.html" title="Scrivimi"><img alt="" src="../../foto/ui/mail-light.svg"/></a><a aria-label="Stampa pagina" class="site-footer-icon js-print-link js-editorial-print-link recipe-tool-print" href="#" title="Stampa pagina"><img alt="" src="../../foto/ui/print-light.svg"/></a><a aria-label="Copia URL" class="site-footer-icon recipe-tool-link" href="#" title="Copia URL"><img alt="" src="../../foto/ui/link-light.svg"/></a></nav><div class="site-footer-right"><a aria-label="QR della ricetta" class="site-footer-qr-link recipe-qrcode-link" href="../../foto/arista-alla-birra/qr-code.png" title="QR della ricetta"><img alt="Arista alla birra" src="../../foto/arista-alla-birra/qr-code.png" title="Arista alla birra"/></a></div></footer>
+<div class="recipe-content"><h1>Arista alla birra</h1><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Secondi</span></div><div class="meta-card"><strong>Geografia</strong><span>Italia - Campania</span></div><div class="meta-card"><strong>Fonte</strong><span>Nicola D.</span></div><div class="meta-card"><strong>Porzioni</strong><span>4-6</span></div><div class="meta-card"><strong>Tempo attivo</strong><span>30-45 min</span></div><div class="meta-card"><strong>Tempo cottura</strong><span>2 h circa</span></div><div class="meta-card"><strong>Tempo riposo</strong><span></span></div><div class="meta-card"><strong>Tempo totale</strong><span>da verificare</span></div></section><section aria-label="Tempi, porzioni, kcal indicative e allergeni" class="recipe-quick-meta"><span class="recipe-time-meta"><strong>Porzioni:</strong> 4-6</span><span class="recipe-time-meta"><strong>Tempo attivo:</strong> 30-45 min</span><span class="recipe-time-meta"><strong>Cottura:</strong> 2 h circa</span><span class="recipe-time-meta"><strong>Totale:</strong> da verificare</span><span class="recipe-allergens-meta"><strong>Allergeni:</strong> sedano</span></section><section class="lead"><h2>Introduzione e contesto</h2><figure class="step-photo-large step-photo" style="width: 595px; max-width: 100%;"><img src="../../foto/arista-alla-birra/01.jpg" width="595"/></figure><p>Questa ricetta mi arriva da Nicola, anzi dalla sua ex moglie. È una di quelle preparazioni che richiedono tempo più che tecnica: la carne cuoce lentamente nella birra e si trasforma, diventando morbida e saporita. Io preferisco usare anche la parte iniziale dell’arista, più ricca di collagene, perché regge meglio la lunga cottura e dà più struttura al piatto.</p></section><section class="block ingredients-block"><h2>Ingredienti</h2><div class="table-wrap"><table class="recipe-table ingredients-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Arista di maiale</td><td>1,5</td><td>Kg</td><td>(lonza)</td></tr><tr><td>Birra ambrata</td><td>2x60</td><td>cl</td><td></td></tr><tr><td>Prezzemolo</td><td>qb</td><td></td><td></td></tr><tr><td>Melograno</td><td>1</td><td>n</td><td></td></tr><tr><td>Funghi settembrini</td><td>150</td><td>gr</td><td>Essiccati</td></tr><tr><td>Alloro</td><td>1</td><td>foglia</td><td></td></tr><tr><td>Sedano</td><td>2</td><td>gambi</td><td></td></tr><tr><td>Cipolla</td><td>1</td><td>n</td><td></td></tr><tr><td>Timo</td><td></td><td></td><td></td></tr><tr><td>Salvia</td><td></td><td></td><td></td></tr><tr><td>Menta</td><td></td><td></td><td></td></tr><tr><td>Bacche di ginepro</td><td>4</td><td>bacche</td><td></td></tr><tr><td>Pepe</td><td><br/></td><td></td><td></td></tr></tbody></table></div></section><section class="block preparation-block"><h2>Preparazione</h2><ol class="steps"><li><p><strong>L'arista.</strong></p><p>Per far stare il trancio in pentola lo lego per accorciarlo. Lo tengo fuori dal frigo almeno un paio d’ore e lo massaggio con un cucchiaino di zucchero, che favorisce la reazione di Maillard, cioè la caramellizzazione delle proteine in superficie, e aiuta la formazione della crosticina. Rosolo in poco olio EVO fino a ottenere non solo la chiusura dei pori, ma anche una crosticina su tutta la superficie.</p></li><li><p><strong>La cottura.</strong></p><p>A questo punto aggiungo la birra fino a coprire la carne e unisco le erbe e gli aromi. Metto pochissimo sale e un cucchiaino di brodo vegetale. Copro e cuocio per circa un’ora a fuoco bassissimo. Poi apro e lascio asciugare lentamente. Tolgo le erbe. A piacere posso aggiungere funghi, per esempio cannellini (settembrini) secchi, ma anche altre varietà. Proseguo la cottura fino a ottenere un sugo molto concentrato.</p><p>In totale ci vogliono circa altre 2 ore di cottura, ma dipende dal sugo, che deve risultare leggermente denso, e dalla carne, che deve tagliarsi facilmente (almeno in superficie).</p></li><li><p><strong>Il melograno.</strong></p><p>Sgrano il melograno (in rete si trovano diversi modi per farlo facilmente).</p></li><li><p><strong>Presentazione.</strong></p><figure class="step-photo step-photo-right" style="width: 170px; max-width: 100%;"><img src="../../foto/arista-alla-birra/IMG_1718.jpg" width="170"/><figcaption>In tavola!</figcaption></figure><p>Taglio l’arista a fette sottili, per quanto possibile. Le allineo su un piatto di portata caldo, copro con il sugo ai funghi e completo con il melograno.</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><p>La riuscita dipende da una cottura dolce e continua, senza accelerare i tempi.</p><p>Se il sugo si concentra troppo, allungarlo con poco liquido di cottura o brodo caldo.</p></section></div>
+<footer class="site-footer recipe-footer"><div class="site-footer-left"><a aria-label="Licenza Creative Commons BY-NC-SA" class="cc-link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><nav aria-label="Strumenti pagina" class="site-footer-center"><a aria-label="Informativa" class="site-footer-icon recipe-tool-info" href="../../informativa.html" title="Informativa"><img alt="" src="../../foto/ui/info-light.svg"/></a><a aria-label="Scrivimi" class="site-footer-icon recipe-tool-mail" href="../../scrivimi.html" title="Scrivimi"><img alt="" src="../../foto/ui/mail-light.svg"/></a><a aria-label="Stampa pagina" class="site-footer-icon js-print-link js-editorial-print-link recipe-tool-print" href="#" title="Stampa pagina"><img alt="" src="../../foto/ui/print-light.svg"/></a><a aria-label="Copia URL" class="site-footer-icon recipe-tool-link" href="#" title="Copia URL"><img alt="" src="../../foto/ui/link-light.svg"/></a></nav><div class="site-footer-right"><a aria-label="QR della ricetta" class="site-footer-qr-link recipe-qrcode-link" href="../../foto/arista-alla-birra/qr-code.png" title="QR della ricetta"><img alt="QR della ricetta" src="../../foto/arista-alla-birra/qr-code.png" title="QR della ricetta"/></a></div></footer>
 </main>
 </main>
 </div>
@@ -527,8 +525,8 @@ document.addEventListener('DOMContentLoaded', function(){
         var img = link.querySelector('img');
         if(!img) return;
         outImg.src = img.currentSrc || img.src;
-        outImg.alt = img.alt || 'QR ricetta';
-        caption.textContent = img.alt || 'QR ricetta';
+        outImg.alt = img.alt || link.getAttribute('aria-label') || 'QR della ricetta';
+        caption.textContent = link.getAttribute('title') || link.getAttribute('aria-label') || img.alt || 'QR della ricetta';
         overlay.classList.remove('is-hidden');
       });
     });
@@ -568,7 +566,7 @@ document.addEventListener('DOMContentLoaded', function(){
     return overlay;
   }
 
-  var PRINT_ENGINE_SRC = '../../foto/ui/recipe-editorial-print.js?v=CMS2-R18-053';
+  var PRINT_ENGINE_SRC = '../../foto/ui/recipe-editorial-print.js?v=CMS2-R18-071';
   var printEnginePromise = null;
 
   function loadRecipeEditorialPrintEngine(){
@@ -694,22 +692,25 @@ document.addEventListener('DOMContentLoaded', function(){
         var key = normalizeLabel(strong && strong.textContent);
         if(secondaryLabels[key]) card.classList.add('recipe-meta-secondary');
       });
-      if(document.querySelector('.recipe-quick-meta')) return;
+      var existingQuick = document.querySelector('.recipe-quick-meta');
       var items = [
         ['Porzioni', getMetaValue('Porzioni')],
         ['Tempo attivo', getMetaValue('Tempo attivo')],
         ['Cottura', getMetaValue('Tempo cottura')],
         ['Riposo', getMetaValue('Tempo riposo')],
-        ['Totale', getMetaValue('Tempo totale')]
+        ['Totale', getMetaValue('Tempo totale')],
+        ['Kcal indicative', getMetaValue('Kcal indicative')]
       ].filter(function(x){ return !!x[1]; });
       if(!items.length) return;
-      var quick = document.createElement('section');
+      var quick = existingQuick || document.createElement('section');
       quick.className = 'recipe-quick-meta';
-      quick.setAttribute('aria-label', 'Tempi e porzioni');
-      quick.innerHTML = items.map(function(x){
-        return '<span><strong>' + x[0] + ':</strong> ' + x[1] + '</span>';
-      }).join('<span class="recipe-quick-meta-sep" aria-hidden="true">|</span>');
-      grid.insertAdjacentElement('afterend', quick);
+      quick.setAttribute('aria-label', 'Tempi, porzioni, kcal indicative e allergeni');
+      if(quick.querySelector('.recipe-time-meta')) return;
+      var allergens = quick.querySelector('.recipe-allergens-meta');
+      var timeHtml = items.map(function(x){ return '<span class="recipe-time-meta"><strong>' + x[0] + ':</strong> ' + x[1] + '</span>'; }).join('<span class="recipe-quick-meta-sep" aria-hidden="true">|</span>');
+      if(allergens){ quick.insertAdjacentHTML('afterbegin', timeHtml + '<span class="recipe-quick-meta-sep" aria-hidden="true">|</span>'); }
+      else { quick.innerHTML = timeHtml; }
+      if(!existingQuick) grid.insertAdjacentElement('afterend', quick);
     }
 
     function ensureIngredientsOverlay(){
@@ -816,7 +817,7 @@ document.addEventListener('DOMContentLoaded', function(){
     if(!grid) return null;
     quick = document.createElement('section');
     quick.className = 'recipe-quick-meta';
-    quick.setAttribute('aria-label', 'Tempi, porzioni e allergeni');
+    quick.setAttribute('aria-label', 'Tempi, porzioni, kcal indicative e allergeni');
     grid.insertAdjacentElement('afterend', quick);
     return quick;
   }
@@ -858,7 +859,7 @@ document.addEventListener('DOMContentLoaded', function(){
         var found = items.find(function(item){ return item && item.slug === slug; });
         if(found && found.allergeni) renderAllergens(found.allergeni);
       })
-      .catch(function(err){ try{ console.warn('[ALLERGENI] quick-meta runtime non aggiornata; resta eventuale HTML statico', err); }catch(_e){} });
+      .catch(function(err){ try{ console.warn('[ALLERGENI] quick-meta non aggiornata', err); }catch(_e){} });
   }
 
   if(document.readyState === 'loading'){

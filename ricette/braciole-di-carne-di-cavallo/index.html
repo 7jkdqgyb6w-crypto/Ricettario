@@ -17,6 +17,27 @@
 .recipe-page .recipe-content > h1{
   margin: 0 0 1.2rem 0;
 }
+.recipe-page .meta-grid{
+  display:grid;
+  grid-template-columns:repeat(4, minmax(0, 1fr));
+  gap:.85rem 1.5rem;
+  margin-bottom:1.05rem;
+}
+.recipe-page .meta-grid .meta-card{
+  padding-top:.42rem;
+}
+.recipe-page .meta-grid .meta-card strong{
+  margin-bottom:.08rem;
+}
+.recipe-page .meta-grid .meta-card:nth-child(n+5){
+  display:none !important;
+}
+@media (max-width: 900px){
+  .recipe-page .meta-grid{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap:.75rem 1.15rem;
+  }
+}
 .site-header nav{
   display:flex;
   align-items:center;
@@ -250,9 +271,6 @@
 }
 
 
-
-
-
 /* R18-068 — header, overlay ricerca e quick-meta unificati */
 .site-header nav{margin-left:auto;justify-content:flex-end;align-items:center;}
 .site-header .recipe-nav-back{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;font-size:24px;line-height:1;text-decoration:none;color:inherit;flex:0 0 auto;position:relative;top:-2px;}
@@ -281,6 +299,8 @@
 @media (max-width:760px){.site-header nav{margin-left:auto;justify-content:flex-end;gap:.32rem;}.site-header nav a{font-size:.95rem;letter-spacing:-.015em;}.site-header .recipe-nav-back{width:20px;height:22px;font-size:18px;top:-1px;}.site-header .site-search-button.recipe-nav-search{padding:.05rem 0;}.site-header .site-search-button.recipe-nav-search svg{width:.98em;height:.98em;}.recipe-quick-meta{gap:.05rem .34rem;}.recipe-quick-meta span{font-size:.94rem;line-height:1.5;}.recipe-quick-meta span:not(:last-child)::after{margin-left:.34rem;}}
 @media (max-width:640px){.recipe-search-dialog{top:4rem;right:1rem;left:1rem;width:auto;}}
 
+
+
 @media print{
   header.site-header,
   .page > .site-header,
@@ -306,8 +326,8 @@
 
 /* R18-003 — Ingredienti e tempi: mock implementato per valutazione complessiva */
 .recipe-quick-meta{
-  display:flex;
-  flex-wrap:wrap;
+  display:block;
+  line-height:1.55;
   gap:.55rem .75rem;
   max-width:min(100%, var(--reading));
   margin:1.1rem auto 2rem;
@@ -428,33 +448,8 @@
 }
 @media (max-width:768px){
   .recipe-quick-meta{margin-top:.8rem;}
-  .recipe-quick-meta span{flex:1 1 100%;}
   .ingredients-overlay{padding:.75rem;}
   .ingredients-overlay-panel{max-height:92vh;padding:.9rem;}
-}
-
-
-/* R18-035 — metadati principali su 4 colonne, secondari nella quick-meta */
-.recipe-page .meta-grid{
-  display:grid;
-  grid-template-columns:repeat(4, minmax(0, 1fr));
-  gap:.85rem 1.5rem;
-  margin-bottom:1.05rem;
-}
-.recipe-page .meta-grid .meta-card{
-  padding-top:.42rem;
-}
-.recipe-page .meta-grid .meta-card strong{
-  margin-bottom:.08rem;
-}
-.recipe-page .meta-grid .meta-card:nth-child(n+5){
-  display:none !important;
-}
-@media (max-width: 900px){
-  .recipe-page .meta-grid{
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap:.75rem 1.15rem;
-  }
 }</style>
 <style id="recipe-lightbox-style">.recipe-lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.88);display:flex;align-items:center;justify-content:center;padding:2rem;z-index:9999;cursor:zoom-out;}
 .recipe-lightbox-overlay.is-hidden{display:none !important;}
@@ -483,8 +478,8 @@ main figure img{cursor:zoom-in;}
 </header>
 <main class="recipe-page">
 <main class="recipe-page">
-<div class="recipe-content"><h1>Braciole di carne di cavallo</h1><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Primi</span></div><div class="meta-card"><strong>Geografia</strong><span>Italia - Puglia</span></div><div class="meta-card"><strong>Fonte</strong><span>Nicola F.</span></div></section><section aria-label="Tempi, porzioni, kcal indicative e allergeni" class="recipe-quick-meta"><span class="recipe-allergens-meta"><strong>Allergeni:</strong> latte</span></section><section class="lead"><h2>Introduzione e contesto</h2><figure class="step-photo step-photo-large" style="width: 651.786px; max-width: 100%;"><img src="../../foto/braciole-di-carne-di-cavallo/01.jpg" width="651.7857666015625"/></figure><p>Questa è una ricetta pugliese, ma io la considero soprattutto per quello che diventa nel piatto: un sugo ricco per la pasta.</p><p>Le bracioline di cavallo cuociono lentamente nel pomodoro a lungo, rilasciando sapore e struttura. Il risultato non è solo carne tenera, ma un fondo denso e profondo, che si lega perfettamente alle orecchiette.</p><p>Io le preparo pensando proprio a questo: non al secondo, ma al primo. Le bracioline restano nel piatto, ma sono parte del condimento, non il centro.</p></section><section class="block ingredients-block"><h2>Ingredienti</h2><div class="table-wrap"><table class="recipe-table ingredients-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Polpa di cavallo a fettine</td><td>800</td><td>g</td><td>non troppo sottili</td></tr><tr><td>Passato di pomodoro</td><td>300</td><td>g</td><td></td></tr><tr><td>Olio extra vergine d'oliva</td><td>1</td><td>bicchiere</td><td></td></tr><tr><td>Vino rosso </td><td>1</td><td>bicchiere</td><td></td></tr><tr><td>Cipolla viola </td><td>1</td><td>n</td><td></td></tr><tr><td>Aglio </td><td></td><td></td><td></td></tr><tr><td>Prezzemolo </td><td></td><td></td><td></td></tr><tr><td>Alloro </td><td></td><td></td><td></td></tr><tr><td>Sale</td><td></td><td></td><td></td></tr><tr><td>Pepe</td><td></td><td></td><td></td></tr><tr><td>Pecorino romano DOP</td><td></td><td></td><td></td></tr></tbody></table></div></section><section class="preparation-block block"><h2>Preparazione</h2><ol class="steps"><li><p><strong>La carne.</strong></p><p>Stendo le fettine di carne di cavallo sul tagliere. Le condisco con sale e pepe, poi aggiungo qualche foglia di prezzemolo, qualche lamella di aglio e qualche cubetto di pecorino.</p></li><li><p><strong>Gli involtini.</strong></p><p>Arrotolo le fettine formando degli involtini e li fermo con uno stecchino.</p></li><li><p><strong>La cottura.</strong></p><p>In una padella dai bordi alti faccio scaldare l’olio con la cipolla affettata. Quando è appassita, aggiungo le bracioline e le faccio rosolare bene da tutti i lati a fuoco medio.</p><p>Sfumo con il vino rosso e lo faccio evaporare.</p><p>Aggiungo la passata di pomodoro, copro e lascio cuocere molto lentamente per circa due ore.</p></li><li><p><strong>Vino.</strong></p><p>Primitivo, Rosso del Salento o Rosso di Cerignola.</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><p>Il sugo deve cuocere lentamente: è una preparazione lunga, ma è lì che si sviluppa il sapore.</p><p>Le bracioline diventano molto tenere e rilasciano parte del loro gusto nel sugo.</p></section></div>
-<footer class="site-footer recipe-footer"><div class="site-footer-left"><a aria-label="Licenza Creative Commons BY-NC-SA" class="cc-link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" title="Licenza Creative Commons BY-NC-SA"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><nav aria-label="Strumenti pagina" class="site-footer-center"><a aria-label="Informativa" class="site-footer-icon recipe-tool-info" href="../../informativa.html" title="Informativa"><img alt="" src="../../foto/ui/info-light.svg"/></a><a aria-label="Scrivimi" class="site-footer-icon recipe-tool-mail" href="../../scrivimi.html" title="Scrivimi"><img alt="" src="../../foto/ui/mail-light.svg"/></a><a aria-label="Stampa pagina" class="site-footer-icon js-print-link js-editorial-print-link recipe-tool-print" href="#" title="Stampa pagina"><img alt="" src="../../foto/ui/print-light.svg"/></a><a aria-label="Copia URL" class="site-footer-icon recipe-tool-link" href="#" title="Copia URL"><img alt="" src="../../foto/ui/link-light.svg"/></a></nav><div class="site-footer-right"><a aria-label="QR della ricetta" class="site-footer-qr-link recipe-qrcode-link" href="../../foto/braciole-di-carne-di-cavallo/qr-code.png" title="QR della ricetta"><img alt="Braciole di carne di cavallo" src="../../foto/braciole-di-carne-di-cavallo/qr-code.png" title="Braciole di carne di cavallo"/></a></div></footer>
+<div class="recipe-content"><h1>Braciole di carne di cavallo</h1><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span>Pierre Piccotti</span></div><div class="meta-card"><strong>Categoria</strong><span>Primi</span></div><div class="meta-card"><strong>Geografia</strong><span>Italia - Puglia</span></div><div class="meta-card"><strong>Fonte</strong><span>Nicola F.</span></div><div class="meta-card"><strong>Porzioni</strong><span></span></div><div class="meta-card"><strong>Tempo attivo</strong><span></span></div><div class="meta-card"><strong>Tempo cottura</strong><span></span></div><div class="meta-card"><strong>Tempo riposo</strong><span></span></div><div class="meta-card"><strong>Tempo totale</strong><span></span></div></section><section aria-label="Tempi, porzioni, kcal indicative e allergeni" class="recipe-quick-meta"><span class="recipe-allergens-meta"><strong>Allergeni:</strong> latte</span></section><section class="lead"><h2>Introduzione e contesto</h2><figure class="step-photo-large step-photo" style="width: 651.786px; max-width: 100%;"><img src="../../foto/braciole-di-carne-di-cavallo/01.jpg" width="651.7857666015625"/></figure><p>Questa è una ricetta pugliese, ma io la considero soprattutto per quello che diventa nel piatto: un sugo ricco per la pasta.</p><p>Le bracioline di cavallo cuociono lentamente nel pomodoro a lungo, rilasciando sapore e struttura. Il risultato non è solo carne tenera, ma un fondo denso e profondo, che si lega perfettamente alle orecchiette.</p><p>Io le preparo pensando proprio a questo: non al secondo, ma al primo. Le bracioline restano nel piatto, ma sono parte del condimento, non il centro.</p></section><section class="block ingredients-block"><h2>Ingredienti</h2><div class="table-wrap"><table class="recipe-table ingredients-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Polpa di cavallo a fettine</td><td>800</td><td>g</td><td>non troppo sottili</td></tr><tr><td>Passato di pomodoro</td><td>300</td><td>g</td><td></td></tr><tr><td>Olio extra vergine d'oliva</td><td>1</td><td>bicchiere</td><td></td></tr><tr><td>Vino rosso </td><td>1</td><td>bicchiere</td><td></td></tr><tr><td>Cipolla viola </td><td>1</td><td>n</td><td></td></tr><tr><td>Aglio </td><td></td><td></td><td></td></tr><tr><td>Prezzemolo </td><td></td><td></td><td></td></tr><tr><td>Alloro </td><td></td><td></td><td></td></tr><tr><td>Sale</td><td></td><td></td><td></td></tr><tr><td>Pepe</td><td></td><td></td><td></td></tr><tr><td>Pecorino romano DOP</td><td>100</td><td>gr</td><td></td></tr></tbody></table></div></section><section class="block preparation-block"><h2>Preparazione</h2><ol class="steps"><li><p><strong>La carne.</strong></p><p>Stendo le fettine di carne di cavallo sul tagliere. Le condisco con sale e pepe, poi aggiungo qualche foglia di prezzemolo, qualche lamella di aglio e qualche cubetto di pecorino.</p></li><li><p><strong>Gli involtini.</strong></p><p>Arrotolo le fettine formando degli involtini e li fermo con uno stecchino.</p></li><li><p><strong>La cottura.</strong></p><p>In una padella dai bordi alti faccio scaldare l’olio con la cipolla affettata. Quando è appassita, aggiungo le bracioline e le faccio rosolare bene da tutti i lati a fuoco medio.</p><p>Sfumo con il vino rosso e lo faccio evaporare.</p><p>Aggiungo la passata di pomodoro, copro e lascio cuocere molto lentamente per circa due ore.</p></li><li><p><strong>Vino.</strong></p><p>Primitivo, Rosso del Salento o Rosso di Cerignola.</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><p>Il sugo deve cuocere lentamente: è una preparazione lunga, ma è lì che si sviluppa il sapore.</p><p>Le bracioline diventano molto tenere e rilasciano parte del loro gusto nel sugo.</p></section></div>
+<footer class="site-footer recipe-footer"><div class="site-footer-left"><a aria-label="Licenza Creative Commons BY-NC-SA" class="cc-link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><nav aria-label="Strumenti pagina" class="site-footer-center"><a aria-label="Informativa" class="site-footer-icon recipe-tool-info" href="../../informativa.html" title="Informativa"><img alt="" src="../../foto/ui/info-light.svg"/></a><a aria-label="Scrivimi" class="site-footer-icon recipe-tool-mail" href="../../scrivimi.html" title="Scrivimi"><img alt="" src="../../foto/ui/mail-light.svg"/></a><a aria-label="Stampa pagina" class="site-footer-icon js-print-link js-editorial-print-link recipe-tool-print" href="#" title="Stampa pagina"><img alt="" src="../../foto/ui/print-light.svg"/></a><a aria-label="Copia URL" class="site-footer-icon recipe-tool-link" href="#" title="Copia URL"><img alt="" src="../../foto/ui/link-light.svg"/></a></nav><div class="site-footer-right"><a aria-label="QR della ricetta" class="site-footer-qr-link recipe-qrcode-link" href="../../foto/braciole-di-carne-di-cavallo/qr-code.png" title="QR della ricetta"><img alt="QR della ricetta" src="../../foto/braciole-di-carne-di-cavallo/qr-code.png" title="QR della ricetta"/></a></div></footer>
 </main>
 </main>
 </div>
@@ -530,8 +525,8 @@ document.addEventListener('DOMContentLoaded', function(){
         var img = link.querySelector('img');
         if(!img) return;
         outImg.src = img.currentSrc || img.src;
-        outImg.alt = img.alt || 'QR ricetta';
-        caption.textContent = img.alt || 'QR ricetta';
+        outImg.alt = img.alt || link.getAttribute('aria-label') || 'QR della ricetta';
+        caption.textContent = link.getAttribute('title') || link.getAttribute('aria-label') || img.alt || 'QR della ricetta';
         overlay.classList.remove('is-hidden');
       });
     });
@@ -571,7 +566,7 @@ document.addEventListener('DOMContentLoaded', function(){
     return overlay;
   }
 
-  var PRINT_ENGINE_SRC = '../../foto/ui/recipe-editorial-print.js?v=CMS2-R18-036';
+  var PRINT_ENGINE_SRC = '../../foto/ui/recipe-editorial-print.js?v=CMS2-R18-071';
   var printEnginePromise = null;
 
   function loadRecipeEditorialPrintEngine(){
@@ -697,22 +692,25 @@ document.addEventListener('DOMContentLoaded', function(){
         var key = normalizeLabel(strong && strong.textContent);
         if(secondaryLabels[key]) card.classList.add('recipe-meta-secondary');
       });
-      if(document.querySelector('.recipe-quick-meta')) return;
+      var existingQuick = document.querySelector('.recipe-quick-meta');
       var items = [
         ['Porzioni', getMetaValue('Porzioni')],
         ['Tempo attivo', getMetaValue('Tempo attivo')],
         ['Cottura', getMetaValue('Tempo cottura')],
         ['Riposo', getMetaValue('Tempo riposo')],
-        ['Totale', getMetaValue('Tempo totale')]
+        ['Totale', getMetaValue('Tempo totale')],
+        ['Kcal indicative', getMetaValue('Kcal indicative')]
       ].filter(function(x){ return !!x[1]; });
       if(!items.length) return;
-      var quick = document.createElement('section');
+      var quick = existingQuick || document.createElement('section');
       quick.className = 'recipe-quick-meta';
-      quick.setAttribute('aria-label', 'Tempi e porzioni');
-      quick.innerHTML = items.map(function(x){
-        return '<span><strong>' + x[0] + ':</strong> ' + x[1] + '</span>';
-      }).join('<span class="recipe-quick-meta-sep" aria-hidden="true">|</span>');
-      grid.insertAdjacentElement('afterend', quick);
+      quick.setAttribute('aria-label', 'Tempi, porzioni, kcal indicative e allergeni');
+      if(quick.querySelector('.recipe-time-meta')) return;
+      var allergens = quick.querySelector('.recipe-allergens-meta');
+      var timeHtml = items.map(function(x){ return '<span class="recipe-time-meta"><strong>' + x[0] + ':</strong> ' + x[1] + '</span>'; }).join('<span class="recipe-quick-meta-sep" aria-hidden="true">|</span>');
+      if(allergens){ quick.insertAdjacentHTML('afterbegin', timeHtml + '<span class="recipe-quick-meta-sep" aria-hidden="true">|</span>'); }
+      else { quick.innerHTML = timeHtml; }
+      if(!existingQuick) grid.insertAdjacentElement('afterend', quick);
     }
 
     function ensureIngredientsOverlay(){
@@ -819,7 +817,7 @@ document.addEventListener('DOMContentLoaded', function(){
     if(!grid) return null;
     quick = document.createElement('section');
     quick.className = 'recipe-quick-meta';
-    quick.setAttribute('aria-label', 'Tempi, porzioni e allergeni');
+    quick.setAttribute('aria-label', 'Tempi, porzioni, kcal indicative e allergeni');
     grid.insertAdjacentElement('afterend', quick);
     return quick;
   }
@@ -861,7 +859,7 @@ document.addEventListener('DOMContentLoaded', function(){
         var found = items.find(function(item){ return item && item.slug === slug; });
         if(found && found.allergeni) renderAllergens(found.allergeni);
       })
-      .catch(function(err){ try{ console.warn('[ALLERGENI] quick-meta runtime non aggiornata; resta eventuale HTML statico', err); }catch(_e){} });
+      .catch(function(err){ try{ console.warn('[ALLERGENI] quick-meta non aggiornata', err); }catch(_e){} });
   }
 
   if(document.readyState === 'loading'){
