@@ -24,9 +24,8 @@
 <div class="home-content">
 <h1>Le ricette</h1>
 <section class="lead home-intro">
-<p>Queste ricette non sono tutte originali. Sono però state in parte da me riviste. Sono anche la mia storia. Infatti troviamo un poco di cucina francese, piemontese, barese, siciliana, romana, toscana e veneta.</p>
-<p>Continuo ad aggiornare il ricettario e a corredarlo di foto delle fasi di preparazione e di arricchirle di indicazioni utili ad una perfetta realizzazione. Il sito riporta anche notizie proprie e di altri che possono risultare di interesse. Grazie.</p>
-<p>Il sito vuole essere intuitivo nell'esplorazione. Tutto o quasi è cliccabile, e le funzionalità di stampa sono indirizzzate ad una rappresentazione da ricettario cartaceo. Ulteriori informazioni nella pagina <a href="informativa.html">info</a></p>
+<p>Queste ricette non sono necessariamente originali. Sicuramente sono state in parte da me riviste. Sono anche la mia storia. Infatti troviamo un poco di cucina francese, piemontese, barese, siciliana, romana, toscana e veneta.</p>
+<p>Mi impegno a corredarle di foto delle fasi di preparazione e di arricchirle di indicazioni utili ad una perfetta realizzazione. Il sito riporta anche notizie proprie e di altri che possono risultare di interesse. Grazie.</p>
 </section>
 <section class="block home-primary">
 <h2>Ingresso principale</h2>
@@ -197,8 +196,9 @@ document.addEventListener("DOMContentLoaded", async () => {
     <h2 id="homeSearchTitle">Cerca nel ricettario</h2>
     <form class="home-search-form" action="indici/ricette.html" method="get">
       <label class="sr-only" for="homeSearchInput">Termine di ricerca</label>
-      <input id="homeSearchInput" name="q" type="search" autocomplete="off" placeholder="Cerca per titolo, ingrediente, luogo…">
-      <button type="submit">Cerca</button>
+      <input id="homeSearchInput" name="q" type="search" autocomplete="off" placeholder="Titolo, ingrediente, luogo…">
+      <p class="home-search-hint">Inserisci un termine: l’indice Ricette si aprirà già filtrato.</p>
+      <div class="home-search-actions"><button type="submit">Cerca</button></div>
     </form>
   </div>
 </div>
