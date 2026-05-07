@@ -1608,3 +1608,14 @@ main.recipe-page .image-row.image-group-continuation{
 @media (max-width:760px){.site-header nav{gap:.32rem;margin-left:auto;justify-content:flex-end;}.site-header nav a{font-size:.95rem;letter-spacing:-.015em;}.site-header .recipe-nav-back,.site-header .index-nav-back{width:20px;height:22px;font-size:18px;top:-1px;}.site-header .site-search-button{padding:.05rem 0;}.site-header .site-search-button svg{width:.98em;height:.98em;}}
 @media (max-width:640px){.recipe-search-dialog{top:4rem;right:1rem;left:1rem;width:auto;}}
 
+
+/* R18-070 — filtri Ricette: allergeni UE da escludere */
+.recipe-refine-group-allergens{position:relative;}
+.recipe-allergen-picker{display:block;}
+.recipe-allergen-picker > summary{display:inline-flex;align-items:center;gap:.35rem;border:1px solid #c9c1b8;background:#fff;border-radius:999px;padding:.32rem .7rem;font:inherit;font-size:.86rem;line-height:1.2;cursor:pointer;color:#111;}
+.recipe-allergen-panel{display:grid;grid-template-columns:repeat(auto-fit,minmax(13rem,1fr));gap:.35rem .8rem;margin:.55rem 0 0 0;padding:.75rem;border:1px solid var(--line);background:#fff;border-radius:.5rem;}
+.recipe-allergen-option{display:flex;align-items:flex-start;gap:.45rem;font-size:.86rem;line-height:1.25;color:var(--text);}
+.recipe-allergen-option input{margin-top:.08rem;accent-color:#566064;}
+.recipe-allergen-source{margin:.45rem 0 0 0;font-size:.76rem;color:#566064;}
+.recipe-allergen-source a{color:#5f86ad;font-weight:600;}
+@media (max-width:640px){.recipe-allergen-panel{grid-template-columns:1fr;}}
