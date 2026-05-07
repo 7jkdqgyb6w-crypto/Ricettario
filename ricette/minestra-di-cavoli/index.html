@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
-<title>Minestra di cavoli – Ricette (e altro) di Pierre</title>
+<title>Minestra di cavoli – Ricette (e altro) di Pierre</title><link href="https://ricette.pierre.piccotti.it/ricette/minestra-di-cavoli/" rel="canonical"/>
 <link href="../../style.css" rel="stylesheet"/>
 <style id="recipe-layout-style">.recipe-page{
   max-width: 100%;
@@ -450,7 +450,10 @@ main figure img{cursor:zoom-in;}
 .recipe-license-bar{display:flex !important; justify-content:flex-end !important; align-items:center !important; flex:0 0 auto !important; padding:10px 14px !important; border-bottom:1px solid rgba(0,0,0,.08) !important; background:#fff !important;}
 .recipe-license-close{border:0 !important; background:transparent !important; font-size:28px !important; line-height:1 !important; cursor:pointer !important; color:#333 !important; padding:0 !important; margin:0 !important;}
 .recipe-license-frame{display:block !important; flex:1 1 auto !important; width:100% !important; height:100% !important; min-height:0 !important; border:0 !important; background:#fff !important;}</style>
-</head>
+<style id="recipe-quick-meta-clean-style">/* R18-072 — quick-meta: nessun separatore testuale, solo ::after sui campi reali */
+.recipe-quick-meta .recipe-quick-meta-sep{display:none !important;}
+.recipe-quick-meta .recipe-quick-meta-sep::after{content:'' !important;margin:0 !important;}
+.recipe-quick-meta span.recipe-quick-meta-sep{display:none !important;}</style></head>
 <body>
 <div class="page">
 <header class="site-header">
@@ -787,12 +790,10 @@ document.addEventListener('DOMContentLoaded', function(){
   function normalizeText(value){
     return (value || '').toString().replace(/\s+/g, ' ').trim();
   }
-
   function slugFromLocation(){
     var m = (window.location.pathname || '').match(/\/ricette\/([^\/]+)\/index\.html$/i);
     return m ? decodeURIComponent(m[1]) : '';
   }
-
   function ensureQuickMeta(){
     var quick = document.querySelector('.recipe-quick-meta');
     if(quick) return quick;
@@ -800,29 +801,21 @@ document.addEventListener('DOMContentLoaded', function(){
     if(!grid) return null;
     quick = document.createElement('section');
     quick.className = 'recipe-quick-meta';
-    quick.setAttribute('aria-label', 'Tempi, porzioni e allergeni');
+    quick.setAttribute('aria-label', 'Tempi, porzioni, kcal indicative e allergeni');
     grid.insertAdjacentElement('afterend', quick);
     return quick;
   }
-
-  function appendSeparatorIfNeeded(quick){
-    if(!quick || !quick.children.length) return;
-    var last = quick.lastElementChild;
-    if(last && last.classList && last.classList.contains('recipe-quick-meta-sep')) return;
-    var sep = document.createElement('span');
-    sep.className = 'recipe-quick-meta-sep';
-    sep.setAttribute('aria-hidden', 'true');
-    sep.textContent = '|';
-    quick.appendChild(sep);
+  function cleanLiteralSeparators(quick){
+    if(!quick) return;
+    quick.querySelectorAll('.recipe-quick-meta-sep').forEach(function(el){ el.remove(); });
   }
-
   function renderAllergens(allergeni){
     if(!Array.isArray(allergeni) || !allergeni.length) return;
     var quick = ensureQuickMeta();
     if(!quick) return;
+    cleanLiteralSeparators(quick);
     var old = quick.querySelector('.recipe-allergens-meta');
     if(old) old.remove();
-    appendSeparatorIfNeeded(quick);
     var item = document.createElement('span');
     item.className = 'recipe-allergens-meta';
     var strong = document.createElement('strong');
@@ -831,7 +824,6 @@ document.addEventListener('DOMContentLoaded', function(){
     item.appendChild(document.createTextNode(' ' + allergeni.map(normalizeText).filter(Boolean).join(', ')));
     quick.appendChild(item);
   }
-
   function loadAllergens(){
     var slug = slugFromLocation();
     if(!slug) return;
@@ -842,9 +834,8 @@ document.addEventListener('DOMContentLoaded', function(){
         var found = items.find(function(item){ return item && item.slug === slug; });
         if(found && found.allergeni) renderAllergens(found.allergeni);
       })
-      .catch(function(err){ try{ console.warn('[ALLERGENI] quick-meta runtime non aggiornata; resta eventuale HTML statico', err); }catch(_e){} });
+      .catch(function(err){ try{ console.warn('[ALLERGENI] quick-meta non aggiornata', err); }catch(_e){} });
   }
-
   if(document.readyState === 'loading'){
     document.addEventListener('DOMContentLoaded', function(){ setTimeout(loadAllergens, 0); });
   }else{
