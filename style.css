@@ -1619,3 +1619,15 @@ main.recipe-page .image-row.image-group-continuation{
 .recipe-allergen-source{margin:.45rem 0 0 0;font-size:.76rem;color:#566064;}
 .recipe-allergen-source a{color:#5f86ad;font-weight:600;}
 @media (max-width:640px){.recipe-allergen-panel{grid-template-columns:1fr;}}
+
+/* ROOT-R18-075 — iPhone verticale: allineamento header alla stessa gabbia della pagina.
+   Fix chirurgico: non tocca desktop, overlay ricerca, indici generati o salvataggi CMS. */
+@media screen and (max-width: 768px) and (orientation: portrait){
+  .site-header{
+    left: 0;
+    transform: none;
+    width: 100%;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+}

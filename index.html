@@ -24,12 +24,12 @@
 <div class="home-content">
 <h1>Le ricette</h1>
 <section class="lead home-intro">
-<p>Queste ricette non sono necessariamente originali. Sicuramente sono state in parte da me riviste. Sono anche la mia storia. Infatti troviamo un poco di cucina francese, piemontese, barese, siciliana, romana, toscana e veneta.</p>
-<p>E' un progetto in corso d'opera. Continuo a corredare le ricette di foto delle fasi di preparazione e di arricchirle di indicazioni utili ad una perfetta realizzazione. Il sito riporta anche notizie proprie e di altri che possono risultare di interesse.</p>
+<p>Queste ricette non sono tutte originali. Sono però state in parte da me riviste. Sono anche la mia storia. Infatti troviamo un poco di cucina francese, piemontese, barese, siciliana, romana, toscana e veneta.</p>
+<p>Continuo ad aggiornare il ricettario e a corredarlo di foto delle fasi di preparazione e di arricchirle di indicazioni utili ad una perfetta realizzazione. Il sito riporta anche notizie proprie e di altri che possono risultare di interesse. Grazie.</p>
 <p>Il sito vuole essere intuitivo nell'esplorazione. Tutto o quasi è cliccabile, e le funzionalità di stampa sono indirizzzate ad una rappresentazione da ricettario cartaceo. Ulteriori informazioni nella pagina <a href="informativa.html">info</a></p>
 </section>
 <section class="block home-primary">
-<h2>Accesso principale</h2>
+<h2>Ingresso principale</h2>
 <a class="home-primary-link" href="indici/ricette.html">
 <strong>Indice delle ricette</strong>
 <span>Accesso completo alle ricette del ricettario.</span>
@@ -202,12 +202,12 @@ document.addEventListener("DOMContentLoaded", async () => {
     </form>
   </div>
 </div>
-<footer class="site-footer"><div class="site-footer-left"><a aria-label="Home Pierre Piccotti" class="site-footer-home-link" href="https://sites.google.com/site/pierrepiccotti/"><img alt="Home Pierre Piccotti" src="foto/ui/home-light.svg"/></a></div><nav aria-label="Strumenti pagina" class="site-footer-center">
-<a class="site-footer-text" href="informativa.html"><img alt="" src="foto/ui/info-light.svg"/></a>
-<a aria-label="Scrivimi" class="site-footer-icon" href="scrivimi.html"><img alt="" src="foto/ui/mail-light.svg"/></a><a aria-label="Stampa pagina" class="site-footer-icon js-print-link" href="#"><img alt="" src="foto/ui/print-light.svg"/></a>
-<a aria-label="Copia link pagina" class="site-footer-icon js-copy-link" href="#"><img alt="" src="foto/ui/link-light.svg"/></a>
+<footer class="site-footer"><div class="site-footer-left"><a aria-label="Home Pierre Piccotti" title="Home Pierre Piccotti" class="site-footer-home-link" href="https://sites.google.com/site/pierrepiccotti/"><img alt="Home Pierre Piccotti" src="foto/ui/home-light.svg"/></a></div><nav aria-label="Strumenti pagina" class="site-footer-center">
+<a class="site-footer-text" href="informativa.html" aria-label="Informativa" title="Informativa"><img alt="" src="foto/ui/info-light.svg"/></a>
+<a aria-label="Scrivimi" title="Scrivimi" class="site-footer-icon" href="scrivimi.html"><img alt="" src="foto/ui/mail-light.svg"/></a><a aria-label="Stampa pagina" title="Stampa pagina" class="site-footer-icon js-print-link" href="#"><img alt="" src="foto/ui/print-light.svg"/></a>
+<a aria-label="Copia link pagina" title="Copia link pagina" class="site-footer-icon js-copy-link" href="#"><img alt="" src="foto/ui/link-light.svg"/></a>
 
-</nav><div class="site-footer-right"><a aria-label="QR pagina home" class="site-footer-qr-link" href="foto/home/qr-code.png"><img alt="QR pagina home" src="foto/home/qr-code.png"/></a></div></footer></div>
+</nav><div class="site-footer-right"><a aria-label="Ricette (e altro) di Pierre" title="Ricette (e altro) di Pierre" class="site-footer-qr-link" href="foto/home/qr-code.png"><img alt="Ricette (e altro) di Pierre" title="Ricette (e altro) di Pierre" src="foto/home/qr-code.png"/></a></div></footer></div>
 </main>
 </div>
 <script id="home-search-script">
@@ -240,7 +240,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     if(lb) return lb;
     lb=document.createElement('div');
     lb.className='site-lightbox';
-    lb.innerHTML='<button class="site-lightbox-close" aria-label="Chiudi">×</button><img class="site-lightbox-image" alt="">';
+    lb.innerHTML='<button class="site-lightbox-close" aria-label="Chiudi">×</button><figure class="site-lightbox-frame"><img class="site-lightbox-image" alt=""><figcaption class="site-lightbox-caption"></figcaption></figure>';
     lb.addEventListener('click', function(ev){ lb.classList.remove('is-open'); });
     document.addEventListener('keydown', function(ev){ if(ev.key==='Escape') lb.classList.remove('is-open'); });
     document.body.appendChild(lb);
@@ -249,7 +249,9 @@ document.addEventListener("DOMContentLoaded", async () => {
   function openLightbox(src, alt){
     var lb=ensureLightbox();
     var img=lb.querySelector('.site-lightbox-image');
+    var cap=lb.querySelector('.site-lightbox-caption');
     img.src=src; img.alt=alt||'';
+    if(cap) cap.textContent=alt||'';
     lb.classList.add('is-open');
     }
 	function showCopyToast(){
@@ -283,7 +285,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       img.addEventListener('click', function(ev){
         ev.preventDefault();
         ev.stopPropagation();
-        openLightbox(img.currentSrc || img.src, img.alt || 'QR pagina home');
+        openLightbox(img.currentSrc || img.src, img.getAttribute('title') || img.alt || 'Ricette (e altro) di Pierre');
       });
     });
     document.querySelectorAll('.js-print-link').forEach(function(a){
