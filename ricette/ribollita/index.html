@@ -236,6 +236,11 @@
 
 
 
+
+
+
+
+
 /* R18-068 — header, overlay ricerca e quick-meta unificati */
 .site-header nav{margin-left:auto;justify-content:flex-end;align-items:center;}
 .site-header .recipe-nav-back{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;font-size:24px;line-height:1;text-decoration:none;color:inherit;flex:0 0 auto;position:relative;top:-2px;}
@@ -261,6 +266,8 @@
 .recipe-quick-meta span:not(:last-child)::after{content:'|';margin-left:.42rem;color:#566064;font-weight:400;}
 .recipe-quick-meta strong{text-transform:uppercase;letter-spacing:.035em;font-size:.72rem;color:var(--muted);margin-right:.22rem;}
 .recipe-quick-meta-sep{display:none !important;}
+.recipe-quick-meta .recipe-quick-meta-sep{display:none !important;}
+.recipe-quick-meta .recipe-quick-meta-sep::after{content:'' !important;margin:0 !important;}
 @media (max-width:760px){.site-header nav{margin-left:auto;justify-content:flex-end;gap:.32rem;}.site-header nav a{font-size:.95rem;letter-spacing:-.015em;}.site-header .recipe-nav-back{width:20px;height:22px;font-size:18px;top:-1px;}.site-header .site-search-button.recipe-nav-search{padding:.05rem 0;}.site-header .site-search-button.recipe-nav-search svg{width:.98em;height:.98em;}.recipe-quick-meta{gap:.05rem .34rem;}.recipe-quick-meta span{font-size:.94rem;line-height:1.5;}.recipe-quick-meta span:not(:last-child)::after{margin-left:.34rem;}}
 @media (max-width:640px){.recipe-search-dialog{top:4rem;right:1rem;left:1rem;width:auto;}}
 

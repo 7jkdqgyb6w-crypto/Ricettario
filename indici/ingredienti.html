@@ -70,6 +70,14 @@
 .recipe-search-submit{display:inline-flex;align-items:center;justify-content:center;width:auto;min-width:5.8rem;border:1px solid #8b837b;background:#fff;border-radius:999px;padding:.32rem .78rem;font:inherit;font-size:.9rem;line-height:1.2;cursor:pointer;}
 .recipe-search-submit:hover{border-color:#566064;}
 .recipe-search-count{margin:0;font-size:.84rem;color:#566064;}
+.index-editorial-card{display:grid;gap:.75rem;margin:.2rem 0 1rem 0;padding:.85rem;border:1px solid var(--line);background:rgba(255,255,255,.42);}
+.index-editorial-card figure{margin:0;}
+.index-editorial-card p{margin:0 0 .55rem 0;}
+.index-editorial-images{display:grid;grid-template-columns:repeat(auto-fit,minmax(7rem,1fr));gap:.55rem;}
+.index-editorial-images img{width:100%;height:auto;box-shadow:none;background:#fff;}
+.index-editorial-links{display:flex;flex-wrap:wrap;gap:.45rem .7rem;margin:.55rem 0 0 0;}
+.index-editorial-link{display:inline-flex;border:1px solid #c9c1b8;background:#fff;border-radius:999px;padding:.25rem .62rem;font-size:.86rem;line-height:1.2;}
+.index-editorial-link:hover{text-decoration:none;border-color:#566064;}
 @media (max-width:760px){.site-header nav{gap:.32rem;margin-left:auto;justify-content:flex-end;}.site-header nav a{font-size:.95rem;letter-spacing:-.015em;}.site-header .index-nav-back{width:20px;height:22px;font-size:18px;top:-1px;}.site-header .site-search-button{padding:.05rem 0;}.site-header .site-search-button svg{width:.98em;height:.98em;}}
 @media (max-width:640px){.recipe-search-dialog{top:4rem;right:1rem;left:1rem;width:auto;}}
 </style>
@@ -79,7 +87,7 @@
 <header class="site-header">
   <a class="brand" href="../index.html">Ricette (e altro) di Pierre</a>
   <nav>
-    <a class="index-nav-back" href="../index.html" aria-label="Torna indietro" title="Torna indietro"onclick="if(history.length>1){event.preventDefault();history.back();}">←</a>
+    <a class="index-nav-back" href="../index.html" aria-label="Torna indietro" title="Torna indietro" onclick="if(history.length>1){event.preventDefault();history.back();}">←</a>
     <a href="ricette.html">Ricette</a>
     <a href="fonti.html">Fonti</a>
     <a href="geografia.html">Geografia</a>

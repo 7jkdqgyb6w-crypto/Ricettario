@@ -1,10 +1,10 @@
 {
   "versione": "CMS2-R18-051",
   "semantica_versione": "ING-SEMANTICA-003",
-  "timestamp": "2026-05-05T22:39:52",
+  "timestamp": "2026-05-10T14:31:59",
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette",
   "search_data": "G:\\Il mio Drive\\Esperienze\\Ricette\\indici\\search-data.json",
-  "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\CMS2-R18-057\\ingredienti-semantica.json",
+  "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\CMS2-R18-083\\ingredienti-semantica.json",
   "apply": true,
   "processed": 61,
   "changed": 58,
@@ -329,6 +329,8 @@
         "Arista di maiale",
         "Birra ambrata",
         "Prezzemolo",
+        "Melograno",
+        "Funghi settembrini",
         "Alloro",
         "Sedano",
         "Cipolla",
@@ -342,6 +344,7 @@
         "carne",
         "suino",
         "maiale",
+        "funghi",
         "verdura",
         "ortaggi",
         "sedano"
@@ -359,6 +362,7 @@
         "maiale",
         "olio",
         "prezzemolo",
+        "funghi",
         "sedano",
         "aglio",
         "sale"
