@@ -1,13 +1,13 @@
 {
   "versione": "CMS2-R18-051",
   "semantica_versione": "ING-SEMANTICA-003",
-  "timestamp": "2026-05-10T14:31:59",
+  "timestamp": "2026-05-12T15:02:25",
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette",
   "search_data": "G:\\Il mio Drive\\Esperienze\\Ricette\\indici\\search-data.json",
-  "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\CMS2-R18-083\\ingredienti-semantica.json",
+  "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\CMS2-R18-084\\ingredienti-semantica.json",
   "apply": true,
   "processed": 61,
-  "changed": 58,
+  "changed": 4,
   "missing_source": [],
   "no_structural_terms": [
     "patatine",
@@ -117,7 +117,7 @@
         "spaghetti",
         "farina"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "anatra-all-arancia",
@@ -184,7 +184,7 @@
         "sale",
         "fegato"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "anatra-in-salsa",
@@ -234,7 +234,7 @@
         "barbera",
         "sale"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "antipasto-di-canocce",
@@ -276,7 +276,7 @@
         "sale",
         "limone"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "aringhe-in-terrina",
@@ -319,7 +319,7 @@
         "barbera",
         "olive"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "arista-alla-birra",
@@ -367,7 +367,7 @@
         "aglio",
         "sale"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "baccala-mantecato",
@@ -405,7 +405,7 @@
         "uova",
         "sale"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "bagna-cauda",
@@ -461,7 +461,7 @@
         "cavolo",
         "carote"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "battuta-di-manzo-alla-boscaiola",
@@ -501,7 +501,7 @@
         "sale",
         "patate"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "bigoli-in-salsa",
@@ -534,7 +534,7 @@
         "alici",
         "spaghetti"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "braciole-di-carne-di-cavallo",
@@ -581,7 +581,7 @@
         "sale",
         "latte"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "calamari-ripieni",
@@ -628,7 +628,7 @@
         "olive",
         "sale"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "cous-cous-alla-trapanese",
@@ -647,7 +647,7 @@
       "regole_matchate": [
         "cous cous"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "crepes",
@@ -687,7 +687,7 @@
         "zucchero",
         "limone"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "daube",
@@ -738,7 +738,7 @@
         "sale",
         "bouquet garni"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "fegato-alla-veneziana",
@@ -770,7 +770,7 @@
         "olio",
         "olive"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "filettino-di-maiale",
@@ -809,7 +809,7 @@
         "olive",
         "sale"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "filetto-angus-alla-senape-di-digione",
@@ -836,7 +836,7 @@
         "senape",
         "sale"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "fusilli-carciofi-e-salmone",
@@ -881,7 +881,7 @@
         "olio",
         "olive"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "gigot-roti",
@@ -918,7 +918,7 @@
         "olio",
         "olive"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "gnocchetti-sardi-alla-urbaweb",
@@ -977,7 +977,7 @@
         "olio",
         "sale"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "gnocchi-con-le-trombette-dei-morti",
@@ -1004,7 +1004,7 @@
         "funghi",
         "latte"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "goulash-variante",
@@ -1062,7 +1062,7 @@
         "sale",
         "limone"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "medaglioni-di-manzo-con-porcini",
@@ -1104,7 +1104,7 @@
         "olio",
         "olive"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "minestra-di-cavoli",
@@ -1131,7 +1131,7 @@
         "maiale",
         "patate"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "minestra-di-porri",
@@ -1167,7 +1167,7 @@
         "patate",
         "riso"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "orecchiette-baresi-alle-cime-di-rapa",
@@ -1204,7 +1204,7 @@
         "topinambur",
         "alici"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero",
@@ -1244,7 +1244,7 @@
         "prezzemolo tritato",
         "prezzemolo"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "pappa-con-il-pomodoro",
@@ -1283,7 +1283,7 @@
         "sedano",
         "farina"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "pasta-al-ragu-di-triglie-e-al-succo-d-arancia",
@@ -1335,7 +1335,7 @@
         "olive",
         "sale"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "pasta-con-i-broccoli",
@@ -1410,7 +1410,7 @@
         "sale",
         "prezzemolo"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "pasta-con-le-sarde",
@@ -1510,7 +1510,7 @@
         "bottarga",
         "spaghetti"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "pasta-e-fagioli",
@@ -1551,7 +1551,7 @@
         "maiale",
         "spaghetti"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "patatine",
@@ -1608,7 +1608,7 @@
         "prezzemolo",
         "olio"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "penne-alla-cannata",
@@ -1658,7 +1658,7 @@
         "olio",
         "olive"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "penne-con-mazzancolle-alle-verdure",
@@ -1702,7 +1702,7 @@
         "spaghetti",
         "verdura"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "penne-con-zucchine",
@@ -1738,7 +1738,7 @@
         "aglio",
         "latte"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "peperoni-alici-e-capperi",
@@ -1773,7 +1773,7 @@
         "olio",
         "olive"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "picana",
@@ -1821,7 +1821,7 @@
         "latte",
         "sale"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "ratatouille-variante",
@@ -1858,7 +1858,7 @@
         "prezzemolo",
         "sale"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "ribollita",
@@ -1908,7 +1908,7 @@
         "sedano",
         "riso"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "riso-cozze-e-patate",
@@ -1957,14 +1957,18 @@
         "olive",
         "sale"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "roastbeef-arrosto-all-inglese",
       "titolo": "Roastbeef (arrosto all'inglese)",
       "fonte_semantica": "html-ingredienti",
       "ingredienti_usati": [
-        "Roastbeef"
+        "Manzo",
+        "Olio extra vergine d'oliva",
+        "Sale grosso",
+        "Aceto",
+        "Alloro"
       ],
       "termini_ricerca": [
         "carne",
@@ -1972,11 +1976,20 @@
         "manzo"
       ],
       "allergeni": [],
-      "tag_accessori_esclusi": [],
-      "regole_matchate": [
-        "manzo"
+      "tag_accessori_esclusi": [
+        "condimenti liquidi",
+        "condimenti",
+        "spezie",
+        "erbe aromatiche"
       ],
-      "modificato": true
+      "regole_matchate": [
+        "manzo",
+        "olio",
+        "olive",
+        "sale",
+        "prezzemolo"
+      ],
+      "modificato": false
     },
     {
       "slug": "roux-brun",
@@ -1996,7 +2009,7 @@
         "latte",
         "farina"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "salsa-verde",
@@ -2039,7 +2052,7 @@
         "olive",
         "sale"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "sarde-a-beccafico",
@@ -2181,7 +2194,7 @@
         "farina",
         "prezzemolo"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "spaghetti-alla-puttanesca",
@@ -2227,7 +2240,7 @@
         "topinambur",
         "prezzemolo"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "straccetti-di-pollo-al-limone",
@@ -2262,7 +2275,7 @@
         "olive",
         "sale"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
@@ -2296,7 +2309,7 @@
         "olio",
         "sale"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "tagliate",
@@ -2314,7 +2327,7 @@
       "regole_matchate": [
         "pollo"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "tajin-mqualli",
@@ -2382,7 +2395,7 @@
         "aglio",
         "olio"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "tonno-alla-carlofortina",
@@ -2402,7 +2415,7 @@
       "regole_matchate": [
         "tonno"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "tortino-di-alici",
@@ -2448,7 +2461,7 @@
         "prezzemolo",
         "limone"
       ],
-      "modificato": true
+      "modificato": false
     },
     {
       "slug": "vitello-tonnato",
@@ -2505,7 +2518,7 @@
         "capperi",
         "latte"
       ],
-      "modificato": true
+      "modificato": false
     }
   ],
   "nota": "R18-049 usa preferibilmente le tabelle Ingredienti reali delle ricette HTML; proposte-ricette resta fallback."

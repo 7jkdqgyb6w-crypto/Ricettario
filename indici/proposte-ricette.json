@@ -1430,13 +1430,13 @@
     "slug": "roastbeef-arrosto-all-inglese",
     "titolo": "Roastbeef (arrosto all'inglese)",
     "proposte": {
-      "porzioni": "4",
+      "porzioni": "4-6",
       "tempo_attivo": "30-45 min",
-      "tempo_cottura": "15 min circa",
+      "tempo_cottura": "30-45 min",
       "tempo_riposo": "30 min",
       "tempo_totale": "include riposo",
       "ingredienti_chiave": [
-        "Roastbeef"
+        "Manzo"
       ]
     },
     "confidenza": "bassa",
@@ -1446,7 +1446,7 @@
       "ingredienti_chiave": "media"
     },
     "note": [
-      "fallback standard da validare",
+      "range standard per secondo piatto da validare",
       "riposo dedotto da testo",
       "tempo cottura ricavato da durate esplicite presenti nel testo",
       "tempo attivo stimato da numero ingredienti/passaggi",
