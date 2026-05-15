@@ -1,7 +1,7 @@
 {
-  "versione": "CMS2-R18-051",
-  "semantica_versione": "ING-SEMANTICA-003",
-  "timestamp": "2026-05-14T23:02:52",
+  "versione": "CMS2-R18-103",
+  "semantica_versione": "CMS2-R18-103",
+  "timestamp": "2026-05-15T18:37:51",
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "search_data": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT\\indici\\search-data.json",
   "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\CMS\\ingredienti-semantica.json",
@@ -1350,14 +1350,14 @@
         "Pecorino romano"
       ],
       "termini_ricerca": [
-        "frutta secca",
+        "frutta essiccata",
+        "frutta disidratata",
         "uvetta",
         "verdura",
         "ortaggi",
         "broccoli"
       ],
       "allergeni": [
-        "anidride solforosa e solfiti",
         "noci",
         "latte"
       ],
@@ -1435,13 +1435,13 @@
         "ortaggi",
         "pesce",
         "alici",
-        "frutta secca",
+        "frutta essiccata",
+        "frutta disidratata",
         "uvetta"
       ],
       "allergeni": [
         "cereali contenenti glutine",
         "pesce",
-        "anidride solforosa e solfiti",
         "noci"
       ],
       "tag_accessori_esclusi": [
@@ -2075,15 +2075,15 @@
       "termini_ricerca": [
         "pesce",
         "sarde",
-        "frutta secca",
+        "frutta essiccata",
+        "frutta disidratata",
         "uvetta",
         "alici"
       ],
       "allergeni": [
         "pesce",
         "cereali contenenti glutine",
-        "noci",
-        "anidride solforosa e solfiti"
+        "noci"
       ],
       "tag_accessori_esclusi": [
         "erbe aromatiche",
@@ -2127,7 +2127,8 @@
         "pasta",
         "pesce",
         "alici",
-        "frutta secca",
+        "frutta essiccata",
+        "frutta disidratata",
         "uvetta",
         "verdura",
         "ortaggi"
@@ -2135,7 +2136,6 @@
       "allergeni": [
         "cereali contenenti glutine",
         "pesce",
-        "anidride solforosa e solfiti",
         "latte"
       ],
       "tag_accessori_esclusi": [
