@@ -4,10 +4,9 @@
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "site_base_url": "https://ricette.pierre.piccotti.it",
   "mode": "APPLY",
-  "created_at": "2026-05-16T17:16:52",
+  "created_at": "2026-05-16T23:47:21",
   "counts": {
-    "UNCHANGED": 65,
-    "UPDATED": 6
+    "UNCHANGED": 71
   },
   "results": [
     {
@@ -30,69 +29,39 @@
     },
     {
       "path": "indici\\autore.html",
-      "status": "UPDATED",
+      "status": "UNCHANGED",
       "canonical": "https://ricette.pierre.piccotti.it/indici/autore.html",
-      "description": "Autore del ricettario personale Ricette (e altro) di Pierre.",
-      "notes": [
-        "aggiunto canonical",
-        "aggiunto meta description",
-        "aggiunto og:url"
-      ]
+      "description": "Autore del ricettario personale Ricette (e altro) di Pierre."
     },
     {
       "path": "indici\\categorie.html",
-      "status": "UPDATED",
+      "status": "UNCHANGED",
       "canonical": "https://ricette.pierre.piccotti.it/indici/categorie.html",
-      "description": "Categorie del ricettario personale Ricette (e altro) di Pierre.",
-      "notes": [
-        "aggiunto canonical",
-        "aggiunto meta description",
-        "aggiunto og:url"
-      ]
+      "description": "Categorie del ricettario personale Ricette (e altro) di Pierre."
     },
     {
       "path": "indici\\fonti.html",
-      "status": "UPDATED",
+      "status": "UNCHANGED",
       "canonical": "https://ricette.pierre.piccotti.it/indici/fonti.html",
-      "description": "Fonti del ricettario personale Ricette (e altro) di Pierre.",
-      "notes": [
-        "aggiunto canonical",
-        "aggiunto meta description",
-        "aggiunto og:url"
-      ]
+      "description": "Fonti del ricettario personale Ricette (e altro) di Pierre."
     },
     {
       "path": "indici\\geografia.html",
-      "status": "UPDATED",
+      "status": "UNCHANGED",
       "canonical": "https://ricette.pierre.piccotti.it/indici/geografia.html",
-      "description": "Geografia del ricettario personale Ricette (e altro) di Pierre.",
-      "notes": [
-        "aggiunto canonical",
-        "aggiunto meta description",
-        "aggiunto og:url"
-      ]
+      "description": "Geografia del ricettario personale Ricette (e altro) di Pierre."
     },
     {
       "path": "indici\\ingredienti.html",
-      "status": "UPDATED",
+      "status": "UNCHANGED",
       "canonical": "https://ricette.pierre.piccotti.it/indici/ingredienti.html",
-      "description": "Ingredienti del ricettario personale Ricette (e altro) di Pierre.",
-      "notes": [
-        "aggiunto canonical",
-        "aggiunto meta description",
-        "aggiunto og:url"
-      ]
+      "description": "Ingredienti del ricettario personale Ricette (e altro) di Pierre."
     },
     {
       "path": "indici\\ricette.html",
-      "status": "UPDATED",
+      "status": "UNCHANGED",
       "canonical": "https://ricette.pierre.piccotti.it/indici/ricette.html",
-      "description": "Le ricette del ricettario personale Ricette (e altro) di Pierre.",
-      "notes": [
-        "aggiunto canonical",
-        "aggiunto meta description",
-        "aggiunto og:url"
-      ]
+      "description": "Le ricette del ricettario personale Ricette (e altro) di Pierre."
     },
     {
       "path": "indici\\tecniche.html",
