@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fonti - Ricette (e altro) di Pierre</title>
+<link rel="stylesheet" href="../style.css">
+<style>
+.index-page > .index-content{max-width:var(--reading);margin-left:auto;margin-right:auto;width:100%;}
+.index-page > .index-content > h1{margin-bottom:1.2rem;}
+.index-page .block,.index-page .lead,.index-page .index-section{max-width:100%;}
+.index-filter{margin:0 0 1.5rem 0}
+.index-filter h2{font-size:1.05rem;margin:0 0 .75rem 0}
+.filter-buttons{display:flex;gap:.8rem;flex-wrap:wrap}
+.filter-btn{border:1px solid #c9c1b8;background:#fff;border-radius:999px;padding:.75rem 1.2rem;font:inherit;cursor:pointer}
+.filter-btn.is-active{background:#222;color:#fff;border-color:#222}
+.index-links li{margin:.25rem 0}
+.index-category{padding-top:.7rem;border-top:1px solid var(--line);margin-bottom:1.4rem;}
+.index-category h2{margin-bottom:.9rem;}
+.recipe-index-list{display:grid;gap:1.6rem;}
+.recipe-index-card{display:block;padding-top:1.2rem;border-top:1px solid var(--line);}
+.recipe-index-card:first-child{border-top:0;padding-top:0;}
+.recipe-index-media{display:block;width:100%;margin:0 0 1rem 0;}
+.recipe-index-media a{display:block;width:100%;}
+.recipe-index-media img{display:block;width:100%;max-width:100%;height:auto;box-shadow:none;background:#fff;}
+.recipe-index-body h3{margin:0 0 .45rem;font-size:1.15rem;line-height:1.2;color:#566064;}
+.recipe-index-body p{margin:0 0 .7rem;}
+.recipe-index-meta{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:.55rem 1.2rem;}
+.recipe-index-meta li{margin:0;}
+.recipe-refine-panel{margin:0 0 1.5rem 0;padding:.45rem 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
+.recipe-refine summary{cursor:pointer;font-size:.95rem;color:#566064;}
+.recipe-refine-grid{display:grid;gap:.7rem;margin:.75rem 0 0 0;}
+.recipe-refine-group h2{font-size:.82rem;text-transform:uppercase;letter-spacing:.04em;margin:0 0 .35rem 0;color:#566064;}
+.recipe-refine-buttons{display:flex;flex-wrap:wrap;gap:.35rem;}
+.recipe-refine-btn{border:1px solid #c9c1b8;background:#fff;border-radius:999px;padding:.28rem .58rem;font:inherit;font-size:.86rem;line-height:1.2;cursor:pointer;}
+.recipe-refine-btn.is-active{background:#566064;color:#fff;border-color:#566064;}
+
+.recipe-refine-group-allergens{position:relative;}
+.recipe-allergen-picker{display:block;}
+.recipe-allergen-picker > summary{display:inline-flex;align-items:center;gap:.35rem;border:1px solid #c9c1b8;background:#fff;border-radius:999px;padding:.32rem .7rem;font:inherit;font-size:.86rem;line-height:1.2;cursor:pointer;color:#111;}
+.recipe-allergen-panel{display:grid;grid-template-columns:repeat(auto-fit,minmax(13rem,1fr));gap:.35rem .8rem;margin:.55rem 0 0 0;padding:.75rem;border:1px solid var(--line);background:#fff;border-radius:.5rem;}
+.recipe-allergen-option{display:flex;align-items:flex-start;gap:.45rem;font-size:.86rem;line-height:1.25;color:var(--text);}
+.recipe-allergen-option input{margin-top:.08rem;accent-color:#566064;}
+.recipe-allergen-source{margin:.45rem 0 0 0;font-size:.76rem;color:#566064;}
+.recipe-allergen-source a{color:#5f86ad;font-weight:600;}
+.recipe-refine-actions{margin:.55rem 0 0 0;}
+.recipe-reset-btn{border:1px solid #c9c1b8;background:#fff;border-radius:999px;padding:.28rem .62rem;font:inherit;font-size:.86rem;line-height:1.2;cursor:pointer;color:#566064;}
+.recipe-reset-btn:hover{border-color:#566064;color:#222;}
+.recipe-result-count{margin:.6rem 0 0 0;font-size:.9rem;color:#566064;}
+.recipe-result-count strong,.recipe-search-count strong{font-weight:700;color:#222;}
+.recipe-current-query{color:#566064;}
+.recipe-clear-search{border:1px solid #c9c1b8;background:#fff;border-radius:999px;padding:.18rem .52rem;font:inherit;font-size:.82rem;line-height:1.2;cursor:pointer;color:#566064;margin-left:.45rem;}
+.recipe-clear-search:hover{border-color:#566064;color:#222;}
+.site-header nav{display:flex;align-items:center;gap:1rem;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none;margin-left:auto;justify-content:flex-end;}
+.site-header nav::-webkit-scrollbar{display:none;width:0;height:0;}
+.site-header nav a{white-space:nowrap;}
+.site-header .index-nav-back{display:inline-flex !important;align-items:center;justify-content:center;width:28px;height:28px;font-size:24px;line-height:1;text-decoration:none;color:inherit;flex:0 0 auto;position:relative;top:-2px;visibility:visible !important;}
+.site-header .index-nav-back:hover{text-decoration:none;}
+.site-search-button{display:inline-flex;align-items:center;justify-content:center;border:0;background:transparent;color:inherit;padding:.15rem .1rem;cursor:pointer;vertical-align:middle;flex:0 0 auto;}
+.site-search-button svg{width:1.08em;height:1.08em;stroke:currentColor;stroke-width:2;fill:none;display:block;}
+.recipe-search-overlay{position:fixed;inset:0;z-index:2000;display:none;}
+.recipe-search-overlay.is-open{display:block;}
+.recipe-search-backdrop{position:absolute;inset:0;background:rgba(0,0,0,.10);}
+.recipe-search-dialog{position:fixed;top:4.8rem;right:2rem;width:min(410px,calc(100vw - 2rem));margin:0;padding:.95rem 1rem;background:#fff;border:1px solid #8b837b;box-shadow:0 18px 45px rgba(0,0,0,.22);border-radius:.45rem;}
+.recipe-search-dialog h2{margin:0 2rem .55rem 0;font-size:1.05rem;}
+.recipe-search-close{position:absolute;top:.45rem;right:.65rem;border:0;background:transparent;font:inherit;font-size:1.45rem;line-height:1;cursor:pointer;color:#566064;}
+.recipe-search-input{box-sizing:border-box;width:100%;border:1px solid #9d948b;border-radius:.45rem;padding:.55rem .65rem;font:inherit;background:#fff;}
+.recipe-search-hint{margin:.45rem 0 .65rem 0;font-size:.84rem;color:#566064;}
+.recipe-search-actions{display:flex;align-items:center;justify-content:flex-start;gap:.7rem;margin:.55rem 0 0 0;}
+.recipe-search-submit{display:inline-flex;align-items:center;justify-content:center;width:auto;min-width:5.8rem;border:1px solid #8b837b;background:#fff;border-radius:999px;padding:.32rem .78rem;font:inherit;font-size:.9rem;line-height:1.2;cursor:pointer;}
+.recipe-search-submit:hover{border-color:#566064;}
+.recipe-search-count{margin:0;font-size:.84rem;color:#566064;}
+.index-editorial-card{display:grid;gap:.75rem;margin:.2rem 0 1rem 0;padding:.85rem;border:1px solid var(--line);background:rgba(255,255,255,.42);}
+.index-editorial-card figure{margin:0;}
+.index-editorial-card p{margin:0 0 .55rem 0;}
+.index-editorial-images{display:grid;grid-template-columns:repeat(auto-fit,minmax(7rem,1fr));gap:.55rem;}
+.index-editorial-images img{width:100%;height:auto;box-shadow:none;background:#fff;}
+.index-editorial-links{display:flex;flex-wrap:wrap;gap:.45rem .7rem;margin:.55rem 0 0 0;}
+.index-editorial-link{display:inline-flex;border:1px solid #c9c1b8;background:#fff;border-radius:999px;padding:.25rem .62rem;font-size:.86rem;line-height:1.2;}
+.index-editorial-link:hover{text-decoration:none;border-color:#566064;}
+@media (max-width:760px){.site-header nav{gap:.32rem;margin-left:auto;justify-content:flex-end;}.site-header nav a{font-size:.95rem;letter-spacing:-.015em;}.site-header .index-nav-back{width:20px;height:22px;font-size:18px;top:-1px;}.site-header .site-search-button{padding:.05rem 0;}.site-header .site-search-button svg{width:.98em;height:.98em;}}
+@media (max-width:640px){.recipe-search-dialog{top:4rem;right:1rem;left:1rem;width:auto;}}
+</style>
+</head>
+<body>
+<div class="page">
+<header class="site-header">
+  <a class="brand" href="../index.html">Ricette (e altro) di Pierre</a>
+  <nav>
+    <a class="index-nav-back" href="../index.html" aria-label="Torna indietro" title="Torna indietro" onclick="if(history.length>1){event.preventDefault();history.back();}">←</a>
+    <a href="ricette.html">Ricette</a>
+    <a href="ingredienti.html">Ingredienti</a>
+    <a href="geografia.html">Geografia</a>
+    <button class="site-search-button js-site-search-open" type="button" aria-label="Cerca nel ricettario" title="Cerca nel ricettario"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="M15.5 15.5L21 21"></path></svg></button>
+  </nav>
+</header>
+<main class="index-page">
+<div class="index-content">
+<h1>Fonti</h1>
+<section class="lead home-intro index-intro"><p>L’indice delle fonti raccoglie le persone e i riferimenti dichiarati nelle ricette.</p></section><section class="block recipe-refine-panel fonti-refine-panel" aria-label="Filtri fonti">
+  <details class="recipe-refine">
+    <summary>Filtri</summary>
+    <div class="recipe-refine-grid">
+      <div class="recipe-refine-group"><h2>Categoria</h2><div class="recipe-refine-buttons"><button class="recipe-refine-btn is-active" type="button" data-refine="cat" data-value="tutte">Tutte</button><button class="recipe-refine-btn" type="button" data-refine="cat" data-value="antipasti">Antipasti</button><button class="recipe-refine-btn" type="button" data-refine="cat" data-value="contorni">Contorni</button><button class="recipe-refine-btn" type="button" data-refine="cat" data-value="dolci">Dolci</button><button class="recipe-refine-btn" type="button" data-refine="cat" data-value="primi">Primi</button><button class="recipe-refine-btn" type="button" data-refine="cat" data-value="salse">Salse</button><button class="recipe-refine-btn" type="button" data-refine="cat" data-value="secondi">Secondi</button></div></div>
+      <div class="recipe-refine-group"><h2>Regime</h2><div class="recipe-refine-buttons"><button class="recipe-refine-btn is-active" type="button" data-refine="regime" data-value="tutto">Tutto</button><button class="recipe-refine-btn" type="button" data-refine="regime" data-value="onnivoro">Onnivoro</button><button class="recipe-refine-btn" type="button" data-refine="regime" data-value="pescetariano">Pescetariano</button><button class="recipe-refine-btn" type="button" data-refine="regime" data-value="vegetariano">Vegetariano</button><button class="recipe-refine-btn" type="button" data-refine="regime" data-value="vegano">Vegano</button></div></div>
+      <div class="recipe-refine-group"><h2>Stagione</h2><div class="recipe-refine-buttons"><button class="recipe-refine-btn is-active" type="button" data-refine="season" data-value="tutto">Tutto</button><button class="recipe-refine-btn" type="button" data-refine="season" data-value="primavera">Primavera</button><button class="recipe-refine-btn" type="button" data-refine="season" data-value="estate">Estate</button><button class="recipe-refine-btn" type="button" data-refine="season" data-value="autunno">Autunno</button><button class="recipe-refine-btn" type="button" data-refine="season" data-value="inverno">Inverno</button><button class="recipe-refine-btn" type="button" data-refine="season" data-value="tutto_anno">Tutto l’anno</button></div></div>
+    </div>
+  </details>
+</section><div class="index-search-status"><p class="recipe-result-count" id="indexSearchResultCount" aria-live="polite"></p><button class="recipe-reset-btn js-index-reset" type="button">Rimuovi tutti i filtri</button></div><section class="block index-category" data-filter-group><h2 id="aimee-gibert">Aimée Gibert</h2><div class="index-editorial-card"><div class="index-editorial-images"><figure><img src="../foto/indici/fonti/aimee-gibert/01.jpg" alt="Aimée Gibert"></figure><figure><img src="../foto/indici/fonti/aimee-gibert/02.jpg" alt="Aimée Gibert"></figure><figure><img src="../foto/indici/fonti/aimee-gibert/03.jpg" alt="Aimée Gibert"></figure></div></div><ul class="home-secondary-list"><li data-slug="anatra-all-arancia" data-cats="secondi" data-regime="onnivoro" data-stagioni="estate inverno" data-allergeni="cereali contenenti glutine|latte" data-search="anatra all&#x27;arancia secondi francia aimée gibert questa ricetta proviene da appunti da un ricettario di mia nonna. con il tempo ho cercato di alleggerirla... ma i miracoli non sono possibili. e&#x27; importante rispettare i tempi di cottura per non alterare il gusto.… anatra strutto farina brodo di carne passata di pomodoro vino bianco secco prosciutto crudo lardo arancia burro curaçao carota cipolla alloro timo ginepro rosmarino fegato di anatra sale pepe nero cereali contenenti glutine latte estate inverno onnivoro"><a href="../ricette/anatra-all-arancia/"><strong>Anatra all&#x27;arancia</strong><span>Francia · Secondi · Aimée Gibert</span></a></li></ul></section><section class="block index-category" data-filter-group><h2 id="antonio-s">Antonio S.</h2><ul class="home-secondary-list"><li data-slug="battuta-di-manzo-alla-boscaiola" data-cats="secondi" data-regime="onnivoro" data-stagioni="tutto_anno" data-search="battuta di manzo alla boscaiola secondi italia - veneto - alpago antonio s. questa ricetta mi è stata inviata da antonio e probabilmente nasce in area alpago. non è una battuta classica: qui conta l’insieme. la corteccia scaldata in forno rilascia profumo di resina, la pancetta porta grasso… battuta di manzo olio extra verdine d&#x27;oliva corteccia pancetta ginepro patate tutto_anno onnivoro"><a href="../ricette/battuta-di-manzo-alla-boscaiola/"><strong>Battuta di manzo alla boscaiola</strong><span>Italia - Veneto - Alpago · Secondi · Antonio S.</span></a></li></ul></section><section class="block index-category" data-filter-group><h2 id="chatgtp">ChatGTP</h2><ul class="home-secondary-list"><li data-slug="picana" data-cats="secondi" data-regime="onnivoro" data-stagioni="tutto_anno" data-search="picana secondi chatgtp picana (lombata) tutto_anno onnivoro"><a href="../ricette/picana/"><strong>Picana</strong><span>Secondi · ChatGTP</span></a></li></ul></section><section class="block index-category" data-filter-group><h2 id="eddy-salzano">Eddy Salzano</h2><ul class="home-secondary-list"><li data-slug="gnocchetti-sardi-alla-urbaweb" data-cats="primi" data-regime="pescetariano" data-stagioni="estate" data-allergeni="cereali contenenti glutine|crostacei|pesce|sedano" data-search="gnocchetti sardi alla urbaweb primi veneto – venezia eddy salzano questa non è una mia ricetta. è di eddy salzano , e la riporto perché fa parte della mia storia. nasce a venezia, durante una riunione di urbandata: fine maggio, caldo già presente, bisogno di un piatto freddo,… gnocchetti sardi zucchine pomodori peperoni sedano schie olive verdi olive di gaeta pesce spada affumicato basilico olio extra vergine d’oliva sale pepe menta cereali contenenti glutine crostacei pesce sedano estate pescetariano"><a href="../ricette/gnocchetti-sardi-alla-urbaweb/"><strong>Gnocchetti sardi alla Urbaweb</strong><span>Veneto – Venezia · Primi · Eddy Salzano</span></a></li><li data-slug="pasta-con-i-broccoli" data-cats="primi" data-regime="vegetariano" data-stagioni="tutto_anno" data-allergeni="latte|frutta a guscio" data-search="pasta con i broccoli primi italia - lazio - roma eddy salzano uva passa broccoli aglio pinoli olio evo pecorino romano latte frutta a guscio tutto_anno vegetariano"><a href="../ricette/pasta-con-i-broccoli/"><strong>Pasta con i broccoli</strong><span>Italia - Lazio - Roma · Primi · Eddy Salzano</span></a></li><li data-slug="spaghetti-alla-puttanesca" data-cats="primi" data-regime="pescetariano" data-stagioni="tutto_anno" data-allergeni="cereali contenenti glutine|pesce" data-search="spaghetti alla puttanesca primi roma eddy salzano e&#x27; una storia lunga... anzi lunghissima. ma è una ricetta disarmante per la sua semplicità. spaghetti o vermicelli aglio peperoncini secchi piccanti olive di gaeta capperi sotto sale alici sotto sale olio extravergine d&#x27;oliva pelati prezzemolo cereali contenenti glutine pesce tutto_anno pescetariano"><a href="../ricette/spaghetti-alla-puttanesca/"><strong>Spaghetti alla puttanesca</strong><span>Roma · Primi · Eddy Salzano</span></a></li><li data-slug="tortino-di-alici" data-cats="antipasti" data-regime="pescetariano" data-stagioni="tutto_anno" data-allergeni="cereali contenenti glutine|pesce|latte" data-search="tortino di alici antipasti italia - roma eddy salzano questo piatto è diffuso con numerose varianti in tutto il sud italia. questa mia personalizzazione prende spunto da come lo preparava eddy. non pretende assolutamente di essere fedele alla sua ricetta. ne purtroppo… alici freschissime mollica o pangrattato pecorino romano dop olio extra vergine d&#x27;oliva sale peperoncino nepetella prezzemolo origano limone bio pepe cereali contenenti glutine pesce latte tutto_anno pescetariano"><a href="../ricette/tortino-di-alici/"><strong>Tortino di alici</strong><span>Italia - Roma · Antipasti · Eddy Salzano</span></a></li></ul></section><section class="block index-category" data-filter-group><h2 id="franco-c">Franco C.</h2><ul class="home-secondary-list"><li data-slug="spaghetti-alla-bottarga" data-cats="primi" data-regime="pescetariano" data-stagioni="tutto_anno" data-allergeni="cereali contenenti glutine|pesce" data-search="spaghetti alla bottarga primi sicilia franco c. provenienza: liberamente ispirato da una cena di franco chiaromonte. ritengo che esista solo un modo per assaporare l&#x27;essenza di quella prelibatezza che è la bottarga di muggine. la bottarga è un ingrediente che non… spaghetti bottarga di muggine aglio olio extra vergine d&#x27;oliva peperoncino pangrattato prezzemolo. cereali contenenti glutine pesce tutto_anno pescetariano"><a href="../ricette/spaghetti-alla-bottarga/"><strong>Spaghetti alla bottarga</strong><span>Sicilia · Primi · Franco C.</span></a></li></ul></section><section class="block index-category" data-filter-group><h2 id="guillaume-e">Guillaume E.</h2><ul class="home-secondary-list"><li data-slug="ratatouille-variante" data-cats="contorni" data-regime="onnivoro" data-stagioni="estate" data-search="ratatouille (variante) contorni francia - provenza guillaume e. da una ricetta tradizionale una piccola variante che mi è stata suggerita. frequentando spesso la drome provenzale ho dovuto imparare a conoscere la cucina locale. qui un percorso dal colle dell&#x27;agnello a roussignol.… melanzane lunghe zucchine peperoni gialli e rossi cipolla bianca aglio basilico sale pepe estate onnivoro"><a href="../ricette/ratatouille-variante/"><strong>Ratatouille (variante)</strong><span>Francia - Provenza · Contorni · Guillaume E.</span></a></li></ul></section><section class="block index-category" data-filter-group><h2 id="jacqueline-gibert">Jacqueline Gibert</h2><ul class="home-secondary-list"><li data-slug="agnolotti-al-sugo-d-arrosto" data-cats="primi" data-regime="onnivoro" data-stagioni="estate" data-allergeni="cereali contenenti glutine|uova|latte|frutta a guscio|sedano" data-search="agnolotti al sugo d&#x27;arrosto primi italia - piemonte jacqueline gibert questa ricetta rispecchia un poco la mia famiglia. mio padre era di alessandria e mia madre era nata a torino. queste due città hanno una tradizione di agnolotti leggermente diversa: arrosto a torino, brasato ad… per il brodo polpa di manzo ossa di bovino doppione o biancostato gallina pulita sedano carota cipolla pomodoro rosso acqua fredda sale alloro bacche di ginepro chiodi di garofano prezzemolo pepe in grani per il ripieno e il sugo reale di vitello polpa di suino lardo non aromatizzato prosciutto cotto riso bollito nel latte spinaci cipolle dorate rosmarino cannella salvia noce moscata barbera uova parmigiano reggiano burro olio extra vergine d&#x27;oliva pepe per la pasta farina di frumento tipo 00 cereali contenenti glutine uova latte frutta a guscio sedano estate onnivoro"><a href="../ricette/agnolotti-al-sugo-d-arrosto/"><strong>Agnolotti al sugo d&#x27;arrosto</strong><span>Italia - Piemonte · Primi · Jacqueline Gibert</span></a></li><li data-slug="aringhe-in-terrina" data-cats="antipasti" data-regime="pescetariano" data-stagioni="tutto_anno inverno" data-allergeni="pesce" data-search="aringhe in terrina antipasti francia - alsazia jacqueline gibert quando ero ragazzo erano spesso presenti in casa mia. ottimi panini con il pane imburrato... aringhe sciocche affumicate carote cipolla bacche di ginepro limoni bio vino bianco secco olio extra vergine d&#x27;oliva pesce tutto_anno inverno pescetariano"><a href="../ricette/aringhe-in-terrina/"><strong>Aringhe in terrina</strong><span>Francia - Alsazia · Antipasti · Jacqueline Gibert</span></a></li><li data-slug="bagna-cauda" data-cats="secondi" data-regime="pescetariano" data-stagioni="primavera estate inverno" data-allergeni="pesce|latte|sedano" data-search="bagna cauda secondi italia - piemonte jacqueline gibert questa ricetta tradizionale piemontese è nella versione tramandata da mia mamma. per fissarla nel tempo ha pensato di scriverla e disegnarla su una piastrella bianca di ceramica, poi cotta in forno. è ancora oggi… aglio alici sotto sale olio extravergine d&#x27;oliva panna cardo bianco gobbo topinambur peperoni sotto mosto sedano carciofi rape finocchi ravanelli cavolfiore carote pesce latte sedano primavera estate inverno pescetariano"><a href="../ricette/bagna-cauda/"><strong>Bagna cauda</strong><span>Italia - Piemonte · Secondi · Jacqueline Gibert</span></a></li><li data-slug="crepes" data-cats="dolci" data-regime="vegetariano" data-stagioni="tutto_anno" data-allergeni="cereali contenenti glutine|uova|latte" data-search="crêpes dolci francia jacqueline gibert sì, certo: bretagna e normandia . luce, vento, nuvole basse che sembrano uscire da un quadro di magritte, quasi da toccare. ma per me le crêpes non sono lì. sono casa mia. l’estate, la campagna, una cucina semplice… uova farina di frumento 00 burro latte intero acqua sale zucchero di canna limone cereali contenenti glutine uova latte tutto_anno vegetariano"><a href="../ricette/crepes/"><strong>Crêpes</strong><span>Francia · Dolci · Jacqueline Gibert</span></a></li><li data-slug="daube" data-cats="secondi" data-regime="onnivoro" data-stagioni="estate inverno" data-search="daube secondi francia - provenza jacqueline gibert potrebbe sembrare uno spezzatino, ma non lo è. la traccia viene da mia madre, jacqueline gibert, e non ho motivo di metterla in discussione. piuttosto, nel tempo ho cercato di chiarire meglio il ruolo degli… manzo concentrato di pomodoro lardo prezzemolo tritato aglio cipolle carote vino rosso sale pepe tritato bouquet garni estate inverno onnivoro"><a href="../ricette/daube/"><strong>Daube</strong><span>Francia - Provenza · Secondi · Jacqueline Gibert</span></a></li><li data-slug="gigot-roti" data-cats="secondi" data-regime="onnivoro" data-stagioni="tutto_anno" data-search="gigot roti secondi francia jacqueline gibert è una preparazione molto francese, non legata al periodo pasquale, dove invece da noi è più tradizionale. qui la cottura deve essere precisa, senza margine di errore. io lo cucino raramente, e proprio per questo… cosciotto d&#x27;agnello di almeno kg 1,5 sale pepe timo aglio olio extra vergine d&#x27;oliva rosmarino alloro tutto_anno onnivoro"><a href="../ricette/gigot-roti/"><strong>Gigot roti</strong><span>Francia · Secondi · Jacqueline Gibert</span></a></li><li data-slug="minestra-di-cavoli" data-cats="primi" data-regime="onnivoro" data-stagioni="autunno inverno" data-search="minestra di cavoli primi francia jacqueline gibert cavolo lardo patate autunno inverno onnivoro"><a href="../ricette/minestra-di-cavoli/"><strong>Minestra di cavoli</strong><span>Francia · Primi · Jacqueline Gibert</span></a></li><li data-slug="minestra-di-porri" data-cats="primi" data-regime="vegetariano" data-stagioni="inverno" data-allergeni="latte" data-search="minestra di porri primi jacqueline gibert porri olio extra vergine d&#x27;oliva bburro patate riso brodo latte inverno vegetariano"><a href="../ricette/minestra-di-porri/"><strong>Minestra di porri</strong><span>Primi · Jacqueline Gibert</span></a></li><li data-slug="pate-di-fegato" data-cats="antipasti" data-regime="onnivoro" data-stagioni="tutto_anno" data-allergeni="latte" data-search="paté di fegato antipasti francia jacqueline gibert ½ kg. di fegato di vitello fegatini di pollo panna lardo cipolla aglio alloro rosmarino marsala strutto latte tutto_anno onnivoro"><a href="../ricette/pate-di-fegato/"><strong>Paté di fegato</strong><span>Francia · Antipasti · Jacqueline Gibert</span></a></li><li data-slug="salsa-verde" data-cats="salse" data-regime="pescetariano" data-stagioni="tutto_anno" data-allergeni="cereali contenenti glutine|pesce|latte" data-search="salsa verde salse italia - piemonte jacqueline gibert base per il bollito misto. e non è neanche una vera ricetta. prezzemolo aglio capperi alici sotto sale mollica di pane imbevuto di latte olio extra vergine d&#x27;oliva aceto sale cereali contenenti glutine pesce latte tutto_anno pescetariano"><a href="../ricette/salsa-verde/"><strong>Salsa verde</strong><span>Italia - Piemonte · Salse · Jacqueline Gibert</span></a></li></ul></section><section class="block index-category" data-filter-group><h2 id="mix-risto-bottega-sarda">Mix Risto bottega sarda</h2><ul class="home-secondary-list"><li data-slug="paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero" data-cats="primi" data-regime="pescetariano" data-stagioni="estate" data-search="paccheri di gragnano igp con orata, pomodorini, capperi e zenzero primi italia- sardegna mix risto bottega sarda dal disciplinate della pasta di gragnano igp. la “pasta di gragnano” è il prodotto ottenuto dall’impasto della semola di grano duro con acqua della falda acquifera locale. i formati immessi al consumo sono, diversi,… paccheri di gragnano igp filetti di orata pomodorini capperi sotto sale zenzero vino bianco secco concentrato di pomodori olio extra vergine d&#x27;oliva sale pepe prezzemolo tritato estate pescetariano"><a href="../ricette/paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero/"><strong>Paccheri di Gragnano IGP con orata, pomodorini, capperi e zenzero</strong><span>Italia- Sardegna · Primi · Mix Risto bottega sarda</span></a></li></ul></section><section class="block index-category" data-filter-group><h2 id="nicola-d">Nicola D.</h2><ul class="home-secondary-list"><li data-slug="arista-alla-birra" data-cats="secondi" data-regime="onnivoro" data-stagioni="autunno inverno" data-allergeni="cereali contenenti glutine|sedano" data-search="arista alla birra secondi italia - campania nicola d. questa ricetta mi arriva da nicola, anzi dalla sua ex moglie. è una di quelle preparazioni che richiedono tempo più che tecnica: la carne cuoce lentamente nella birra e si trasforma, diventando morbida e saporita. io… arista di maiale birra ambrata prezzemolo melograno funghi settembrini alloro sedano cipolla timo salvia menta bacche di ginepro pepe cereali contenenti glutine sedano autunno inverno onnivoro"><a href="../ricette/arista-alla-birra/"><strong>Arista alla birra</strong><span>Italia - Campania · Secondi · Nicola D.</span></a></li></ul></section><section class="block index-category" data-filter-group><h2 id="nicola-f">Nicola F.</h2><ul class="home-secondary-list"><li data-slug="braciole-di-carne-di-cavallo" data-cats="primi" data-regime="onnivoro" data-stagioni="estate" data-allergeni="latte" data-search="braciole di carne di cavallo primi italia - puglia nicola f. questa è una ricetta pugliese, ma io la considero soprattutto per quello che diventa nel piatto: un sugo ricco per la pasta. le bracioline di cavallo cuociono lentamente nel pomodoro a lungo, rilasciando sapore e… polpa di cavallo a fettine passato di pomodoro olio extra vergine d&#x27;oliva vino rosso cipolla viola aglio prezzemolo alloro sale pepe pecorino romano dop latte estate onnivoro"><a href="../ricette/braciole-di-carne-di-cavallo/"><strong>Braciole di carne di cavallo</strong><span>Italia - Puglia · Primi · Nicola F.</span></a></li><li data-slug="calamari-ripieni" data-cats="secondi" data-regime="pescetariano" data-stagioni="tutto_anno" data-allergeni="uova|latte|molluschi" data-search="calamari ripieni secondi italia - puglia nicola f. qui il calamaro fa la differenza... se è troppo fresco può risultare sorprendentemente duro. meglio che sia stato abbattuto oppure lasciato riposare un paio di giorni. calamari uova prezzemolo pecorino romano aglio pelati san marzano dop olio extra verdine d&#x27;oliva pepe sale uova latte molluschi tutto_anno pescetariano"><a href="../ricette/calamari-ripieni/"><strong>Calamari ripieni</strong><span>Italia - Puglia · Secondi · Nicola F.</span></a></li><li data-slug="orecchiette-baresi-alle-cime-di-rapa" data-cats="primi" data-regime="pescetariano" data-stagioni="primavera" data-allergeni="cereali contenenti glutine|pesce" data-search="orecchiette baresi alle cime di rapa primi puglia nicola f. ho recentemente aggiornato questa ricetta. per questo la ripropongo. peperoncino spicchio orecchiette baresi cime di rapa alici sotto sale cereali contenenti glutine pesce primavera pescetariano"><a href="../ricette/orecchiette-baresi-alle-cime-di-rapa/"><strong>Orecchiette baresi alle cime di rapa</strong><span>Puglia · Primi · Nicola F.</span></a></li><li data-slug="peperoni-alici-e-capperi" data-cats="antipasti" data-regime="pescetariano" data-stagioni="estate" data-allergeni="pesce" data-search="peperoni, alici e capperi antipasti puglia nicola f. peperoni rossi e gialli capperi sotto sale alici sotto sale olio extra vergine d&#x27;oliva pugliese pesce estate pescetariano"><a href="../ricette/peperoni-alici-e-capperi/"><strong>Peperoni, alici e capperi</strong><span>Puglia · Antipasti · Nicola F.</span></a></li><li data-slug="riso-cozze-e-patate" data-cats="primi" data-regime="pescetariano" data-stagioni="estate" data-allergeni="latte|molluschi" data-search="riso cozze e patate primi italia - puglia nicola f. cozze, peoci, mitili: facciamo chiarezza. sono rigorosamente vietati quelli atlantici. solo mediterranee, in particolare del sud adriatico o del tirreno . non vi è confronto. quelli atlantici vanno bene per le… cozze riso patate aglio prezzemolo pecorino romano dpo pomodori pelati dop olio extra vergine d&#x27;oliva sale pepe latte molluschi estate pescetariano"><a href="../ricette/riso-cozze-e-patate/"><strong>Riso cozze e patate</strong><span>Italia - Puglia · Primi · Nicola F.</span></a></li><li data-slug="sfogliata-pugliese" data-cats="primi" data-regime="pescetariano" data-stagioni="estate" data-allergeni="cereali contenenti glutine|pesce|latte|frutta a guscio" data-search="sfogliata pugliese primi italia - puglia nicola f. pasta per pane olive nere snocciolate pugliesi alici sotto sale uva passa pomodori pelati dop pecorino romano capperi olio extra vergine d&#x27;oliva cereali contenenti glutine pesce latte frutta a guscio estate pescetariano"><a href="../ricette/sfogliata-pugliese/"><strong>Sfogliata pugliese</strong><span>Italia - Puglia · Primi · Nicola F.</span></a></li></ul></section><section class="block index-category" data-filter-group><h2 id="regihof">Regihof</h2><ul class="home-secondary-list"><li data-slug="goulash-variante" data-cats="secondi" data-regime="onnivoro" data-stagioni="estate inverno" data-allergeni="latte|sedano" data-search="gulash (variante) secondi italia - alto-adige - val-di-casies regihof questa versione della ricetta del gulasch non è la ricetta tradizionale originale (ungherese o tirolese). e&#x27; una mia interpretazione che fa riferimento alla ricetta de la &quot;cucina italiana&quot; e in parte come ho gustato… manzo patate cipolla carote pomodorini sedano brodo vegetale burro prezzemolo cuminio paprika sale pepe timo scorza di limone grattugiata latte sedano estate inverno onnivoro"><a href="../ricette/goulash-variante/"><strong>Gulash (variante)</strong><span>Italia - Alto-Adige - Val-di-Casies · Secondi · Regihof</span></a></li></ul></section><section class="block index-category" data-filter-group><h2 id="ricettario-la-cucina-siciliana">Ricettario &quot;La cucina Siciliana&quot;</h2><ul class="home-secondary-list"><li data-slug="sarde-a-beccafico" data-cats="antipasti" data-regime="pescetariano" data-stagioni="tutto_anno" data-allergeni="cereali contenenti glutine|pesce|frutta a guscio" data-search="sarde a beccafico antipasti italia - sicilia ricettario &quot;la cucina siciliana&quot; sarde di media grandezza pangrattato pinoli uva sultanina alici sotto sale alloro fresco prezzemolo olio extra vergine d&#x27;oliva limoni bio zucchero di canna sale pepe cereali contenenti glutine pesce frutta a guscio tutto_anno pescetariano"><a href="../ricette/sarde-a-beccafico/"><strong>Sarde a beccafico</strong><span>Italia - Sicilia · Antipasti · Ricettario &quot;La cucina Siciliana&quot;</span></a></li></ul></section><section class="block index-category" data-filter-group><h2 id="ristorante">Ristorante</h2><ul class="home-secondary-list"><li data-slug="filettino-di-maiale" data-cats="secondi" data-regime="onnivoro" data-stagioni="tutto_anno" data-allergeni="senape" data-search="filettin o di maiale secondi croazia ristorante hvar ci sono stato diverse volte. una volta era poco conosciuta; oggi, forse considerata tra le isole più belle del mediterraneo, ha perso molto nei luoghi più esposti. ma basta allontanarsi dal capoluogo per… filettino di maiale scalogno senape di digione timo olio extra vergine d&#x27;oliva sale pepe senape tutto_anno onnivoro"><a href="../ricette/filettino-di-maiale/"><strong>Filettin o di maiale</strong><span>Croazia · Secondi · Ristorante</span></a></li></ul></section><section class="block index-category" data-filter-group><h2 id="ristorante-alla-cannata">Ristorante &quot;Alla cannata&quot;</h2><ul class="home-secondary-list"><li data-slug="penne-alla-cannata" data-cats="primi" data-regime="pescetariano" data-stagioni="estate" data-allergeni="cereali contenenti glutine|pesce" data-search="penne alla &quot;cannata&quot; primi italia - sicilia - linosa ristorante &quot;alla cannata&quot; elementi essenziali della cucina di questa trattoria sono i capperi e la mentuccia. luogo splendido in riva al mare. alici sotto sale capperi mezze penne rigate pomodorini peperoncino pangrattato aglio sale pepe menta origano olio extra vergine d&#x27;oliva cereali contenenti glutine pesce estate pescetariano"><a href="../ricette/penne-alla-cannata/"><strong>Penne alla &quot;Cannata&quot;</strong><span>Italia - Sicilia - Linosa · Primi · Ristorante &quot;Alla cannata&quot;</span></a></li></ul></section><section class="block index-category" data-filter-group><h2 id="sandro-b">Sandro B.</h2><ul class="home-secondary-list"><li data-slug="penne-con-mazzancolle-alle-verdure" data-cats="primi" data-regime="pescetariano" data-stagioni="inverno" data-allergeni="cereali contenenti glutine" data-search="penne con mazzancolle alle verdure primi italia - veneto sandro b. una sera a cena da lui... aglio carota mazzancolla porro zafferano zucchina penne verdura cereali contenenti glutine inverno pescetariano"><a href="../ricette/penne-con-mazzancolle-alle-verdure/"><strong>Penne con mazzancolle alle verdure</strong><span>Italia - Veneto · Primi · Sandro B.</span></a></li></ul></section><section class="block index-category" data-filter-group><h2 id="serena-s">Serena S.</h2><ul class="home-secondary-list"><li data-slug="filetto-angus-alla-senape-di-digione" data-cats="secondi" data-regime="onnivoro" data-stagioni="tutto_anno" data-allergeni="senape" data-search="filetto angus alla senape di digione secondi serena s. serena: &quot;la ricetta di cui parlavo è stata passata da un amico, andrea tanzi, cui devo eterna gratitudine per averla fatta (e quindo l&#x27;ho assaggiata) e poi generosamente spiegata.&quot; filetto angus senape sale grosso senape tutto_anno onnivoro"><a href="../ricette/filetto-angus-alla-senape-di-digione/"><strong>Filetto Angus alla senape di Digione</strong><span>Secondi · Serena S.</span></a></li></ul></section><section class="block index-category" data-filter-group><h2 id="web">Web</h2><ul class="home-secondary-list"><li data-slug="cous-cous-alla-trapanese" data-cats="primi" data-regime="pescetariano" data-stagioni="tutto_anno" data-allergeni="cereali contenenti glutine" data-search="cous cous alla trapanese primi sicilia trapani web questo è un piatto che sto ancora cercando di mettere a fuoco. le versioni che si trovano sono molto diverse tra loro, spesso costruite più per essere presentate che per essere mangiate. qui parto da una traccia e… cous cous cereali contenenti glutine tutto_anno pescetariano"><a href="../ricette/cous-cous-alla-trapanese/"><strong>Cous cous alla trapanese</strong><span>Sicilia Trapani · Primi · Web</span></a></li><li data-slug="gnocchi-con-le-trombette-dei-morti" data-cats="primi" data-regime="vegetariano" data-stagioni="autunno" data-allergeni="cereali contenenti glutine|latte" data-search="gnocchi con le trombette dei morti primi veneto web un piatto velocissimo, quasi improvvisato. ma prima bisogna uscire. camminare. nei boschi, nei posti conosciuti . magari trovare i funghi, o almeno pensarli. poi si torna e si cucina. è una preparazione semplice, ma… gnocchetti di patate funghi trombette dei morti essiccati e grattugiati burro parmigiano reggiano cereali contenenti glutine latte autunno vegetariano"><a href="../ricette/gnocchi-con-le-trombette-dei-morti/"><strong>Gnocchi con le trombette dei morti</strong><span>Veneto · Primi · Web</span></a></li><li data-slug="pappa-con-il-pomodoro" data-cats="primi" data-regime="vegano" data-stagioni="estate inverno" data-allergeni="cereali contenenti glutine|sedano" data-search="pappa con il pomodoro primi italia - toscana web basilico carota aglio pomodori porro sedano pane toscano cereali contenenti glutine sedano estate inverno vegano"><a href="../ricette/pappa-con-il-pomodoro/"><strong>Pappa con il pomodoro</strong><span>Italia - Toscana · Primi · Web</span></a></li><li data-slug="pasta-e-fagioli" data-cats="primi" data-regime="vegetariano" data-stagioni="tutto_anno" data-search="pasta e fagioli primi italia - veneto web e&#x27; un piatto di origine contadina ma diffusissimo ed apprezzatissimo a venezia. usare fagioli freschi sgranati di lamon oppure secchi messi a mollo per una notte con un punta di bicarbonato. fagioli di lamon cipolla carota rosmarino alloro osso di prosciutto subiotini tutto_anno vegetariano"><a href="../ricette/pasta-e-fagioli/"><strong>Pasta e fagioli</strong><span>Italia - Veneto · Primi · Web</span></a></li></ul></section>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const groups = Array.from(document.querySelectorAll('.index-category[data-filter-group]'));
+  if (!groups.length) return;
+  const openBtn = document.querySelector('.js-site-search-open');
+  const overlay = document.getElementById('recipeSearchOverlay');
+  const input = document.getElementById('recipeSearchInput');
+  const count = document.getElementById('indexSearchResultCount');
+  const searchCount = document.getElementById('recipeSearchCount');
+  const buttons = Array.from(document.querySelectorAll('.fonti-refine-panel .recipe-refine-btn'));
+  const resetBtn = document.querySelector('.js-index-reset');
+  const state = { q: '', cat: 'tutte', regime: 'tutto', season: 'tutto' };
+  const regimeRank = { vegano: 0, vegetariano: 1, pescetariano: 2, onnivoro: 3 };
+  let suppressUrlUpdate = false;
+  function normalize(s) { return (s || '').toString().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[’']/g, ' ').replace(/_/g, ' ').replace(/\s+/g, ' ').trim(); }
+  function escapeHtml(s) { return (s || '').toString().replace(/[&<>"]/g, function(ch) { return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch]); }); }
+  function groupTitle(group) { const h = group.querySelector('h2'); return h ? h.textContent : ''; }
+  function setActiveButtons() {
+    buttons.forEach(b => {
+      const group = b.getAttribute('data-refine');
+      const value = b.getAttribute('data-value');
+      const active = (group === 'cat' && value === state.cat) ||
+        (group === 'regime' && value === state.regime) ||
+        (group === 'season' && value === state.season);
+      b.classList.toggle('is-active', active);
+    });
+  }
+  function regimeMatches(selected, recipeRegime) {
+    if (selected === 'tutto') return true;
+    if (!recipeRegime) return false;
+    const selectedRank = regimeRank[selected];
+    const recipeRank = regimeRank[recipeRegime];
+    if (selectedRank === undefined || recipeRank === undefined) return false;
+    return recipeRank <= selectedRank;
+  }
+  function seasonMatches(selected, seasons) {
+    if (selected === 'tutto') return true;
+    const normalized = seasons.map(normalize);
+    return normalized.includes(normalize(selected));
+  }
+  function clearRefineButtons() { state.cat = 'tutte'; state.regime = 'tutto'; state.season = 'tutto'; setActiveButtons(); }
+  function updateUrl() {
+    if (suppressUrlUpdate || !window.history) return;
+    const params = new URLSearchParams();
+    const q = state.q.trim();
+    if (q) params.set('q', q);
+    if (state.cat !== 'tutte') params.set('cat', state.cat);
+    if (state.regime !== 'tutto') params.set('regime', state.regime);
+    if (state.season !== 'tutto') params.set('stagione', state.season);
+    const next = window.location.pathname + (params.toString() ? '?' + params.toString() : '');
+    window.history.replaceState(null, '', next);
+  }
+  function restoreFromUrl() {
+    const params = new URLSearchParams(window.location.search);
+    state.q = params.get('q') || '';
+    state.cat = params.get('cat') || 'tutte';
+    state.regime = params.get('regime') || 'tutto';
+    state.season = params.get('stagione') || 'tutto';
+    if (!buttons.some(b => b.getAttribute('data-refine') === 'cat' && b.getAttribute('data-value') === state.cat)) state.cat = 'tutte';
+    if (!buttons.some(b => b.getAttribute('data-refine') === 'regime' && b.getAttribute('data-value') === state.regime)) state.regime = 'tutto';
+    if (!buttons.some(b => b.getAttribute('data-refine') === 'season' && b.getAttribute('data-value') === state.season)) state.season = 'tutto';
+    if (input) input.value = '';
+    setActiveButtons();
+  }
+  function apply() {
+    const terms = normalize(state.q).split(' ').filter(Boolean);
+    let visibleGroups = 0;
+    groups.forEach(group => {
+      const titleText = normalize(groupTitle(group));
+      const items = Array.from(group.querySelectorAll('li'));
+      let visibleItems = 0;
+      items.forEach(item => {
+        const cats = (item.getAttribute('data-cats') || '').split(' ').filter(Boolean);
+        const regime = normalize(item.getAttribute('data-regime') || '');
+        const seasons = (item.getAttribute('data-stagioni') || '').split(' ').filter(Boolean);
+        const catOk = state.cat === 'tutte' || cats.includes(state.cat);
+        const regimeOk = regimeMatches(state.regime, regime);
+        const seasonOk = seasonMatches(state.season, seasons);
+        const text = normalize(titleText + ' ' + (item.getAttribute('data-search') || '') + ' ' + item.textContent);
+        const textOk = terms.every(t => text.includes(t));
+        const show = catOk && regimeOk && seasonOk && textOk;
+        item.style.display = show ? '' : 'none';
+        if (show) visibleItems += 1;
+      });
+      group.style.display = visibleItems > 0 ? '' : 'none';
+      if (visibleItems > 0) visibleGroups += 1;
+    });
+    const hasSearch = !!normalize(state.q);
+    const hasFilters = state.cat !== 'tutte' || state.regime !== 'tutto' || state.season !== 'tutto';
+    if (count) {
+      let html = '<strong>' + visibleGroups + ' fonti trovate</strong>';
+      if (hasSearch) {
+        html += ' <span class="recipe-current-query">per <strong>“' + escapeHtml(state.q.trim()) + '”</strong></span>';
+        html += ' <button class="recipe-clear-search js-index-clear-search" type="button">Annulla ricerca</button>';
+      }
+      count.innerHTML = html;
+      count.style.display = (hasSearch || hasFilters) ? '' : 'none';
+      count.querySelectorAll('.js-index-clear-search').forEach(btn => btn.addEventListener('click', clearSearch));
+    }
+    if (resetBtn) resetBtn.style.display = hasFilters ? '' : 'none';
+    if (searchCount) searchCount.innerHTML = hasSearch ? ('<strong>' + visibleGroups + ' fonti trovate</strong>') : '';
+    updateUrl();
+  }
+  function clearFilters() { clearRefineButtons(); apply(); }
+  function clearSearch() { state.q = ''; if (input) input.value = ''; apply(); }
+  function openSearch() { if (!overlay || !input) return; input.value = ''; overlay.classList.add('is-open'); overlay.setAttribute('aria-hidden', 'false'); if (searchCount) searchCount.innerHTML = ''; setTimeout(function(){ input.focus(); }, 30); }
+  function closeSearch() { if (!overlay) return; overlay.classList.remove('is-open'); overlay.setAttribute('aria-hidden', 'true'); }
+  if (openBtn) openBtn.addEventListener('click', function(ev){ ev.preventDefault(); openSearch(); });
+  if (resetBtn) resetBtn.addEventListener('click', clearFilters);
+  document.querySelectorAll('.js-site-search-close').forEach(btn => btn.addEventListener('click', closeSearch));
+  document.addEventListener('keydown', function(ev){ if (ev.key === 'Escape') closeSearch(); });
+  if (input) input.addEventListener('input', function(){ state.q = input.value; if (normalize(state.q)) clearRefineButtons(); apply(); });
+  buttons.forEach(btn => btn.addEventListener('click', function(ev) {
+    ev.preventDefault();
+    const group = btn.getAttribute('data-refine');
+    const value = btn.getAttribute('data-value');
+    if (!group || !value) return;
+    state[group] = value;
+    setActiveButtons();
+    apply();
+  }));
+  window.addEventListener('popstate', function(){ suppressUrlUpdate = true; restoreFromUrl(); apply(); suppressUrlUpdate = false; });
+  suppressUrlUpdate = true; restoreFromUrl(); apply(); suppressUrlUpdate = false;
+});
+</script>
+<footer class="site-footer">
+  <div class="site-footer-left">
+  </div>
+  <nav class="site-footer-center" aria-label="Strumenti pagina">
+    <a class="site-footer-text" href="../informativa.html" aria-label="Informativa" title="Informativa"><img src="../foto/ui/info-light.svg" alt=""></a>
+    <a class="site-footer-icon" href="../scrivimi.html" aria-label="Scrivimi" title="Scrivimi">
+      <img src="../foto/ui/mail-light.svg" alt="">
+    </a>
+    <a class="site-footer-icon js-print-link" href="#" aria-label="Stampa pagina" title="Stampa pagina">
+      <img src="../foto/ui/print-light.svg" alt="">
+    </a>
+    <a class="site-footer-icon js-copy-link" href="#" aria-label="Copia link pagina" title="Copia link pagina">
+      <img src="../foto/ui/link-light.svg" alt="">
+    </a>
+  </nav>
+  <div class="site-footer-right">
+  </div>
+</footer><div class="recipe-search-overlay" id="recipeSearchOverlay" aria-hidden="true">
+  <div class="recipe-search-backdrop js-site-search-close"></div>
+  <section class="recipe-search-dialog" role="dialog" aria-modal="true" aria-labelledby="recipeSearchTitle">
+    <button class="recipe-search-close js-site-search-close" type="button" aria-label="Chiudi">×</button>
+    <h2 id="recipeSearchTitle">Cerca nel ricettario</h2>
+    <form id="recipeSearchForm" action="ricette.html" method="get">
+      <input id="recipeSearchInput" name="q" class="recipe-search-input" type="search" placeholder="Titolo, ingrediente, luogo…" autocomplete="off">
+      <p class="recipe-search-hint">Inserisci un termine: l’indice Ricette si aprirà già filtrato.</p>
+      <div class="recipe-search-actions"><button class="recipe-search-submit" type="submit">Cerca</button><p class="recipe-search-count" id="recipeSearchCount" aria-live="polite"></p></div>
+    </form>
+  </section>
+</div>
+<script id="index-term-search-submit-script">
+(function(){
+  function initIndexTermSearchSubmit(){
+    var form=document.getElementById('recipeSearchForm');
+    var input=document.getElementById('recipeSearchInput');
+    if(!form||!input) return;
+    form.addEventListener('submit',function(ev){
+      var q=(input.value||'').replace(/\s+/g,' ').trim();
+      if(!q){ev.preventDefault();input.focus();return;}
+      ev.preventDefault();
+      window.location.href='ricette.html?q='+encodeURIComponent(q);
+    });
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',initIndexTermSearchSubmit); else initIndexTermSearchSubmit();
+})();
+</script></div></main></div>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const wrap = document.querySelector('.index-filter');
+  if (!wrap) return;
+  const buttons = wrap.querySelectorAll('.filter-btn');
+  function apply(cat) {
+    document.querySelectorAll('[data-cats]').forEach(item => {
+      const cats = (item.getAttribute('data-cats') || '').split(' ').filter(Boolean);
+      const show = (cat === 'tutte') || cats.includes(cat);
+      item.style.display = show ? '' : 'none';
+    });
+    document.querySelectorAll('[data-filter-group]').forEach(group => {
+      const visible = Array.from(group.querySelectorAll('[data-cats]')).some(el => el.style.display !== 'none');
+      group.style.display = visible ? '' : 'none';
+    });
+    buttons.forEach(b => b.classList.toggle('is-active', b.dataset.cat === cat));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => apply(btn.dataset.cat)));
+  apply('tutte');
+});
+</script>
+
+<script id="site-footer-script">
+(function(){
+  function ensureLightbox(){
+    var lb=document.querySelector('.site-lightbox');
+    if(lb) return lb;
+    lb=document.createElement('div');
+    lb.className='site-lightbox';
+    lb.innerHTML='<button class="site-lightbox-close" aria-label="Chiudi">×</button><figure class="site-lightbox-frame"><img class="site-lightbox-image" alt=""><figcaption class="site-lightbox-caption"></figcaption></figure>';
+    lb.addEventListener('click', function(ev){
+  // chiude su overlay, su X e anche sull'immagine (come index)
+  if (
+    ev.target === lb ||
+    ev.target.classList.contains('site-lightbox-close') ||
+    ev.target.classList.contains('site-lightbox-image')
+  ) {
+    lb.classList.remove('is-open');
+  }
+});
+    document.addEventListener('keydown', function(ev){ if(ev.key==='Escape') lb.classList.remove('is-open'); });
+    document.body.appendChild(lb);
+    return lb;
+  }
+  function openLightbox(src, alt){
+    var lb=ensureLightbox();
+    var img=lb.querySelector('.site-lightbox-image');
+    var cap=lb.querySelector('.site-lightbox-caption');
+    img.src=src; img.alt=alt||'';
+    if(cap) cap.textContent=alt||'';
+    lb.classList.add('is-open');
+  }
+  function showCopyToast(){
+    var oldToast=document.querySelector('.site-copy-toast');
+    if(oldToast) oldToast.remove();
+    var toast=document.createElement('div');
+    toast.className='site-copy-toast';
+    toast.textContent='URL copiato';
+    document.body.appendChild(toast);
+    setTimeout(function(){ if(toast && toast.parentNode) toast.parentNode.removeChild(toast); }, 1200);
+  }
+  document.addEventListener('DOMContentLoaded', function(){
+    /* Indici: nessun QR nel footer. QR riservati alle singole ricette. */
+
+    document.querySelectorAll('.js-print-link').forEach(function(a){
+      a.addEventListener('click', function(ev){ ev.preventDefault(); window.print(); });
+    });
+    document.querySelectorAll('.js-qr-lightbox').forEach(function(a){
+      a.addEventListener('click', function(ev){
+        ev.preventDefault();
+        openLightbox(a.getAttribute('href'), (a.querySelector('img')||{}).alt || 'QR della pagina');
+      });
+    });
+    document.querySelectorAll('.js-copy-link').forEach(function(a){
+      a.addEventListener('click', async function(ev){
+        ev.preventDefault();
+        try {
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            await navigator.clipboard.writeText(window.location.href);
+          } else {
+            var ta=document.createElement('textarea');
+            ta.value=window.location.href; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); ta.remove();
+          }
+          showCopyToast();
+        } catch(e) {}
+      });
+    });
+  });
+})();
+</script>
+</body>
+</html>
