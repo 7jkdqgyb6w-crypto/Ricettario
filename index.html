@@ -4,9 +4,9 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
-<title>Ricette (e altro) di Pierre</title>
+<title>Ricette (e altro) di Pierre</title><link href="https://ricette.pierre.piccotti.it/" rel="canonical"/>
 <link href="style.css" rel="stylesheet"/>
-<meta content="Ricettario personale con ricette, ingredienti, fonti e geografia culinaria." name="description"/><meta content="Ricette (e altro) di Pierre" property="og:title"/><meta content="Ricettario personale con ricette, ingredienti, fonti e geografia culinaria." property="og:description"/><meta content="https://ricette.pierre.piccotti.it/foto/share/home-og.jpg" property="og:image"/><meta content="https://ricette.pierre.piccotti.it/index.html" property="og:url"/><meta content="website" property="og:type"/><meta content="summary_large_image" name="twitter:card"/><meta content="" name="x-ga-measurement-id"/><style id="recipe-lightbox-style">.recipe-lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.88);display:flex;align-items:center;justify-content:center;padding:2rem;z-index:9999;cursor:zoom-out;}
+<meta content="Ricettario personale con ricette, ingredienti, fonti e geografia culinaria." name="description"/><meta content="Ricette (e altro) di Pierre" property="og:title"/><meta content="Ricettario personale con ricette, ingredienti, fonti e geografia culinaria." property="og:description"/><meta content="https://ricette.pierre.piccotti.it/foto/share/home-og.jpg" property="og:image"/><meta content="https://ricette.pierre.piccotti.it/" property="og:url"/><meta content="website" property="og:type"/><meta content="summary_large_image" name="twitter:card"/><meta content="" name="x-ga-measurement-id"/><style id="recipe-lightbox-style">.recipe-lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.88);display:flex;align-items:center;justify-content:center;padding:2rem;z-index:9999;cursor:zoom-out;}
 .recipe-lightbox-overlay.is-hidden{display:none !important;}
 .recipe-lightbox-frame{max-width:96vw;max-height:96vh;display:flex;flex-direction:column;gap:.75rem;align-items:center;}
 .recipe-lightbox-frame img{display:block;max-width:96vw;max-height:88vh;width:auto;height:auto;box-shadow:0 8px 32px rgba(0,0,0,.45);background:#fff;}
@@ -39,7 +39,7 @@
 <h2>Altri accessi</h2>
 <ul class="home-secondary-list home-secondary-list-four">
 <li>
-<a class="js-home-term-search" href="indici/ricette.html" aria-haspopup="dialog">
+<a aria-haspopup="dialog" class="js-site-search-open" href="indici/ricette.html">
 <strong>Termini</strong>
 <span>Ricerca per termini fra le ricette (dati e metadati).</span>
 </a>
@@ -191,47 +191,55 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 });
 </script>
-<div class="home-search-overlay is-hidden" role="dialog" aria-modal="true" aria-labelledby="homeSearchTitle">
-  <div class="home-search-panel">
-    <button class="home-search-close" type="button" aria-label="Chiudi">×</button>
-    <h2 id="homeSearchTitle">Cerca nel ricettario</h2>
-    <form class="home-search-form" action="indici/ricette.html" method="get">
-      <label class="sr-only" for="homeSearchInput">Termine di ricerca</label>
-      <input id="homeSearchInput" name="q" type="search" autocomplete="off" placeholder="Titolo, ingrediente, luogo…">
-      <p class="home-search-hint">Inserisci un termine: l’indice Ricette si aprirà già filtrato.</p>
-      <div class="home-search-actions"><button type="submit">Cerca</button></div>
-    </form>
-  </div>
+<div aria-hidden="true" class="recipe-search-overlay" id="recipeSearchOverlay">
+<div class="recipe-search-backdrop js-site-search-close"></div>
+<section aria-labelledby="recipeSearchTitle" aria-modal="true" class="recipe-search-dialog" role="dialog">
+<button aria-label="Chiudi" class="recipe-search-close js-site-search-close" type="button">×</button>
+<h2 id="recipeSearchTitle">Cerca nel ricettario</h2>
+<form action="indici/ricette.html" id="recipeSearchForm" method="get">
+<input autocomplete="off" class="recipe-search-input" id="recipeSearchInput" name="q" placeholder="Titolo, ingrediente, luogo…" type="search"/>
+<p class="recipe-search-hint">Inserisci un termine: l’indice Ricette si aprirà già filtrato.</p>
+<div class="recipe-search-actions"><button class="recipe-search-submit" type="submit">Cerca</button><p aria-live="polite" class="recipe-search-count" id="recipeSearchCount"></p></div>
+</form>
+</section>
 </div>
-<footer class="site-footer"><div class="site-footer-left"><a aria-label="Home Pierre Piccotti" title="Home Pierre Piccotti" class="site-footer-home-link" href="https://sites.google.com/site/pierrepiccotti/"><img alt="Home Pierre Piccotti" src="foto/ui/home-light.svg"/></a></div><nav aria-label="Strumenti pagina" class="site-footer-center">
-<a class="site-footer-text" href="informativa.html" aria-label="Informativa" title="Informativa"><img alt="" src="foto/ui/info-light.svg"/></a>
-<a aria-label="Scrivimi" title="Scrivimi" class="site-footer-icon" href="scrivimi.html"><img alt="" src="foto/ui/mail-light.svg"/></a><a aria-label="Stampa pagina" title="Stampa pagina" class="site-footer-icon js-print-link" href="#"><img alt="" src="foto/ui/print-light.svg"/></a>
-<a aria-label="Copia link pagina" title="Copia link pagina" class="site-footer-icon js-copy-link" href="#"><img alt="" src="foto/ui/link-light.svg"/></a>
-
-</nav><div class="site-footer-right"><a aria-label="Ricette (e altro) di Pierre" title="Ricette (e altro) di Pierre" class="site-footer-qr-link" href="foto/home/qr-code.png"><img alt="Ricette (e altro) di Pierre" title="Ricette (e altro) di Pierre" src="foto/home/qr-code.png"/></a></div></footer></div>
+<footer class="site-footer"><div class="site-footer-left"><a aria-label="Home Pierre Piccotti" class="site-footer-home-link" href="https://sites.google.com/site/pierrepiccotti/" title="Home Pierre Piccotti"><img alt="Home Pierre Piccotti" src="foto/ui/home-light.svg"/></a></div><nav aria-label="Strumenti pagina" class="site-footer-center">
+<a aria-label="Informativa" class="site-footer-text" href="informativa.html" title="Informativa"><img alt="" src="foto/ui/info-light.svg"/></a>
+<a aria-label="Scrivimi" class="site-footer-icon" href="scrivimi.html" title="Scrivimi"><img alt="" src="foto/ui/mail-light.svg"/></a><a aria-label="Stampa pagina" class="site-footer-icon js-print-link" href="#" title="Stampa pagina"><img alt="" src="foto/ui/print-light.svg"/></a>
+<a aria-label="Copia link pagina" class="site-footer-icon js-copy-link" href="#" title="Copia link pagina"><img alt="" src="foto/ui/link-light.svg"/></a>
+</nav><div class="site-footer-right"><a aria-label="Ricette (e altro) di Pierre" class="site-footer-qr-link" href="foto/home/qr-code.png" title="Ricette (e altro) di Pierre"><img alt="Ricette (e altro) di Pierre" src="foto/home/qr-code.png" title="Ricette (e altro) di Pierre"/></a></div></footer></div>
 </main>
 </div>
-<script id="home-search-script">
+<script id="home-term-search-submit-script">
 (function(){
-  function ready(fn){ if(document.readyState !== 'loading') fn(); else document.addEventListener('DOMContentLoaded', fn); }
-  ready(function(){
-    var openBtn = document.querySelector('.js-home-term-search');
-    var overlay = document.querySelector('.home-search-overlay');
-    var closeBtn = document.querySelector('.home-search-close');
-    var form = document.querySelector('.home-search-form');
-    var input = document.getElementById('homeSearchInput');
-    if(!openBtn || !overlay || !form || !input) return;
-    function closeSearch(){ overlay.classList.add('is-hidden'); }
-    openBtn.addEventListener('click', function(ev){ ev.preventDefault(); input.value=''; overlay.classList.remove('is-hidden'); setTimeout(function(){ input.focus(); }, 20); });
-    if(closeBtn) closeBtn.addEventListener('click', closeSearch);
-    overlay.addEventListener('click', function(ev){ if(ev.target === overlay) closeSearch(); });
-    document.addEventListener('keydown', function(ev){ if(ev.key === 'Escape' && !overlay.classList.contains('is-hidden')) closeSearch(); });
-    form.addEventListener('submit', function(ev){
+  function initHomeTermSearch(){
+    var openBtn=document.querySelector('.js-site-search-open');
+    var overlay=document.getElementById('recipeSearchOverlay');
+    var form=document.getElementById('recipeSearchForm');
+    var input=document.getElementById('recipeSearchInput');
+    if(!openBtn||!overlay||!form||!input) return;
+    function openSearch(ev){
+      if(ev) ev.preventDefault();
+      input.value='';
+      overlay.classList.add('is-open');
+      overlay.setAttribute('aria-hidden','false');
+      setTimeout(function(){input.focus();},30);
+    }
+    function closeSearch(){
+      overlay.classList.remove('is-open');
+      overlay.setAttribute('aria-hidden','true');
+    }
+    openBtn.addEventListener('click',openSearch);
+    document.querySelectorAll('.js-site-search-close').forEach(function(btn){btn.addEventListener('click',closeSearch);});
+    document.addEventListener('keydown',function(ev){if(ev.key==='Escape') closeSearch();});
+    form.addEventListener('submit',function(ev){
+      var q=(input.value||'').replace(/\s+/g,' ').trim();
+      if(!q){ev.preventDefault();input.focus();return;}
       ev.preventDefault();
-      var q=(input.value||'').trim();
-      window.location.href = q ? 'indici/ricette.html?q=' + encodeURIComponent(q) : 'indici/ricette.html';
+      window.location.href='indici/ricette.html?q='+encodeURIComponent(q);
     });
-  });
+  }
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',initHomeTermSearch); else initHomeTermSearch();
 })();
 </script>
 <script id="site-footer-script">

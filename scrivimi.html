@@ -3,10 +3,10 @@
 <html data-cookie-banner="0" data-ga-measurement-id="" lang="it">
 <head>
 <meta charset="utf-8"/><meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
-<title>Scrivimi – Ricette (e altro) di Pierre</title>
+<title>Scrivimi – Ricette (e altro) di Pierre</title><link href="https://ricette.pierre.piccotti.it/scrivimi.html" rel="canonical"/><meta content="https://ricette.pierre.piccotti.it/scrivimi.html" property="og:url"/>
 <link href="style.css" rel="stylesheet"/>
-<meta content="Contatti del sito Ricette (e altro) di Pierre." name="description"/>
-</head><body><div class="page"><header class="site-header"><a class="brand" href="index.html">Ricette (e altro) di Pierre</a><nav><a aria-label="Torna indietro" href="#" id="back-link" class="recipe-nav-back">←</a><a href="indici/ricette.html">Ricette</a><a href="indici/ingredienti.html">Ingredienti</a><a href="indici/fonti.html">Fonti</a><a href="indici/geografia.html">Geografia</a><button class="site-search-button js-root-search-open" type="button" aria-label="Cerca nel ricettario" title="Cerca nel ricettario"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="M15.5 15.5L21 21"></path></svg></button></nav></header><main><div class="home-content"><h1>Scrivimi</h1><section class="lead home-intro"><p>Per comunicazioni sul sito o sui contenuti puoi scrivermi direttamente via email.</p></section>
+<meta content="Contatti per comunicazioni sul sito Ricette (e altro) di Pierre." name="description"/>
+</head><body><div class="page"><header class="site-header"><a class="brand" href="index.html">Ricette (e altro) di Pierre</a><nav><a aria-label="Torna indietro" class="recipe-nav-back" href="#" id="back-link">←</a><a href="indici/ricette.html">Ricette</a><a href="indici/ingredienti.html">Ingredienti</a><a href="indici/fonti.html">Fonti</a><a href="indici/geografia.html">Geografia</a><button aria-label="Cerca nel ricettario" class="site-search-button js-root-search-open" title="Cerca nel ricettario" type="button"><svg aria-hidden="true" viewbox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="M15.5 15.5L21 21"></path></svg></button></nav></header><main><div class="home-content"><h1>Scrivimi</h1><section class="lead home-intro"><p>Per comunicazioni sul sito o sui contenuti puoi scrivermi direttamente via email.</p></section>
 <section class="block">
 <h2>Contatto</h2>
 <p><a href="mailto:pierre.piccotti@gmail.com">pierre.piccotti@gmail.com</a></p>
@@ -120,19 +120,17 @@
   });
 })();
 </script>
-
-
-<div class="recipe-search-overlay" id="recipeSearchOverlay" aria-hidden="true">
-  <div class="recipe-search-backdrop js-root-search-close"></div>
-  <section class="recipe-search-dialog" role="dialog" aria-modal="true" aria-labelledby="recipeSearchTitle">
-    <button class="recipe-search-close js-root-search-close" type="button" aria-label="Chiudi">×</button>
-    <h2 id="recipeSearchTitle">Cerca nel ricettario</h2>
-    <form id="rootSearchForm" action="indici/ricette.html" method="get">
-      <input id="rootSearchInput" name="q" class="recipe-search-input" type="search" placeholder="Titolo, ingrediente, luogo…" autocomplete="off">
-      <p class="recipe-search-hint">Inserisci un termine: l’indice Ricette si aprirà già filtrato.</p>
-      <div class="recipe-search-actions"><button class="recipe-search-submit" type="submit">Cerca</button></div>
-    </form>
-  </section>
+<div aria-hidden="true" class="recipe-search-overlay" id="recipeSearchOverlay">
+<div class="recipe-search-backdrop js-root-search-close"></div>
+<section aria-labelledby="recipeSearchTitle" aria-modal="true" class="recipe-search-dialog" role="dialog">
+<button aria-label="Chiudi" class="recipe-search-close js-root-search-close" type="button">×</button>
+<h2 id="recipeSearchTitle">Cerca nel ricettario</h2>
+<form action="indici/ricette.html" id="rootSearchForm" method="get">
+<input autocomplete="off" class="recipe-search-input" id="rootSearchInput" name="q" placeholder="Titolo, ingrediente, luogo…" type="search"/>
+<p class="recipe-search-hint">Inserisci un termine: l’indice Ricette si aprirà già filtrato.</p>
+<div class="recipe-search-actions"><button class="recipe-search-submit" type="submit">Cerca</button></div>
+</form>
+</section>
 </div>
 <script id="root-search-script">
 (function(){function initRootSearch(){var openBtn=document.querySelector('.js-root-search-open');var overlay=document.getElementById('recipeSearchOverlay');var input=document.getElementById('rootSearchInput');var form=document.getElementById('rootSearchForm');if(!openBtn||!overlay||!input||!form)return;function openSearch(){input.value='';overlay.classList.add('is-open');overlay.setAttribute('aria-hidden','false');setTimeout(function(){input.focus();},30);}function closeSearch(){overlay.classList.remove('is-open');overlay.setAttribute('aria-hidden','true');}openBtn.addEventListener('click',function(ev){ev.preventDefault();openSearch();});document.querySelectorAll('.js-root-search-close').forEach(function(btn){btn.addEventListener('click',closeSearch);});document.addEventListener('keydown',function(ev){if(ev.key==='Escape')closeSearch();});form.addEventListener('submit',function(ev){var q=(input.value||'').replace(/\s+/g,' ').trim();if(!q){ev.preventDefault();input.focus();return;}ev.preventDefault();window.location.href='indici/ricette.html?q='+encodeURIComponent(q);});}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',initRootSearch);else initRootSearch();})();
