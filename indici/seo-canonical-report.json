@@ -4,10 +4,10 @@
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "site_base_url": "https://ricette.pierre.piccotti.it",
   "mode": "APPLY",
-  "created_at": "2026-05-17T15:39:47",
+  "created_at": "2026-05-17T18:21:57",
   "counts": {
-    "UNCHANGED": 64,
-    "UPDATED": 7
+    "UNCHANGED": 65,
+    "UPDATED": 6
   },
   "results": [
     {
@@ -180,12 +180,9 @@
     },
     {
       "path": "ricette\\crepes\\index.html",
-      "status": "UPDATED",
+      "status": "UNCHANGED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/crepes/",
-      "description": "Crêpes. Sì, certo: Bretagna e Normandia. Luce, vento, nuvole basse che sembrano uscire da un quadro di Magritte, quasi da toccare.",
-      "notes": [
-        "aggiornato meta description"
-      ]
+      "description": "Crêpes. Sì, certo: Bretagna e Normandia. Luce, vento, nuvole basse che sembrano uscire da un quadro di Magritte, quasi da toccare."
     },
     {
       "path": "ricette\\daube\\index.html",
@@ -449,7 +446,7 @@
       "path": "ricette\\tajin-mqualli\\index.html",
       "status": "UNCHANGED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/tajin-mqualli/",
-      "description": "Tajin Mqualli. Preparare la Tajine immergendola in acqua un paio di ore prima la cottura. Pollo e coniglio devono essere tagliati a pezzi, in parte…"
+      "description": "Tajin Mqualli. Io il cous cous l'ho \"scoperto\" in Turchia. Certo che lo conoscevo, ma non l'avevo mai assaggiato con con gli aromi delle erbe a…"
     },
     {
       "path": "ricette\\tonno-alla-carlofortina\\index.html",
