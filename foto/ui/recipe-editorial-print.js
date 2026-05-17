@@ -623,8 +623,62 @@ function injectPrintIngredientDecor(doc){
   layer.innerHTML = '';
   var rasterScale = 0.60;
   var whiteThreshold = 235;
-  var ingredientAssetRelpaths = Array.isArray(window.__PRINT_INGREDIENT_ASSET_RELPATHS__) ? window.__PRINT_INGREDIENT_ASSET_RELPATHS__.slice() : [];
-  var ingredientBaseHref = '/ingredienti/';
+  var ingredientAssetRelpathsFallback = Array.isArray(window.__PRINT_INGREDIENT_ASSET_RELPATHS__) ? window.__PRINT_INGREDIENT_ASSET_RELPATHS__.slice() : [];
+  var ingredientAssetRelpaths = ingredientAssetRelpathsFallback.slice();
+  var ingredientBaseHref = '/Ingredienti/';
+
+  function normalizeIngredientManifestAssets(data){
+    var assets = [];
+    if(Array.isArray(data)){
+      assets = data;
+    }else if(data && Array.isArray(data.assets)){
+      assets = data.assets;
+    }else if(data && Array.isArray(data.files)){
+      assets = data.files;
+    }
+    return assets.filter(function(name){
+      return typeof name === 'string' && !!name.trim();
+    }).map(function(name){
+      return String(name).replace(/^\/+/, '');
+    });
+  }
+
+  function loadIngredientAssetRelpaths(){
+    if(!window.fetch){
+      return Promise.resolve(ingredientAssetRelpathsFallback.slice());
+    }
+    var candidates = [
+      {manifest:'/Ingredienti/manifest.json', base:'/Ingredienti/'},
+      {manifest:'/ingredienti/manifest.json', base:'/ingredienti/'}
+    ];
+    function tryCandidate(index){
+      if(index >= candidates.length){
+        return Promise.resolve(ingredientAssetRelpathsFallback.slice());
+      }
+      var candidate = candidates[index];
+      var manifestUrl = '';
+      try{
+        manifestUrl = new URL(candidate.manifest, window.location.origin || window.location.href).href;
+      }catch(e){
+        return tryCandidate(index + 1);
+      }
+      return fetch(manifestUrl, {cache:'no-store'})
+        .then(function(response){
+          if(!response || !response.ok) throw new Error('manifest not available');
+          return response.json();
+        })
+        .then(function(data){
+          var assets = normalizeIngredientManifestAssets(data);
+          if(!assets.length) return tryCandidate(index + 1);
+          ingredientBaseHref = candidate.base;
+          return assets;
+        })
+        .catch(function(){
+          return tryCandidate(index + 1);
+        });
+    }
+    return tryCandidate(0);
+  }
 
   function resolveIngredientAssetUrl(relpath){
     if(!relpath) return '';
@@ -644,7 +698,7 @@ function injectPrintIngredientDecor(doc){
   function buildEligibleIngredientAssets(){
     var pool = ingredientAssetRelpaths.filter(function(relpath){
       if(!relpath) return false;
-      if(!/\.jpe?g$/i.test(String(relpath))) return false;
+      if(!/\.(jpe?g|png|webp)$/i.test(String(relpath))) return false;
       return !!resolveIngredientAssetUrl(relpath);
     }).slice();
     shuffleInPlace(pool);
@@ -1466,7 +1520,14 @@ function injectPrintIngredientDecor(doc){
     });
   }
 
-  return rasterizePrintDoc().then(function(snapshot){
+  return Promise.all([
+    loadIngredientAssetRelpaths().then(function(relpaths){
+      ingredientAssetRelpaths = Array.isArray(relpaths) ? relpaths.slice() : [];
+      return ingredientAssetRelpaths;
+    }),
+    rasterizePrintDoc()
+  ]).then(function(results){
+    var snapshot = results[1];
     var snapshotCanvas = snapshot && snapshot.snapshotCanvas;
     if(!snapshotCanvas) throw new Error('snapshot canvas missing');
     var scaleBack = 1 / snapshot.scale;

@@ -4,9 +4,10 @@
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "site_base_url": "https://ricette.pierre.piccotti.it",
   "mode": "APPLY",
-  "created_at": "2026-05-16T23:47:21",
+  "created_at": "2026-05-17T15:39:47",
   "counts": {
-    "UNCHANGED": 71
+    "UNCHANGED": 64,
+    "UPDATED": 7
   },
   "results": [
     {
@@ -29,39 +30,69 @@
     },
     {
       "path": "indici\\autore.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/indici/autore.html",
-      "description": "Autore del ricettario personale Ricette (e altro) di Pierre."
+      "description": "Autore del ricettario personale Ricette (e altro) di Pierre.",
+      "notes": [
+        "aggiunto canonical",
+        "aggiunto meta description",
+        "aggiunto og:url"
+      ]
     },
     {
       "path": "indici\\categorie.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/indici/categorie.html",
-      "description": "Categorie del ricettario personale Ricette (e altro) di Pierre."
+      "description": "Categorie del ricettario personale Ricette (e altro) di Pierre.",
+      "notes": [
+        "aggiunto canonical",
+        "aggiunto meta description",
+        "aggiunto og:url"
+      ]
     },
     {
       "path": "indici\\fonti.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/indici/fonti.html",
-      "description": "Fonti del ricettario personale Ricette (e altro) di Pierre."
+      "description": "Fonti del ricettario personale Ricette (e altro) di Pierre.",
+      "notes": [
+        "aggiunto canonical",
+        "aggiunto meta description",
+        "aggiunto og:url"
+      ]
     },
     {
       "path": "indici\\geografia.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/indici/geografia.html",
-      "description": "Geografia del ricettario personale Ricette (e altro) di Pierre."
+      "description": "Geografia del ricettario personale Ricette (e altro) di Pierre.",
+      "notes": [
+        "aggiunto canonical",
+        "aggiunto meta description",
+        "aggiunto og:url"
+      ]
     },
     {
       "path": "indici\\ingredienti.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/indici/ingredienti.html",
-      "description": "Ingredienti del ricettario personale Ricette (e altro) di Pierre."
+      "description": "Ingredienti del ricettario personale Ricette (e altro) di Pierre.",
+      "notes": [
+        "aggiunto canonical",
+        "aggiunto meta description",
+        "aggiunto og:url"
+      ]
     },
     {
       "path": "indici\\ricette.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/indici/ricette.html",
-      "description": "Le ricette del ricettario personale Ricette (e altro) di Pierre."
+      "description": "Le ricette del ricettario personale Ricette (e altro) di Pierre.",
+      "notes": [
+        "aggiunto canonical",
+        "aggiunto meta description",
+        "aggiunto og:url"
+      ]
     },
     {
       "path": "indici\\tecniche.html",
@@ -149,9 +180,12 @@
     },
     {
       "path": "ricette\\crepes\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/crepes/",
-      "description": "Crêpes. Sì, certo: Bretagna e Normandia . Luce, vento, nuvole basse che sembrano uscire da un quadro di Magritte, quasi da toccare."
+      "description": "Crêpes. Sì, certo: Bretagna e Normandia. Luce, vento, nuvole basse che sembrano uscire da un quadro di Magritte, quasi da toccare.",
+      "notes": [
+        "aggiornato meta description"
+      ]
     },
     {
       "path": "ricette\\daube\\index.html",

@@ -1329,13 +1329,13 @@
     "confidenza": "bassa",
     "confidenza_campi": {
       "porzioni": "bassa",
-      "tempi": "bassa",
+      "tempi": "media",
       "ingredienti_chiave": "media"
     },
     "note": [
       "range standard per antipasto/salsa/contorno",
       "riposo dedotto da testo",
-      "cottura media stimata da tecnica/parole chiave",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
       "tempo attivo stimato da numero ingredienti/passaggi",
       "ingredienti chiave proposti da tabella ingredienti/titolo"
     ],
