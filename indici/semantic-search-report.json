@@ -1,7 +1,7 @@
 {
   "versione": "CMS2-R18-103",
   "semantica_versione": "CMS2-R18-103",
-  "timestamp": "2026-05-18T13:22:46",
+  "timestamp": "2026-05-18T23:26:15",
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "search_data": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT\\indici\\search-data.json",
   "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\CMS\\ingredienti-semantica.json",
@@ -1181,7 +1181,7 @@
       "fonte_semantica": "html-ingredienti",
       "ingredienti_usati": [
         "Peperoncino",
-        "Spicchio",
+        "Aglio",
         "Orecchiette baresi",
         "Cime di rapa",
         "Alici sotto sale"
@@ -1204,7 +1204,7 @@
       ],
       "regole_matchate": [
         "sale",
-        "spicchio",
+        "aglio",
         "spaghetti",
         "cime rapa",
         "topinambur",

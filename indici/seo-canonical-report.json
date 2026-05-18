@@ -4,7 +4,7 @@
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "site_base_url": "https://ricette.pierre.piccotti.it",
   "mode": "APPLY",
-  "created_at": "2026-05-18T13:23:14",
+  "created_at": "2026-05-18T23:26:41",
   "counts": {
     "UNCHANGED": 65,
     "UPDATED": 6
@@ -260,7 +260,7 @@
       "path": "ricette\\orecchiette-baresi-alle-cime-di-rapa\\index.html",
       "status": "UNCHANGED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/orecchiette-baresi-alle-cime-di-rapa/",
-      "description": "Orecchiette baresi alle cime di rapa. Ho recentemente aggiornato questa ricetta. Per questo la ripropongo."
+      "description": "Orecchiette baresi alle cime di rapa. Ho recentemente aggiornato questa ricetta."
     },
     {
       "path": "ricette\\paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero\\index.html",
