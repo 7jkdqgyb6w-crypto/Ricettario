@@ -392,7 +392,7 @@
     "ingredienti_chiave": [],
     "termini_ricerca": [],
     "allergeni": [],
-    "search_text": "gigot roti secondi francia jacqueline gibert è una preparazione molto francese, non legata al periodo pasquale, dove invece da noi è più tradizionale. qui la cottura deve essere precisa, senza margine di errore. io lo cucino raramente, e proprio per questo… cosciotto d'agnello di almeno kg 1,5 sale pepe timo aglio olio extra vergine d'oliva rosmarino alloro tutto_anno onnivoro",
+    "search_text": "gigot roti secondi francia jacqueline gibert è una preparazione molto francese, non legata al periodo pasquale, dove invece da noi è più tradizionale. qui la cottura deve essere precisa, senza margine di errore. io lo cucino raramente, e proprio per questo… cosciotto d'agnello sale pepe timo aglio olio extra vergine d'oliva rosmarino alloro tutto_anno onnivoro",
     "metadati_fonte": "auto",
     "href": "../ricette/gigot-roti/",
     "img": "../foto/gigot-roti/01.jpg"
@@ -452,10 +452,11 @@
     "ingredienti_chiave": [],
     "termini_ricerca": [],
     "allergeni": [
+      "cereali contenenti glutine",
       "latte",
       "sedano"
     ],
-    "search_text": "gulash (variante) secondi italia - alto-adige - val-di-casies regihof questa versione della ricetta del gulasch non è la ricetta tradizionale originale (ungherese o tirolese). e' una mia interpretazione che fa riferimento alla ricetta de la \"cucina italiana\" e in parte come ho gustato… manzo patate cipolla carote pomodorini sedano brodo vegetale burro prezzemolo cuminio paprika sale pepe timo scorza di limone grattugiata latte sedano estate inverno onnivoro",
+    "search_text": "gulash (variante) secondi italia - alto-adige - val-di-casies regihof questa versione della ricetta del gulasch non è la ricetta tradizionale originale ungherese o tirolese. e' una mia interpretazione che fa riferimento alla ricetta de la \" cucina italiana\" e in parte come ho gustato… manzo farina patate cipolla carote pomodorini sedano vino rosso brodo vegetale burro prezzemolo cuminio paprika sale pepe timo ginepro scorza di limone grattugiata cereali contenenti glutine latte sedano estate inverno onnivoro",
     "metadati_fonte": "auto",
     "href": "../ricette/goulash-variante/",
     "img": "../foto/goulash-variante/01.jpg"
@@ -472,7 +473,7 @@
     "ingredienti_chiave": [],
     "termini_ricerca": [],
     "allergeni": [],
-    "search_text": "medaglioni di manzo con porcini secondi italia non sono un fanatico del filetto. per cui preferisco questa versione forse più \"toscana\" manzo funghi porcini lardo ginepro timo aglio prezzemolo olio extra vergine d'oliva autunno onnivoro",
+    "search_text": "medaglioni di manzo con porcini secondi italia toscana non sono un fanatico del filetto. per cui preferisco questa versione forse più \"toscana\" manzo funghi porcini lardo ginepro timo aglio prezzemolo olio extra vergine d'oliva autunno onnivoro",
     "metadati_fonte": "auto",
     "href": "../ricette/medaglioni-di-manzo-con-porcini/",
     "img": "../foto/medaglioni-di-manzo-con-porcini/01.jpg"

@@ -1,7 +1,7 @@
 {
   "versione": "CMS2-R18-103",
   "semantica_versione": "CMS2-R18-103",
-  "timestamp": "2026-05-17T18:21:34",
+  "timestamp": "2026-05-18T13:22:46",
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "search_data": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT\\indici\\search-data.json",
   "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\CMS\\ingredienti-semantica.json",
@@ -888,7 +888,7 @@
       "titolo": "Gigot roti",
       "fonte_semantica": "html-ingredienti",
       "ingredienti_usati": [
-        "Cosciotto d'agnello di almeno kg 1,5",
+        "Cosciotto d'agnello",
         "Sale",
         "Pepe",
         "Timo",
@@ -1012,11 +1012,13 @@
       "fonte_semantica": "html-ingredienti",
       "ingredienti_usati": [
         "Manzo",
+        "Farina",
         "Patate",
         "Cipolla",
         "Carote",
         "Pomodorini",
         "Sedano",
+        "Vino rosso",
         "Brodo vegetale",
         "Burro",
         "Prezzemolo",
@@ -1025,6 +1027,7 @@
         "Sale",
         "Pepe",
         "Timo",
+        "Ginepro",
         "Scorza di limone grattugiata"
       ],
       "termini_ricerca": [
@@ -1038,6 +1041,7 @@
         "sedano"
       ],
       "allergeni": [
+        "cereali contenenti glutine",
         "sedano",
         "latte"
       ],
@@ -1051,12 +1055,14 @@
       ],
       "regole_matchate": [
         "manzo",
+        "farina",
         "patate",
         "aglio",
         "carote",
         "topinambur",
         "sedano",
         "olio",
+        "barbera",
         "latte",
         "prezzemolo",
         "sale",
