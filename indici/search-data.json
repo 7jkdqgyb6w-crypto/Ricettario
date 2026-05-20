@@ -64,6 +64,23 @@
     "img": "../foto/anatra-in-salsa/01.jpg"
   },
   {
+    "slug": "antipastino-piemontese",
+    "titolo": "Antipast(ino) piemontese",
+    "categoria": "",
+    "geografia": "",
+    "regime_minimo": "vegano",
+    "stagioni": [
+      "tutto_anno"
+    ],
+    "ingredienti_chiave": [],
+    "termini_ricerca": [],
+    "allergeni": [],
+    "search_text": "antipast(ino) piemontese premessa. questa non è una ricetta. e' un assaggio di un antipasto alla piemontese, di cui rimando alle singole ricette. tutto_anno vegano",
+    "metadati_fonte": "auto",
+    "href": "../ricette/antipastino-piemontese/",
+    "img": "../foto/antipastino-piemontese/01.jpg"
+  },
+  {
     "slug": "antipasto-di-canocce",
     "titolo": "Antipasto di canocce",
     "categoria": "Antipasti",

@@ -7,6 +7,19 @@
       "../foto/indici/fonti/aimee-gibert/03.jpg"
     ],
     "album": [],
-    "link": []
+    "link": [],
+    "html": "<figure class=\"step-photo step-photo-large\" style=\"width: 152px; max-width: 100%;\"><img src=\"../foto/indici/fonti/aimee-gibert/01.jpg\" width=\"152\"></figure><figure class=\"step-photo step-photo-large\" style=\"width: 152px; max-width: 100%;\"><img src=\"../foto/indici/fonti/aimee-gibert/02.jpg\" width=\"152\"></figure><figure class=\"step-photo step-photo-large\" style=\"width: 152px; max-width: 100%;\"><img src=\"../foto/indici/fonti/aimee-gibert/03.jpg\" width=\"152\"></figure>"
+  },
+  "eddy-salzano": {
+    "titolo": "Eddy Salzano",
+    "immagini": [
+      "../foto/indici/fonti/eddy-salzano/EDDY1.JPG",
+      "../foto/indici/fonti/eddy-salzano/EDDY2.JPG",
+      "../foto/indici/fonti/eddy-salzano/IMG_0074.JPG",
+      "../foto/indici/fonti/eddy-salzano/IMGP1889.JPG",
+      "../foto/indici/fonti/eddy-salzano/IMGP2117.JPG",
+      "../foto/indici/fonti/eddy-salzano/P8030049.JPG"
+    ],
+    "html": "<figure class=\"step-photo step-photo-right\" style=\"width: 152px; max-width: 100%;\"><img src=\"../foto/indici/fonti/eddy-salzano/IMG_0074.JPG\" width=\"152\"></figure><figure class=\"step-photo step-photo-right\" style=\"width: 152px; max-width: 100%;\"><img src=\"../foto/indici/fonti/eddy-salzano/EDDY1.JPG\" width=\"152\"></figure><figure class=\"step-photo step-photo-right\" style=\"width: 152px; max-width: 100%;\"><img src=\"../foto/indici/fonti/eddy-salzano/EDDY2.JPG\" width=\"152\"></figure><figure class=\"step-photo step-photo-right\" style=\"width: 152px; max-width: 100%;\"><img src=\"../foto/indici/fonti/eddy-salzano/IMGP1889.JPG\" width=\"152\"></figure><figure class=\"step-photo step-photo-right\" style=\"width: 152px; max-width: 100%;\"><img src=\"../foto/indici/fonti/eddy-salzano/IMGP2117.JPG\" width=\"152\"></figure><figure class=\"step-photo step-photo-right\" style=\"width: 152px; max-width: 100%;\"><img src=\"../foto/indici/fonti/eddy-salzano/P8030049.JPG\" width=\"152\"></figure>"
   }
 }

@@ -97,6 +97,35 @@
     "stato": "da_validare"
   },
   {
+    "slug": "antipastino-piemontese",
+    "titolo": "Antipast(ino) piemontese",
+    "proposte": {
+      "porzioni": "4-6",
+      "tempo_attivo": "30-45 min",
+      "tempo_cottura": "15-30 min",
+      "tempo_riposo": "30 min",
+      "tempo_totale": "include riposo",
+      "ingredienti_chiave": [
+        "antipast",
+        "piemontese"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "bassa",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per antipasto/salsa/contorno",
+      "riposo dedotto da testo",
+      "cottura breve stimata per assenza di segnali di lunga cottura",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
     "slug": "antipasto-di-canocce",
     "titolo": "Antipasto di canocce",
     "proposte": {
