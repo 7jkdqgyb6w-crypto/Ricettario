@@ -1617,8 +1617,8 @@
       "porzioni": "4",
       "tempo_attivo": "45-60 min",
       "tempo_cottura": "1 h 30 min - 2 h",
-      "tempo_riposo": "",
-      "tempo_totale": "da verificare",
+      "tempo_riposo": "30 min",
+      "tempo_totale": "include riposo",
       "ingredienti_chiave": [
         "Spaghetti",
         "Bottarga di muggine",
@@ -1633,6 +1633,7 @@
     },
     "note": [
       "range standard per primo piatto da validare",
+      "riposo dedotto da testo",
       "cottura lunga stimata da tecnica/parole chiave",
       "tempo attivo stimato da numero ingredienti/passaggi",
       "ingredienti chiave proposti da tabella ingredienti/titolo"

@@ -90,6 +90,9 @@
 .index-editorial-card{display:grid;gap:.75rem;margin:.2rem 0 1rem 0;padding:.85rem;border:1px solid var(--line);background:rgba(255,255,255,.42);}
 .index-editorial-card figure{margin:0;}
 .index-editorial-card p{margin:0 0 .55rem 0;}
+.index-editorial-html figure{margin:.2rem .7rem .7rem 0;display:inline-block;vertical-align:top;}
+.index-editorial-html img{max-width:100%;height:auto;cursor:zoom-in;}
+.index-editorial-html figcaption{font-size:.84rem;color:#566064;margin-top:.25rem;}
 .index-editorial-images{display:grid;grid-template-columns:repeat(auto-fit,minmax(7rem,1fr));gap:.55rem;}
 .index-editorial-images img{width:100%;height:auto;box-shadow:none;background:#fff;cursor:zoom-in;}
 .index-editorial-links{display:flex;flex-wrap:wrap;gap:.45rem .7rem;margin:.55rem 0 0 0;}
@@ -369,7 +372,7 @@ document.addEventListener('DOMContentLoaded', function () {
         openLightbox(a.getAttribute('href'), (a.querySelector('img')||{}).alt || 'QR della pagina');
       });
     });
-    document.querySelectorAll('.index-editorial-images img').forEach(function(img){
+    document.querySelectorAll('.index-editorial-card img').forEach(function(img){
       img.addEventListener('click', function(ev){
         ev.preventDefault();
         ev.stopPropagation();

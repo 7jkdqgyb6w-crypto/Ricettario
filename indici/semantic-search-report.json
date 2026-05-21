@@ -1,15 +1,16 @@
 {
   "versione": "CMS2-R18-103",
   "semantica_versione": "CMS2-R18-103",
-  "timestamp": "2026-05-20T06:51:04",
+  "timestamp": "2026-05-21T23:09:54",
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "search_data": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT\\indici\\search-data.json",
   "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\CMS\\ingredienti-semantica.json",
   "apply": true,
-  "processed": 61,
+  "processed": 62,
   "changed": 58,
   "missing_source": [],
   "no_structural_terms": [
+    "antipastino-piemontese",
     "patatine",
     "picana",
     "ribollita",
@@ -235,6 +236,20 @@
         "sale"
       ],
       "modificato": true
+    },
+    {
+      "slug": "antipastino-piemontese",
+      "titolo": "Antipast(ino) piemontese",
+      "fonte_semantica": "proposte",
+      "ingredienti_usati": [
+        "antipast",
+        "piemontese"
+      ],
+      "termini_ricerca": [],
+      "allergeni": [],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [],
+      "modificato": false
     },
     {
       "slug": "antipasto-di-canocce",
