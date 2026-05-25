@@ -238,6 +238,56 @@ dt{
   margin-bottom: 1rem;
 }
 
+/* ROOT-R18-131 — Preview ricetta: paragrafi nei passi piu compatti dopo Invio. */
+.steps > li > p{
+  margin:0 0 .55rem 0;
+}
+
+.steps > li > p:last-child{
+  margin-bottom:0;
+}
+
+.steps > li ul,
+.steps > li ol{
+  margin:.2rem 0 .5rem 1.05rem;
+  padding-left:.95rem;
+  line-height:1.35;
+}
+
+.steps > li ul > li,
+.steps > li ol > li{
+  margin-bottom:.08rem;
+  clear:none;
+}
+
+.steps > li ul p,
+.steps > li ol p{
+  margin:0;
+}
+
+.recipe-mini-table{
+  width:auto;
+  max-width:100%;
+  margin:.45rem 0 .65rem 0;
+  border-collapse:collapse;
+  table-layout:auto;
+  font-size:.95em;
+  line-height:1.28;
+}
+
+.recipe-mini-table td,
+.recipe-mini-table th{
+  min-width:5.5rem;
+  border:1px solid #c9c1b8;
+  padding:.28rem .45rem;
+  vertical-align:top;
+  background:#fff;
+}
+
+.recipe-mini-table p{
+  margin:0;
+}
+
 .clean{
   padding-left: 1.2rem;
 }
