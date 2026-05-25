@@ -1,7 +1,7 @@
 {
   "versione": "CMS2-R18-103",
   "semantica_versione": "CMS2-R18-103",
-  "timestamp": "2026-05-23T14:55:12",
+  "timestamp": "2026-05-25T14:24:45",
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "search_data": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT\\indici\\search-data.json",
   "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\CMS\\ingredienti-semantica.json",
@@ -1161,7 +1161,7 @@
       "ingredienti_usati": [
         "Porri",
         "Olio extra vergine d'oliva",
-        "Bburro",
+        "Burro",
         "Patate",
         "Riso",
         "Brodo"
@@ -1363,14 +1363,16 @@
       "titolo": "Pasta con i broccoli",
       "fonte_semantica": "html-ingredienti",
       "ingredienti_usati": [
+        "Mezze penne rigate",
         "Uva passa",
         "Broccoli",
         "Aglio",
         "Pinoli",
-        "Olio EVO",
+        "Olio extra vergine d'oliva",
         "Pecorino romano"
       ],
       "termini_ricerca": [
+        "pasta",
         "frutta essiccata",
         "frutta disidratata",
         "uvetta",
@@ -1379,19 +1381,23 @@
         "broccoli"
       ],
       "allergeni": [
+        "cereali contenenti glutine",
         "noci",
         "latte"
       ],
       "tag_accessori_esclusi": [
         "aromi",
-        "condimenti liquidi"
+        "condimenti liquidi",
+        "condimenti"
       ],
       "regole_matchate": [
+        "spaghetti",
         "uva passa",
         "broccoli",
         "aglio",
         "mandorle",
         "olio",
+        "olive",
         "latte"
       ],
       "modificato": true

@@ -4,7 +4,7 @@
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "site_base_url": "https://ricette.pierre.piccotti.it",
   "mode": "APPLY",
-  "created_at": "2026-05-23T14:55:35",
+  "created_at": "2026-05-25T14:29:05",
   "counts": {
     "UNCHANGED": 66,
     "UPDATED": 6
@@ -254,13 +254,13 @@
       "path": "ricette\\minestra-di-cavoli\\index.html",
       "status": "UNCHANGED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/minestra-di-cavoli/",
-      "description": "Minestra di cavoli. Tagliare il cavolo a fette sottili, farlo insaporire, aggiungere il lardo a dadini, due patate a tocchi piccoli, insaporire bene…"
+      "description": "Minestra di cavoli. Ci sono ricette di uso comune talmente semplici che non meriterebbero di essere scritte, se non fosse per un particolare che va…"
     },
     {
       "path": "ricette\\minestra-di-porri\\index.html",
       "status": "UNCHANGED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/minestra-di-porri/",
-      "description": "Minestra di porri. Fare rosolare i porri in olio e burro. Aggiungere due patate a tocchi piccoli, fare insaporire, aggiungere il riso. Aggiungere il…"
+      "description": "Minestra di porri. Preparazione degli ingredienti."
     },
     {
       "path": "ricette\\orecchiette-baresi-alle-cime-di-rapa\\index.html",
@@ -278,7 +278,7 @@
       "path": "ricette\\pappa-con-il-pomodoro\\index.html",
       "status": "UNCHANGED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/pappa-con-il-pomodoro/",
-      "description": "Pappa con il pomodoro. Fate un battuto fine con il porro, uno spicchio d'aglio, la carota, il sedano e mettetelo a soffriggere con meta' dell'olio in un…"
+      "description": "Pappa con il pomodoro. La base."
     },
     {
       "path": "ricette\\pasta-al-ragu-di-triglie-e-al-succo-d-arancia\\index.html",
@@ -290,7 +290,7 @@
       "path": "ricette\\pasta-con-i-broccoli\\index.html",
       "status": "UNCHANGED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/pasta-con-i-broccoli/",
-      "description": "Pasta con i broccoli. Mettere in acqua l'uva passa perché riacquisti idratazione. Almeno per un quarto d'ora."
+      "description": "Pasta con i broccoli. L'uva passa."
     },
     {
       "path": "ricette\\pasta-con-le-melanzane\\index.html",
@@ -356,7 +356,7 @@
       "path": "ricette\\picana\\index.html",
       "status": "UNCHANGED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/picana/",
-      "description": "Picana. Antefatto."
+      "description": "Picana. Questa è una versione che può essere realizzata al forno e bistecchiera. Con è uno spiedo, Non è il churrasco. Tuttavia... Volendo la carne può…"
     },
     {
       "path": "ricette\\puree-di-sedano\\index.html",
