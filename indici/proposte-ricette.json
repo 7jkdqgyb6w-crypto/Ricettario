@@ -989,24 +989,24 @@
       "porzioni": "4",
       "tempo_attivo": "15-30 min",
       "tempo_cottura": "30-45 min",
-      "tempo_riposo": "",
-      "tempo_totale": "da verificare",
+      "tempo_riposo": "30 min",
+      "tempo_totale": "include riposo",
       "ingredienti_chiave": [
         "Mezze penne rigate",
-        "melanzane lunche",
-        "d'aglio",
-        "peperoncino secco piccante"
+        "Melanzane lunghe",
+        "Peperoncino piccante"
       ]
     },
     "confidenza": "bassa",
     "confidenza_campi": {
       "porzioni": "bassa",
-      "tempi": "bassa",
+      "tempi": "media",
       "ingredienti_chiave": "media"
     },
     "note": [
       "range standard per primo piatto da validare",
-      "cottura media stimata da tecnica/parole chiave",
+      "riposo dedotto da testo",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
       "tempo attivo stimato da numero ingredienti/passaggi",
       "ingredienti chiave proposti da tabella ingredienti/titolo"
     ],
@@ -1049,28 +1049,29 @@
     "slug": "pasta-con-pesto-alla-siciliana",
     "titolo": "Pasta con pesto alla siciliana",
     "proposte": {
-      "porzioni": "4",
+      "porzioni": "4-6",
       "tempo_attivo": "30-45 min",
-      "tempo_cottura": "20 min circa",
-      "tempo_riposo": "",
-      "tempo_totale": "da verificare",
+      "tempo_cottura": "30-45 min",
+      "tempo_riposo": "30 min",
+      "tempo_totale": "include riposo",
       "ingredienti_chiave": [
+        "Pasta",
         "Basilico",
-        "Spicchi d'aglio",
         "Mandorle tostate e grattugiate",
         "Pomodorini datterini o meglio San Marzano se di stagione",
         "Capperi sotto sale",
         "Bottarga di muggine intera"
       ]
     },
-    "confidenza": "bassa",
+    "confidenza": "media",
     "confidenza_campi": {
-      "porzioni": "bassa",
+      "porzioni": "media",
       "tempi": "media",
       "ingredienti_chiave": "media"
     },
     "note": [
-      "range standard per primo piatto da validare",
+      "porzioni stimate dalla quantità di pasta/riso",
+      "riposo dedotto da testo",
       "tempo cottura ricavato da durate esplicite presenti nel testo",
       "tempo attivo stimato da numero ingredienti/passaggi",
       "ingredienti chiave proposti da tabella ingredienti/titolo"
@@ -1084,11 +1085,11 @@
       "porzioni": "4",
       "tempo_attivo": "30-45 min",
       "tempo_cottura": "30-45 min",
-      "tempo_riposo": "",
-      "tempo_totale": "da verificare",
+      "tempo_riposo": "30 min",
+      "tempo_totale": "include riposo",
       "ingredienti_chiave": [
         "Fagioli di Lamon",
-        "Osso di prosciutto",
+        "Osso di prosciutto crudo",
         "Subiotini"
       ]
     },
@@ -1100,6 +1101,7 @@
     },
     "note": [
       "range standard per primo piatto da validare",
+      "riposo dedotto da testo",
       "tempo cottura ricavato da durate esplicite presenti nel testo",
       "tempo attivo stimato da numero ingredienti/passaggi",
       "ingredienti chiave proposti da tabella ingredienti/titolo"
@@ -1620,7 +1622,7 @@
     "proposte": {
       "porzioni": "4",
       "tempo_attivo": "45-60 min",
-      "tempo_cottura": "1 h 30 min - 2 h",
+      "tempo_cottura": "30-45 min",
       "tempo_riposo": "30 min",
       "tempo_totale": "include riposo",
       "ingredienti_chiave": [
@@ -1632,13 +1634,13 @@
     "confidenza": "bassa",
     "confidenza_campi": {
       "porzioni": "bassa",
-      "tempi": "bassa",
+      "tempi": "media",
       "ingredienti_chiave": "media"
     },
     "note": [
       "range standard per primo piatto da validare",
       "riposo dedotto da testo",
-      "cottura lunga stimata da tecnica/parole chiave",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
       "tempo attivo stimato da numero ingredienti/passaggi",
       "ingredienti chiave proposti da tabella ingredienti/titolo"
     ],

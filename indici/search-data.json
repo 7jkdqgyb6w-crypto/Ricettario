@@ -646,7 +646,7 @@
     "allergeni": [
       "cereali contenenti glutine"
     ],
-    "search_text": "pasta con le melanzane primi italia - veneto mezze penne rigate melanzane lunche d'aglio olio peperoncino secco piccante prezzemolo cereali contenenti glutine estate vegano",
+    "search_text": "pasta con le melanzane primi italia - veneto anche in questo caso a fare la differenza sono i particolari... mezze penne rigate melanzane lunghe aglio olio extra vergine d'oliva peperoncino piccante prezzemolo cereali contenenti glutine estate vegano",
     "metadati_fonte": "auto",
     "href": "../ricette/pasta-con-le-melanzane/",
     "img": "../foto/pasta-con-le-melanzane/01.jpg"
@@ -688,7 +688,7 @@
       "pesce",
       "frutta a guscio"
     ],
-    "search_text": "pasta con pesto alla siciliana primi italia - sicilia basilico spicchi d'aglio mandorle tostate e grattugiate olio extra vergine d'olive gustoso pomodorini datterini o meglio san marzano se di stagione capperi sotto sale bottarga di muggine intera pasta mentuccia. cereali contenenti glutine pesce frutta a guscio estate pescetariano",
+    "search_text": "pasta con pesto alla siciliana primi italia - sicilia pasta basilico aglio mandorle tostate e grattugiate olio extra vergine d'oliva pomodorini datterini o meglio san marzano se di stagione capperi sotto sale bottarga di muggine intera mentuccia. cereali contenenti glutine pesce frutta a guscio estate pescetariano",
     "metadati_fonte": "auto",
     "href": "../ricette/pasta-con-pesto-alla-siciliana/",
     "img": "../foto/pasta-con-pesto-alla-siciliana/01.jpg"
@@ -705,7 +705,7 @@
     "ingredienti_chiave": [],
     "termini_ricerca": [],
     "allergeni": [],
-    "search_text": "pasta e fagioli primi italia - veneto web e' un piatto di origine contadina ma diffusissimo ed apprezzatissimo a venezia. usare fagioli freschi sgranati di lamon oppure secchi messi a mollo per una notte con un punta di bicarbonato. fagioli di lamon cipolla carota rosmarino alloro osso di prosciutto subiotini tutto_anno vegetariano",
+    "search_text": "pasta e fagioli primi italia - veneto web e' un piatto di origine contadina ma diffusissimo ed apprezzatissimo a venezia. usare fagioli freschi sgranati di lamon oppure secchi messi a mollo per una notte con un punta di bicarbonato. fagioli di lamon cipolla carota rosmarino alloro osso di prosciutto crudo subiotini tutto_anno vegetariano",
     "metadati_fonte": "auto",
     "href": "../ricette/pasta-e-fagioli/",
     "img": "../foto/pasta-e-fagioli/01.jpg"
@@ -828,7 +828,7 @@
     "slug": "picana",
     "titolo": "Picana",
     "categoria": "Secondi",
-    "geografia": "",
+    "geografia": "Brasile",
     "regime_minimo": "onnivoro",
     "stagioni": [
       "tutto_anno"
@@ -836,7 +836,7 @@
     "ingredienti_chiave": [],
     "termini_ricerca": [],
     "allergeni": [],
-    "search_text": "picana secondi chatgtp questa è una versione che può essere realizzata al forno e bistecchiera. con è uno spiedo, non è il churrasco. tuttavia... volendo la carne può essere marinata per un paio di ore prima della cottura. picana (lombata) tutto_anno onnivoro",
+    "search_text": "picana secondi brasile chatgtp questa è una versione che può essere realizzata al forno e bistecchiera. non è uno spiedo, non è il churrasco. tuttavia... volendo la carne può essere marinata per un paio di ore prima della cottura. picana (lombata) tutto_anno onnivoro",
     "metadati_fonte": "auto",
     "href": "../ricette/picana/",
     "img": "../foto/picana/01.jpg"
@@ -1052,7 +1052,7 @@
       "cereali contenenti glutine",
       "pesce"
     ],
-    "search_text": "spaghetti alla bottarga primi sicilia franco c. provenienza: liberamente ispirato da una cena di franco c.. ritengo che esista solo un modo per assaporare l'essenza di quella prelibatezza che è la bottarga di muggine. la bottarga è un ingrediente che non perdona.… spaghetti bottarga di muggine aglio olio extra vergine d'oliva peperoncino pangrattato prezzemolo. cereali contenenti glutine pesce tutto_anno pescetariano",
+    "search_text": "spaghetti alla bottarga primi sicilia franco c. provenienza: liberamente ispirato da una cena di franco c.. ritengo che esista solo un modo per assaporare l'essenza di quella prelibatezza che è la bottarga di muggine. la bottarga è un ingrediente che non perdona.… spaghetti bottarga di muggine aglio olio extra vergine d'oliva peperoncino pangrattato prezzemolo cereali contenenti glutine pesce tutto_anno pescetariano",
     "metadati_fonte": "auto",
     "href": "../ricette/spaghetti-alla-bottarga/",
     "img": "../foto/spaghetti-alla-bottarga/01.jpg"

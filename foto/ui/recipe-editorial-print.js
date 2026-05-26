@@ -523,6 +523,61 @@ function escapeHtml(value){
         }
       }
 
+      function createNotesEndmatterChunk(){
+        var wrapper = doc.createElement('section');
+        wrapper.className = 'print-endmatter print-endmatter-notes';
+        var notesBlock = doc.createElement('section');
+        notesBlock.className = 'print-notes-block';
+        var notesSection = doc.createElement('section');
+        notesSection.className = 'print-section print-notes';
+        notesBlock.appendChild(notesSection);
+        wrapper.appendChild(notesBlock);
+        return {wrapper:wrapper, notesSection:notesSection};
+      }
+
+      function appendEndmatterToCurrent(block){
+        var notesBlock = block.querySelector(':scope > .print-notes-block');
+        var notesSection = notesBlock ? notesBlock.querySelector(':scope > .print-notes') : null;
+        var footer = block.querySelector(':scope > .print-footer');
+        if(!notesSection && !footer){
+          appendBlockToCurrent(block);
+          return;
+        }
+
+        var active = null;
+        Array.prototype.slice.call(notesSection ? notesSection.children : []).forEach(function(noteChild){
+          if(!active){
+            active = createNotesEndmatterChunk();
+            current.content.appendChild(active.wrapper);
+          }
+          active.notesSection.appendChild(noteChild);
+          if(contentHeight(current) > pageHeightPx + 0.5){
+            if(active.notesSection.children.length > 1){
+              noteChild.remove();
+              current = newPage();
+              printDoc.appendChild(current.page);
+              pages.push(current);
+              active = createNotesEndmatterChunk();
+              current.content.appendChild(active.wrapper);
+              active.notesSection.appendChild(noteChild);
+            }else if(pageHasContent(current) && current.content.children.length > 1){
+              active.wrapper.remove();
+              current = newPage();
+              printDoc.appendChild(current.page);
+              pages.push(current);
+              current.content.appendChild(active.wrapper);
+            }
+          }
+        });
+
+        if(footer){
+          var footerWrapper = doc.createElement('section');
+          footerWrapper.className = 'print-endmatter print-endmatter-footer';
+          footerWrapper.appendChild(footer);
+          appendBlockToCurrent(footerWrapper);
+        }
+      }
+
       originalChildren.forEach(function(child){
         if(!child || !child.tagName) return;
         if(child.classList && child.classList.contains('print-steps')){
@@ -567,6 +622,10 @@ function escapeHtml(value){
             });
             return;
           }
+        }
+        if(child.classList && child.classList.contains('print-endmatter')){
+          appendEndmatterToCurrent(child);
+          return;
         }
         appendBlockToCurrent(child);
       });

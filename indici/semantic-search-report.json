@@ -1,7 +1,7 @@
 {
   "versione": "CMS2-R18-103",
   "semantica_versione": "CMS2-R18-103",
-  "timestamp": "2026-05-25T14:24:45",
+  "timestamp": "2026-05-26T17:38:58",
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "search_data": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT\\indici\\search-data.json",
   "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\CMS\\ingredienti-semantica.json",
@@ -1408,11 +1408,11 @@
       "fonte_semantica": "html-ingredienti",
       "ingredienti_usati": [
         "Mezze penne rigate",
-        "melanzane lunche",
-        "d'aglio",
-        "olio",
-        "peperoncino secco piccante",
-        "prezzemolo"
+        "Melanzane lunghe",
+        "Aglio",
+        "Olio extra vergine d'oliva",
+        "Peperoncino piccante",
+        "Prezzemolo"
       ],
       "termini_ricerca": [
         "pasta",
@@ -1426,6 +1426,7 @@
       "tag_accessori_esclusi": [
         "aromi",
         "condimenti liquidi",
+        "condimenti",
         "spezie",
         "erbe aromatiche"
       ],
@@ -1434,6 +1435,7 @@
         "melanzane",
         "aglio",
         "olio",
+        "olive",
         "sale",
         "prezzemolo"
       ],
@@ -1496,27 +1498,27 @@
       "titolo": "Pasta con pesto alla siciliana",
       "fonte_semantica": "html-ingredienti",
       "ingredienti_usati": [
+        "Pasta",
         "Basilico",
-        "Spicchi d'aglio",
+        "Aglio",
         "Mandorle tostate e grattugiate",
-        "Olio extra vergine d'olive gustoso",
+        "Olio extra vergine d'oliva",
         "Pomodorini datterini o meglio San Marzano se di stagione",
         "Capperi sotto sale",
         "Bottarga di muggine intera",
-        "Pasta",
         "Mentuccia."
       ],
       "termini_ricerca": [
+        "pasta",
         "verdura",
         "ortaggi",
         "pesce",
-        "bottarga",
-        "pasta"
+        "bottarga"
       ],
       "allergeni": [
+        "cereali contenenti glutine",
         "noci",
-        "pesce",
-        "cereali contenenti glutine"
+        "pesce"
       ],
       "tag_accessori_esclusi": [
         "erbe aromatiche",
@@ -1526,6 +1528,7 @@
         "spezie"
       ],
       "regole_matchate": [
+        "spaghetti",
         "prezzemolo",
         "aglio",
         "mandorle",
@@ -1534,8 +1537,7 @@
         "topinambur",
         "sale",
         "capperi",
-        "bottarga",
-        "spaghetti"
+        "bottarga"
       ],
       "modificato": true
     },
@@ -1549,7 +1551,7 @@
         "Carota",
         "Rosmarino",
         "Alloro",
-        "Osso di prosciutto",
+        "Osso di prosciutto crudo",
         "Subiotini"
       ],
       "termini_ricerca": [
@@ -2193,7 +2195,7 @@
         "Olio extra vergine d'oliva",
         "Peperoncino",
         "Pangrattato",
-        "Prezzemolo."
+        "Prezzemolo"
       ],
       "termini_ricerca": [
         "pasta",
