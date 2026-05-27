@@ -750,7 +750,7 @@
     "slug": "penne-alla-cannata",
     "titolo": "Penne alla \"Cannata\"",
     "categoria": "Primi",
-    "geografia": "Italia - Sicilia - Linosa",
+    "geografia": "Italia - Sicilia - Salina",
     "regime_minimo": "pescetariano",
     "stagioni": [
       "estate"
@@ -761,7 +761,7 @@
       "cereali contenenti glutine",
       "pesce"
     ],
-    "search_text": "penne alla \"cannata\" primi italia - sicilia - linosa ristorante \"alla cannata\" elementi essenziali della cucina di questa trattoria sono i capperi e la mentuccia. luogo splendido in riva al mare. alici sotto sale capperi mezze penne rigate pomodorini peperoncino pangrattato aglio sale pepe menta origano olio extra vergine d'oliva cereali contenenti glutine pesce estate pescetariano",
+    "search_text": "penne alla \"cannata\" primi italia - sicilia - salina ristorante \"alla cannata\" elementi essenziali della cucina di questa trattoria sono i capperi e la mentuccia. luogo splendido in riva al mare. quando ci sono stato, salina era ancora un luogo autentico. alici sotto sale capperi mezze penne rigate pomodorini peperoncino pangrattato aglio sale pepe menta origano olio extra vergine d'oliva cereali contenenti glutine pesce estate pescetariano",
     "metadati_fonte": "auto",
     "href": "../ricette/penne-alla-cannata/",
     "img": "../foto/penne-alla-cannata/01.jpg"
@@ -773,14 +773,16 @@
     "geografia": "Italia - Veneto",
     "regime_minimo": "pescetariano",
     "stagioni": [
+      "estate",
       "inverno"
     ],
     "ingredienti_chiave": [],
     "termini_ricerca": [],
     "allergeni": [
-      "cereali contenenti glutine"
+      "cereali contenenti glutine",
+      "crostacei"
     ],
-    "search_text": "penne con mazzancolle alle verdure primi italia - veneto sandro b. una sera a cena da lui... aglio carota mazzancolla porro zafferano zucchina penne verdura cereali contenenti glutine inverno pescetariano",
+    "search_text": "penne con mazzancolle alle verdure primi italia - veneto sandro b. una sera a cena da lui... penne aglio carote mazzancolle porri zucchine zafferano cereali contenenti glutine crostacei estate inverno pescetariano",
     "metadati_fonte": "auto",
     "href": "../ricette/penne-con-mazzancolle-alle-verdure/",
     "img": "../foto/penne-con-mazzancolle-alle-verdure/01.jpg"
@@ -1061,7 +1063,7 @@
     "slug": "spaghetti-alla-puttanesca",
     "titolo": "Spaghetti alla puttanesca",
     "categoria": "Primi",
-    "geografia": "Roma",
+    "geografia": "Napoli",
     "regime_minimo": "pescetariano",
     "stagioni": [
       "tutto_anno"
@@ -1072,7 +1074,7 @@
       "cereali contenenti glutine",
       "pesce"
     ],
-    "search_text": "spaghetti alla puttanesca primi roma eddy salzano e' una storia lunga... anzi lunghissima. grazie eddy! ma è una ricetta disarmante per la sua semplicità. spaghetti o vermicelli aglio peperoncini secchi piccanti olive di gaeta capperi sotto sale alici sotto sale olio extravergine d'oliva pelati prezzemolo cereali contenenti glutine pesce tutto_anno pescetariano",
+    "search_text": "spaghetti alla puttanesca primi napoli eddy salzano e' una storia lunga... anzi lunghissima. grazie eddy! ma è una ricetta disarmante per la sua semplicità. spaghetti o vermicelli aglio peperoncini secchi piccanti olive di gaeta capperi sotto sale alici sotto sale olio extravergine d'oliva pelati prezzemolo cereali contenenti glutine pesce tutto_anno pescetariano",
     "metadati_fonte": "auto",
     "href": "../ricette/spaghetti-alla-puttanesca/",
     "img": "../foto/spaghetti-alla-puttanesca/01.jpg"

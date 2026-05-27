@@ -1,7 +1,7 @@
 {
   "versione": "CMS2-R18-103",
   "semantica_versione": "CMS2-R18-103",
-  "timestamp": "2026-05-27T11:45:34",
+  "timestamp": "2026-05-27T23:41:58",
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "search_data": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT\\indici\\search-data.json",
   "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\CMS\\ingredienti-semantica.json",
@@ -1694,42 +1694,40 @@
       "titolo": "Penne con mazzancolle alle verdure",
       "fonte_semantica": "html-ingredienti",
       "ingredienti_usati": [
-        "Aglio",
-        "Carota",
-        "Mazzancolla",
-        "Porro",
-        "Zafferano",
-        "Zucchina",
         "Penne",
-        "Verdura"
+        "Aglio",
+        "Carote",
+        "Mazzancolle",
+        "Porri",
+        "Zucchine",
+        "Zafferano"
       ],
       "termini_ricerca": [
+        "pasta",
         "verdura",
         "ortaggi",
         "carote",
         "crostacei",
         "mazzancolle",
         "porri",
-        "zucchine",
-        "pasta"
+        "zucchine"
       ],
       "allergeni": [
-        "crostacei",
-        "cereali contenenti glutine"
+        "cereali contenenti glutine",
+        "crostacei"
       ],
       "tag_accessori_esclusi": [
         "aromi",
         "spezie"
       ],
       "regole_matchate": [
+        "spaghetti",
         "aglio",
         "carote",
         "mazzancolla",
         "porri",
-        "sale",
         "zucchine",
-        "spaghetti",
-        "verdura"
+        "sale"
       ],
       "modificato": true
     },
