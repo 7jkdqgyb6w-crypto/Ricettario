@@ -827,8 +827,8 @@
     "img": "../foto/peperoni-alici-e-capperi/01.jpg"
   },
   {
-    "slug": "picana",
-    "titolo": "Picana",
+    "slug": "picaña",
+    "titolo": "Picaña",
     "categoria": "Secondi",
     "geografia": "Brasile",
     "regime_minimo": "onnivoro",
@@ -838,10 +838,10 @@
     "ingredienti_chiave": [],
     "termini_ricerca": [],
     "allergeni": [],
-    "search_text": "picana secondi brasile chatgtp questa è una versione che può essere realizzata al forno e bistecchiera. non è uno spiedo, non è il churrasco. tuttavia... volendo la carne può essere marinata per un paio di ore prima della cottura. picana (lombata) tutto_anno onnivoro",
+    "search_text": "picaña secondi brasile chatgtp questa è una versione che può essere realizzata al forno e bistecchiera. non è uno spiedo, non è il churrasco. tuttavia... volendo la carne può essere marinata per un paio di ore prima della cottura. picaña (lombata) tutto_anno onnivoro",
     "metadati_fonte": "auto",
-    "href": "../ricette/picana/",
-    "img": "../foto/picana/01.jpg"
+    "href": "../ricette/picaña/",
+    "img": "../foto/picaña/01.jpg"
   },
   {
     "slug": "puree-di-sedano",

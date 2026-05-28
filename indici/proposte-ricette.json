@@ -1206,7 +1206,7 @@
     "titolo": "Penne con mazzancolle alle verdure",
     "proposte": {
       "porzioni": "4",
-      "tempo_attivo": "15-30 min",
+      "tempo_attivo": "30-45 min",
       "tempo_cottura": "30-45 min",
       "tempo_riposo": "30 min",
       "tempo_totale": "include riposo",
@@ -1295,8 +1295,8 @@
     "stato": "da_validare"
   },
   {
-    "slug": "picana",
-    "titolo": "Picana",
+    "slug": "picaña",
+    "titolo": "Picaña",
     "proposte": {
       "porzioni": "4-6",
       "tempo_attivo": "45-60 min",
@@ -1304,7 +1304,7 @@
       "tempo_riposo": "30 min",
       "tempo_totale": "include riposo",
       "ingredienti_chiave": [
-        "Picana (Lombata)"
+        "Picaña (Lombata)"
       ]
     },
     "confidenza": "bassa",
