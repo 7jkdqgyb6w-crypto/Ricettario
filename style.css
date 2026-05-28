@@ -1574,6 +1574,24 @@ main.recipe-page .image-row.image-group-continuation{
 .recipe-index-media{display:block;width:100%;margin:0 0 1rem 0;}
 .recipe-index-media a{display:block;width:100%;}
 .recipe-index-media img{display:block;width:100%;max-width:100%;height:auto;box-shadow:none;background:#fff;}
+.index-editorial-html::after{content:"";display:block;clear:both;}
+.index-editorial-html figure{margin:.2rem .7rem .7rem 0;display:inline-block;vertical-align:top;max-width:100%;box-sizing:border-box;}
+.index-editorial-html img{display:block;max-width:100%;height:auto;box-shadow:none;background:#fff;cursor:zoom-in;}
+.index-editorial-html figcaption{font-size:.84rem;color:#566064;margin-top:.25rem;line-height:1.25;}
+.index-editorial-html figure.step-photo,.index-editorial-html figure.step-photo-large,.index-editorial-html figure.step-photo-left,.index-editorial-html figure.step-photo-right{display:block;margin:.35rem 0 .8rem 0;}
+.index-editorial-html figure.step-photo-large{width:100%;}
+.index-editorial-html figure.step-photo[data-align="center"],.index-editorial-html figure.step-photo-large[data-align="center"]{margin-left:auto;margin-right:auto;}
+.index-editorial-html .image-row{display:flex;flex-wrap:wrap;align-items:flex-start;gap:.75rem;margin:.35rem 0 .9rem 0;clear:both;}
+.index-editorial-html .image-row > figure{flex:0 1 auto;margin:0;}
+@media (min-width:760px){
+  .index-editorial-html figure.step-photo-right{float:right;clear:right;margin-left:1rem;}
+  .index-editorial-html figure.step-photo-left{float:left;clear:left;margin-right:1rem;}
+}
+@media (max-width:640px){
+  .index-editorial-html figure.step-photo,.index-editorial-html figure.step-photo-large,.index-editorial-html figure.step-photo-left,.index-editorial-html figure.step-photo-right{float:none !important;clear:both !important;width:100% !important;max-width:100% !important;margin:.35rem 0 .85rem 0 !important;}
+  .index-editorial-html .image-row{display:block;}
+  .index-editorial-html .image-row > figure{width:100% !important;max-width:100% !important;margin:.35rem 0 .85rem 0 !important;}
+}
 @media (max-width:760px){.site-header nav{gap:.32rem;margin-left:auto;justify-content:flex-end;}.site-header nav a{font-size:.95rem;letter-spacing:-.015em;}.site-header .recipe-nav-back,.site-header .index-nav-back{width:20px;height:22px;font-size:18px;top:-1px;}.site-header .site-search-button{padding:.05rem 0;}.site-header .site-search-button svg{width:.98em;height:.98em;}}
 @media (max-width:640px){.recipe-search-dialog{top:4rem;right:1rem;left:1rem;width:auto;}}
 
