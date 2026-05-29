@@ -67,7 +67,7 @@
     "slug": "antipastino-piemontese",
     "titolo": "Antipast(ino) piemontese",
     "categoria": "",
-    "geografia": "",
+    "geografia": "Italia - Piemonte",
     "regime_minimo": "vegano",
     "stagioni": [
       "tutto_anno"
@@ -75,7 +75,7 @@
     "ingredienti_chiave": [],
     "termini_ricerca": [],
     "allergeni": [],
-    "search_text": "antipast(ino) piemontese premessa. questa non è una ricetta. e' un assaggio di un antipasto alla piemontese, di cui rimando alle singole ricette. tutto_anno vegano",
+    "search_text": "antipast(ino) piemontese italia - piemonte premessa. questa non è una ricetta. e' un assaggio di un antipasto alla piemontese, di cui rimando alle singole ricette. tutto_anno vegano",
     "metadati_fonte": "auto",
     "href": "../ricette/antipastino-piemontese/",
     "img": "../foto/antipastino-piemontese/01.jpg"
@@ -343,7 +343,7 @@
     "slug": "filettino-di-maiale",
     "titolo": "Filettin o di maiale",
     "categoria": "Secondi",
-    "geografia": "Croazia",
+    "geografia": "Croazia - Hvar",
     "regime_minimo": "onnivoro",
     "stagioni": [
       "tutto_anno"
@@ -353,7 +353,7 @@
     "allergeni": [
       "senape"
     ],
-    "search_text": "filettin o di maiale secondi croazia ristorante hvar ci sono stato diverse volte. una volta era poco conosciuta; oggi, forse considerata tra le isole più belle del mediterraneo, ha perso molto nei luoghi più esposti. ma basta allontanarsi dal capoluogo per… filettino di maiale scalogno senape di digione timo olio extra vergine d'oliva sale pepe senape tutto_anno onnivoro",
+    "search_text": "filettin o di maiale secondi croazia - hvar ristorante hanibal hvar ci sono stato diverse volte. una volta era poco conosciuta; oggi, forse considerata tra le isole più belle del mediterraneo, ha perso molto nei luoghi più esposti. ma basta allontanarsi dal capoluogo per… filettino di maiale scalogno senape di digione timo olio extra vergine d'oliva sale pepe senape tutto_anno onnivoro",
     "metadati_fonte": "auto",
     "href": "../ricette/filettino-di-maiale/",
     "img": "../foto/filettino-di-maiale/01.jpg"
@@ -418,7 +418,7 @@
     "slug": "gnocchetti-sardi-alla-urbaweb",
     "titolo": "Gnocchetti sardi alla Urbaweb",
     "categoria": "Primi",
-    "geografia": "Veneto – Venezia",
+    "geografia": "Italia - Veneto - Venezia",
     "regime_minimo": "pescetariano",
     "stagioni": [
       "estate"
@@ -431,7 +431,7 @@
       "pesce",
       "sedano"
     ],
-    "search_text": "gnocchetti sardi alla urbaweb primi veneto – venezia eddy salzano questa non è una mia ricetta. è di eddy salzano , qui l'originale , e la riporto perché fa parte della mia storia. nasce a venezia, durante una riunione di urbandata: fine maggio, caldo già presente, bisogno di un… gnocchetti sardi zucchine pomodori peperoni sedano schie olive verdi olive di gaeta pesce spada affumicato basilico olio extra vergine d’oliva sale pepe menta cereali contenenti glutine crostacei pesce sedano estate pescetariano",
+    "search_text": "gnocchetti sardi alla urbaweb primi italia - veneto - venezia eddy salzano questa non è una mia ricetta. è di eddy salzano , qui l'originale , e la riporto perché fa parte della mia storia. nasce a venezia, durante una riunione di urbandata: fine maggio, caldo già presente, bisogno di un… gnocchetti sardi zucchine pomodori peperoni sedano schie olive verdi olive di gaeta pesce spada affumicato basilico olio extra vergine d’oliva sale pepe menta cereali contenenti glutine crostacei pesce sedano estate pescetariano",
     "metadati_fonte": "auto",
     "href": "../ricette/gnocchetti-sardi-alla-urbaweb/",
     "img": "../foto/gnocchetti-sardi-alla-urbaweb/01.jpg"
@@ -440,7 +440,7 @@
     "slug": "gnocchi-con-le-trombette-dei-morti",
     "titolo": "Gnocchi con le trombette dei morti",
     "categoria": "Primi",
-    "geografia": "Veneto",
+    "geografia": "Italia - Veneto",
     "regime_minimo": "vegetariano",
     "stagioni": [
       "autunno"
@@ -451,7 +451,7 @@
       "cereali contenenti glutine",
       "latte"
     ],
-    "search_text": "gnocchi con le trombette dei morti primi veneto web un piatto velocissimo, quasi improvvisato. ma prima bisogna uscire. camminare. nei boschi, nei posti conosciuti . magari trovare i funghi, o almeno pensarli. poi si torna e si cucina. è una preparazione semplice, ma… gnocchetti di patate funghi trombette dei morti essiccati e grattugiati burro parmigiano reggiano cereali contenenti glutine latte autunno vegetariano",
+    "search_text": "gnocchi con le trombette dei morti primi italia - veneto web un piatto velocissimo, quasi improvvisato. ma prima bisogna uscire. camminare. nei boschi, nei posti conosciuti . magari trovare i funghi, o almeno pensarli. poi si torna e si cucina. è una preparazione semplice, ma… gnocchetti di patate funghi trombette dei morti essiccati e grattugiati burro parmigiano reggiano cereali contenenti glutine latte autunno vegetariano",
     "metadati_fonte": "auto",
     "href": "../ricette/gnocchi-con-le-trombette-dei-morti/",
     "img": "../foto/gnocchi-con-le-trombette-dei-morti/01.jpg"
@@ -482,7 +482,7 @@
     "slug": "medaglioni-di-manzo-con-porcini",
     "titolo": "Medaglioni di manzo con porcini",
     "categoria": "Secondi",
-    "geografia": "Italia",
+    "geografia": "Italia - Toscana",
     "regime_minimo": "onnivoro",
     "stagioni": [
       "autunno"
@@ -490,7 +490,7 @@
     "ingredienti_chiave": [],
     "termini_ricerca": [],
     "allergeni": [],
-    "search_text": "medaglioni di manzo con porcini secondi italia toscana non sono un fanatico del filetto. per cui preferisco questa versione forse più \"toscana\" manzo funghi porcini lardo ginepro timo aglio prezzemolo olio extra vergine d'oliva autunno onnivoro",
+    "search_text": "medaglioni di manzo con porcini secondi italia - toscana montefioralle non sono un fanatico del filetto. per cui preferisco questa versione forse più \"toscana\" manzo funghi porcini lardo ginepro timo aglio prezzemolo olio extra vergine d'oliva autunno onnivoro",
     "metadati_fonte": "auto",
     "href": "../ricette/medaglioni-di-manzo-con-porcini/",
     "img": "../foto/medaglioni-di-manzo-con-porcini/01.jpg"
@@ -536,7 +536,7 @@
     "slug": "orecchiette-baresi-alle-cime-di-rapa",
     "titolo": "Orecchiette baresi alle cime di rapa",
     "categoria": "Primi",
-    "geografia": "Puglia",
+    "geografia": "Italia - Puglia - Baria",
     "regime_minimo": "pescetariano",
     "stagioni": [
       "primavera"
@@ -547,7 +547,7 @@
       "cereali contenenti glutine",
       "pesce"
     ],
-    "search_text": "orecchiette baresi alle cime di rapa primi puglia nicola f. ho recentemente aggiornato questa ricetta. peperoncino aglio orecchiette baresi cime di rapa alici sotto sale cereali contenenti glutine pesce primavera pescetariano",
+    "search_text": "orecchiette baresi alle cime di rapa primi italia - puglia - baria nicola f. ho recentemente aggiornato questa ricetta. peperoncino aglio orecchiette baresi cime di rapa alici sotto sale cereali contenenti glutine pesce primavera pescetariano",
     "metadati_fonte": "auto",
     "href": "../ricette/orecchiette-baresi-alle-cime-di-rapa/",
     "img": "../foto/orecchiette-baresi-alle-cime-di-rapa/01.jpg"
@@ -594,7 +594,7 @@
     "slug": "pasta-al-ragu-di-triglie-e-al-succo-d-arancia",
     "titolo": "Pasta al ragù di triglie e al succo d'arancia",
     "categoria": "Primi",
-    "geografia": "Sicilia",
+    "geografia": "Italia - Sicilia",
     "regime_minimo": "pescetariano",
     "stagioni": [
       "estate"
@@ -606,7 +606,7 @@
       "pesce",
       "frutta a guscio"
     ],
-    "search_text": "pasta al ragù di triglie e al succo d'arancia primi sicilia il tutto dipende dalla freschezza delle triglie. rigorosamente di scoglio (si riconoscono dagli intestini che non contengono sabbia e sono più profumati). spaghetti triglie di scoglio mandorle sgusciate pomodorini maturi arancia matura prezzemolo aglio olio extra vergine d'oliva origano pistilli di zafferano. cereali contenenti glutine pesce frutta a guscio estate pescetariano",
+    "search_text": "pasta al ragù di triglie e al succo d'arancia primi italia - sicilia il tutto dipende dalla freschezza delle triglie. rigorosamente di scoglio (si riconoscono dagli intestini che non contengono sabbia e sono più profumati). spaghetti triglie di scoglio mandorle sgusciate pomodorini maturi arancia matura prezzemolo aglio olio extra vergine d'oliva origano pistilli di zafferano. cereali contenenti glutine pesce frutta a guscio estate pescetariano",
     "metadati_fonte": "auto",
     "href": "../ricette/pasta-al-ragu-di-triglie-e-al-succo-d-arancia/",
     "img": "../foto/pasta-al-ragu-di-triglie-e-al-succo-d-arancia/01.jpg"
@@ -655,7 +655,7 @@
     "slug": "pasta-con-le-sarde",
     "titolo": "Pasta con le sarde",
     "categoria": "Primi",
-    "geografia": "Italia - Sicilia",
+    "geografia": "Italia - Sicilia - Palermo",
     "regime_minimo": "pescetariano",
     "stagioni": [
       "estate"
@@ -667,7 +667,7 @@
       "pesce",
       "frutta a guscio"
     ],
-    "search_text": "pasta con le sarde primi italia - sicilia a me è stata insegnata così. a palermo. poi ho cercato di scriverla anni dopo. non se perfetta... bucatini finocchietto cipolla concentrato di pomodoro alici sotto sale uva passa pinoli zafferano pangrattato olio extra vergine d'oliva mandorle cereali contenenti glutine pesce frutta a guscio estate pescetariano",
+    "search_text": "pasta con le sarde primi italia - sicilia - palermo a me è stata insegnata così. a palermo. poi ho cercato di scriverla anni dopo. non se perfetta... bucatini finocchietto cipolla concentrato di pomodoro alici sotto sale uva passa pinoli zafferano pangrattato olio extra vergine d'oliva mandorle cereali contenenti glutine pesce frutta a guscio estate pescetariano",
     "metadati_fonte": "auto",
     "href": "../ricette/pasta-con-le-sarde/",
     "img": "../foto/pasta-con-le-sarde/01.jpg"
@@ -885,7 +885,7 @@
     "slug": "ribollita",
     "titolo": "Ribollita",
     "categoria": "",
-    "geografia": "",
+    "geografia": "Italia - Toscana",
     "regime_minimo": "vegano",
     "stagioni": [
       "tutto_anno"
@@ -893,7 +893,7 @@
     "ingredienti_chiave": [],
     "termini_ricerca": [],
     "allergeni": [],
-    "search_text": "ribollita tutto_anno vegano",
+    "search_text": "ribollita italia - toscana tutto_anno vegano",
     "metadati_fonte": "auto",
     "href": "../ricette/ribollita/",
     "img": "../foto/ribollita/01.jpg"
@@ -902,7 +902,7 @@
     "slug": "risi-e-bisi",
     "titolo": "Risi e bisi",
     "categoria": "",
-    "geografia": "",
+    "geografia": "Italia - Veneto - Venezia",
     "regime_minimo": "vegano",
     "stagioni": [
       "primavera"
@@ -912,7 +912,7 @@
     "allergeni": [
       "sedano"
     ],
-    "search_text": "risi e bisi e' la più celebre tra le minestre veneziane. il doge era tenuto a mangiarla - seguendo un preciso cerimoniale - il giorno di san marco, patrono di venezia. carota cipolla pepe piselli sale sedano riso sedano primavera vegano",
+    "search_text": "risi e bisi italia - veneto - venezia e' la più celebre tra le minestre veneziane. il doge era tenuto a mangiarla - seguendo un preciso cerimoniale - il giorno di san marco, patrono di venezia. carota cipolla pepe piselli sale sedano riso sedano primavera vegano",
     "metadati_fonte": "auto",
     "href": "../ricette/risi-e-bisi/",
     "img": "../foto/risi-e-bisi/01.jpg"
@@ -921,7 +921,7 @@
     "slug": "riso-cozze-e-patate",
     "titolo": "Riso cozze e patate",
     "categoria": "Primi",
-    "geografia": "Italia - Puglia",
+    "geografia": "Italia - Puglia - Baria",
     "regime_minimo": "pescetariano",
     "stagioni": [
       "estate"
@@ -932,7 +932,7 @@
       "latte",
       "molluschi"
     ],
-    "search_text": "riso cozze e patate primi italia - puglia nicola f. cozze, peoci, mitili: facciamo chiarezza. sono rigorosamente vietati quelli atlantici. solo mediterranee, in particolare del sud adriatico o del tirreno . non vi è confronto. quelli atlantici vanno bene per le… cozze riso patate aglio prezzemolo pecorino romano dpo pomodori pelati dop olio extra vergine d'oliva sale pepe latte molluschi estate pescetariano",
+    "search_text": "riso cozze e patate primi italia - puglia - baria nicola f. cozze, peoci, mitili: facciamo chiarezza. sono rigorosamente vietati quelli atlantici. solo mediterranee, in particolare del sud adriatico o del tirreno . non vi è confronto. quelli atlantici vanno bene per le… cozze riso patate aglio prezzemolo pecorino romano dpo pomodori pelati dop olio extra vergine d'oliva sale pepe latte molluschi estate pescetariano",
     "metadati_fonte": "auto",
     "href": "../ricette/riso-cozze-e-patate/",
     "img": "../foto/riso-cozze-e-patate/01.jpg"
@@ -1040,6 +1040,27 @@
     "img": "../foto/sfogliata-pugliese/01.jpg"
   },
   {
+    "slug": "soupe-au-pistou",
+    "titolo": "Soupe au pistou",
+    "categoria": "Primi",
+    "geografia": "Francia - Provenza",
+    "regime_minimo": "vegetariano",
+    "stagioni": [
+      "estate",
+      "inverno"
+    ],
+    "ingredienti_chiave": [],
+    "termini_ricerca": [],
+    "allergeni": [
+      "latte",
+      "sedano"
+    ],
+    "search_text": "soupe au pistou primi francia - provenza guillaume e. piatto tradizionale provenzale che si gusta nelle serate estive. si, anche se caldo. ma in fondo anche in piemonte il minestrone si gusta d'estate. e' una questione di ingredienti che solo in questa stagione sono… soupe fagioli bianchi e rossi fagiolini verdi zucchine pomodori patate porro cipolle melanzane sedano carote conchiglie pistou basilico aglio olio extra vergine d'oliva condimento parmigiano reggiano latte sedano estate inverno vegetariano",
+    "metadati_fonte": "auto",
+    "href": "../ricette/soupe-au-pistou/",
+    "img": "../foto/soupe-au-pistou/01.jpg"
+  },
+  {
     "slug": "spaghetti-alla-bottarga",
     "titolo": "Spaghetti alla bottarga",
     "categoria": "Primi",
@@ -1063,7 +1084,7 @@
     "slug": "spaghetti-alla-puttanesca",
     "titolo": "Spaghetti alla puttanesca",
     "categoria": "Primi",
-    "geografia": "Napoli",
+    "geografia": "Italia - Campania - Napoli",
     "regime_minimo": "pescetariano",
     "stagioni": [
       "tutto_anno"
@@ -1074,7 +1095,7 @@
       "cereali contenenti glutine",
       "pesce"
     ],
-    "search_text": "spaghetti alla puttanesca primi napoli eddy salzano e' una storia lunga... anzi lunghissima. grazie eddy! ma è una ricetta disarmante per la sua semplicità. spaghetti o vermicelli aglio peperoncini secchi piccanti olive di gaeta capperi sotto sale alici sotto sale olio extravergine d'oliva pelati prezzemolo cereali contenenti glutine pesce tutto_anno pescetariano",
+    "search_text": "spaghetti alla puttanesca primi italia - campania - napoli eddy salzano e' una storia lunga... anzi lunghissima. grazie eddy! ma è una ricetta disarmante per la sua semplicità. spaghetti o vermicelli aglio peperoncini secchi piccanti olive di gaeta capperi sotto sale alici sotto sale olio extravergine d'oliva pelati prezzemolo cereali contenenti glutine pesce tutto_anno pescetariano",
     "metadati_fonte": "auto",
     "href": "../ricette/spaghetti-alla-puttanesca/",
     "img": "../foto/spaghetti-alla-puttanesca/01.jpg"
@@ -1153,7 +1174,7 @@
     "slug": "tonno-alla-carlofortina",
     "titolo": "Tonno alla CarloFortina",
     "categoria": "",
-    "geografia": "",
+    "geografia": "Italia - Sardegna - Carloforte",
     "regime_minimo": "onnivoro",
     "stagioni": [
       "tutto_anno"
@@ -1163,7 +1184,7 @@
     "allergeni": [
       "pesce"
     ],
-    "search_text": "tonno alla carlofortina il cuoco andrea dell'osteria della tonnara di carloforte (sardegna) lo fa cosi': tranci di tonno (quello scuro scuro che sembra una bistecca di manzo) alti tre dita, tagliati in 4, rosolati in olio in un tegame di… tonno pesce tutto_anno onnivoro",
+    "search_text": "tonno alla carlofortina italia - sardegna - carloforte il cuoco andrea dell'osteria della tonnara di carloforte (sardegna) lo fa cosi': tranci di tonno (quello scuro scuro che sembra una bistecca di manzo) alti tre dita, tagliati in 4, rosolati in olio in un tegame di… tonno pesce tutto_anno onnivoro",
     "metadati_fonte": "auto",
     "href": "../ricette/tonno-alla-carlofortina/",
     "img": "../foto/tonno-alla-carlofortina/01.jpg"
@@ -1193,7 +1214,7 @@
     "slug": "vitello-tonnato",
     "titolo": "Vitello tonnato",
     "categoria": "",
-    "geografia": "",
+    "geografia": "Italia - Piemonte",
     "regime_minimo": "onnivoro",
     "stagioni": [
       "tutto_anno"
@@ -1204,7 +1225,7 @@
       "pesce",
       "sedano"
     ],
-    "search_text": "vitello tonnato una considerazione essenziale. non ha niente a che vedere con quanto si trova in commercio o con ricette su web. in particolare per la cottura di carne e tonno insieme, per la salsa fatta di maionese di rossi e olio… girello di vitello intero vino bianco molto secco alloro cuore di sedano carota cipolla aglio chiodi di garofano pepe nero prezzemolo tonno in scatola capperi di pantelleria dop maionese pesce sedano tutto_anno onnivoro",
+    "search_text": "vitello tonnato italia - piemonte una considerazione essenziale. non ha niente a che vedere con quanto si trova in commercio o con ricette su web. in particolare per la cottura di carne e tonno insieme, per la salsa fatta di maionese di rossi e olio… girello di vitello intero vino bianco molto secco alloro cuore di sedano carota cipolla aglio chiodi di garofano pepe nero prezzemolo tonno in scatola capperi di pantelleria dop maionese pesce sedano tutto_anno onnivoro",
     "metadati_fonte": "auto",
     "href": "../ricette/vitello-tonnato/",
     "img": "../foto/vitello-tonnato/01.jpg"

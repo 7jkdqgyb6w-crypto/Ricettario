@@ -1389,8 +1389,8 @@
       "porzioni": "4",
       "tempo_attivo": "15-30 min",
       "tempo_cottura": "15-30 min",
-      "tempo_riposo": "",
-      "tempo_totale": "da verificare",
+      "tempo_riposo": "30 min",
+      "tempo_totale": "include riposo",
       "ingredienti_chiave": [
         "ribollita"
       ]
@@ -1403,6 +1403,7 @@
     },
     "note": [
       "fallback standard da validare",
+      "riposo dedotto da testo",
       "cottura breve stimata per assenza di segnali di lunga cottura",
       "tempo attivo stimato da numero ingredienti/passaggi",
       "ingredienti chiave proposti da tabella ingredienti/titolo"
@@ -1416,8 +1417,8 @@
       "porzioni": "4",
       "tempo_attivo": "30-45 min",
       "tempo_cottura": "25 min circa",
-      "tempo_riposo": "",
-      "tempo_totale": "da verificare",
+      "tempo_riposo": "30 min",
+      "tempo_totale": "include riposo",
       "ingredienti_chiave": [
         "Piselli",
         "Riso"
@@ -1431,6 +1432,7 @@
     },
     "note": [
       "fallback standard da validare",
+      "riposo dedotto da testo",
       "tempo cottura ricavato da durate esplicite presenti nel testo",
       "tempo attivo stimato da numero ingredienti/passaggi",
       "ingredienti chiave proposti da tabella ingredienti/titolo"
@@ -1610,6 +1612,39 @@
     },
     "note": [
       "range standard per primo piatto da validare",
+      "riposo dedotto da testo",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "soupe-au-pistou",
+    "titolo": "Soupe au pistou",
+    "proposte": {
+      "porzioni": "20",
+      "tempo_attivo": "45-60 min",
+      "tempo_cottura": "2 h circa",
+      "tempo_riposo": "30 min",
+      "tempo_totale": "include riposo",
+      "ingredienti_chiave": [
+        "Soupe",
+        "Fagioli bianchi e rossi",
+        "Fagiolini verdi",
+        "Zucchine",
+        "Pomodori",
+        "Patate"
+      ]
+    },
+    "confidenza": "media",
+    "confidenza_campi": {
+      "porzioni": "alta",
+      "tempi": "media",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "porzioni esplicite nel testo",
       "riposo dedotto da testo",
       "tempo cottura ricavato da durate esplicite presenti nel testo",
       "tempo attivo stimato da numero ingredienti/passaggi",
@@ -1803,8 +1838,8 @@
       "porzioni": "4",
       "tempo_attivo": "15-30 min",
       "tempo_cottura": "2 h circa",
-      "tempo_riposo": "",
-      "tempo_totale": "da verificare",
+      "tempo_riposo": "30 min",
+      "tempo_totale": "include riposo",
       "ingredienti_chiave": [
         "Tonno"
       ]
@@ -1817,6 +1852,7 @@
     },
     "note": [
       "fallback standard da validare",
+      "riposo dedotto da testo",
       "tempo cottura ricavato da durate esplicite presenti nel testo",
       "tempo attivo stimato da numero ingredienti/passaggi",
       "ingredienti chiave proposti da tabella ingredienti/titolo"

@@ -1,18 +1,17 @@
 {
   "versione": "CMS2-R18-103",
   "semantica_versione": "CMS2-R18-103",
-  "timestamp": "2026-05-28T13:58:40",
+  "timestamp": "2026-05-29T20:28:17",
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "search_data": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT\\indici\\search-data.json",
   "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\CMS\\ingredienti-semantica.json",
   "apply": true,
-  "processed": 62,
-  "changed": 58,
+  "processed": 63,
+  "changed": 60,
   "missing_source": [],
   "no_structural_terms": [
     "antipastino-piemontese",
     "patatine",
-    "picana",
     "ribollita",
     "roux-brun"
   ],
@@ -1803,15 +1802,23 @@
       "modificato": true
     },
     {
-      "slug": "picana",
-      "titolo": "Picana",
-      "fonte_semantica": "excluded-slug",
-      "ingredienti_usati": [],
-      "termini_ricerca": [],
+      "slug": "picaña",
+      "titolo": "Picaña",
+      "fonte_semantica": "html-ingredienti",
+      "ingredienti_usati": [
+        "Picaña (Lombata)"
+      ],
+      "termini_ricerca": [
+        "carne",
+        "bovino",
+        "manzo"
+      ],
       "allergeni": [],
       "tag_accessori_esclusi": [],
-      "regole_matchate": [],
-      "modificato": false
+      "regole_matchate": [
+        "picana"
+      ],
+      "modificato": true
     },
     {
       "slug": "puree-di-sedano",
@@ -2179,6 +2186,69 @@
         "latte",
         "capperi",
         "olio"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "soupe-au-pistou",
+      "titolo": "Soupe au pistou",
+      "fonte_semantica": "html-ingredienti",
+      "ingredienti_usati": [
+        "Soupe",
+        "Fagioli bianchi e rossi",
+        "Fagiolini verdi",
+        "Zucchine",
+        "Pomodori",
+        "Patate",
+        "Porro",
+        "Cipolle",
+        "Melanzane",
+        "Sedano",
+        "Carote",
+        "Conchiglie",
+        "Pistou",
+        "Basilico",
+        "Aglio",
+        "Olio extra vergine d'oliva",
+        "Condimento",
+        "Parmigiano reggiano"
+      ],
+      "termini_ricerca": [
+        "verdura",
+        "legumi",
+        "fagioli",
+        "ortaggi",
+        "zucchine",
+        "patate",
+        "porri",
+        "melanzane",
+        "sedano",
+        "carote"
+      ],
+      "allergeni": [
+        "sedano",
+        "latte"
+      ],
+      "tag_accessori_esclusi": [
+        "aromi",
+        "erbe aromatiche",
+        "condimenti liquidi",
+        "condimenti"
+      ],
+      "regole_matchate": [
+        "fagioli",
+        "zucchine",
+        "topinambur",
+        "patate",
+        "porri",
+        "aglio",
+        "melanzane",
+        "sedano",
+        "carote",
+        "prezzemolo",
+        "olio",
+        "olive",
+        "latte"
       ],
       "modificato": true
     },
