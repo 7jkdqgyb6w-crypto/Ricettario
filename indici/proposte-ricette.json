@@ -1112,9 +1112,9 @@
     "slug": "patatine",
     "titolo": "Patatine*",
     "proposte": {
-      "porzioni": "4-6",
-      "tempo_attivo": "15-30 min",
-      "tempo_cottura": "5 min circa",
+      "porzioni": "4",
+      "tempo_attivo": "30-45 min",
+      "tempo_cottura": "30-45 min",
       "tempo_riposo": "30 min",
       "tempo_totale": "include riposo",
       "ingredienti_chiave": [
@@ -1128,7 +1128,7 @@
       "ingredienti_chiave": "media"
     },
     "note": [
-      "range standard per antipasto/salsa/contorno",
+      "porzioni stimate da quantità di proteina principale",
       "riposo dedotto da testo",
       "tempo cottura ricavato da durate esplicite presenti nel testo",
       "tempo attivo stimato da numero ingredienti/passaggi",

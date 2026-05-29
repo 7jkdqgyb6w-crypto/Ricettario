@@ -1,7 +1,7 @@
 {
   "versione": "CMS2-R18-103",
   "semantica_versione": "CMS2-R18-103",
-  "timestamp": "2026-05-29T20:28:17",
+  "timestamp": "2026-05-29T22:58:51",
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "search_data": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT\\indici\\search-data.json",
   "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\CMS\\ingredienti-semantica.json",
@@ -1806,7 +1806,8 @@
       "titolo": "Picaña",
       "fonte_semantica": "html-ingredienti",
       "ingredienti_usati": [
-        "Picaña (Lombata)"
+        "Picaña (Lombata)",
+        "Aceto Balsamico Tradizionale di Modena DOP"
       ],
       "termini_ricerca": [
         "carne",
@@ -1814,9 +1815,12 @@
         "manzo"
       ],
       "allergeni": [],
-      "tag_accessori_esclusi": [],
+      "tag_accessori_esclusi": [
+        "condimenti liquidi"
+      ],
       "regole_matchate": [
-        "picana"
+        "picana",
+        "olio"
       ],
       "modificato": true
     },
