@@ -263,6 +263,29 @@
     "img": "../foto/calamari-ripieni/01.jpg"
   },
   {
+    "slug": "cavolo-rosso-condito",
+    "titolo": "Cavolo rosso condito",
+    "categoria": "Antipasto",
+    "geografia": "Francia - Alsazia",
+    "regime_minimo": "onnivoro",
+    "stagioni": [
+      "tutto_anno",
+      "autunno",
+      "inverno"
+    ],
+    "ingredienti_chiave": [],
+    "termini_ricerca": [],
+    "allergeni": [
+      "cereali contenenti glutine",
+      "pesce",
+      "senape"
+    ],
+    "search_text": "cavolo rosso condito antipasto francia - alsazia jacqueline gibert ricordi vaghi, ma credo che in qualche modo dovesse essere presente in casa mia, forse introdotto da me ancora negli anni '70. cavolo rosso pancetta affumicata aringhe senape cubetti di pane abbrustoliti olio extra vergine d'oliva cereali contenenti glutine pesce senape tutto_anno autunno inverno onnivoro",
+    "metadati_fonte": "auto",
+    "href": "../ricette/cavolo-rosso-condito/",
+    "img": "../foto/cavolo-rosso-condito/01.jpg"
+  },
+  {
     "slug": "cous-cous-alla-trapanese",
     "titolo": "Cous cous alla trapanese",
     "categoria": "Primi",
@@ -1231,5 +1254,22 @@
     "metadati_fonte": "auto",
     "href": "../ricette/vitello-tonnato/",
     "img": "../foto/vitello-tonnato/01.jpg"
+  },
+  {
+    "slug": "zucchine-in-scapece",
+    "titolo": "Zucchine in scapece",
+    "categoria": "Antipasti",
+    "geografia": "Italia - Campania - Napoli",
+    "regime_minimo": "vegano",
+    "stagioni": [
+      "estate"
+    ],
+    "ingredienti_chiave": [],
+    "termini_ricerca": [],
+    "allergeni": [],
+    "search_text": "zucchine in scapece antipasti italia - campania - napoli le zucchine in scapece sono una prelibatezza estiva. rifrescante e appetitosa. già, il fritto... ma da tempi immemorabili si usa conservare gli alimenti attraverso questa lavorazione: friggere e poi conservare con… zucchine olio extra vergine d'oliva aceto bianco nepetella estate vegano",
+    "metadati_fonte": "auto",
+    "href": "../ricette/zucchine-in-scapece/",
+    "img": "../foto/zucchine-in-scapece/01.jpg"
   }
 ]

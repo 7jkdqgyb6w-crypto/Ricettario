@@ -4,9 +4,9 @@
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "site_base_url": "https://ricette.pierre.piccotti.it",
   "mode": "APPLY",
-  "created_at": "2026-05-29T22:59:13",
+  "created_at": "2026-05-30T23:03:45",
   "counts": {
-    "UNCHANGED": 67,
+    "UNCHANGED": 69,
     "UPDATED": 6
   },
   "results": [
@@ -177,6 +177,12 @@
       "status": "UNCHANGED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/calamari-ripieni/",
       "description": "Calamari ripieni. Qui il calamaro fa la differenza... Se è troppo fresco può risultare sorprendentemente duro. Meglio che sia stato abbattuto oppure…"
+    },
+    {
+      "path": "ricette\\cavolo-rosso-condito\\index.html",
+      "status": "UNCHANGED",
+      "canonical": "https://ricette.pierre.piccotti.it/ricette/cavolo-rosso-condito/",
+      "description": "Cavolo rosso condito. Ricordi vaghi, ma credo che in qualche modo dovesse essere presente in casa mia, forse introdotto da me ancora negli anni '70."
     },
     {
       "path": "ricette\\cous-cous-alla-trapanese\\index.html",
@@ -477,6 +483,12 @@
       "status": "UNCHANGED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/vitello-tonnato/",
       "description": "Vitello tonnato. Una considerazione essenziale."
+    },
+    {
+      "path": "ricette\\zucchine-in-scapece\\index.html",
+      "status": "UNCHANGED",
+      "canonical": "https://ricette.pierre.piccotti.it/ricette/zucchine-in-scapece/",
+      "description": "Zucchine in scapece. Le zucchine in scapece sono una prelibatezza estiva. Rifrescante e appetitosa. Già, il fritto... Ma da tempi immemorabili si usa…"
     }
   ]
 }

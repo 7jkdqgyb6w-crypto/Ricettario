@@ -1,13 +1,13 @@
 {
   "versione": "CMS2-R18-103",
   "semantica_versione": "CMS2-R18-103",
-  "timestamp": "2026-05-29T22:58:51",
+  "timestamp": "2026-05-30T23:03:23",
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "search_data": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT\\indici\\search-data.json",
   "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\CMS\\ingredienti-semantica.json",
   "apply": true,
-  "processed": 63,
-  "changed": 60,
+  "processed": 64,
+  "changed": 62,
   "missing_source": [],
   "no_structural_terms": [
     "antipastino-piemontese",
@@ -1590,7 +1590,7 @@
       "allergeni": [],
       "tag_accessori_esclusi": [],
       "regole_matchate": [],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "pate-di-fegato",
@@ -2618,6 +2618,35 @@
         "tonno",
         "capperi",
         "latte"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "zucchine-in-scapece",
+      "titolo": "Zucchine in scapece",
+      "fonte_semantica": "html-ingredienti",
+      "ingredienti_usati": [
+        "Zucchine",
+        "Olio extra vergine d'oliva",
+        "Aceto bianco",
+        "Nepetella"
+      ],
+      "termini_ricerca": [
+        "verdura",
+        "ortaggi",
+        "zucchine"
+      ],
+      "allergeni": [],
+      "tag_accessori_esclusi": [
+        "condimenti liquidi",
+        "condimenti",
+        "erbe aromatiche"
+      ],
+      "regole_matchate": [
+        "zucchine",
+        "olio",
+        "olive",
+        "prezzemolo"
       ],
       "modificato": true
     }
