@@ -32,7 +32,7 @@ function escapeHtml(value){
       return clone.innerHTML;
     }
 
-    function classifyFigure(fig){
+    function classifyFigure(fig, extraClass){
       var clone = fig.cloneNode(true);
       clone.querySelectorAll('a').forEach(function(a){
         var span = document.createElement('span');
@@ -43,8 +43,27 @@ function escapeHtml(value){
         img.setAttribute('src', absoluteUrl(img.getAttribute('src') || img.currentSrc || ''));
       });
       var classes = clone.classList;
-      if(classes.contains('step-photo-large')) clone.classList.add('print-figure-large');
-      else clone.classList.add('print-figure-small');
+      if(extraClass === 'print-native-figure'){
+        clone.classList.add(extraClass);
+        var rawWidth = '';
+        try{
+          rawWidth = (fig.style && fig.style.width) || '';
+          if(!rawWidth){
+            var sourceImg = fig.querySelector && fig.querySelector('img');
+            rawWidth = sourceImg && sourceImg.getAttribute('width') ? sourceImg.getAttribute('width') + 'px' : '';
+          }
+          var match = String(rawWidth).match(/^\s*([0-9.]+)px\s*$/i);
+          if(match){
+            var mm = Math.max(18, Math.min(110, (parseFloat(match[1]) || 0) * 0.264583));
+            clone.style.width = mm.toFixed(1) + 'mm';
+            clone.style.maxWidth = '100%';
+          }
+        }catch(e){}
+      }else{
+        if(classes.contains('step-photo-large')) clone.classList.add('print-figure-large');
+        else clone.classList.add('print-figure-small');
+        if(extraClass) clone.classList.add(extraClass);
+      }
       return clone.outerHTML;
     }
 
@@ -68,13 +87,29 @@ function escapeHtml(value){
 
     function collectIntroHtml(section){
       if(!section) return '';
+      function figureEditorWidth(fig){
+        if(!fig) return 0;
+        var raw = fig.style && fig.style.width ? fig.style.width : '';
+        var match = String(raw).match(/^\s*([0-9.]+)px\s*$/i);
+        if(match) return parseFloat(match[1]) || 0;
+        var img = fig.querySelector && fig.querySelector('img');
+        var attr = img && img.getAttribute('width');
+        var parsed = parseFloat(attr || '0');
+        return isFinite(parsed) ? parsed : 0;
+      }
+      function isMainLeadFigure(fig){
+        return !!(fig && fig.classList && fig.classList.contains('step-photo-large') && figureEditorWidth(fig) >= 300);
+      }
       var blocks = [];
+      var hasLeadFigure = false;
       Array.from(section.children).forEach(function(child){
         if(!child || !child.tagName) return;
         var tag = child.tagName.toLowerCase();
         if(tag === 'h2' || tag === 'h3') return;
         if(tag === 'figure'){
-          blocks.push(classifyFigure(child));
+          var useLeadBox = !hasLeadFigure && isMainLeadFigure(child);
+          blocks.push(classifyFigure(child, useLeadBox ? 'print-lead-main-figure' : 'print-native-figure'));
+          if(useLeadBox) hasLeadFigure = true;
           return;
         }
         if(tag === 'p'){
@@ -208,6 +243,7 @@ function escapeHtml(value){
       var meta = collectRecipeMeta();
       var timeRows = [];
       if(meta['porzioni']) timeRows.push(['Porzioni', meta['porzioni']]);
+      if(meta['kcal indicative']) timeRows.push(['Kcal', meta['kcal indicative']]);
       if(meta['tempo attivo']) timeRows.push(['Preparazione', meta['tempo attivo']]);
       if(meta['tempo cottura']) timeRows.push(['Cottura', meta['tempo cottura']]);
       if(meta['tempo riposo']) timeRows.push(['Riposo', meta['tempo riposo']]);
@@ -314,7 +350,15 @@ function escapeHtml(value){
         '.print-section{font-family:Georgia,"Times New Roman",serif;font-size:11pt;line-height:1.48;width:100%;max-width:166mm;margin:0 auto;}',
         '.print-section p{margin:0 0 3.55mm 0;font-size:inherit;line-height:inherit;} .print-section > *{font-size:inherit;line-height:inherit;}',
         '.print-intro{font-size:11pt;line-height:1.48;font-style:italic;color:#333;margin:0 0 3.4mm 0;white-space:pre-line;}',
-        '.print-intro-wrap p{margin:0 0 2.8mm 0;} .print-intro-wrap::after{content:"";display:block;clear:both;}',
+        '.print-intro-wrap{margin-bottom:7mm;} .print-intro-wrap p{margin:0 0 2.8mm 0;} .print-intro-wrap::after{content:"";display:block;clear:both;}',
+        '.print-intro-wrap .print-lead-main-figure{float:none !important;clear:both !important;width:100% !important;max-width:100% !important;box-sizing:border-box;border:.25mm solid #595959;padding:5mm;margin:0 auto 5mm auto;background:#fff;}',
+        '.print-intro-wrap .print-lead-main-figure img{display:block;width:100% !important;max-width:100% !important;height:auto !important;box-shadow:none;background:#fff;}',
+        '.print-intro-wrap .print-native-figure{box-sizing:border-box;max-width:100%;margin:2mm auto 4mm auto;}',
+        '.print-intro-wrap .print-native-figure.step-photo-right{float:right;clear:none;margin:1mm 0 3.5mm 5mm;}',
+        '.print-intro-wrap .print-native-figure.step-photo-left{float:left;clear:none;margin:1mm 5mm 3.5mm 0;}',
+        '.print-intro-wrap .print-native-figure img{display:block;max-width:100%;height:auto;box-shadow:none;background:#fff;}',
+        '.print-section-title{font-family:Georgia,"Times New Roman",serif;font-size:12pt;line-height:1.18;font-weight:700;color:#111;margin:0 0 4mm 0;text-align:left;}',
+        '.print-preparation-heading{margin:0 auto 2.2mm auto;break-after:avoid;page-break-after:avoid;}',
         '.print-kitchen-card{position:relative;width:100%;max-width:166mm;margin:0 auto 6mm auto;break-inside:avoid;page-break-inside:avoid;box-sizing:border-box;overflow:visible;text-align:left;}',
         '.print-kitchen-card::after{content:"";display:block;clear:both;}',
         '.print-kitchen-card-side{display:block;float:left;width:54mm;max-width:54mm;margin:0 6mm 3.5mm 0;} .print-kitchen-card-side::after{content:none;display:none;clear:none;} .print-kitchen-card-side .print-ingredients-box{float:none;width:54mm;min-width:54mm;max-width:54mm;margin:0;} .print-kitchen-card-long{display:block;clear:both;}',
@@ -352,6 +396,7 @@ function escapeHtml(value){
       html += '<article class="print-doc">';
       html += '<h1 class="print-title">' + escapeHtml(title ? title.textContent.trim() : document.title) + '</h1>';
       html += collectIntroHtml(lead);
+      html += '<section class="print-section print-preparation-heading"><h2 class="print-section-title">Preparazione</h2></section>';
       var ingredientsHtml = collectIngredientsHtml(ingredientsSection);
       html += ingredientsHtml;
       html += collectPreparationHtml(prepSection);
@@ -535,6 +580,42 @@ function escapeHtml(value){
         return {wrapper:wrapper, notesSection:notesSection};
       }
 
+      function appendIntroToCurrent(block){
+        if(!block){
+          return;
+        }
+        var introClassName = block.className || 'print-section print-intro-wrap';
+        var active = null;
+        function newIntroChunk(){
+          var section = doc.createElement('section');
+          section.className = introClassName;
+          return section;
+        }
+        Array.prototype.slice.call(block.children).forEach(function(part){
+          if(!active){
+            active = newIntroChunk();
+            current.content.appendChild(active);
+          }
+          active.appendChild(part);
+          if(contentHeight(current) > pageHeightPx + 0.5){
+            if(active.children.length > 1){
+              part.remove();
+              current = newPage();
+              printDoc.appendChild(current.page);
+              pages.push(current);
+              active = newIntroChunk();
+              current.content.appendChild(active);
+              active.appendChild(part);
+            }else if(pageHasContent(current) && current.content.children.length > 1){
+              active.remove();
+              current = newPage();
+              printDoc.appendChild(current.page);
+              pages.push(current);
+              current.content.appendChild(active);
+            }
+          }
+        });
+      }
       function appendEndmatterToCurrent(block){
         var notesBlock = block.querySelector(':scope > .print-notes-block');
         var notesSection = notesBlock ? notesBlock.querySelector(':scope > .print-notes') : null;
@@ -625,6 +706,10 @@ function escapeHtml(value){
         }
         if(child.classList && child.classList.contains('print-endmatter')){
           appendEndmatterToCurrent(child);
+          return;
+        }
+        if(child.classList && child.classList.contains('print-intro-wrap')){
+          appendIntroToCurrent(child);
           return;
         }
         appendBlockToCurrent(child);
