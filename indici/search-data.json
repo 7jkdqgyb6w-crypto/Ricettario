@@ -586,8 +586,10 @@
     ],
     "ingredienti_chiave": [],
     "termini_ricerca": [],
-    "allergeni": [],
-    "search_text": "paccheri di gragnano igp con orata, pomodorini, capperi e zenzero primi italia- sardegna mix risto bottega sarda dal disciplinate della pasta di gragnano igp. la “pasta di gragnano” è il prodotto ottenuto dall’impasto della semola di grano duro con acqua della falda acquifera locale. i formati immessi al consumo sono, diversi,… paccheri di gragnano igp filetti di orata pomodorini capperi sotto sale zenzero vino bianco secco concentrato di pomodori olio extra vergine d'oliva sale pepe prezzemolo tritato estate pescetariano",
+    "allergeni": [
+      "uova"
+    ],
+    "search_text": "paccheri di gragnano igp con orata, pomodorini, capperi e zenzero primi italia- sardegna mix risto bottega sarda un gennaio piovoso, uscendo dalla centrale montemartini (notevole) in roma, in via ostiense, scoprimmo una trattoria: mix risto bottega sarda. cucina sarda con profumi orientali. ho provato a rifare un piatto che mi… paccheri di gragnano igp filetti di orata pomodorini capperi sotto sale zenzero vino bianco secco concentrato di pomodori olio extra vergine d'oliva sale pepe prezzemolo tritato nuova sezione uova estate pescetariano",
     "metadati_fonte": "auto",
     "href": "../ricette/paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero/",
     "img": "../foto/paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero/01.jpg"
@@ -1271,5 +1273,24 @@
     "metadati_fonte": "auto",
     "href": "../ricette/zucchine-in-scapece/",
     "img": "../foto/zucchine-in-scapece/01.jpg"
+  },
+  {
+    "slug": "zuppa-di-legumi-con-funghi-settembrini-secchi",
+    "titolo": "Zuppa di legumi con funghi settembrini secchi",
+    "categoria": "Primi",
+    "geografia": "Italia",
+    "regime_minimo": "vegano",
+    "stagioni": [
+      "autunno"
+    ],
+    "ingredienti_chiave": [],
+    "termini_ricerca": [],
+    "allergeni": [
+      "sedano"
+    ],
+    "search_text": "zuppa di legumi con funghi settembrini secchi primi italia un piatto, ricco, invernale, che scalda il giusto quando è il momento. funghi settembrini legumi misti secchi carota gambo di sedano olio extra vergine d'oliva speck sedano autunno vegano",
+    "metadati_fonte": "auto",
+    "href": "../ricette/zuppa-di-legumi-con-funghi-settembrini-secchi/",
+    "img": "../foto/zuppa-di-legumi-con-funghi-settembrini-secchi/01.jpg"
   }
 ]

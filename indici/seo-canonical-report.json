@@ -4,9 +4,9 @@
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "site_base_url": "https://ricette.pierre.piccotti.it",
   "mode": "APPLY",
-  "created_at": "2026-05-30T23:03:45",
+  "created_at": "2026-05-31T11:41:20",
   "counts": {
-    "UNCHANGED": 69,
+    "UNCHANGED": 70,
     "UPDATED": 6
   },
   "results": [
@@ -278,7 +278,7 @@
       "path": "ricette\\paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero\\index.html",
       "status": "UNCHANGED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero/",
-      "description": "Paccheri di Gragnano IGP con orata, pomodorini, capperi e zenzero. Dal disciplinate della Pasta di Gragnano IGP."
+      "description": "Paccheri di Gragnano IGP con orata, pomodorini, capperi e zenzero. Un gennaio piovoso, uscendo dalla Centrale Montemartini (notevole) in Roma, in via…"
     },
     {
       "path": "ricette\\pappa-con-il-pomodoro\\index.html",
@@ -489,6 +489,12 @@
       "status": "UNCHANGED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/zucchine-in-scapece/",
       "description": "Zucchine in scapece. Le zucchine in scapece sono una prelibatezza estiva. Rifrescante e appetitosa. Già, il fritto... Ma da tempi immemorabili si usa…"
+    },
+    {
+      "path": "ricette\\zuppa-di-legumi-con-funghi-settembrini-secchi\\index.html",
+      "status": "UNCHANGED",
+      "canonical": "https://ricette.pierre.piccotti.it/ricette/zuppa-di-legumi-con-funghi-settembrini-secchi/",
+      "description": "Zuppa di legumi con funghi settembrini secchi. Un piatto, ricco, invernale, che scalda il giusto quando è il momento."
     }
   ]
 }

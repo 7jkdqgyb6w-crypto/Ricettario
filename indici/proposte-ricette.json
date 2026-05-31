@@ -407,7 +407,7 @@
     "proposte": {
       "porzioni": "4-6",
       "tempo_attivo": "30-45 min",
-      "tempo_cottura": "15-30 min",
+      "tempo_cottura": "15 min circa",
       "tempo_riposo": "30 min",
       "tempo_totale": "include riposo",
       "ingredienti_chiave": [
@@ -421,13 +421,13 @@
     "confidenza": "bassa",
     "confidenza_campi": {
       "porzioni": "bassa",
-      "tempi": "bassa",
+      "tempi": "media",
       "ingredienti_chiave": "media"
     },
     "note": [
       "range standard per antipasto/salsa/contorno",
       "riposo dedotto da testo",
-      "cottura breve stimata per assenza di segnali di lunga cottura",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
       "tempo attivo stimato da numero ingredienti/passaggi",
       "ingredienti chiave proposti da tabella ingredienti/titolo"
     ],
@@ -891,7 +891,7 @@
     "titolo": "Paccheri di Gragnano IGP con orata, pomodorini, capperi e zenzero",
     "proposte": {
       "porzioni": "4",
-      "tempo_attivo": "30-45 min",
+      "tempo_attivo": "45-60 min",
       "tempo_cottura": "30-45 min",
       "tempo_riposo": "30 min",
       "tempo_totale": "include riposo",
@@ -1979,6 +1979,37 @@
     "note": [
       "range standard per antipasto/salsa/contorno",
       "riposo dedotto da marinatura",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
+    "slug": "zuppa-di-legumi-con-funghi-settembrini-secchi",
+    "titolo": "Zuppa di legumi con funghi settembrini secchi",
+    "proposte": {
+      "porzioni": "4",
+      "tempo_attivo": "30-45 min",
+      "tempo_cottura": "15 min circa",
+      "tempo_riposo": "24-48 h",
+      "tempo_totale": "include riposo",
+      "ingredienti_chiave": [
+        "Funghi settembrini",
+        "Legumi misti secchi",
+        "Gambo di sedano",
+        "Speck"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "media",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per primo piatto da validare",
+      "riposo/ammollo dedotto da parole chiave",
       "tempo cottura ricavato da durate esplicite presenti nel testo",
       "tempo attivo stimato da numero ingredienti/passaggi",
       "ingredienti chiave proposti da tabella ingredienti/titolo"
