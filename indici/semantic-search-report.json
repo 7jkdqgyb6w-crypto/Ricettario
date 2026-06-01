@@ -1,7 +1,7 @@
 {
   "versione": "CMS2-R18-103",
   "semantica_versione": "CMS2-R18-103",
-  "timestamp": "2026-06-01T08:21:41",
+  "timestamp": "2026-06-01T20:29:39",
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "search_data": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT\\indici\\search-data.json",
   "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\CMS\\ingredienti-semantica.json",
@@ -11,7 +11,6 @@
   "missing_source": [],
   "no_structural_terms": [
     "antipastino-piemontese",
-    "patatine",
     "ribollita",
     "roux-brun"
   ],
@@ -75,10 +74,13 @@
         "ortaggi",
         "sedano",
         "carote",
+        "pomodori",
         "suino",
         "maiale",
         "riso",
         "spinaci",
+        "verdure",
+        "cipolle",
         "uova",
         "pasta"
       ],
@@ -90,7 +92,6 @@
       ],
       "tag_accessori_esclusi": [
         "condimenti liquidi",
-        "aromi",
         "spezie",
         "erbe aromatiche",
         "voce strutturale",
@@ -102,8 +103,7 @@
         "pollo",
         "sedano",
         "carote",
-        "aglio",
-        "topinambur",
+        "pomodori",
         "sale",
         "prezzemolo",
         "ripieno sugo",
@@ -111,6 +111,7 @@
         "latte",
         "riso",
         "spinaci",
+        "cipolle",
         "barbera",
         "uova",
         "olive",
@@ -153,6 +154,9 @@
         "maiale",
         "verdura",
         "ortaggi",
+        "pomodori",
+        "agrumi",
+        "arancia",
         "carote",
         "frattaglie",
         "fegato"
@@ -163,9 +167,6 @@
       ],
       "tag_accessori_esclusi": [
         "condimenti liquidi",
-        "agrumi",
-        "arancia",
-        "aromi",
         "erbe aromatiche",
         "spezie"
       ],
@@ -174,12 +175,11 @@
         "maiale",
         "farina",
         "olio",
-        "topinambur",
+        "pomodori",
         "barbera",
         "arancia",
         "latte",
         "carote",
-        "aglio",
         "prezzemolo",
         "sale",
         "fegato"
@@ -284,7 +284,6 @@
       "regole_matchate": [
         "canoccia",
         "sedano",
-        "topinambur",
         "olio",
         "olive",
         "sale",
@@ -316,7 +315,6 @@
         "pesce"
       ],
       "tag_accessori_esclusi": [
-        "aromi",
         "spezie",
         "agrumi",
         "limone",
@@ -326,7 +324,6 @@
       "regole_matchate": [
         "aringhe",
         "carote",
-        "aglio",
         "sale",
         "limone",
         "olio",
@@ -358,6 +355,8 @@
         "carne",
         "suino",
         "maiale",
+        "frutta",
+        "melograno",
         "funghi",
         "verdura",
         "ortaggi",
@@ -369,16 +368,15 @@
       "tag_accessori_esclusi": [
         "condimenti liquidi",
         "erbe aromatiche",
-        "aromi",
         "spezie"
       ],
       "regole_matchate": [
         "maiale",
         "olio",
         "prezzemolo",
+        "melograno",
         "funghi",
         "sedano",
-        "aglio",
         "sale"
       ],
       "modificato": true
@@ -444,11 +442,14 @@
       "termini_ricerca": [
         "pesce",
         "alici",
-        "verdura",
+        "verdure",
         "ortaggi",
+        "cardo",
+        "verdura",
         "peperoni",
         "sedano",
         "carciofi",
+        "rape",
         "cavoli",
         "carote"
       ],
@@ -458,7 +459,8 @@
         "sedano"
       ],
       "tag_accessori_esclusi": [
-        "aromi",
+        "vegetali",
+        "erbe aromatiche",
         "condimenti liquidi",
         "condimenti"
       ],
@@ -468,10 +470,11 @@
         "olio",
         "olive",
         "latte",
-        "topinambur",
+        "cardo",
         "peperoni",
         "sedano",
         "carciofi",
+        "rape",
         "cavolo",
         "carote"
       ],
@@ -537,12 +540,10 @@
         "cereali contenenti glutine"
       ],
       "tag_accessori_esclusi": [
-        "aromi",
         "condimenti liquidi",
         "condimenti"
       ],
       "regole_matchate": [
-        "aglio",
         "olio",
         "olive",
         "alici",
@@ -572,7 +573,8 @@
         "equino",
         "cavallo",
         "verdura",
-        "ortaggi"
+        "ortaggi",
+        "pomodori"
       ],
       "allergeni": [
         "latte"
@@ -580,13 +582,13 @@
       "tag_accessori_esclusi": [
         "condimenti liquidi",
         "condimenti",
-        "aromi",
+        "vegetali",
         "erbe aromatiche",
         "spezie"
       ],
       "regole_matchate": [
         "cavallo",
-        "topinambur",
+        "pomodori",
         "olio",
         "olive",
         "barbera",
@@ -617,7 +619,8 @@
         "calamari",
         "uova",
         "verdura",
-        "ortaggi"
+        "ortaggi",
+        "pomodori"
       ],
       "allergeni": [
         "molluschi",
@@ -626,7 +629,7 @@
       ],
       "tag_accessori_esclusi": [
         "erbe aromatiche",
-        "aromi",
+        "vegetali",
         "condimenti liquidi",
         "condimenti",
         "spezie"
@@ -637,7 +640,7 @@
         "prezzemolo",
         "latte",
         "aglio",
-        "topinambur",
+        "pomodori",
         "olio",
         "olive",
         "sale"
@@ -657,7 +660,7 @@
         "Olio extra vergine d'oliva"
       ],
       "termini_ricerca": [
-        "verdura",
+        "verdure",
         "ortaggi",
         "cavoli",
         "carne",
@@ -768,8 +771,11 @@
         "manzo",
         "verdura",
         "ortaggi",
+        "pomodori",
         "suino",
         "maiale",
+        "verdure",
+        "cipolle",
         "carote"
       ],
       "allergeni": [
@@ -777,17 +783,18 @@
       ],
       "tag_accessori_esclusi": [
         "erbe aromatiche",
-        "aromi",
+        "vegetali",
         "condimenti liquidi",
         "spezie"
       ],
       "regole_matchate": [
         "manzo",
-        "topinambur",
+        "pomodori",
         "maiale",
         "prezzemolo tritato",
         "prezzemolo",
         "aglio",
+        "cipolle",
         "carote",
         "olio",
         "barbera",
@@ -809,19 +816,21 @@
       "termini_ricerca": [
         "carne",
         "frattaglie",
-        "fegato"
+        "fegato",
+        "verdure",
+        "ortaggi",
+        "cipolle"
       ],
       "allergeni": [
         "latte"
       ],
       "tag_accessori_esclusi": [
-        "aromi",
         "condimenti liquidi",
         "condimenti"
       ],
       "regole_matchate": [
         "fegato",
-        "aglio",
+        "cipolle",
         "latte",
         "olio",
         "olive"
@@ -850,7 +859,7 @@
         "senape"
       ],
       "tag_accessori_esclusi": [
-        "aromi",
+        "vegetali",
         "erbe aromatiche",
         "condimenti liquidi",
         "condimenti",
@@ -921,9 +930,9 @@
         "cereali contenenti glutine"
       ],
       "tag_accessori_esclusi": [
-        "aromi",
-        "spezie",
+        "vegetali",
         "erbe aromatiche",
+        "spezie",
         "condimenti liquidi",
         "condimenti"
       ],
@@ -962,7 +971,7 @@
       "tag_accessori_esclusi": [
         "spezie",
         "erbe aromatiche",
-        "aromi",
+        "vegetali",
         "condimenti liquidi",
         "condimenti"
       ],
@@ -1001,6 +1010,7 @@
         "verdura",
         "ortaggi",
         "zucchine",
+        "pomodori",
         "peperoni",
         "sedano",
         "crostacei",
@@ -1023,7 +1033,7 @@
       "regole_matchate": [
         "spaghetti",
         "zucchine",
-        "topinambur",
+        "pomodori",
         "peperoni",
         "sedano",
         "schie",
@@ -1094,6 +1104,7 @@
         "ortaggi",
         "patate",
         "carote",
+        "pomodori",
         "sedano"
       ],
       "allergeni": [
@@ -1102,7 +1113,6 @@
         "latte"
       ],
       "tag_accessori_esclusi": [
-        "aromi",
         "condimenti liquidi",
         "erbe aromatiche",
         "spezie",
@@ -1113,9 +1123,8 @@
         "manzo",
         "farina",
         "patate",
-        "aglio",
         "carote",
-        "topinambur",
+        "pomodori",
         "sedano",
         "olio",
         "barbera",
@@ -1152,7 +1161,7 @@
       "tag_accessori_esclusi": [
         "spezie",
         "erbe aromatiche",
-        "aromi",
+        "vegetali",
         "condimenti liquidi",
         "condimenti"
       ],
@@ -1178,12 +1187,13 @@
         "Patate"
       ],
       "termini_ricerca": [
-        "verdura",
+        "verdure",
         "ortaggi",
         "cavoli",
         "carne",
         "suino",
         "maiale",
+        "verdura",
         "patate"
       ],
       "allergeni": [],
@@ -1244,9 +1254,12 @@
       ],
       "termini_ricerca": [
         "pasta",
-        "verdura",
+        "verdure",
         "ortaggi",
+        "cavoli",
+        "verdura",
         "cime rapa",
+        "rape",
         "pesce",
         "alici"
       ],
@@ -1256,14 +1269,16 @@
       ],
       "tag_accessori_esclusi": [
         "spezie",
-        "aromi"
+        "vegetali",
+        "erbe aromatiche"
       ],
       "regole_matchate": [
         "sale",
         "aglio",
         "spaghetti",
+        "cavolo",
         "cime rapa",
-        "topinambur",
+        "rape",
         "alici"
       ],
       "modificato": true
@@ -1287,10 +1302,17 @@
         "Nuova sezione"
       ],
       "termini_ricerca": [
+        "pasta",
+        "pesce",
+        "orate",
         "verdura",
-        "ortaggi"
+        "ortaggi",
+        "pomodori"
       ],
-      "allergeni": [],
+      "allergeni": [
+        "cereali contenenti glutine",
+        "pesce"
+      ],
       "tag_accessori_esclusi": [
         "spezie",
         "condimenti",
@@ -1298,7 +1320,9 @@
         "erbe aromatiche"
       ],
       "regole_matchate": [
-        "topinambur",
+        "spaghetti",
+        "filetti orata",
+        "pomodori",
         "sale",
         "capperi",
         "olio",
@@ -1326,6 +1350,7 @@
         "verdura",
         "ortaggi",
         "carote",
+        "pomodori",
         "porri",
         "sedano"
       ],
@@ -1335,13 +1360,13 @@
       ],
       "tag_accessori_esclusi": [
         "erbe aromatiche",
-        "aromi"
+        "vegetali"
       ],
       "regole_matchate": [
         "prezzemolo",
         "carote",
         "aglio",
-        "topinambur",
+        "pomodori",
         "porri",
         "sedano",
         "farina"
@@ -1369,7 +1394,10 @@
         "pesce",
         "triglia",
         "verdura",
-        "ortaggi"
+        "ortaggi",
+        "pomodori",
+        "agrumi",
+        "arancia"
       ],
       "allergeni": [
         "cereali contenenti glutine",
@@ -1377,10 +1405,8 @@
         "noci"
       ],
       "tag_accessori_esclusi": [
-        "agrumi",
-        "arancia",
         "erbe aromatiche",
-        "aromi",
+        "vegetali",
         "condimenti liquidi",
         "condimenti",
         "spezie"
@@ -1389,8 +1415,8 @@
         "spaghetti",
         "triglie",
         "mandorle",
+        "pomodori",
         "pomodorini maturi",
-        "topinambur",
         "arancia",
         "prezzemolo",
         "aglio",
@@ -1418,8 +1444,10 @@
         "frutta essiccata",
         "frutta disidratata",
         "uvetta",
-        "verdura",
+        "verdure",
         "ortaggi",
+        "cavoli",
+        "verdura",
         "broccoli"
       ],
       "allergeni": [
@@ -1428,13 +1456,15 @@
         "latte"
       ],
       "tag_accessori_esclusi": [
-        "aromi",
+        "vegetali",
+        "erbe aromatiche",
         "condimenti liquidi",
         "condimenti"
       ],
       "regole_matchate": [
         "spaghetti",
         "uva passa",
+        "cavolo",
         "broccoli",
         "aglio",
         "mandorle",
@@ -1466,11 +1496,11 @@
         "cereali contenenti glutine"
       ],
       "tag_accessori_esclusi": [
-        "aromi",
+        "vegetali",
+        "erbe aromatiche",
         "condimenti liquidi",
         "condimenti",
-        "spezie",
-        "erbe aromatiche"
+        "spezie"
       ],
       "regole_matchate": [
         "spaghetti",
@@ -1502,8 +1532,11 @@
       ],
       "termini_ricerca": [
         "pasta",
+        "erbe aromatiche",
+        "finocchietto selvatico",
         "verdura",
         "ortaggi",
+        "pomodori",
         "pesce",
         "alici",
         "frutta essiccata",
@@ -1516,15 +1549,14 @@
         "noci"
       ],
       "tag_accessori_esclusi": [
-        "aromi",
         "spezie",
         "condimenti liquidi",
         "condimenti"
       ],
       "regole_matchate": [
         "spaghetti",
-        "aglio",
-        "topinambur",
+        "finocchietto",
+        "pomodori",
         "alici",
         "uva passa",
         "mandorle",
@@ -1554,6 +1586,7 @@
         "pasta",
         "verdura",
         "ortaggi",
+        "pomodori",
         "pesce",
         "bottarga"
       ],
@@ -1564,7 +1597,7 @@
       ],
       "tag_accessori_esclusi": [
         "erbe aromatiche",
-        "aromi",
+        "vegetali",
         "condimenti liquidi",
         "condimenti",
         "spezie"
@@ -1576,7 +1609,7 @@
         "mandorle",
         "olio",
         "olive",
-        "topinambur",
+        "pomodori",
         "sale",
         "capperi",
         "bottarga"
@@ -1611,12 +1644,10 @@
         "cereali contenenti glutine"
       ],
       "tag_accessori_esclusi": [
-        "aromi",
         "erbe aromatiche"
       ],
       "regole_matchate": [
         "fagioli",
-        "aglio",
         "carote",
         "prezzemolo",
         "maiale",
@@ -1627,12 +1658,36 @@
     {
       "slug": "patatine",
       "titolo": "Patatine*",
-      "fonte_semantica": "excluded-slug",
-      "ingredienti_usati": [],
-      "termini_ricerca": [],
-      "allergeni": [],
-      "tag_accessori_esclusi": [],
-      "regole_matchate": [],
+      "fonte_semantica": "html-ingredienti",
+      "ingredienti_usati": [
+        "Patatine",
+        "Olio extra vergine d'oliva",
+        "Burro",
+        "Rosmarino",
+        "Aglio"
+      ],
+      "termini_ricerca": [
+        "verdura",
+        "ortaggi",
+        "patate"
+      ],
+      "allergeni": [
+        "latte"
+      ],
+      "tag_accessori_esclusi": [
+        "condimenti liquidi",
+        "condimenti",
+        "erbe aromatiche",
+        "vegetali"
+      ],
+      "regole_matchate": [
+        "patatine",
+        "olio",
+        "olive",
+        "latte",
+        "prezzemolo",
+        "aglio"
+      ],
       "modificato": true
     },
     {
@@ -1665,7 +1720,7 @@
         "latte"
       ],
       "tag_accessori_esclusi": [
-        "aromi",
+        "vegetali",
         "erbe aromatiche",
         "condimenti liquidi"
       ],
@@ -1704,7 +1759,8 @@
         "alici",
         "pasta",
         "verdura",
-        "ortaggi"
+        "ortaggi",
+        "pomodori"
       ],
       "allergeni": [
         "pesce",
@@ -1713,7 +1769,7 @@
       "tag_accessori_esclusi": [
         "condimenti",
         "spezie",
-        "aromi",
+        "vegetali",
         "erbe aromatiche",
         "condimenti liquidi"
       ],
@@ -1721,7 +1777,7 @@
         "alici",
         "capperi",
         "spaghetti",
-        "topinambur",
+        "pomodori",
         "sale",
         "farina",
         "aglio",
@@ -1759,7 +1815,8 @@
         "crostacei"
       ],
       "tag_accessori_esclusi": [
-        "aromi",
+        "vegetali",
+        "erbe aromatiche",
         "spezie"
       ],
       "regole_matchate": [
@@ -1797,7 +1854,8 @@
       "tag_accessori_esclusi": [
         "condimenti liquidi",
         "condimenti",
-        "aromi"
+        "vegetali",
+        "erbe aromatiche"
       ],
       "regole_matchate": [
         "spaghetti",
@@ -1881,8 +1939,10 @@
         "Noce moscata"
       ],
       "termini_ricerca": [
-        "verdura",
+        "verdure",
         "ortaggi",
+        "rape",
+        "verdura",
         "sedano",
         "patate"
       ],
@@ -1891,11 +1951,12 @@
         "latte"
       ],
       "tag_accessori_esclusi": [
-        "aromi",
+        "vegetali",
+        "erbe aromatiche",
         "spezie"
       ],
       "regole_matchate": [
-        "topinambur",
+        "rape",
         "sedano",
         "aglio",
         "patate",
@@ -1927,7 +1988,7 @@
       ],
       "allergeni": [],
       "tag_accessori_esclusi": [
-        "aromi",
+        "vegetali",
         "erbe aromatiche",
         "spezie"
       ],
@@ -1978,12 +2039,10 @@
         "sedano"
       ],
       "tag_accessori_esclusi": [
-        "aromi",
         "spezie"
       ],
       "regole_matchate": [
         "carote",
-        "aglio",
         "sale",
         "piselli",
         "sedano",
@@ -2013,14 +2072,15 @@
         "riso",
         "verdura",
         "ortaggi",
-        "patate"
+        "patate",
+        "pomodori"
       ],
       "allergeni": [
         "molluschi",
         "latte"
       ],
       "tag_accessori_esclusi": [
-        "aromi",
+        "vegetali",
         "erbe aromatiche",
         "condimenti liquidi",
         "condimenti",
@@ -2033,7 +2093,7 @@
         "aglio",
         "prezzemolo",
         "latte",
-        "topinambur",
+        "pomodori",
         "olio",
         "olive",
         "sale"
@@ -2117,7 +2177,7 @@
       ],
       "tag_accessori_esclusi": [
         "erbe aromatiche",
-        "aromi",
+        "vegetali",
         "condimenti",
         "condimenti liquidi",
         "spezie"
@@ -2212,7 +2272,8 @@
         "frutta disidratata",
         "uvetta",
         "verdura",
-        "ortaggi"
+        "ortaggi",
+        "pomodori"
       ],
       "allergeni": [
         "cereali contenenti glutine",
@@ -2224,12 +2285,12 @@
         "condimenti liquidi"
       ],
       "regole_matchate": [
-        "farina",
         "spaghetti",
+        "farina",
         "olive",
         "alici",
         "uva passa",
-        "topinambur",
+        "pomodori",
         "latte",
         "capperi",
         "olio"
@@ -2265,34 +2326,43 @@
         "legumi",
         "fagioli",
         "ortaggi",
+        "fagiolini verdi",
         "zucchine",
+        "pomodori",
         "patate",
         "porri",
+        "verdure",
+        "cipolle",
         "melanzane",
         "sedano",
-        "carote"
+        "carote",
+        "pasta"
       ],
       "allergeni": [
         "sedano",
+        "cereali contenenti glutine",
         "latte"
       ],
       "tag_accessori_esclusi": [
-        "aromi",
         "erbe aromatiche",
+        "vegetali",
         "condimenti liquidi",
         "condimenti"
       ],
       "regole_matchate": [
         "fagioli",
+        "fagiolini verdi",
         "zucchine",
-        "topinambur",
+        "pomodori",
         "patate",
         "porri",
-        "aglio",
+        "cipolle",
         "melanzane",
         "sedano",
         "carote",
+        "spaghetti",
         "prezzemolo",
+        "aglio",
         "olio",
         "olive",
         "latte"
@@ -2322,11 +2392,11 @@
         "pesce"
       ],
       "tag_accessori_esclusi": [
-        "aromi",
+        "vegetali",
+        "erbe aromatiche",
         "condimenti liquidi",
         "condimenti",
-        "spezie",
-        "erbe aromatiche"
+        "spezie"
       ],
       "regole_matchate": [
         "spaghetti",
@@ -2360,18 +2430,19 @@
         "pesce",
         "alici",
         "verdura",
-        "ortaggi"
+        "ortaggi",
+        "pomodori"
       ],
       "allergeni": [
         "cereali contenenti glutine",
         "pesce"
       ],
       "tag_accessori_esclusi": [
-        "aromi",
+        "vegetali",
+        "erbe aromatiche",
         "spezie",
         "condimenti",
-        "condimenti liquidi",
-        "erbe aromatiche"
+        "condimenti liquidi"
       ],
       "regole_matchate": [
         "spaghetti",
@@ -2381,7 +2452,7 @@
         "capperi",
         "alici",
         "olio",
-        "topinambur",
+        "pomodori",
         "prezzemolo"
       ],
       "modificato": true
@@ -2449,7 +2520,6 @@
       "regole_matchate": [
         "manzo",
         "porri",
-        "topinambur",
         "olio",
         "sale"
       ],
@@ -2507,8 +2577,10 @@
         "ovino",
         "agnello",
         "cous cous",
-        "verdura",
+        "verdure",
         "ortaggi",
+        "cipolle",
+        "verdura",
         "patate",
         "carote"
       ],
@@ -2521,7 +2593,7 @@
         "agrumi",
         "limone",
         "spezie",
-        "aromi",
+        "vegetali",
         "condimenti liquidi"
       ],
       "regole_matchate": [
@@ -2529,7 +2601,7 @@
         "coniglio",
         "agnello",
         "cous cous",
-        "topinambur",
+        "cipolle",
         "prezzemolo",
         "patate",
         "carote",
@@ -2645,7 +2717,7 @@
       "tag_accessori_esclusi": [
         "condimenti liquidi",
         "erbe aromatiche",
-        "aromi",
+        "vegetali",
         "spezie",
         "condimenti"
       ],
@@ -2707,10 +2779,16 @@
       ],
       "termini_ricerca": [
         "funghi",
+        "verdure",
+        "legumi",
         "verdura",
         "ortaggi",
         "carote",
-        "sedano"
+        "sedano",
+        "carne",
+        "suino",
+        "maiale",
+        "speck"
       ],
       "allergeni": [
         "sedano"
@@ -2721,10 +2799,13 @@
       ],
       "regole_matchate": [
         "funghi",
+        "legumi misti secchi",
         "carote",
         "sedano",
         "olio",
-        "olive"
+        "olive",
+        "maiale",
+        "speck"
       ],
       "modificato": true
     }

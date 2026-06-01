@@ -1,26 +1,54 @@
 {
-  "versione": "CMS2-R18-051",
-  "timestamp": "2026-05-03T23:25:03",
-  "root": "G:\\Il mio Drive\\Esperienze\\Ricette",
-  "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\CMS2-R18-053\\ingredienti-semantica.json",
-  "ricette_elaborate": 61,
-  "ingredienti_distinti": 215,
-  "ingredienti_non_riconosciuti_distinti": 2,
-  "ingredienti_accessori_riconosciuti_distinti": 77,
+  "versione": "CMS2-R18-103",
+  "timestamp": "2026-06-01T14:46:55",
+  "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
+  "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\CMS\\ingredienti-semantica.json",
+  "ricette_elaborate": 66,
+  "ingredienti_distinti": 230,
+  "ingredienti_non_riconosciuti_distinti": 9,
+  "ingredienti_accessori_riconosciuti_distinti": 75,
   "non_riconosciuti_top": [
     [
-      "paccheri gragnano igp",
+      "melograno",
       1
     ],
     [
-      "filetti orata",
+      "nuova sezione",
+      1
+    ],
+    [
+      "finocchietto",
+      1
+    ],
+    [
+      "soupe",
+      1
+    ],
+    [
+      "fagiolini verdi",
+      1
+    ],
+    [
+      "pistou",
+      1
+    ],
+    [
+      "condimento",
+      1
+    ],
+    [
+      "legumi misti secchi",
+      1
+    ],
+    [
+      "speck",
       1
     ]
   ],
   "accessori_riconosciuti_top": [
     [
       "olio d oliva",
-      29
+      39
     ],
     [
       "sale",
@@ -28,7 +56,7 @@
     ],
     [
       "aglio",
-      23
+      26
     ],
     [
       "pepe",
@@ -40,11 +68,11 @@
     ],
     [
       "cipolla",
-      11
+      12
     ],
     [
       "alloro",
-      9
+      10
     ],
     [
       "limone",
@@ -52,18 +80,22 @@
     ],
     [
       "rosmarino",
-      7
+      8
     ],
     [
       "timo",
       6
     ],
     [
-      "menta",
+      "basilico",
+      5
+    ],
+    [
+      "ginepro",
       4
     ],
     [
-      "basilico",
+      "menta",
       4
     ],
     [
@@ -91,7 +123,11 @@
       3
     ],
     [
-      "ginepro",
+      "vino rosso",
+      3
+    ],
+    [
+      "cipolle",
       3
     ],
     [
@@ -99,7 +135,7 @@
       3
     ],
     [
-      "olio",
+      "zafferano",
       3
     ],
     [
@@ -115,15 +151,7 @@
       2
     ],
     [
-      "arancia",
-      2
-    ],
-    [
       "pepe nero",
-      2
-    ],
-    [
-      "vino rosso",
       2
     ],
     [
@@ -135,7 +163,7 @@
       2
     ],
     [
-      "cipolle",
+      "sale grosso",
       2
     ],
     [
@@ -151,7 +179,15 @@
       2
     ],
     [
-      "zafferano",
+      "aceto balsamico tradizionale modena dop",
+      2
+    ],
+    [
+      "aceto",
+      2
+    ],
+    [
+      "nepetella",
       2
     ],
     [
@@ -227,10 +263,6 @@
       1
     ],
     [
-      "sale grosso",
-      1
-    ],
-    [
       "olive verdi",
       1
     ],
@@ -243,19 +275,11 @@
       1
     ],
     [
-      "spicchio",
-      1
-    ],
-    [
       "pistilli zafferano",
       1
     ],
     [
-      "peperoncino secco piccante",
-      1
-    ],
-    [
-      "olio d olive gustoso",
+      "peperoncino piccante",
       1
     ],
     [
@@ -279,10 +303,6 @@
       1
     ],
     [
-      "aceto",
-      1
-    ],
-    [
       "alloro fresco",
       1
     ],
@@ -295,7 +315,7 @@
       1
     ],
     [
-      "aceto balsamico modena",
+      "olio",
       1
     ],
     [
@@ -315,15 +335,15 @@
       1
     ],
     [
-      "nepetella",
-      1
-    ],
-    [
       "vino bianco molto secco",
       1
     ],
     [
       "capperi pantelleria dop",
+      1
+    ],
+    [
+      "aceto bianco",
       1
     ]
   ],
@@ -338,13 +358,19 @@
       "slug": "anatra-all-arancia",
       "ingredienti": 20,
       "non_riconosciuti": 0,
-      "accessori_riconosciuti": 11
+      "accessori_riconosciuti": 10
     },
     {
       "slug": "anatra-in-salsa",
       "ingredienti": 11,
       "non_riconosciuti": 0,
       "accessori_riconosciuti": 6
+    },
+    {
+      "slug": "antipastino-piemontese",
+      "ingredienti": 0,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 0
     },
     {
       "slug": "antipasto-di-canocce",
@@ -360,8 +386,8 @@
     },
     {
       "slug": "arista-alla-birra",
-      "ingredienti": 11,
-      "non_riconosciuti": 0,
+      "ingredienti": 13,
+      "non_riconosciuti": 1,
       "accessori_riconosciuti": 9
     },
     {
@@ -399,6 +425,12 @@
       "ingredienti": 9,
       "non_riconosciuti": 0,
       "accessori_riconosciuti": 5
+    },
+    {
+      "slug": "cavolo-rosso-condito",
+      "ingredienti": 6,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 1
     },
     {
       "slug": "cous-cous-alla-trapanese",
@@ -462,9 +494,9 @@
     },
     {
       "slug": "goulash-variante",
-      "ingredienti": 15,
+      "ingredienti": 18,
       "non_riconosciuti": 0,
-      "accessori_riconosciuti": 9
+      "accessori_riconosciuti": 11
     },
     {
       "slug": "medaglioni-di-manzo-con-porcini",
@@ -492,8 +524,8 @@
     },
     {
       "slug": "paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero",
-      "ingredienti": 11,
-      "non_riconosciuti": 2,
+      "ingredienti": 12,
+      "non_riconosciuti": 1,
       "accessori_riconosciuti": 7
     },
     {
@@ -506,11 +538,11 @@
       "slug": "pasta-al-ragu-di-triglie-e-al-succo-d-arancia",
       "ingredienti": 10,
       "non_riconosciuti": 0,
-      "accessori_riconosciuti": 6
+      "accessori_riconosciuti": 5
     },
     {
       "slug": "pasta-con-i-broccoli",
-      "ingredienti": 6,
+      "ingredienti": 7,
       "non_riconosciuti": 0,
       "accessori_riconosciuti": 2
     },
@@ -522,9 +554,9 @@
     },
     {
       "slug": "pasta-con-le-sarde",
-      "ingredienti": 1,
-      "non_riconosciuti": 0,
-      "accessori_riconosciuti": 0
+      "ingredienti": 11,
+      "non_riconosciuti": 1,
+      "accessori_riconosciuti": 3
     },
     {
       "slug": "pasta-con-pesto-alla-siciliana",
@@ -540,9 +572,9 @@
     },
     {
       "slug": "patatine",
-      "ingredienti": 1,
+      "ingredienti": 5,
       "non_riconosciuti": 0,
-      "accessori_riconosciuti": 0
+      "accessori_riconosciuti": 3
     },
     {
       "slug": "pate-di-fegato",
@@ -558,7 +590,7 @@
     },
     {
       "slug": "penne-con-mazzancolle-alle-verdure",
-      "ingredienti": 8,
+      "ingredienti": 7,
       "non_riconosciuti": 0,
       "accessori_riconosciuti": 2
     },
@@ -575,10 +607,10 @@
       "accessori_riconosciuti": 2
     },
     {
-      "slug": "picana",
-      "ingredienti": 1,
+      "slug": "picaña",
+      "ingredienti": 2,
       "non_riconosciuti": 0,
-      "accessori_riconosciuti": 0
+      "accessori_riconosciuti": 1
     },
     {
       "slug": "puree-di-sedano",
@@ -612,9 +644,9 @@
     },
     {
       "slug": "roastbeef-arrosto-all-inglese",
-      "ingredienti": 1,
+      "ingredienti": 5,
       "non_riconosciuti": 0,
-      "accessori_riconosciuti": 0
+      "accessori_riconosciuti": 4
     },
     {
       "slug": "roux-brun",
@@ -639,6 +671,12 @@
       "ingredienti": 8,
       "non_riconosciuti": 0,
       "accessori_riconosciuti": 3
+    },
+    {
+      "slug": "soupe-au-pistou",
+      "ingredienti": 18,
+      "non_riconosciuti": 4,
+      "accessori_riconosciuti": 4
     },
     {
       "slug": "spaghetti-alla-bottarga",
@@ -693,6 +731,18 @@
       "ingredienti": 13,
       "non_riconosciuti": 0,
       "accessori_riconosciuti": 8
+    },
+    {
+      "slug": "zucchine-in-scapece",
+      "ingredienti": 4,
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 3
+    },
+    {
+      "slug": "zuppa-di-legumi-con-funghi-settembrini-secchi",
+      "ingredienti": 6,
+      "non_riconosciuti": 2,
+      "accessori_riconosciuti": 1
     }
   ],
   "nota": "Gli accessori riconosciuti non entrano nei termini_ricerca e non sono più conteggiati come non riconosciuti."
