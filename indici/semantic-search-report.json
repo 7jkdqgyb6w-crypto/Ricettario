@@ -1,13 +1,13 @@
 {
   "versione": "CMS2-R18-103",
   "semantica_versione": "CMS2-R18-103",
-  "timestamp": "2026-05-31T11:40:58",
+  "timestamp": "2026-06-01T08:21:41",
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "search_data": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT\\indici\\search-data.json",
   "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\CMS\\ingredienti-semantica.json",
   "apply": true,
-  "processed": 65,
-  "changed": 63,
+  "processed": 66,
+  "changed": 64,
   "missing_source": [],
   "no_structural_terms": [
     "antipastino-piemontese",
@@ -1640,7 +1640,7 @@
       "titolo": "Paté di fegato",
       "fonte_semantica": "html-ingredienti",
       "ingredienti_usati": [
-        "½ kg. di fegato di vitello",
+        "Fegato di vitello",
         "Fegatini di pollo",
         "Panna",
         "Lardo",
@@ -2429,7 +2429,7 @@
         "Carpaccio di manzo",
         "Porri",
         "Rucola",
-        "Aceto balsamico di Modena",
+        "Aceto Balsamico Tradizionale di Modena DOP",
         "Olio",
         "Sale e pepe"
       ],
@@ -2690,6 +2690,41 @@
         "olio",
         "olive",
         "prezzemolo"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "zuppa-di-legumi-con-funghi-settembrini-secchi",
+      "titolo": "Zuppa di legumi con funghi settembrini secchi",
+      "fonte_semantica": "html-ingredienti",
+      "ingredienti_usati": [
+        "Funghi settembrini",
+        "Legumi misti secchi",
+        "Carota",
+        "Gambo di sedano",
+        "Olio extra vergine d'oliva",
+        "Speck"
+      ],
+      "termini_ricerca": [
+        "funghi",
+        "verdura",
+        "ortaggi",
+        "carote",
+        "sedano"
+      ],
+      "allergeni": [
+        "sedano"
+      ],
+      "tag_accessori_esclusi": [
+        "condimenti liquidi",
+        "condimenti"
+      ],
+      "regole_matchate": [
+        "funghi",
+        "carote",
+        "sedano",
+        "olio",
+        "olive"
       ],
       "modificato": true
     }
