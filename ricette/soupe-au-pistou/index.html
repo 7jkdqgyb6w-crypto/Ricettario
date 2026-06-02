@@ -493,7 +493,7 @@ main figure a[data-image-link] img{cursor:pointer;}
 <main class="recipe-page">
 <div class="recipe-content">
 <h1>Soupe au pistou</h1>
-<section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span><a href="../../indici/autore.html#pierre-piccotti">Pierre Piccotti</a></span></div><div class="meta-card"><strong>Categoria</strong><span><a href="../../indici/categorie.html#primi">Primi</a></span></div><div class="meta-card"><strong>Geografia</strong><span><a href="../../indici/geografia.html#francia-provenza">Francia - Provenza</a></span></div><div class="meta-card"><strong>Fonte</strong><span><a href="../../indici/fonti.html#guillaume-e">Guillaume E.</a></span></div><div class="meta-card"><strong>Porzioni</strong><span>8</span></div><div class="meta-card"><strong>Tempo attivo</strong><span>45-60 min</span></div><div class="meta-card"><strong>Tempo cottura</strong><span>2 h circa</span></div><div class="meta-card"><strong>Tempo riposo</strong><span>30 min</span></div><div class="meta-card"><strong>Tempo totale</strong><span>include riposo</span></div><div class="meta-card recipe-meta-secondary"><strong>Kcal indicative</strong><span>~560 kcal / porzione</span></div><div class="meta-card recipe-meta-secondary"><strong>Copertura kcal</strong><span>12/15 ingredienti pesati</span></div><div class="meta-card recipe-meta-secondary"><strong>CO2 stimata</strong><span>bassa</span></div></section><section aria-label="Tempi, porzioni, kcal indicative, CO2 stimata e allergeni" class="recipe-quick-meta"><span class="recipe-time-meta"><strong>Porzioni:</strong> 8</span><span class="recipe-time-meta"><strong>Tempo attivo:</strong> 45-60 min</span><span class="recipe-time-meta"><strong>Cottura:</strong> 2 h circa</span><span class="recipe-time-meta"><strong>Riposo:</strong> 30 min</span><span class="recipe-time-meta"><strong>Totale:</strong> include riposo</span><span class="recipe-energy-meta"><strong>Kcal indicative:</strong> ~560 kcal / porzione</span><span class="recipe-co2-meta"><strong>CO2:</strong> bassa</span><span class="recipe-quick-meta-sep" aria-hidden="true">|</span><span class="recipe-allergens-meta"><strong>Allergeni:</strong> cereali contenenti glutine, sedano</span></section>
+<section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span><a href="../../indici/autore.html#pierre-piccotti">Pierre Piccotti</a></span></div><div class="meta-card"><strong>Categoria</strong><span><a href="../../indici/categorie.html#primi">Primi</a></span></div><div class="meta-card"><strong>Geografia</strong><span><a href="../../indici/geografia.html#francia-provenza">Francia - Provenza</a></span></div><div class="meta-card"><strong>Fonte</strong><span><a href="../../indici/fonti.html#guillaume-e">Guillaume E.</a></span></div><div class="meta-card"><strong>Porzioni</strong><span>8</span></div><div class="meta-card"><strong>Tempo attivo</strong><span>45-60 min</span></div><div class="meta-card"><strong>Tempo cottura</strong><span>2 h circa</span></div><div class="meta-card"><strong>Tempo riposo</strong><span>30 min</span></div><div class="meta-card"><strong>Tempo totale</strong><span>include riposo</span></div><div class="meta-card recipe-meta-secondary"><strong>Kcal indicative</strong><span>~560 kcal / porzione</span></div><div class="meta-card recipe-meta-secondary"><strong>Copertura kcal</strong><span>13/13 ingredienti pesati</span></div><div class="meta-card recipe-meta-secondary"><strong>CO2 stimata</strong><span>bassa</span></div></section><section aria-label="Tempi, porzioni, kcal indicative, CO2 stimata e allergeni" class="recipe-quick-meta"><span class="recipe-time-meta"><strong>Porzioni:</strong> 8</span><span class="recipe-time-meta"><strong>Tempo attivo:</strong> 45-60 min</span><span class="recipe-time-meta"><strong>Cottura:</strong> 2 h circa</span><span class="recipe-time-meta"><strong>Riposo:</strong> 30 min</span><span class="recipe-time-meta"><strong>Totale:</strong> include riposo</span><span class="recipe-energy-meta"><strong>Kcal indicative:</strong> ~560 kcal / porzione</span><span class="recipe-co2-meta"><strong>CO2:</strong> bassa</span><span class="recipe-allergens-meta"><strong>Allergeni:</strong> cereali contenenti glutine, sedano</span></section>
 <section class="lead"><h2>Introduzione e contesto</h2><p>Piatto tradizionale provenzale che si gusta nelle serate estive. Si, anche se caldo. Ma in fondo anche in Piemonte il minestrone si gusta d'estate. E' una questione di ingredienti che solo in questa stagione sono disponibili freschi.<br/>Sotto sono indicati gli ingredienti indispensabili, ma benvengano altre verdure (non dominanti) che arricchiscono i profumi del piatto. Per esempio aggiungere foglie di borragine e cerfoglio a fine cottura nella soupe.<br/>In Provenza l'abbiamo preparata per una serata fra cari amici e parenti per... oltre 20 persone.</p><figure class="step-photo step-photo-large" style="width: 652px; max-width: 100%;"><img src="../../foto/soupe-au-pistou/01.jpg" width="652"/></figure></section>
 <section class="block ingredients-block">
 <h2>Ingredienti</h2>
@@ -875,12 +875,10 @@ document.addEventListener('DOMContentLoaded', function(){
   function normalizeText(value){
     return (value || '').toString().replace(/\s+/g, ' ').trim();
   }
-
   function slugFromLocation(){
     var m = (window.location.pathname || '').match(/\/ricette\/([^\/]+)\/index\.html$/i);
     return m ? decodeURIComponent(m[1]) : '';
   }
-
   function ensureQuickMeta(){
     var quick = document.querySelector('.recipe-quick-meta');
     if(quick) return quick;
@@ -888,29 +886,21 @@ document.addEventListener('DOMContentLoaded', function(){
     if(!grid) return null;
     quick = document.createElement('section');
     quick.className = 'recipe-quick-meta';
-    quick.setAttribute('aria-label', 'Tempi, porzioni e allergeni');
+    quick.setAttribute('aria-label', 'Tempi, porzioni, kcal indicative, CO2 stimata e allergeni');
     grid.insertAdjacentElement('afterend', quick);
     return quick;
   }
-
-  function appendSeparatorIfNeeded(quick){
-    if(!quick || !quick.children.length) return;
-    var last = quick.lastElementChild;
-    if(last && last.classList && last.classList.contains('recipe-quick-meta-sep')) return;
-    var sep = document.createElement('span');
-    sep.className = 'recipe-quick-meta-sep';
-    sep.setAttribute('aria-hidden', 'true');
-    sep.textContent = '|';
-    quick.appendChild(sep);
+  function cleanLiteralSeparators(quick){
+    if(!quick) return;
+    quick.querySelectorAll('.recipe-quick-meta-sep').forEach(function(el){ el.remove(); });
   }
-
   function renderAllergens(allergeni){
     if(!Array.isArray(allergeni) || !allergeni.length) return;
     var quick = ensureQuickMeta();
     if(!quick) return;
+    cleanLiteralSeparators(quick);
     var old = quick.querySelector('.recipe-allergens-meta');
     if(old) old.remove();
-    appendSeparatorIfNeeded(quick);
     var item = document.createElement('span');
     item.className = 'recipe-allergens-meta';
     var strong = document.createElement('strong');
@@ -919,7 +909,6 @@ document.addEventListener('DOMContentLoaded', function(){
     item.appendChild(document.createTextNode(' ' + allergeni.map(normalizeText).filter(Boolean).join(', ')));
     quick.appendChild(item);
   }
-
   function loadAllergens(){
     var slug = slugFromLocation();
     if(!slug) return;
@@ -930,9 +919,8 @@ document.addEventListener('DOMContentLoaded', function(){
         var found = items.find(function(item){ return item && item.slug === slug; });
         if(found && found.allergeni) renderAllergens(found.allergeni);
       })
-      .catch(function(err){ try{ console.warn('[ALLERGENI] quick-meta runtime non aggiornata; resta eventuale HTML statico', err); }catch(_e){} });
+      .catch(function(err){ try{ console.warn('[ALLERGENI] quick-meta non aggiornata', err); }catch(_e){} });
   }
-
   if(document.readyState === 'loading'){
     document.addEventListener('DOMContentLoaded', function(){ setTimeout(loadAllergens, 0); });
   }else{
