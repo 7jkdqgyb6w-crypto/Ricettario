@@ -347,7 +347,7 @@
     "proposte": {
       "porzioni": "4",
       "tempo_attivo": "30-45 min",
-      "tempo_cottura": "1 h 30 min - 2 h",
+      "tempo_cottura": "2 h circa",
       "tempo_riposo": "30 min",
       "tempo_totale": "include riposo",
       "ingredienti_chiave": [
@@ -359,13 +359,13 @@
     "confidenza": "bassa",
     "confidenza_campi": {
       "porzioni": "bassa",
-      "tempi": "bassa",
+      "tempi": "media",
       "ingredienti_chiave": "media"
     },
     "note": [
       "porzioni stimate da quantità di proteina principale",
       "riposo dedotto da testo",
-      "cottura lunga stimata da tecnica/parole chiave",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
       "tempo attivo stimato da numero ingredienti/passaggi",
       "ingredienti chiave proposti da tabella ingredienti/titolo"
     ],
@@ -407,7 +407,7 @@
     "proposte": {
       "porzioni": "4-6",
       "tempo_attivo": "30-45 min",
-      "tempo_cottura": "15 min circa",
+      "tempo_cottura": "30-45 min",
       "tempo_riposo": "30 min",
       "tempo_totale": "include riposo",
       "ingredienti_chiave": [

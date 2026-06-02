@@ -10,13 +10,9 @@
         ],
         "tag": [],
         "allergeni": [],
-        "tag_accessori": [
-          "condimenti liquidi"
-        ],
-        "regole_matchate": [
-          "olio"
-        ],
-        "stato": "accessorio_riconosciuto"
+        "tag_accessori": [],
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       },
       {
         "originale": "Polpa di manzo",
@@ -84,7 +80,8 @@
         ],
         "tag": [
           "carne",
-          "pollame"
+          "pollame",
+          "pollo"
         ],
         "allergeni": [],
         "tag_accessori": [],
@@ -100,7 +97,7 @@
           "sedano"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "sedano"
         ],
@@ -120,7 +117,7 @@
           "carota"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "carote"
         ],
@@ -139,13 +136,9 @@
         ],
         "tag": [],
         "allergeni": [],
-        "tag_accessori": [
-          "aromi"
-        ],
-        "regole_matchate": [
-          "aglio"
-        ],
-        "stato": "accessorio_riconosciuto"
+        "tag_accessori": [],
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       },
       {
         "originale": "Pomodoro rosso",
@@ -154,13 +147,14 @@
           "pomodoro"
         ],
         "tag": [
-          "verdura",
-          "ortaggi"
+          "verdure",
+          "ortaggi",
+          "pomodori"
         ],
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "topinambur"
+          "pomodori"
         ],
         "stato": "riconosciuto"
       },
@@ -173,13 +167,9 @@
         ],
         "tag": [],
         "allergeni": [],
-        "tag_accessori": [
-          "condimenti liquidi"
-        ],
-        "regole_matchate": [
-          "olio"
-        ],
-        "stato": "accessorio_riconosciuto"
+        "tag_accessori": [],
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       },
       {
         "originale": "Sale",
@@ -292,13 +282,9 @@
         ],
         "tag": [],
         "allergeni": [],
-        "tag_accessori": [
-          "voce strutturale"
-        ],
-        "regole_matchate": [
-          "ripieno sugo"
-        ],
-        "stato": "accessorio_riconosciuto"
+        "tag_accessori": [],
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       },
       {
         "originale": "Reale di vitello",
@@ -308,17 +294,11 @@
           "reala",
           "vitello"
         ],
-        "tag": [
-          "carne",
-          "bovino",
-          "manzo"
-        ],
+        "tag": [],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [
-          "manzo"
-        ],
-        "stato": "riconosciuto"
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       },
       {
         "originale": "Polpa di suino",
@@ -388,6 +368,7 @@
           "latta"
         ],
         "tag": [
+          "latte",
           "riso"
         ],
         "allergeni": [
@@ -426,15 +407,17 @@
           "cipolle",
           "cipolla"
         ],
-        "tag": [],
+        "tag": [
+          "verdure",
+          "ortaggi",
+          "cipolle"
+        ],
         "allergeni": [],
-        "tag_accessori": [
-          "aromi"
-        ],
+        "tag_accessori": [],
         "regole_matchate": [
-          "aglio"
+          "cipolle"
         ],
-        "stato": "accessorio_riconosciuto"
+        "stato": "riconosciuto"
       },
       {
         "originale": "Carota",
@@ -443,7 +426,7 @@
           "carota"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "carote"
         ],
@@ -461,7 +444,7 @@
           "sedano"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "sedano"
         ],
@@ -582,7 +565,7 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi"
+          "vino"
         ],
         "regole_matchate": [
           "barbera"
@@ -613,13 +596,14 @@
         "token_chiave": [
           "parmigiano"
         ],
-        "tag": [],
-        "allergeni": [
-          "latte"
+        "tag": [
+          "latte",
+          "formaggio"
         ],
+        "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "latte"
+          "parmigiano"
         ],
         "stato": "riconosciuto"
       },
@@ -629,13 +613,14 @@
         "token_chiave": [
           "burro"
         ],
-        "tag": [],
-        "allergeni": [
-          "latte"
+        "tag": [
+          "latte",
+          "panna"
         ],
+        "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "latte"
+          "panna"
         ],
         "stato": "riconosciuto"
       },
@@ -650,8 +635,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -698,6 +684,7 @@
           "pasta"
         ],
         "tag": [
+          "semola grano duro",
           "pasta"
         ],
         "allergeni": [
@@ -735,7 +722,9 @@
           "frumento",
           "tipo"
         ],
-        "tag": [],
+        "tag": [
+          "farina frumento"
+        ],
         "allergeni": [
           "cereali contenenti glutine"
         ],
@@ -772,8 +761,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -828,7 +818,9 @@
         "token_chiave": [
           "farina"
         ],
-        "tag": [],
+        "tag": [
+          "farina frumento"
+        ],
         "allergeni": [
           "cereali contenenti glutine"
         ],
@@ -848,13 +840,9 @@
         ],
         "tag": [],
         "allergeni": [],
-        "tag_accessori": [
-          "condimenti liquidi"
-        ],
-        "regole_matchate": [
-          "olio"
-        ],
-        "stato": "accessorio_riconosciuto"
+        "tag_accessori": [],
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       },
       {
         "originale": "Passata di pomodoro",
@@ -863,13 +851,14 @@
           "pomodoro"
         ],
         "tag": [
-          "verdura",
-          "ortaggi"
+          "verdure",
+          "ortaggi",
+          "pomodori"
         ],
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "topinambur"
+          "pomodori"
         ],
         "stato": "riconosciuto"
       },
@@ -882,10 +871,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi"
+          "vino"
         ],
         "regole_matchate": [
-          "olio",
           "barbera"
         ],
         "stato": "accessorio_riconosciuto"
@@ -950,13 +938,14 @@
         "token_chiave": [
           "burro"
         ],
-        "tag": [],
-        "allergeni": [
-          "latte"
+        "tag": [
+          "latte",
+          "panna"
         ],
+        "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "latte"
+          "panna"
         ],
         "stato": "riconosciuto"
       },
@@ -968,13 +957,9 @@
         ],
         "tag": [],
         "allergeni": [],
-        "tag_accessori": [
-          "condimenti liquidi"
-        ],
-        "regole_matchate": [
-          "olio"
-        ],
-        "stato": "accessorio_riconosciuto"
+        "tag_accessori": [],
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       },
       {
         "originale": "Carota",
@@ -983,7 +968,7 @@
           "carota"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "carote"
         ],
@@ -1002,13 +987,9 @@
         ],
         "tag": [],
         "allergeni": [],
-        "tag_accessori": [
-          "aromi"
-        ],
-        "regole_matchate": [
-          "aglio"
-        ],
-        "stato": "accessorio_riconosciuto"
+        "tag_accessori": [],
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       },
       {
         "originale": "Alloro",
@@ -1194,13 +1175,14 @@
         "token_chiave": [
           "burro"
         ],
-        "tag": [],
-        "allergeni": [
-          "latte"
+        "tag": [
+          "latte",
+          "panna"
         ],
+        "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "latte"
+          "panna"
         ],
         "stato": "riconosciuto"
       },
@@ -1284,10 +1266,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi"
+          "vino"
         ],
         "regole_matchate": [
-          "olio",
           "barbera"
         ],
         "stato": "accessorio_riconosciuto"
@@ -1359,7 +1340,7 @@
           "sedano"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "sedano"
         ],
@@ -1378,16 +1359,11 @@
         "token_chiave": [
           "insalata"
         ],
-        "tag": [
-          "verdura",
-          "ortaggi"
-        ],
+        "tag": [],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [
-          "topinambur"
-        ],
-        "stato": "riconosciuto"
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       },
       {
         "originale": "Olio extra vergine d'oliva",
@@ -1400,8 +1376,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -1494,7 +1471,7 @@
           "carota"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "carote"
         ],
@@ -1513,13 +1490,9 @@
         ],
         "tag": [],
         "allergeni": [],
-        "tag_accessori": [
-          "aromi"
-        ],
-        "regole_matchate": [
-          "aglio"
-        ],
-        "stato": "accessorio_riconosciuto"
+        "tag_accessori": [],
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       },
       {
         "originale": "Bacche di ginepro",
@@ -1566,10 +1539,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi"
+          "vino"
         ],
         "regole_matchate": [
-          "olio",
           "barbera"
         ],
         "stato": "accessorio_riconosciuto"
@@ -1585,8 +1557,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -1627,13 +1600,9 @@
         ],
         "tag": [],
         "allergeni": [],
-        "tag_accessori": [
-          "condimenti liquidi"
-        ],
-        "regole_matchate": [
-          "olio"
-        ],
-        "stato": "accessorio_riconosciuto"
+        "tag_accessori": [],
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       },
       {
         "originale": "Prezzemolo",
@@ -1657,11 +1626,16 @@
         "token_chiave": [
           "melograno"
         ],
-        "tag": [],
+        "tag": [
+          "frutta",
+          "melograno"
+        ],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "regole_matchate": [
+          "melograno"
+        ],
+        "stato": "riconosciuto"
       },
       {
         "originale": "Funghi settembrini",
@@ -1705,7 +1679,7 @@
           "sedano"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "sedano"
         ],
@@ -1726,13 +1700,9 @@
         ],
         "tag": [],
         "allergeni": [],
-        "tag_accessori": [
-          "aromi"
-        ],
-        "regole_matchate": [
-          "aglio"
-        ],
-        "stato": "accessorio_riconosciuto"
+        "tag_accessori": [],
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       },
       {
         "originale": "Timo",
@@ -1829,8 +1799,7 @@
         ],
         "tag": [
           "pesce",
-          "baccala",
-          "stoccafisso"
+          "baccala"
         ],
         "allergeni": [
           "pesce"
@@ -1851,8 +1820,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -1867,7 +1837,9 @@
           "latte",
           "latta"
         ],
-        "tag": [],
+        "tag": [
+          "latte"
+        ],
         "allergeni": [
           "latte"
         ],
@@ -1942,7 +1914,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "aromi"
+          "verdure",
+          "erbe aromatiche"
         ],
         "regole_matchate": [
           "aglio"
@@ -1980,8 +1953,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -1995,13 +1969,14 @@
         "token_chiave": [
           "panna"
         ],
-        "tag": [],
-        "allergeni": [
-          "latte"
+        "tag": [
+          "latte",
+          "panna"
         ],
+        "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "latte"
+          "panna"
         ],
         "stato": "riconosciuto"
       },
@@ -2013,13 +1988,14 @@
           "gobbo"
         ],
         "tag": [
-          "verdura",
-          "ortaggi"
+          "verdure",
+          "ortaggi",
+          "cardo"
         ],
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "topinambur"
+          "cardo"
         ],
         "stato": "riconosciuto"
       },
@@ -2029,16 +2005,11 @@
         "token_chiave": [
           "topinambur"
         ],
-        "tag": [
-          "verdura",
-          "ortaggi"
-        ],
+        "tag": [],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [
-          "topinambur"
-        ],
-        "stato": "riconosciuto"
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       },
       {
         "originale": "Peperoni sotto mosto",
@@ -2050,7 +2021,7 @@
           "mosto"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "peperoni"
         ],
@@ -2068,7 +2039,7 @@
           "sedano"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "sedano"
         ],
@@ -2089,7 +2060,7 @@
           "carciofo"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "carciofi"
         ],
@@ -2107,13 +2078,14 @@
           "rape"
         ],
         "tag": [
-          "verdura",
-          "ortaggi"
+          "verdure",
+          "ortaggi",
+          "rape"
         ],
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "topinambur"
+          "rape"
         ],
         "stato": "riconosciuto"
       },
@@ -2124,16 +2096,11 @@
           "finocchi",
           "finoccho"
         ],
-        "tag": [
-          "verdura",
-          "ortaggi"
-        ],
+        "tag": [],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [
-          "topinambur"
-        ],
-        "stato": "riconosciuto"
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       },
       {
         "originale": "Ravanelli",
@@ -2143,13 +2110,14 @@
           "ravanello"
         ],
         "tag": [
-          "verdura",
-          "ortaggi"
+          "verdure",
+          "ortaggi",
+          "rape"
         ],
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "topinambur"
+          "rape"
         ],
         "stato": "riconosciuto"
       },
@@ -2161,14 +2129,14 @@
           "cavolfiora"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
-          "cavoli"
+          "cavolfiore"
         ],
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "cavolo"
+          "cavolfiore"
         ],
         "stato": "riconosciuto"
       },
@@ -2180,7 +2148,7 @@
           "carota"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "carote"
         ],
@@ -2226,8 +2194,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -2243,13 +2212,9 @@
         ],
         "tag": [],
         "allergeni": [],
-        "tag_accessori": [
-          "aromi"
-        ],
-        "regole_matchate": [
-          "corteccia"
-        ],
-        "stato": "accessorio_riconosciuto"
+        "tag_accessori": [],
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       },
       {
         "originale": "Pancetta",
@@ -2293,7 +2258,7 @@
           "patata"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "patate"
         ],
@@ -2317,13 +2282,9 @@
         ],
         "tag": [],
         "allergeni": [],
-        "tag_accessori": [
-          "aromi"
-        ],
-        "regole_matchate": [
-          "aglio"
-        ],
-        "stato": "accessorio_riconosciuto"
+        "tag_accessori": [],
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       },
       {
         "originale": "Olio extra vergine d'oliva",
@@ -2336,8 +2297,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -2373,6 +2335,7 @@
           "bigolo"
         ],
         "tag": [
+          "semola grano duro",
           "pasta"
         ],
         "allergeni": [
@@ -2417,13 +2380,14 @@
           "pomodoro"
         ],
         "tag": [
-          "verdura",
-          "ortaggi"
+          "verdure",
+          "ortaggi",
+          "pomodori"
         ],
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "topinambur"
+          "pomodori"
         ],
         "stato": "riconosciuto"
       },
@@ -2438,8 +2402,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -2456,10 +2421,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi"
+          "vino"
         ],
         "regole_matchate": [
-          "olio",
           "barbera"
         ],
         "stato": "accessorio_riconosciuto"
@@ -2472,13 +2436,9 @@
         ],
         "tag": [],
         "allergeni": [],
-        "tag_accessori": [
-          "aromi"
-        ],
-        "regole_matchate": [
-          "aglio"
-        ],
-        "stato": "accessorio_riconosciuto"
+        "tag_accessori": [],
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       },
       {
         "originale": "Aglio",
@@ -2489,7 +2449,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "aromi"
+          "verdure",
+          "erbe aromatiche"
         ],
         "regole_matchate": [
           "aglio"
@@ -2567,14 +2528,10 @@
           "pecorino"
         ],
         "tag": [],
-        "allergeni": [
-          "latte"
-        ],
+        "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [
-          "latte"
-        ],
-        "stato": "riconosciuto"
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       }
     ]
   },
@@ -2642,14 +2599,10 @@
           "pecorino"
         ],
         "tag": [],
-        "allergeni": [
-          "latte"
-        ],
+        "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [
-          "latte"
-        ],
-        "stato": "riconosciuto"
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       },
       {
         "originale": "Aglio",
@@ -2660,7 +2613,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "aromi"
+          "verdure",
+          "erbe aromatiche"
         ],
         "regole_matchate": [
           "aglio"
@@ -2675,13 +2629,14 @@
           "pomodoro"
         ],
         "tag": [
-          "verdura",
-          "ortaggi"
+          "verdure",
+          "ortaggi",
+          "pomodori"
         ],
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "topinambur"
+          "pomodori"
         ],
         "stato": "riconosciuto"
       },
@@ -2696,8 +2651,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -2749,7 +2705,7 @@
           "cavolo"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "cavoli"
         ],
@@ -2805,7 +2761,9 @@
           "senape",
           "senapa"
         ],
-        "tag": [],
+        "tag": [
+          "senape"
+        ],
         "allergeni": [
           "senape"
         ],
@@ -2825,7 +2783,9 @@
           "abbrustoliti",
           "abbrustolito"
         ],
-        "tag": [],
+        "tag": [
+          "farina frumento"
+        ],
         "allergeni": [
           "cereali contenenti glutine"
         ],
@@ -2846,8 +2806,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -2867,6 +2828,7 @@
           "cous"
         ],
         "tag": [
+          "semola grano duro",
           "cous cous"
         ],
         "allergeni": [
@@ -2908,7 +2870,9 @@
           "farina",
           "frumento"
         ],
-        "tag": [],
+        "tag": [
+          "farina frumento"
+        ],
         "allergeni": [
           "cereali contenenti glutine"
         ],
@@ -2924,13 +2888,14 @@
         "token_chiave": [
           "burro"
         ],
-        "tag": [],
-        "allergeni": [
-          "latte"
+        "tag": [
+          "latte",
+          "panna"
         ],
+        "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "latte"
+          "panna"
         ],
         "stato": "riconosciuto"
       },
@@ -2941,7 +2906,9 @@
           "latte",
           "latta"
         ],
-        "tag": [],
+        "tag": [
+          "latte"
+        ],
         "allergeni": [
           "latte"
         ],
@@ -2959,13 +2926,9 @@
         ],
         "tag": [],
         "allergeni": [],
-        "tag_accessori": [
-          "condimenti liquidi"
-        ],
-        "regole_matchate": [
-          "olio"
-        ],
-        "stato": "accessorio_riconosciuto"
+        "tag_accessori": [],
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       },
       {
         "originale": "Sale",
@@ -3048,13 +3011,14 @@
           "pomodoro"
         ],
         "tag": [
-          "verdura",
-          "ortaggi"
+          "verdure",
+          "ortaggi",
+          "pomodori"
         ],
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "topinambur"
+          "pomodori"
         ],
         "stato": "riconosciuto"
       },
@@ -3088,7 +3052,6 @@
           "erbe aromatiche"
         ],
         "regole_matchate": [
-          "prezzemolo tritato",
           "prezzemolo"
         ],
         "stato": "accessorio_riconosciuto"
@@ -3102,7 +3065,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "aromi"
+          "verdure",
+          "erbe aromatiche"
         ],
         "regole_matchate": [
           "aglio"
@@ -3116,15 +3080,17 @@
           "cipolle",
           "cipolla"
         ],
-        "tag": [],
+        "tag": [
+          "verdure",
+          "ortaggi",
+          "cipolle"
+        ],
         "allergeni": [],
-        "tag_accessori": [
-          "aromi"
-        ],
+        "tag_accessori": [],
         "regole_matchate": [
-          "aglio"
+          "cipolle"
         ],
-        "stato": "accessorio_riconosciuto"
+        "stato": "riconosciuto"
       },
       {
         "originale": "Carote",
@@ -3134,7 +3100,7 @@
           "carota"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "carote"
         ],
@@ -3154,10 +3120,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi"
+          "vino"
         ],
         "regole_matchate": [
-          "olio",
           "barbera"
         ],
         "stato": "accessorio_riconosciuto"
@@ -3205,7 +3170,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "erbe aromatiche"
+          "erbe aromatiche",
+          "bouquet garni"
         ],
         "regole_matchate": [
           "bouquet garni"
@@ -3242,15 +3208,17 @@
           "cipolle",
           "cipolla"
         ],
-        "tag": [],
+        "tag": [
+          "verdure",
+          "ortaggi",
+          "cipolle"
+        ],
         "allergeni": [],
-        "tag_accessori": [
-          "aromi"
-        ],
+        "tag_accessori": [],
         "regole_matchate": [
-          "aglio"
+          "cipolle"
         ],
-        "stato": "accessorio_riconosciuto"
+        "stato": "riconosciuto"
       },
       {
         "originale": "Burro",
@@ -3258,13 +3226,14 @@
         "token_chiave": [
           "burro"
         ],
-        "tag": [],
-        "allergeni": [
-          "latte"
+        "tag": [
+          "latte",
+          "panna"
         ],
+        "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "latte"
+          "panna"
         ],
         "stato": "riconosciuto"
       },
@@ -3279,8 +3248,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -3322,7 +3292,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "aromi"
+          "verdure",
+          "erbe aromatiche"
         ],
         "regole_matchate": [
           "aglio"
@@ -3336,7 +3307,9 @@
           "senape",
           "senapa"
         ],
-        "tag": [],
+        "tag": [
+          "senape"
+        ],
         "allergeni": [
           "senape"
         ],
@@ -3373,8 +3346,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -3445,7 +3419,9 @@
           "senape",
           "senapa"
         ],
-        "tag": [],
+        "tag": [
+          "senape"
+        ],
         "allergeni": [
           "senape"
         ],
@@ -3508,6 +3484,7 @@
           "fusillo"
         ],
         "tag": [
+          "semola grano duro",
           "pasta"
         ],
         "allergeni": [
@@ -3527,7 +3504,7 @@
           "carciofo"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "carciofi"
         ],
@@ -3547,7 +3524,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "aromi"
+          "verdure",
+          "erbe aromatiche"
         ],
         "regole_matchate": [
           "aglio"
@@ -3613,8 +3591,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -3704,7 +3683,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "aromi"
+          "verdure",
+          "erbe aromatiche"
         ],
         "regole_matchate": [
           "aglio"
@@ -3722,8 +3702,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -3778,6 +3759,7 @@
           "sardo"
         ],
         "tag": [
+          "semola grano duro",
           "pasta"
         ],
         "allergeni": [
@@ -3816,13 +3798,14 @@
           "pomodoro"
         ],
         "tag": [
-          "verdura",
-          "ortaggi"
+          "verdure",
+          "ortaggi",
+          "pomodori"
         ],
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "topinambur"
+          "pomodori"
         ],
         "stato": "riconosciuto"
       },
@@ -3834,7 +3817,7 @@
           "peperono"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "peperoni"
         ],
@@ -3852,7 +3835,7 @@
           "sedano"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "sedano"
         ],
@@ -3897,7 +3880,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti"
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olive"
@@ -3914,7 +3898,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti"
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olive"
@@ -3969,8 +3954,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -4041,7 +4027,7 @@
           "patata"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "patate"
         ],
@@ -4081,13 +4067,14 @@
         "token_chiave": [
           "burro"
         ],
-        "tag": [],
-        "allergeni": [
-          "latte"
+        "tag": [
+          "latte",
+          "panna"
         ],
+        "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "latte"
+          "panna"
         ],
         "stato": "riconosciuto"
       },
@@ -4097,13 +4084,14 @@
         "token_chiave": [
           "parmigiano"
         ],
-        "tag": [],
-        "allergeni": [
-          "latte"
+        "tag": [
+          "latte",
+          "formaggio"
         ],
+        "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "latte"
+          "parmigiano"
         ],
         "stato": "riconosciuto"
       }
@@ -4136,7 +4124,9 @@
         "token_chiave": [
           "farina"
         ],
-        "tag": [],
+        "tag": [
+          "farina frumento"
+        ],
         "allergeni": [
           "cereali contenenti glutine"
         ],
@@ -4154,7 +4144,7 @@
           "patata"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "patate"
         ],
@@ -4173,13 +4163,9 @@
         ],
         "tag": [],
         "allergeni": [],
-        "tag_accessori": [
-          "aromi"
-        ],
-        "regole_matchate": [
-          "aglio"
-        ],
-        "stato": "accessorio_riconosciuto"
+        "tag_accessori": [],
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       },
       {
         "originale": "Carote",
@@ -4189,7 +4175,7 @@
           "carota"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "carote"
         ],
@@ -4208,13 +4194,14 @@
           "pomodorino"
         ],
         "tag": [
-          "verdura",
-          "ortaggi"
+          "verdure",
+          "ortaggi",
+          "pomodori"
         ],
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "topinambur"
+          "pomodori"
         ],
         "stato": "riconosciuto"
       },
@@ -4225,7 +4212,7 @@
           "sedano"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "sedano"
         ],
@@ -4247,10 +4234,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi"
+          "vino"
         ],
         "regole_matchate": [
-          "olio",
           "barbera"
         ],
         "stato": "accessorio_riconosciuto"
@@ -4265,13 +4251,9 @@
         ],
         "tag": [],
         "allergeni": [],
-        "tag_accessori": [
-          "condimenti liquidi"
-        ],
-        "regole_matchate": [
-          "olio"
-        ],
-        "stato": "accessorio_riconosciuto"
+        "tag_accessori": [],
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       },
       {
         "originale": "Burro",
@@ -4279,13 +4261,14 @@
         "token_chiave": [
           "burro"
         ],
-        "tag": [],
-        "allergeni": [
-          "latte"
+        "tag": [
+          "latte",
+          "panna"
         ],
+        "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "latte"
+          "panna"
         ],
         "stato": "riconosciuto"
       },
@@ -4520,7 +4503,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "aromi"
+          "verdure",
+          "erbe aromatiche"
         ],
         "regole_matchate": [
           "aglio"
@@ -4554,8 +4538,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -4575,7 +4560,7 @@
           "cavolo"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "cavoli"
         ],
@@ -4612,7 +4597,7 @@
           "patata"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "patate"
         ],
@@ -4636,7 +4621,7 @@
           "porro"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "porri"
         ],
@@ -4658,8 +4643,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -4673,13 +4659,14 @@
         "token_chiave": [
           "burro"
         ],
-        "tag": [],
-        "allergeni": [
-          "latte"
+        "tag": [
+          "latte",
+          "panna"
         ],
+        "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "latte"
+          "panna"
         ],
         "stato": "riconosciuto"
       },
@@ -4691,7 +4678,7 @@
           "patata"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "patate"
         ],
@@ -4726,13 +4713,9 @@
         ],
         "tag": [],
         "allergeni": [],
-        "tag_accessori": [
-          "condimenti liquidi"
-        ],
-        "regole_matchate": [
-          "olio"
-        ],
-        "stato": "accessorio_riconosciuto"
+        "tag_accessori": [],
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       }
     ]
   },
@@ -4764,7 +4747,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "aromi"
+          "verdure",
+          "erbe aromatiche"
         ],
         "regole_matchate": [
           "aglio"
@@ -4781,6 +4765,7 @@
           "bareso"
         ],
         "tag": [
+          "semola grano duro",
           "pasta"
         ],
         "allergeni": [
@@ -4802,13 +4787,17 @@
         "tag": [
           "verdura",
           "ortaggi",
-          "cime rapa"
+          "cime rapa",
+          "verdure",
+          "cavolfiore",
+          "rape"
         ],
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
           "cime rapa",
-          "topinambur"
+          "cavolfiore",
+          "rape"
         ],
         "stato": "riconosciuto"
       },
@@ -4846,6 +4835,7 @@
           "gragnano"
         ],
         "tag": [
+          "semola grano duro",
           "pasta"
         ],
         "allergeni": [
@@ -4867,7 +4857,6 @@
         ],
         "tag": [
           "pesce",
-          "orata",
           "orate"
         ],
         "allergeni": [
@@ -4887,13 +4876,14 @@
           "pomodorino"
         ],
         "tag": [
-          "verdura",
-          "ortaggi"
+          "verdure",
+          "ortaggi",
+          "pomodori"
         ],
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "topinambur"
+          "pomodori"
         ],
         "stato": "riconosciuto"
       },
@@ -4909,12 +4899,13 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "spezie",
-          "condimenti"
+          "verdure",
+          "capperi",
+          "spezie"
         ],
         "regole_matchate": [
-          "sale",
-          "capperi"
+          "capperi",
+          "sale"
         ],
         "stato": "accessorio_riconosciuto"
       },
@@ -4943,10 +4934,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi"
+          "vino"
         ],
         "regole_matchate": [
-          "olio",
           "barbera"
         ],
         "stato": "accessorio_riconosciuto"
@@ -4960,13 +4950,14 @@
           "pomodoro"
         ],
         "tag": [
-          "verdura",
-          "ortaggi"
+          "verdure",
+          "ortaggi",
+          "pomodori"
         ],
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "topinambur"
+          "pomodori"
         ],
         "stato": "riconosciuto"
       },
@@ -4981,8 +4972,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -5034,7 +5026,6 @@
           "erbe aromatiche"
         ],
         "regole_matchate": [
-          "prezzemolo tritato",
           "prezzemolo"
         ],
         "stato": "accessorio_riconosciuto"
@@ -5081,7 +5072,7 @@
           "carota"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "carote"
         ],
@@ -5101,7 +5092,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "aromi"
+          "verdure",
+          "erbe aromatiche"
         ],
         "regole_matchate": [
           "aglio"
@@ -5116,13 +5108,14 @@
           "pomodoro"
         ],
         "tag": [
-          "verdura",
-          "ortaggi"
+          "verdure",
+          "ortaggi",
+          "pomodori"
         ],
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "topinambur"
+          "pomodori"
         ],
         "stato": "riconosciuto"
       },
@@ -5133,7 +5126,7 @@
           "porro"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "porri"
         ],
@@ -5151,7 +5144,7 @@
           "sedano"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "sedano"
         ],
@@ -5171,7 +5164,9 @@
           "pane",
           "toscano"
         ],
-        "tag": [],
+        "tag": [
+          "farina frumento"
+        ],
         "allergeni": [
           "cereali contenenti glutine"
         ],
@@ -5194,6 +5189,7 @@
           "spaghetto"
         ],
         "tag": [
+          "semola grano duro",
           "pasta"
         ],
         "allergeni": [
@@ -5232,7 +5228,10 @@
           "mandorle",
           "mandorla"
         ],
-        "tag": [],
+        "tag": [
+          "frutta",
+          "frutta guscio"
+        ],
         "allergeni": [
           "noci"
         ],
@@ -5250,14 +5249,14 @@
           "pomodorino"
         ],
         "tag": [
-          "verdura",
-          "ortaggi"
+          "verdure",
+          "ortaggi",
+          "pomodori"
         ],
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "pomodorini maturi",
-          "topinambur"
+          "pomodori"
         ],
         "stato": "riconosciuto"
       },
@@ -5303,7 +5302,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "aromi"
+          "verdure",
+          "erbe aromatiche"
         ],
         "regole_matchate": [
           "aglio"
@@ -5321,8 +5321,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -5377,6 +5378,7 @@
           "penna"
         ],
         "tag": [
+          "semola grano duro",
           "pasta"
         ],
         "allergeni": [
@@ -5396,9 +5398,8 @@
           "passa"
         ],
         "tag": [
-          "frutta essiccata",
           "frutta disidratata",
-          "uvetta"
+          "uvetta passa"
         ],
         "allergeni": [],
         "tag_accessori": [],
@@ -5415,7 +5416,7 @@
           "broccolo"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "broccoli"
         ],
@@ -5435,7 +5436,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "aromi"
+          "verdure",
+          "erbe aromatiche"
         ],
         "regole_matchate": [
           "aglio"
@@ -5449,7 +5451,10 @@
           "pinoli",
           "pinolo"
         ],
-        "tag": [],
+        "tag": [
+          "frutta",
+          "frutta guscio"
+        ],
         "allergeni": [
           "noci"
         ],
@@ -5470,8 +5475,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -5486,14 +5492,10 @@
           "pecorino"
         ],
         "tag": [],
-        "allergeni": [
-          "latte"
-        ],
+        "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [
-          "latte"
-        ],
-        "stato": "riconosciuto"
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       }
     ]
   },
@@ -5508,6 +5510,7 @@
           "penna"
         ],
         "tag": [
+          "semola grano duro",
           "pasta"
         ],
         "allergeni": [
@@ -5527,7 +5530,7 @@
           "melanzana"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "melanzane"
         ],
@@ -5547,7 +5550,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "aromi"
+          "verdure",
+          "erbe aromatiche"
         ],
         "regole_matchate": [
           "aglio"
@@ -5565,8 +5569,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -5621,6 +5626,7 @@
           "bucatino"
         ],
         "tag": [
+          "semola grano duro",
           "pasta"
         ],
         "allergeni": [
@@ -5638,11 +5644,16 @@
         "token_chiave": [
           "finocchietto"
         ],
-        "tag": [],
+        "tag": [
+          "erbe aromatiche",
+          "finocchietto selvatico"
+        ],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "regole_matchate": [
+          "finocchietto"
+        ],
+        "stato": "riconosciuto"
       },
       {
         "originale": "Cipolla",
@@ -5652,13 +5663,9 @@
         ],
         "tag": [],
         "allergeni": [],
-        "tag_accessori": [
-          "aromi"
-        ],
-        "regole_matchate": [
-          "aglio"
-        ],
-        "stato": "accessorio_riconosciuto"
+        "tag_accessori": [],
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       },
       {
         "originale": "Concentrato di pomodoro",
@@ -5667,13 +5674,14 @@
           "pomodoro"
         ],
         "tag": [
-          "verdura",
-          "ortaggi"
+          "verdure",
+          "ortaggi",
+          "pomodori"
         ],
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "topinambur"
+          "pomodori"
         ],
         "stato": "riconosciuto"
       },
@@ -5705,9 +5713,8 @@
           "passa"
         ],
         "tag": [
-          "frutta essiccata",
           "frutta disidratata",
-          "uvetta"
+          "uvetta passa"
         ],
         "allergeni": [],
         "tag_accessori": [],
@@ -5723,7 +5730,10 @@
           "pinoli",
           "pinolo"
         ],
-        "tag": [],
+        "tag": [
+          "frutta",
+          "frutta guscio"
+        ],
         "allergeni": [
           "noci"
         ],
@@ -5755,7 +5765,9 @@
         "token_chiave": [
           "pangrattato"
         ],
-        "tag": [],
+        "tag": [
+          "farina frumento"
+        ],
         "allergeni": [
           "cereali contenenti glutine"
         ],
@@ -5776,8 +5788,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -5792,7 +5805,10 @@
           "mandorle",
           "mandorla"
         ],
-        "tag": [],
+        "tag": [
+          "frutta",
+          "frutta guscio"
+        ],
         "allergeni": [
           "noci"
         ],
@@ -5814,6 +5830,7 @@
           "pasta"
         ],
         "tag": [
+          "semola grano duro",
           "pasta"
         ],
         "allergeni": [
@@ -5850,7 +5867,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "aromi"
+          "verdure",
+          "erbe aromatiche"
         ],
         "regole_matchate": [
           "aglio"
@@ -5864,7 +5882,10 @@
           "mandorle",
           "mandorla"
         ],
-        "tag": [],
+        "tag": [
+          "frutta",
+          "frutta guscio"
+        ],
         "allergeni": [
           "noci"
         ],
@@ -5885,8 +5906,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -5908,13 +5930,14 @@
           "stagiona"
         ],
         "tag": [
-          "verdura",
-          "ortaggi"
+          "verdure",
+          "ortaggi",
+          "pomodori"
         ],
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "topinambur"
+          "pomodori"
         ],
         "stato": "riconosciuto"
       },
@@ -5930,12 +5953,13 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "spezie",
-          "condimenti"
+          "verdure",
+          "capperi",
+          "spezie"
         ],
         "regole_matchate": [
-          "sale",
-          "capperi"
+          "capperi",
+          "sale"
         ],
         "stato": "accessorio_riconosciuto"
       },
@@ -5989,7 +6013,7 @@
           "fagiolo"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "legumi",
           "fagioli"
         ],
@@ -6008,13 +6032,9 @@
         ],
         "tag": [],
         "allergeni": [],
-        "tag_accessori": [
-          "aromi"
-        ],
-        "regole_matchate": [
-          "aglio"
-        ],
-        "stato": "accessorio_riconosciuto"
+        "tag_accessori": [],
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       },
       {
         "originale": "Carota",
@@ -6023,7 +6043,7 @@
           "carota"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "carote"
         ],
@@ -6094,6 +6114,7 @@
           "subiotino"
         ],
         "tag": [
+          "semola grano duro",
           "pasta"
         ],
         "allergeni": [
@@ -6118,14 +6139,14 @@
           "patatina"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "patate"
         ],
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "patatine"
+          "patate"
         ],
         "stato": "riconosciuto"
       },
@@ -6140,8 +6161,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -6155,13 +6177,14 @@
         "token_chiave": [
           "burro"
         ],
-        "tag": [],
-        "allergeni": [
-          "latte"
+        "tag": [
+          "latte",
+          "panna"
         ],
+        "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "latte"
+          "panna"
         ],
         "stato": "riconosciuto"
       },
@@ -6190,7 +6213,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "aromi"
+          "verdure",
+          "erbe aromatiche"
         ],
         "regole_matchate": [
           "aglio"
@@ -6211,15 +6235,12 @@
         ],
         "tag": [
           "carne",
-          "bovino",
-          "manzo",
           "frattaglie",
           "fegato"
         ],
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "manzo",
           "fegato"
         ],
         "stato": "riconosciuto"
@@ -6235,6 +6256,7 @@
         "tag": [
           "carne",
           "pollame",
+          "pollo",
           "frattaglie",
           "fegato"
         ],
@@ -6252,13 +6274,14 @@
         "token_chiave": [
           "panna"
         ],
-        "tag": [],
-        "allergeni": [
-          "latte"
+        "tag": [
+          "latte",
+          "panna"
         ],
+        "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "latte"
+          "panna"
         ],
         "stato": "riconosciuto"
       },
@@ -6288,13 +6311,9 @@
         ],
         "tag": [],
         "allergeni": [],
-        "tag_accessori": [
-          "aromi"
-        ],
-        "regole_matchate": [
-          "aglio"
-        ],
-        "stato": "accessorio_riconosciuto"
+        "tag_accessori": [],
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       },
       {
         "originale": "Aglio",
@@ -6305,7 +6324,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "aromi"
+          "verdure",
+          "erbe aromatiche"
         ],
         "regole_matchate": [
           "aglio"
@@ -6352,13 +6372,9 @@
         ],
         "tag": [],
         "allergeni": [],
-        "tag_accessori": [
-          "condimenti liquidi"
-        ],
-        "regole_matchate": [
-          "olio"
-        ],
-        "stato": "accessorio_riconosciuto"
+        "tag_accessori": [],
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       },
       {
         "originale": "Strutto",
@@ -6413,7 +6429,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti"
+          "verdure",
+          "capperi"
         ],
         "regole_matchate": [
           "capperi"
@@ -6428,6 +6445,7 @@
           "penna"
         ],
         "tag": [
+          "semola grano duro",
           "pasta"
         ],
         "allergeni": [
@@ -6447,13 +6465,14 @@
           "pomodorino"
         ],
         "tag": [
-          "verdura",
-          "ortaggi"
+          "verdure",
+          "ortaggi",
+          "pomodori"
         ],
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "topinambur"
+          "pomodori"
         ],
         "stato": "riconosciuto"
       },
@@ -6479,7 +6498,9 @@
         "token_chiave": [
           "pangrattato"
         ],
-        "tag": [],
+        "tag": [
+          "farina frumento"
+        ],
         "allergeni": [
           "cereali contenenti glutine"
         ],
@@ -6498,7 +6519,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "aromi"
+          "verdure",
+          "erbe aromatiche"
         ],
         "regole_matchate": [
           "aglio"
@@ -6580,8 +6602,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -6602,6 +6625,7 @@
           "penna"
         ],
         "tag": [
+          "semola grano duro",
           "pasta"
         ],
         "allergeni": [
@@ -6622,7 +6646,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "aromi"
+          "verdure",
+          "erbe aromatiche"
         ],
         "regole_matchate": [
           "aglio"
@@ -6637,7 +6662,7 @@
           "carota"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "carote"
         ],
@@ -6676,7 +6701,7 @@
           "porro"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "porri"
         ],
@@ -6735,6 +6760,7 @@
           "penna"
         ],
         "tag": [
+          "semola grano duro",
           "pasta"
         ],
         "allergeni": [
@@ -6776,8 +6802,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -6795,7 +6822,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "aromi"
+          "verdure",
+          "erbe aromatiche"
         ],
         "regole_matchate": [
           "aglio"
@@ -6808,13 +6836,14 @@
         "token_chiave": [
           "parmigiano"
         ],
-        "tag": [],
-        "allergeni": [
-          "latte"
+        "tag": [
+          "latte",
+          "formaggio"
         ],
+        "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "latte"
+          "parmigiano"
         ],
         "stato": "riconosciuto"
       }
@@ -6831,7 +6860,7 @@
           "peperono"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "peperoni"
         ],
@@ -6854,12 +6883,13 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "spezie",
-          "condimenti"
+          "verdure",
+          "capperi",
+          "spezie"
         ],
         "regole_matchate": [
-          "sale",
-          "capperi"
+          "capperi",
+          "sale"
         ],
         "stato": "accessorio_riconosciuto"
       },
@@ -6896,8 +6926,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -6940,13 +6971,9 @@
         ],
         "tag": [],
         "allergeni": [],
-        "tag_accessori": [
-          "condimenti liquidi"
-        ],
-        "regole_matchate": [
-          "olio"
-        ],
-        "stato": "accessorio_riconosciuto"
+        "tag_accessori": [],
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       }
     ]
   },
@@ -6961,17 +6988,18 @@
           "rapa"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
-          "sedano"
+          "sedano",
+          "rape"
         ],
         "allergeni": [
           "sedano"
         ],
         "tag_accessori": [],
         "regole_matchate": [
-          "topinambur",
-          "sedano"
+          "sedano",
+          "rape"
         ],
         "stato": "riconosciuto"
       },
@@ -6984,7 +7012,7 @@
           "sedano"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "sedano"
         ],
@@ -7005,13 +7033,9 @@
         ],
         "tag": [],
         "allergeni": [],
-        "tag_accessori": [
-          "aromi"
-        ],
-        "regole_matchate": [
-          "aglio"
-        ],
-        "stato": "accessorio_riconosciuto"
+        "tag_accessori": [],
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       },
       {
         "originale": "Aglio",
@@ -7022,7 +7046,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "aromi"
+          "verdure",
+          "erbe aromatiche"
         ],
         "regole_matchate": [
           "aglio"
@@ -7037,7 +7062,7 @@
           "patata"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "patate"
         ],
@@ -7054,13 +7079,14 @@
         "token_chiave": [
           "burro"
         ],
-        "tag": [],
-        "allergeni": [
-          "latte"
+        "tag": [
+          "latte",
+          "panna"
         ],
+        "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "latte"
+          "panna"
         ],
         "stato": "riconosciuto"
       },
@@ -7094,7 +7120,7 @@
           "melanzana"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "melanzane"
         ],
@@ -7132,7 +7158,7 @@
           "peperono"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "peperoni"
         ],
@@ -7151,13 +7177,9 @@
         ],
         "tag": [],
         "allergeni": [],
-        "tag_accessori": [
-          "aromi"
-        ],
-        "regole_matchate": [
-          "aglio"
-        ],
-        "stato": "accessorio_riconosciuto"
+        "tag_accessori": [],
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       },
       {
         "originale": "Aglio",
@@ -7168,7 +7190,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "aromi"
+          "verdure",
+          "erbe aromatiche"
         ],
         "regole_matchate": [
           "aglio"
@@ -7239,7 +7262,7 @@
           "carota"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "carote"
         ],
@@ -7258,13 +7281,9 @@
         ],
         "tag": [],
         "allergeni": [],
-        "tag_accessori": [
-          "aromi"
-        ],
-        "regole_matchate": [
-          "aglio"
-        ],
-        "stato": "accessorio_riconosciuto"
+        "tag_accessori": [],
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       },
       {
         "originale": "Pepe",
@@ -7290,7 +7309,7 @@
           "pisello"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "legumi",
           "piselli"
         ],
@@ -7324,7 +7343,7 @@
           "sedano"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "sedano"
         ],
@@ -7402,7 +7421,7 @@
           "patata"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "patate"
         ],
@@ -7422,7 +7441,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "aromi"
+          "verdure",
+          "erbe aromatiche"
         ],
         "regole_matchate": [
           "aglio"
@@ -7453,14 +7473,10 @@
           "dpo"
         ],
         "tag": [],
-        "allergeni": [
-          "latte"
-        ],
+        "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [
-          "latte"
-        ],
-        "stato": "riconosciuto"
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       },
       {
         "originale": "Pomodori pelati DOP",
@@ -7470,13 +7486,14 @@
           "pomodoro"
         ],
         "tag": [
-          "verdura",
-          "ortaggi"
+          "verdure",
+          "ortaggi",
+          "pomodori"
         ],
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "topinambur"
+          "pomodori"
         ],
         "stato": "riconosciuto"
       },
@@ -7491,8 +7508,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -7566,8 +7584,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -7600,13 +7619,9 @@
         ],
         "tag": [],
         "allergeni": [],
-        "tag_accessori": [
-          "condimenti liquidi"
-        ],
-        "regole_matchate": [
-          "olio"
-        ],
-        "stato": "accessorio_riconosciuto"
+        "tag_accessori": [],
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       },
       {
         "originale": "Alloro",
@@ -7635,13 +7650,14 @@
         "token_chiave": [
           "burro"
         ],
-        "tag": [],
-        "allergeni": [
-          "latte"
+        "tag": [
+          "latte",
+          "panna"
         ],
+        "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "latte"
+          "panna"
         ],
         "stato": "riconosciuto"
       },
@@ -7651,7 +7667,9 @@
         "token_chiave": [
           "farina"
         ],
-        "tag": [],
+        "tag": [
+          "farina frumento"
+        ],
         "allergeni": [
           "cereali contenenti glutine"
         ],
@@ -7691,7 +7709,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "aromi"
+          "verdure",
+          "erbe aromatiche"
         ],
         "regole_matchate": [
           "aglio"
@@ -7708,7 +7727,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti"
+          "verdure",
+          "capperi"
         ],
         "regole_matchate": [
           "capperi"
@@ -7745,7 +7765,10 @@
           "latte",
           "latta"
         ],
-        "tag": [],
+        "tag": [
+          "latte",
+          "farina frumento"
+        ],
         "allergeni": [
           "latte",
           "cereali contenenti glutine"
@@ -7768,8 +7791,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -7785,13 +7809,9 @@
         ],
         "tag": [],
         "allergeni": [],
-        "tag_accessori": [
-          "condimenti liquidi"
-        ],
-        "regole_matchate": [
-          "olio"
-        ],
-        "stato": "accessorio_riconosciuto"
+        "tag_accessori": [],
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       },
       {
         "originale": "Sale",
@@ -7824,7 +7844,7 @@
         ],
         "tag": [
           "pesce",
-          "sarde"
+          "sardine"
         ],
         "allergeni": [
           "pesce"
@@ -7841,7 +7861,9 @@
         "token_chiave": [
           "pangrattato"
         ],
-        "tag": [],
+        "tag": [
+          "farina frumento"
+        ],
         "allergeni": [
           "cereali contenenti glutine"
         ],
@@ -7858,7 +7880,10 @@
           "pinoli",
           "pinolo"
         ],
-        "tag": [],
+        "tag": [
+          "frutta",
+          "frutta guscio"
+        ],
         "allergeni": [
           "noci"
         ],
@@ -7876,9 +7901,8 @@
           "passa"
         ],
         "tag": [
-          "frutta essiccata",
           "frutta disidratata",
-          "uvetta"
+          "uvetta passa"
         ],
         "allergeni": [],
         "tag_accessori": [],
@@ -7950,8 +7974,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -8039,7 +8064,9 @@
           "pane"
         ],
         "tag": [
-          "pasta"
+          "semola grano duro",
+          "pasta",
+          "farina frumento"
         ],
         "allergeni": [
           "cereali contenenti glutine"
@@ -8064,7 +8091,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti"
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olive"
@@ -8099,9 +8127,8 @@
           "passa"
         ],
         "tag": [
-          "frutta essiccata",
           "frutta disidratata",
-          "uvetta"
+          "uvetta passa"
         ],
         "allergeni": [],
         "tag_accessori": [],
@@ -8118,13 +8145,14 @@
           "pomodoro"
         ],
         "tag": [
-          "verdura",
-          "ortaggi"
+          "verdure",
+          "ortaggi",
+          "pomodori"
         ],
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "topinambur"
+          "pomodori"
         ],
         "stato": "riconosciuto"
       },
@@ -8135,14 +8163,10 @@
           "pecorino"
         ],
         "tag": [],
-        "allergeni": [
-          "latte"
-        ],
+        "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [
-          "latte"
-        ],
-        "stato": "riconosciuto"
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       },
       {
         "originale": "Capperi",
@@ -8154,7 +8178,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti"
+          "verdure",
+          "capperi"
         ],
         "regole_matchate": [
           "capperi"
@@ -8172,8 +8197,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -8207,7 +8233,7 @@
           "fagiolo"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "legumi",
           "fagioli"
         ],
@@ -8227,11 +8253,17 @@
           "verdi",
           "verdo"
         ],
-        "tag": [],
+        "tag": [
+          "verdure",
+          "ortaggi",
+          "fagiolini verdi"
+        ],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "regole_matchate": [
+          "fagiolini verdi"
+        ],
+        "stato": "riconosciuto"
       },
       {
         "originale": "Zucchine",
@@ -8260,13 +8292,14 @@
           "pomodoro"
         ],
         "tag": [
-          "verdura",
-          "ortaggi"
+          "verdure",
+          "ortaggi",
+          "pomodori"
         ],
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "topinambur"
+          "pomodori"
         ],
         "stato": "riconosciuto"
       },
@@ -8278,7 +8311,7 @@
           "patata"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "patate"
         ],
@@ -8296,7 +8329,7 @@
           "porro"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "porri"
         ],
@@ -8314,15 +8347,17 @@
           "cipolle",
           "cipolla"
         ],
-        "tag": [],
+        "tag": [
+          "verdure",
+          "ortaggi",
+          "cipolle"
+        ],
         "allergeni": [],
-        "tag_accessori": [
-          "aromi"
-        ],
+        "tag_accessori": [],
         "regole_matchate": [
-          "aglio"
+          "cipolle"
         ],
-        "stato": "accessorio_riconosciuto"
+        "stato": "riconosciuto"
       },
       {
         "originale": "Melanzane",
@@ -8332,7 +8367,7 @@
           "melanzana"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "melanzane"
         ],
@@ -8350,7 +8385,7 @@
           "sedano"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "sedano"
         ],
@@ -8371,7 +8406,7 @@
           "carota"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "carote"
         ],
@@ -8390,6 +8425,7 @@
           "conchiglia"
         ],
         "tag": [
+          "semola grano duro",
           "pasta"
         ],
         "allergeni": [
@@ -8438,7 +8474,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "aromi"
+          "verdure",
+          "erbe aromatiche"
         ],
         "regole_matchate": [
           "aglio"
@@ -8456,8 +8493,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -8483,13 +8521,14 @@
         "token_chiave": [
           "parmigiano"
         ],
-        "tag": [],
-        "allergeni": [
-          "latte"
+        "tag": [
+          "latte",
+          "formaggio"
         ],
+        "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "latte"
+          "parmigiano"
         ],
         "stato": "riconosciuto"
       }
@@ -8506,6 +8545,7 @@
           "spaghetto"
         ],
         "tag": [
+          "semola grano duro",
           "pasta"
         ],
         "allergeni": [
@@ -8547,7 +8587,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "aromi"
+          "verdure",
+          "erbe aromatiche"
         ],
         "regole_matchate": [
           "aglio"
@@ -8565,8 +8606,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -8596,7 +8638,9 @@
         "token_chiave": [
           "pangrattato"
         ],
-        "tag": [],
+        "tag": [
+          "farina frumento"
+        ],
         "allergeni": [
           "cereali contenenti glutine"
         ],
@@ -8637,6 +8681,7 @@
           "vermicello"
         ],
         "tag": [
+          "semola grano duro",
           "pasta"
         ],
         "allergeni": [
@@ -8657,7 +8702,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "aromi"
+          "verdure",
+          "erbe aromatiche"
         ],
         "regole_matchate": [
           "aglio"
@@ -8693,7 +8739,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti"
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olive"
@@ -8712,12 +8759,13 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "spezie",
-          "condimenti"
+          "verdure",
+          "capperi",
+          "spezie"
         ],
         "regole_matchate": [
-          "sale",
-          "capperi"
+          "capperi",
+          "sale"
         ],
         "stato": "accessorio_riconosciuto"
       },
@@ -8752,8 +8800,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -8769,13 +8818,14 @@
           "pomodoro"
         ],
         "tag": [
-          "verdura",
-          "ortaggi"
+          "verdure",
+          "ortaggi",
+          "pomodori"
         ],
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "topinambur"
+          "pomodori"
         ],
         "stato": "riconosciuto"
       },
@@ -8809,7 +8859,8 @@
         ],
         "tag": [
           "carne",
-          "pollame"
+          "pollame",
+          "pollo"
         ],
         "allergeni": [],
         "tag_accessori": [],
@@ -8863,8 +8914,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -8936,7 +8988,7 @@
           "porro"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "porri"
         ],
@@ -8953,16 +9005,11 @@
         "token_chiave": [
           "rucola"
         ],
-        "tag": [
-          "verdura",
-          "ortaggi"
-        ],
+        "tag": [],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [
-          "topinambur"
-        ],
-        "stato": "riconosciuto"
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       },
       {
         "originale": "Aceto Balsamico Tradizionale di Modena DOP",
@@ -8976,13 +9023,9 @@
         ],
         "tag": [],
         "allergeni": [],
-        "tag_accessori": [
-          "condimenti liquidi"
-        ],
-        "regole_matchate": [
-          "olio"
-        ],
-        "stato": "accessorio_riconosciuto"
+        "tag_accessori": [],
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       },
       {
         "originale": "Olio",
@@ -8993,7 +9036,7 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi"
+          "olio"
         ],
         "regole_matchate": [
           "olio"
@@ -9031,7 +9074,8 @@
         ],
         "tag": [
           "carne",
-          "pollame"
+          "pollame",
+          "pollo"
         ],
         "allergeni": [],
         "tag_accessori": [],
@@ -9053,7 +9097,8 @@
         ],
         "tag": [
           "carne",
-          "pollame"
+          "pollame",
+          "pollo"
         ],
         "allergeni": [],
         "tag_accessori": [],
@@ -9086,17 +9131,11 @@
           "montone",
           "montona"
         ],
-        "tag": [
-          "carne",
-          "ovino",
-          "agnello"
-        ],
+        "tag": [],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [
-          "agnello"
-        ],
-        "stato": "riconosciuto"
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       },
       {
         "originale": "Cous cous",
@@ -9105,6 +9144,7 @@
           "cous"
         ],
         "tag": [
+          "semola grano duro",
           "cous cous"
         ],
         "allergeni": [
@@ -9124,13 +9164,14 @@
           "cipollotto"
         ],
         "tag": [
-          "verdura",
-          "ortaggi"
+          "verdure",
+          "ortaggi",
+          "cipolle"
         ],
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "topinambur"
+          "cipolle"
         ],
         "stato": "riconosciuto"
       },
@@ -9158,7 +9199,7 @@
           "patata"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "patate"
         ],
@@ -9177,7 +9218,7 @@
           "carota"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "carote"
         ],
@@ -9195,16 +9236,11 @@
           "finocchi",
           "finoccho"
         ],
-        "tag": [
-          "verdura",
-          "ortaggi"
-        ],
+        "tag": [],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [
-          "topinambur"
-        ],
-        "stato": "riconosciuto"
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       },
       {
         "originale": "Olive nere",
@@ -9217,7 +9253,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti"
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olive"
@@ -9363,7 +9400,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "aromi"
+          "verdure",
+          "erbe aromatiche"
         ],
         "regole_matchate": [
           "aglio"
@@ -9397,8 +9435,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -9464,7 +9503,9 @@
           "mollica",
           "pangrattato"
         ],
-        "tag": [],
+        "tag": [
+          "farina frumento"
+        ],
         "allergeni": [
           "cereali contenenti glutine"
         ],
@@ -9481,14 +9522,10 @@
           "pecorino"
         ],
         "tag": [],
-        "allergeni": [
-          "latte"
-        ],
+        "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [
-          "latte"
-        ],
-        "stato": "riconosciuto"
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       },
       {
         "originale": "Olio extra vergine d'oliva",
@@ -9501,8 +9538,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -9657,10 +9695,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi"
+          "vino"
         ],
         "regole_matchate": [
-          "olio",
           "barbera"
         ],
         "stato": "accessorio_riconosciuto"
@@ -9690,7 +9727,7 @@
           "sedano"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "sedano"
         ],
@@ -9710,7 +9747,7 @@
           "carota"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "carote"
         ],
@@ -9729,13 +9766,9 @@
         ],
         "tag": [],
         "allergeni": [],
-        "tag_accessori": [
-          "aromi"
-        ],
-        "regole_matchate": [
-          "aglio"
-        ],
-        "stato": "accessorio_riconosciuto"
+        "tag_accessori": [],
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       },
       {
         "originale": "Aglio",
@@ -9746,7 +9779,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "aromi"
+          "verdure",
+          "erbe aromatiche"
         ],
         "regole_matchate": [
           "aglio"
@@ -9833,7 +9867,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti"
+          "verdure",
+          "capperi"
         ],
         "regole_matchate": [
           "capperi"
@@ -9848,14 +9883,10 @@
           "maionesa"
         ],
         "tag": [],
-        "allergeni": [
-          "latte"
-        ],
+        "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [
-          "latte"
-        ],
-        "stato": "riconosciuto"
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       }
     ]
   },
@@ -9892,8 +9923,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -9909,13 +9941,9 @@
         ],
         "tag": [],
         "allergeni": [],
-        "tag_accessori": [
-          "condimenti liquidi"
-        ],
-        "regole_matchate": [
-          "olio"
-        ],
-        "stato": "accessorio_riconosciuto"
+        "tag_accessori": [],
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
       },
       {
         "originale": "Nepetella",
@@ -9966,11 +9994,17 @@
           "misti",
           "misto"
         ],
-        "tag": [],
+        "tag": [
+          "verdure",
+          "legumi",
+          "legumi misti secchi"
+        ],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "regole_matchate": [
+          "legumi misti secchi"
+        ],
+        "stato": "riconosciuto"
       },
       {
         "originale": "Carota",
@@ -9979,7 +10013,7 @@
           "carota"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "carote"
         ],
@@ -9998,7 +10032,7 @@
           "sedano"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "sedano"
         ],
@@ -10022,8 +10056,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "condimenti liquidi",
-          "condimenti"
+          "olio",
+          "frutti",
+          "olive"
         ],
         "regole_matchate": [
           "olio",
@@ -10037,11 +10072,19 @@
         "token_chiave": [
           "speck"
         ],
-        "tag": [],
+        "tag": [
+          "carne",
+          "suino",
+          "maiale",
+          "speck"
+        ],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "regole_matchate": [
+          "maiale",
+          "speck"
+        ],
+        "stato": "riconosciuto"
       }
     ]
   }

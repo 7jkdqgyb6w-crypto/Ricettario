@@ -1,15 +1,87 @@
 {
   "versione": "CMS2-R18-103",
-  "timestamp": "2026-06-01T14:46:55",
+  "timestamp": "2026-06-02T14:40:27",
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\CMS\\ingredienti-semantica.json",
   "ricette_elaborate": 66,
   "ingredienti_distinti": 230,
-  "ingredienti_non_riconosciuti_distinti": 9,
-  "ingredienti_accessori_riconosciuti_distinti": 75,
+  "ingredienti_non_riconosciuti_distinti": 30,
+  "ingredienti_accessori_riconosciuti_distinti": 57,
   "non_riconosciuti_top": [
     [
-      "melograno",
+      "cipolla",
+      12
+    ],
+    [
+      "pecorino romano",
+      3
+    ],
+    [
+      "brodo",
+      2
+    ],
+    [
+      "finocchi",
+      2
+    ],
+    [
+      "pecorino romano dop",
+      2
+    ],
+    [
+      "aceto balsamico tradizionale modena dop",
+      2
+    ],
+    [
+      "aceto",
+      2
+    ],
+    [
+      "acqua fredda",
+      1
+    ],
+    [
+      "ripieno sugo",
+      1
+    ],
+    [
+      "reale vitello",
+      1
+    ],
+    [
+      "brodo carne",
+      1
+    ],
+    [
+      "curacao",
+      1
+    ],
+    [
+      "insalata novella",
+      1
+    ],
+    [
+      "birra ambrata",
+      1
+    ],
+    [
+      "topinambur",
+      1
+    ],
+    [
+      "corteccia",
+      1
+    ],
+    [
+      "cipolla viola",
+      1
+    ],
+    [
+      "acqua",
+      1
+    ],
+    [
+      "brodo vegetale",
       1
     ],
     [
@@ -17,15 +89,19 @@
       1
     ],
     [
-      "finocchietto",
+      "marsala",
+      1
+    ],
+    [
+      "cipolla bianca",
+      1
+    ],
+    [
+      "pecorino romano dpo",
       1
     ],
     [
       "soupe",
-      1
-    ],
-    [
-      "fagiolini verdi",
       1
     ],
     [
@@ -37,11 +113,19 @@
       1
     ],
     [
-      "legumi misti secchi",
+      "rucola",
       1
     ],
     [
-      "speck",
+      "montone",
+      1
+    ],
+    [
+      "maionese",
+      1
+    ],
+    [
+      "aceto bianco",
       1
     ]
   ],
@@ -65,10 +149,6 @@
     [
       "prezzemolo",
       17
-    ],
-    [
-      "cipolla",
-      12
     ],
     [
       "alloro",
@@ -127,10 +207,6 @@
       3
     ],
     [
-      "cipolle",
-      3
-    ],
-    [
       "origano",
       3
     ],
@@ -141,10 +217,6 @@
     [
       "capperi",
       3
-    ],
-    [
-      "brodo",
-      2
     ],
     [
       "noce moscata",
@@ -179,31 +251,11 @@
       2
     ],
     [
-      "aceto balsamico tradizionale modena dop",
-      2
-    ],
-    [
-      "aceto",
-      2
-    ],
-    [
       "nepetella",
       2
     ],
     [
-      "acqua fredda",
-      1
-    ],
-    [
       "pepe grani",
-      1
-    ],
-    [
-      "ripieno sugo",
-      1
-    ],
-    [
-      "cipolle dorate",
       1
     ],
     [
@@ -215,14 +267,6 @@
       1
     ],
     [
-      "brodo carne",
-      1
-    ],
-    [
-      "curacao",
-      1
-    ],
-    [
       "aceto vino bianco",
       1
     ],
@@ -231,23 +275,7 @@
       1
     ],
     [
-      "birra ambrata",
-      1
-    ],
-    [
       "olio oliva",
-      1
-    ],
-    [
-      "corteccia",
-      1
-    ],
-    [
-      "cipolla viola",
-      1
-    ],
-    [
-      "acqua",
       1
     ],
     [
@@ -267,10 +295,6 @@
       1
     ],
     [
-      "brodo vegetale",
-      1
-    ],
-    [
       "paprika",
       1
     ],
@@ -287,19 +311,11 @@
       1
     ],
     [
-      "marsala",
-      1
-    ],
-    [
       "spicco aglio",
       1
     ],
     [
       "olio d oliva pugliese",
-      1
-    ],
-    [
-      "cipolla bianca",
       1
     ],
     [
@@ -341,24 +357,20 @@
     [
       "capperi pantelleria dop",
       1
-    ],
-    [
-      "aceto bianco",
-      1
     ]
   ],
   "per_ricetta": [
     {
       "slug": "agnolotti-al-sugo-d-arrosto",
       "ingredienti": 44,
-      "non_riconosciuti": 0,
-      "accessori_riconosciuti": 23
+      "non_riconosciuti": 5,
+      "accessori_riconosciuti": 18
     },
     {
       "slug": "anatra-all-arancia",
       "ingredienti": 20,
-      "non_riconosciuti": 0,
-      "accessori_riconosciuti": 10
+      "non_riconosciuti": 3,
+      "accessori_riconosciuti": 7
     },
     {
       "slug": "anatra-in-salsa",
@@ -375,20 +387,20 @@
     {
       "slug": "antipasto-di-canocce",
       "ingredienti": 7,
-      "non_riconosciuti": 0,
+      "non_riconosciuti": 1,
       "accessori_riconosciuti": 4
     },
     {
       "slug": "aringhe-in-terrina",
       "ingredienti": 7,
-      "non_riconosciuti": 0,
-      "accessori_riconosciuti": 5
+      "non_riconosciuti": 1,
+      "accessori_riconosciuti": 4
     },
     {
       "slug": "arista-alla-birra",
       "ingredienti": 13,
-      "non_riconosciuti": 1,
-      "accessori_riconosciuti": 9
+      "non_riconosciuti": 2,
+      "accessori_riconosciuti": 7
     },
     {
       "slug": "baccala-mantecato",
@@ -399,31 +411,31 @@
     {
       "slug": "bagna-cauda",
       "ingredienti": 14,
-      "non_riconosciuti": 0,
+      "non_riconosciuti": 2,
       "accessori_riconosciuti": 2
     },
     {
       "slug": "battuta-di-manzo-alla-boscaiola",
       "ingredienti": 6,
-      "non_riconosciuti": 0,
-      "accessori_riconosciuti": 3
+      "non_riconosciuti": 1,
+      "accessori_riconosciuti": 2
     },
     {
       "slug": "bigoli-in-salsa",
       "ingredienti": 4,
-      "non_riconosciuti": 0,
-      "accessori_riconosciuti": 2
+      "non_riconosciuti": 1,
+      "accessori_riconosciuti": 1
     },
     {
       "slug": "braciole-di-carne-di-cavallo",
       "ingredienti": 11,
-      "non_riconosciuti": 0,
-      "accessori_riconosciuti": 8
+      "non_riconosciuti": 2,
+      "accessori_riconosciuti": 7
     },
     {
       "slug": "calamari-ripieni",
       "ingredienti": 9,
-      "non_riconosciuti": 0,
+      "non_riconosciuti": 1,
       "accessori_riconosciuti": 5
     },
     {
@@ -441,20 +453,20 @@
     {
       "slug": "crepes",
       "ingredienti": 8,
-      "non_riconosciuti": 0,
-      "accessori_riconosciuti": 4
+      "non_riconosciuti": 1,
+      "accessori_riconosciuti": 3
     },
     {
       "slug": "daube",
       "ingredienti": 11,
       "non_riconosciuti": 0,
-      "accessori_riconosciuti": 7
+      "accessori_riconosciuti": 6
     },
     {
       "slug": "fegato-alla-veneziana",
       "ingredienti": 4,
       "non_riconosciuti": 0,
-      "accessori_riconosciuti": 2
+      "accessori_riconosciuti": 1
     },
     {
       "slug": "filettino-di-maiale",
@@ -495,8 +507,8 @@
     {
       "slug": "goulash-variante",
       "ingredienti": 18,
-      "non_riconosciuti": 0,
-      "accessori_riconosciuti": 11
+      "non_riconosciuti": 2,
+      "accessori_riconosciuti": 9
     },
     {
       "slug": "medaglioni-di-manzo-con-porcini",
@@ -513,8 +525,8 @@
     {
       "slug": "minestra-di-porri",
       "ingredienti": 6,
-      "non_riconosciuti": 0,
-      "accessori_riconosciuti": 2
+      "non_riconosciuti": 1,
+      "accessori_riconosciuti": 1
     },
     {
       "slug": "orecchiette-baresi-alle-cime-di-rapa",
@@ -543,7 +555,7 @@
     {
       "slug": "pasta-con-i-broccoli",
       "ingredienti": 7,
-      "non_riconosciuti": 0,
+      "non_riconosciuti": 1,
       "accessori_riconosciuti": 2
     },
     {
@@ -556,7 +568,7 @@
       "slug": "pasta-con-le-sarde",
       "ingredienti": 11,
       "non_riconosciuti": 1,
-      "accessori_riconosciuti": 3
+      "accessori_riconosciuti": 2
     },
     {
       "slug": "pasta-con-pesto-alla-siciliana",
@@ -567,8 +579,8 @@
     {
       "slug": "pasta-e-fagioli",
       "ingredienti": 7,
-      "non_riconosciuti": 0,
-      "accessori_riconosciuti": 3
+      "non_riconosciuti": 1,
+      "accessori_riconosciuti": 2
     },
     {
       "slug": "patatine",
@@ -579,8 +591,8 @@
     {
       "slug": "pate-di-fegato",
       "ingredienti": 10,
-      "non_riconosciuti": 0,
-      "accessori_riconosciuti": 5
+      "non_riconosciuti": 2,
+      "accessori_riconosciuti": 3
     },
     {
       "slug": "penne-alla-cannata",
@@ -609,20 +621,20 @@
     {
       "slug": "picaña",
       "ingredienti": 2,
-      "non_riconosciuti": 0,
-      "accessori_riconosciuti": 1
+      "non_riconosciuti": 1,
+      "accessori_riconosciuti": 0
     },
     {
       "slug": "puree-di-sedano",
       "ingredienti": 7,
-      "non_riconosciuti": 0,
-      "accessori_riconosciuti": 3
+      "non_riconosciuti": 1,
+      "accessori_riconosciuti": 2
     },
     {
       "slug": "ratatouille-variante",
       "ingredienti": 8,
-      "non_riconosciuti": 0,
-      "accessori_riconosciuti": 5
+      "non_riconosciuti": 1,
+      "accessori_riconosciuti": 4
     },
     {
       "slug": "ribollita",
@@ -633,20 +645,20 @@
     {
       "slug": "risi-e-bisi",
       "ingredienti": 7,
-      "non_riconosciuti": 0,
-      "accessori_riconosciuti": 3
+      "non_riconosciuti": 1,
+      "accessori_riconosciuti": 2
     },
     {
       "slug": "riso-cozze-e-patate",
       "ingredienti": 10,
-      "non_riconosciuti": 0,
+      "non_riconosciuti": 1,
       "accessori_riconosciuti": 5
     },
     {
       "slug": "roastbeef-arrosto-all-inglese",
       "ingredienti": 5,
-      "non_riconosciuti": 0,
-      "accessori_riconosciuti": 4
+      "non_riconosciuti": 1,
+      "accessori_riconosciuti": 3
     },
     {
       "slug": "roux-brun",
@@ -657,8 +669,8 @@
     {
       "slug": "salsa-verde",
       "ingredienti": 8,
-      "non_riconosciuti": 0,
-      "accessori_riconosciuti": 6
+      "non_riconosciuti": 1,
+      "accessori_riconosciuti": 5
     },
     {
       "slug": "sarde-a-beccafico",
@@ -669,14 +681,14 @@
     {
       "slug": "sfogliata-pugliese",
       "ingredienti": 8,
-      "non_riconosciuti": 0,
+      "non_riconosciuti": 1,
       "accessori_riconosciuti": 3
     },
     {
       "slug": "soupe-au-pistou",
       "ingredienti": 18,
-      "non_riconosciuti": 4,
-      "accessori_riconosciuti": 4
+      "non_riconosciuti": 3,
+      "accessori_riconosciuti": 3
     },
     {
       "slug": "spaghetti-alla-bottarga",
@@ -699,8 +711,8 @@
     {
       "slug": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
       "ingredienti": 6,
-      "non_riconosciuti": 0,
-      "accessori_riconosciuti": 3
+      "non_riconosciuti": 2,
+      "accessori_riconosciuti": 2
     },
     {
       "slug": "tagliate",
@@ -711,7 +723,7 @@
     {
       "slug": "tajin-mqualli",
       "ingredienti": 21,
-      "non_riconosciuti": 0,
+      "non_riconosciuti": 2,
       "accessori_riconosciuti": 13
     },
     {
@@ -723,25 +735,25 @@
     {
       "slug": "tortino-di-alici",
       "ingredienti": 11,
-      "non_riconosciuti": 0,
+      "non_riconosciuti": 1,
       "accessori_riconosciuti": 8
     },
     {
       "slug": "vitello-tonnato",
       "ingredienti": 13,
-      "non_riconosciuti": 0,
-      "accessori_riconosciuti": 8
+      "non_riconosciuti": 2,
+      "accessori_riconosciuti": 7
     },
     {
       "slug": "zucchine-in-scapece",
       "ingredienti": 4,
-      "non_riconosciuti": 0,
-      "accessori_riconosciuti": 3
+      "non_riconosciuti": 1,
+      "accessori_riconosciuti": 2
     },
     {
       "slug": "zuppa-di-legumi-con-funghi-settembrini-secchi",
       "ingredienti": 6,
-      "non_riconosciuti": 2,
+      "non_riconosciuti": 0,
       "accessori_riconosciuti": 1
     }
   ],
