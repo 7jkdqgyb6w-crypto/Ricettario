@@ -352,7 +352,7 @@
       "tempo_totale": "include riposo",
       "ingredienti_chiave": [
         "Polpa di cavallo a fettine",
-        "Passato di pomodoro",
+        "Passata di pomodoro",
         "Pecorino romano DOP"
       ]
     },
@@ -382,8 +382,8 @@
       "tempo_totale": "include riposo",
       "ingredienti_chiave": [
         "Calamari",
-        "Pecorino romano",
-        "Pelati San Marzano DOP"
+        "Pecorino romano DOP",
+        "Pomodori pelati san Marzano DOP"
       ]
     },
     "confidenza": "bassa",
@@ -901,7 +901,7 @@
         "Pomodorini",
         "Capperi di Pantelleria IGP",
         "Zenzero",
-        "Concentrato di pomodori"
+        "Concentrato di pomodoro"
       ]
     },
     "confidenza": "bassa",
@@ -996,7 +996,7 @@
         "Uva passa",
         "Broccoli",
         "Pinoli",
-        "Pecorino romano"
+        "Pecorino romano DOP"
       ]
     },
     "confidenza": "bassa",
@@ -1090,7 +1090,7 @@
         "Pasta",
         "Basilico",
         "Mandorle tostate e grattugiate",
-        "Pomodori San Marzano",
+        "Pomodori san Marzano DOP",
         "Capperi di Pantelleria IGP",
         "Bottarga di muggine"
       ]
@@ -1279,7 +1279,6 @@
       "ingredienti_chiave": [
         "Mezze penne rigate",
         "Zucchine",
-        "Spicco d'aglio",
         "Parmigiano Reggiano"
       ]
     },

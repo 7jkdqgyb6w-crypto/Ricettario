@@ -1,13 +1,13 @@
 {
   "versione": "CMS2-R18-103",
   "semantica_versione": "CMS2-R18-103",
-  "timestamp": "2026-06-02T22:39:40",
+  "timestamp": "2026-06-02T23:18:41",
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "search_data": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT\\indici\\search-data.json",
   "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\CMS\\ingredienti-semantica.json",
   "apply": true,
   "processed": 66,
-  "changed": 0,
+  "changed": 64,
   "missing_source": [],
   "no_structural_terms": [
     "antipastino-piemontese",
@@ -125,7 +125,7 @@
         "spaghetti",
         "farina"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "anatra-all-arancia",
@@ -194,7 +194,7 @@
         "sale",
         "fegato"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "anatra-in-salsa",
@@ -244,7 +244,7 @@
         "barbera",
         "sale"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "antipastino-piemontese",
@@ -300,7 +300,7 @@
         "sale",
         "limone"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "aringhe-in-terrina",
@@ -345,7 +345,7 @@
         "olio",
         "olive"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "arista-alla-birra",
@@ -394,7 +394,7 @@
         "cipolle",
         "sale"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "baccala-mantecato",
@@ -433,7 +433,7 @@
         "uova",
         "sale"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "bagna-cauda",
@@ -495,7 +495,7 @@
         "cavolfiore",
         "carote"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "battuta-di-manzo-alla-boscaiola",
@@ -534,7 +534,7 @@
         "sale",
         "patate"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "bigoli-in-salsa",
@@ -571,7 +571,7 @@
         "alici",
         "spaghetti"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "braciole-di-carne-di-cavallo",
@@ -579,7 +579,7 @@
       "fonte_semantica": "html-ingredienti",
       "ingredienti_usati": [
         "Polpa di cavallo a fettine",
-        "Passato di pomodoro",
+        "Passata di pomodoro",
         "Olio extra vergine d'oliva",
         "Vino rosso",
         "Cipolla viola",
@@ -620,7 +620,7 @@
         "prezzemolo",
         "sale"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "calamari-ripieni",
@@ -630,9 +630,9 @@
         "Calamari",
         "Uova",
         "Prezzemolo",
-        "Pecorino romano",
+        "Pecorino romano DOP",
         "Aglio",
-        "Pelati San Marzano DOP",
+        "Pomodori pelati san Marzano DOP",
         "Olio extra verdine d'oliva",
         "Pepe",
         "Sale"
@@ -667,7 +667,7 @@
         "olive",
         "sale"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "cavolo-rosso-condito",
@@ -712,7 +712,7 @@
         "olio",
         "olive"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "cous-cous-alla-trapanese",
@@ -732,7 +732,7 @@
       "regole_matchate": [
         "cous cous"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "crepes",
@@ -774,7 +774,7 @@
         "zucchero",
         "limone"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "daube",
@@ -827,7 +827,7 @@
         "sale",
         "bouquet garni"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "fegato-alla-veneziana",
@@ -862,7 +862,7 @@
         "olio",
         "olive"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "filettino-di-maiale",
@@ -903,7 +903,7 @@
         "olive",
         "sale"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "filetto-angus-alla-senape-di-digione",
@@ -931,7 +931,7 @@
         "senape",
         "sale"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "fusilli-carciofi-e-salmone",
@@ -978,7 +978,7 @@
         "olio",
         "olive"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "gigot-roti",
@@ -1016,7 +1016,7 @@
         "olio",
         "olive"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "gnocchetti-sardi-alla-urbaweb",
@@ -1030,7 +1030,7 @@
         "Sedano",
         "Schie",
         "Olive verdi",
-        "Olive di Gaeta",
+        "Olive di Gaeta DOP",
         "Pesce spada affumicato",
         "Basilico",
         "Olio extra vergine d’oliva",
@@ -1079,7 +1079,7 @@
         "olio",
         "sale"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "gnocchi-con-le-trombette-dei-morti",
@@ -1108,7 +1108,7 @@
         "panna",
         "parmigiano"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "goulash-variante",
@@ -1174,7 +1174,7 @@
         "sale",
         "limone"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "medaglioni-di-manzo-con-porcini",
@@ -1217,7 +1217,7 @@
         "olio",
         "olive"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "minestra-di-cavoli",
@@ -1244,7 +1244,7 @@
         "maiale",
         "patate"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "minestra-di-porri",
@@ -1281,7 +1281,7 @@
         "patate",
         "riso"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "orecchiette-baresi-alle-cime-di-rapa",
@@ -1324,7 +1324,7 @@
         "rape",
         "alici"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero",
@@ -1337,7 +1337,7 @@
         "Capperi di Pantelleria IGP",
         "Zenzero",
         "Vino bianco secco",
-        "Concentrato di pomodori",
+        "Concentrato di pomodoro",
         "Olio extra vergine d'oliva",
         "Sale",
         "Pepe",
@@ -1378,7 +1378,7 @@
         "olive",
         "prezzemolo"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "pappa-con-il-pomodoro",
@@ -1419,7 +1419,7 @@
         "sedano",
         "farina"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "pasta-al-ragu-di-triglie-e-al-succo-d-arancia",
@@ -1475,7 +1475,7 @@
         "olive",
         "sale"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "pasta-con-i-broccoli",
@@ -1488,7 +1488,7 @@
         "Aglio",
         "Pinoli",
         "Olio extra vergine d'oliva",
-        "Pecorino romano"
+        "Pecorino romano DOP"
       ],
       "termini_ricerca": [
         "semola grano duro",
@@ -1521,7 +1521,7 @@
         "olio",
         "olive"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "pasta-con-le-melanzane",
@@ -1562,7 +1562,7 @@
         "sale",
         "prezzemolo"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "pasta-con-le-sarde",
@@ -1622,7 +1622,7 @@
         "olio",
         "olive"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "pasta-con-pesto-alla-siciliana",
@@ -1634,7 +1634,7 @@
         "Aglio",
         "Mandorle tostate e grattugiate",
         "Olio extra vergine d'oliva",
-        "Pomodori San Marzano",
+        "Pomodori san Marzano DOP",
         "Capperi di Pantelleria IGP",
         "Bottarga di muggine",
         "Nepetella"
@@ -1674,7 +1674,7 @@
         "capperi",
         "bottarga"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "pasta-e-fagioli",
@@ -1716,7 +1716,7 @@
         "maiale",
         "spaghetti"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "patatine",
@@ -1752,7 +1752,7 @@
         "prezzemolo",
         "aglio"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "pate-di-fegato",
@@ -1798,7 +1798,7 @@
         "aglio",
         "prezzemolo"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "penne-alla-cannata",
@@ -1853,7 +1853,7 @@
         "olio",
         "olive"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "penne-con-mazzancolle-alle-verdure",
@@ -1898,7 +1898,7 @@
         "zucchine",
         "sale"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "penne-con-zucchine",
@@ -1908,7 +1908,7 @@
         "Mezze penne rigate",
         "Zucchine",
         "Olio extra vergine d'oliva",
-        "Spicco d'aglio",
+        "Aglio",
         "Parmigiano Reggiano"
       ],
       "termini_ricerca": [
@@ -1938,7 +1938,7 @@
         "aglio",
         "parmigiano"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "peperoni-alici-e-capperi",
@@ -1974,7 +1974,7 @@
         "olio",
         "olive"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "picaña",
@@ -1994,7 +1994,7 @@
       "regole_matchate": [
         "picana"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "puree-di-sedano",
@@ -2036,7 +2036,7 @@
         "panna",
         "sale"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "ratatouille-variante",
@@ -2076,7 +2076,7 @@
         "prezzemolo",
         "sale"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "ribollita",
@@ -2126,7 +2126,7 @@
         "sedano",
         "riso"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "riso-cozze-e-patate",
@@ -2175,7 +2175,7 @@
         "olive",
         "sale"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "roastbeef-arrosto-all-inglese",
@@ -2208,7 +2208,7 @@
         "sale",
         "prezzemolo"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "roux-brun",
@@ -2231,7 +2231,7 @@
         "panna",
         "farina"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "salsa-verde",
@@ -2280,7 +2280,7 @@
         "barbera",
         "sale"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "sarde-a-beccafico",
@@ -2338,7 +2338,7 @@
         "zucchero",
         "sale"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "sfogliata-pugliese",
@@ -2387,7 +2387,7 @@
         "capperi",
         "olio"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "soupe-au-pistou",
@@ -2462,7 +2462,7 @@
         "olive",
         "parmigiano"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "spaghetti-alla-bottarga",
@@ -2506,7 +2506,7 @@
         "farina",
         "prezzemolo"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "spaghetti-alla-puttanesca",
@@ -2556,7 +2556,7 @@
         "pomodori",
         "prezzemolo"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "straccetti-di-pollo-al-limone",
@@ -2593,7 +2593,7 @@
         "olive",
         "sale"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
@@ -2626,7 +2626,7 @@
         "olio",
         "sale"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "tagliate",
@@ -2645,7 +2645,7 @@
       "regole_matchate": [
         "pollo"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "tajin-mqualli",
@@ -2714,7 +2714,7 @@
         "aglio",
         "olio"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "tonno-alla-carlofortina",
@@ -2734,7 +2734,7 @@
       "regole_matchate": [
         "tonno"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "tortino-di-alici",
@@ -2780,7 +2780,7 @@
         "prezzemolo",
         "limone"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "vitello-tonnato",
@@ -2836,7 +2836,7 @@
         "tonno",
         "capperi"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "zucchine-in-scapece",
@@ -2868,7 +2868,7 @@
         "barbera",
         "prezzemolo"
       ],
-      "modificato": false
+      "modificato": true
     },
     {
       "slug": "zuppa-di-legumi-con-funghi-settembrini-secchi",
@@ -2913,7 +2913,7 @@
         "maiale",
         "speck"
       ],
-      "modificato": false
+      "modificato": true
     }
   ],
   "nota": "R18-049 usa preferibilmente le tabelle Ingredienti reali delle ricette HTML; proposte-ricette resta fallback."

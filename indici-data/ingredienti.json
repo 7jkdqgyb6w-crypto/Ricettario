@@ -21,9 +21,28 @@
       "../foto/indici/ingredienti/olive-di-gaeta/olive-di-gaeta.old.jpg"
     ]
   },
+  "olive-di-gaeta-dop": {
+    "titolo": "Olive Di Gaeta",
+    "html": "<p></p>",
+    "immagini": []
+  },
   "paccheri-di-gragnano-igp": {
     "titolo": "Paccheri Di Gragnano Igp",
     "html": "<p><strong>Dal disciplinate della </strong><a href=\"https://www.pastadigragnanoigp.it/wp-content/uploads/2024/09/Disciplinare_Pasta_di_Gragnano_12.02.2020.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Pasta di Gragnano IGP</strong></a><strong>.</strong></p><figure class=\"step-photo step-photo-right\" style=\"width: 50%; max-width: 50%;\"><img src=\"../../foto/paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero/OIP-2219084004.jpg\"></figure><p><br>La “Pasta di Gragnano” è il prodotto ottenuto dall’impasto della semola di grano duro con acqua della falda acquifera locale.</p><p>I formati immessi al consumo sono, diversi, tutti tipici, frutto della fantasia dei pastai gragnanesi.</p><p>Il prodotto all'atto dell'immissione al consumo, deve possedere le seguenti caratteristiche:</p><p>2.1 Caratteristiche fisiche:</p><p>aspetto esterno: omogeneo senza macchie bianche o nere; assenza di bolle d'aria, di fessure o tagli, di muffe, larve o parassiti e di corpi estranei;</p><p>sezione di frattura: vitrea;</p><p>colore: giallo paglierino;</p><p>rugosità: presente quale caratteristica dell’uso delle trafile in bronzo.</p><p>Alla cottura la “Pasta di Gragnano” IGP si presenta di:</p><p>consistenza: soda ed elastica;</p><p>omogeneità della cottura: uniforme;</p><p>tenuta di cottura: buona e lunga;</p><p>collosità: assente o impercettibile.</p><p>2.2 Caratteristiche chimiche:</p><p>umidità: non superiore al 12,5% sul prodotto finito;</p><p>proteine minimo: 13% sulla sostanza secca;</p><p>ceneri max.: 0.86% sulla sostanza secca.</p><p>2.3 Caratteristiche organolettiche:</p><p>sapore: sapido con gusto deciso di grano duro;</p><p>odore: di grano maturo.</p>",
     "immagini": []
+  },
+  "pecorino-romano-dop": {
+    "titolo": "Pecorino Romano Dop",
+    "html": "<p><strong><a href=\"https://www.pecorinoromano.com/download_file/view/111/366\" target=\"_blank\" rel=\"noopener noreferrer\">Pecorino romano DOP</a></strong></p><figure class=\"step-photo step-photo-right\" style=\"width: 46%; max-width: 46%;\"><img src=\"../foto/indici/ingredienti/pecorino-romano-dop/12-pecorino-romano_001.jpg\"></figure><p>“Il Pecorino Romano D.O.P. è un formaggio unico, naturale e nutriente, prodotto esclusivamente con latte di pecora delle zone geografiche protette.</p><p>Il suo gusto aromatico, intenso e piccante - che si declina a seconda del grado di stagionatura - si sposa a meraviglia con un'infinità di sapori...anche quelli che non immagini.</p><p>Un Formaggio dalle origini antiche, perfetto per tutte le sfumature della cucina contemporanea\"</p>",
+    "immagini": [
+      "../foto/indici/ingredienti/pecorino-romano-dop/12-pecorino-romano_001.jpg"
+    ]
+  },
+  "pomodori-pelati-san-marzano-dop": {
+    "titolo": "Pomodori Pelati San Marzano Dop",
+    "html": "<p><a href=\"https://consorziopomodorosanmarzanodop.it/\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Pomodoro san Marzano DOP</strong></a></p><figure class=\"step-photo step-photo-right\" style=\"width: 46%; max-width: 46%;\"><img src=\"../foto/indici/ingredienti/pomodori-pelati-san-marzano-dop/DSC3077-1.jpg\"></figure><p>Le caratteristiche che rendono unico e distinguibile il Pomodoro San Marzano da tutti gli altri sono ben specifiche.</p><p><strong>&nbsp;I frutti hanno una tipica forma allungata e una misura solitamente compresa tra i sei e gli otto centimetri e il colore a maturazione è un rosso brillante.</strong></p><p><strong>La buccia sottile si stacca facilmente e custodisce una polpa elastica e corposa quasi priva di semi.</strong></p><p><strong>La sezione interna del pomodoro presenta due o tre logge e il sapore è tipicamente intenso ed agrodolce.</strong></p><p><strong>La densità della polpa, compatta e carnosa, fa sì che il San Marzano non si schiacci durante la lavorazione dando vita a pelati sodi e salse consistenti.</strong></p><p><strong>Dal </strong><a href=\"https://consorziopomodorosanmarzanodop.it/wp-content/uploads/2024/03/disciplinare_Pomodoro_San_marzano_dell_Agro_Sarnese_Nocerino_26.8.2019.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>disciplinare</strong></a><strong>...</strong></p>",
+    "immagini": [
+      "../foto/indici/ingredienti/pomodori-pelati-san-marzano-dop/DSC3077-1.jpg"
+    ]
   }
 }

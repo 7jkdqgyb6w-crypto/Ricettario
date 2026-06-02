@@ -557,6 +557,43 @@ document.addEventListener('DOMContentLoaded', function(){
     }
   }
 
+  function recipeSlugFromLocation(){
+    var match = window.location.pathname.match(/\/ricette\/([^\/?#]+)\/?(?:index\.html)?$/i);
+    return match ? decodeURIComponent(match[1]) : '';
+  }
+
+  function cmsEditorBaseUrl(){
+    try{
+      var configured = window.localStorage && window.localStorage.getItem('ricettario.cmsBaseUrl');
+      if(configured) return configured.replace(/\/+$/, '');
+    }catch(e){}
+    var host = window.location.hostname;
+    var port = window.location.port;
+    if(port === '5000' || /\.app\.github\.dev$/i.test(host)) return window.location.origin;
+    if(host === 'localhost' || host === '127.0.0.1' || host === '::1') return 'http://127.0.0.1:5000';
+    return 'http://127.0.0.1:5000';
+  }
+
+  function openCmsEditorForSlug(slug){
+    if(!slug) return;
+    var url = cmsEditorBaseUrl() + '/?slug=' + encodeURIComponent(slug);
+    var win = window.open(url, 'ricettarioCmsEditor');
+    if(win){ try{ win.focus(); }catch(e){} }
+  }
+
+  function bindCmsEditShortcut(){
+    document.addEventListener('keydown', function(ev){
+      var key = (ev.key || '').toLowerCase();
+      if(!(ev.ctrlKey && ev.altKey && key === 'e')) return;
+      var target = ev.target;
+      if(target && (target.isContentEditable || /^(input|textarea|select)$/i.test(target.tagName || ''))) return;
+      var slug = recipeSlugFromLocation();
+      if(!slug) return;
+      ev.preventDefault();
+      openCmsEditorForSlug(slug);
+    });
+  }
+
   function ensureLicenseOverlay(){
     var overlay = document.getElementById('recipeLicenseOverlay');
     if(overlay) return overlay;
@@ -611,7 +648,7 @@ document.addEventListener('DOMContentLoaded', function(){
     overlay.classList.remove('is-hidden');
   }
 
-  var PRINT_ENGINE_SRC = '../../foto/ui/recipe-editorial-print.js?v=CMS2-R18-148';
+  var PRINT_ENGINE_SRC = '../../foto/ui/recipe-editorial-print.js?v=CMS2-R18-162';
   var printEnginePromise = null;
 
   function loadRecipeEditorialPrintEngine(){
@@ -651,6 +688,7 @@ document.addEventListener('DOMContentLoaded', function(){
   };
 
   document.addEventListener('DOMContentLoaded', function(){
+    bindCmsEditShortcut();
     var printBtn = document.querySelector('.recipe-tool-print, .js-editorial-print-link, .js-print-link');
     var linkBtn = document.querySelector('.recipe-tool-link');
     var backBtn = document.querySelector('.recipe-nav-back');
@@ -856,10 +894,12 @@ document.addEventListener('DOMContentLoaded', function(){
   function normalizeText(value){
     return (value || '').toString().replace(/\s+/g, ' ').trim();
   }
+
   function slugFromLocation(){
     var m = (window.location.pathname || '').match(/\/ricette\/([^\/]+)\/index\.html$/i);
     return m ? decodeURIComponent(m[1]) : '';
   }
+
   function ensureQuickMeta(){
     var quick = document.querySelector('.recipe-quick-meta');
     if(quick) return quick;
@@ -867,21 +907,29 @@ document.addEventListener('DOMContentLoaded', function(){
     if(!grid) return null;
     quick = document.createElement('section');
     quick.className = 'recipe-quick-meta';
-    quick.setAttribute('aria-label', 'Tempi, porzioni, kcal indicative, CO2 stimata e allergeni');
+    quick.setAttribute('aria-label', 'Tempi, porzioni e allergeni');
     grid.insertAdjacentElement('afterend', quick);
     return quick;
   }
-  function cleanLiteralSeparators(quick){
-    if(!quick) return;
-    quick.querySelectorAll('.recipe-quick-meta-sep').forEach(function(el){ el.remove(); });
+
+  function appendSeparatorIfNeeded(quick){
+    if(!quick || !quick.children.length) return;
+    var last = quick.lastElementChild;
+    if(last && last.classList && last.classList.contains('recipe-quick-meta-sep')) return;
+    var sep = document.createElement('span');
+    sep.className = 'recipe-quick-meta-sep';
+    sep.setAttribute('aria-hidden', 'true');
+    sep.textContent = '|';
+    quick.appendChild(sep);
   }
+
   function renderAllergens(allergeni){
     if(!Array.isArray(allergeni) || !allergeni.length) return;
     var quick = ensureQuickMeta();
     if(!quick) return;
-    cleanLiteralSeparators(quick);
     var old = quick.querySelector('.recipe-allergens-meta');
     if(old) old.remove();
+    appendSeparatorIfNeeded(quick);
     var item = document.createElement('span');
     item.className = 'recipe-allergens-meta';
     var strong = document.createElement('strong');
@@ -890,6 +938,7 @@ document.addEventListener('DOMContentLoaded', function(){
     item.appendChild(document.createTextNode(' ' + allergeni.map(normalizeText).filter(Boolean).join(', ')));
     quick.appendChild(item);
   }
+
   function loadAllergens(){
     var slug = slugFromLocation();
     if(!slug) return;
@@ -900,8 +949,9 @@ document.addEventListener('DOMContentLoaded', function(){
         var found = items.find(function(item){ return item && item.slug === slug; });
         if(found && found.allergeni) renderAllergens(found.allergeni);
       })
-      .catch(function(err){ try{ console.warn('[ALLERGENI] quick-meta non aggiornata', err); }catch(_e){} });
+      .catch(function(err){ try{ console.warn('[ALLERGENI] quick-meta runtime non aggiornata; resta eventuale HTML statico', err); }catch(_e){} });
   }
+
   if(document.readyState === 'loading'){
     document.addEventListener('DOMContentLoaded', function(){ setTimeout(loadAllergens, 0); });
   }else{
