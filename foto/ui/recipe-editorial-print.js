@@ -243,7 +243,9 @@ function escapeHtml(value){
       var meta = collectRecipeMeta();
       var timeRows = [];
       if(meta['porzioni']) timeRows.push(['Porzioni', meta['porzioni']]);
+      if(meta['stagione']) timeRows.push(['Stagione', meta['stagione']]);
       if(meta['kcal indicative']) timeRows.push(['Kcal', meta['kcal indicative']]);
+      if(meta['co2'] || meta['co2 stimata']) timeRows.push(['CO2', meta['co2'] || meta['co2 stimata']]);
       if(meta['tempo attivo']) timeRows.push(['Preparazione', meta['tempo attivo']]);
       if(meta['tempo cottura']) timeRows.push(['Cottura', meta['tempo cottura']]);
       if(meta['tempo riposo']) timeRows.push(['Riposo', meta['tempo riposo']]);
