@@ -134,11 +134,17 @@
         "token_chiave": [
           "cipolla"
         ],
-        "tag": [],
+        "tag": [
+          "verdure",
+          "ortaggi",
+          "cipolle"
+        ],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "regole_matchate": [
+          "cipolle"
+        ],
+        "stato": "riconosciuto"
       },
       {
         "originale": "Pomodoro rosso",
@@ -284,7 +290,7 @@
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "stato": "ignorato"
       },
       {
         "originale": "Reale di vitello",
@@ -598,7 +604,8 @@
         ],
         "tag": [
           "latte",
-          "formaggio"
+          "formaggio",
+          "parmigiano reggiano igp"
         ],
         "allergeni": [],
         "tag_accessori": [],
@@ -959,7 +966,7 @@
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "stato": "ignorato"
       },
       {
         "originale": "Carota",
@@ -985,11 +992,17 @@
         "token_chiave": [
           "cipolla"
         ],
-        "tag": [],
+        "tag": [
+          "verdure",
+          "ortaggi",
+          "cipolle"
+        ],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "regole_matchate": [
+          "cipolle"
+        ],
+        "stato": "riconosciuto"
       },
       {
         "originale": "Alloro",
@@ -1488,11 +1501,17 @@
         "token_chiave": [
           "cipolla"
         ],
-        "tag": [],
+        "tag": [
+          "verdure",
+          "ortaggi",
+          "cipolle"
+        ],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "regole_matchate": [
+          "cipolle"
+        ],
+        "stato": "riconosciuto"
       },
       {
         "originale": "Bacche di ginepro",
@@ -1698,11 +1717,17 @@
         "token_chiave": [
           "cipolla"
         ],
-        "tag": [],
+        "tag": [
+          "verdure",
+          "ortaggi",
+          "cipolle"
+        ],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "regole_matchate": [
+          "cipolle"
+        ],
+        "stato": "riconosciuto"
       },
       {
         "originale": "Timo",
@@ -2214,7 +2239,7 @@
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "stato": "ignorato"
       },
       {
         "originale": "Pancetta",
@@ -2280,11 +2305,17 @@
         "token_chiave": [
           "cipolla"
         ],
-        "tag": [],
+        "tag": [
+          "verdure",
+          "ortaggi",
+          "cipolle"
+        ],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "regole_matchate": [
+          "cipolle"
+        ],
+        "stato": "riconosciuto"
       },
       {
         "originale": "Olio extra vergine d'oliva",
@@ -2374,7 +2405,7 @@
         "stato": "riconosciuto"
       },
       {
-        "originale": "Passato di pomodoro",
+        "originale": "Passata di pomodoro",
         "normalizzato": "pomodoro",
         "token_chiave": [
           "pomodoro"
@@ -2434,11 +2465,17 @@
         "token_chiave": [
           "cipolla"
         ],
-        "tag": [],
+        "tag": [
+          "verdure",
+          "ortaggi",
+          "cipolle"
+        ],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "regole_matchate": [
+          "cipolle"
+        ],
+        "stato": "riconosciuto"
       },
       {
         "originale": "Aglio",
@@ -2527,11 +2564,17 @@
         "token_chiave": [
           "pecorino"
         ],
-        "tag": [],
+        "tag": [
+          "latte",
+          "formaggio",
+          "pecorino romano dop"
+        ],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "regole_matchate": [
+          "pecorino"
+        ],
+        "stato": "riconosciuto"
       }
     ]
   },
@@ -2593,16 +2636,22 @@
         "stato": "accessorio_riconosciuto"
       },
       {
-        "originale": "Pecorino romano",
-        "normalizzato": "pecorino romano",
+        "originale": "Pecorino romano DOP",
+        "normalizzato": "pecorino romano dop",
         "token_chiave": [
           "pecorino"
         ],
-        "tag": [],
+        "tag": [
+          "latte",
+          "formaggio",
+          "pecorino romano dop"
+        ],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "regole_matchate": [
+          "pecorino"
+        ],
+        "stato": "riconosciuto"
       },
       {
         "originale": "Aglio",
@@ -2622,7 +2671,7 @@
         "stato": "accessorio_riconosciuto"
       },
       {
-        "originale": "Pelati San Marzano DOP",
+        "originale": "Pomodori pelati san Marzano DOP",
         "normalizzato": "pomodori san marzano dop",
         "token_chiave": [
           "pomodori",
@@ -2928,7 +2977,7 @@
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "stato": "ignorato"
       },
       {
         "originale": "Sale",
@@ -3889,8 +3938,8 @@
         "stato": "accessorio_riconosciuto"
       },
       {
-        "originale": "Olive di Gaeta",
-        "normalizzato": "olive gaeta",
+        "originale": "Olive di Gaeta DOP",
+        "normalizzato": "olive gaeta dop",
         "token_chiave": [
           "olive",
           "oliva"
@@ -4086,7 +4135,8 @@
         ],
         "tag": [
           "latte",
-          "formaggio"
+          "formaggio",
+          "parmigiano reggiano igp"
         ],
         "allergeni": [],
         "tag_accessori": [],
@@ -4161,11 +4211,17 @@
         "token_chiave": [
           "cipolla"
         ],
-        "tag": [],
+        "tag": [
+          "verdure",
+          "ortaggi",
+          "cipolle"
+        ],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "regole_matchate": [
+          "cipolle"
+        ],
+        "stato": "riconosciuto"
       },
       {
         "originale": "Carote",
@@ -4888,24 +4944,20 @@
         "stato": "riconosciuto"
       },
       {
-        "originale": "Capperi sotto sale",
-        "normalizzato": "capperi sotto sale",
+        "originale": "Capperi di Pantelleria IGP",
+        "normalizzato": "capperi pantelleria igp",
         "token_chiave": [
           "capperi",
-          "cappero",
-          "sotto",
-          "sale"
+          "cappero"
         ],
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
           "verdure",
-          "capperi",
-          "spezie"
+          "capperi"
         ],
         "regole_matchate": [
-          "capperi",
-          "sale"
+          "capperi"
         ],
         "stato": "accessorio_riconosciuto"
       },
@@ -4942,11 +4994,9 @@
         "stato": "accessorio_riconosciuto"
       },
       {
-        "originale": "Concentrato di pomodori",
-        "normalizzato": "concentrato pomodori",
+        "originale": "Concentrato di pomodoro",
+        "normalizzato": "pomodoro",
         "token_chiave": [
-          "concentrato",
-          "pomodori",
           "pomodoro"
         ],
         "tag": [
@@ -5042,7 +5092,7 @@
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "stato": "ignorato"
       }
     ]
   },
@@ -5486,16 +5536,22 @@
         "stato": "accessorio_riconosciuto"
       },
       {
-        "originale": "Pecorino romano",
-        "normalizzato": "pecorino romano",
+        "originale": "Pecorino romano DOP",
+        "normalizzato": "pecorino romano dop",
         "token_chiave": [
           "pecorino"
         ],
-        "tag": [],
+        "tag": [
+          "latte",
+          "formaggio",
+          "pecorino romano dop"
+        ],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "regole_matchate": [
+          "pecorino"
+        ],
+        "stato": "riconosciuto"
       }
     ]
   },
@@ -5661,11 +5717,17 @@
         "token_chiave": [
           "cipolla"
         ],
-        "tag": [],
+        "tag": [
+          "verdure",
+          "ortaggi",
+          "cipolle"
+        ],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "regole_matchate": [
+          "cipolle"
+        ],
+        "stato": "riconosciuto"
       },
       {
         "originale": "Concentrato di pomodoro",
@@ -5917,17 +5979,11 @@
         "stato": "accessorio_riconosciuto"
       },
       {
-        "originale": "Pomodorini datterini o meglio San Marzano se di stagione",
-        "normalizzato": "pomodorini datterini meglio san marzano se stagione",
+        "originale": "Pomodori san Marzano DOP",
+        "normalizzato": "pomodori san marzano dop",
         "token_chiave": [
-          "pomodorini",
-          "pomodorino",
-          "datterini",
-          "datterino",
-          "meglio",
-          "se",
-          "stagione",
-          "stagiona"
+          "pomodori",
+          "pomodoro"
         ],
         "tag": [
           "verdure",
@@ -5942,30 +5998,26 @@
         "stato": "riconosciuto"
       },
       {
-        "originale": "Capperi sotto sale",
-        "normalizzato": "capperi sotto sale",
+        "originale": "Capperi di Pantelleria IGP",
+        "normalizzato": "capperi pantelleria igp",
         "token_chiave": [
           "capperi",
-          "cappero",
-          "sotto",
-          "sale"
+          "cappero"
         ],
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
           "verdure",
-          "capperi",
-          "spezie"
+          "capperi"
         ],
         "regole_matchate": [
-          "capperi",
-          "sale"
+          "capperi"
         ],
         "stato": "accessorio_riconosciuto"
       },
       {
-        "originale": "Bottarga di muggine intera",
-        "normalizzato": "bottarga muggine intera",
+        "originale": "Bottarga di muggine",
+        "normalizzato": "bottarga muggine",
         "token_chiave": [
           "bottarga",
           "muggine",
@@ -5985,10 +6037,10 @@
         "stato": "riconosciuto"
       },
       {
-        "originale": "Mentuccia.",
-        "normalizzato": "mentuccia",
+        "originale": "Nepetella",
+        "normalizzato": "nepetella",
         "token_chiave": [
-          "mentuccia"
+          "nepetella"
         ],
         "tag": [],
         "allergeni": [],
@@ -6030,11 +6082,17 @@
         "token_chiave": [
           "cipolla"
         ],
-        "tag": [],
+        "tag": [
+          "verdure",
+          "ortaggi",
+          "cipolle"
+        ],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "regole_matchate": [
+          "cipolle"
+        ],
+        "stato": "riconosciuto"
       },
       {
         "originale": "Carota",
@@ -6309,11 +6367,17 @@
         "token_chiave": [
           "cipolla"
         ],
-        "tag": [],
+        "tag": [
+          "verdure",
+          "ortaggi",
+          "cipolle"
+        ],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "regole_matchate": [
+          "cipolle"
+        ],
+        "stato": "riconosciuto"
       },
       {
         "originale": "Aglio",
@@ -6400,44 +6464,6 @@
     "slug": "penne-alla-cannata",
     "ingredienti": [
       {
-        "originale": "Alici sotto sale",
-        "normalizzato": "alici",
-        "token_chiave": [
-          "alici",
-          "alico"
-        ],
-        "tag": [
-          "pesce",
-          "alici"
-        ],
-        "allergeni": [
-          "pesce"
-        ],
-        "tag_accessori": [],
-        "regole_matchate": [
-          "alici"
-        ],
-        "stato": "riconosciuto"
-      },
-      {
-        "originale": "Capperi",
-        "normalizzato": "capperi",
-        "token_chiave": [
-          "capperi",
-          "cappero"
-        ],
-        "tag": [],
-        "allergeni": [],
-        "tag_accessori": [
-          "verdure",
-          "capperi"
-        ],
-        "regole_matchate": [
-          "capperi"
-        ],
-        "stato": "accessorio_riconosciuto"
-      },
-      {
         "originale": "Mezze penne rigate",
         "normalizzato": "penne",
         "token_chiave": [
@@ -6454,6 +6480,44 @@
         "tag_accessori": [],
         "regole_matchate": [
           "spaghetti"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Capperi di Pantelleria IGP",
+        "normalizzato": "capperi pantelleria igp",
+        "token_chiave": [
+          "capperi",
+          "cappero"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "verdure",
+          "capperi"
+        ],
+        "regole_matchate": [
+          "capperi"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Alici sotto sale",
+        "normalizzato": "alici",
+        "token_chiave": [
+          "alici",
+          "alico"
+        ],
+        "tag": [
+          "pesce",
+          "alici"
+        ],
+        "allergeni": [
+          "pesce"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "alici"
         ],
         "stato": "riconosciuto"
       },
@@ -6813,10 +6877,9 @@
         "stato": "accessorio_riconosciuto"
       },
       {
-        "originale": "Spicco d'aglio",
-        "normalizzato": "spicco aglio",
+        "originale": "Aglio",
+        "normalizzato": "aglio",
         "token_chiave": [
-          "spicco",
           "aglio"
         ],
         "tag": [],
@@ -6838,7 +6901,8 @@
         ],
         "tag": [
           "latte",
-          "formaggio"
+          "formaggio",
+          "parmigiano reggiano igp"
         ],
         "allergeni": [],
         "tag_accessori": [],
@@ -6872,24 +6936,20 @@
         "stato": "riconosciuto"
       },
       {
-        "originale": "Capperi sotto sale",
-        "normalizzato": "capperi sotto sale",
+        "originale": "Capperi di Pantelleria IGP",
+        "normalizzato": "capperi pantelleria igp",
         "token_chiave": [
           "capperi",
-          "cappero",
-          "sotto",
-          "sale"
+          "cappero"
         ],
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
           "verdure",
-          "capperi",
-          "spezie"
+          "capperi"
         ],
         "regole_matchate": [
-          "capperi",
-          "sale"
+          "capperi"
         ],
         "stato": "accessorio_riconosciuto"
       },
@@ -6914,14 +6974,12 @@
         "stato": "riconosciuto"
       },
       {
-        "originale": "Olio extra vergine d'oliva pugliese",
-        "normalizzato": "olio d oliva pugliese",
+        "originale": "Olio extra vergine d'oliva",
+        "normalizzato": "olio d oliva",
         "token_chiave": [
           "olio",
           "d",
-          "oliva",
-          "pugliese",
-          "pugliesa"
+          "oliva"
         ],
         "tag": [],
         "allergeni": [],
@@ -6981,7 +7039,7 @@
     "slug": "puree-di-sedano",
     "ingredienti": [
       {
-        "originale": "Sedano rapa",
+        "originale": "sedano rapa",
         "normalizzato": "sedano rapa",
         "token_chiave": [
           "sedano",
@@ -7004,7 +7062,7 @@
         "stato": "riconosciuto"
       },
       {
-        "originale": "Gambi di sedano",
+        "originale": "gambi di sedano",
         "normalizzato": "gambi sedano",
         "token_chiave": [
           "gambi",
@@ -7026,19 +7084,25 @@
         "stato": "riconosciuto"
       },
       {
-        "originale": "Cipolla",
+        "originale": "cipolla",
         "normalizzato": "cipolla",
         "token_chiave": [
           "cipolla"
         ],
-        "tag": [],
+        "tag": [
+          "verdure",
+          "ortaggi",
+          "cipolle"
+        ],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "regole_matchate": [
+          "cipolle"
+        ],
+        "stato": "riconosciuto"
       },
       {
-        "originale": "Aglio",
+        "originale": "aglio",
         "normalizzato": "aglio",
         "token_chiave": [
           "aglio"
@@ -7055,7 +7119,7 @@
         "stato": "accessorio_riconosciuto"
       },
       {
-        "originale": "Patate",
+        "originale": "patate",
         "normalizzato": "patate",
         "token_chiave": [
           "patate",
@@ -7074,7 +7138,7 @@
         "stato": "riconosciuto"
       },
       {
-        "originale": "Burro",
+        "originale": "burro",
         "normalizzato": "burro",
         "token_chiave": [
           "burro"
@@ -7091,7 +7155,25 @@
         "stato": "riconosciuto"
       },
       {
-        "originale": "Noce moscata",
+        "originale": "Parmigiano Reggiano DOP",
+        "normalizzato": "parmigiano reggiano dop",
+        "token_chiave": [
+          "parmigiano"
+        ],
+        "tag": [
+          "latte",
+          "formaggio",
+          "parmigiano reggiano igp"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "parmigiano"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "noce moscata",
         "normalizzato": "noce moscata",
         "token_chiave": [
           "noce",
@@ -7175,11 +7257,17 @@
         "token_chiave": [
           "cipolla"
         ],
-        "tag": [],
+        "tag": [
+          "verdure",
+          "ortaggi",
+          "cipolle"
+        ],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "regole_matchate": [
+          "cipolle"
+        ],
+        "stato": "riconosciuto"
       },
       {
         "originale": "Aglio",
@@ -7279,11 +7367,17 @@
         "token_chiave": [
           "cipolla"
         ],
-        "tag": [],
+        "tag": [
+          "verdure",
+          "ortaggi",
+          "cipolle"
+        ],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "regole_matchate": [
+          "cipolle"
+        ],
+        "stato": "riconosciuto"
       },
       {
         "originale": "Pepe",
@@ -7466,21 +7560,26 @@
         "stato": "accessorio_riconosciuto"
       },
       {
-        "originale": "Pecorino romano DPO",
-        "normalizzato": "pecorino romano dpo",
+        "originale": "Pecorino romano DOP",
+        "normalizzato": "pecorino romano dop",
         "token_chiave": [
-          "pecorino",
-          "dpo"
+          "pecorino"
         ],
-        "tag": [],
+        "tag": [
+          "latte",
+          "formaggio",
+          "pecorino romano dop"
+        ],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "regole_matchate": [
+          "pecorino"
+        ],
+        "stato": "riconosciuto"
       },
       {
-        "originale": "Pomodori pelati DOP",
-        "normalizzato": "pomodori dop",
+        "originale": "Pomodori pelati san Marzano DOP",
+        "normalizzato": "pomodori san marzano dop",
         "token_chiave": [
           "pomodori",
           "pomodoro"
@@ -7718,8 +7817,8 @@
         "stato": "accessorio_riconosciuto"
       },
       {
-        "originale": "Capperi",
-        "normalizzato": "capperi",
+        "originale": "Capperi di Pantelleria IGP",
+        "normalizzato": "capperi pantelleria igp",
         "token_chiave": [
           "capperi",
           "cappero"
@@ -7802,16 +7901,21 @@
         "stato": "accessorio_riconosciuto"
       },
       {
-        "originale": "Aceto",
-        "normalizzato": "aceto",
+        "originale": "Aceto di vino bianco",
+        "normalizzato": "aceto vino bianco",
         "token_chiave": [
-          "aceto"
+          "aceto",
+          "vino"
         ],
         "tag": [],
         "allergeni": [],
-        "tag_accessori": [],
-        "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "tag_accessori": [
+          "vino"
+        ],
+        "regole_matchate": [
+          "barbera"
+        ],
+        "stato": "accessorio_riconosciuto"
       },
       {
         "originale": "Sale",
@@ -8138,8 +8242,8 @@
         "stato": "riconosciuto"
       },
       {
-        "originale": "Pomodori pelati DOP",
-        "normalizzato": "pomodori dop",
+        "originale": "Pomodori pelati san Marzano DOP",
+        "normalizzato": "pomodori san marzano dop",
         "token_chiave": [
           "pomodori",
           "pomodoro"
@@ -8157,20 +8261,26 @@
         "stato": "riconosciuto"
       },
       {
-        "originale": "Pecorino romano",
-        "normalizzato": "pecorino romano",
+        "originale": "Pecorino romano DOP",
+        "normalizzato": "pecorino romano dop",
         "token_chiave": [
           "pecorino"
         ],
-        "tag": [],
+        "tag": [
+          "latte",
+          "formaggio",
+          "pecorino romano dop"
+        ],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "regole_matchate": [
+          "pecorino"
+        ],
+        "stato": "riconosciuto"
       },
       {
-        "originale": "Capperi",
-        "normalizzato": "capperi",
+        "originale": "Capperi di Pantelleria IGP",
+        "normalizzato": "capperi pantelleria igp",
         "token_chiave": [
           "capperi",
           "cappero"
@@ -8523,7 +8633,8 @@
         ],
         "tag": [
           "latte",
-          "formaggio"
+          "formaggio",
+          "parmigiano reggiano igp"
         ],
         "allergeni": [],
         "tag_accessori": [],
@@ -8730,8 +8841,8 @@
         "stato": "accessorio_riconosciuto"
       },
       {
-        "originale": "Olive di Gaeta",
-        "normalizzato": "olive gaeta",
+        "originale": "Olive di Gaeta DOP",
+        "normalizzato": "olive gaeta dop",
         "token_chiave": [
           "olive",
           "oliva"
@@ -8748,24 +8859,20 @@
         "stato": "accessorio_riconosciuto"
       },
       {
-        "originale": "Capperi sotto sale",
-        "normalizzato": "capperi sotto sale",
+        "originale": "Capperi di Pantelleria IGP",
+        "normalizzato": "capperi pantelleria igp",
         "token_chiave": [
           "capperi",
-          "cappero",
-          "sotto",
-          "sale"
+          "cappero"
         ],
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
           "verdure",
-          "capperi",
-          "spezie"
+          "capperi"
         ],
         "regole_matchate": [
-          "capperi",
-          "sale"
+          "capperi"
         ],
         "stato": "accessorio_riconosciuto"
       },
@@ -8811,8 +8918,8 @@
         "stato": "accessorio_riconosciuto"
       },
       {
-        "originale": "Pelati",
-        "normalizzato": "pomodori",
+        "originale": "Pomodori pelati san Marzano DOP",
+        "normalizzato": "pomodori san marzano dop",
         "token_chiave": [
           "pomodori",
           "pomodoro"
@@ -9521,11 +9628,17 @@
         "token_chiave": [
           "pecorino"
         ],
-        "tag": [],
+        "tag": [
+          "latte",
+          "formaggio",
+          "pecorino romano dop"
+        ],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "regole_matchate": [
+          "pecorino"
+        ],
+        "stato": "riconosciuto"
       },
       {
         "originale": "Olio extra vergine d'oliva",
@@ -9764,11 +9877,17 @@
         "token_chiave": [
           "cipolla"
         ],
-        "tag": [],
+        "tag": [
+          "verdure",
+          "ortaggi",
+          "cipolle"
+        ],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "regole_matchate": [
+          "cipolle"
+        ],
+        "stato": "riconosciuto"
       },
       {
         "originale": "Aglio",
@@ -9858,8 +9977,8 @@
         "stato": "riconosciuto"
       },
       {
-        "originale": "Capperi di Pantelleria DOP",
-        "normalizzato": "capperi pantelleria dop",
+        "originale": "Capperi di Pantelleria IGP",
+        "normalizzato": "capperi pantelleria igp",
         "token_chiave": [
           "capperi",
           "cappero"
@@ -9934,16 +10053,21 @@
         "stato": "accessorio_riconosciuto"
       },
       {
-        "originale": "Aceto bianco",
-        "normalizzato": "aceto bianco",
+        "originale": "Aceto di vino bianco",
+        "normalizzato": "aceto vino bianco",
         "token_chiave": [
-          "aceto"
+          "aceto",
+          "vino"
         ],
         "tag": [],
         "allergeni": [],
-        "tag_accessori": [],
-        "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "tag_accessori": [
+          "vino"
+        ],
+        "regole_matchate": [
+          "barbera"
+        ],
+        "stato": "accessorio_riconosciuto"
       },
       {
         "originale": "Nepetella",

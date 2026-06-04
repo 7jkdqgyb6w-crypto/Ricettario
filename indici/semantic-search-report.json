@@ -1,7 +1,7 @@
 {
   "versione": "CMS2-R18-103",
-  "semantica_versione": "CMS2-R18-103",
-  "timestamp": "2026-06-02T23:18:41",
+  "semantica_versione": "CMS2-R18-169",
+  "timestamp": "2026-06-04T18:53:39",
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "search_data": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT\\indici\\search-data.json",
   "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\CMS\\ingredienti-semantica.json",
@@ -84,6 +84,7 @@
         "spinaci",
         "uova",
         "formaggio",
+        "parmigiano reggiano igp",
         "panna",
         "semola grano duro",
         "pasta",
@@ -597,7 +598,10 @@
         "verdure",
         "ortaggi",
         "pomodori",
-        "cipolle"
+        "cipolle",
+        "latte",
+        "formaggio",
+        "pecorino romano dop"
       ],
       "allergeni": [],
       "tag_accessori_esclusi": [
@@ -618,7 +622,8 @@
         "cipolle",
         "aglio",
         "prezzemolo",
-        "sale"
+        "sale",
+        "pecorino"
       ],
       "modificato": true
     },
@@ -641,6 +646,9 @@
         "molluschi",
         "calamari",
         "uova",
+        "latte",
+        "formaggio",
+        "pecorino romano dop",
         "verdure",
         "ortaggi",
         "pomodori"
@@ -661,6 +669,7 @@
         "calamari",
         "uova",
         "prezzemolo",
+        "pecorino",
         "aglio",
         "pomodori",
         "olio",
@@ -1098,7 +1107,8 @@
         "funghi",
         "latte",
         "panna",
-        "formaggio"
+        "formaggio",
+        "parmigiano reggiano igp"
       ],
       "allergeni": [],
       "tag_accessori_esclusi": [],
@@ -1499,7 +1509,10 @@
         "ortaggi",
         "broccoli",
         "frutta",
-        "frutta guscio"
+        "frutta guscio",
+        "latte",
+        "formaggio",
+        "pecorino romano dop"
       ],
       "allergeni": [
         "cereali contenenti glutine",
@@ -1519,7 +1532,8 @@
         "aglio",
         "mandorle",
         "olio",
-        "olive"
+        "olive",
+        "pecorino"
       ],
       "modificato": true
     },
@@ -1918,7 +1932,8 @@
         "ortaggi",
         "zucchine",
         "latte",
-        "formaggio"
+        "formaggio",
+        "parmigiano reggiano igp"
       ],
       "allergeni": [
         "cereali contenenti glutine"
@@ -2001,13 +2016,14 @@
       "titolo": "Purée di sedano",
       "fonte_semantica": "html-ingredienti",
       "ingredienti_usati": [
-        "Sedano rapa",
-        "Gambi di sedano",
-        "Cipolla",
-        "Aglio",
-        "Patate",
-        "Burro",
-        "Noce moscata"
+        "sedano rapa",
+        "gambi di sedano",
+        "cipolla",
+        "aglio",
+        "patate",
+        "burro",
+        "Parmigiano Reggiano DOP",
+        "noce moscata"
       ],
       "termini_ricerca": [
         "verdure",
@@ -2017,7 +2033,9 @@
         "cipolle",
         "patate",
         "latte",
-        "panna"
+        "panna",
+        "formaggio",
+        "parmigiano reggiano igp"
       ],
       "allergeni": [
         "sedano"
@@ -2034,6 +2052,7 @@
         "aglio",
         "patate",
         "panna",
+        "parmigiano",
         "sale"
       ],
       "modificato": true
@@ -2151,6 +2170,9 @@
         "verdure",
         "ortaggi",
         "patate",
+        "latte",
+        "formaggio",
+        "pecorino romano dop",
         "pomodori"
       ],
       "allergeni": [
@@ -2170,6 +2192,7 @@
         "patate",
         "aglio",
         "prezzemolo",
+        "pecorino",
         "pomodori",
         "olio",
         "olive",
@@ -2364,7 +2387,10 @@
         "uvetta passa",
         "verdure",
         "ortaggi",
-        "pomodori"
+        "pomodori",
+        "latte",
+        "formaggio",
+        "pecorino romano dop"
       ],
       "allergeni": [
         "cereali contenenti glutine",
@@ -2384,6 +2410,7 @@
         "alici",
         "uva passa",
         "pomodori",
+        "pecorino",
         "capperi",
         "olio"
       ],
@@ -2431,7 +2458,8 @@
         "semola grano duro",
         "pasta",
         "latte",
-        "formaggio"
+        "formaggio",
+        "parmigiano reggiano igp"
       ],
       "allergeni": [
         "sedano",
@@ -2756,7 +2784,10 @@
       "termini_ricerca": [
         "pesce",
         "alici",
-        "farina frumento"
+        "farina frumento",
+        "latte",
+        "formaggio",
+        "pecorino romano dop"
       ],
       "allergeni": [
         "pesce",
@@ -2774,6 +2805,7 @@
       "regole_matchate": [
         "alici",
         "farina",
+        "pecorino",
         "olio",
         "olive",
         "sale",

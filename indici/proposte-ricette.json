@@ -1360,14 +1360,15 @@
     "titolo": "Purée di sedano",
     "proposte": {
       "porzioni": "4-6",
-      "tempo_attivo": "15-30 min",
-      "tempo_cottura": "10 min circa",
-      "tempo_riposo": "",
-      "tempo_totale": "da verificare",
+      "tempo_attivo": "30-45 min",
+      "tempo_cottura": "30-45 min",
+      "tempo_riposo": "30 min",
+      "tempo_totale": "include riposo",
       "ingredienti_chiave": [
-        "Gambi di sedano",
-        "Patate",
-        "Noce moscata"
+        "gambi di sedano",
+        "patate",
+        "Parmigiano Reggiano DOP",
+        "noce moscata"
       ]
     },
     "confidenza": "bassa",
@@ -1378,6 +1379,7 @@
     },
     "note": [
       "range standard per antipasto/salsa/contorno",
+      "riposo dedotto da testo",
       "tempo cottura ricavato da durate esplicite presenti nel testo",
       "tempo attivo stimato da numero ingredienti/passaggi",
       "ingredienti chiave proposti da tabella ingredienti/titolo"
@@ -1449,7 +1451,7 @@
     "proposte": {
       "porzioni": "4",
       "tempo_attivo": "30-45 min",
-      "tempo_cottura": "25 min circa",
+      "tempo_cottura": "30-45 min",
       "tempo_riposo": "30 min",
       "tempo_totale": "include riposo",
       "ingredienti_chiave": [
@@ -1464,7 +1466,7 @@
       "ingredienti_chiave": "media"
     },
     "note": [
-      "fallback standard da validare",
+      "range standard per primo piatto da validare",
       "riposo dedotto da testo",
       "tempo cottura ricavato da durate esplicite presenti nel testo",
       "tempo attivo stimato da numero ingredienti/passaggi",
@@ -1901,8 +1903,8 @@
       "porzioni": "4-6",
       "tempo_attivo": "30-45 min",
       "tempo_cottura": "30-45 min",
-      "tempo_riposo": "",
-      "tempo_totale": "da verificare",
+      "tempo_riposo": "30 min",
+      "tempo_totale": "include riposo",
       "ingredienti_chiave": [
         "Alici freschissime",
         "Mollica o pangrattato",
@@ -1920,6 +1922,7 @@
     },
     "note": [
       "range standard per antipasto/salsa/contorno",
+      "riposo dedotto da testo",
       "tempo cottura ricavato da durate esplicite presenti nel testo",
       "tempo attivo stimato da numero ingredienti/passaggi",
       "ingredienti chiave proposti da tabella ingredienti/titolo"

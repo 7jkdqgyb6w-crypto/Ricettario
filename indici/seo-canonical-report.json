@@ -4,7 +4,7 @@
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "site_base_url": "https://ricette.pierre.piccotti.it",
   "mode": "APPLY",
-  "created_at": "2026-06-02T23:19:10",
+  "created_at": "2026-06-04T18:54:06",
   "counts": {
     "UNCHANGED": 70,
     "UPDATED": 6
@@ -368,7 +368,7 @@
       "path": "ricette\\puree-di-sedano\\index.html",
       "status": "UNCHANGED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/puree-di-sedano/",
-      "description": "Purée di sedano. Lessare le patate quindi schiacciarle. Lessare sedano rapa, sedano, cipolla e aglio, quindi sgocciolare.Frullare con le patate.Fare…"
+      "description": "Purée di sedano. A volte è necessario alleggerire un piatto. Queta ricetta elementare è perfetta nella sua semplicità."
     },
     {
       "path": "ricette\\ratatouille-variante\\index.html",
