@@ -366,6 +366,20 @@ main.recipe-page > .recipe-content{
   margin-right: auto;
 }
 
+.home-madeleine{
+  float:right;
+  width:184px;
+  max-width:38%;
+  margin:.15rem 0 1rem 1.35rem;
+  padding:.45rem .15rem .55rem .65rem;
+}
+
+.home-madeleine img{
+  width:156px;
+  max-width:100%;
+  margin-left:auto;
+  box-shadow:none;
+}
 .home-intro p{
   max-width: none;
 }
@@ -1616,5 +1630,20 @@ main.recipe-page .image-row.image-group-continuation{
     width: 100%;
     padding-left: 1.25rem;
     padding-right: 1.25rem;
+  }
+}
+
+@media (max-width: 640px){
+  .home-madeleine{
+    float:none;
+    width:140px;
+    max-width:44%;
+    margin:.1rem auto 1.05rem;
+    padding:.45rem .35rem .6rem;
+  }
+
+  .home-madeleine img{
+    width:118px;
+    margin:0 auto;
   }
 }
