@@ -176,6 +176,12 @@ dt{
   margin-bottom: 1.2rem;
 }
 
+.recipe-page figure.step-photo-large,
+.recipe-page figure.step-photo[data-align="center"]{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .table-wrap{
   width: 100%;
   overflow-x: auto;

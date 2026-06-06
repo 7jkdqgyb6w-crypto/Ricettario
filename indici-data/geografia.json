@@ -1,11 +1,11 @@
 {
-  "brasile": {
+  "francia-normandia": {
     "titolo": "Francia - Normandia",
-    "html": "<p>La Normandia cambia luce in continuazione: sole netto, pioggia improvvisa, cielo basso, vento, prati accesi. Forse anche per questo il suo burro non mi interessa come immagine di cartolina, ma come materia: panna, erba, umidità, lavoro, territorio.</p><p>Alcune immagini della Normandia sono raccolte <a href=\"https://photos.app.goo.gl/fYr9SAwrGm2vvy5E9\" target=\"_blank\" rel=\"noopener noreferrer\">qui</a>. Non sono una spiegazione della ricetta, solo una deviazione possibile.</p><figure class=\"step-photo step-photo-right\" style=\"width: 152px; max-width: 100%;\"><img src=\"../foto/indici/geografia/brasile/P8250102.jpg\" width=\"152\"></figure><figure class=\"step-photo step-photo-right\" style=\"width: 152px; max-width: 100%;\"><img src=\"../foto/indici/geografia/brasile/P8260025.jpg\" width=\"152\"></figure><figure class=\"step-photo step-photo-right\" style=\"width: 152px; max-width: 100%;\"><img src=\"../foto/indici/geografia/brasile/P8240005.jpg\" width=\"152\"></figure>",
+    "html": "<p>La Normandia cambia luce in continuazione: sole netto, pioggia improvvisa, cielo basso, vento, prati accesi. Forse anche per questo il suo burro non mi interessa come immagine di cartolina, ma come materia: panna, erba, umidità, lavoro, territorio.</p><p>Alcune immagini della Normandia sono raccolte <a href=\"https://photos.app.goo.gl/fYr9SAwrGm2vvy5E9\" target=\"_blank\" rel=\"noopener noreferrer\">qui</a>. Non sono una spiegazione della ricetta, solo una deviazione possibile.</p><figure class=\"step-photo step-photo-right\" style=\"width: 152px; max-width: 100%;\"><img src=\"../foto/indici/geografia/francia-normandia/P8250102.jpg\" width=\"152\"></figure><figure class=\"step-photo step-photo-right\" style=\"width: 152px; max-width: 100%;\"><img src=\"../foto/indici/geografia/francia-normandia/P8260025.jpg\" width=\"152\"></figure><figure class=\"step-photo step-photo-right\" style=\"width: 152px; max-width: 100%;\"><img src=\"../foto/indici/geografia/francia-normandia/P8240005.jpg\" width=\"152\"></figure>",
     "immagini": [
-      "../foto/indici/geografia/brasile/P8240005.jpg",
-      "../foto/indici/geografia/brasile/P8250102.jpg",
-      "../foto/indici/geografia/brasile/P8260025.jpg"
+      "../foto/indici/geografia/francia-normandia/P8240005.jpg",
+      "../foto/indici/geografia/francia-normandia/P8250102.jpg",
+      "../foto/indici/geografia/francia-normandia/P8260025.jpg"
     ]
   }
 }

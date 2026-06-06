@@ -1,13 +1,13 @@
 {
   "versione": "CMS2-R18-103",
   "semantica_versione": "CMS2-R18-169",
-  "timestamp": "2026-06-06T10:18:11",
+  "timestamp": "2026-06-06T14:53:49",
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "search_data": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT\\indici\\search-data.json",
   "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\CMS\\ingredienti-semantica.json",
   "apply": true,
-  "processed": 66,
-  "changed": 64,
+  "processed": 67,
+  "changed": 65,
   "missing_source": [],
   "no_structural_terms": [
     "antipastino-piemontese",
@@ -1227,6 +1227,54 @@
         "prezzemolo",
         "sale",
         "limone"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "madeleine",
+      "titolo": "Madeleine",
+      "fonte_semantica": "html-ingredienti",
+      "ingredienti_usati": [
+        "farina di frumento",
+        "zucchero semolato",
+        "uova",
+        "Burro di Normandia AOP",
+        "latte intero",
+        "lievito per dolci",
+        "limone non trattato",
+        "miele delicato",
+        "sale"
+      ],
+      "termini_ricerca": [
+        "farina frumento",
+        "uova",
+        "latte",
+        "panna",
+        "burro",
+        "burro normandia aop"
+      ],
+      "allergeni": [
+        "cereali contenenti glutine",
+        "uova",
+        "latte"
+      ],
+      "tag_accessori_esclusi": [
+        "dolcificanti",
+        "zucchero",
+        "frutti",
+        "agrumi",
+        "limone",
+        "spezie"
+      ],
+      "regole_matchate": [
+        "farina",
+        "zucchero",
+        "uova",
+        "panna",
+        "burro normandia aop",
+        "latte",
+        "limone",
+        "sale"
       ],
       "modificato": true
     },
