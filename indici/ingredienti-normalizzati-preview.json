@@ -12,7 +12,7 @@
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "stato": "ignorato"
       },
       {
         "originale": "Polpa di manzo",
@@ -175,7 +175,7 @@
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "stato": "ignorato"
       },
       {
         "originale": "Sale",
@@ -300,11 +300,18 @@
           "reala",
           "vitello"
         ],
-        "tag": [],
+        "tag": [
+          "carne",
+          "bovini",
+          "vitello",
+          "reale vitello"
+        ],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "regole_matchate": [
+          "reale vitello"
+        ],
+        "stato": "riconosciuto"
       },
       {
         "originale": "Polpa di suino",
@@ -395,7 +402,7 @@
           "spinaco"
         ],
         "tag": [
-          "verdura",
+          "verdure",
           "ortaggi",
           "spinaci"
         ],
@@ -552,15 +559,22 @@
           "noce",
           "moscata"
         ],
-        "tag": [],
-        "allergeni": [],
+        "tag": [
+          "frutta",
+          "frutta guscio"
+        ],
+        "allergeni": [
+          "noci",
+          "arachidi"
+        ],
         "tag_accessori": [
           "spezie"
         ],
         "regole_matchate": [
-          "sale"
+          "sale",
+          "mandorla"
         ],
-        "stato": "accessorio_riconosciuto"
+        "stato": "riconosciuto"
       },
       {
         "originale": "Barbera",
@@ -571,7 +585,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "vino"
+          "vino",
+          "vino rosso",
+          "barbera"
         ],
         "regole_matchate": [
           "barbera"
@@ -610,7 +626,7 @@
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "parmigiano"
+          "parmigiano reggiano igp"
         ],
         "stato": "riconosciuto"
       },
@@ -849,7 +865,7 @@
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "stato": "ignorato"
       },
       {
         "originale": "Passata di pomodoro",
@@ -878,7 +894,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "vino"
+          "vino",
+          "vino rosso",
+          "barbera"
         ],
         "regole_matchate": [
           "barbera"
@@ -929,6 +947,7 @@
           "arancia"
         ],
         "tag": [
+          "frutti",
           "agrumi",
           "arancia"
         ],
@@ -1241,6 +1260,7 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
+          "frutti",
           "agrumi",
           "limone"
         ],
@@ -1279,7 +1299,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "vino"
+          "vino",
+          "vino rosso",
+          "barbera"
         ],
         "regole_matchate": [
           "barbera"
@@ -1372,11 +1394,17 @@
         "token_chiave": [
           "insalata"
         ],
-        "tag": [],
+        "tag": [
+          "verdure",
+          "ortaggi",
+          "insalata novella"
+        ],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "regole_matchate": [
+          "insalata novella"
+        ],
+        "stato": "riconosciuto"
       },
       {
         "originale": "Olio extra vergine d'oliva",
@@ -1441,6 +1469,7 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
+          "frutti",
           "agrumi",
           "limone"
         ],
@@ -1541,6 +1570,7 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
+          "frutti",
           "agrumi",
           "limone"
         ],
@@ -1558,7 +1588,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "vino"
+          "vino",
+          "vino rosso",
+          "barbera"
         ],
         "regole_matchate": [
           "barbera"
@@ -1617,11 +1649,16 @@
         "token_chiave": [
           "birra"
         ],
-        "tag": [],
+        "tag": [
+          "birra",
+          "birra ambrata"
+        ],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "regole_matchate": [
+          "birra ambrata"
+        ],
+        "stato": "riconosciuto"
       },
       {
         "originale": "Prezzemolo",
@@ -1940,7 +1977,8 @@
         "allergeni": [],
         "tag_accessori": [
           "verdure",
-          "erbe aromatiche"
+          "erbe aromatiche",
+          "aglio"
         ],
         "regole_matchate": [
           "aglio"
@@ -2030,11 +2068,17 @@
         "token_chiave": [
           "topinambur"
         ],
-        "tag": [],
+        "tag": [
+          "verdure",
+          "radici",
+          "topinambur"
+        ],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "regole_matchate": [
+          "topinambur"
+        ],
+        "stato": "riconosciuto"
       },
       {
         "originale": "Peperoni sotto mosto",
@@ -2121,11 +2165,17 @@
           "finocchi",
           "finoccho"
         ],
-        "tag": [],
+        "tag": [
+          "verdure",
+          "ortaggi",
+          "finocchio"
+        ],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "regole_matchate": [
+          "finocchi"
+        ],
+        "stato": "riconosciuto"
       },
       {
         "originale": "Ravanelli",
@@ -2452,7 +2502,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "vino"
+          "vino",
+          "vino rosso",
+          "barbera"
         ],
         "regole_matchate": [
           "barbera"
@@ -2487,7 +2539,8 @@
         "allergeni": [],
         "tag_accessori": [
           "verdure",
-          "erbe aromatiche"
+          "erbe aromatiche",
+          "aglio"
         ],
         "regole_matchate": [
           "aglio"
@@ -2663,7 +2716,8 @@
         "allergeni": [],
         "tag_accessori": [
           "verdure",
-          "erbe aromatiche"
+          "erbe aromatiche",
+          "aglio"
         ],
         "regole_matchate": [
           "aglio"
@@ -3005,7 +3059,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "dolcificanti"
+          "dolcificanti",
+          "zucchero"
         ],
         "regole_matchate": [
           "zucchero"
@@ -3022,6 +3077,7 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
+          "frutti",
           "agrumi",
           "limone"
         ],
@@ -3115,7 +3171,8 @@
         "allergeni": [],
         "tag_accessori": [
           "verdure",
-          "erbe aromatiche"
+          "erbe aromatiche",
+          "aglio"
         ],
         "regole_matchate": [
           "aglio"
@@ -3169,7 +3226,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "vino"
+          "vino",
+          "vino rosso",
+          "barbera"
         ],
         "regole_matchate": [
           "barbera"
@@ -3342,7 +3401,8 @@
         "allergeni": [],
         "tag_accessori": [
           "verdure",
-          "erbe aromatiche"
+          "erbe aromatiche",
+          "aglio"
         ],
         "regole_matchate": [
           "aglio"
@@ -3574,7 +3634,8 @@
         "allergeni": [],
         "tag_accessori": [
           "verdure",
-          "erbe aromatiche"
+          "erbe aromatiche",
+          "aglio"
         ],
         "regole_matchate": [
           "aglio"
@@ -3733,7 +3794,8 @@
         "allergeni": [],
         "tag_accessori": [
           "verdure",
-          "erbe aromatiche"
+          "erbe aromatiche",
+          "aglio"
         ],
         "regole_matchate": [
           "aglio"
@@ -4141,7 +4203,7 @@
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "parmigiano"
+          "parmigiano reggiano igp"
         ],
         "stato": "riconosciuto"
       }
@@ -4290,7 +4352,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "vino"
+          "vino",
+          "vino rosso",
+          "barbera"
         ],
         "regole_matchate": [
           "barbera"
@@ -4309,7 +4373,7 @@
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "stato": "ignorato"
       },
       {
         "originale": "Burro",
@@ -4450,11 +4514,178 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
+          "frutti",
           "agrumi",
           "limone"
         ],
         "regole_matchate": [
           "limone"
+        ],
+        "stato": "accessorio_riconosciuto"
+      }
+    ]
+  },
+  {
+    "slug": "madeleine",
+    "ingredienti": [
+      {
+        "originale": "farina di frumento",
+        "normalizzato": "farina frumento",
+        "token_chiave": [
+          "farina",
+          "frumento"
+        ],
+        "tag": [
+          "farina frumento"
+        ],
+        "allergeni": [
+          "cereali contenenti glutine"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "farina"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "zucchero semolato",
+        "normalizzato": "zucchero semolato",
+        "token_chiave": [
+          "zucchero",
+          "semolato"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "dolcificanti",
+          "zucchero"
+        ],
+        "regole_matchate": [
+          "zucchero"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "uova",
+        "normalizzato": "uova",
+        "token_chiave": [
+          "uova"
+        ],
+        "tag": [
+          "uova"
+        ],
+        "allergeni": [
+          "uova"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "uova"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Burro di Normandia AOP",
+        "normalizzato": "burro normandia aop",
+        "token_chiave": [
+          "burro",
+          "normandia",
+          "aop"
+        ],
+        "tag": [
+          "latte",
+          "panna",
+          "burro",
+          "burro normandia aop"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "panna",
+          "burro normandia aop"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "latte intero",
+        "normalizzato": "latte intero",
+        "token_chiave": [
+          "latte",
+          "latta"
+        ],
+        "tag": [
+          "latte"
+        ],
+        "allergeni": [
+          "latte"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "latte"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "lievito per dolci",
+        "normalizzato": "lievito dolci",
+        "token_chiave": [
+          "lievito",
+          "dolci",
+          "dolco"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
+      },
+      {
+        "originale": "limone non trattato",
+        "normalizzato": "limone non trattato",
+        "token_chiave": [
+          "limone",
+          "limona",
+          "non",
+          "trattato"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "frutti",
+          "agrumi",
+          "limone"
+        ],
+        "regole_matchate": [
+          "limone"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "miele delicato",
+        "normalizzato": "miele delicato",
+        "token_chiave": [
+          "miele",
+          "miela",
+          "delicato"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
+      },
+      {
+        "originale": "sale",
+        "normalizzato": "sale",
+        "token_chiave": [
+          "sale"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "spezie"
+        ],
+        "regole_matchate": [
+          "sale"
         ],
         "stato": "accessorio_riconosciuto"
       }
@@ -4560,7 +4791,8 @@
         "allergeni": [],
         "tag_accessori": [
           "verdure",
-          "erbe aromatiche"
+          "erbe aromatiche",
+          "aglio"
         ],
         "regole_matchate": [
           "aglio"
@@ -4771,7 +5003,7 @@
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "stato": "ignorato"
       }
     ]
   },
@@ -4804,7 +5036,8 @@
         "allergeni": [],
         "tag_accessori": [
           "verdure",
-          "erbe aromatiche"
+          "erbe aromatiche",
+          "aglio"
         ],
         "regole_matchate": [
           "aglio"
@@ -4986,7 +5219,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "vino"
+          "vino",
+          "vino rosso",
+          "barbera"
         ],
         "regole_matchate": [
           "barbera"
@@ -5143,7 +5378,8 @@
         "allergeni": [],
         "tag_accessori": [
           "verdure",
-          "erbe aromatiche"
+          "erbe aromatiche",
+          "aglio"
         ],
         "regole_matchate": [
           "aglio"
@@ -5283,11 +5519,12 @@
           "frutta guscio"
         ],
         "allergeni": [
-          "noci"
+          "noci",
+          "arachidi"
         ],
         "tag_accessori": [],
         "regole_matchate": [
-          "mandorle"
+          "mandorla"
         ],
         "stato": "riconosciuto"
       },
@@ -5317,6 +5554,7 @@
           "arancia"
         ],
         "tag": [
+          "frutti",
           "agrumi",
           "arancia"
         ],
@@ -5353,7 +5591,8 @@
         "allergeni": [],
         "tag_accessori": [
           "verdure",
-          "erbe aromatiche"
+          "erbe aromatiche",
+          "aglio"
         ],
         "regole_matchate": [
           "aglio"
@@ -5449,7 +5688,7 @@
         ],
         "tag": [
           "frutta disidratata",
-          "uvetta passa"
+          "uva passa"
         ],
         "allergeni": [],
         "tag_accessori": [],
@@ -5487,7 +5726,8 @@
         "allergeni": [],
         "tag_accessori": [
           "verdure",
-          "erbe aromatiche"
+          "erbe aromatiche",
+          "aglio"
         ],
         "regole_matchate": [
           "aglio"
@@ -5506,11 +5746,12 @@
           "frutta guscio"
         ],
         "allergeni": [
-          "noci"
+          "noci",
+          "arachidi"
         ],
         "tag_accessori": [],
         "regole_matchate": [
-          "mandorle"
+          "mandorla"
         ],
         "stato": "riconosciuto"
       },
@@ -5607,7 +5848,8 @@
         "allergeni": [],
         "tag_accessori": [
           "verdure",
-          "erbe aromatiche"
+          "erbe aromatiche",
+          "aglio"
         ],
         "regole_matchate": [
           "aglio"
@@ -5776,7 +6018,7 @@
         ],
         "tag": [
           "frutta disidratata",
-          "uvetta passa"
+          "uva passa"
         ],
         "allergeni": [],
         "tag_accessori": [],
@@ -5797,11 +6039,12 @@
           "frutta guscio"
         ],
         "allergeni": [
-          "noci"
+          "noci",
+          "arachidi"
         ],
         "tag_accessori": [],
         "regole_matchate": [
-          "mandorle"
+          "mandorla"
         ],
         "stato": "riconosciuto"
       },
@@ -5872,11 +6115,12 @@
           "frutta guscio"
         ],
         "allergeni": [
-          "noci"
+          "noci",
+          "arachidi"
         ],
         "tag_accessori": [],
         "regole_matchate": [
-          "mandorle"
+          "mandorla"
         ],
         "stato": "riconosciuto"
       }
@@ -5930,7 +6174,8 @@
         "allergeni": [],
         "tag_accessori": [
           "verdure",
-          "erbe aromatiche"
+          "erbe aromatiche",
+          "aglio"
         ],
         "regole_matchate": [
           "aglio"
@@ -5949,11 +6194,12 @@
           "frutta guscio"
         ],
         "allergeni": [
-          "noci"
+          "noci",
+          "arachidi"
         ],
         "tag_accessori": [],
         "regole_matchate": [
-          "mandorle"
+          "mandorla"
         ],
         "stato": "riconosciuto"
       },
@@ -6272,7 +6518,8 @@
         "allergeni": [],
         "tag_accessori": [
           "verdure",
-          "erbe aromatiche"
+          "erbe aromatiche",
+          "aglio"
         ],
         "regole_matchate": [
           "aglio"
@@ -6389,7 +6636,8 @@
         "allergeni": [],
         "tag_accessori": [
           "verdure",
-          "erbe aromatiche"
+          "erbe aromatiche",
+          "aglio"
         ],
         "regole_matchate": [
           "aglio"
@@ -6434,11 +6682,18 @@
         "token_chiave": [
           "marsala"
         ],
-        "tag": [],
-        "allergeni": [],
+        "tag": [
+          "vino",
+          "marsala doc"
+        ],
+        "allergeni": [
+          "marsala doc"
+        ],
         "tag_accessori": [],
-        "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "regole_matchate": [
+          "marsala"
+        ],
+        "stato": "riconosciuto"
       },
       {
         "originale": "Strutto",
@@ -6584,7 +6839,8 @@
         "allergeni": [],
         "tag_accessori": [
           "verdure",
-          "erbe aromatiche"
+          "erbe aromatiche",
+          "aglio"
         ],
         "regole_matchate": [
           "aglio"
@@ -6711,7 +6967,8 @@
         "allergeni": [],
         "tag_accessori": [
           "verdure",
-          "erbe aromatiche"
+          "erbe aromatiche",
+          "aglio"
         ],
         "regole_matchate": [
           "aglio"
@@ -6886,7 +7143,8 @@
         "allergeni": [],
         "tag_accessori": [
           "verdure",
-          "erbe aromatiche"
+          "erbe aromatiche",
+          "aglio"
         ],
         "regole_matchate": [
           "aglio"
@@ -6907,7 +7165,7 @@
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "parmigiano"
+          "parmigiano reggiano igp"
         ],
         "stato": "riconosciuto"
       }
@@ -7031,7 +7289,7 @@
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "stato": "ignorato"
       }
     ]
   },
@@ -7111,7 +7369,8 @@
         "allergeni": [],
         "tag_accessori": [
           "verdure",
-          "erbe aromatiche"
+          "erbe aromatiche",
+          "aglio"
         ],
         "regole_matchate": [
           "aglio"
@@ -7168,7 +7427,7 @@
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "parmigiano"
+          "parmigiano reggiano igp"
         ],
         "stato": "riconosciuto"
       },
@@ -7179,15 +7438,22 @@
           "noce",
           "moscata"
         ],
-        "tag": [],
-        "allergeni": [],
+        "tag": [
+          "frutta",
+          "frutta guscio"
+        ],
+        "allergeni": [
+          "noci",
+          "arachidi"
+        ],
         "tag_accessori": [
           "spezie"
         ],
         "regole_matchate": [
-          "sale"
+          "sale",
+          "mandorla"
         ],
-        "stato": "accessorio_riconosciuto"
+        "stato": "riconosciuto"
       }
     ]
   },
@@ -7279,7 +7545,8 @@
         "allergeni": [],
         "tag_accessori": [
           "verdure",
-          "erbe aromatiche"
+          "erbe aromatiche",
+          "aglio"
         ],
         "regole_matchate": [
           "aglio"
@@ -7536,7 +7803,8 @@
         "allergeni": [],
         "tag_accessori": [
           "verdure",
-          "erbe aromatiche"
+          "erbe aromatiche",
+          "aglio"
         ],
         "regole_matchate": [
           "aglio"
@@ -7720,7 +7988,7 @@
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "stato": "ignorato"
       },
       {
         "originale": "Alloro",
@@ -7809,7 +8077,8 @@
         "allergeni": [],
         "tag_accessori": [
           "verdure",
-          "erbe aromatiche"
+          "erbe aromatiche",
+          "aglio"
         ],
         "regole_matchate": [
           "aglio"
@@ -7910,7 +8179,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "vino"
+          "vino",
+          "vino rosso",
+          "barbera"
         ],
         "regole_matchate": [
           "barbera"
@@ -7989,11 +8260,12 @@
           "frutta guscio"
         ],
         "allergeni": [
-          "noci"
+          "noci",
+          "arachidi"
         ],
         "tag_accessori": [],
         "regole_matchate": [
-          "mandorle"
+          "mandorla"
         ],
         "stato": "riconosciuto"
       },
@@ -8006,7 +8278,7 @@
         ],
         "tag": [
           "frutta disidratata",
-          "uvetta passa"
+          "uva passa"
         ],
         "allergeni": [],
         "tag_accessori": [],
@@ -8098,6 +8370,7 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
+          "frutti",
           "agrumi",
           "limone"
         ],
@@ -8116,7 +8389,8 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "dolcificanti"
+          "dolcificanti",
+          "zucchero"
         ],
         "regole_matchate": [
           "zucchero"
@@ -8232,7 +8506,7 @@
         ],
         "tag": [
           "frutta disidratata",
-          "uvetta passa"
+          "uva passa"
         ],
         "allergeni": [],
         "tag_accessori": [],
@@ -8333,7 +8607,7 @@
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "stato": "ignorato"
       },
       {
         "originale": "Fagioli bianchi e rossi",
@@ -8557,7 +8831,7 @@
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "stato": "ignorato"
       },
       {
         "originale": "Basilico",
@@ -8585,7 +8859,8 @@
         "allergeni": [],
         "tag_accessori": [
           "verdure",
-          "erbe aromatiche"
+          "erbe aromatiche",
+          "aglio"
         ],
         "regole_matchate": [
           "aglio"
@@ -8623,7 +8898,7 @@
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "stato": "ignorato"
       },
       {
         "originale": "Parmigiano reggiano",
@@ -8639,7 +8914,7 @@
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "parmigiano"
+          "parmigiano reggiano igp"
         ],
         "stato": "riconosciuto"
       }
@@ -8699,7 +8974,8 @@
         "allergeni": [],
         "tag_accessori": [
           "verdure",
-          "erbe aromatiche"
+          "erbe aromatiche",
+          "aglio"
         ],
         "regole_matchate": [
           "aglio"
@@ -8814,7 +9090,8 @@
         "allergeni": [],
         "tag_accessori": [
           "verdure",
-          "erbe aromatiche"
+          "erbe aromatiche",
+          "aglio"
         ],
         "regole_matchate": [
           "aglio"
@@ -8986,6 +9263,7 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
+          "frutti",
           "agrumi",
           "limone"
         ],
@@ -9112,11 +9390,17 @@
         "token_chiave": [
           "rucola"
         ],
-        "tag": [],
+        "tag": [
+          "verdure",
+          "ortaggi",
+          "ruolo"
+        ],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "regole_matchate": [
+          "rucola"
+        ],
+        "stato": "riconosciuto"
       },
       {
         "originale": "Aceto Balsamico Tradizionale di Modena DOP",
@@ -9132,7 +9416,7 @@
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "stato": "ignorato"
       },
       {
         "originale": "Olio",
@@ -9238,11 +9522,17 @@
           "montone",
           "montona"
         ],
-        "tag": [],
+        "tag": [
+          "carne",
+          "ovino",
+          "montone"
+        ],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "regole_matchate": [
+          "montone"
+        ],
+        "stato": "riconosciuto"
       },
       {
         "originale": "Cous cous",
@@ -9343,11 +9633,17 @@
           "finocchi",
           "finoccho"
         ],
-        "tag": [],
+        "tag": [
+          "verdure",
+          "ortaggi",
+          "finocchio"
+        ],
         "allergeni": [],
         "tag_accessori": [],
-        "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "regole_matchate": [
+          "finocchi"
+        ],
+        "stato": "riconosciuto"
       },
       {
         "originale": "Olive nere",
@@ -9378,6 +9674,7 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
+          "frutti",
           "agrumi",
           "limone"
         ],
@@ -9508,7 +9805,8 @@
         "allergeni": [],
         "tag_accessori": [
           "verdure",
-          "erbe aromatiche"
+          "erbe aromatiche",
+          "aglio"
         ],
         "regole_matchate": [
           "aglio"
@@ -9751,6 +10049,7 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
+          "frutti",
           "agrumi",
           "limone"
         ],
@@ -9808,7 +10107,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "vino"
+          "vino",
+          "vino rosso",
+          "barbera"
         ],
         "regole_matchate": [
           "barbera"
@@ -9899,7 +10200,8 @@
         "allergeni": [],
         "tag_accessori": [
           "verdure",
-          "erbe aromatiche"
+          "erbe aromatiche",
+          "aglio"
         ],
         "regole_matchate": [
           "aglio"
@@ -10005,7 +10307,7 @@
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "stato": "ignorato"
       }
     ]
   },
@@ -10062,7 +10364,9 @@
         "tag": [],
         "allergeni": [],
         "tag_accessori": [
-          "vino"
+          "vino",
+          "vino rosso",
+          "barbera"
         ],
         "regole_matchate": [
           "barbera"

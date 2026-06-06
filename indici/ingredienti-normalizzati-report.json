@@ -1,92 +1,38 @@
 {
   "versione": "CMS2-R18-169",
-  "timestamp": "2026-06-04T18:35:05",
+  "timestamp": "2026-06-06T15:48:51",
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\CMS\\ingredienti-semantica.json",
-  "ricette_elaborate": 66,
-  "ingredienti_distinti": 219,
-  "ingredienti_non_riconosciuti_distinti": 18,
-  "ingredienti_accessori_riconosciuti_distinti": 52,
-  "ingredienti_ignorati_distinti": 5,
+  "ricette_elaborate": 67,
+  "ingredienti_distinti": 224,
+  "ingredienti_non_riconosciuti_distinti": 2,
+  "ingredienti_accessori_riconosciuti_distinti": 53,
+  "ingredienti_ignorati_distinti": 15,
   "ingredienti_ignorati_configurati": [
+    "aceto",
+    "aceto balsamico tradizionale modena dop",
     "acqua",
+    "acqua fredda",
+    "brodo",
+    "brodo carne",
+    "brodo vegetale",
+    "condimento",
     "corteccia",
     "curacao",
+    "maionese",
     "nuova sezione",
     "pecorino romano dpo",
-    "ripieno sugo"
+    "pistou",
+    "ripieno sugo",
+    "soupe"
   ],
   "non_riconosciuti_top": [
     [
-      "brodo",
-      2
-    ],
-    [
-      "finocchi",
-      2
-    ],
-    [
-      "aceto balsamico tradizionale modena dop",
-      2
-    ],
-    [
-      "acqua fredda",
+      "lievito dolci",
       1
     ],
     [
-      "reale vitello",
-      1
-    ],
-    [
-      "brodo carne",
-      1
-    ],
-    [
-      "insalata novella",
-      1
-    ],
-    [
-      "birra ambrata",
-      1
-    ],
-    [
-      "topinambur",
-      1
-    ],
-    [
-      "brodo vegetale",
-      1
-    ],
-    [
-      "marsala",
-      1
-    ],
-    [
-      "aceto",
-      1
-    ],
-    [
-      "soupe",
-      1
-    ],
-    [
-      "pistou",
-      1
-    ],
-    [
-      "condimento",
-      1
-    ],
-    [
-      "rucola",
-      1
-    ],
-    [
-      "montone",
-      1
-    ],
-    [
-      "maionese",
+      "miele delicato",
       1
     ]
   ],
@@ -96,12 +42,12 @@
       40
     ],
     [
-      "aglio",
+      "sale",
       27
     ],
     [
-      "sale",
-      26
+      "aglio",
+      27
     ],
     [
       "pepe",
@@ -184,10 +130,6 @@
       3
     ],
     [
-      "noce moscata",
-      2
-    ],
-    [
       "pepe nero",
       2
     ],
@@ -256,6 +198,14 @@
       1
     ],
     [
+      "zucchero semolato",
+      1
+    ],
+    [
+      "limone non trattato",
+      1
+    ],
+    [
       "pistilli zafferano",
       1
     ],
@@ -302,7 +252,23 @@
   ],
   "ingredienti_ignorati_top": [
     [
+      "brodo",
+      2
+    ],
+    [
+      "aceto balsamico tradizionale modena dop",
+      2
+    ],
+    [
+      "acqua fredda",
+      1
+    ],
+    [
       "ripieno sugo",
+      1
+    ],
+    [
+      "brodo carne",
       1
     ],
     [
@@ -318,7 +284,31 @@
       1
     ],
     [
+      "brodo vegetale",
+      1
+    ],
+    [
       "nuova sezione",
+      1
+    ],
+    [
+      "aceto",
+      1
+    ],
+    [
+      "soupe",
+      1
+    ],
+    [
+      "pistou",
+      1
+    ],
+    [
+      "condimento",
+      1
+    ],
+    [
+      "maionese",
       1
     ]
   ],
@@ -326,16 +316,16 @@
     {
       "slug": "agnolotti-al-sugo-d-arrosto",
       "ingredienti": 44,
-      "non_riconosciuti": 3,
-      "accessori_riconosciuti": 18,
-      "ignorati": 1
+      "non_riconosciuti": 0,
+      "accessori_riconosciuti": 17,
+      "ignorati": 3
     },
     {
       "slug": "anatra-all-arancia",
       "ingredienti": 20,
-      "non_riconosciuti": 1,
+      "non_riconosciuti": 0,
       "accessori_riconosciuti": 7,
-      "ignorati": 1
+      "ignorati": 2
     },
     {
       "slug": "anatra-in-salsa",
@@ -354,7 +344,7 @@
     {
       "slug": "antipasto-di-canocce",
       "ingredienti": 7,
-      "non_riconosciuti": 1,
+      "non_riconosciuti": 0,
       "accessori_riconosciuti": 4,
       "ignorati": 0
     },
@@ -368,7 +358,7 @@
     {
       "slug": "arista-alla-birra",
       "ingredienti": 13,
-      "non_riconosciuti": 1,
+      "non_riconosciuti": 0,
       "accessori_riconosciuti": 7,
       "ignorati": 0
     },
@@ -382,7 +372,7 @@
     {
       "slug": "bagna-cauda",
       "ingredienti": 14,
-      "non_riconosciuti": 2,
+      "non_riconosciuti": 0,
       "accessori_riconosciuti": 2,
       "ignorati": 0
     },
@@ -494,8 +484,15 @@
     {
       "slug": "goulash-variante",
       "ingredienti": 18,
-      "non_riconosciuti": 1,
+      "non_riconosciuti": 0,
       "accessori_riconosciuti": 9,
+      "ignorati": 1
+    },
+    {
+      "slug": "madeleine",
+      "ingredienti": 9,
+      "non_riconosciuti": 2,
+      "accessori_riconosciuti": 3,
       "ignorati": 0
     },
     {
@@ -515,9 +512,9 @@
     {
       "slug": "minestra-di-porri",
       "ingredienti": 6,
-      "non_riconosciuti": 1,
+      "non_riconosciuti": 0,
       "accessori_riconosciuti": 1,
-      "ignorati": 0
+      "ignorati": 1
     },
     {
       "slug": "orecchiette-baresi-alle-cime-di-rapa",
@@ -592,7 +589,7 @@
     {
       "slug": "pate-di-fegato",
       "ingredienti": 10,
-      "non_riconosciuti": 1,
+      "non_riconosciuti": 0,
       "accessori_riconosciuti": 3,
       "ignorati": 0
     },
@@ -627,15 +624,15 @@
     {
       "slug": "picaña",
       "ingredienti": 2,
-      "non_riconosciuti": 1,
+      "non_riconosciuti": 0,
       "accessori_riconosciuti": 0,
-      "ignorati": 0
+      "ignorati": 1
     },
     {
       "slug": "puree-di-sedano",
       "ingredienti": 8,
       "non_riconosciuti": 0,
-      "accessori_riconosciuti": 2,
+      "accessori_riconosciuti": 1,
       "ignorati": 0
     },
     {
@@ -669,9 +666,9 @@
     {
       "slug": "roastbeef-arrosto-all-inglese",
       "ingredienti": 5,
-      "non_riconosciuti": 1,
+      "non_riconosciuti": 0,
       "accessori_riconosciuti": 3,
-      "ignorati": 0
+      "ignorati": 1
     },
     {
       "slug": "roux-brun",
@@ -704,9 +701,9 @@
     {
       "slug": "soupe-au-pistou",
       "ingredienti": 18,
-      "non_riconosciuti": 3,
+      "non_riconosciuti": 0,
       "accessori_riconosciuti": 3,
-      "ignorati": 0
+      "ignorati": 3
     },
     {
       "slug": "spaghetti-alla-bottarga",
@@ -732,9 +729,9 @@
     {
       "slug": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
       "ingredienti": 6,
-      "non_riconosciuti": 2,
+      "non_riconosciuti": 0,
       "accessori_riconosciuti": 2,
-      "ignorati": 0
+      "ignorati": 1
     },
     {
       "slug": "tagliate",
@@ -746,7 +743,7 @@
     {
       "slug": "tajin-mqualli",
       "ingredienti": 21,
-      "non_riconosciuti": 2,
+      "non_riconosciuti": 0,
       "accessori_riconosciuti": 13,
       "ignorati": 0
     },
@@ -767,9 +764,9 @@
     {
       "slug": "vitello-tonnato",
       "ingredienti": 13,
-      "non_riconosciuti": 1,
+      "non_riconosciuti": 0,
       "accessori_riconosciuti": 7,
-      "ignorati": 0
+      "ignorati": 1
     },
     {
       "slug": "zucchine-in-scapece",
