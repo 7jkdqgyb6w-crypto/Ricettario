@@ -470,6 +470,8 @@ main figure a[data-image-link] img{cursor:pointer;}
 .recipe-license-overlay.is-hidden{display:none !important;}
 .recipe-license-bar{display:flex !important; justify-content:flex-end !important; align-items:center !important; gap:.75rem !important; flex:0 0 auto !important; padding:10px 14px !important; border-bottom:1px solid rgba(0,0,0,.08) !important; background:#fff !important;}
 .recipe-license-title{margin-right:auto !important; font-size:.92rem !important; line-height:1.2 !important; color:#566064 !important; overflow:hidden !important; text-overflow:ellipsis !important; white-space:nowrap !important;}
+.recipe-license-open{border:1px solid rgba(0,0,0,.18) !important; border-radius:999px !important; padding:.35rem .65rem !important; color:#264f6d !important; background:#fff !important; text-decoration:none !important; font-size:.9rem !important; white-space:nowrap !important;}
+.recipe-license-open:hover{text-decoration:underline !important;}
 .recipe-license-close{border:0 !important; background:transparent !important; font-size:28px !important; line-height:1 !important; cursor:pointer !important; color:#333 !important; padding:0 !important; margin:0 !important;}
 .recipe-license-frame{display:block !important; flex:1 1 auto !important; width:100% !important; height:100% !important; min-height:0 !important; border:0 !important; background:#fff !important;}</style>
 <style id="recipe-quick-meta-clean-style">/* R18-072 — quick-meta: nessun separatore testuale, solo ::after sui campi reali */
@@ -503,7 +505,7 @@ main figure a[data-image-link] img{cursor:pointer;}
 <tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr>
 </thead>
 <tbody>
-<tr><td>Funghi settembrini</td><td>1</td><td>manciata</td><td></td></tr><tr><td>Legumi misti secchi</td><td>200</td><td>g<br/></td><td></td></tr><tr><td>Carota</td><td>1</td><td>n</td><td></td></tr><tr><td>Gambo di sedano</td><td>1</td><td>n</td><td></td></tr><tr><td>Olio extra vergine d'oliva</td><td>qb</td><td></td><td></td></tr><tr><td>Speck</td><td>100</td><td>g</td><td>Opzionale<br/></td></tr>
+<tr><td>Funghi settembrini</td><td>1</td><td>manciata</td><td></td></tr><tr><td>Legumi misti secchi</td><td>200</td><td>g<br/></td><td></td></tr><tr><td>Carota</td><td>1</td><td>n</td><td></td></tr><tr><td>Sedano</td><td>1</td><td>gambo</td><td></td></tr><tr><td>Olio extra vergine d'oliva</td><td>qb</td><td></td><td></td></tr><tr><td>Speck</td><td>100</td><td>g</td><td>Opzionale<br/></td></tr>
 </tbody>
 </table>
 </div>
@@ -619,7 +621,7 @@ document.addEventListener('DOMContentLoaded', function(){
     overlay = document.createElement('div');
     overlay.id = 'recipeLicenseOverlay';
     overlay.className = 'recipe-license-overlay is-hidden';
-    overlay.innerHTML = '<div class="recipe-license-bar"><div class="recipe-license-title"></div><button type="button" class="recipe-license-close" aria-label="Chiudi">×</button></div><iframe class="recipe-license-frame" title="Contenuto esterno"></iframe>';
+    overlay.innerHTML = '<div class="recipe-license-bar"><div class="recipe-license-title"></div><a class="recipe-license-open" href="#" target="_blank" rel="noopener noreferrer">Apri in nuova scheda</a><button type="button" class="recipe-license-close" aria-label="Chiudi">×</button></div><iframe class="recipe-license-frame" title="Contenuto esterno"></iframe>';
     document.body.appendChild(overlay);
     var closeBtn = overlay.querySelector('.recipe-license-close');
     var frame = overlay.querySelector('.recipe-license-frame');
@@ -648,9 +650,10 @@ document.addEventListener('DOMContentLoaded', function(){
   }
 
   function shouldBypassExternalOverlay(link){
+    if(link && link.hasAttribute('data-external-direct')) return true;
     try{
       var u = new URL(link.getAttribute('href'), window.location.href);
-      return /(^|\.)photos\.app\.goo\.gl$/i.test(u.hostname);
+      return /(^|\.)photos\.app\.goo\.gl$/i.test(u.hostname) || /(^|\.)inao\.gouv\.fr$/i.test(u.hostname);
     }catch(e){
       return false;
     }
@@ -660,14 +663,17 @@ document.addEventListener('DOMContentLoaded', function(){
     var overlay = ensureLicenseOverlay();
     var frame = overlay.querySelector('.recipe-license-frame');
     var title = overlay.querySelector('.recipe-license-title');
-    var label = link.getAttribute('title') || link.getAttribute('aria-label') || link.textContent || link.getAttribute('href') || 'Contenuto esterno';
+    var openLink = overlay.querySelector('.recipe-license-open');
+    var href = link.getAttribute('href');
+    var label = link.getAttribute('title') || link.getAttribute('aria-label') || link.textContent || href || 'Contenuto esterno';
     if(title) title.textContent = label.replace(/\s+/g, ' ').trim();
     frame.setAttribute('title', label.replace(/\s+/g, ' ').trim());
-    frame.setAttribute('src', link.getAttribute('href'));
+    if(openLink) openLink.setAttribute('href', href || '#');
+    frame.setAttribute('src', href);
     overlay.classList.remove('is-hidden');
   }
 
-  var PRINT_ENGINE_SRC = '../../foto/ui/recipe-editorial-print.js?v=ROOT-R18-142';
+  var PRINT_ENGINE_SRC = '../../foto/ui/recipe-editorial-print.js?v=CMS2-R18-172';
   var printEnginePromise = null;
 
   function loadRecipeEditorialPrintEngine(){

@@ -19,7 +19,7 @@
     ],
     "co2": "alta",
     "kcal_classe": "alte",
-    "search_text": "agnolotti al sugo d'arrosto primi italia - piemonte jacqueline gibert questa ricetta rispecchia un poco la mia famiglia. mio padre era di alessandria e mia madre era nata a torino. queste due città hanno una tradizione di agnolotti leggermente diversa: arrosto a torino, brasato ad… per il brodo polpa di manzo ossa di bovino doppione o biancostato gallina pulita sedano carota cipolla pomodoro rosso acqua fredda sale alloro bacche di ginepro chiodi di garofano prezzemolo pepe in grani per il ripieno e il sugo reale di vitello polpa di suino lardo non aromatizzato prosciutto cotto riso bollito nel latte spinaci cipolle dorate rosmarino cannella salvia noce moscata barbera uova parmigiano reggiano burro olio extra vergine d'oliva pepe per la pasta farina di frumento tipo 00 cereali contenenti glutine uova latte frutta a guscio sedano tutto_anno onnivoro",
+    "search_text": "agnolotti al sugo d'arrosto primi italia - piemonte jacqueline gibert questa ricetta rispecchia un poco la mia famiglia. mio padre era di alessandria e mia madre era nata a torino. queste due città hanno una tradizione di agnolotti leggermente diversa: arrosto a torino, brasato ad… per il brodo polpa di manzo ossa di bovino doppione o biancostato gallina pulita sedano carota cipolla pomodoro rosso acqua fredda sale alloro bacche di ginepro chiodi di garofano prezzemolo pepe per il ripieno e il sugo reale di vitello polpa di suino lardo prosciutto cotto riso bollito nel latte spinaci cipolla dorata rosmarino cannella salvia noce moscata barbera uova parmigiano reggiano igp burro olio extra vergine d'oliva per la pasta farina di frumento 00 cereali contenenti glutine uova latte frutta a guscio sedano tutto_anno onnivoro",
     "metadati_fonte": "auto",
     "href": "../ricette/agnolotti-al-sugo-d-arrosto/",
     "img": "../foto/agnolotti-al-sugo-d-arrosto/01.jpg"
@@ -126,7 +126,7 @@
     ],
     "co2": "bassa",
     "kcal_classe": "poche",
-    "search_text": "aringhe in terrina antipasti francia - alsazia jacqueline gibert quando ero ragazzo erano spesso presenti in casa mia. ottimi panini con il pane imburrato... aringhe sciocche affumicate carote cipolla bacche di ginepro limoni bio vino bianco secco olio extra vergine d'oliva pesce inverno pescetariano",
+    "search_text": "aringhe in terrina antipasti francia - alsazia jacqueline gibert quando ero ragazzo erano spesso presenti in casa mia. ottimi panini con il pane imburrato... aringhe sciocche affumicate carote cipolla bacche di ginepro limoni vino bianco secco olio extra vergine d'oliva pesce inverno pescetariano",
     "metadati_fonte": "auto",
     "href": "../ricette/aringhe-in-terrina/",
     "img": "../foto/aringhe-in-terrina/01.jpg"
@@ -368,7 +368,7 @@
     "allergeni": [],
     "co2": "alta",
     "kcal_classe": "medie",
-    "search_text": "daube secondi francia - provenza jacqueline gibert potrebbe sembrare uno spezzatino, ma non lo è. la traccia viene da mia madre, jacqueline gibert, e non ho motivo di metterla in discussione. piuttosto, nel tempo ho cercato di chiarire meglio il ruolo degli… manzo concentrato di pomodoro lardo prezzemolo tritato aglio cipolle carote vino rosso sale pepe tritato bouquet garni tutto_anno onnivoro",
+    "search_text": "daube secondi francia - provenza jacqueline gibert potrebbe sembrare uno spezzatino, ma non lo è. la traccia viene da mia madre, jacqueline gibert, e non ho motivo di metterla in discussione. piuttosto, nel tempo ho cercato di chiarire meglio il ruolo degli… manzo concentrato di pomodoro lardo prezzemolo tritato aglio cipolla carota vino rosso sale pepe tritato bouquet garni tutto_anno onnivoro",
     "metadati_fonte": "auto",
     "href": "../ricette/daube/",
     "img": "../foto/daube/01.jpg"
@@ -389,7 +389,7 @@
     ],
     "co2": "",
     "kcal_classe": "",
-    "search_text": "fegato alla veneziana secondi italia - veneto - venezia i veneziani usano correggere il retrogusto amarognolo del fegato, aggiungendovi un ingrediente addolcente: le cipolle. un'abitudine antichissima, se è vero che i romani lo preparavano 'ficatum\", ossia con i fichi, da… fegato cipolle burro olio extra vergine d'oliva latte tutto_anno onnivoro",
+    "search_text": "fegato alla veneziana secondi italia - veneto - venezia i veneziani usano correggere il retrogusto amarognolo del fegato, aggiungendovi un ingrediente addolcente: le cipolle. un'abitudine antichissima, se è vero che i romani lo preparavano 'ficatum\", ossia con i fichi, da… fegato cipolla burro olio extra vergine d'oliva latte tutto_anno onnivoro",
     "metadati_fonte": "auto",
     "href": "../ricette/fegato-alla-veneziana/",
     "img": "../foto/fegato-alla-veneziana/01.jpg"
@@ -544,7 +544,7 @@
     ],
     "co2": "",
     "kcal_classe": "",
-    "search_text": "gulash (variante) secondi italia - alto-adige - val-di-casies regihof questa versione della ricetta del gulasch non è la ricetta tradizionale originale ungherese o tirolese. e' una mia interpretazione che fa riferimento alla ricetta de la \" cucina italiana\" e in parte come ho gustato… manzo farina patate cipolla carote pomodorini sedano vino rosso brodo vegetale burro prezzemolo cuminio paprika sale pepe timo ginepro scorza di limone grattugiata cereali contenenti glutine latte sedano estate inverno onnivoro",
+    "search_text": "gulash (variante) secondi italia - alto-adige - val-di-casies regihof questa versione della ricetta del gulasch non è la ricetta tradizionale originale ungherese o tirolese. e' una mia interpretazione che fa riferimento alla ricetta de la \" cucina italiana\" e in parte come ho gustato… manzo farina di frumento 00 patate cipolla carota pomodorini sedano vino rosso brodo vegetale burro prezzemolo cumino paprika sale pepe timo ginepro scorza di limone grattugiata cereali contenenti glutine latte sedano estate inverno onnivoro",
     "metadati_fonte": "auto",
     "href": "../ricette/goulash-variante/",
     "img": "../foto/goulash-variante/01.jpg"
@@ -567,7 +567,7 @@
     ],
     "co2": "bassa",
     "kcal_classe": "medie",
-    "search_text": "madeleine dolci francia - normandia non sono biscotti. o almeno, non dovrebbero esserlo. la madeleine è una piccola cosa precisa: burro, uova, farina, zucchero, riposo, calore. se funziona, porta con sé qualcosa che non è solo gusto. non serve… farina di frumento zucchero semolato uova burro di normandia aop latte intero lievito per dolci limone non trattato miele delicato sale cereali contenenti glutine uova latte inverno vegetariano",
+    "search_text": "madeleine dolci francia - normandia non sono biscotti. o almeno, non dovrebbero esserlo. la madeleine è una piccola cosa precisa: burro, uova, farina, zucchero, riposo, calore. se funziona, porta con sé qualcosa che non è solo gusto. non serve… farina di frumento 00 zucchero semolato uova burro di normandia aop latte intero lievito per dolci limone miele delicato sale cereali contenenti glutine uova latte inverno vegetariano",
     "metadati_fonte": "auto",
     "href": "../ricette/madeleine/",
     "img": "../foto/madeleine/01.jpg"
@@ -1123,12 +1123,11 @@
     "termini_ricerca": [],
     "allergeni": [
       "cereali contenenti glutine",
-      "latte",
-      "frutta a guscio"
+      "latte"
     ],
     "co2": "",
     "kcal_classe": "",
-    "search_text": "roux brun fondi francia salsa addensante scura e dal gusto \"tostato\". base molte salse a fondi cottura noce di burro farina 00 cereali contenenti glutine latte frutta a guscio tutto_anno vegetariano",
+    "search_text": "roux brun fondi francia salsa addensante scura e dal gusto \"tostato\". base molte salse a fondi cottura burro farina di frumento 00 cereali contenenti glutine latte tutto_anno vegetariano",
     "metadati_fonte": "auto",
     "href": "../ricette/roux-brun/",
     "img": "../foto/roux-brun/01.jpg"
@@ -1174,7 +1173,7 @@
     ],
     "co2": "",
     "kcal_classe": "",
-    "search_text": "sarde a beccafico antipasti italia - sicilia ricettario \"la cucina siciliana\" sarde di media grandezza pangrattato pinoli uva sultanina alici sotto sale alloro fresco prezzemolo olio extra vergine d'oliva limoni bio zucchero di canna sale pepe cereali contenenti glutine pesce frutta a guscio inverno pescetariano",
+    "search_text": "sarde a beccafico antipasti italia - sicilia ricettario \"la cucina siciliana\" sarde pangrattato pinoli uva sultanina alici sotto sale alloro fresco prezzemolo olio extra vergine d'oliva limoni zucchero di canna sale pepe cereali contenenti glutine pesce frutta a guscio inverno pescetariano",
     "metadati_fonte": "auto",
     "href": "../ricette/sarde-a-beccafico/",
     "img": "../foto/sarde-a-beccafico/01.jpg"
@@ -1222,7 +1221,7 @@
     ],
     "co2": "bassa",
     "kcal_classe": "alte",
-    "search_text": "soupe au pistou primi francia - provenza guillaume e. piatto tradizionale provenzale che si gusta nelle serate estive. si, anche se caldo. ma in fondo anche in piemonte il minestrone si gusta d'estate. e' una questione di ingredienti che solo in questa stagione sono… soupe fagioli bianchi e rossi fagiolini verdi zucchine pomodori patate porro cipolle melanzane sedano carote conchiglie pistou basilico aglio olio extra vergine d'oliva condimento parmigiano reggiano latte sedano estate autunno inverno vegetariano",
+    "search_text": "soupe au pistou primi francia - provenza guillaume e. piatto tradizionale provenzale che si gusta nelle serate estive. si, anche se caldo. ma in fondo anche in piemonte il minestrone si gusta d'estate. e' una questione di ingredienti che solo in questa stagione sono… soupe fagioli bianchi e rossi fagiolini verdi zucchina pomodori patate porro cipolla melanzana sedano carota conchiglie pistou basilico aglio olio extra vergine d'oliva condimento parmigiano reggiano igp latte sedano estate autunno inverno vegetariano",
     "metadati_fonte": "auto",
     "href": "../ricette/soupe-au-pistou/",
     "img": "../foto/soupe-au-pistou/01.jpg"
@@ -1389,7 +1388,7 @@
     ],
     "co2": "",
     "kcal_classe": "",
-    "search_text": "tortino di alici antipasti italia - lazio - roma eddy salzano questo piatto è diffuso con numerose varianti in tutto il sud italia. questa mia personalizzazione prende spunto da come lo preparava eddy. non pretende assolutamente di essere fedele alla sua ricetta. ne purtroppo… alici freschissime mollica o pangrattato pecorino romano dop olio extra vergine d'oliva sale peperoncino nepetella prezzemolo origano limone bio pepe cereali contenenti glutine pesce latte inverno pescetariano",
+    "search_text": "tortino di alici antipasti italia - lazio - roma eddy salzano questo piatto è diffuso con numerose varianti in tutto il sud italia. questa mia personalizzazione prende spunto da come lo preparava eddy. non pretende assolutamente di essere fedele alla sua ricetta. ne purtroppo… alici pangrattato pecorino romano dop olio extra vergine d'oliva sale peperoncino nepetella prezzemolo origano limone pepe cereali contenenti glutine pesce latte inverno pescetariano",
     "metadati_fonte": "auto",
     "href": "../ricette/tortino-di-alici/",
     "img": "../foto/tortino-di-alici/01.jpg"
@@ -1451,7 +1450,7 @@
     ],
     "co2": "",
     "kcal_classe": "",
-    "search_text": "zuppa di legumi con funghi settembrini secchi primi italia un piatto, ricco, invernale, che scalda il giusto quando è il momento. funghi settembrini legumi misti secchi carota gambo di sedano olio extra vergine d'oliva speck sedano tutto_anno vegano",
+    "search_text": "zuppa di legumi con funghi settembrini secchi primi italia un piatto, ricco, invernale, che scalda il giusto quando è il momento. funghi settembrini legumi misti secchi carota sedano olio extra vergine d'oliva speck sedano tutto_anno vegano",
     "metadati_fonte": "auto",
     "href": "../ricette/zuppa-di-legumi-con-funghi-settembrini-secchi/",
     "img": "../foto/zuppa-di-legumi-con-funghi-settembrini-secchi/01.jpg"
