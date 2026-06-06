@@ -550,6 +550,29 @@
     "img": "../foto/goulash-variante/01.jpg"
   },
   {
+    "slug": "madeleine",
+    "titolo": "Madeleine",
+    "categoria": "Dolci",
+    "geografia": "Francia - Normandia",
+    "regime_minimo": "vegetariano",
+    "stagioni": [
+      "inverno"
+    ],
+    "ingredienti_chiave": [],
+    "termini_ricerca": [],
+    "allergeni": [
+      "cereali contenenti glutine",
+      "uova",
+      "latte"
+    ],
+    "co2": "",
+    "kcal_classe": "",
+    "search_text": "madeleine dolci francia - normandia non sono biscotti. o almeno, non dovrebbero esserlo. la madeleine è una piccola cosa precisa: burro, uova, farina, zucchero, riposo, calore. se funziona, porta con sé qualcosa che non è solo gusto. non serve… farina di frumento zucchero semolato uova burro di normandia aop latte intero lievito per dolci limone non trattato miele delicato sale cereali contenenti glutine uova latte inverno vegetariano",
+    "metadati_fonte": "auto",
+    "href": "../ricette/madeleine/",
+    "img": "../foto/madeleine/01.jpg"
+  },
+  {
     "slug": "medaglioni-di-manzo-con-porcini",
     "titolo": "Medaglioni di manzo con porcini",
     "categoria": "Secondi",

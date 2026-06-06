@@ -764,6 +764,35 @@
     "stato": "da_validare"
   },
   {
+    "slug": "madeleine",
+    "titolo": "Madeleine",
+    "proposte": {
+      "porzioni": "4",
+      "tempo_attivo": "45-60 min",
+      "tempo_cottura": "2 h circa",
+      "tempo_riposo": "30 min",
+      "tempo_totale": "include riposo",
+      "ingredienti_chiave": [
+        "lievito per dolci",
+        "miele delicato"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "media",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "fallback standard da validare",
+      "riposo dedotto da testo",
+      "tempo cottura ricavato da durate esplicite presenti nel testo",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
     "slug": "medaglioni-di-manzo-con-porcini",
     "titolo": "Medaglioni di manzo con porcini",
     "proposte": {

@@ -1,7 +1,7 @@
 {
   "versione": "CMS2-R18-103",
   "semantica_versione": "CMS2-R18-169",
-  "timestamp": "2026-06-04T18:53:39",
+  "timestamp": "2026-06-06T10:18:11",
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "search_data": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT\\indici\\search-data.json",
   "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\CMS\\ingredienti-semantica.json",
@@ -76,12 +76,16 @@
         "carote",
         "cipolle",
         "pomodori",
+        "bovini",
+        "vitello",
+        "reale vitello",
         "suino",
         "maiale",
         "latte",
         "riso",
-        "verdura",
         "spinaci",
+        "frutta",
+        "frutta guscio",
         "uova",
         "formaggio",
         "parmigiano reggiano igp",
@@ -93,6 +97,8 @@
       "allergeni": [
         "sedano",
         "latte",
+        "noci",
+        "arachidi",
         "uova",
         "cereali contenenti glutine"
       ],
@@ -100,6 +106,8 @@
         "spezie",
         "erbe aromatiche",
         "vino",
+        "vino rosso",
+        "barbera",
         "olio",
         "frutti",
         "olive"
@@ -113,13 +121,15 @@
         "pomodori",
         "sale",
         "prezzemolo",
+        "reale vitello",
         "maiale",
         "latte",
         "riso",
         "spinaci",
+        "mandorla",
         "barbera",
         "uova",
-        "parmigiano",
+        "parmigiano reggiano igp",
         "panna",
         "olio",
         "olive",
@@ -164,6 +174,7 @@
         "verdure",
         "ortaggi",
         "pomodori",
+        "frutti",
         "agrumi",
         "arancia",
         "latte",
@@ -178,6 +189,8 @@
       ],
       "tag_accessori_esclusi": [
         "vino",
+        "vino rosso",
+        "barbera",
         "erbe aromatiche",
         "spezie"
       ],
@@ -230,9 +243,12 @@
       ],
       "tag_accessori_esclusi": [
         "erbe aromatiche",
+        "frutti",
         "agrumi",
         "limone",
         "vino",
+        "vino rosso",
+        "barbera",
         "spezie"
       ],
       "regole_matchate": [
@@ -279,7 +295,8 @@
         "canoccia",
         "verdure",
         "ortaggi",
-        "sedano"
+        "sedano",
+        "insalata novella"
       ],
       "allergeni": [
         "crostacei",
@@ -296,6 +313,7 @@
       "regole_matchate": [
         "canoccia",
         "sedano",
+        "insalata novella",
         "olio",
         "olive",
         "sale",
@@ -329,11 +347,13 @@
       ],
       "tag_accessori_esclusi": [
         "spezie",
+        "frutti",
         "agrumi",
         "limone",
         "vino",
+        "vino rosso",
+        "barbera",
         "olio",
-        "frutti",
         "olive"
       ],
       "regole_matchate": [
@@ -371,6 +391,8 @@
         "carne",
         "suino",
         "maiale",
+        "birra",
+        "birra ambrata",
         "frutta",
         "melograno",
         "funghi",
@@ -388,6 +410,7 @@
       ],
       "regole_matchate": [
         "maiale",
+        "birra ambrata",
         "prezzemolo",
         "melograno",
         "funghi",
@@ -464,10 +487,13 @@
         "verdure",
         "ortaggi",
         "cardo",
+        "radici",
+        "topinambur",
         "peperoni",
         "sedano",
         "carciofi",
         "rape",
+        "finocchio",
         "cavolfiore",
         "carote"
       ],
@@ -478,6 +504,7 @@
       "tag_accessori_esclusi": [
         "verdure",
         "erbe aromatiche",
+        "aglio",
         "olio",
         "frutti",
         "olive"
@@ -489,10 +516,12 @@
         "olive",
         "panna",
         "cardo",
+        "topinambur",
         "peperoni",
         "sedano",
         "carciofi",
         "rape",
+        "finocchi",
         "cavolfiore",
         "carote"
       ],
@@ -609,8 +638,11 @@
         "frutti",
         "olive",
         "vino",
+        "vino rosso",
+        "barbera",
         "verdure",
         "erbe aromatiche",
+        "aglio",
         "spezie"
       ],
       "regole_matchate": [
@@ -660,6 +692,7 @@
       "tag_accessori_esclusi": [
         "erbe aromatiche",
         "verdure",
+        "aglio",
         "olio",
         "frutti",
         "olive",
@@ -771,6 +804,8 @@
       "tag_accessori_esclusi": [
         "spezie",
         "dolcificanti",
+        "zucchero",
+        "frutti",
         "agrumi",
         "limone"
       ],
@@ -820,7 +855,10 @@
       "tag_accessori_esclusi": [
         "erbe aromatiche",
         "verdure",
+        "aglio",
         "vino",
+        "vino rosso",
+        "barbera",
         "spezie",
         "bouquet garni"
       ],
@@ -898,6 +936,7 @@
       "tag_accessori_esclusi": [
         "verdure",
         "erbe aromatiche",
+        "aglio",
         "olio",
         "frutti",
         "olive",
@@ -972,6 +1011,7 @@
       "tag_accessori_esclusi": [
         "verdure",
         "erbe aromatiche",
+        "aglio",
         "spezie",
         "olio",
         "frutti",
@@ -1013,6 +1053,7 @@
         "spezie",
         "erbe aromatiche",
         "verdure",
+        "aglio",
         "olio",
         "frutti",
         "olive"
@@ -1116,7 +1157,7 @@
         "patate",
         "funghi",
         "panna",
-        "parmigiano"
+        "parmigiano reggiano igp"
       ],
       "modificato": true
     },
@@ -1165,8 +1206,11 @@
       ],
       "tag_accessori_esclusi": [
         "vino",
+        "vino rosso",
+        "barbera",
         "erbe aromatiche",
         "spezie",
+        "frutti",
         "agrumi",
         "limone"
       ],
@@ -1213,6 +1257,7 @@
         "spezie",
         "erbe aromatiche",
         "verdure",
+        "aglio",
         "olio",
         "frutti",
         "olive"
@@ -1323,7 +1368,8 @@
       "tag_accessori_esclusi": [
         "spezie",
         "verdure",
-        "erbe aromatiche"
+        "erbe aromatiche",
+        "aglio"
       ],
       "regole_matchate": [
         "sale",
@@ -1372,6 +1418,8 @@
         "capperi",
         "spezie",
         "vino",
+        "vino rosso",
+        "barbera",
         "olio",
         "frutti",
         "olive",
@@ -1418,7 +1466,8 @@
       ],
       "tag_accessori_esclusi": [
         "erbe aromatiche",
-        "verdure"
+        "verdure",
+        "aglio"
       ],
       "regole_matchate": [
         "prezzemolo",
@@ -1457,17 +1506,20 @@
         "verdure",
         "ortaggi",
         "pomodori",
+        "frutti",
         "agrumi",
         "arancia"
       ],
       "allergeni": [
         "cereali contenenti glutine",
         "pesce",
-        "noci"
+        "noci",
+        "arachidi"
       ],
       "tag_accessori_esclusi": [
         "erbe aromatiche",
         "verdure",
+        "aglio",
         "olio",
         "frutti",
         "olive",
@@ -1476,7 +1528,7 @@
       "regole_matchate": [
         "spaghetti",
         "triglie",
-        "mandorle",
+        "mandorla",
         "pomodori",
         "arancia",
         "prezzemolo",
@@ -1504,7 +1556,7 @@
         "semola grano duro",
         "pasta",
         "frutta disidratata",
-        "uvetta passa",
+        "uva passa",
         "verdure",
         "ortaggi",
         "broccoli",
@@ -1516,11 +1568,13 @@
       ],
       "allergeni": [
         "cereali contenenti glutine",
-        "noci"
+        "noci",
+        "arachidi"
       ],
       "tag_accessori_esclusi": [
         "verdure",
         "erbe aromatiche",
+        "aglio",
         "olio",
         "frutti",
         "olive"
@@ -1530,7 +1584,7 @@
         "uva passa",
         "broccoli",
         "aglio",
-        "mandorle",
+        "mandorla",
         "olio",
         "olive",
         "pecorino"
@@ -1562,6 +1616,7 @@
       "tag_accessori_esclusi": [
         "verdure",
         "erbe aromatiche",
+        "aglio",
         "olio",
         "frutti",
         "olive",
@@ -1607,7 +1662,7 @@
         "pesce",
         "alici",
         "frutta disidratata",
-        "uvetta passa",
+        "uva passa",
         "frutta",
         "frutta guscio",
         "farina frumento"
@@ -1615,7 +1670,8 @@
       "allergeni": [
         "cereali contenenti glutine",
         "pesce",
-        "noci"
+        "noci",
+        "arachidi"
       ],
       "tag_accessori_esclusi": [
         "spezie",
@@ -1630,7 +1686,7 @@
         "pomodori",
         "alici",
         "uva passa",
-        "mandorle",
+        "mandorla",
         "sale",
         "farina",
         "olio",
@@ -1667,11 +1723,13 @@
       "allergeni": [
         "cereali contenenti glutine",
         "noci",
+        "arachidi",
         "pesce"
       ],
       "tag_accessori_esclusi": [
         "erbe aromatiche",
         "verdure",
+        "aglio",
         "olio",
         "frutti",
         "olive",
@@ -1681,7 +1739,7 @@
         "spaghetti",
         "prezzemolo",
         "aglio",
-        "mandorle",
+        "mandorla",
         "olio",
         "olive",
         "pomodori",
@@ -1756,7 +1814,8 @@
         "frutti",
         "olive",
         "erbe aromatiche",
-        "verdure"
+        "verdure",
+        "aglio"
       ],
       "regole_matchate": [
         "patate",
@@ -1796,12 +1855,17 @@
         "maiale",
         "verdure",
         "ortaggi",
-        "cipolle"
+        "cipolle",
+        "vino",
+        "marsala doc"
       ],
-      "allergeni": [],
+      "allergeni": [
+        "marsala doc"
+      ],
       "tag_accessori_esclusi": [
         "verdure",
-        "erbe aromatiche"
+        "erbe aromatiche",
+        "aglio"
       ],
       "regole_matchate": [
         "fegato",
@@ -1810,7 +1874,8 @@
         "maiale",
         "cipolle",
         "aglio",
-        "prezzemolo"
+        "prezzemolo",
+        "marsala"
       ],
       "modificato": true
     },
@@ -1851,6 +1916,7 @@
         "capperi",
         "spezie",
         "erbe aromatiche",
+        "aglio",
         "olio",
         "frutti",
         "olive"
@@ -1901,6 +1967,7 @@
       "tag_accessori_esclusi": [
         "verdure",
         "erbe aromatiche",
+        "aglio",
         "spezie"
       ],
       "regole_matchate": [
@@ -1943,7 +2010,8 @@
         "frutti",
         "olive",
         "verdure",
-        "erbe aromatiche"
+        "erbe aromatiche",
+        "aglio"
       ],
       "regole_matchate": [
         "spaghetti",
@@ -1951,7 +2019,7 @@
         "olio",
         "olive",
         "aglio",
-        "parmigiano"
+        "parmigiano reggiano igp"
       ],
       "modificato": true
     },
@@ -2002,12 +2070,15 @@
       "termini_ricerca": [
         "carne",
         "bovino",
-        "manzo"
+        "manzo",
+        "aceto",
+        "aceto balsamico tradizionale modena dop"
       ],
       "allergeni": [],
       "tag_accessori_esclusi": [],
       "regole_matchate": [
-        "picana"
+        "picana",
+        "aceto balsamico tradizionale modena dop"
       ],
       "modificato": true
     },
@@ -2035,14 +2106,19 @@
         "latte",
         "panna",
         "formaggio",
-        "parmigiano reggiano igp"
+        "parmigiano reggiano igp",
+        "frutta",
+        "frutta guscio"
       ],
       "allergeni": [
-        "sedano"
+        "sedano",
+        "noci",
+        "arachidi"
       ],
       "tag_accessori_esclusi": [
         "verdure",
         "erbe aromatiche",
+        "aglio",
         "spezie"
       ],
       "regole_matchate": [
@@ -2052,8 +2128,9 @@
         "aglio",
         "patate",
         "panna",
-        "parmigiano",
-        "sale"
+        "parmigiano reggiano igp",
+        "sale",
+        "mandorla"
       ],
       "modificato": true
     },
@@ -2084,6 +2161,7 @@
       "tag_accessori_esclusi": [
         "verdure",
         "erbe aromatiche",
+        "aglio",
         "spezie"
       ],
       "regole_matchate": [
@@ -2181,6 +2259,7 @@
       "tag_accessori_esclusi": [
         "verdure",
         "erbe aromatiche",
+        "aglio",
         "olio",
         "frutti",
         "olive",
@@ -2284,11 +2363,14 @@
       "tag_accessori_esclusi": [
         "erbe aromatiche",
         "verdure",
+        "aglio",
         "capperi",
         "olio",
         "frutti",
         "olive",
         "vino",
+        "vino rosso",
+        "barbera",
         "spezie"
       ],
       "regole_matchate": [
@@ -2330,13 +2412,14 @@
         "frutta",
         "frutta guscio",
         "frutta disidratata",
-        "uvetta passa",
+        "uva passa",
         "alici"
       ],
       "allergeni": [
         "pesce",
         "cereali contenenti glutine",
-        "noci"
+        "noci",
+        "arachidi"
       ],
       "tag_accessori_esclusi": [
         "erbe aromatiche",
@@ -2346,12 +2429,13 @@
         "agrumi",
         "limone",
         "dolcificanti",
+        "zucchero",
         "spezie"
       ],
       "regole_matchate": [
         "sarde",
         "farina",
-        "mandorle",
+        "mandorla",
         "uva passa",
         "alici",
         "prezzemolo",
@@ -2384,7 +2468,7 @@
         "pesce",
         "alici",
         "frutta disidratata",
-        "uvetta passa",
+        "uva passa",
         "verdure",
         "ortaggi",
         "pomodori",
@@ -2468,6 +2552,7 @@
       "tag_accessori_esclusi": [
         "erbe aromatiche",
         "verdure",
+        "aglio",
         "olio",
         "frutti",
         "olive"
@@ -2488,7 +2573,7 @@
         "aglio",
         "olio",
         "olive",
-        "parmigiano"
+        "parmigiano reggiano igp"
       ],
       "modificato": true
     },
@@ -2519,6 +2604,7 @@
       "tag_accessori_esclusi": [
         "verdure",
         "erbe aromatiche",
+        "aglio",
         "olio",
         "frutti",
         "olive",
@@ -2567,6 +2653,7 @@
       "tag_accessori_esclusi": [
         "verdure",
         "erbe aromatiche",
+        "aglio",
         "spezie",
         "frutti",
         "olive",
@@ -2605,11 +2692,11 @@
       ],
       "allergeni": [],
       "tag_accessori_esclusi": [
+        "frutti",
         "agrumi",
         "limone",
         "erbe aromatiche",
         "olio",
-        "frutti",
         "olive",
         "spezie"
       ],
@@ -2641,7 +2728,10 @@
         "manzo",
         "verdure",
         "ortaggi",
-        "porri"
+        "porri",
+        "ruolo",
+        "aceto",
+        "aceto balsamico tradizionale modena dop"
       ],
       "allergeni": [],
       "tag_accessori_esclusi": [
@@ -2651,6 +2741,8 @@
       "regole_matchate": [
         "manzo",
         "porri",
+        "rucola",
+        "aceto balsamico tradizionale modena dop",
         "olio",
         "sale"
       ],
@@ -2707,13 +2799,16 @@
         "pollame",
         "pollo",
         "coniglio",
+        "ovino",
+        "montone",
         "semola grano duro",
         "cous cous",
         "verdure",
         "ortaggi",
         "cipolle",
         "patate",
-        "carote"
+        "carote",
+        "finocchio"
       ],
       "allergeni": [
         "cereali contenenti glutine"
@@ -2726,16 +2821,19 @@
         "limone",
         "spezie",
         "verdure",
+        "aglio",
         "olio"
       ],
       "regole_matchate": [
         "pollo",
         "coniglio",
+        "montone",
         "cous cous",
         "cipolle",
         "prezzemolo",
         "patate",
         "carote",
+        "finocchi",
         "olive",
         "limone",
         "sale",
@@ -2851,8 +2949,11 @@
       ],
       "tag_accessori_esclusi": [
         "vino",
+        "vino rosso",
+        "barbera",
         "erbe aromatiche",
         "verdure",
+        "aglio",
         "spezie",
         "capperi"
       ],
@@ -2891,6 +2992,8 @@
         "frutti",
         "olive",
         "vino",
+        "vino rosso",
+        "barbera",
         "erbe aromatiche"
       ],
       "regole_matchate": [

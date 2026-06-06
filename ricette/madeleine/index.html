@@ -3,8 +3,11 @@
 <html lang="it">
 <head>
 <meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/><meta content="Fegato alla veneziana. I veneziani usano correggere il retrogusto amarognolo del fegato, aggiungendovi un ingrediente addolcente: le cipolle…" name="description"/>
-<title>Fegato alla veneziana – Ricette (e altro) di Pierre</title><link href="https://ricette.pierre.piccotti.it/ricette/fegato-alla-veneziana/" rel="canonical"/><meta content="https://ricette.pierre.piccotti.it/ricette/fegato-alla-veneziana/" property="og:url"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<title>Madeleine – Ricette (e altro) di Pierre</title>
+<link href="https://ricette.pierre.piccotti.it/ricette/madeleine/" rel="canonical"/>
+<meta content="Madeleine. Non sono biscotti. O almeno, non dovrebbero esserlo." name="description"/>
+<meta content="https://ricette.pierre.piccotti.it/ricette/madeleine/" property="og:url"/>
 <link href="../../style.css" rel="stylesheet"/>
 <style id="recipe-layout-style">.recipe-page{
   max-width: 100%;
@@ -16,6 +19,27 @@
 
 .recipe-page .recipe-content > h1{
   margin: 0 0 1.2rem 0;
+}
+.recipe-page .meta-grid{
+  display:grid;
+  grid-template-columns:repeat(4, minmax(0, 1fr));
+  gap:.85rem 1.5rem;
+  margin-bottom:1.05rem;
+}
+.recipe-page .meta-grid .meta-card{
+  padding-top:.42rem;
+}
+.recipe-page .meta-grid .meta-card strong{
+  margin-bottom:.08rem;
+}
+.recipe-page .meta-grid .meta-card:nth-child(n+5){
+  display:none !important;
+}
+@media (max-width: 900px){
+  .recipe-page .meta-grid{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap:.75rem 1.15rem;
+  }
 }
 .site-header nav{
   display:flex;
@@ -250,19 +274,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* R18-068 — header, overlay ricerca e quick-meta unificati */
 .site-header nav{margin-left:auto;justify-content:flex-end;align-items:center;}
 .site-header .recipe-nav-back{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;font-size:24px;line-height:1;text-decoration:none;color:inherit;flex:0 0 auto;position:relative;top:-2px;}
@@ -293,6 +304,8 @@
 @media (max-width:760px){.site-header nav{margin-left:auto;justify-content:flex-end;gap:.32rem;}.site-header nav a{font-size:.95rem;letter-spacing:-.015em;}.site-header .recipe-nav-back{width:20px;height:22px;font-size:18px;top:-1px;}.site-header .site-search-button.recipe-nav-search{padding:.05rem 0;}.site-header .site-search-button.recipe-nav-search svg{width:.98em;height:.98em;}.recipe-quick-meta{gap:.05rem .34rem;}.recipe-quick-meta span{font-size:.94rem;line-height:1.5;}.recipe-quick-meta span:not(:last-child)::after{margin-left:.34rem;}}
 @media (max-width:640px){.recipe-search-dialog{top:4rem;right:1rem;left:1rem;width:auto;}}
 
+
+
 @media print{
   header.site-header,
   .page > .site-header,
@@ -318,8 +331,8 @@
 
 /* R18-003 — Ingredienti e tempi: mock implementato per valutazione complessiva */
 .recipe-quick-meta{
-  display:flex;
-  flex-wrap:wrap;
+  display:block;
+  line-height:1.55;
   gap:.55rem .75rem;
   max-width:min(100%, var(--reading));
   margin:1.1rem auto 2rem;
@@ -440,33 +453,8 @@
 }
 @media (max-width:768px){
   .recipe-quick-meta{margin-top:.8rem;}
-  .recipe-quick-meta span{flex:1 1 100%;}
   .ingredients-overlay{padding:.75rem;}
   .ingredients-overlay-panel{max-height:92vh;padding:.9rem;}
-}
-
-
-/* R18-035 — metadati principali su 4 colonne, secondari nella quick-meta */
-.recipe-page .meta-grid{
-  display:grid;
-  grid-template-columns:repeat(4, minmax(0, 1fr));
-  gap:.85rem 1.5rem;
-  margin-bottom:1.05rem;
-}
-.recipe-page .meta-grid .meta-card{
-  padding-top:.42rem;
-}
-.recipe-page .meta-grid .meta-card strong{
-  margin-bottom:.08rem;
-}
-.recipe-page .meta-grid .meta-card:nth-child(n+5){
-  display:none !important;
-}
-@media (max-width: 900px){
-  .recipe-page .meta-grid{
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap:.75rem 1.15rem;
-  }
 }</style>
 <style id="recipe-lightbox-style">.recipe-lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.88);display:flex;align-items:center;justify-content:center;padding:2rem;z-index:9999;cursor:zoom-out;}
 .recipe-lightbox-overlay.is-hidden{display:none !important;}
@@ -503,7 +491,27 @@ main figure a[data-image-link] img{cursor:pointer;}
 </header>
 <main class="recipe-page">
 <main class="recipe-page">
-<div class="recipe-content"><h1>Fegato alla veneziana</h1><section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span><a href="../../indici/autore.html#pierre-piccotti">Pierre Piccotti</a></span></div><div class="meta-card"><strong>Categoria</strong><span><a href="../../indici/categorie.html#secondi">Secondi</a></span></div><div class="meta-card"><strong>Geografia</strong><span><a href="../../indici/geografia.html#italia-veneto-venezia">Italia - Veneto - Venezia</a></span></div><div class="meta-card"><strong>Fonte</strong><span></span></div></section><section class="lead"><h2>Introduzione e contesto</h2><figure class="step-photo step-photo-large" style="width: 651.786px; max-width: 100%;"><img src="../../foto/fegato-alla-veneziana/01.jpg" width="651.7857666015625"/><figcaption>Ingredienti da AI</figcaption></figure><p>I veneziani usano correggere il retrogusto amarognolo del fegato, aggiungendovi un ingrediente addolcente: le cipolle. Un'abitudine antichissima, se è vero che i romani lo preparavano 'ficatum", ossia con i fichi, da cui il nome stesso della frattaglia.</p></section><section class="block ingredients-block"><h2>Ingredienti</h2><div class="table-wrap"><table class="recipe-table ingredients-table"><thead><tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr></thead><tbody><tr><td>Fegato</td><td>1/2</td><td>kg</td><td>di vitelo</td></tr><tr><td>Cipolle</td><td>2</td><td>n</td><td>grosse</td></tr><tr><td>Burro</td><td></td><td></td><td></td></tr><tr><td>Olio extra vergine d'oliva</td><td></td><td></td><td></td></tr></tbody></table></div></section><section class="preparation-block block"><h2>Preparazione</h2><ol class="steps"><li><p><strong>Il fegato.</strong></p><p>Taglio mezzo chilo di fegato di vitello a fettine sottili e non troppo lunghe.</p></li><li><p><strong>Le cipolle.</strong></p><p>Taglio sottilmente due grosse cipolle e le faccio imbiondire lentamente in olio e burro, tenendole coperte. Tolgo dal fuoco e lascio intiepidire.</p></li><li><p><strong>La cottura.</strong></p><p>Aggiungo il fegato e rimetto sul fuoco. Dopo due o tre minuti, rimescolo e lascio cucinare un altro paio di minuti. Salare.</p></li><li><p><strong>Accompagnamento.</strong></p><p>Accompagno il fegato con fette di polenta abbrustolita.</p></li></ol></section><section class="notes"><h2>Note e osservazioni</h2><p></p></section></div><footer class="site-footer recipe-footer"><div class="site-footer-left"><a aria-label="Licenza Creative Commons BY-NC-SA" class="cc-link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" title="Licenza Creative Commons BY-NC-SA"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><nav aria-label="Strumenti pagina" class="site-footer-center"><a aria-label="Informativa" class="site-footer-icon recipe-tool-info" href="../../informativa.html" title="Informativa"><img alt="" src="../../foto/ui/info-light.svg"/></a><a aria-label="Scrivimi" class="site-footer-icon recipe-tool-mail" href="../../scrivimi.html" title="Scrivimi"><img alt="" src="../../foto/ui/mail-light.svg"/></a><a aria-label="Stampa pagina" class="site-footer-icon js-print-link js-editorial-print-link recipe-tool-print" href="#" title="Stampa pagina"><img alt="" src="../../foto/ui/print-light.svg"/></a><a aria-label="Copia URL" class="site-footer-icon recipe-tool-link" href="#" title="Copia URL"><img alt="" src="../../foto/ui/link-light.svg"/></a></nav><div class="site-footer-right"><a aria-label="Fegato alla veneziana" class="site-footer-qr-link recipe-qrcode-link" href="../../foto/fegato-alla-veneziana/qr-code.png" title="Fegato alla veneziana"><img alt="Fegato alla veneziana" src="../../foto/fegato-alla-veneziana/qr-code.png" title="Fegato alla veneziana"/></a></div></footer>
+<div class="recipe-content">
+<h1>Madeleine</h1>
+<section class="meta-grid"><div class="meta-card"><strong>Autore</strong><span><a href="../../indici/autore.html#pierre-piccotti">Pierre Piccotti</a></span></div><div class="meta-card"><strong>Categoria</strong><span><a href="../../indici/categorie.html#dolci">Dolci</a></span></div><div class="meta-card"><strong>Geografia</strong><span><a href="../../indici/geografia.html#francia-normandia">Francia - Normandia</a></span></div><div class="meta-card"><strong>Fonte</strong><span></span></div><div class="meta-card"><strong>Porzioni</strong><span></span></div><div class="meta-card"><strong>Tempo attivo</strong><span></span></div><div class="meta-card"><strong>Tempo cottura</strong><span></span></div><div class="meta-card"><strong>Tempo riposo</strong><span></span></div><div class="meta-card"><strong>Tempo totale</strong><span></span></div></section>
+<section class="lead"><h2>Introduzione e contesto</h2><figure class="step-photo step-photo-large" style="width: 652px; max-width: 100%;"><img src="../../foto/madeleine/01.jpg" width="652"/></figure><p>Non sono biscotti. O almeno, non dovrebbero esserlo.</p><p>La madeleine è una piccola cosa precisa: burro, uova, farina, zucchero, riposo, calore. Se funziona, porta con sé qualcosa che non è solo gusto. Non serve nominarlo troppo. Basta che, aprendola, arrivi quel profumo caldo di burro, limone e farina cotta, e che per un attimo il tempo faccia una piega.</p><figure class="step-photo step-photo-right" style="width: 215px; max-width: 100%;"><img src="../../foto/madeleine/P8200051.jpg" width="215"/></figure><p>Qui uso burro di Normandia, possibilmente <a href="https://www.inao.gouv.fr/produit/beurre-disigny-12035" rel="noopener noreferrer" target="_blank"><strong>Beurre d’Isigny AOP</strong></a>. Non per snobismo, ma perché in una ricetta così breve ogni ingrediente parla. Il burro deve sapere di panna, non di grasso generico. Il disciplinare AOP lega il prodotto a un territorio preciso, a una crema precisa, a una lavorazione controllata.<br/></p><figure class="step-photo step-photo-left" style="width: 215px; max-width: 100%;"><img src="../../foto/madeleine/P8210012.jpg" width="215"/></figure><p>Preferisco un burro centrifugato, ottenuto separando rapidamente la panna dal latte, perché in pasticceria dà un risultato più pulito e costante. Il burro di affioramento può essere magnifico, ma è più variabile. Il burro di siero, o comunque di recupero, qui non ha senso: in una madeleine il burro non è un grasso di servizio, è la struttura aromatica della ricetta.</p><figure class="step-photo step-photo-right" style="width: 215px; max-width: 100%;"><img src="../../foto/madeleine/P8240001.jpg" width="215"/></figure><p>Sul burro bisogna essere onesti. È un alimento denso, ricco di grassi saturi, e non va usato senza misura. Ma non è nemmeno un nemico da sostituire automaticamente con surrogati opachi. In una madeleine fatta bene entra in quantità limitata, porta vitamine liposolubili, aroma, tessitura e memoria. Il problema non è una madeleine. Il problema è farne dieci, magari dopo aver dichiarato guerra al burro e poi comprato biscotti industriali con grassi vegetali indefiniti.</p></section>
+<section class="block ingredients-block">
+<h2>Ingredienti</h2>
+<div class="table-wrap">
+<table class="recipe-table ingredients-table">
+<thead>
+<tr><th>Ingrediente</th><th>Quantità</th><th>Unità</th><th>Note</th></tr>
+</thead>
+<tbody>
+<tr><td>farina di frumento</td><td>120</td><td>g</td><td>setacciata<br/></td></tr><tr><td>zucchero semolato</td><td>100</td><td>g</td><td></td></tr><tr><td>uova</td><td>2</td><td>n</td><td>medie</td></tr><tr><td>Burro di Normandia AOP</td><td>100</td><td>g</td><td>fuso e tiepido<br/></td></tr><tr><td>latte intero</td><td>20</td><td>g</td><td><p data-pm-slice="1 1 []">facoltativo, solo se impasto troppo sostenuto</p></td></tr><tr><td>lievito per dolci</td><td>4</td><td>g</td><td></td></tr><tr><td>limone non trattato</td><td>1</td><td>n</td><td>solo scorza</td></tr><tr><td>miele delicato</td><td>10</td><td>g</td><td>acacia o millefiori chiaro</td></tr><tr><td>sale</td><td>1</td><td>pizzico</td><td></td></tr>
+</tbody>
+</table>
+</div>
+</section>
+<section class="preparation-block block"><h2>Preparazione</h2><ol class="steps"><li><p><strong>Il burro.</strong></p><p>Fondo il burro lentamente, senza farlo friggere. Deve sciogliersi e profumare, non diventare noisette. Lo lascio intiepidire. Se è troppo caldo cuoce l’impasto, se è freddo si incorpora male.</p></li><li><p><strong>Le uova.</strong></p><p>In una ciotola lavoro le uova con lo zucchero e il miele. Non devo montare come per un pan di Spagna: mi basta sciogliere bene lo zucchero e incorporare aria in modo moderato. La madeleine deve avere corpo, non diventare schiuma.</p></li><li><p><strong>La farina.</strong></p><p>Aggiungo la farina setacciata con il lievito e il pizzico di sale. Mescolo poco, il necessario. Poi unisco la scorza fine del limone. Deve sentirsi appena: non voglio una tortina al limone, ma una madeleine.</p></li><li><p><strong>Il burro nell’impasto.</strong></p><p>Verso il burro tiepido a filo, mescolando con calma. L’impasto diventa lucido e più morbido. Se resta troppo compatto aggiungo pochissimo latte, ma solo se serve.</p></li><li><p><strong>Riposo.</strong></p><p>Copro e metto in frigorifero almeno 8 ore, meglio una notte. Questo passaggio è essenziale. La gobba nasce anche dallo shock fra impasto freddo e forno caldo. Senza riposo vengono dolcetti buoni, non madeleine.</p></li><li><p><strong>Stampi.</strong></p><p>Imburro e infarino bene gli stampi, anche se sono antiaderenti. Li tengo freddi. Riempio ogni incavo per circa tre quarti, senza livellare troppo.</p></li><li><p><strong>Cottura.</strong></p><p>Porto il forno a 220 °C statico. Inforno gli stampi freddi con impasto freddo. Dopo 3-4 minuti, quando il bordo comincia a fissarsi e la gobba si alza, abbasso a 180 °C e continuo per altri 5-7 minuti. Devono dorare ai bordi e restare morbide al centro.</p></li><li><p><strong>Uscita dal forno.</strong></p><p>Le sformo subito e le lascio respirare su una griglia. Sono migliori tiepide. Il giorno dopo restano buone, ma hanno già cambiato natura.</p></li></ol></section>
+<section class="notes"><h2>Note e osservazioni</h2><p></p></section>
+</div>
+<footer class="site-footer recipe-footer"><div class="site-footer-left"><a aria-label="Licenza Creative Commons BY-NC-SA" class="cc-link" href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licenza Creative Commons BY-NC-SA" src="../../foto/licenze/Cc-by-nc-sa_icon.svg"/></a></div><nav aria-label="Strumenti pagina" class="site-footer-center"><a aria-label="Informativa" class="site-footer-icon recipe-tool-info" href="../../informativa.html" title="Informativa"><img alt="" src="../../foto/ui/info-light.svg"/></a><a aria-label="Scrivimi" class="site-footer-icon recipe-tool-mail" href="../../scrivimi.html" title="Scrivimi"><img alt="" src="../../foto/ui/mail-light.svg"/></a><a aria-label="Stampa pagina" class="site-footer-icon js-print-link js-editorial-print-link recipe-tool-print" href="#" title="Stampa pagina"><img alt="" src="../../foto/ui/print-light.svg"/></a><a aria-label="Copia URL" class="site-footer-icon recipe-tool-link" href="#" title="Copia URL"><img alt="" src="../../foto/ui/link-light.svg"/></a></nav><div class="site-footer-right"><a aria-label="Madeleine" class="site-footer-qr-link recipe-qrcode-link" href="../../foto/madeleine/qr-code.png" title="Madeleine"><img alt="Madeleine" src="../../foto/madeleine/qr-code.png" title="Madeleine"/></a></div></footer>
 </main>
 </main>
 </div>
@@ -659,7 +667,7 @@ document.addEventListener('DOMContentLoaded', function(){
     overlay.classList.remove('is-hidden');
   }
 
-  var PRINT_ENGINE_SRC = '../../foto/ui/recipe-editorial-print.js?v=ROOT-R18-142';
+  var PRINT_ENGINE_SRC = '../../foto/ui/recipe-editorial-print.js?v=CMS2-R18-172';
   var printEnginePromise = null;
 
   function loadRecipeEditorialPrintEngine(){
