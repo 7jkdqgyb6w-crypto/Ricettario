@@ -19,7 +19,7 @@
     ],
     "co2": "alta",
     "kcal_classe": "alte",
-    "search_text": "agnolotti al sugo d'arrosto primi italia - piemonte jacqueline gibert questa ricetta rispecchia un poco la mia famiglia. mio padre era di alessandria e mia madre era nata a torino. queste due città hanno una tradizione di agnolotti leggermente diversa: arrosto a torino, brasato ad… per il brodo polpa di manzo ossa di bovino doppione o biancostato gallina pulita sedano carota cipolla pomodoro rosso acqua fredda sale alloro bacche di ginepro chiodi di garofano prezzemolo pepe per il ripieno e il sugo reale di vitello polpa di suino lardo prosciutto cotto riso bollito nel latte spinaci cipolla dorata rosmarino cannella salvia noce moscata barbera uova parmigiano reggiano igp burro olio extra vergine d'oliva per la pasta farina di frumento 00 cereali contenenti glutine uova latte frutta a guscio sedano tutto_anno onnivoro",
+    "search_text": "agnolotti al sugo d'arrosto primi italia - piemonte jacqueline gibert questa ricetta rispecchia un poco la mia famiglia. mio padre era di alessandria e mia madre era nata a torino. queste due città hanno una tradizione di agnolotti leggermente diversa: arrosto a torino, brasato ad… polpa di manzo ossa di bovino doppione o biancostato gallina pulita sedano carota cipolla pomodoro rosso acqua fredda sale alloro bacche di ginepro chiodi di garofano prezzemolo pepe reale di vitello polpa di suino lardo prosciutto cotto riso bollito nel latte spinaci cipolla dorata rosmarino cannella salvia noce moscata barbera uova parmigiano reggiano igp burro olio extra vergine d'oliva farina di frumento 00 cereali contenenti glutine uova latte frutta a guscio sedano tutto_anno onnivoro",
     "metadati_fonte": "auto",
     "href": "../ricette/agnolotti-al-sugo-d-arrosto/",
     "img": "../foto/agnolotti-al-sugo-d-arrosto/01.jpg"
@@ -668,12 +668,10 @@
     ],
     "ingredienti_chiave": [],
     "termini_ricerca": [],
-    "allergeni": [
-      "uova"
-    ],
+    "allergeni": [],
     "co2": "media",
     "kcal_classe": "alte",
-    "search_text": "paccheri di gragnano igp con orata, pomodorini, capperi e zenzero primi italia - sardegna mix risto bottega sarda un gennaio piovoso, uscendo dalla centrale montemartini (notevole) in roma, in via ostiense, scoprimmo una trattoria: mix risto bottega sarda. cucina sarda con profumi orientali. ho provato a rifare un piatto che mi… paccheri di gragnano igp filetti di orata pomodorini capperi di pantelleria igp zenzero vino bianco secco concentrato di pomodoro olio extra vergine d'oliva sale pepe prezzemolo tritato nuova sezione uova estate pescetariano",
+    "search_text": "paccheri di gragnano igp con orata, pomodorini, capperi e zenzero primi italia - sardegna mix risto bottega sarda un gennaio piovoso, uscendo dalla centrale montemartini (notevole) in roma, in via ostiense, scoprimmo una trattoria: mix risto bottega sarda. cucina sarda con profumi orientali. ho provato a rifare un piatto che mi… paccheri di gragnano igp filetti di orata pomodorini capperi di pantelleria igp zenzero vino bianco secco concentrato di pomodoro olio extra vergine d'oliva sale pepe prezzemolo tritato estate pescetariano",
     "metadati_fonte": "auto",
     "href": "../ricette/paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero/",
     "img": "../foto/paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero/01.jpg"
@@ -961,9 +959,9 @@
     "allergeni": [
       "pesce"
     ],
-    "co2": "",
-    "kcal_classe": "",
-    "search_text": "peperoni, alici e capperi antipasti italia - puglia - bari nicola f. peperoni rossi e gialli capperi di pantelleria igp alici sotto sale olio extra vergine d'oliva pesce estate pescetariano",
+    "co2": "bassa",
+    "kcal_classe": "poche",
+    "search_text": "peperoni, alici e capperi antipasti italia - puglia - bari nicola f. peperoni gialli e rossi capperi di pantelleria igp alici sotto sale olio extra vergine d'oliva pesce estate pescetariano",
     "metadati_fonte": "auto",
     "href": "../ricette/peperoni-alici-e-capperi/",
     "img": "../foto/peperoni-alici-e-capperi/01.jpg"
@@ -1221,7 +1219,7 @@
     ],
     "co2": "bassa",
     "kcal_classe": "alte",
-    "search_text": "soupe au pistou primi francia - provenza guillaume e. piatto tradizionale provenzale che si gusta nelle serate estive. si, anche se caldo. ma in fondo anche in piemonte il minestrone si gusta d'estate. e' una questione di ingredienti che solo in questa stagione sono… soupe fagioli bianchi e rossi fagiolini verdi zucchina pomodori patate porro cipolla melanzana sedano carota conchiglie pistou basilico aglio olio extra vergine d'oliva condimento parmigiano reggiano igp latte sedano estate autunno inverno vegetariano",
+    "search_text": "soupe au pistou primi francia - provenza guillaume e. piatto tradizionale provenzale che si gusta nelle serate estive. si, anche se caldo. ma in fondo anche in piemonte il minestrone si gusta d'estate. e' una questione di ingredienti che solo in questa stagione sono… fagioli bianchi e rossi fagiolini verdi zucchina pomodori patate porro cipolla melanzana sedano carota conchiglie basilico aglio olio extra vergine d'oliva parmigiano reggiano igp latte sedano estate autunno inverno vegetariano",
     "metadati_fonte": "auto",
     "href": "../ricette/soupe-au-pistou/",
     "img": "../foto/soupe-au-pistou/01.jpg"

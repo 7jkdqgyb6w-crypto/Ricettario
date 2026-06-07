@@ -1,7 +1,7 @@
 {
   "versione": "CMS2-R18-103",
   "semantica_versione": "CMS2-R18-169",
-  "timestamp": "2026-06-06T23:17:02",
+  "timestamp": "2026-06-07T22:43:29",
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "search_data": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT\\indici\\search-data.json",
   "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\CMS\\ingredienti-semantica.json",
@@ -2076,7 +2076,7 @@
       "titolo": "Peperoni, alici e capperi",
       "fonte_semantica": "html-ingredienti",
       "ingredienti_usati": [
-        "Peperoni rossi e gialli",
+        "Peperoni gialli e rossi",
         "Capperi di Pantelleria IGP",
         "Alici sotto sale",
         "Olio extra vergine d'oliva"
