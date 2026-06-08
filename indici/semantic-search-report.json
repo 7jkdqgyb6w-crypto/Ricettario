@@ -1,7 +1,7 @@
 {
   "versione": "CMS2-R18-103",
   "semantica_versione": "CMS2-R18-169",
-  "timestamp": "2026-06-07T22:43:29",
+  "timestamp": "2026-06-08T22:30:44",
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "search_data": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT\\indici\\search-data.json",
   "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\CMS\\ingredienti-semantica.json",
@@ -2239,23 +2239,23 @@
       "titolo": "Risi e bisi",
       "fonte_semantica": "html-ingredienti",
       "ingredienti_usati": [
+        "Riso",
         "Carota",
         "Cipolla",
         "Pepe",
         "Piselli",
-        "Sale",
         "Sedano",
-        "Riso"
+        "Sale"
       ],
       "termini_ricerca": [
+        "riso",
         "verdure",
         "ortaggi",
         "carote",
         "cipolle",
         "legumi",
         "piselli",
-        "sedano",
-        "riso"
+        "sedano"
       ],
       "allergeni": [
         "sedano"
@@ -2264,12 +2264,12 @@
         "spezie"
       ],
       "regole_matchate": [
+        "riso",
         "carote",
         "cipolle",
         "sale",
         "piselli",
-        "sedano",
-        "riso"
+        "sedano"
       ],
       "modificato": true
     },
