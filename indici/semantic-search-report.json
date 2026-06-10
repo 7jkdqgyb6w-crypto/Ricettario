@@ -1,7 +1,7 @@
 {
   "versione": "CMS2-R18-103",
   "semantica_versione": "CMS2-R18-169",
-  "timestamp": "2026-06-09T23:31:19",
+  "timestamp": "2026-06-10T18:57:10",
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "search_data": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT\\indici\\search-data.json",
   "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\CMS\\ingredienti-semantica.json",
@@ -2726,7 +2726,7 @@
       "titolo": "Straccetti di pollo al limone",
       "fonte_semantica": "html-ingredienti",
       "ingredienti_usati": [
-        "Petto di pollo allevato a terra",
+        "Petto di pollo",
         "Limone",
         "Rosmarino",
         "Olio extra vergine d'oliva",
@@ -2895,6 +2895,10 @@
       "titolo": "Tonno alla CarloFortina",
       "fonte_semantica": "html-ingredienti",
       "ingredienti_usati": [
+        "Tonno",
+        "Olio extra vergine d'oliva",
+        "Vino bianco secco",
+        "Alloro",
         "Tonno"
       ],
       "termini_ricerca": [
@@ -2904,9 +2908,21 @@
       "allergeni": [
         "pesce"
       ],
-      "tag_accessori_esclusi": [],
+      "tag_accessori_esclusi": [
+        "olio",
+        "frutti",
+        "olive",
+        "vino",
+        "vino rosso",
+        "barbera",
+        "erbe aromatiche"
+      ],
       "regole_matchate": [
-        "tonno"
+        "tonno",
+        "olio",
+        "olive",
+        "barbera",
+        "prezzemolo"
       ],
       "modificato": true
     },

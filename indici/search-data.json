@@ -1123,9 +1123,9 @@
       "cereali contenenti glutine",
       "latte"
     ],
-    "co2": "",
-    "kcal_classe": "",
-    "search_text": "roux brun fondi francia salsa addensante scura e dal gusto \"tostato\". base molte salse a fondi cottura burro farina di frumento 00 cereali contenenti glutine latte tutto_anno vegetariano",
+    "co2": "bassa",
+    "kcal_classe": "poche",
+    "search_text": "roux brun fondi francia salsa addensante scura e dal gusto \"tostato\". utile per molte salse con fondi cottura. burro farina di frumento 00 cereali contenenti glutine latte tutto_anno vegetariano",
     "metadati_fonte": "auto",
     "href": "../ricette/roux-brun/",
     "img": "../foto/roux-brun/01.jpg"
@@ -1169,9 +1169,9 @@
       "pesce",
       "frutta a guscio"
     ],
-    "co2": "",
-    "kcal_classe": "",
-    "search_text": "sarde a beccafico antipasti italia - sicilia ricettario \"la cucina siciliana\" sarde pangrattato pinoli uva sultanina alici sotto sale alloro fresco prezzemolo olio extra vergine d'oliva limoni zucchero di canna sale pepe cereali contenenti glutine pesce frutta a guscio inverno pescetariano",
+    "co2": "bassa",
+    "kcal_classe": "medie",
+    "search_text": "sarde a beccafico antipasti italia - sicilia ricettario \"la cucina siciliana\" questa ricetta non è mia, ma forse l'ho in parte integrata di qualche piccola personalizzazione. soprattutto nella scelta degli ingredienti. sarde pangrattato pinoli uva sultanina alici sotto sale alloro fresco prezzemolo olio extra vergine d'oliva limoni zucchero di canna sale pepe cereali contenenti glutine pesce frutta a guscio inverno pescetariano",
     "metadati_fonte": "auto",
     "href": "../ricette/sarde-a-beccafico/",
     "img": "../foto/sarde-a-beccafico/01.jpg"
@@ -1195,7 +1195,7 @@
     ],
     "co2": "bassa",
     "kcal_classe": "alte",
-    "search_text": "sfogliata pugliese primi italia - puglia nicola f. pasta per pane olive nere snocciolate pugliesi alici sotto sale uva passa pomodori pelati san marzano dop pecorino romano dop capperi di pantelleria igp olio extra vergine d'oliva cereali contenenti glutine pesce latte frutta a guscio tutto_anno pescetariano",
+    "search_text": "sfogliata pugliese primi italia - puglia nicola f. in questo piatto particolare è l'accostamento di uva passa con il pecorino. poi gli ingredienti, devono essere di qualità. pasta per pane olive nere snocciolate pugliesi alici sotto sale uva passa pomodori pelati san marzano dop pecorino romano dop capperi di pantelleria igp olio extra vergine d'oliva cereali contenenti glutine pesce latte frutta a guscio tutto_anno pescetariano",
     "metadati_fonte": "auto",
     "href": "../ricette/sfogliata-pugliese/",
     "img": "../foto/sfogliata-pugliese/01.jpg"
@@ -1280,9 +1280,9 @@
     "ingredienti_chiave": [],
     "termini_ricerca": [],
     "allergeni": [],
-    "co2": "",
-    "kcal_classe": "",
-    "search_text": "straccetti di pollo al limone secondi italia petto di pollo allevato a terra limone rosmarino olio extra vergine d'oliva sale pepe inverno onnivoro",
+    "co2": "bassa",
+    "kcal_classe": "poche",
+    "search_text": "straccetti di pollo al limone secondi italia facilissimo, veloce, economico, facilmente digeribile, molto profumato. petto di pollo limone rosmarino olio extra vergine d'oliva sale pepe inverno onnivoro",
     "metadati_fonte": "auto",
     "href": "../ricette/straccetti-di-pollo-al-limone/",
     "img": "../foto/straccetti-di-pollo-al-limone/01.jpg"
@@ -1350,9 +1350,9 @@
   {
     "slug": "tonno-alla-carlofortina",
     "titolo": "Tonno alla CarloFortina",
-    "categoria": "",
+    "categoria": "Secondi",
     "geografia": "Italia - Sardegna - Carloforte",
-    "regime_minimo": "onnivoro",
+    "regime_minimo": "pescetariano",
     "stagioni": [
       "tutto_anno"
     ],
@@ -1361,9 +1361,9 @@
     "allergeni": [
       "pesce"
     ],
-    "co2": "",
-    "kcal_classe": "",
-    "search_text": "tonno alla carlofortina italia - sardegna - carloforte il cuoco andrea dell'osteria della tonnara di carloforte (sardegna) lo fa cosi': tranci di tonno (quello scuro scuro che sembra una bistecca di manzo) alti tre dita, tagliati in 4, rosolati in olio in un tegame di… tonno pesce tutto_anno onnivoro",
+    "co2": "bassa",
+    "kcal_classe": "poche",
+    "search_text": "tonno alla carlofortina secondi italia - sardegna - carloforte serena s. il cuoco andrea dell'osteria della tonnara di carloforte (sardegna) lo fa così. tonno olio extra vergine d'oliva vino bianco secco alloro pesce tutto_anno pescetariano",
     "metadati_fonte": "auto",
     "href": "../ricette/tonno-alla-carlofortina/",
     "img": "../foto/tonno-alla-carlofortina/01.jpg"
