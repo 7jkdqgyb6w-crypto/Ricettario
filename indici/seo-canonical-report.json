@@ -4,10 +4,10 @@
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "site_base_url": "https://ricette.pierre.piccotti.it",
   "mode": "APPLY",
-  "created_at": "2026-06-11T00:12:25",
+  "created_at": "2026-06-12T00:22:26",
   "counts": {
-    "UNCHANGED": 69,
-    "UPDATED": 8
+    "UNCHANGED": 4,
+    "UPDATED": 73
   },
   "results": [
     {
@@ -102,381 +102,570 @@
     },
     {
       "path": "ricette\\agnolotti-al-sugo-d-arrosto\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/agnolotti-al-sugo-d-arrosto/",
-      "description": "Agnolotti al sugo d'arrosto. Questa ricetta rispecchia un poco la mia famiglia. Mio padre era di Alessandria e mia madre era nata a Torino. Queste due…"
+      "description": "Agnolotti al sugo d'arrosto. Questa ricetta rispecchia un poco la mia famiglia. Mio padre era di Alessandria e mia madre era nata a Torino. Queste due…",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\anatra-all-arancia\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/anatra-all-arancia/",
-      "description": "Anatra all'arancia. Questa ricetta proviene da appunti da un ricettario di mia nonna. Con il tempo ho cercato di alleggerirla... ma i miracoli non sono…"
+      "description": "Anatra all'arancia. Questa ricetta proviene da appunti da un ricettario di mia nonna. Con il tempo ho cercato di alleggerirla... ma i miracoli non sono…",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\anatra-in-salsa\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/anatra-in-salsa/",
-      "description": "Anatra in salsa. Questa preparazione richiama la tradizione veneta della peverada , pur in una versione più semplice: le alici sotto sale, l’aceto e il…"
+      "description": "Anatra in salsa. Questa preparazione richiama la tradizione veneta della peverada , pur in una versione più semplice: le alici sotto sale, l’aceto e il…",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\antipastino-piemontese\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/antipastino-piemontese/",
-      "description": "Antipast(ino) piemontese. Premessa. Questa non è una ricetta. E' un assaggio di un antipasto alla piemontese, di cui rimando alle singole ricette."
+      "description": "Antipast(ino) piemontese. Premessa. Questa non è una ricetta. E' un assaggio di un antipasto alla piemontese, di cui rimando alle singole ricette.",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\antipasto-di-canocce\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/antipasto-di-canocce/",
-      "description": "Antipasto di canocce. Piatto tipico della laguna veneziana."
+      "description": "Antipasto di canocce. Piatto tipico della laguna veneziana.",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\aringhe-in-terrina\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/aringhe-in-terrina/",
-      "description": "Aringhe in terrina. Quando ero ragazzo erano spesso presenti in casa mia. Ottimi panini con il pane imburrato..."
+      "description": "Aringhe in terrina. Quando ero ragazzo erano spesso presenti in casa mia. Ottimi panini con il pane imburrato...",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\arista-alla-birra\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/arista-alla-birra/",
-      "description": "Arista alla birra. Questa ricetta mi arriva da Nicola, anzi dalla sua ex moglie. È una di quelle preparazioni che richiedono tempo più che tecnica: la…"
+      "description": "Arista alla birra. Questa ricetta mi arriva da Nicola, anzi dalla sua ex moglie. È una di quelle preparazioni che richiedono tempo più che tecnica: la…",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\baccala-mantecato\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/baccala-mantecato/",
-      "description": "Baccalà mantecato. A Venezia ho lavorato per molti anni. Di immagini ne sono rimaste poche."
+      "description": "Baccalà mantecato. A Venezia ho lavorato per molti anni. Di immagini ne sono rimaste poche.",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\bagna-cauda\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/bagna-cauda/",
-      "description": "Bagna cauda. Questa ricetta tradizionale piemontese è nella versione tramandata da mia mamma. Per fissarla nel tempo ha pensato di scriverla e disegnarla…"
+      "description": "Bagna cauda. Questa ricetta tradizionale piemontese è nella versione tramandata da mia mamma. Per fissarla nel tempo ha pensato di scriverla e disegnarla…",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\battuta-di-manzo-alla-boscaiola\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/battuta-di-manzo-alla-boscaiola/",
-      "description": "Battuta di manzo alla boscaiola. Questa ricetta mi è stata inviata da Antonio e probabilmente nasce in area Alpago."
+      "description": "Battuta di manzo alla boscaiola. Questa ricetta mi è stata inviata da Antonio e probabilmente nasce in area Alpago.",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\bigoli-in-salsa\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/bigoli-in-salsa/",
-      "description": "Bigoli in salsa. I bigoli in salsa sono uno dei piatti più essenziali della tradizione veneziana. Pochi ingredienti, ma nessuna possibilità di errore…"
+      "description": "Bigoli in salsa. I bigoli in salsa sono uno dei piatti più essenziali della tradizione veneziana. Pochi ingredienti, ma nessuna possibilità di errore…",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\braciole-di-carne-di-cavallo\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/braciole-di-carne-di-cavallo/",
-      "description": "Braciole di carne di cavallo. Questa è una ricetta pugliese, ma io la considero soprattutto per quello che diventa nel piatto: un sugo ricco per la pasta."
+      "description": "Braciole di carne di cavallo. Questa è una ricetta pugliese, ma io la considero soprattutto per quello che diventa nel piatto: un sugo ricco per la pasta.",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\calamari-ripieni\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/calamari-ripieni/",
-      "description": "Calamari ripieni. Qui il calamaro fa la differenza... Se è troppo fresco può risultare sorprendentemente duro. Meglio che sia stato abbattuto oppure…"
+      "description": "Calamari ripieni. Qui il calamaro fa la differenza... Se è troppo fresco può risultare sorprendentemente duro. Meglio che sia stato abbattuto oppure…",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\cavolo-rosso-condito\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/cavolo-rosso-condito/",
-      "description": "Cavolo rosso condito. Ricordi vaghi, ma credo che in qualche modo dovesse essere presente in casa mia, forse introdotto da me ancora negli anni '70."
+      "description": "Cavolo rosso condito. Ricordi vaghi, ma credo che in qualche modo dovesse essere presente in casa mia, forse introdotto da me ancora negli anni '70.",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\cous-cous-alla-trapanese\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/cous-cous-alla-trapanese/",
-      "description": "Cous cous alla trapanese. Questo è un piatto che sto ancora cercando di mettere a fuoco."
+      "description": "Cous cous alla trapanese. Questo è un piatto che sto ancora cercando di mettere a fuoco.",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\crepes\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/crepes/",
-      "description": "Crêpes. Sì, certo: Bretagna e Normandia. Luce, vento, nuvole basse che sembrano uscire da un quadro di Magritte, quasi da toccare."
+      "description": "Crêpes. Sì, certo: Bretagna e Normandia. Luce, vento, nuvole basse che sembrano uscire da un quadro di Magritte, quasi da toccare.",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\daube\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/daube/",
-      "description": "Daube. Potrebbe sembrare uno spezzatino, ma non lo è."
+      "description": "Daube. Potrebbe sembrare uno spezzatino, ma non lo è.",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\fegato-alla-veneziana\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/fegato-alla-veneziana/",
-      "description": "Fegato alla veneziana. I veneziani usano correggere il retrogusto amarognolo del fegato, aggiungendovi un ingrediente addolcente: le cipolle…"
+      "description": "Fegato alla veneziana. I veneziani usano correggere il retrogusto amarognolo del fegato, aggiungendovi un ingrediente addolcente: le cipolle…",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\filettino-di-maiale\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/filettino-di-maiale/",
-      "description": "Filettin o di maiale. Hvar ci sono stato diverse volte. Una volta era poco conosciuta; oggi, forse considerata tra le isole più belle del Mediterraneo…"
+      "description": "Filettin o di maiale. Hvar ci sono stato diverse volte. Una volta era poco conosciuta; oggi, forse considerata tra le isole più belle del Mediterraneo…",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\filetto-angus-alla-senape-di-digione\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/filetto-angus-alla-senape-di-digione/",
-      "description": "Filetto Angus alla senape di Digione. Serena: \"La ricetta di cui parlavo è stata passata da un amico, Andrea Tanzi, cui devo eterna gratitudine per…"
+      "description": "Filetto Angus alla senape di Digione. Serena: \"La ricetta di cui parlavo è stata passata da un amico, Andrea Tanzi, cui devo eterna gratitudine per…",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\fusilli-carciofi-e-salmone\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/fusilli-carciofi-e-salmone/",
-      "description": "Fusilli carciofi e salmone. Non è una ricetta, è cucina di tutti i giorni. Veloce e pratica."
+      "description": "Fusilli carciofi e salmone. Non è una ricetta, è cucina di tutti i giorni. Veloce e pratica.",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\gigot-roti\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/gigot-roti/",
-      "description": "Gigot roti. È una preparazione molto francese, non legata al periodo pasquale, dove invece da noi è più tradizionale."
+      "description": "Gigot roti. È una preparazione molto francese, non legata al periodo pasquale, dove invece da noi è più tradizionale.",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\gnocchetti-sardi-alla-urbaweb\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/gnocchetti-sardi-alla-urbaweb/",
-      "description": "Gnocchetti sardi alla Urbaweb. Questa non è una mia ricetta."
+      "description": "Gnocchetti sardi alla Urbaweb. Questa non è una mia ricetta.",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\gnocchi-con-le-trombette-dei-morti\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/gnocchi-con-le-trombette-dei-morti/",
-      "description": "Gnocchi con le trombette dei morti. Un piatto velocissimo, quasi improvvisato."
+      "description": "Gnocchi con le trombette dei morti. Un piatto velocissimo, quasi improvvisato.",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\goulash-variante\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/goulash-variante/",
-      "description": "Gulash (variante). Questa versione della ricetta del Gulasch non è la ricetta tradizionale originale ungherese o tirolese. E' una mia interpretazione che…"
+      "description": "Gulash (variante). Questa versione della ricetta del Gulasch non è la ricetta tradizionale originale ungherese o tirolese. E' una mia interpretazione che…",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\madeleine\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/madeleine/",
-      "description": "Madeleine. Non sono biscotti. O almeno, non dovrebbero esserlo."
+      "description": "Madeleine. Non sono biscotti. O almeno, non dovrebbero esserlo.",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\medaglioni-di-manzo-con-porcini\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/medaglioni-di-manzo-con-porcini/",
-      "description": "Medaglioni di manzo con porcini. Non sono un fanatico del filetto. Per cui preferisco questa versione forse più \"Toscana\""
+      "description": "Medaglioni di manzo con porcini. Non sono un fanatico del filetto. Per cui preferisco questa versione forse più \"Toscana\"",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\minestra-di-cavoli\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/minestra-di-cavoli/",
-      "description": "Minestra di cavoli. Ci sono ricette di uso comune talmente semplici che non meriterebbero di essere scritte, se non fosse per un particolare che va…"
+      "description": "Minestra di cavoli. Ci sono ricette di uso comune talmente semplici che non meriterebbero di essere scritte, se non fosse per un particolare che va…",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\minestra-di-porri\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/minestra-di-porri/",
-      "description": "Minestra di porri. Preparazione degli ingredienti."
+      "description": "Minestra di porri. Preparazione degli ingredienti.",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\orecchiette-baresi-alle-cime-di-rapa\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/orecchiette-baresi-alle-cime-di-rapa/",
-      "description": "Orecchiette baresi alle cime di rapa. Ho recentemente aggiornato questa ricetta."
+      "description": "Orecchiette baresi alle cime di rapa. Ho recentemente aggiornato questa ricetta.",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero/",
-      "description": "Paccheri di Gragnano IGP con orata, pomodorini, capperi e zenzero. Un gennaio piovoso, uscendo dalla Centrale Montemartini (notevole) in Roma, in via…"
+      "description": "Paccheri di Gragnano IGP con orata, pomodorini, capperi e zenzero. Un gennaio piovoso, uscendo dalla Centrale Montemartini (notevole) in Roma, in via…",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\pappa-con-il-pomodoro\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/pappa-con-il-pomodoro/",
-      "description": "Pappa con il pomodoro. La base."
+      "description": "Pappa con il pomodoro. La base.",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\pasta-al-ragu-di-triglie-e-al-succo-d-arancia\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/pasta-al-ragu-di-triglie-e-al-succo-d-arancia/",
-      "description": "Pasta al ragù di triglie e al succo d'arancia. Il tutto dipende dalla freschezza delle triglie. Rigorosamente di scoglio (si riconoscono dagli intestini…"
+      "description": "Pasta al ragù di triglie e al succo d'arancia. Il tutto dipende dalla freschezza delle triglie. Rigorosamente di scoglio (si riconoscono dagli intestini…",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\pasta-con-i-broccoli\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/pasta-con-i-broccoli/",
-      "description": "Pasta con i broccoli. L'uva passa."
+      "description": "Pasta con i broccoli. L'uva passa.",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\pasta-con-le-melanzane\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/pasta-con-le-melanzane/",
-      "description": "Pasta con le melanzane. Anche in questo caso a fare la differenza sono i particolari..."
+      "description": "Pasta con le melanzane. Anche in questo caso a fare la differenza sono i particolari...",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\pasta-con-le-sarde\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/pasta-con-le-sarde/",
-      "description": "Pasta con le sarde. A me è stata insegnata così. A Palermo. Poi ho cercato di scriverla anni dopo. Non se perfetta..."
+      "description": "Pasta con le sarde. A me è stata insegnata così. A Palermo. Poi ho cercato di scriverla anni dopo. Non se perfetta...",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\pasta-con-pesto-alla-siciliana\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/pasta-con-pesto-alla-siciliana/",
-      "description": "Pasta con pesto alla siciliana. Il pesto."
+      "description": "Pasta con pesto alla siciliana. Il pesto.",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\pasta-e-fagioli\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/pasta-e-fagioli/",
-      "description": "Pasta e fagioli. E' un piatto di origine contadina ma diffusissimo ed apprezzatissimo a Venezia. Usare fagioli freschi sgranati di Lamon oppure secchi…"
+      "description": "Pasta e fagioli. E' un piatto di origine contadina ma diffusissimo ed apprezzatissimo a Venezia. Usare fagioli freschi sgranati di Lamon oppure secchi…",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\patatine\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/patatine/",
-      "description": "Patatine*. Questa non è esattamente una ricetta. Alcuni amici mi hanno chiesto di spiegare come cucino le patate…Non è semplice rispondere perché non ho…"
+      "description": "Patatine*. Questa non è esattamente una ricetta. Alcuni amici mi hanno chiesto di spiegare come cucino le patate…Non è semplice rispondere perché non ho…",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\pate-di-fegato\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/pate-di-fegato/",
-      "description": "Paté di fegato. Beh qui nessuna giustificazione. I grassi imperversano. Non è un caso che non lo preparo più da molti anni. Ma un giorno lo rifarò, anche…"
+      "description": "Paté di fegato. Beh qui nessuna giustificazione. I grassi imperversano. Non è un caso che non lo preparo più da molti anni. Ma un giorno lo rifarò, anche…",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\penne-alla-cannata\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/penne-alla-cannata/",
-      "description": "Penne alla \"Cannata\". Elementi essenziali della cucina di questa trattoria sono i capperi e la mentuccia. Luogo splendido in riva al mare."
+      "description": "Penne alla \"Cannata\". Elementi essenziali della cucina di questa trattoria sono i capperi e la mentuccia. Luogo splendido in riva al mare.",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\penne-con-mazzancolle-alle-verdure\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/penne-con-mazzancolle-alle-verdure/",
-      "description": "Penne con mazzancolle alle verdure. Una sera a cena da lui..."
+      "description": "Penne con mazzancolle alle verdure. Una sera a cena da lui...",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\penne-con-zucchine\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/penne-con-zucchine/",
-      "description": "Penne con zucchine. Il Parmigiano grattugiato è a mio avviso indispensabile in questa ricetta. Proprio per come si accorda con l'olio extra vergine…"
+      "description": "Penne con zucchine. Il Parmigiano grattugiato è a mio avviso indispensabile in questa ricetta. Proprio per come si accorda con l'olio extra vergine…",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\peperoni-alici-e-capperi\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/peperoni-alici-e-capperi/",
-      "description": "Peperoni, alici e capperi. I peperoni"
+      "description": "Peperoni, alici e capperi. I peperoni",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\picaña\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/picaña/",
-      "description": "Picaña. Questa è una versione che può essere realizzata al forno e bistecchiera. Non è uno spiedo, Non è il churrasco. Tuttavia... Volendo la carne può…"
+      "description": "Picaña. Questa è una versione che può essere realizzata al forno e bistecchiera. Non è uno spiedo, Non è il churrasco. Tuttavia... Volendo la carne può…",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\puree-di-sedano\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/puree-di-sedano/",
-      "description": "Purée di sedano. A volte è necessario alleggerire un piatto. Queta ricetta elementare è perfetta nella sua semplicità."
+      "description": "Purée di sedano. A volte è necessario alleggerire un piatto. Queta ricetta elementare è perfetta nella sua semplicità.",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\ratatouille-variante\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/ratatouille-variante/",
-      "description": "Ratatouille (variante). Da una ricetta tradizionale una piccola variante che mi è stata suggerita. Frequentando spesso la Drome provenzale ho dovuto…"
+      "description": "Ratatouille (variante). Da una ricetta tradizionale una piccola variante che mi è stata suggerita. Frequentando spesso la Drome provenzale ho dovuto…",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\ribollita\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/ribollita/",
-      "description": "Ribollita. Sto lavorando alla ricetta. Ho utilizzato questa, attesa di migliorarla (intanto ho aggiunto il basilico, come da Za Zà). Poi olio EVO toscano…"
+      "description": "Ribollita. Sto lavorando alla ricetta. Ho utilizzato questa, attesa di migliorarla (intanto ho aggiunto il basilico, come da Za Zà). Poi olio EVO toscano…",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\risi-e-bisi\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/risi-e-bisi/",
-      "description": "Risi e bisi. E' la più celebre tra le minestre veneziane. Il Doge era tenuto a mangiarla - seguendo un preciso cerimoniale - il giorno di San Marco…"
+      "description": "Risi e bisi. E' la più celebre tra le minestre veneziane. Il Doge era tenuto a mangiarla - seguendo un preciso cerimoniale - il giorno di San Marco…",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\riso-cozze-e-patate\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/riso-cozze-e-patate/",
-      "description": "Riso cozze e patate. Cozze, peoci, mitili: facciamo chiarezza."
+      "description": "Riso cozze e patate. Cozze, peoci, mitili: facciamo chiarezza.",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\roastbeef-arrosto-all-inglese\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/roastbeef-arrosto-all-inglese/",
-      "description": "Roastbeef (arrosto all'inglese). E' un modo semplice per fare in casa qualcosa che assomigli molto all'arrosto all'inglese. Non pretendo di chiamarlo…"
+      "description": "Roastbeef (arrosto all'inglese). E' un modo semplice per fare in casa qualcosa che assomigli molto all'arrosto all'inglese. Non pretendo di chiamarlo…",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\roux-brun\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/roux-brun/",
-      "description": "Roux brun. Salsa addensante scura e dal gusto \"tostato\"."
+      "description": "Roux brun. Salsa addensante scura e dal gusto \"tostato\".",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\salsa-verde\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/salsa-verde/",
-      "description": "Salsa verde. Base per il bollito misto. E non è neanche una vera ricetta."
+      "description": "Salsa verde. Base per il bollito misto. E non è neanche una vera ricetta.",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\sarde-a-beccafico\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/sarde-a-beccafico/",
-      "description": "Sarde a beccafico. Questa ricetta non è mia, ma forse l'ho in parte integrata di qualche piccola personalizzazione. Soprattutto nella scelta degli…"
+      "description": "Sarde a beccafico. Questa ricetta non è mia, ma forse l'ho in parte integrata di qualche piccola personalizzazione. Soprattutto nella scelta degli…",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\sfogliata-pugliese\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/sfogliata-pugliese/",
-      "description": "Sfogliata pugliese. In questo piatto particolare è l'accostamento di uva passa con il pecorino. Poi gli ingredienti, devono essere di qualità."
+      "description": "Sfogliata pugliese. In questo piatto particolare è l'accostamento di uva passa con il pecorino. Poi gli ingredienti, devono essere di qualità.",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\soupe-au-pistou\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/soupe-au-pistou/",
-      "description": "Soupe au pistou. Piatto tradizionale provenzale che si gusta nelle serate estive. Si, anche se caldo. Ma in fondo anche in Piemonte il minestrone si…"
+      "description": "Soupe au pistou. Piatto tradizionale provenzale che si gusta nelle serate estive. Si, anche se caldo. Ma in fondo anche in Piemonte il minestrone si…",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\spaghetti-alla-bottarga\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/spaghetti-alla-bottarga/",
-      "description": "Spaghetti alla bottarga. Provenienza: liberamente ispirato da una cena di Franco C.. Ritengo che esista solo un modo per assaporare l'essenza di quella…"
+      "description": "Spaghetti alla bottarga. Provenienza: liberamente ispirato da una cena di Franco C.. Ritengo che esista solo un modo per assaporare l'essenza di quella…",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\spaghetti-alla-puttanesca\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/spaghetti-alla-puttanesca/",
-      "description": "Spaghetti alla puttanesca. E' una storia lunga... anzi lunghissima. Grazie Eddy!"
+      "description": "Spaghetti alla puttanesca. E' una storia lunga... anzi lunghissima. Grazie Eddy!",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\straccetti-di-pollo-al-limone\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/straccetti-di-pollo-al-limone/",
-      "description": "Straccetti di pollo al limone. Facilissimo, veloce, economico, facilmente digeribile, molto profumato."
+      "description": "Straccetti di pollo al limone. Facilissimo, veloce, economico, facilmente digeribile, molto profumato.",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena/",
-      "description": "Straccetti su letto di porri con rucola e aceto balsamico di Modena. Una delle mie prime ricette su cui sono intervenuto"
+      "description": "Straccetti su letto di porri con rucola e aceto balsamico di Modena. Una delle mie prime ricette su cui sono intervenuto",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\tagliate\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/tagliate/",
-      "description": "Tagliate. Le carni."
+      "description": "Tagliate. Le carni.",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\tajin-mqualli\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/tajin-mqualli/",
-      "description": "Tajin Mqualli. Io il cous cous l'ho \"scoperto\" in Turchia. Certo che lo conoscevo, ma non l'avevo mai assaggiato con con gli aromi delle erbe a…"
+      "description": "Tajin Mqualli. Io il cous cous l'ho \"scoperto\" in Turchia. Certo che lo conoscevo, ma non l'avevo mai assaggiato con con gli aromi delle erbe a…",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\tonno-alla-carlofortina\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/tonno-alla-carlofortina/",
-      "description": "Tonno alla CarloFortina. Il cuoco Andrea dell'Osteria della Tonnara di Carloforte (Sardegna) lo fa così."
+      "description": "Tonno alla CarloFortina. Il cuoco Andrea dell'Osteria della Tonnara di Carloforte (Sardegna) lo fa così.",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\tortino-di-alici\\index.html",
@@ -484,7 +673,7 @@
       "canonical": "https://ricette.pierre.piccotti.it/ricette/tortino-di-alici/",
       "description": "Tortino di alici. Questo piatto è diffuso con numerose varianti in tutto il sud Italia. Questa mia personalizzazione prende spunto da come lo preparava…",
       "notes": [
-        "aggiunto json-ld"
+        "aggiornato json-ld"
       ]
     },
     {
@@ -493,20 +682,26 @@
       "canonical": "https://ricette.pierre.piccotti.it/ricette/vitello-tonnato/",
       "description": "Vitello tonnato. Una considerazione essenziale.",
       "notes": [
-        "aggiunto json-ld"
+        "aggiornato json-ld"
       ]
     },
     {
       "path": "ricette\\zucchine-in-scapece\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/zucchine-in-scapece/",
-      "description": "Zucchine in scapece. Le zucchine in scapece sono una prelibatezza estiva. Rifrescante e appetitosa. Già, il fritto... Ma da tempi immemorabili si usa…"
+      "description": "Zucchine in scapece. Le zucchine in scapece sono una prelibatezza estiva. Rifrescante e appetitosa. Già, il fritto... Ma da tempi immemorabili si usa…",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     },
     {
       "path": "ricette\\zuppa-di-legumi-con-funghi-settembrini-secchi\\index.html",
-      "status": "UNCHANGED",
+      "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/zuppa-di-legumi-con-funghi-settembrini-secchi/",
-      "description": "Zuppa di legumi con funghi settembrini secchi. Un piatto, ricco, invernale, che scalda il giusto quando è il momento."
+      "description": "Zuppa di legumi con funghi settembrini secchi. Un piatto, ricco, invernale, che scalda il giusto quando è il momento.",
+      "notes": [
+        "aggiornato json-ld"
+      ]
     }
   ]
 }

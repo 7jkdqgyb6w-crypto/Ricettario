@@ -1,7 +1,7 @@
 {
   "versione": "CMS2-R18-103",
   "semantica_versione": "CMS2-R18-169",
-  "timestamp": "2026-06-11T00:11:58",
+  "timestamp": "2026-06-12T00:21:43",
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "search_data": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT\\indici\\search-data.json",
   "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\CMS\\ingredienti-semantica.json",
@@ -336,6 +336,7 @@
       ],
       "termini_ricerca": [
         "pesce",
+        "pesce conservato",
         "aringhe",
         "verdure",
         "ortaggi",
@@ -434,6 +435,7 @@
       ],
       "termini_ricerca": [
         "pesce",
+        "pesce conservato",
         "baccala",
         "latte",
         "uova"
@@ -731,6 +733,7 @@
         "suino",
         "maiale",
         "pesce",
+        "pesce conservato",
         "aringhe",
         "senape",
         "farina frumento"
