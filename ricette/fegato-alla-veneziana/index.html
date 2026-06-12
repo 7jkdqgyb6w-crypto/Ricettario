@@ -419,7 +419,14 @@
   margin:0;
   transform:translateY(1px);
 }
-.ingredients-expand-btn{
+.ingredients-actions{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:flex-end;
+  gap:.45rem;
+}
+.ingredients-expand-btn,
+.ingredients-shopping-btn{
   border:1px solid var(--line);
   background:rgba(255,255,255,.75);
   color:var(--link);
@@ -495,6 +502,23 @@
   margin-bottom:.85rem;
 }
 .ingredients-overlay-head h2{margin:0;}
+.ingredients-overlay-tools{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:flex-end;
+  gap:.45rem;
+  margin-left:auto;
+}
+.ingredients-overlay-action{
+  border:1px solid var(--line);
+  background:rgba(255,255,255,.78);
+  color:var(--link);
+  border-radius:999px;
+  padding:.35rem .65rem;
+  font:inherit;
+  font-size:.82rem;
+  cursor:pointer;
+}
 .ingredients-overlay-close{
   border:0;
   background:transparent;
@@ -502,11 +526,50 @@
   line-height:1;
   cursor:pointer;
 }
+.shopping-list{
+  display:flex;
+  flex-direction:column;
+  gap:.55rem;
+  margin:.35rem 0 0;
+  padding:0;
+  list-style:none;
+}
+.shopping-list-item{
+  display:flex;
+  align-items:flex-start;
+  gap:.7rem;
+  padding:.7rem .65rem;
+  border:1px solid var(--line);
+  background:rgba(255,255,255,.55);
+}
+.shopping-list-item input{
+  flex:0 0 auto;
+  width:1.2rem;
+  height:1.2rem;
+  margin:.15rem 0 0;
+}
+.shopping-list-item-text{
+  display:block;
+  font-size:1.05rem;
+  line-height:1.35;
+}
+.shopping-list-item-main{font-weight:700;}
+.shopping-list-item-detail{color:var(--muted);}
+.shopping-list-empty{color:var(--muted);}
 @media (max-width:768px){
   .recipe-quick-meta{margin-top:.8rem;}
+  .recipe-ingredients-head{align-items:flex-start;}
+  .ingredients-actions{flex:1 1 auto;}
+  .ingredients-expand-btn,
+  .ingredients-shopping-btn{font-size:.8rem;padding:.34rem .58rem;}
   .ingredients-overlay{padding:.75rem;}
   .ingredients-overlay-panel{max-height:92vh;padding:.9rem;}
-}</style>
+  .ingredients-overlay-head{align-items:flex-start;}
+  .ingredients-overlay-tools{width:100%;justify-content:flex-start;}
+  .shopping-list-item{padding:.85rem .7rem;}
+  .shopping-list-item-text{font-size:1.12rem;}
+}
+</style>
 <style id="recipe-lightbox-style">.recipe-lightbox-overlay{position:fixed;inset:0;background:rgba(0,0,0,.88);display:flex;align-items:center;justify-content:center;padding:2rem;z-index:9999;cursor:zoom-out;}
 .recipe-lightbox-overlay.is-hidden{display:none !important;}
 .recipe-lightbox-frame{max-width:96vw;max-height:96vh;display:flex;flex-direction:column;gap:.75rem;align-items:center;}
@@ -599,7 +662,8 @@ document.addEventListener('DOMContentLoaded', function(){
     });
   });
 })();</script>
-<script id="recipe-tools-script">(function(){
+<script id="recipe-tools-script">window.__PRINT_INGREDIENT_ASSET_RELPATHS__ = ["aglio-800x520.jpg", "alloro fresco-800x548.jpg", "baccelli-verdi-del-cardamomo-isolati-su-fondo-bianco-con-il-percorso-di-ritaglio-e-lo-spazio-della-copia-130964485-1500128308.jpg", "bacche di ginepro-800x450.jpg", "basilico-800x532.jpg", "borago-officinalis-della-pianta-borragine-99112667-2469776195.jpg", "broccoli-800x531.jpg", "calendula-semi-del-tagete.jpg", "cannella-600x400.jpg", "carciofo-740x493.jpg", "carota-800x534.jpg", "chiodo di garofano-800x534.jpg", "cime di rapa-800x528.jpg", "cipolla bianca-800x534.jpg", "cipolla dorata-800x600.jpg", "cipolla rossa-800x661.jpg", "cipolle di trope-602x900.jpg", "cipollotti-800x532.jpg", "concentrato di pomodoro-800x800.jpg", "coriandolo-800x794.jpg", "cous cous-612x459.jpg", "cozze-800x533.jpg", "cumino-800x534.jpg", "curcuma-800x525.jpg", "erba-luigia_oit-800x800.jpg", "erbe-aromatiche-della-menta 800x798.jpg", "erbe-aromatiche-o-di-latina-absinthii-800x578.jpg", "erbe-aromatiche-selvatiche-essiccate-800x1194.jpg", "erbe-aromatiche8-800x1021.jpg", "erbe-fresche-del-giardino-800x420.jpg", "farina di frumento 00-800x535.jpg", "frutti-e-semi-della-spezia-dell-anice-stellato-isolati-su-fondo-bianco-alimento-naturale-800x441.jpg", "genziana-800x543.jpg", "Lichene-Islandico-Cetraria-islandica-L-800x851.jpg", "menta-rosmarino-mazzo-del-timo-800x549.jpg", "origano-800x592.jpg", "peperoncino-rosso-secco-800x527.jpg", "planta-pimpinella-800x786.jpg", "rosmarino-fresco-isolato-su-fondo-bianco-rosemary-bellezza-ramo-mazzetto-pulito-chiuso-cultura-cibo-freschezza-verde-salute-erbe-163199634-3909175301-800x535.jpg", "salvia-474x316.jpg", "Sedano-Bianco-600x600.jpeg", "sedano-verde-isolato-su-fondo-bianco-134104760.jpg", "semi-di-finocchio-secchi-800x437.jpg", "semi-di-zucca-800x754.jpg", "spighette-e-semi-del-grano--800x609.jpg", "topinambur-800x562.jpg", "un-mazzo-di-aneto-81915942-2011024533.jpg"];
+(function(){
   function isInternalListReferrer(ref){
     try{
       if(!ref) return false;
@@ -879,6 +943,122 @@ document.addEventListener('DOMContentLoaded', function(){
       return overlay;
     }
 
+    function normalizeShoppingText(value){
+      return (value || '').toString().replace(/\s+/g, ' ').trim();
+    }
+
+    function escapeShoppingHtml(value){
+      return normalizeShoppingText(value)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
+    function cellShoppingText(cell){
+      return normalizeShoppingText(cell ? cell.textContent : '');
+    }
+
+    function buildShoppingRows(table){
+      var rows = [];
+      table.querySelectorAll('tbody tr').forEach(function(tr){
+        if(tr.classList.contains('ingredient-section-row') || tr.getAttribute('data-ingredient-section') === '1') return;
+        var cells = tr.querySelectorAll('td');
+        if(!cells.length) return;
+        var name = cellShoppingText(cells[0]);
+        if(!name) return;
+        var qty = cellShoppingText(cells[1]);
+        var unit = cellShoppingText(cells[2]);
+        var note = cellShoppingText(cells[3]);
+        rows.push({name:name, qty:qty, unit:unit, note:note});
+      });
+      return rows;
+    }
+
+    function formatShoppingLine(row){
+      var amount = [row.qty, row.unit].filter(Boolean).join(' ');
+      var line = row.name;
+      if(amount) line += ' — ' + amount;
+      if(row.note) line += ' (' + row.note + ')';
+      return line;
+    }
+
+    function ensureShoppingOverlay(){
+      var overlay = document.getElementById('ingredientsShoppingOverlay');
+      if(overlay) return overlay;
+      overlay = document.createElement('div');
+      overlay.id = 'ingredientsShoppingOverlay';
+      overlay.className = 'ingredients-overlay';
+      overlay.setAttribute('aria-hidden', 'true');
+      overlay.innerHTML = '<div class="ingredients-overlay-panel" role="dialog" aria-modal="true" aria-label="Lista della spesa"><div class="ingredients-overlay-head"><h2>Lista della spesa</h2><div class="ingredients-overlay-tools"><button class="ingredients-overlay-action ingredients-shopping-copy" type="button">Copia testo</button><button class="ingredients-overlay-action ingredients-shopping-print" type="button">Stampa lista</button></div><button class="ingredients-overlay-close" type="button" aria-label="Chiudi">×</button></div><div id="ingredientsShoppingContent"></div></div>';
+      document.body.appendChild(overlay);
+      function close(){
+        overlay.classList.remove('is-open');
+        overlay.setAttribute('aria-hidden', 'true');
+      }
+      overlay.querySelector('.ingredients-overlay-close').addEventListener('click', close);
+      overlay.addEventListener('click', function(ev){ if(ev.target === overlay) close(); });
+      document.addEventListener('keydown', function(ev){ if(ev.key === 'Escape') close(); });
+      overlay.querySelector('.ingredients-shopping-copy').addEventListener('click', function(){
+        var text = overlay.dataset.shoppingText || '';
+        if(!text) return;
+        if(navigator.clipboard && navigator.clipboard.writeText){
+          navigator.clipboard.writeText(text).catch(function(){});
+        }else{
+          var ta = document.createElement('textarea');
+          ta.value = text;
+          document.body.appendChild(ta);
+          ta.select();
+          try{ document.execCommand('copy'); }catch(e){}
+          ta.remove();
+        }
+      });
+      overlay.querySelector('.ingredients-shopping-print').addEventListener('click', function(){
+        var text = overlay.dataset.shoppingText || '';
+        if(!text) return;
+        var title = normalizeShoppingText(document.querySelector('h1') && document.querySelector('h1').textContent) || 'Lista della spesa';
+        var frame = document.createElement('iframe');
+        frame.setAttribute('aria-hidden', 'true');
+        frame.style.position = 'fixed';
+        frame.style.right = '0';
+        frame.style.bottom = '0';
+        frame.style.width = '0';
+        frame.style.height = '0';
+        frame.style.border = '0';
+        var lines = text.split('\n').map(function(line){ return '<li>' + escapeShoppingHtml(line) + '</li>'; }).join('');
+        document.body.appendChild(frame);
+        var doc = frame.contentWindow && frame.contentWindow.document;
+        if(!doc){ frame.remove(); return; }
+        doc.open();
+        doc.write('<!doctype html><html><head><meta charset="utf-8"><title>' + escapeShoppingHtml(title) + ' — lista della spesa</title><style>body{font-family:Georgia,serif;margin:2rem;font-size:16px;line-height:1.35}h1{font-size:1.6rem}li{margin:.35rem 0}</style></head><body><h1>' + escapeShoppingHtml(title) + '</h1><ol>' + lines + '</ol></body></html>');
+        doc.close();
+        setTimeout(function(){
+          try{ frame.contentWindow.focus(); frame.contentWindow.print(); }catch(e){}
+          setTimeout(function(){ frame.remove(); }, 1000);
+        }, 50);
+      });
+      return overlay;
+    }
+
+    function openShoppingList(table){
+      var overlay = ensureShoppingOverlay();
+      var target = overlay.querySelector('#ingredientsShoppingContent');
+      var rows = buildShoppingRows(table);
+      if(!rows.length){
+        target.innerHTML = '<p class="shopping-list-empty">Nessun ingrediente leggibile.</p>';
+        overlay.dataset.shoppingText = '';
+      }else{
+        overlay.dataset.shoppingText = rows.map(formatShoppingLine).join('\n');
+        target.innerHTML = '<ul class="shopping-list">' + rows.map(function(row, idx){
+          var amount = [row.qty, row.unit].filter(Boolean).join(' ');
+          var detail = [amount, row.note].filter(Boolean).join(' · ');
+          return '<li class="shopping-list-item"><input type="checkbox" id="shoppingItem' + idx + '"><label class="shopping-list-item-text" for="shoppingItem' + idx + '"><span class="shopping-list-item-main">' + escapeShoppingHtml(row.name) + '</span>' + (detail ? '<span class="shopping-list-item-detail"> — ' + escapeShoppingHtml(detail) + '</span>' : '') + '</label></li>';
+        }).join('') + '</ul>';
+      }
+      overlay.classList.add('is-open');
+      overlay.setAttribute('aria-hidden', 'false');
+    }
     function enhanceIngredientsTable(){
       var section = null;
       document.querySelectorAll('section').forEach(function(sec){
@@ -919,27 +1099,51 @@ document.addEventListener('DOMContentLoaded', function(){
           head.appendChild(newH);
         }
       }
-      var btn = head.querySelector('.ingredients-expand-btn') || section.querySelector('.ingredients-expand-btn');
+      var actions = head.querySelector(':scope > .ingredients-actions');
+      if(!actions){
+        actions = document.createElement('div');
+        actions.className = 'ingredients-actions';
+        head.appendChild(actions);
+      }
+      var btn = actions.querySelector('.ingredients-expand-btn') || section.querySelector('.ingredients-expand-btn');
       if(!btn){
         btn = document.createElement('button');
         btn.type = 'button';
         btn.className = 'ingredients-expand-btn';
         btn.textContent = 'Apri tabella completa';
         btn.setAttribute('aria-haspopup', 'dialog');
-        head.appendChild(btn);
+        actions.appendChild(btn);
+      }else if(btn.parentElement !== actions){
+        actions.appendChild(btn);
       }
-      if(btn.dataset.ingredientsOverlayBound === '1') return;
-      btn.dataset.ingredientsOverlayBound = '1';
-      btn.addEventListener('click', function(){
-        var overlay = ensureIngredientsOverlay();
-        var target = overlay.querySelector('#ingredientsOverlayContent');
-        target.innerHTML = '';
-        var clone = tableWrap.cloneNode(true);
-        clone.querySelectorAll('[contenteditable]').forEach(function(el){ el.removeAttribute('contenteditable'); });
-        target.appendChild(clone);
-        overlay.classList.add('is-open');
-        overlay.setAttribute('aria-hidden', 'false');
-      });
+      var shoppingBtn = actions.querySelector('.ingredients-shopping-btn') || section.querySelector('.ingredients-shopping-btn');
+      if(!shoppingBtn){
+        shoppingBtn = document.createElement('button');
+        shoppingBtn.type = 'button';
+        shoppingBtn.className = 'ingredients-shopping-btn';
+        shoppingBtn.textContent = 'Lista della spesa';
+        shoppingBtn.setAttribute('aria-haspopup', 'dialog');
+        actions.appendChild(shoppingBtn);
+      }else if(shoppingBtn.parentElement !== actions){
+        actions.appendChild(shoppingBtn);
+      }
+      if(btn.dataset.ingredientsOverlayBound !== '1'){
+        btn.dataset.ingredientsOverlayBound = '1';
+        btn.addEventListener('click', function(){
+          var overlay = ensureIngredientsOverlay();
+          var target = overlay.querySelector('#ingredientsOverlayContent');
+          target.innerHTML = '';
+          var clone = tableWrap.cloneNode(true);
+          clone.querySelectorAll('[contenteditable]').forEach(function(el){ el.removeAttribute('contenteditable'); });
+          target.appendChild(clone);
+          overlay.classList.add('is-open');
+          overlay.setAttribute('aria-hidden', 'false');
+        });
+      }
+      if(shoppingBtn.dataset.shoppingOverlayBound !== '1'){
+        shoppingBtn.dataset.shoppingOverlayBound = '1';
+        shoppingBtn.addEventListener('click', function(){ openShoppingList(table); });
+      }
     }
 
     enhanceRecipeQuickMeta();

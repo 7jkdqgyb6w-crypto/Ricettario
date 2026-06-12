@@ -1,7 +1,7 @@
 {
   "versione": "CMS2-R18-103",
   "semantica_versione": "CMS2-R18-169",
-  "timestamp": "2026-06-12T06:40:17",
+  "timestamp": "2026-06-12T15:14:36",
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "search_data": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT\\indici\\search-data.json",
   "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\CMS\\ingredienti-semantica.json",
@@ -70,6 +70,7 @@
         "manzo",
         "pollame",
         "pollo",
+        "taglio fresco",
         "verdure",
         "ortaggi",
         "sedano",
@@ -168,6 +169,7 @@
         "carne",
         "pollame",
         "anatra",
+        "taglio fresco",
         "suino",
         "maiale",
         "farina frumento",
@@ -231,12 +233,15 @@
         "carne",
         "pollame",
         "anatra",
+        "taglio fresco",
         "suino",
         "maiale",
         "latte",
         "panna",
         "pesce",
-        "alici"
+        "prodotto conservato",
+        "alici",
+        "prodotto fresco"
       ],
       "allergeni": [
         "pesce"
@@ -336,7 +341,7 @@
       ],
       "termini_ricerca": [
         "pesce",
-        "pesce conservato",
+        "prodotto conservato",
         "aringhe",
         "verdure",
         "ortaggi",
@@ -435,13 +440,12 @@
       ],
       "termini_ricerca": [
         "pesce",
-        "pesce conservato",
-        "baccala",
+        "prodotto conservato",
+        "stocafisso",
         "latte",
         "uova"
       ],
       "allergeni": [
-        "pesce",
         "latte",
         "uova"
       ],
@@ -452,7 +456,7 @@
         "spezie"
       ],
       "regole_matchate": [
-        "baccala",
+        "stocafisso",
         "olio",
         "olive",
         "latte",
@@ -483,7 +487,9 @@
       ],
       "termini_ricerca": [
         "pesce",
+        "prodotto conservato",
         "alici",
+        "prodotto fresco",
         "latte",
         "panna",
         "verdure",
@@ -583,7 +589,9 @@
         "ortaggi",
         "cipolle",
         "pesce",
+        "prodotto conservato",
         "alici",
+        "prodotto fresco",
         "semola grano duro",
         "pasta"
       ],
@@ -626,6 +634,7 @@
         "carne",
         "equino",
         "cavallo",
+        "taglio fresco",
         "verdure",
         "ortaggi",
         "pomodori",
@@ -648,7 +657,7 @@
         "spezie"
       ],
       "regole_matchate": [
-        "cavallo",
+        "polpa cavallo fettine",
         "pomodori",
         "olio",
         "olive",
@@ -678,6 +687,7 @@
       ],
       "termini_ricerca": [
         "molluschi",
+        "prodotto fresco",
         "calamari",
         "uova",
         "latte",
@@ -733,7 +743,7 @@
         "suino",
         "maiale",
         "pesce",
-        "pesce conservato",
+        "prodotto conservato",
         "aringhe",
         "senape",
         "farina frumento"
@@ -893,6 +903,7 @@
         "carne",
         "frattaglie",
         "fegato",
+        "taglio fresco",
         "verdure",
         "ortaggi",
         "cipolle",
@@ -1000,6 +1011,7 @@
       ],
       "termini_ricerca": [
         "pesce",
+        "prodotto fresco",
         "salmone",
         "semola grano duro",
         "pasta",
@@ -1049,7 +1061,9 @@
       "termini_ricerca": [
         "carne",
         "ovino",
-        "agnello"
+        "agnello",
+        "taglio fresco",
+        "cosciotto d agnello"
       ],
       "allergeni": [],
       "tag_accessori_esclusi": [
@@ -1062,7 +1076,7 @@
         "olive"
       ],
       "regole_matchate": [
-        "agnello",
+        "cosciotto agnello",
         "sale",
         "prezzemolo",
         "aglio",
@@ -1102,6 +1116,7 @@
         "peperoni",
         "sedano",
         "crostacei",
+        "prodotto fresco",
         "schie",
         "pesce",
         "pesce spada"
@@ -1410,7 +1425,9 @@
         "cavolfiore",
         "rape",
         "pesce",
-        "alici"
+        "prodotto conservato",
+        "alici",
+        "prodotto fresco"
       ],
       "allergeni": [
         "cereali contenenti glutine",
@@ -1551,6 +1568,7 @@
         "semola grano duro",
         "pasta",
         "pesce",
+        "prodotto fresco",
         "triglia",
         "frutta",
         "frutta guscio",
@@ -1711,7 +1729,9 @@
         "cipolle",
         "pomodori",
         "pesce",
+        "prodotto conservato",
         "alici",
+        "prodotto fresco",
         "frutta disidratata",
         "uva passa",
         "frutta",
@@ -1769,6 +1789,8 @@
         "ortaggi",
         "pomodori",
         "pesce",
+        "muggine",
+        "prodotto conservato",
         "bottarga"
       ],
       "allergeni": [
@@ -1795,7 +1817,7 @@
         "olive",
         "pomodori",
         "capperi",
-        "bottarga"
+        "bottarga muggine"
       ],
       "modificato": true
     },
@@ -1898,6 +1920,7 @@
         "carne",
         "frattaglie",
         "fegato",
+        "taglio fresco",
         "pollame",
         "pollo",
         "latte",
@@ -1920,6 +1943,7 @@
       ],
       "regole_matchate": [
         "fegato",
+        "fegatini",
         "pollo",
         "panna",
         "maiale",
@@ -1952,7 +1976,9 @@
         "semola grano duro",
         "pasta",
         "pesce",
+        "prodotto conservato",
         "alici",
+        "prodotto fresco",
         "verdure",
         "ortaggi",
         "pomodori",
@@ -2006,6 +2032,7 @@
         "ortaggi",
         "carote",
         "crostacei",
+        "prodotto fresco",
         "mazzancolle",
         "porri",
         "verdura",
@@ -2089,7 +2116,9 @@
         "ortaggi",
         "peperoni",
         "pesce",
-        "alici"
+        "prodotto conservato",
+        "alici",
+        "prodotto fresco"
       ],
       "allergeni": [
         "pesce"
@@ -2294,6 +2323,7 @@
       ],
       "termini_ricerca": [
         "molluschi",
+        "prodotto fresco",
         "cozze",
         "riso",
         "verdure",
@@ -2402,7 +2432,9 @@
       ],
       "termini_ricerca": [
         "pesce",
+        "prodotto conservato",
         "alici",
+        "prodotto fresco",
         "latte",
         "farina frumento"
       ],
@@ -2458,12 +2490,14 @@
       ],
       "termini_ricerca": [
         "pesce",
+        "prodotto fresco",
         "sardine",
         "farina frumento",
         "frutta",
         "frutta guscio",
         "frutta disidratata",
         "uva passa",
+        "prodotto conservato",
         "alici"
       ],
       "allergeni": [
@@ -2517,7 +2551,9 @@
         "pasta",
         "farina frumento",
         "pesce",
+        "prodotto conservato",
         "alici",
+        "prodotto fresco",
         "frutta disidratata",
         "uva passa",
         "verdure",
@@ -2645,6 +2681,8 @@
         "semola grano duro",
         "pasta",
         "pesce",
+        "muggine",
+        "prodotto conservato",
         "bottarga",
         "farina frumento"
       ],
@@ -2663,7 +2701,7 @@
       ],
       "regole_matchate": [
         "spaghetti",
-        "bottarga",
+        "bottarga muggine",
         "aglio",
         "olio",
         "olive",
@@ -2692,7 +2730,9 @@
         "semola grano duro",
         "pasta",
         "pesce",
+        "prodotto conservato",
         "alici",
+        "prodotto fresco",
         "verdure",
         "ortaggi",
         "pomodori"
@@ -2739,7 +2779,8 @@
       "termini_ricerca": [
         "carne",
         "pollame",
-        "pollo"
+        "pollo",
+        "taglio fresco"
       ],
       "allergeni": [],
       "tag_accessori_esclusi": [
@@ -2809,12 +2850,13 @@
       "termini_ricerca": [
         "carne",
         "pollame",
-        "pollo"
+        "tacchino",
+        "taglio fresco"
       ],
       "allergeni": [],
       "tag_accessori_esclusi": [],
       "regole_matchate": [
-        "pollo"
+        "fesa tacchino"
       ],
       "modificato": true
     },
@@ -2849,6 +2891,7 @@
         "carne",
         "pollame",
         "pollo",
+        "taglio fresco",
         "coniglio",
         "ovino",
         "montone",
@@ -2906,6 +2949,7 @@
       ],
       "termini_ricerca": [
         "pesce",
+        "prodotto fresco",
         "tonno"
       ],
       "allergeni": [
@@ -2948,7 +2992,9 @@
       ],
       "termini_ricerca": [
         "pesce",
+        "prodotto conservato",
         "alici",
+        "prodotto fresco",
         "farina frumento",
         "latte",
         "formaggio",
@@ -3008,6 +3054,7 @@
         "carote",
         "cipolle",
         "pesce",
+        "prodotto fresco",
         "tonno"
       ],
       "allergeni": [
