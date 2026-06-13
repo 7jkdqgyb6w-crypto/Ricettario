@@ -342,6 +342,37 @@
     "stato": "da_validare"
   },
   {
+    "slug": "bollito-misto",
+    "titolo": "Bollito misto",
+    "proposte": {
+      "porzioni": "4-6",
+      "tempo_attivo": "15-30 min",
+      "tempo_cottura": "15-30 min",
+      "tempo_riposo": "30 min",
+      "tempo_totale": "include riposo",
+      "ingredienti_chiave": [
+        "Carne di bue grasso di Carrù",
+        "lingua di manzo",
+        "cotechino di suino",
+        "testina di vitello"
+      ]
+    },
+    "confidenza": "bassa",
+    "confidenza_campi": {
+      "porzioni": "bassa",
+      "tempi": "bassa",
+      "ingredienti_chiave": "media"
+    },
+    "note": [
+      "range standard per secondo piatto da validare",
+      "riposo dedotto da testo",
+      "cottura breve stimata per assenza di segnali di lunga cottura",
+      "tempo attivo stimato da numero ingredienti/passaggi",
+      "ingredienti chiave proposti da tabella ingredienti/titolo"
+    ],
+    "stato": "da_validare"
+  },
+  {
     "slug": "braciole-di-carne-di-cavallo",
     "titolo": "Braciole di carne di cavallo",
     "proposte": {
@@ -353,7 +384,7 @@
       "ingredienti_chiave": [
         "Polpa di cavallo a fettine",
         "Passata di pomodoro",
-        "Pecorino romano DOP"
+        "Pecorino romano"
       ]
     },
     "confidenza": "bassa",

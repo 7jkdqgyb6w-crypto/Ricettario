@@ -1,13 +1,13 @@
 {
   "versione": "CMS2-R18-103",
   "semantica_versione": "CMS2-R18-169",
-  "timestamp": "2026-06-12T15:14:36",
+  "timestamp": "2026-06-13T22:44:02",
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "search_data": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT\\indici\\search-data.json",
   "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\CMS\\ingredienti-semantica.json",
   "apply": true,
-  "processed": 67,
-  "changed": 65,
+  "processed": 68,
+  "changed": 66,
   "missing_source": [],
   "no_structural_terms": [
     "antipastino-piemontese",
@@ -53,7 +53,7 @@
         "Noce moscata",
         "Barbera",
         "Uova",
-        "Parmigiano Reggiano IGP",
+        "Parmigiano Reggiano",
         "Burro",
         "Olio extra vergine d'oliva",
         "Sale",
@@ -614,6 +614,31 @@
       "modificato": true
     },
     {
+      "slug": "bollito-misto",
+      "titolo": "Bollito misto",
+      "fonte_semantica": "html-ingredienti",
+      "ingredienti_usati": [
+        "Carne di bue grasso di Carrù",
+        "lingua di manzo",
+        "cotechino di suino",
+        "testina di vitello"
+      ],
+      "termini_ricerca": [
+        "carne",
+        "bovino",
+        "manzo",
+        "suino",
+        "maiale"
+      ],
+      "allergeni": [],
+      "tag_accessori_esclusi": [],
+      "regole_matchate": [
+        "manzo",
+        "maiale"
+      ],
+      "modificato": true
+    },
+    {
       "slug": "braciole-di-carne-di-cavallo",
       "titolo": "Braciole di carne di cavallo",
       "fonte_semantica": "html-ingredienti",
@@ -628,7 +653,7 @@
         "Alloro",
         "Sale",
         "Pepe",
-        "Pecorino romano DOP"
+        "Pecorino romano"
       ],
       "termini_ricerca": [
         "carne",

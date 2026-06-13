@@ -221,9 +221,11 @@ function escapeHtml(value){
         var qty = (cells[1] && cells[1].textContent || '').trim();
         var unit = (cells[2] && cells[2].textContent || '').trim();
         var note = (cells[3] && cells[3].textContent || '').replace(/\s+/g,' ').trim();
+        var quality = (cells[4] && cells[4].textContent || '').replace(/\s+/g,' ').trim();
         // R18-022: la colonna NOTE entra nel box ingredienti stampabile,
-        // perché può disambiguare ingredienti sintetici.
-        if(!ing && !qty && !unit && !note) return;
+        // perche puo disambiguare ingredienti sintetici. La colonna QUALITA
+        // conserva eventuali denominazioni DOP/IGP senza renderle obbligatorie.
+        if(!ing && !qty && !unit && !note && !quality) return;
         if(ing) ingredientNames.push(ing.toLowerCase());
         var amount = [qty, unit].filter(Boolean).join(' ').trim();
         var line = '<div class="print-ingredient-row">';
@@ -233,6 +235,9 @@ function escapeHtml(value){
         }
         if(note){
           line += '<span class="print-ingredient-note"> ' + escapeHtml(note) + '</span>';
+        }
+        if(quality){
+          line += '<span class="print-ingredient-quality"> [' + escapeHtml(quality) + ']</span>';
         }
         line += '</div>';
         rows.push(line);
@@ -369,7 +374,7 @@ function escapeHtml(value){
         '.print-kitchen-card-cols-1 .print-ingredients-list{columns:1;column-gap:7mm;} .print-kitchen-card-cols-2 .print-ingredients-list{columns:2;column-gap:7mm;} .print-kitchen-card-cols-3 .print-ingredients-list{columns:3;column-gap:6mm;}',
         '.print-ingredients-box{border:.25mm solid #595959;padding:3mm 3.4mm;background:#fff;font-family:Arial,Helvetica,sans-serif;font-size:8.55pt;line-height:1.26;color:#111;box-sizing:border-box;box-shadow:none;}',
         '.print-ingredients-box h3{margin:0 0 2.15mm 0;font-family:Arial,Helvetica,sans-serif;font-size:8.35pt;line-height:1.1;font-weight:700;text-transform:uppercase;letter-spacing:.045em;color:#222;}',
-        '.print-ingredients-list{columns:1;column-gap:7mm;} .print-ingredient-row{break-inside:avoid;margin:0 0 .75mm 0;white-space:normal;overflow-wrap:anywhere;word-break:normal;} .print-ingredient-section{break-inside:avoid;margin:2mm 0 1mm 0;padding-top:1.2mm;border-top:.25mm solid #aaa;font-weight:700;text-transform:uppercase;letter-spacing:.035em;font-size:7.9pt;line-height:1.22;color:#333;} .print-ingredient-name{font-weight:500;} .print-ingredient-detail{margin-left:1.1mm;color:#222;} .print-ingredient-note{margin-left:.9mm;color:#222;font-style:normal;} .print-ingredients-meta{border-top:.25mm solid #999;margin-top:2.15mm;padding-top:1.55mm;font-size:7.65pt;line-height:1.28;color:#333;} .print-ingredients-meta strong{font-family:Arial,Helvetica,sans-serif;font-weight:700;} .print-meta-separator{color:#777;}',
+        '.print-ingredients-list{columns:1;column-gap:7mm;} .print-ingredient-row{break-inside:avoid;margin:0 0 .75mm 0;white-space:normal;overflow-wrap:anywhere;word-break:normal;} .print-ingredient-section{break-inside:avoid;margin:2mm 0 1mm 0;padding-top:1.2mm;border-top:.25mm solid #aaa;font-weight:700;text-transform:uppercase;letter-spacing:.035em;font-size:7.9pt;line-height:1.22;color:#333;} .print-ingredient-name{font-weight:500;} .print-ingredient-detail{margin-left:1.1mm;color:#222;} .print-ingredient-note{margin-left:.9mm;color:#222;font-style:normal;} .print-ingredient-quality{margin-left:.9mm;color:#222;font-weight:600;} .print-ingredients-meta{border-top:.25mm solid #999;margin-top:2.15mm;padding-top:1.55mm;font-size:7.65pt;line-height:1.28;color:#333;} .print-ingredients-meta strong{font-family:Arial,Helvetica,sans-serif;font-weight:700;} .print-meta-separator{color:#777;}',
         '.print-ingredients-media{display:none;}',
         '.print-figure-large,.print-figure-small,.print-steps li figure,.print-steps li .image-row,.print-steps li .image-row > figure{break-inside:avoid !important;page-break-inside:avoid !important;}',
         '.print-figure-large{width:66% !important;max-width:66% !important;float:none !important;clear:both !important;margin:4mm auto 5mm !important;}',

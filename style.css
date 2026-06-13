@@ -1655,3 +1655,19 @@ main.recipe-page .image-row.image-group-continuation{
     margin:0 auto;
   }
 }
+
+/* R18 - hash anchor sotto header fisso */
+html{
+  scroll-padding-top: 52px;
+}
+[id]{
+  scroll-margin-top: 52px;
+}
+@media (max-width: 768px){
+  html{
+    scroll-padding-top: 42px;
+  }
+  [id]{
+    scroll-margin-top: 42px;
+  }
+}
