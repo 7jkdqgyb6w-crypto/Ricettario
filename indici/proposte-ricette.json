@@ -413,7 +413,7 @@
       "tempo_totale": "include riposo",
       "ingredienti_chiave": [
         "Calamari",
-        "Pecorino romano DOP",
+        "Pecorino romano",
         "Pomodori pelati san Marzano DOP"
       ]
     },
@@ -533,6 +533,7 @@
         "Manzo",
         "Concentrato di pomodoro",
         "Lardo",
+        "Cotenna di maiale",
         "Bouquet garni"
       ]
     },
@@ -923,10 +924,10 @@
       "tempo_riposo": "30 min",
       "tempo_totale": "include riposo",
       "ingredienti_chiave": [
-        "Peperoncino",
-        "Orecchiette baresi",
-        "Cime di rapa",
-        "Alici sotto sale"
+        "peperoncino",
+        "orecchiette baresi",
+        "cime di rapa",
+        "alici sotto sale"
       ]
     },
     "confidenza": "bassa",

@@ -1,7 +1,7 @@
 {
   "versione": "CMS2-R18-103",
   "semantica_versione": "CMS2-R18-169",
-  "timestamp": "2026-06-13T22:44:02",
+  "timestamp": "2026-06-18T21:03:44",
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "search_data": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT\\indici\\search-data.json",
   "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\CMS\\ingredienti-semantica.json",
@@ -703,7 +703,7 @@
         "Calamari",
         "Uova",
         "Prezzemolo",
-        "Pecorino romano DOP",
+        "Pecorino romano",
         "Aglio",
         "Pomodori pelati san Marzano DOP",
         "Olio extra verdine d'oliva",
@@ -866,6 +866,7 @@
         "Manzo",
         "Concentrato di pomodoro",
         "Lardo",
+        "Cotenna di maiale",
         "Prezzemolo tritato",
         "Aglio",
         "Cipolla",
@@ -1434,11 +1435,11 @@
       "titolo": "Orecchiette baresi alle cime di rapa",
       "fonte_semantica": "html-ingredienti",
       "ingredienti_usati": [
-        "Peperoncino",
-        "Aglio",
-        "Orecchiette baresi",
-        "Cime di rapa",
-        "Alici sotto sale"
+        "peperoncino",
+        "aglio",
+        "orecchiette baresi",
+        "cime di rapa",
+        "alici sotto sale"
       ],
       "termini_ricerca": [
         "semola grano duro",
