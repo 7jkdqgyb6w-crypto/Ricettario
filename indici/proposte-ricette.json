@@ -352,9 +352,9 @@
       "tempo_totale": "include riposo",
       "ingredienti_chiave": [
         "Carne di bue grasso di Carrù",
-        "lingua di manzo",
-        "cotechino di suino",
-        "testina di vitello"
+        "Lingua di manzo",
+        "Cotechino di suino",
+        "Testina di vitello"
       ]
     },
     "confidenza": "bassa",
@@ -924,10 +924,10 @@
       "tempo_riposo": "30 min",
       "tempo_totale": "include riposo",
       "ingredienti_chiave": [
-        "peperoncino",
-        "orecchiette baresi",
-        "cime di rapa",
-        "alici sotto sale"
+        "Peperoncino",
+        "Orecchiette baresi",
+        "Cime di rapa",
+        "Alici sotto sale"
       ]
     },
     "confidenza": "bassa",
@@ -1021,8 +1021,8 @@
         "Spaghetti",
         "Triglie di scoglio",
         "Mandorle sgusciate",
-        "Pomodorini maturi",
-        "Arancia matura",
+        "Pomodorini",
+        "Arancia",
         "Origano"
       ]
     },

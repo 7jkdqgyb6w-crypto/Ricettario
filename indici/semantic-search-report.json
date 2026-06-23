@@ -1,7 +1,7 @@
 {
   "versione": "CMS2-R18-103",
   "semantica_versione": "CMS2-R18-169",
-  "timestamp": "2026-06-18T21:03:44",
+  "timestamp": "2026-06-23T23:42:20",
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "search_data": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT\\indici\\search-data.json",
   "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\CMS\\ingredienti-semantica.json",
@@ -619,9 +619,9 @@
       "fonte_semantica": "html-ingredienti",
       "ingredienti_usati": [
         "Carne di bue grasso di Carrù",
-        "lingua di manzo",
-        "cotechino di suino",
-        "testina di vitello"
+        "Lingua di manzo",
+        "Cotechino di suino",
+        "Testina di vitello"
       ],
       "termini_ricerca": [
         "carne",
@@ -706,7 +706,7 @@
         "Pecorino romano",
         "Aglio",
         "Pomodori pelati san Marzano DOP",
-        "Olio extra verdine d'oliva",
+        "Olio extra vergine d'oliva",
         "Pepe",
         "Sale"
       ],
@@ -1435,11 +1435,11 @@
       "titolo": "Orecchiette baresi alle cime di rapa",
       "fonte_semantica": "html-ingredienti",
       "ingredienti_usati": [
-        "peperoncino",
-        "aglio",
-        "orecchiette baresi",
-        "cime di rapa",
-        "alici sotto sale"
+        "Peperoncino",
+        "Aglio",
+        "Orecchiette baresi",
+        "Cime di rapa",
+        "Alici sotto sale"
       ],
       "termini_ricerca": [
         "semola grano duro",
@@ -1582,13 +1582,13 @@
         "Spaghetti",
         "Triglie di scoglio",
         "Mandorle sgusciate",
-        "Pomodorini maturi",
-        "Arancia matura",
+        "Pomodorini",
+        "Arancia",
         "Prezzemolo",
         "Aglio",
         "Olio extra vergine d'oliva",
         "Origano",
-        "Pistilli di zafferano."
+        "Pistilli di zafferano"
       ],
       "termini_ricerca": [
         "semola grano duro",

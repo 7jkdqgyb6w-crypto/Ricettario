@@ -81,7 +81,8 @@
         "tag": [
           "carne",
           "pollame",
-          "pollo"
+          "pollo",
+          "taglio fresco"
         ],
         "allergeni": [],
         "tag_accessori": [],
@@ -262,12 +263,10 @@
         "stato": "accessorio_riconosciuto"
       },
       {
-        "originale": "Pepe in grani",
-        "normalizzato": "pepe grani",
+        "originale": "Pepe",
+        "normalizzato": "pepe",
         "token_chiave": [
-          "pepe",
-          "grani",
-          "grano"
+          "pepe"
         ],
         "tag": [],
         "allergeni": [],
@@ -333,12 +332,10 @@
         "stato": "riconosciuto"
       },
       {
-        "originale": "Lardo non aromatizzato",
-        "normalizzato": "lardo non aromatizzato",
+        "originale": "Lardo",
+        "normalizzato": "lardo",
         "token_chiave": [
-          "lardo",
-          "non",
-          "aromatizzato"
+          "lardo"
         ],
         "tag": [
           "carne",
@@ -414,10 +411,9 @@
         "stato": "riconosciuto"
       },
       {
-        "originale": "Cipolle dorate",
-        "normalizzato": "cipolle dorate",
+        "originale": "Cipolla dorata",
+        "normalizzato": "cipolla dorata",
         "token_chiave": [
-          "cipolle",
           "cipolla"
         ],
         "tag": [
@@ -613,7 +609,7 @@
         "stato": "riconosciuto"
       },
       {
-        "originale": "Parmigiano reggiano",
+        "originale": "Parmigiano Reggiano",
         "normalizzato": "parmigiano reggiano",
         "token_chiave": [
           "parmigiano"
@@ -738,12 +734,11 @@
         "stato": "riconosciuto"
       },
       {
-        "originale": "Farina di frumento tipo 00",
-        "normalizzato": "farina frumento tipo",
+        "originale": "Farina di frumento 00",
+        "normalizzato": "farina frumento",
         "token_chiave": [
           "farina",
-          "frumento",
-          "tipo"
+          "frumento"
         ],
         "tag": [
           "farina frumento"
@@ -808,7 +803,8 @@
         "tag": [
           "carne",
           "pollame",
-          "anatra"
+          "anatra",
+          "taglio fresco"
         ],
         "allergeni": [],
         "tag_accessori": [],
@@ -1096,16 +1092,17 @@
         ],
         "tag": [
           "carne",
-          "frattaglie",
-          "fegato",
           "pollame",
-          "anatra"
+          "anatra",
+          "taglio fresco",
+          "frattaglie",
+          "fegato"
         ],
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "fegato",
-          "anatra"
+          "anatra",
+          "fegato"
         ],
         "stato": "riconosciuto"
       },
@@ -1155,7 +1152,8 @@
         "tag": [
           "carne",
           "pollame",
-          "anatra"
+          "anatra",
+          "taglio fresco"
         ],
         "allergeni": [],
         "tag_accessori": [],
@@ -1278,7 +1276,9 @@
         ],
         "tag": [
           "pesce",
-          "alici"
+          "prodotto conservato",
+          "alici",
+          "prodotto fresco"
         ],
         "allergeni": [
           "pesce"
@@ -1494,6 +1494,7 @@
         ],
         "tag": [
           "pesce",
+          "prodotto conservato",
           "aringhe"
         ],
         "allergeni": [
@@ -1561,11 +1562,11 @@
         "stato": "accessorio_riconosciuto"
       },
       {
-        "originale": "Limoni BIO",
-        "normalizzato": "limone",
+        "originale": "Limoni",
+        "normalizzato": "limoni",
         "token_chiave": [
-          "limone",
-          "limona"
+          "limoni",
+          "limono"
         ],
         "tag": [],
         "allergeni": [],
@@ -1861,14 +1862,13 @@
         ],
         "tag": [
           "pesce",
-          "baccala"
+          "prodotto conservato",
+          "stocafisso"
         ],
-        "allergeni": [
-          "pesce"
-        ],
+        "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "baccala"
+          "stocafisso"
         ],
         "stato": "riconosciuto"
       },
@@ -1994,7 +1994,9 @@
         ],
         "tag": [
           "pesce",
-          "alici"
+          "prodotto conservato",
+          "alici",
+          "prodotto fresco"
         ],
         "allergeni": [
           "pesce"
@@ -2397,7 +2399,9 @@
         ],
         "tag": [
           "pesce",
-          "alici"
+          "prodotto conservato",
+          "alici",
+          "prodotto fresco"
         ],
         "allergeni": [
           "pesce"
@@ -2431,6 +2435,78 @@
     ]
   },
   {
+    "slug": "bollito-misto",
+    "ingredienti": [
+      {
+        "originale": "Carne di bue grasso di Carrù",
+        "normalizzato": "carne bue grasso carru",
+        "token_chiave": [
+          "carne",
+          "carna",
+          "bue",
+          "grasso",
+          "carru"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
+      },
+      {
+        "originale": "Lingua di manzo",
+        "normalizzato": "lingua manzo",
+        "token_chiave": [
+          "lingua",
+          "manzo"
+        ],
+        "tag": [
+          "carne",
+          "bovino",
+          "manzo"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "manzo"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Cotechino di suino",
+        "normalizzato": "cotechino suino",
+        "token_chiave": [
+          "cotechino",
+          "suino"
+        ],
+        "tag": [
+          "carne",
+          "suino",
+          "maiale"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "maiale"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Testina di vitello",
+        "normalizzato": "testina vitello",
+        "token_chiave": [
+          "testina",
+          "vitello"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [],
+        "stato": "non_riconosciuto"
+      }
+    ]
+  },
+  {
     "slug": "braciole-di-carne-di-cavallo",
     "ingredienti": [
       {
@@ -2445,12 +2521,13 @@
         "tag": [
           "carne",
           "equino",
-          "cavallo"
+          "cavallo",
+          "taglio fresco"
         ],
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "cavallo"
+          "polpa cavallo fettine"
         ],
         "stato": "riconosciuto"
       },
@@ -2612,8 +2689,8 @@
         "stato": "accessorio_riconosciuto"
       },
       {
-        "originale": "Pecorino romano DOP",
-        "normalizzato": "pecorino romano dop",
+        "originale": "Pecorino romano",
+        "normalizzato": "pecorino romano",
         "token_chiave": [
           "pecorino"
         ],
@@ -2643,6 +2720,7 @@
         ],
         "tag": [
           "molluschi",
+          "prodotto fresco",
           "calamari"
         ],
         "allergeni": [
@@ -2689,8 +2767,8 @@
         "stato": "accessorio_riconosciuto"
       },
       {
-        "originale": "Pecorino romano DOP",
-        "normalizzato": "pecorino romano dop",
+        "originale": "Pecorino romano",
+        "normalizzato": "pecorino romano",
         "token_chiave": [
           "pecorino"
         ],
@@ -2846,6 +2924,7 @@
         ],
         "tag": [
           "pesce",
+          "prodotto conservato",
           "aringhe"
         ],
         "allergeni": [
@@ -3146,6 +3225,26 @@
         "stato": "riconosciuto"
       },
       {
+        "originale": "Cotenna di maiale",
+        "normalizzato": "cotenna maiale",
+        "token_chiave": [
+          "cotenna",
+          "maiale",
+          "maiala"
+        ],
+        "tag": [
+          "carne",
+          "suino",
+          "maiale"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "maiale"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
         "originale": "Prezzemolo tritato",
         "normalizzato": "prezzemolo tritato",
         "token_chiave": [
@@ -3180,10 +3279,9 @@
         "stato": "accessorio_riconosciuto"
       },
       {
-        "originale": "Cipolle",
-        "normalizzato": "cipolle",
+        "originale": "Cipolla",
+        "normalizzato": "cipolla",
         "token_chiave": [
-          "cipolle",
           "cipolla"
         ],
         "tag": [
@@ -3199,10 +3297,9 @@
         "stato": "riconosciuto"
       },
       {
-        "originale": "Carote",
-        "normalizzato": "carote",
+        "originale": "Carota",
+        "normalizzato": "carota",
         "token_chiave": [
-          "carote",
           "carota"
         ],
         "tag": [
@@ -3300,7 +3397,8 @@
         "tag": [
           "carne",
           "frattaglie",
-          "fegato"
+          "fegato",
+          "taglio fresco"
         ],
         "allergeni": [],
         "tag_accessori": [],
@@ -3310,10 +3408,9 @@
         "stato": "riconosciuto"
       },
       {
-        "originale": "Cipolle",
-        "normalizzato": "cipolle",
+        "originale": "Cipolla",
+        "normalizzato": "cipolla",
         "token_chiave": [
-          "cipolle",
           "cipolla"
         ],
         "tag": [
@@ -3574,6 +3671,7 @@
         ],
         "tag": [
           "pesce",
+          "prodotto fresco",
           "salmone"
         ],
         "allergeni": [
@@ -3727,12 +3825,14 @@
         "tag": [
           "carne",
           "ovino",
-          "agnello"
+          "agnello",
+          "taglio fresco",
+          "cosciotto d agnello"
         ],
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "agnello"
+          "cosciotto agnello"
         ],
         "stato": "riconosciuto"
       },
@@ -3968,6 +4068,7 @@
         ],
         "tag": [
           "crostacei",
+          "prodotto fresco",
           "schie"
         ],
         "allergeni": [
@@ -4027,6 +4128,7 @@
         ],
         "tag": [
           "pesce",
+          "prodotto fresco",
           "pesce spada"
         ],
         "allergeni": [
@@ -4231,10 +4333,11 @@
         "stato": "riconosciuto"
       },
       {
-        "originale": "Farina",
-        "normalizzato": "farina",
+        "originale": "Farina di frumento 00",
+        "normalizzato": "farina frumento",
         "token_chiave": [
-          "farina"
+          "farina",
+          "frumento"
         ],
         "tag": [
           "farina frumento"
@@ -4286,10 +4389,9 @@
         "stato": "riconosciuto"
       },
       {
-        "originale": "Carote",
-        "normalizzato": "carote",
+        "originale": "Carota",
+        "normalizzato": "carota",
         "token_chiave": [
-          "carote",
           "carota"
         ],
         "tag": [
@@ -4409,7 +4511,7 @@
         "stato": "accessorio_riconosciuto"
       },
       {
-        "originale": "Cuminio",
+        "originale": "Cumino",
         "normalizzato": "cumino",
         "token_chiave": [
           "cumino"
@@ -4529,7 +4631,7 @@
     "slug": "madeleine",
     "ingredienti": [
       {
-        "originale": "farina di frumento",
+        "originale": "Farina di frumento 00",
         "normalizzato": "farina frumento",
         "token_chiave": [
           "farina",
@@ -4548,7 +4650,7 @@
         "stato": "riconosciuto"
       },
       {
-        "originale": "zucchero semolato",
+        "originale": "Zucchero semolato",
         "normalizzato": "zucchero semolato",
         "token_chiave": [
           "zucchero",
@@ -4566,7 +4668,7 @@
         "stato": "accessorio_riconosciuto"
       },
       {
-        "originale": "uova",
+        "originale": "Uova",
         "normalizzato": "uova",
         "token_chiave": [
           "uova"
@@ -4606,7 +4708,7 @@
         "stato": "riconosciuto"
       },
       {
-        "originale": "latte intero",
+        "originale": "Latte intero",
         "normalizzato": "latte intero",
         "token_chiave": [
           "latte",
@@ -4625,7 +4727,7 @@
         "stato": "riconosciuto"
       },
       {
-        "originale": "lievito per dolci",
+        "originale": "Lievito per dolci",
         "normalizzato": "lievito dolci",
         "token_chiave": [
           "lievito",
@@ -4636,16 +4738,14 @@
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "stato": "ignorato"
       },
       {
-        "originale": "limone non trattato",
-        "normalizzato": "limone non trattato",
+        "originale": "Limone",
+        "normalizzato": "limone",
         "token_chiave": [
           "limone",
-          "limona",
-          "non",
-          "trattato"
+          "limona"
         ],
         "tag": [],
         "allergeni": [],
@@ -4660,7 +4760,7 @@
         "stato": "accessorio_riconosciuto"
       },
       {
-        "originale": "miele delicato",
+        "originale": "Miele delicato",
         "normalizzato": "miele delicato",
         "token_chiave": [
           "miele",
@@ -4671,10 +4771,10 @@
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [],
-        "stato": "non_riconosciuto"
+        "stato": "ignorato"
       },
       {
-        "originale": "sale",
+        "originale": "Sale",
         "normalizzato": "sale",
         "token_chiave": [
           "sale"
@@ -5099,7 +5199,9 @@
         ],
         "tag": [
           "pesce",
-          "alici"
+          "prodotto conservato",
+          "alici",
+          "prodotto fresco"
         ],
         "allergeni": [
           "pesce"
@@ -5496,6 +5598,7 @@
         ],
         "tag": [
           "pesce",
+          "prodotto fresco",
           "triglia"
         ],
         "allergeni": [
@@ -5998,7 +6101,9 @@
         ],
         "tag": [
           "pesce",
-          "alici"
+          "prodotto conservato",
+          "alici",
+          "prodotto fresco"
         ],
         "allergeni": [
           "pesce"
@@ -6271,6 +6376,8 @@
         ],
         "tag": [
           "pesce",
+          "muggine",
+          "prodotto conservato",
           "bottarga"
         ],
         "allergeni": [
@@ -6278,7 +6385,7 @@
         ],
         "tag_accessori": [],
         "regole_matchate": [
-          "bottarga"
+          "bottarga muggine"
         ],
         "stato": "riconosciuto"
       },
@@ -6541,7 +6648,8 @@
         "tag": [
           "carne",
           "frattaglie",
-          "fegato"
+          "fegato",
+          "taglio fresco"
         ],
         "allergeni": [],
         "tag_accessori": [],
@@ -6562,14 +6670,13 @@
           "carne",
           "pollame",
           "pollo",
-          "frattaglie",
-          "fegato"
+          "taglio fresco"
         ],
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "pollo",
-          "fegato"
+          "fegatini",
+          "pollo"
         ],
         "stato": "riconosciuto"
       },
@@ -6765,7 +6872,9 @@
         ],
         "tag": [
           "pesce",
-          "alici"
+          "prodotto conservato",
+          "alici",
+          "prodotto fresco"
         ],
         "allergeni": [
           "pesce"
@@ -7003,6 +7112,7 @@
         ],
         "tag": [
           "crostacei",
+          "prodotto fresco",
           "mazzancolle"
         ],
         "allergeni": [
@@ -7175,8 +7285,8 @@
     "slug": "peperoni-alici-e-capperi",
     "ingredienti": [
       {
-        "originale": "Peperoni rossi e gialli",
-        "normalizzato": "peperoni rossi gialli",
+        "originale": "Peperoni gialli e rossi",
+        "normalizzato": "peperoni gialli rossi",
         "token_chiave": [
           "peperoni",
           "peperono"
@@ -7220,7 +7330,9 @@
         ],
         "tag": [
           "pesce",
-          "alici"
+          "prodotto conservato",
+          "alici",
+          "prodotto fresco"
         ],
         "allergeni": [
           "pesce"
@@ -7297,7 +7409,7 @@
     "slug": "puree-di-sedano",
     "ingredienti": [
       {
-        "originale": "sedano rapa",
+        "originale": "Sedano rapa",
         "normalizzato": "sedano rapa",
         "token_chiave": [
           "sedano",
@@ -7320,11 +7432,9 @@
         "stato": "riconosciuto"
       },
       {
-        "originale": "gambi di sedano",
-        "normalizzato": "gambi sedano",
+        "originale": "Sedano",
+        "normalizzato": "sedano",
         "token_chiave": [
-          "gambi",
-          "gambo",
           "sedano"
         ],
         "tag": [
@@ -7342,7 +7452,7 @@
         "stato": "riconosciuto"
       },
       {
-        "originale": "cipolla",
+        "originale": "Cipolla",
         "normalizzato": "cipolla",
         "token_chiave": [
           "cipolla"
@@ -7360,7 +7470,7 @@
         "stato": "riconosciuto"
       },
       {
-        "originale": "aglio",
+        "originale": "Aglio",
         "normalizzato": "aglio",
         "token_chiave": [
           "aglio"
@@ -7378,7 +7488,7 @@
         "stato": "accessorio_riconosciuto"
       },
       {
-        "originale": "patate",
+        "originale": "Patate",
         "normalizzato": "patate",
         "token_chiave": [
           "patate",
@@ -7397,7 +7507,7 @@
         "stato": "riconosciuto"
       },
       {
-        "originale": "burro",
+        "originale": "Burro",
         "normalizzato": "burro",
         "token_chiave": [
           "burro"
@@ -7432,7 +7542,7 @@
         "stato": "riconosciuto"
       },
       {
-        "originale": "noce moscata",
+        "originale": "Noce moscata",
         "normalizzato": "noce moscata",
         "token_chiave": [
           "noce",
@@ -7611,6 +7721,22 @@
     "slug": "risi-e-bisi",
     "ingredienti": [
       {
+        "originale": "Riso",
+        "normalizzato": "riso",
+        "token_chiave": [
+          "riso"
+        ],
+        "tag": [
+          "riso"
+        ],
+        "allergeni": [],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "riso"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
         "originale": "Carota",
         "normalizzato": "carota",
         "token_chiave": [
@@ -7682,22 +7808,6 @@
         "stato": "riconosciuto"
       },
       {
-        "originale": "Sale",
-        "normalizzato": "sale",
-        "token_chiave": [
-          "sale"
-        ],
-        "tag": [],
-        "allergeni": [],
-        "tag_accessori": [
-          "spezie"
-        ],
-        "regole_matchate": [
-          "sale"
-        ],
-        "stato": "accessorio_riconosciuto"
-      },
-      {
         "originale": "Sedano",
         "normalizzato": "sedano",
         "token_chiave": [
@@ -7718,20 +7828,20 @@
         "stato": "riconosciuto"
       },
       {
-        "originale": "Riso",
-        "normalizzato": "riso",
+        "originale": "Sale",
+        "normalizzato": "sale",
         "token_chiave": [
-          "riso"
+          "sale"
         ],
-        "tag": [
-          "riso"
-        ],
+        "tag": [],
         "allergeni": [],
-        "tag_accessori": [],
-        "regole_matchate": [
-          "riso"
+        "tag_accessori": [
+          "spezie"
         ],
-        "stato": "riconosciuto"
+        "regole_matchate": [
+          "sale"
+        ],
+        "stato": "accessorio_riconosciuto"
       }
     ]
   },
@@ -7747,6 +7857,7 @@
         ],
         "tag": [
           "molluschi",
+          "prodotto fresco",
           "cozze"
         ],
         "allergeni": [
@@ -8012,7 +8123,7 @@
     "slug": "roux-brun",
     "ingredienti": [
       {
-        "originale": "Noce di burro",
+        "originale": "Burro",
         "normalizzato": "burro",
         "token_chiave": [
           "burro"
@@ -8029,10 +8140,11 @@
         "stato": "riconosciuto"
       },
       {
-        "originale": "Farina 00",
-        "normalizzato": "farina",
+        "originale": "Farina di frumento 00",
+        "normalizzato": "farina frumento",
         "token_chiave": [
-          "farina"
+          "farina",
+          "frumento"
         ],
         "tag": [
           "farina frumento"
@@ -8112,7 +8224,9 @@
         ],
         "tag": [
           "pesce",
-          "alici"
+          "prodotto conservato",
+          "alici",
+          "prodotto fresco"
         ],
         "allergeni": [
           "pesce"
@@ -8210,15 +8324,15 @@
     "slug": "sarde-a-beccafico",
     "ingredienti": [
       {
-        "originale": "Sarde di media grandezza",
-        "normalizzato": "sarde media grandezza",
+        "originale": "Sarde",
+        "normalizzato": "sarde",
         "token_chiave": [
           "sarde",
-          "sarda",
-          "grandezza"
+          "sarda"
         ],
         "tag": [
           "pesce",
+          "prodotto fresco",
           "sardine"
         ],
         "allergeni": [
@@ -8296,7 +8410,9 @@
         ],
         "tag": [
           "pesce",
-          "alici"
+          "prodotto conservato",
+          "alici",
+          "prodotto fresco"
         ],
         "allergeni": [
           "pesce"
@@ -8361,11 +8477,11 @@
         "stato": "accessorio_riconosciuto"
       },
       {
-        "originale": "Limoni bio",
-        "normalizzato": "limone",
+        "originale": "Limoni",
+        "normalizzato": "limoni",
         "token_chiave": [
-          "limone",
-          "limona"
+          "limoni",
+          "limono"
         ],
         "tag": [],
         "allergeni": [],
@@ -8486,7 +8602,9 @@
         ],
         "tag": [
           "pesce",
-          "alici"
+          "prodotto conservato",
+          "alici",
+          "prodotto fresco"
         ],
         "allergeni": [
           "pesce"
@@ -8650,10 +8768,9 @@
         "stato": "riconosciuto"
       },
       {
-        "originale": "Zucchine",
-        "normalizzato": "zucchine",
+        "originale": "Zucchina",
+        "normalizzato": "zucchina",
         "token_chiave": [
-          "zucchine",
           "zucchina"
         ],
         "tag": [
@@ -8725,10 +8842,9 @@
         "stato": "riconosciuto"
       },
       {
-        "originale": "Cipolle",
-        "normalizzato": "cipolle",
+        "originale": "Cipolla",
+        "normalizzato": "cipolla",
         "token_chiave": [
-          "cipolle",
           "cipolla"
         ],
         "tag": [
@@ -8744,10 +8860,9 @@
         "stato": "riconosciuto"
       },
       {
-        "originale": "Melanzane",
-        "normalizzato": "melanzane",
+        "originale": "Melanzana",
+        "normalizzato": "melanzana",
         "token_chiave": [
-          "melanzane",
           "melanzana"
         ],
         "tag": [
@@ -8783,10 +8898,9 @@
         "stato": "riconosciuto"
       },
       {
-        "originale": "Carote",
-        "normalizzato": "carote",
+        "originale": "Carota",
+        "normalizzato": "carota",
         "token_chiave": [
-          "carote",
           "carota"
         ],
         "tag": [
@@ -8901,8 +9015,8 @@
         "stato": "ignorato"
       },
       {
-        "originale": "Parmigiano reggiano",
-        "normalizzato": "parmigiano reggiano",
+        "originale": "Parmigiano Reggiano IGP",
+        "normalizzato": "parmigiano reggiano igp",
         "token_chiave": [
           "parmigiano"
         ],
@@ -8953,6 +9067,8 @@
         ],
         "tag": [
           "pesce",
+          "muggine",
+          "prodotto conservato",
           "bottarga"
         ],
         "allergeni": [
@@ -8960,7 +9076,7 @@
         ],
         "tag_accessori": [],
         "regole_matchate": [
-          "bottarga"
+          "bottarga muggine"
         ],
         "stato": "riconosciuto"
       },
@@ -9162,7 +9278,9 @@
         ],
         "tag": [
           "pesce",
-          "alici"
+          "prodotto conservato",
+          "alici",
+          "prodotto fresco"
         ],
         "allergeni": [
           "pesce"
@@ -9235,8 +9353,8 @@
     "slug": "straccetti-di-pollo-al-limone",
     "ingredienti": [
       {
-        "originale": "Petto di pollo allevato a terra",
-        "normalizzato": "petto pollo allevato terra",
+        "originale": "Petto di pollo",
+        "normalizzato": "petto pollo",
         "token_chiave": [
           "petto",
           "pollo"
@@ -9244,7 +9362,8 @@
         "tag": [
           "carne",
           "pollame",
-          "pollo"
+          "pollo",
+          "taglio fresco"
         ],
         "allergeni": [],
         "tag_accessori": [],
@@ -9466,12 +9585,13 @@
         "tag": [
           "carne",
           "pollame",
-          "pollo"
+          "tacchino",
+          "taglio fresco"
         ],
         "allergeni": [],
         "tag_accessori": [],
         "regole_matchate": [
-          "pollo"
+          "fesa tacchino"
         ],
         "stato": "riconosciuto"
       }
@@ -9489,7 +9609,8 @@
         "tag": [
           "carne",
           "pollame",
-          "pollo"
+          "pollo",
+          "taglio fresco"
         ],
         "allergeni": [],
         "tag_accessori": [],
@@ -9506,7 +9627,8 @@
         ],
         "tag": [
           "carne",
-          "coniglio"
+          "coniglio",
+          "taglio fresco"
         ],
         "allergeni": [],
         "tag_accessori": [],
@@ -9863,6 +9985,82 @@
         ],
         "tag": [
           "pesce",
+          "prodotto fresco",
+          "tonno"
+        ],
+        "allergeni": [
+          "pesce"
+        ],
+        "tag_accessori": [],
+        "regole_matchate": [
+          "tonno"
+        ],
+        "stato": "riconosciuto"
+      },
+      {
+        "originale": "Olio extra vergine d'oliva",
+        "normalizzato": "olio d oliva",
+        "token_chiave": [
+          "olio",
+          "d",
+          "oliva"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "olio",
+          "frutti",
+          "olive"
+        ],
+        "regole_matchate": [
+          "olio",
+          "olive"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Vino bianco secco",
+        "normalizzato": "vino bianco secco",
+        "token_chiave": [
+          "vino"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "vino",
+          "vino rosso",
+          "barbera"
+        ],
+        "regole_matchate": [
+          "barbera"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Alloro",
+        "normalizzato": "alloro",
+        "token_chiave": [
+          "alloro"
+        ],
+        "tag": [],
+        "allergeni": [],
+        "tag_accessori": [
+          "erbe aromatiche"
+        ],
+        "regole_matchate": [
+          "prezzemolo"
+        ],
+        "stato": "accessorio_riconosciuto"
+      },
+      {
+        "originale": "Tonno",
+        "normalizzato": "tonno",
+        "token_chiave": [
+          "tonno"
+        ],
+        "tag": [
+          "pesce",
+          "prodotto fresco",
           "tonno"
         ],
         "allergeni": [
@@ -9880,17 +10078,17 @@
     "slug": "tortino-di-alici",
     "ingredienti": [
       {
-        "originale": "Alici freschissime",
-        "normalizzato": "alici freschissime",
+        "originale": "Alici",
+        "normalizzato": "alici",
         "token_chiave": [
           "alici",
-          "alico",
-          "freschissime",
-          "freschissima"
+          "alico"
         ],
         "tag": [
           "pesce",
-          "alici"
+          "prodotto conservato",
+          "alici",
+          "prodotto fresco"
         ],
         "allergeni": [
           "pesce"
@@ -9902,10 +10100,9 @@
         "stato": "riconosciuto"
       },
       {
-        "originale": "Mollica o pangrattato",
-        "normalizzato": "mollica pangrattato",
+        "originale": "Pangrattato",
+        "normalizzato": "pangrattato",
         "token_chiave": [
-          "mollica",
           "pangrattato"
         ],
         "tag": [
@@ -10040,7 +10237,7 @@
         "stato": "accessorio_riconosciuto"
       },
       {
-        "originale": "Limone BIO",
+        "originale": "Limone",
         "normalizzato": "limone",
         "token_chiave": [
           "limone",
@@ -10267,6 +10464,7 @@
         ],
         "tag": [
           "pesce",
+          "prodotto fresco",
           "tonno"
         ],
         "allergeni": [
@@ -10453,10 +10651,9 @@
         "stato": "riconosciuto"
       },
       {
-        "originale": "Gambo di sedano",
-        "normalizzato": "gambo sedano",
+        "originale": "Sedano",
+        "normalizzato": "sedano",
         "token_chiave": [
-          "gambo",
           "sedano"
         ],
         "tag": [
