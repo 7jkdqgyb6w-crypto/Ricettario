@@ -4,7 +4,7 @@
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "site_base_url": "https://ricette.pierre.piccotti.it",
   "mode": "APPLY",
-  "created_at": "2026-06-23T23:43:02",
+  "created_at": "2026-06-24T10:58:17",
   "counts": {
     "UNCHANGED": 4,
     "UPDATED": 74
@@ -106,7 +106,7 @@
       "canonical": "https://ricette.pierre.piccotti.it/ricette/agnolotti-al-sugo-d-arrosto/",
       "description": "Agnolotti al sugo d'arrosto. Questa ricetta rispecchia un poco la mia famiglia. Mio padre era di Alessandria e mia madre era nata a Torino. Queste due…",
       "notes": [
-        "aggiornato json-ld"
+        "aggiunto json-ld"
       ]
     },
     {
@@ -205,7 +205,7 @@
       "canonical": "https://ricette.pierre.piccotti.it/ricette/bollito-misto/",
       "description": "Bollito misto. Non sta a me scrivere la ricetta del bollito misto. Tantomeno se con \"il bue grasso di Carrù\". Una eccellenza. Anche perché non avrei…",
       "notes": [
-        "aggiunto json-ld"
+        "aggiornato json-ld"
       ]
     },
     {
@@ -214,7 +214,7 @@
       "canonical": "https://ricette.pierre.piccotti.it/ricette/braciole-di-carne-di-cavallo/",
       "description": "Braciole di carne di cavallo. Questa è una ricetta pugliese, ma io la considero soprattutto per quello che diventa nel piatto: un sugo ricco per la pasta.",
       "notes": [
-        "aggiornato json-ld"
+        "aggiunto json-ld"
       ]
     },
     {
@@ -223,7 +223,7 @@
       "canonical": "https://ricette.pierre.piccotti.it/ricette/calamari-ripieni/",
       "description": "Calamari ripieni. Qui il calamaro fa la differenza... Se è troppo fresco può risultare sorprendentemente duro. Meglio che sia stato abbattuto oppure…",
       "notes": [
-        "aggiunto json-ld"
+        "aggiornato json-ld"
       ]
     },
     {
@@ -259,7 +259,7 @@
       "canonical": "https://ricette.pierre.piccotti.it/ricette/daube/",
       "description": "Daube. Potrebbe sembrare uno spezzatino, ma non lo è.",
       "notes": [
-        "aggiunto json-ld"
+        "aggiornato json-ld"
       ]
     },
     {
@@ -376,7 +376,7 @@
       "canonical": "https://ricette.pierre.piccotti.it/ricette/orecchiette-baresi-alle-cime-di-rapa/",
       "description": "Orecchiette baresi alle cime di rapa. Ho recentemente aggiornato questa ricetta.",
       "notes": [
-        "aggiunto json-ld"
+        "aggiornato json-ld"
       ]
     },
     {
@@ -403,7 +403,7 @@
       "canonical": "https://ricette.pierre.piccotti.it/ricette/pasta-al-ragu-di-triglie-e-al-succo-d-arancia/",
       "description": "Pasta al ragù di triglie e al succo d'arancia. Il tutto dipende dalla freschezza delle triglie. Rigorosamente di scoglio (si riconoscono dagli intestini…",
       "notes": [
-        "aggiunto json-ld"
+        "aggiornato json-ld"
       ]
     },
     {

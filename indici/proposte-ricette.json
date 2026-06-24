@@ -9,12 +9,12 @@
       "tempo_riposo": "30 min",
       "tempo_totale": "include riposo",
       "ingredienti_chiave": [
-        "Polpa di manzo",
-        "Ossa di bovino",
-        "Doppione o biancostato",
-        "Gallina pulita",
+        "Manzo",
+        "Gallina",
         "Pomodoro rosso",
-        "Bacche di ginepro"
+        "Bacche di ginepro",
+        "Chiodi di garofano",
+        "Vitello"
       ]
     },
     "confidenza": "bassa",
