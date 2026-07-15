@@ -4,6 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Autore - Ricette (e altro) di Pierre</title>
+<meta name="description" content="Indice delle ricette organizzate per autore e attribuzione.">
+<link rel="canonical" href="https://ricette.pierre.piccotti.it/indici/autore.html">
 <link rel="stylesheet" href="../style.css">
 <style>
 .index-page > .index-content{max-width:var(--reading);margin-left:auto;margin-right:auto;width:100%;}

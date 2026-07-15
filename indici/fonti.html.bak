@@ -4,6 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Fonti - Ricette (e altro) di Pierre</title>
+<meta name="description" content="Persone, libri e riferimenti dichiarati nelle ricette.">
+<link rel="canonical" href="https://ricette.pierre.piccotti.it/indici/fonti.html">
 <link rel="stylesheet" href="../style.css">
 <style>
 .index-page > .index-content{max-width:var(--reading);margin-left:auto;margin-right:auto;width:100%;}
