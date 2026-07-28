@@ -799,8 +799,7 @@ function injectPrintIngredientDecor(doc){
       return Promise.resolve(ingredientAssetRelpathsFallback.slice());
     }
     var candidates = [
-      {manifest:'/Ingredienti/manifest.json', base:'/Ingredienti/'},
-      {manifest:'/ingredienti/manifest.json', base:'/ingredienti/'}
+      {manifest:'/Ingredienti/manifest.json', base:'/Ingredienti/'}
     ];
     function tryCandidate(index){
       if(index >= candidates.length){
