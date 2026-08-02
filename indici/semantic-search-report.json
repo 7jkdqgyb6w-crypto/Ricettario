@@ -1,7 +1,7 @@
 {
   "versione": "CMS2-R18-103",
   "semantica_versione": "CMS2-R18-169",
-  "timestamp": "2026-07-28T23:15:07",
+  "timestamp": "2026-08-02T16:08:34",
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "search_data": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT\\indici\\search-data.json",
   "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\CMS\\ingredienti-semantica.json",
@@ -1487,8 +1487,7 @@
         "Olio extra vergine d'oliva",
         "Sale",
         "Pepe",
-        "Prezzemolo tritato",
-        "Nuova sezione"
+        "Prezzemolo tritato"
       ],
       "termini_ricerca": [
         "semola grano duro",
