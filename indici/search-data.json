@@ -1411,6 +1411,28 @@
     "img": "../foto/tortino-di-alici/01.jpg"
   },
   {
+    "slug": "trancio-di-tonno-con-sesamo-provenzale",
+    "titolo": "Trancio di tonno con sesamo provenzale",
+    "categoria": "",
+    "geografia": "",
+    "regime_minimo": "pescetariano",
+    "stagioni": [
+      "inverno"
+    ],
+    "ingredienti_chiave": [],
+    "termini_ricerca": [],
+    "allergeni": [
+      "pesce",
+      "sesamo"
+    ],
+    "co2": "",
+    "kcal_classe": "",
+    "search_text": "trancio di tonno con sesamo provenzale il trancio di tonno con sesamo provenzale è un secondo piatto di pesce raffinato e veloce. prevede un trancio di tonno fresco marinato con olio e limone, impanato in una crosticina croccante di semi di sesamo… tonno fresco semi di sesamo erbe provenzali olio extra vergine d'oliva sale pepe limone pesce sesamo inverno pescetariano",
+    "metadati_fonte": "auto",
+    "href": "../ricette/trancio-di-tonno-con-sesamo-provenzale/",
+    "img": "../foto/trancio-di-tonno-con-sesamo-provenzale/01.jpg"
+  },
+  {
     "slug": "vitello-tonnato",
     "titolo": "Vitello tonnato",
     "categoria": "Antipasti",
