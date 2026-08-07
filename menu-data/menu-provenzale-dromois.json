@@ -1,0 +1,58 @@
+{
+  "slug": "menu-provenzale-dromois",
+  "title": "Menu provenzale / drômois",
+  "subtitle": "Orto, basilico, mare e una traccia più interna della Drôme.",
+  "occasion": "Cena estiva",
+  "place": "Provenza / Drôme",
+  "season": "estate",
+  "intro": "Un menu costruito senza forzare le tradizioni: verdure, erbe, sesamo e mare. La soupe au pistou tiene insieme l'orto e il basilico; il tonno porta una parte più netta, da sostenere con un rosso leggero.",
+  "photo": "foto/menu/menu-provenzale-dromois/IMG_6688.jpg",
+  "photo_alt": "Soupe au pistou in piatto",
+  "items": [
+    {
+      "type": "local",
+      "course": "Primo",
+      "slug": "soupe-au-pistou",
+      "title": "Soupe au pistou",
+      "description": "La parte vegetale del menu: fagioli, verdure estive, pasta corta e pistou. Calda, ma pienamente estiva, come spesso accade nella cucina provenzale.",
+      "url": "/ricette/soupe-au-pistou/",
+      "photo": "",
+      "photo_alt": "",
+      "meta": ""
+    },
+    {
+      "type": "local",
+      "course": "Secondo",
+      "slug": "",
+      "title": "Tonno in sesamo provenzale",
+      "description": "Ricetta tradizionale da inserire o collegare: tonno appena cotto, sesamo, erbe e profumi mediterranei. Deve restare succoso, con il sesamo come trama più che come copertura pesante.",
+      "url": "/ricette/trancio-di-tonno-con-sesamo-provenzale/",
+      "photo": "",
+      "photo_alt": "",
+      "meta": ""
+    },
+    {
+      "type": "local",
+      "course": "Verdure / contorno",
+      "slug": "",
+      "title": "Pomodori ripieni alla provenzale",
+      "description": "Pomodori maturi, ripieno sobrio, erbe e cottura lenta. Una presenza laterale ma importante: non un contorno decorativo, piuttosto un secondo accento dell'orto.",
+      "url": "",
+      "photo": "",
+      "photo_alt": "",
+      "meta": ""
+    }
+  ],
+  "wines": [
+    {
+      "name": "Viognier La Bertavelle",
+      "note": "sulla soupe au pistou e sui pomodori, per tenere insieme erbe, verdure e parte aromatica senza appesantire"
+    },
+    {
+      "name": "Pinot noir",
+      "note": "per il tonno al sesamo, se servito appena rosato: rosso leggero, fresco, senza tannino invadente"
+    }
+  ],
+  "notes": "Frequentando spesso la Drome provenzale ho dovuto imparare a conoscere la cucina locale.",
+  "updated": "2026-08-07"
+}
