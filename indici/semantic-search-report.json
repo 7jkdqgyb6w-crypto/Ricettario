@@ -1,13 +1,13 @@
 {
   "versione": "CMS2-R18-103",
   "semantica_versione": "CMS2-R18-169",
-  "timestamp": "2026-08-07T22:09:58",
+  "timestamp": "2026-08-18T19:18:54",
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "search_data": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT\\indici\\search-data.json",
   "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\CMS\\ingredienti-semantica.json",
   "apply": true,
-  "processed": 68,
-  "changed": 66,
+  "processed": 69,
+  "changed": 67,
   "missing_source": [],
   "no_structural_terms": [
     "antipastino-piemontese",
@@ -3045,6 +3045,44 @@
         "olive",
         "sale",
         "prezzemolo",
+        "limone"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "trancio-di-tonno-con-sesamo-provenzale",
+      "titolo": "Trancio di tonno con sesamo provenzale",
+      "fonte_semantica": "html-ingredienti",
+      "ingredienti_usati": [
+        "Tonno fresco",
+        "Semi di sesamo",
+        "Erbe provenzali",
+        "Olio extra vergine d'oliva",
+        "Sale",
+        "Pepe",
+        "Limone"
+      ],
+      "termini_ricerca": [
+        "pesce",
+        "prodotto fresco",
+        "tonno"
+      ],
+      "allergeni": [
+        "pesce"
+      ],
+      "tag_accessori_esclusi": [
+        "olio",
+        "frutti",
+        "olive",
+        "spezie",
+        "agrumi",
+        "limone"
+      ],
+      "regole_matchate": [
+        "tonno",
+        "olio",
+        "olive",
+        "sale",
         "limone"
       ],
       "modificato": true

@@ -330,6 +330,27 @@
     "img": "../foto/cavolo-rosso-condito/01.jpg"
   },
   {
+    "slug": "choux-croute",
+    "titolo": "Choux croute",
+    "categoria": "Piatto unico",
+    "geografia": "Francia - Alsazia",
+    "regime_minimo": "onnivoro",
+    "stagioni": [
+      "tutto_anno"
+    ],
+    "ingredienti_chiave": [],
+    "termini_ricerca": [],
+    "allergeni": [
+      "senape"
+    ],
+    "co2": "bassa",
+    "kcal_classe": "medie",
+    "search_text": "choux croute piatto unico francia - alsazia jacqueline gibert piatto tradizionale alsaziano, come peraltro è la famiglia di mia nonna. a differenza della cucina austriaca o altoatesina, i crauti in cottura devono perdere tutta la loro acidità. a questo concorre la mela, la… crauti mela cipolla patate gialle cotenna di maiale carrè di maiale affumicato wurster di diverse qualità salsicce quadrate affumicate pancetta affumicata prosciutto cotto affumicato bacche di ginepro chiodi di garofano vino bianco secco birra bionda brodo vegetale senape senape tutto_anno onnivoro",
+    "metadati_fonte": "auto",
+    "href": "../ricette/choux-croute/",
+    "img": "../foto/choux-croute/01.jpg"
+  },
+  {
     "slug": "cous-cous-alla-trapanese",
     "titolo": "Cous cous alla trapanese",
     "categoria": "Primi",
@@ -1413,8 +1434,8 @@
   {
     "slug": "trancio-di-tonno-con-sesamo-provenzale",
     "titolo": "Trancio di tonno con sesamo provenzale",
-    "categoria": "",
-    "geografia": "",
+    "categoria": "Secondi",
+    "geografia": "Francia - Provenza",
     "regime_minimo": "pescetariano",
     "stagioni": [
       "inverno"
@@ -1427,7 +1448,7 @@
     ],
     "co2": "",
     "kcal_classe": "",
-    "search_text": "trancio di tonno con sesamo provenzale il trancio di tonno con sesamo provenzale è un secondo piatto di pesce raffinato e veloce. prevede un trancio di tonno fresco marinato con olio e limone, impanato in una crosticina croccante di semi di sesamo… tonno fresco semi di sesamo erbe provenzali olio extra vergine d'oliva sale pepe limone pesce sesamo inverno pescetariano",
+    "search_text": "trancio di tonno con sesamo provenzale secondi francia - provenza il trancio di tonno con sesamo provenzale è un secondo piatto di pesce raffinato e veloce. prevede un trancio di tonno fresco marinato con olio e limone, impanato in una crosticina croccante di semi di sesamo… tonno fresco semi di sesamo erbe provenzali olio extra vergine d'oliva sale pepe limone pesce sesamo inverno pescetariano",
     "metadati_fonte": "auto",
     "href": "../ricette/trancio-di-tonno-con-sesamo-provenzale/",
     "img": "../foto/trancio-di-tonno-con-sesamo-provenzale/01.jpg"

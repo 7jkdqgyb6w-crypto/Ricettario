@@ -4,10 +4,10 @@
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "site_base_url": "https://ricette.pierre.piccotti.it",
   "mode": "APPLY",
-  "created_at": "2026-08-07T22:10:44",
+  "created_at": "2026-08-18T19:19:35",
   "counts": {
     "UNCHANGED": 4,
-    "UPDATED": 75
+    "UPDATED": 76
   },
   "results": [
     {
@@ -227,6 +227,15 @@
       "description": "Cavolo rosso condito. Ricordi vaghi, ma credo che in qualche modo dovesse essere presente in casa mia, forse introdotto da me ancora negli anni '70.",
       "notes": [
         "aggiornato json-ld"
+      ]
+    },
+    {
+      "path": "ricette\\choux-croute\\index.html",
+      "status": "UPDATED",
+      "canonical": "https://ricette.pierre.piccotti.it/ricette/choux-croute/",
+      "description": "Choux croute. Piatto tradizionale alsaziano, come peraltro è la famiglia di mia nonna. A differenza della cucina austriaca o altoatesina, i crauti in…",
+      "notes": [
+        "aggiunto json-ld"
       ]
     },
     {
