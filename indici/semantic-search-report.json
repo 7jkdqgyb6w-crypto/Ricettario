@@ -1,13 +1,13 @@
 {
   "versione": "CMS2-R18-103",
   "semantica_versione": "CMS2-R18-169",
-  "timestamp": "2026-08-18T19:18:54",
+  "timestamp": "2026-08-23T00:21:15",
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "search_data": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT\\indici\\search-data.json",
   "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\CMS\\ingredienti-semantica.json",
   "apply": true,
-  "processed": 69,
-  "changed": 67,
+  "processed": 70,
+  "changed": 68,
   "missing_source": [],
   "no_structural_terms": [
     "antipastino-piemontese",
@@ -41,12 +41,14 @@
         "Lardo",
         "Prosciutto cotto",
         "Riso bollito nel latte",
+        "Latte",
         "Spinaci",
         "Cipolla",
         "Carota",
         "Sedano",
         "Rosmarino",
         "Alloro",
+        "Aglio",
         "Cannella",
         "Chiodi di garofano",
         "Salvia",
@@ -61,6 +63,7 @@
         "per la pasta",
         "Uova",
         "Farina di frumento 00",
+        "Acqua",
         "Sale",
         "Olio extra vergine d'oliva"
       ],
@@ -103,6 +106,8 @@
       "tag_accessori_esclusi": [
         "spezie",
         "erbe aromatiche",
+        "verdure",
+        "aglio",
         "vino",
         "vino rosso",
         "barbera",
@@ -123,6 +128,7 @@
         "latte",
         "riso",
         "spinaci",
+        "aglio",
         "mandorla",
         "barbera",
         "uova",
@@ -787,6 +793,57 @@
         "farina",
         "olio",
         "olive"
+      ],
+      "modificato": true
+    },
+    {
+      "slug": "choux-croute",
+      "titolo": "Choux croute",
+      "fonte_semantica": "html-ingredienti",
+      "ingredienti_usati": [
+        "Crauti",
+        "Mela",
+        "Cipolla",
+        "Patate gialle",
+        "Cotenna di maiale",
+        "Carrè di maiale affumicato",
+        "Wurster di diverse qualità",
+        "Salsicce quadrate affumicate",
+        "Pancetta affumicata",
+        "Prosciutto cotto affumicato",
+        "Bacche di ginepro",
+        "Chiodi di garofano",
+        "Vino bianco secco",
+        "Birra bionda",
+        "Brodo vegetale",
+        "Senape"
+      ],
+      "termini_ricerca": [
+        "verdure",
+        "ortaggi",
+        "cipolle",
+        "patate",
+        "carne",
+        "suino",
+        "maiale",
+        "senape"
+      ],
+      "allergeni": [
+        "senape"
+      ],
+      "tag_accessori_esclusi": [
+        "spezie",
+        "vino",
+        "vino rosso",
+        "barbera"
+      ],
+      "regole_matchate": [
+        "cipolle",
+        "patate",
+        "maiale",
+        "sale",
+        "barbera",
+        "senape"
       ],
       "modificato": true
     },

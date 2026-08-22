@@ -4,7 +4,7 @@
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "site_base_url": "https://ricette.pierre.piccotti.it",
   "mode": "APPLY",
-  "created_at": "2026-08-18T19:19:35",
+  "created_at": "2026-08-23T00:22:00",
   "counts": {
     "UNCHANGED": 4,
     "UPDATED": 76
@@ -98,9 +98,9 @@
       "path": "ricette\\agnolotti-al-sugo-d-arrosto\\index.html",
       "status": "UPDATED",
       "canonical": "https://ricette.pierre.piccotti.it/ricette/agnolotti-al-sugo-d-arrosto/",
-      "description": "Agnolotti al sugo d'arrosto. Questa ricetta rispecchia un poco la mia famiglia. Mio padre era di Alessandria e mia madre era nata a Torino. Queste due…",
+      "description": "Agnolotti al sugo d'arrosto. Questa ricetta rispecchia un poco la mia famiglia. Mio padre era di Alessandria, mia madre Jacqueline era nata a Torino. Le…",
       "notes": [
-        "aggiornato json-ld"
+        "aggiunto json-ld"
       ]
     },
     {
@@ -694,7 +694,7 @@
       "canonical": "https://ricette.pierre.piccotti.it/ricette/trancio-di-tonno-con-sesamo-provenzale/",
       "description": "Trancio di tonno con sesamo provenzale. Il trancio di tonno con sesamo provenzale è un secondo piatto di pesce raffinato e veloce. Prevede un trancio di…",
       "notes": [
-        "aggiunto json-ld"
+        "aggiornato json-ld"
       ]
     },
     {
