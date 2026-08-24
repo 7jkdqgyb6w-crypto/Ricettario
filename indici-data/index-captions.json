@@ -1,0 +1,30 @@
+{
+  "ricette": {
+    "html": "<p>L’indice delle ricette è l’accesso principale al ricettario.</p>",
+    "immagini": []
+  },
+  "ingredienti": {
+    "html": "<p>L’indice degli ingredienti raccoglie le ricette a partire dalle materie prime e dagli elementi caratterizzanti della preparazione.</p><p>Le caratteristiche degli ingredienti non si esauriscono nella loro provenienza o qualità merceologica: gusto, aroma, consistenza e temperatura concorrono alla percezione del cibo. Su questi aspetti rimando all'approfondimento <a href=\"/approfondimenti/il-gusto\"><strong>Il gusto</strong></a><strong>.</strong></p>",
+    "immagini": []
+  },
+  "fonti": {
+    "html": "<p>L’indice delle fonti raccoglie le persone e i riferimenti dichiarati nelle ricette.</p>",
+    "immagini": []
+  },
+  "geografia": {
+    "html": "<p>L’indice geografico ordina le ricette per territori, città e aree culturali a partire dal campo Origine/Geografia.</p>",
+    "immagini": []
+  },
+  "approfondimenti": {
+    "html": "<p>Percorsi, ricerche e documenti intorno alla cucina e alla sua cultura.</p>",
+    "immagini": []
+  },
+  "autore": {
+    "html": "<p>Indice tecnico per autore.</p>",
+    "immagini": []
+  },
+  "categorie": {
+    "html": "<p>Indice tecnico per categorie.</p>",
+    "immagini": []
+  }
+}

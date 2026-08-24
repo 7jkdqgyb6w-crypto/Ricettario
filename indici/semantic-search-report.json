@@ -1,7 +1,7 @@
 {
   "versione": "CMS2-R18-103",
   "semantica_versione": "CMS2-R18-169",
-  "timestamp": "2026-08-23T14:33:49",
+  "timestamp": "2026-08-24T08:04:20",
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "search_data": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT\\indici\\search-data.json",
   "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\CMS\\ingredienti-semantica.json",
@@ -475,6 +475,7 @@
         "Aglio",
         "Alici sotto sale",
         "Olio extravergine d'oliva",
+        "Latte",
         "Panna",
         "Cardo bianco gobbo",
         "Topinambur",
@@ -509,6 +510,7 @@
       ],
       "allergeni": [
         "pesce",
+        "latte",
         "sedano"
       ],
       "tag_accessori_esclusi": [
@@ -524,6 +526,7 @@
         "alici",
         "olio",
         "olive",
+        "latte",
         "panna",
         "cardo",
         "topinambur",

@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Approfondimenti - Ricette (e altro) di Pierre</title>
+<meta name="description" content="Percorsi, ricerche e documenti intorno alla cucina e alla sua cultura.">
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="Approfondimenti">
+<meta property="og:description" content="Percorsi, ricerche e documenti intorno alla cucina e alla sua cultura.">
+<meta property="og:url" content="https://ricette.pierre.piccotti.it/approfondimenti/">
+
+
+<link rel="canonical" href="https://ricette.pierre.piccotti.it/approfondimenti/">
+<link rel="stylesheet" href="../style.css?v=ROOT-R18-150">
+<link rel="stylesheet" href="../foto/ui/site-navigation.css?v=ROOT-R18-149">
+
+<style>
+.article-shell{max-width:var(--reading);width:100%;margin:0 auto;}
+.article-header{margin:0 0 2rem;}
+.article-header h1{margin-bottom:.55rem;}
+.article-deck{font-size:1.08rem;color:var(--muted);max-width:46rem;}
+.article-body{line-height:1.62;}
+.article-body p{margin:.55rem 0;}
+.article-body ul,.article-body ol{margin:.7rem 0 1rem 1.4rem;}
+.article-body li{margin:.35rem 0;}
+.article-body h2{margin:2.2rem 0 .75rem;padding-top:.65rem;border-top:1px solid var(--line);}
+.article-body h3{margin:1.6rem 0 .55rem;}
+.article-body h4{margin:1.2rem 0 .45rem;}
+.article-body a{overflow-wrap:anywhere;}
+.article-body blockquote{margin:1.2rem 0;padding:.2rem 0 .2rem 1rem;border-left:3px solid var(--line);color:var(--muted);}
+.article-notes{margin-top:2.4rem;font-size:.92rem;}
+.note-marker{font-size:.72em;vertical-align:super;white-space:nowrap;}
+.table-scroll{overflow-x:auto;margin:1rem 0;}
+.article-body table{width:100%;border-collapse:collapse;background:#fff;font-size:.9rem;}
+.article-body th,.article-body td{border:1px solid var(--line);padding:.45rem .55rem;vertical-align:top;}
+.article-body hr{border:0;border-top:1px solid var(--line);margin:1.6rem 0;}
+.article-body figure{box-sizing:border-box;margin:1.2rem 0;max-width:100%;}
+.article-body figure img,.article-hero img{display:block;width:100%;height:auto;}
+.article-body figcaption,.article-hero figcaption{margin-top:.4rem;color:var(--muted);font-size:.9rem;font-style:italic;}
+.article-body .step-photo-left{float:left;margin:.4rem 1rem .7rem 0;}
+.article-body .step-photo-right{float:right;margin:.4rem 0 .7rem 1rem;}
+.article-body .step-photo-large{float:none;margin:1.2rem auto;}
+.article-body .image-row,.article-body .article-image-row{display:flex;align-items:flex-start;gap:.8rem;clear:both;}
+.article-body .image-row figure,.article-body .article-image-row figure{flex:1 1 0;float:none;margin:.8rem 0;}
+.article-body::after{content:"";display:block;clear:both;}
+.article-hero{margin:0 0 1.5rem;}
+.article-callout,.article-note{padding:1rem;border:1px solid var(--line);background:rgba(255,255,255,.55);margin:1rem 0;}
+.article-related{clear:both;margin-top:2.5rem;padding-top:1rem;border-top:1px solid var(--line);}
+.article-related>h2{margin:.2rem 0 1rem;}
+.article-related section{margin:.8rem 0;}
+.article-related h3{margin:0 0 .35rem;font-size:1rem;}
+.article-related ul{margin:.2rem 0 .8rem 1.2rem;}
+.article-index-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(17rem,1fr));gap:1rem;list-style:none;padding:0;margin:1.5rem 0 0;}
+.article-index-card{display:block;height:100%;box-sizing:border-box;padding:1rem;border:1px solid var(--line);background:rgba(255,255,255,.42);}
+.article-index-card:hover{text-decoration:none;background:rgba(255,255,255,.72);}
+.article-index-card strong{display:block;font-size:1.12rem;color:#566064;margin-bottom:.35rem;}
+.article-index-card span{display:block;color:var(--text);line-height:1.4;}
+@media(max-width:640px){.article-body{line-height:1.55}.article-body table{font-size:.82rem}.article-body th,.article-body td{padding:.35rem}.article-index-list{grid-template-columns:1fr}.article-body .step-photo-left,.article-body .step-photo-right{float:none!important;width:100%!important;max-width:100%!important;margin:1rem 0!important}.article-body .image-row,.article-body .article-image-row{display:grid;grid-template-columns:1fr}}
+</style>
+
+</head>
+<body>
+<div class="page">
+<header class="site-header">
+  <a class="brand" href="/">Ricette (e altro) di Pierre</a>
+  <nav><a aria-label="Torna alla home" class="index-nav-back" href="../" title="Torna alla home">←</a></nav>
+</header>
+<main class="article-shell">
+<section class="article-page"><header class="article-header"><h1>Approfondimenti</h1><p class="article-deck">Percorsi, ricerche e documenti intorno alla cucina e alla sua cultura.</p></header><ul class="article-index-list"><li><a class="article-index-card" href="il-gusto/"><strong>Il gusto</strong><span>Dal rapporto fra buono e bello alla fisiologia del gusto: un percorso fra filosofia, percezione e cucina.</span></a></li><li><a class="article-index-card" href="bibliografia-bagna-cauda/"><strong>Bibliografia della Bagna cauda</strong><span>Repertorio bibliografico cronologico dedicato alla Bagna cauda piemontese, con fonti verificate, segnalazioni e lacune note.</span></a></li></ul></section>
+<footer class="site-footer">
+  <div class="site-footer-left"></div>
+  <nav class="site-footer-center" aria-label="Strumenti pagina">
+    <a class="site-footer-text" href="../informativa.html" aria-label="Informativa" title="Informativa"><img src="../foto/ui/info-light.svg" alt=""></a>
+    <a class="site-footer-icon" href="../scrivimi.html" aria-label="Scrivimi" title="Scrivimi"><img src="../foto/ui/mail-light.svg" alt=""></a>
+    <a class="site-footer-icon js-print-link" href="#" aria-label="Stampa pagina" title="Stampa pagina"><img src="../foto/ui/print-light.svg" alt=""></a>
+    <a class="site-footer-icon js-copy-link" href="#" aria-label="Copia link pagina" title="Copia link pagina"><img src="../foto/ui/link-light.svg" alt=""></a>
+  </nav>
+  <div class="site-footer-right"></div>
+</footer>
+</main>
+</div>
+<script id="site-footer-script">
+(function(){
+  function showCopyToast(){
+    var oldToast=document.querySelector('.site-copy-toast');
+    if(oldToast) oldToast.remove();
+    var toast=document.createElement('div');
+    toast.className='site-copy-toast';
+    toast.textContent='URL copiato';
+    document.body.appendChild(toast);
+    setTimeout(function(){ if(toast && toast.parentNode) toast.parentNode.removeChild(toast); },1200);
+  }
+  document.querySelectorAll('.js-print-link').forEach(function(link){
+    link.addEventListener('click',function(event){event.preventDefault();window.print();});
+  });
+  document.querySelectorAll('.js-copy-link').forEach(function(link){
+    link.addEventListener('click',async function(event){
+      event.preventDefault();
+      try{
+        if(navigator.clipboard && navigator.clipboard.writeText) await navigator.clipboard.writeText(window.location.href);
+        else{var field=document.createElement('textarea');field.value=window.location.href;document.body.appendChild(field);field.select();document.execCommand('copy');field.remove();}
+        showCopyToast();
+      }catch(error){}
+    });
+  });
+})();
+</script>
+<script src="../foto/ui/site-navigation.js?v=ROOT-R18-149"></script>
+</body>
+</html>
