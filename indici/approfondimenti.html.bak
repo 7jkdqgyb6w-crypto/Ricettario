@@ -13,7 +13,7 @@
 
 
 <link rel="canonical" href="https://ricette.pierre.piccotti.it/approfondimenti/">
-<link rel="stylesheet" href="../style.css?v=ROOT-R18-150">
+<link rel="stylesheet" href="../style.css?v=ROOT-R18-151">
 <link rel="stylesheet" href="../foto/ui/site-navigation.css?v=ROOT-R18-149">
 
 <style>
@@ -32,6 +32,12 @@
 .article-body blockquote{margin:1.2rem 0;padding:.2rem 0 .2rem 1rem;border-left:3px solid var(--line);color:var(--muted);}
 .article-notes{margin-top:2.4rem;font-size:.92rem;}
 .note-marker{font-size:.72em;vertical-align:super;white-space:nowrap;}
+.article-note-reference{font-size:.75em;vertical-align:super;white-space:nowrap;}
+.article-note-reference a,.article-note-back{text-decoration:none;}
+.article-note-entry{clear:both;margin:.5rem 0;padding:.35rem .55rem .35rem 2.85rem;border-left:3px solid var(--line);position:relative;}
+.article-note-number{position:absolute;left:.7rem;font-weight:700;}
+.article-note-back{margin-left:.45rem;white-space:nowrap;}
+.article-note-reference:target,.article-note-entry:target{background:rgba(255,236,168,.55);}
 .table-scroll{overflow-x:auto;margin:1rem 0;}
 .article-body table{width:100%;border-collapse:collapse;background:#fff;font-size:.9rem;}
 .article-body th,.article-body td{border:1px solid var(--line);padding:.45rem .55rem;vertical-align:top;}
@@ -52,6 +58,10 @@
 .article-related section{margin:.8rem 0;}
 .article-related h3{margin:0 0 .35rem;font-size:1rem;}
 .article-related ul{margin:.2rem 0 .8rem 1.2rem;}
+.article-backlinks{display:grid;grid-template-columns:repeat(auto-fit,minmax(12rem,1fr));gap:.25rem 1.4rem;padding:1rem 1.1rem;border:1px solid var(--line);background:rgba(255,255,255,.35);}
+.article-related+.article-backlinks{margin-top:1.35rem;}
+.article-backlinks>h2{grid-column:1/-1;font-size:1.25rem;}
+.article-backlinks section{margin:.25rem 0;}
 .article-index-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(17rem,1fr));gap:1rem;list-style:none;padding:0;margin:1.5rem 0 0;}
 .article-index-card{display:block;height:100%;box-sizing:border-box;padding:1rem;border:1px solid var(--line);background:rgba(255,255,255,.42);}
 .article-index-card:hover{text-decoration:none;background:rgba(255,255,255,.72);}
@@ -68,7 +78,7 @@
   <nav><a aria-label="Torna alla home" class="index-nav-back" href="../" title="Torna alla home">←</a></nav>
 </header>
 <main class="article-shell">
-<section class="article-page"><header class="article-header"><h1>Approfondimenti</h1><p class="article-deck">Percorsi, ricerche e documenti intorno alla cucina e alla sua cultura.</p></header><ul class="article-index-list"><li><a class="article-index-card" href="il-gusto/"><strong>Il gusto</strong><span>Dal rapporto fra buono e bello alla fisiologia del gusto: un percorso fra filosofia, percezione e cucina.</span></a></li><li><a class="article-index-card" href="bibliografia-bagna-cauda/"><strong>Bibliografia della Bagna cauda</strong><span>Repertorio bibliografico cronologico dedicato alla Bagna cauda piemontese, con fonti verificate, segnalazioni e lacune note.</span></a></li></ul></section>
+<section class="article-page"><header class="article-header"><h1>Approfondimenti</h1><div class="article-deck article-index-intro"><p>Percorsi, ricerche e documenti intorno alla cucina e alla sua cultura.</p></div></header><ul class="article-index-list"><li><a class="article-index-card" href="il-gusto/"><strong>Il gusto</strong><span>Dal rapporto fra buono e bello alla fisiologia del gusto: un percorso fra filosofia, percezione e cucina.</span></a></li><li><a class="article-index-card" href="bibliografia-bagna-cauda/"><strong>Bibliografia della Bagna cauda</strong><span>Repertorio bibliografico cronologico dedicato alla Bagna cauda piemontese, con fonti verificate, segnalazioni e lacune note.</span></a></li><li><a class="article-index-card" href="buzara/"><strong>Buzara</strong><span>Scampi, pane, olio e Adriatico: una ricerca storica</span></a></li></ul></section>
 <footer class="site-footer">
   <div class="site-footer-left"></div>
   <nav class="site-footer-center" aria-label="Strumenti pagina">
@@ -108,5 +118,6 @@
 })();
 </script>
 <script src="../foto/ui/site-navigation.js?v=ROOT-R18-149"></script>
+<script src="../foto/ui/site-navigation.js"></script>
 </body>
 </html>
