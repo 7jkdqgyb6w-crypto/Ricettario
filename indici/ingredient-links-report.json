@@ -1,0 +1,32 @@
+{
+  "mode": "check",
+  "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
+  "recipes": 70,
+  "changed_files": [],
+  "totals": {
+    "rows": 593,
+    "added": 0,
+    "updated": 0,
+    "correct": 491,
+    "excluded": 100,
+    "empty": 2
+  },
+  "details": [],
+  "audit": {
+    "totals": {
+      "rows": 593,
+      "linked": 491,
+      "excluded": 100,
+      "missing": 0,
+      "wrong": 0,
+      "empty": 2
+    },
+    "issues": []
+  },
+  "target_audit": {
+    "links": 495,
+    "anchors": 225,
+    "missing": [],
+    "duplicate_ids": []
+  }
+}

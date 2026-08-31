@@ -76,7 +76,7 @@
       "tempo_totale": "include riposo",
       "ingredienti_chiave": [
         "Anatra",
-        "Soppressa veneta",
+        "Sopressa vicentina",
         "Pancetta",
         "Alici sotto sale"
       ]
@@ -836,6 +836,7 @@
       "tempo_riposo": "30 min",
       "tempo_totale": "include riposo",
       "ingredienti_chiave": [
+        "Beurre d’Isigny AOP",
         "Lievito per dolci",
         "Miele delicato"
       ]
@@ -926,7 +927,7 @@
       "tempo_riposo": "30 min",
       "tempo_totale": "include riposo",
       "ingredienti_chiave": [
-        "Porri",
+        "Porro",
         "Patate",
         "Riso",
         "Brodo"
@@ -1339,7 +1340,7 @@
         "Penne",
         "Carote",
         "Mazzancolle",
-        "Porri",
+        "Porro",
         "Zucchine",
         "Zafferano"
       ]
@@ -1761,7 +1762,7 @@
       "ingredienti_chiave": [
         "Fagioli bianchi e rossi",
         "Fagiolini verdi",
-        "Zucchina",
+        "Zucchine",
         "Pomodori",
         "Patate",
         "Porro"
@@ -1884,7 +1885,7 @@
       "tempo_totale": "include riposo",
       "ingredienti_chiave": [
         "Carpaccio di manzo",
-        "Porri",
+        "Porro",
         "Rucola"
       ]
     },
