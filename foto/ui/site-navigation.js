@@ -99,8 +99,10 @@
   }
 
   function setupFallbackSearch(button) {
-    if (!button.classList.contains('js-global-search-open')) return;
-    var overlay;
+    // Riusa il pannello editoriale quando esiste e crea quello globale solo
+    // nelle pagine che ne sono prive. In questo modo la lente resta operativa
+    // anche se uno script specifico della pagina non viene inizializzato.
+    var overlay = document.getElementById('recipeSearchOverlay');
     var lastTrigger = button;
     var triggers = Array.prototype.slice.call(document.querySelectorAll('.js-global-search-open'));
     if (triggers.indexOf(button) === -1) triggers.push(button);
@@ -117,6 +119,16 @@
       overlay.setAttribute('aria-hidden', 'true');
       lastTrigger.focus();
     }
+    function wireOverlay() {
+      if (!overlay || overlay.dataset.globalSearchFallback === 'ready') return;
+      overlay.dataset.globalSearchFallback = 'ready';
+      overlay.querySelectorAll('.js-site-search-close, .js-recipe-search-close, .global-nav-search-backdrop, .global-nav-search-close').forEach(function (control) {
+        control.addEventListener('click', close);
+      });
+      overlay.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape') { event.preventDefault(); close(); }
+      });
+    }
     function open(event) {
       if (event) event.preventDefault();
       lastTrigger = event && event.currentTarget ? event.currentTarget : button;
@@ -126,17 +138,15 @@
         overlay.setAttribute('aria-hidden', 'true');
         overlay.innerHTML = '<div class="global-nav-search-backdrop"></div><section class="global-nav-search-dialog" role="dialog" aria-modal="true" aria-labelledby="global-search-title"><button class="global-nav-search-close" type="button" aria-label="Chiudi ricerca">×</button><h2 id="global-search-title">Cerca nel ricettario</h2><form method="get"><label for="global-search-input">Parole da cercare</label><input class="global-nav-search-input" id="global-search-input" name="q" type="search" autocomplete="off"><button class="global-nav-search-submit" type="submit">Cerca</button></form></section>';
         overlay.querySelector('form').action = urls.ricette;
-        overlay.querySelector('.global-nav-search-backdrop').addEventListener('click', close);
-        overlay.querySelector('.global-nav-search-close').addEventListener('click', close);
-        overlay.addEventListener('keydown', function (event) {
-          if (event.key === 'Escape') { event.preventDefault(); close(); }
-        });
         document.body.appendChild(overlay);
       }
+      wireOverlay();
       overlay.classList.add('is-open');
       overlay.setAttribute('aria-hidden', 'false');
-      overlay.querySelector('input').focus();
+      var input = overlay.querySelector('input');
+      if (input) input.focus();
     }
+    wireOverlay();
     triggers.forEach(function (trigger) { trigger.addEventListener('click', open); });
   }
 
