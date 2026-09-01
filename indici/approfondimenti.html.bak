@@ -118,5 +118,6 @@
 })();
 </script>
 <script src="../foto/ui/site-navigation.js?v=ROOT-R18-149"></script>
+<script src="../foto/ui/site-navigation.js"></script>
 </body>
 </html>

@@ -1,7 +1,7 @@
 {
   "versione": "CMS2-R18-103",
   "semantica_versione": "CMS2-R18-169",
-  "timestamp": "2026-08-30T09:18:44",
+  "timestamp": "2026-09-01T08:27:54",
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "search_data": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT\\indici\\search-data.json",
   "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\CMS\\ingredienti-semantica.json",
@@ -220,7 +220,7 @@
       "fonte_semantica": "html-ingredienti",
       "ingredienti_usati": [
         "Anatra",
-        "Soppressa veneta",
+        "Sopressa vicentina",
         "Pancetta",
         "Burro",
         "Salvia",
@@ -546,7 +546,7 @@
       "fonte_semantica": "html-ingredienti",
       "ingredienti_usati": [
         "Battuta di manzo",
-        "Olio extra verdine d'oliva",
+        "Olio extra vergine d'oliva",
         "Corteccia",
         "Pancetta",
         "Ginepro",
@@ -1338,7 +1338,7 @@
         "Farina di frumento 00",
         "Zucchero semolato",
         "Uova",
-        "Burro di Normandia AOP",
+        "Beurre d’Isigny AOP",
         "Latte intero",
         "Lievito per dolci",
         "Limone",
@@ -1348,10 +1348,7 @@
       "termini_ricerca": [
         "farina frumento",
         "uova",
-        "latte",
-        "panna",
-        "burro",
-        "burro normandia aop"
+        "latte"
       ],
       "allergeni": [
         "cereali contenenti glutine",
@@ -1370,8 +1367,6 @@
         "farina",
         "zucchero",
         "uova",
-        "panna",
-        "burro normandia aop",
         "latte",
         "limone",
         "sale"
@@ -1454,7 +1449,7 @@
       "titolo": "Minestra di porri",
       "fonte_semantica": "html-ingredienti",
       "ingredienti_usati": [
-        "Porri",
+        "Porro",
         "Olio extra vergine d'oliva",
         "Burro",
         "Patate",
@@ -2102,7 +2097,7 @@
         "Aglio",
         "Carote",
         "Mazzancolle",
-        "Porri",
+        "Porro",
         "Zucchine",
         "Zafferano"
       ],
@@ -2304,7 +2299,7 @@
         "Zucchine",
         "Peperoni gialli e rossi",
         "Cipolla bianca",
-        "Olio extra vergine d'0liva",
+        "Olio extra vergine d'oliva",
         "Aglio",
         "Basilico",
         "Sale",
@@ -2322,6 +2317,8 @@
       "allergeni": [],
       "tag_accessori_esclusi": [
         "olio",
+        "frutti",
+        "olive",
         "verdure",
         "erbe aromatiche",
         "aglio",
@@ -2333,6 +2330,7 @@
         "peperoni",
         "cipolle",
         "olio",
+        "olive",
         "aglio",
         "prezzemolo",
         "sale"
@@ -2679,7 +2677,7 @@
         "Soupe",
         "Fagioli bianchi e rossi",
         "Fagiolini verdi",
-        "Zucchina",
+        "Zucchine",
         "Pomodori",
         "Patate",
         "Porro",
@@ -2693,7 +2691,7 @@
         "Aglio",
         "Olio extra vergine d'oliva",
         "Condimento",
-        "Parmigiano Reggiano IGP"
+        "Parmigiano Reggiano DOP"
       ],
       "termini_ricerca": [
         "verdure",
@@ -2892,11 +2890,12 @@
       "fonte_semantica": "html-ingredienti",
       "ingredienti_usati": [
         "Carpaccio di manzo",
-        "Porri",
+        "Porro",
         "Rucola",
         "Aceto Balsamico Tradizionale di Modena DOP",
         "Olio",
-        "Sale e pepe"
+        "Sale",
+        "Pepe"
       ],
       "termini_ricerca": [
         "carne",

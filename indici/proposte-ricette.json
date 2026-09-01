@@ -161,7 +161,7 @@
       "porzioni": "4-6",
       "tempo_attivo": "30-45 min",
       "tempo_cottura": "15 min circa",
-      "tempo_riposo": "30 min",
+      "tempo_riposo": "2-12 h",
       "tempo_totale": "include riposo",
       "ingredienti_chiave": [
         "Aringhe sciocche affumicate",
@@ -178,7 +178,7 @@
     },
     "note": [
       "range standard per antipasto/salsa/contorno",
-      "riposo dedotto da testo",
+      "riposo dedotto da marinatura",
       "tempo cottura ricavato da durate esplicite presenti nel testo",
       "tempo attivo stimato da numero ingredienti/passaggi",
       "ingredienti chiave proposti da tabella ingredienti/titolo"
@@ -2031,7 +2031,7 @@
     "proposte": {
       "porzioni": "2",
       "tempo_attivo": "15-30 min",
-      "tempo_cottura": "30-45 min",
+      "tempo_cottura": "20 min circa",
       "tempo_riposo": "2-12 h",
       "tempo_totale": "include riposo",
       "ingredienti_chiave": [
