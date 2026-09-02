@@ -44,6 +44,7 @@
 .article-body hr{border:0;border-top:1px solid var(--line);margin:1.6rem 0;}
 .article-body figure{box-sizing:border-box;margin:1.2rem 0;max-width:100%;}
 .article-body figure img,.article-hero img{display:block;width:100%;height:auto;}
+.article-body figure>img,.article-hero>img{cursor:zoom-in;}
 .article-body figcaption,.article-hero figcaption{margin-top:.4rem;color:var(--muted);font-size:.9rem;font-style:italic;}
 .article-body .step-photo-left{float:left;margin:.4rem 1rem .7rem 0;}
 .article-body .step-photo-right{float:right;margin:.4rem 0 .7rem 1rem;}
@@ -122,6 +123,62 @@
         showCopyToast();
       }catch(error){}
     });
+  });
+})();
+</script>
+<script id="article-lightbox-script">
+(function(){
+  var images=Array.from(document.querySelectorAll('.article-body figure > img, .article-hero > img'));
+  if(!images.length) return;
+  var lightbox=document.querySelector('.site-lightbox');
+  var lastFocus=null;
+  if(!lightbox){
+    lightbox=document.createElement('div');
+    lightbox.className='site-lightbox';
+    lightbox.setAttribute('role','dialog');
+    lightbox.setAttribute('aria-modal','true');
+    lightbox.setAttribute('aria-label','Immagine ingrandita');
+    lightbox.innerHTML='<button class="site-lightbox-close" type="button" aria-label="Chiudi">×</button><figure class="site-lightbox-frame"><img class="site-lightbox-image" alt=""><figcaption class="site-lightbox-caption"></figcaption></figure>';
+    document.body.appendChild(lightbox);
+  }
+  var zoomed=lightbox.querySelector('.site-lightbox-image');
+  var caption=lightbox.querySelector('.site-lightbox-caption');
+  var closeButton=lightbox.querySelector('.site-lightbox-close');
+  function close(){
+    if(!lightbox.classList.contains('is-open')) return;
+    lightbox.classList.remove('is-open');
+    zoomed.removeAttribute('src');
+    if(lastFocus && typeof lastFocus.focus==='function') lastFocus.focus();
+  }
+  function open(source){
+    var figure=source.closest('figure');
+    var figcaption=figure && figure.querySelector('figcaption');
+    var captionText=figcaption ? figcaption.textContent.trim() : '';
+    lastFocus=source;
+    zoomed.src=source.currentSrc || source.src;
+    zoomed.alt=source.alt || '';
+    caption.textContent=captionText;
+    caption.hidden=!captionText;
+    lightbox.classList.add('is-open');
+    closeButton.focus();
+  }
+  images.forEach(function(image){
+    var figure=image.closest('figure');
+    var figcaption=figure && figure.querySelector('figcaption');
+    var description=(figcaption && figcaption.textContent.trim()) || image.alt || 'immagine';
+    image.tabIndex=0;
+    image.setAttribute('role','button');
+    image.setAttribute('aria-label','Ingrandisci: '+description);
+    image.addEventListener('click',function(){open(image);});
+    image.addEventListener('keydown',function(event){
+      if(event.key==='Enter' || event.key===' '){event.preventDefault();open(image);}
+    });
+  });
+  lightbox.addEventListener('click',function(event){
+    if(event.target===lightbox || event.target===zoomed || event.target===closeButton) close();
+  });
+  document.addEventListener('keydown',function(event){
+    if(event.key==='Escape' && lightbox.classList.contains('is-open')) close();
   });
 })();
 </script>
