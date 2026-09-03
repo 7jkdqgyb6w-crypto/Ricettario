@@ -9,7 +9,8 @@
     ingredienti: new URL('indici/ingredienti.html', siteRoot).href,
     fonti: new URL('indici/fonti.html', siteRoot).href,
     geografia: new URL('indici/geografia.html', siteRoot).href,
-    approfondimenti: new URL('approfondimenti/', siteRoot).href
+    approfondimenti: new URL('approfondimenti/', siteRoot).href,
+    fotografia: new URL('fotografia/', siteRoot).href
   };
   var mobileQuery = window.matchMedia('(max-width: 54rem)');
 
@@ -24,7 +25,8 @@
     { key: 'ingredienti', label: 'Ingredienti', compact: false },
     { key: 'fonti', label: 'Fonti', compact: false },
     { key: 'geografia', label: 'Geografia', compact: true },
-    { key: 'approfondimenti', label: 'Approfondimenti', compact: false }
+    { key: 'approfondimenti', label: 'Approfondimenti', compact: false },
+    { key: 'fotografia', label: 'Fotografia', compact: false }
   ];
 
   function currentPrimaryKey() {

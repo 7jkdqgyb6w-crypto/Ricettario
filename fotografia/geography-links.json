@@ -1,0 +1,6179 @@
+{
+  "schema_version": 2,
+  "automatic_link_min_score": 90,
+  "suggestion_min_score": 70,
+  "place_links": [
+    {
+      "geography_id": "5-terre",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-122"
+      ],
+      "photography_url": "/fotografia/geografia/5-terre/"
+    },
+    {
+      "geography_id": "alta-pusteria",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-087"
+      ],
+      "photography_url": "/fotografia/geografia/alta-pusteria/"
+    },
+    {
+      "geography_id": "amorgos",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-079"
+      ],
+      "photography_url": "/fotografia/geografia/amorgos/"
+    },
+    {
+      "geography_id": "amsterdam",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-053"
+      ],
+      "photography_url": "/fotografia/geografia/amsterdam/"
+    },
+    {
+      "geography_id": "annecy",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-048"
+      ],
+      "photography_url": "/fotografia/geografia/annecy/"
+    },
+    {
+      "geography_id": "anterselva",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-039"
+      ],
+      "photography_url": "/fotografia/geografia/anterselva/"
+    },
+    {
+      "geography_id": "ardeche",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-113"
+      ],
+      "photography_url": "/fotografia/geografia/ardeche/"
+    },
+    {
+      "geography_id": "argentario",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-015"
+      ],
+      "photography_url": "/fotografia/geografia/argentario/"
+    },
+    {
+      "geography_id": "aspra",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-117"
+      ],
+      "photography_url": "/fotografia/geografia/aspra/"
+    },
+    {
+      "geography_id": "bacellona",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-055"
+      ],
+      "photography_url": "/fotografia/geografia/bacellona/"
+    },
+    {
+      "geography_id": "bagheria",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-117"
+      ],
+      "photography_url": "/fotografia/geografia/bagheria/"
+    },
+    {
+      "geography_id": "baska",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-002",
+        "album-004",
+        "album-088"
+      ],
+      "photography_url": "/fotografia/geografia/baska/"
+    },
+    {
+      "geography_id": "batchelor",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-062"
+      ],
+      "photography_url": "/fotografia/geografia/batchelor/"
+    },
+    {
+      "geography_id": "baviera",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-116"
+      ],
+      "photography_url": "/fotografia/geografia/baviera/"
+    },
+    {
+      "geography_id": "berlino",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-056",
+        "album-104"
+      ],
+      "photography_url": "/fotografia/geografia/berlino/"
+    },
+    {
+      "geography_id": "bled",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-044"
+      ],
+      "photography_url": "/fotografia/geografia/bled/"
+    },
+    {
+      "geography_id": "borca",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-097"
+      ],
+      "photography_url": "/fotografia/geografia/borca/"
+    },
+    {
+      "geography_id": "borghetto",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-070"
+      ],
+      "photography_url": "/fotografia/geografia/borghetto/"
+    },
+    {
+      "geography_id": "borgogna",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-026",
+        "album-083"
+      ],
+      "photography_url": "/fotografia/geografia/borgogna/"
+    },
+    {
+      "geography_id": "bowen",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-065"
+      ],
+      "photography_url": "/fotografia/geografia/bowen/"
+    },
+    {
+      "geography_id": "bretagna",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-129"
+      ],
+      "photography_url": "/fotografia/geografia/bretagna/"
+    },
+    {
+      "geography_id": "broome",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-060"
+      ],
+      "photography_url": "/fotografia/geografia/broome/"
+    },
+    {
+      "geography_id": "bruges",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-047"
+      ],
+      "photography_url": "/fotografia/geografia/bruges/"
+    },
+    {
+      "geography_id": "bruxelles",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-047",
+        "album-120"
+      ],
+      "photography_url": "/fotografia/geografia/bruxelles/"
+    },
+    {
+      "geography_id": "bucharest",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-084"
+      ],
+      "photography_url": "/fotografia/geografia/bucharest/"
+    },
+    {
+      "geography_id": "cadore",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-001",
+        "album-008",
+        "album-011",
+        "album-012",
+        "album-014",
+        "album-017",
+        "album-022",
+        "album-024",
+        "album-029",
+        "album-032",
+        "album-033",
+        "album-045",
+        "album-046"
+      ],
+      "photography_url": "/fotografia/geografia/cadore/"
+    },
+    {
+      "geography_id": "canazei",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-102"
+      ],
+      "photography_url": "/fotografia/geografia/canazei/"
+    },
+    {
+      "geography_id": "canberra",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-068"
+      ],
+      "photography_url": "/fotografia/geografia/canberra/"
+    },
+    {
+      "geography_id": "cansiglio",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-096"
+      ],
+      "photography_url": "/fotografia/geografia/cansiglio/"
+    },
+    {
+      "geography_id": "caorle",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-123"
+      ],
+      "photography_url": "/fotografia/geografia/caorle/"
+    },
+    {
+      "geography_id": "cape-tribulation",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-063"
+      ],
+      "photography_url": "/fotografia/geografia/cape-tribulation/"
+    },
+    {
+      "geography_id": "capraia",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-031"
+      ],
+      "photography_url": "/fotografia/geografia/capraia/"
+    },
+    {
+      "geography_id": "cascata-del-pis",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-128"
+      ],
+      "photography_url": "/fotografia/geografia/cascata-del-pis/"
+    },
+    {
+      "geography_id": "cassis",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-040"
+      ],
+      "photography_url": "/fotografia/geografia/cassis/"
+    },
+    {
+      "geography_id": "castello-di-tocchi",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-100"
+      ],
+      "photography_url": "/fotografia/geografia/castello-di-tocchi/"
+    },
+    {
+      "geography_id": "chamois",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-119"
+      ],
+      "photography_url": "/fotografia/geografia/chamois/"
+    },
+    {
+      "geography_id": "collio",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-101"
+      ],
+      "photography_url": "/fotografia/geografia/collio/"
+    },
+    {
+      "geography_id": "croazia",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-002",
+        "album-004",
+        "album-009",
+        "album-035"
+      ],
+      "photography_url": "/fotografia/geografia/croazia/"
+    },
+    {
+      "geography_id": "croazia-hvar",
+      "recipe_anchor": "croazia-hvar",
+      "album_ids": [
+        "album-057",
+        "album-125"
+      ],
+      "photography_url": "/fotografia/geografia/croazia-hvar/"
+    },
+    {
+      "geography_id": "dalmazia",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-085"
+      ],
+      "photography_url": "/fotografia/geografia/dalmazia/"
+    },
+    {
+      "geography_id": "darwin",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-061"
+      ],
+      "photography_url": "/fotografia/geografia/darwin/"
+    },
+    {
+      "geography_id": "drome",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-003",
+        "album-027",
+        "album-049",
+        "album-052",
+        "album-086"
+      ],
+      "photography_url": "/fotografia/geografia/drome/"
+    },
+    {
+      "geography_id": "dubrovnik",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-103"
+      ],
+      "photography_url": "/fotografia/geografia/dubrovnik/"
+    },
+    {
+      "geography_id": "dugj-otok",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-036"
+      ],
+      "photography_url": "/fotografia/geografia/dugj-otok/"
+    },
+    {
+      "geography_id": "erto",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-076"
+      ],
+      "photography_url": "/fotografia/geografia/erto/"
+    },
+    {
+      "geography_id": "falzarego",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-081"
+      ],
+      "photography_url": "/fotografia/geografia/falzarego/"
+    },
+    {
+      "geography_id": "fanes",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-081"
+      ],
+      "photography_url": "/fotografia/geografia/fanes/"
+    },
+    {
+      "geography_id": "fontainebleau",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-110"
+      ],
+      "photography_url": "/fotografia/geografia/fontainebleau/"
+    },
+    {
+      "geography_id": "francia",
+      "recipe_anchor": "francia",
+      "album_ids": [
+        "album-003"
+      ],
+      "photography_url": "/fotografia/geografia/francia/"
+    },
+    {
+      "geography_id": "gent",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-047"
+      ],
+      "photography_url": "/fotografia/geografia/gent/"
+    },
+    {
+      "geography_id": "gold-coast",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-066"
+      ],
+      "photography_url": "/fotografia/geografia/gold-coast/"
+    },
+    {
+      "geography_id": "great-reef",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-063"
+      ],
+      "photography_url": "/fotografia/geografia/great-reef/"
+    },
+    {
+      "geography_id": "helsinki",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-021"
+      ],
+      "photography_url": "/fotografia/geografia/helsinki/"
+    },
+    {
+      "geography_id": "irpinia",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-136"
+      ],
+      "photography_url": "/fotografia/geografia/irpinia/"
+    },
+    {
+      "geography_id": "ischia",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-092"
+      ],
+      "photography_url": "/fotografia/geografia/ischia/"
+    },
+    {
+      "geography_id": "isola-d-elba",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-013",
+        "album-135"
+      ],
+      "photography_url": "/fotografia/geografia/isola-d-elba/"
+    },
+    {
+      "geography_id": "isola-di-lussino",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-114"
+      ],
+      "photography_url": "/fotografia/geografia/isola-di-lussino/"
+    },
+    {
+      "geography_id": "italia-lazio-roma",
+      "recipe_anchor": "italia-lazio-roma",
+      "album_ids": [
+        "album-006",
+        "album-016"
+      ],
+      "photography_url": "/fotografia/geografia/italia-lazio-roma/"
+    },
+    {
+      "geography_id": "italia-toscana",
+      "recipe_anchor": "italia-toscana",
+      "album_ids": [
+        "album-010"
+      ],
+      "photography_url": "/fotografia/geografia/italia-toscana/"
+    },
+    {
+      "geography_id": "kairns",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-064"
+      ],
+      "photography_url": "/fotografia/geografia/kairns/"
+    },
+    {
+      "geography_id": "kakadu",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-061"
+      ],
+      "photography_url": "/fotografia/geografia/kakadu/"
+    },
+    {
+      "geography_id": "krk",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-002",
+        "album-004"
+      ],
+      "photography_url": "/fotografia/geografia/krk/"
+    },
+    {
+      "geography_id": "kununurra",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-061"
+      ],
+      "photography_url": "/fotografia/geografia/kununurra/"
+    },
+    {
+      "geography_id": "la-loupie",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-003"
+      ],
+      "photography_url": "/fotografia/geografia/la-loupie/"
+    },
+    {
+      "geography_id": "lazio",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-010",
+        "album-015"
+      ],
+      "photography_url": "/fotografia/geografia/lazio/"
+    },
+    {
+      "geography_id": "livinallongo-del-col-di-lana",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-102"
+      ],
+      "photography_url": "/fotografia/geografia/livinallongo-del-col-di-lana/"
+    },
+    {
+      "geography_id": "londra",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-090"
+      ],
+      "photography_url": "/fotografia/geografia/londra/"
+    },
+    {
+      "geography_id": "lozzo-di-cadore",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-046"
+      ],
+      "photography_url": "/fotografia/geografia/lozzo-di-cadore/"
+    },
+    {
+      "geography_id": "lubenice",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-108"
+      ],
+      "photography_url": "/fotografia/geografia/lubenice/"
+    },
+    {
+      "geography_id": "lubiana",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-054"
+      ],
+      "photography_url": "/fotografia/geografia/lubiana/"
+    },
+    {
+      "geography_id": "lugano",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-091"
+      ],
+      "photography_url": "/fotografia/geografia/lugano/"
+    },
+    {
+      "geography_id": "lussingrande",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-108"
+      ],
+      "photography_url": "/fotografia/geografia/lussingrande/"
+    },
+    {
+      "geography_id": "maincy",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-109"
+      ],
+      "photography_url": "/fotografia/geografia/maincy/"
+    },
+    {
+      "geography_id": "malcontenta",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-074"
+      ],
+      "photography_url": "/fotografia/geografia/malcontenta/"
+    },
+    {
+      "geography_id": "manas",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-007"
+      ],
+      "photography_url": "/fotografia/geografia/manas/"
+    },
+    {
+      "geography_id": "maremma",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-135"
+      ],
+      "photography_url": "/fotografia/geografia/maremma/"
+    },
+    {
+      "geography_id": "marina-di-modica",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-112"
+      ],
+      "photography_url": "/fotografia/geografia/marina-di-modica/"
+    },
+    {
+      "geography_id": "marmolada",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-126"
+      ],
+      "photography_url": "/fotografia/geografia/marmolada/"
+    },
+    {
+      "geography_id": "marseille",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-040"
+      ],
+      "photography_url": "/fotografia/geografia/marseille/"
+    },
+    {
+      "geography_id": "mary-river",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-062"
+      ],
+      "photography_url": "/fotografia/geografia/mary-river/"
+    },
+    {
+      "geography_id": "marylebone",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-090"
+      ],
+      "photography_url": "/fotografia/geografia/marylebone/"
+    },
+    {
+      "geography_id": "mestre",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-132"
+      ],
+      "photography_url": "/fotografia/geografia/mestre/"
+    },
+    {
+      "geography_id": "montpellier",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-049"
+      ],
+      "photography_url": "/fotografia/geografia/montpellier/"
+    },
+    {
+      "geography_id": "mykonos",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-077"
+      ],
+      "photography_url": "/fotografia/geografia/mykonos/"
+    },
+    {
+      "geography_id": "naxos",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-080"
+      ],
+      "photography_url": "/fotografia/geografia/naxos/"
+    },
+    {
+      "geography_id": "opcina",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-103"
+      ],
+      "photography_url": "/fotografia/geografia/opcina/"
+    },
+    {
+      "geography_id": "parco-segurta",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-071"
+      ],
+      "photography_url": "/fotografia/geografia/parco-segurta/"
+    },
+    {
+      "geography_id": "parenzo",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-009"
+      ],
+      "photography_url": "/fotografia/geografia/parenzo/"
+    },
+    {
+      "geography_id": "parigi",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-005",
+        "album-043",
+        "album-110",
+        "album-111",
+        "album-115",
+        "album-130"
+      ],
+      "photography_url": "/fotografia/geografia/parigi/"
+    },
+    {
+      "geography_id": "paros",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-078"
+      ],
+      "photography_url": "/fotografia/geografia/paros/"
+    },
+    {
+      "geography_id": "perth",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-059"
+      ],
+      "photography_url": "/fotografia/geografia/perth/"
+    },
+    {
+      "geography_id": "pine-kreek",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-062"
+      ],
+      "photography_url": "/fotografia/geografia/pine-kreek/"
+    },
+    {
+      "geography_id": "plitvica-selo",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-105"
+      ],
+      "photography_url": "/fotografia/geografia/plitvica-selo/"
+    },
+    {
+      "geography_id": "porquerolle",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-028"
+      ],
+      "photography_url": "/fotografia/geografia/porquerolle/"
+    },
+    {
+      "geography_id": "port-douglas",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-063"
+      ],
+      "photography_url": "/fotografia/geografia/port-douglas/"
+    },
+    {
+      "geography_id": "portogallo",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-042"
+      ],
+      "photography_url": "/fotografia/geografia/portogallo/"
+    },
+    {
+      "geography_id": "praga",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-030"
+      ],
+      "photography_url": "/fotografia/geografia/praga/"
+    },
+    {
+      "geography_id": "pragelato",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-121"
+      ],
+      "photography_url": "/fotografia/geografia/pragelato/"
+    },
+    {
+      "geography_id": "procida",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-092"
+      ],
+      "photography_url": "/fotografia/geografia/procida/"
+    },
+    {
+      "geography_id": "provincia-di-perugia",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-107"
+      ],
+      "photography_url": "/fotografia/geografia/provincia-di-perugia/"
+    },
+    {
+      "geography_id": "provincia-di-viterbo",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-107"
+      ],
+      "photography_url": "/fotografia/geografia/provincia-di-viterbo/"
+    },
+    {
+      "geography_id": "pusteria",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-081",
+        "album-087"
+      ],
+      "photography_url": "/fotografia/geografia/pusteria/"
+    },
+    {
+      "geography_id": "ravenna",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-006"
+      ],
+      "photography_url": "/fotografia/geografia/ravenna/"
+    },
+    {
+      "geography_id": "rifugio-selleries",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-127"
+      ],
+      "photography_url": "/fotografia/geografia/rifugio-selleries/"
+    },
+    {
+      "geography_id": "riga",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-019"
+      ],
+      "photography_url": "/fotografia/geografia/riga/"
+    },
+    {
+      "geography_id": "rolle",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-089",
+        "album-094"
+      ],
+      "photography_url": "/fotografia/geografia/rolle/"
+    },
+    {
+      "geography_id": "romania",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-037",
+        "album-038"
+      ],
+      "photography_url": "/fotografia/geografia/romania/"
+    },
+    {
+      "geography_id": "salisburgo",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-025"
+      ],
+      "photography_url": "/fotografia/geografia/salisburgo/"
+    },
+    {
+      "geography_id": "san-germano",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-106",
+        "album-131",
+        "album-133"
+      ],
+      "photography_url": "/fotografia/geografia/san-germano/"
+    },
+    {
+      "geography_id": "san-martino",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-082"
+      ],
+      "photography_url": "/fotografia/geografia/san-martino/"
+    },
+    {
+      "geography_id": "scozia",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-034"
+      ],
+      "photography_url": "/fotografia/geografia/scozia/"
+    },
+    {
+      "geography_id": "sella-ronda",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-095"
+      ],
+      "photography_url": "/fotografia/geografia/sella-ronda/"
+    },
+    {
+      "geography_id": "sestriere",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-124"
+      ],
+      "photography_url": "/fotografia/geografia/sestriere/"
+    },
+    {
+      "geography_id": "siena",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-100"
+      ],
+      "photography_url": "/fotografia/geografia/siena/"
+    },
+    {
+      "geography_id": "surfer-paradise",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-066"
+      ],
+      "photography_url": "/fotografia/geografia/surfer-paradise/"
+    },
+    {
+      "geography_id": "sydney",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-067"
+      ],
+      "photography_url": "/fotografia/geografia/sydney/"
+    },
+    {
+      "geography_id": "tallinn",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-020"
+      ],
+      "photography_url": "/fotografia/geografia/tallinn/"
+    },
+    {
+      "geography_id": "townsville",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-066"
+      ],
+      "photography_url": "/fotografia/geografia/townsville/"
+    },
+    {
+      "geography_id": "triglav",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-073"
+      ],
+      "photography_url": "/fotografia/geografia/triglav/"
+    },
+    {
+      "geography_id": "urbino",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-041"
+      ],
+      "photography_url": "/fotografia/geografia/urbino/"
+    },
+    {
+      "geography_id": "val-brembana",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-118"
+      ],
+      "photography_url": "/fotografia/geografia/val-brembana/"
+    },
+    {
+      "geography_id": "val-fiscalina",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-093"
+      ],
+      "photography_url": "/fotografia/geografia/val-fiscalina/"
+    },
+    {
+      "geography_id": "val-venosta",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-098"
+      ],
+      "photography_url": "/fotografia/geografia/val-venosta/"
+    },
+    {
+      "geography_id": "valle-aurina",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-050"
+      ],
+      "photography_url": "/fotografia/geografia/valle-aurina/"
+    },
+    {
+      "geography_id": "vanoi",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-072",
+        "album-082"
+      ],
+      "photography_url": "/fotografia/geografia/vanoi/"
+    },
+    {
+      "geography_id": "versailles",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-109"
+      ],
+      "photography_url": "/fotografia/geografia/versailles/"
+    },
+    {
+      "geography_id": "vicenza",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-074"
+      ],
+      "photography_url": "/fotografia/geografia/vicenza/"
+    },
+    {
+      "geography_id": "vienna",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-023",
+        "album-051"
+      ],
+      "photography_url": "/fotografia/geografia/vienna/"
+    },
+    {
+      "geography_id": "vilnius",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-018"
+      ],
+      "photography_url": "/fotografia/geografia/vilnius/"
+    },
+    {
+      "geography_id": "withsundays-islands",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-065"
+      ],
+      "photography_url": "/fotografia/geografia/withsundays-islands/"
+    },
+    {
+      "geography_id": "zara",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-036"
+      ],
+      "photography_url": "/fotografia/geografia/zara/"
+    },
+    {
+      "geography_id": "zortea",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-099"
+      ],
+      "photography_url": "/fotografia/geografia/zortea/"
+    }
+  ],
+  "reference_matches": [
+    {
+      "album_id": "album-001",
+      "album_slug": "001-cadore-estate-2022",
+      "reference": {
+        "id": "anatra-in-salsa",
+        "kind": "ricetta",
+        "title": "Anatra in salsa",
+        "url": "/ricette/anatra-in-salsa/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-001",
+      "album_slug": "001-cadore-estate-2022",
+      "reference": {
+        "id": "antipasto-di-canocce",
+        "kind": "ricetta",
+        "title": "Antipasto di canocce",
+        "url": "/ricette/antipasto-di-canocce/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-001",
+      "album_slug": "001-cadore-estate-2022",
+      "reference": {
+        "id": "bigoli-in-salsa",
+        "kind": "ricetta",
+        "title": "Bigoli in salsa",
+        "url": "/ricette/bigoli-in-salsa/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-001",
+      "album_slug": "001-cadore-estate-2022",
+      "reference": {
+        "id": "fusilli-carciofi-e-salmone",
+        "kind": "ricetta",
+        "title": "Fusilli carciofi e salmone",
+        "url": "/ricette/fusilli-carciofi-e-salmone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-001",
+      "album_slug": "001-cadore-estate-2022",
+      "reference": {
+        "id": "gnocchi-con-le-trombette-dei-morti",
+        "kind": "ricetta",
+        "title": "Gnocchi con le trombette dei morti",
+        "url": "/ricette/gnocchi-con-le-trombette-dei-morti/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-001",
+      "album_slug": "001-cadore-estate-2022",
+      "reference": {
+        "id": "pasta-con-le-melanzane",
+        "kind": "ricetta",
+        "title": "Pasta con le melanzane",
+        "url": "/ricette/pasta-con-le-melanzane/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-001",
+      "album_slug": "001-cadore-estate-2022",
+      "reference": {
+        "id": "pasta-e-fagioli",
+        "kind": "ricetta",
+        "title": "Pasta e fagioli",
+        "url": "/ricette/pasta-e-fagioli/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-001",
+      "album_slug": "001-cadore-estate-2022",
+      "reference": {
+        "id": "penne-con-mazzancolle-alle-verdure",
+        "kind": "ricetta",
+        "title": "Penne con mazzancolle alle verdure",
+        "url": "/ricette/penne-con-mazzancolle-alle-verdure/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-001",
+      "album_slug": "001-cadore-estate-2022",
+      "reference": {
+        "id": "penne-con-zucchine",
+        "kind": "ricetta",
+        "title": "Penne con zucchine",
+        "url": "/ricette/penne-con-zucchine/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-001",
+      "album_slug": "001-cadore-estate-2022",
+      "reference": {
+        "id": "straccetti-di-pollo-al-limone",
+        "kind": "ricetta",
+        "title": "Straccetti di pollo al limone",
+        "url": "/ricette/straccetti-di-pollo-al-limone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-001",
+      "album_slug": "001-cadore-estate-2022",
+      "reference": {
+        "id": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
+        "kind": "ricetta",
+        "title": "Straccetti su letto di porri con rucola e aceto balsamico di Modena",
+        "url": "/ricette/straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-001",
+      "album_slug": "001-cadore-estate-2022",
+      "reference": {
+        "id": "tagliate",
+        "kind": "ricetta",
+        "title": "Tagliate",
+        "url": "/ricette/tagliate/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-001",
+      "album_slug": "001-cadore-estate-2022",
+      "reference": {
+        "id": "zuppa-di-legumi-con-funghi-settembrini-secchi",
+        "kind": "ricetta",
+        "title": "Zuppa di legumi con funghi settembrini secchi",
+        "url": "/ricette/zuppa-di-legumi-con-funghi-settembrini-secchi/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-002",
+      "album_slug": "002-baska-2-krk-croazia-2022",
+      "reference": {
+        "id": "filettino-di-maiale",
+        "kind": "ricetta",
+        "title": "Filettin o di maiale",
+        "url": "/ricette/filettino-di-maiale/",
+        "geography": [
+          "croazia-hvar"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_generale",
+      "common_id": "croazia",
+      "automatic": true,
+      "left_path": "Croazia",
+      "right_path": "Croazia / Hvar"
+    },
+    {
+      "album_id": "album-003",
+      "album_slug": "003-la-loupie-drome-francia-2022",
+      "reference": {
+        "id": "anatra-all-arancia",
+        "kind": "ricetta",
+        "title": "Anatra all'arancia",
+        "url": "/ricette/anatra-all-arancia/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 100,
+      "relation": "stesso_termine",
+      "common_id": "francia",
+      "automatic": true,
+      "left_path": "Francia",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-003",
+      "album_slug": "003-la-loupie-drome-francia-2022",
+      "reference": {
+        "id": "aringhe-in-terrina",
+        "kind": "ricetta",
+        "title": "Aringhe in terrina",
+        "url": "/ricette/aringhe-in-terrina/",
+        "geography": [
+          "francia-alsazia"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_generale",
+      "common_id": "francia",
+      "automatic": true,
+      "left_path": "Francia",
+      "right_path": "Francia / Alsazia"
+    },
+    {
+      "album_id": "album-003",
+      "album_slug": "003-la-loupie-drome-francia-2022",
+      "reference": {
+        "id": "cavolo-rosso-condito",
+        "kind": "ricetta",
+        "title": "Cavolo rosso condito",
+        "url": "/ricette/cavolo-rosso-condito/",
+        "geography": [
+          "francia-alsazia"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_generale",
+      "common_id": "francia",
+      "automatic": true,
+      "left_path": "Francia",
+      "right_path": "Francia / Alsazia"
+    },
+    {
+      "album_id": "album-003",
+      "album_slug": "003-la-loupie-drome-francia-2022",
+      "reference": {
+        "id": "choux-croute",
+        "kind": "ricetta",
+        "title": "Choux croute",
+        "url": "/ricette/choux-croute/",
+        "geography": [
+          "francia-alsazia"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_generale",
+      "common_id": "francia",
+      "automatic": true,
+      "left_path": "Francia",
+      "right_path": "Francia / Alsazia"
+    },
+    {
+      "album_id": "album-003",
+      "album_slug": "003-la-loupie-drome-francia-2022",
+      "reference": {
+        "id": "crepes",
+        "kind": "ricetta",
+        "title": "Crêpes",
+        "url": "/ricette/crepes/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 100,
+      "relation": "stesso_termine",
+      "common_id": "francia",
+      "automatic": true,
+      "left_path": "Francia",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-003",
+      "album_slug": "003-la-loupie-drome-francia-2022",
+      "reference": {
+        "id": "daube",
+        "kind": "ricetta",
+        "title": "Daube",
+        "url": "/ricette/daube/",
+        "geography": [
+          "francia-provenza"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_generale",
+      "common_id": "francia",
+      "automatic": true,
+      "left_path": "Francia",
+      "right_path": "Francia / Provenza"
+    },
+    {
+      "album_id": "album-003",
+      "album_slug": "003-la-loupie-drome-francia-2022",
+      "reference": {
+        "id": "gigot-roti",
+        "kind": "ricetta",
+        "title": "Gigot roti",
+        "url": "/ricette/gigot-roti/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 100,
+      "relation": "stesso_termine",
+      "common_id": "francia",
+      "automatic": true,
+      "left_path": "Francia",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-003",
+      "album_slug": "003-la-loupie-drome-francia-2022",
+      "reference": {
+        "id": "madeleine",
+        "kind": "ricetta",
+        "title": "Madeleine",
+        "url": "/ricette/madeleine/",
+        "geography": [
+          "francia-normandia"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_generale",
+      "common_id": "francia",
+      "automatic": true,
+      "left_path": "Francia",
+      "right_path": "Francia / Normandia"
+    },
+    {
+      "album_id": "album-003",
+      "album_slug": "003-la-loupie-drome-francia-2022",
+      "reference": {
+        "id": "minestra-di-cavoli",
+        "kind": "ricetta",
+        "title": "Minestra di cavoli",
+        "url": "/ricette/minestra-di-cavoli/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 100,
+      "relation": "stesso_termine",
+      "common_id": "francia",
+      "automatic": true,
+      "left_path": "Francia",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-003",
+      "album_slug": "003-la-loupie-drome-francia-2022",
+      "reference": {
+        "id": "minestra-di-porri",
+        "kind": "ricetta",
+        "title": "Minestra di porri",
+        "url": "/ricette/minestra-di-porri/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 100,
+      "relation": "stesso_termine",
+      "common_id": "francia",
+      "automatic": true,
+      "left_path": "Francia",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-003",
+      "album_slug": "003-la-loupie-drome-francia-2022",
+      "reference": {
+        "id": "patatine",
+        "kind": "ricetta",
+        "title": "Patatine*",
+        "url": "/ricette/patatine/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 100,
+      "relation": "stesso_termine",
+      "common_id": "francia",
+      "automatic": true,
+      "left_path": "Francia",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-003",
+      "album_slug": "003-la-loupie-drome-francia-2022",
+      "reference": {
+        "id": "pate-di-fegato",
+        "kind": "ricetta",
+        "title": "Paté di fegato",
+        "url": "/ricette/pate-di-fegato/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 100,
+      "relation": "stesso_termine",
+      "common_id": "francia",
+      "automatic": true,
+      "left_path": "Francia",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-003",
+      "album_slug": "003-la-loupie-drome-francia-2022",
+      "reference": {
+        "id": "puree-di-sedano",
+        "kind": "ricetta",
+        "title": "Purée di sedano",
+        "url": "/ricette/puree-di-sedano/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 100,
+      "relation": "stesso_termine",
+      "common_id": "francia",
+      "automatic": true,
+      "left_path": "Francia",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-003",
+      "album_slug": "003-la-loupie-drome-francia-2022",
+      "reference": {
+        "id": "ratatouille-variante",
+        "kind": "ricetta",
+        "title": "Ratatouille (variante)",
+        "url": "/ricette/ratatouille-variante/",
+        "geography": [
+          "francia-provenza"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_generale",
+      "common_id": "francia",
+      "automatic": true,
+      "left_path": "Francia",
+      "right_path": "Francia / Provenza"
+    },
+    {
+      "album_id": "album-003",
+      "album_slug": "003-la-loupie-drome-francia-2022",
+      "reference": {
+        "id": "roux-brun",
+        "kind": "ricetta",
+        "title": "Roux brun",
+        "url": "/ricette/roux-brun/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 100,
+      "relation": "stesso_termine",
+      "common_id": "francia",
+      "automatic": true,
+      "left_path": "Francia",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-003",
+      "album_slug": "003-la-loupie-drome-francia-2022",
+      "reference": {
+        "id": "soupe-au-pistou",
+        "kind": "ricetta",
+        "title": "Soupe au pistou",
+        "url": "/ricette/soupe-au-pistou/",
+        "geography": [
+          "francia-provenza"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_generale",
+      "common_id": "francia",
+      "automatic": true,
+      "left_path": "Francia",
+      "right_path": "Francia / Provenza"
+    },
+    {
+      "album_id": "album-003",
+      "album_slug": "003-la-loupie-drome-francia-2022",
+      "reference": {
+        "id": "trancio-di-tonno-con-sesamo-provenzale",
+        "kind": "ricetta",
+        "title": "Trancio di tonno con sesamo provenzale",
+        "url": "/ricette/trancio-di-tonno-con-sesamo-provenzale/",
+        "geography": [
+          "francia-provenza"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_generale",
+      "common_id": "francia",
+      "automatic": true,
+      "left_path": "Francia",
+      "right_path": "Francia / Provenza"
+    },
+    {
+      "album_id": "album-004",
+      "album_slug": "004-baska-krk-croazia-2022",
+      "reference": {
+        "id": "filettino-di-maiale",
+        "kind": "ricetta",
+        "title": "Filettin o di maiale",
+        "url": "/ricette/filettino-di-maiale/",
+        "geography": [
+          "croazia-hvar"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_generale",
+      "common_id": "croazia",
+      "automatic": true,
+      "left_path": "Croazia",
+      "right_path": "Croazia / Hvar"
+    },
+    {
+      "album_id": "album-006",
+      "album_slug": "006-ravenna-e-roma-2022",
+      "reference": {
+        "id": "fusilli-carciofi-e-salmone",
+        "kind": "ricetta",
+        "title": "Fusilli carciofi e salmone",
+        "url": "/ricette/fusilli-carciofi-e-salmone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Lazio / Roma",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-006",
+      "album_slug": "006-ravenna-e-roma-2022",
+      "reference": {
+        "id": "pasta-con-i-broccoli",
+        "kind": "ricetta",
+        "title": "Pasta con i broccoli",
+        "url": "/ricette/pasta-con-i-broccoli/",
+        "geography": [
+          "italia-lazio-roma"
+        ]
+      },
+      "score": 100,
+      "relation": "stesso_termine",
+      "common_id": "italia-lazio-roma",
+      "automatic": true,
+      "left_path": "Italia / Lazio / Roma",
+      "right_path": "Italia / Lazio / Roma"
+    },
+    {
+      "album_id": "album-006",
+      "album_slug": "006-ravenna-e-roma-2022",
+      "reference": {
+        "id": "penne-con-zucchine",
+        "kind": "ricetta",
+        "title": "Penne con zucchine",
+        "url": "/ricette/penne-con-zucchine/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Lazio / Roma",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-006",
+      "album_slug": "006-ravenna-e-roma-2022",
+      "reference": {
+        "id": "straccetti-di-pollo-al-limone",
+        "kind": "ricetta",
+        "title": "Straccetti di pollo al limone",
+        "url": "/ricette/straccetti-di-pollo-al-limone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Lazio / Roma",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-006",
+      "album_slug": "006-ravenna-e-roma-2022",
+      "reference": {
+        "id": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
+        "kind": "ricetta",
+        "title": "Straccetti su letto di porri con rucola e aceto balsamico di Modena",
+        "url": "/ricette/straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Lazio / Roma",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-006",
+      "album_slug": "006-ravenna-e-roma-2022",
+      "reference": {
+        "id": "tagliate",
+        "kind": "ricetta",
+        "title": "Tagliate",
+        "url": "/ricette/tagliate/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Lazio / Roma",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-006",
+      "album_slug": "006-ravenna-e-roma-2022",
+      "reference": {
+        "id": "tortino-di-alici",
+        "kind": "ricetta",
+        "title": "Tortino di alici",
+        "url": "/ricette/tortino-di-alici/",
+        "geography": [
+          "italia-lazio-roma"
+        ]
+      },
+      "score": 100,
+      "relation": "stesso_termine",
+      "common_id": "italia-lazio-roma",
+      "automatic": true,
+      "left_path": "Italia / Lazio / Roma",
+      "right_path": "Italia / Lazio / Roma"
+    },
+    {
+      "album_id": "album-006",
+      "album_slug": "006-ravenna-e-roma-2022",
+      "reference": {
+        "id": "zuppa-di-legumi-con-funghi-settembrini-secchi",
+        "kind": "ricetta",
+        "title": "Zuppa di legumi con funghi settembrini secchi",
+        "url": "/ricette/zuppa-di-legumi-con-funghi-settembrini-secchi/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Lazio / Roma",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-008",
+      "album_slug": "008-cadore-estate-2021",
+      "reference": {
+        "id": "anatra-in-salsa",
+        "kind": "ricetta",
+        "title": "Anatra in salsa",
+        "url": "/ricette/anatra-in-salsa/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-008",
+      "album_slug": "008-cadore-estate-2021",
+      "reference": {
+        "id": "antipasto-di-canocce",
+        "kind": "ricetta",
+        "title": "Antipasto di canocce",
+        "url": "/ricette/antipasto-di-canocce/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-008",
+      "album_slug": "008-cadore-estate-2021",
+      "reference": {
+        "id": "bigoli-in-salsa",
+        "kind": "ricetta",
+        "title": "Bigoli in salsa",
+        "url": "/ricette/bigoli-in-salsa/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-008",
+      "album_slug": "008-cadore-estate-2021",
+      "reference": {
+        "id": "fusilli-carciofi-e-salmone",
+        "kind": "ricetta",
+        "title": "Fusilli carciofi e salmone",
+        "url": "/ricette/fusilli-carciofi-e-salmone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-008",
+      "album_slug": "008-cadore-estate-2021",
+      "reference": {
+        "id": "gnocchi-con-le-trombette-dei-morti",
+        "kind": "ricetta",
+        "title": "Gnocchi con le trombette dei morti",
+        "url": "/ricette/gnocchi-con-le-trombette-dei-morti/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-008",
+      "album_slug": "008-cadore-estate-2021",
+      "reference": {
+        "id": "pasta-con-le-melanzane",
+        "kind": "ricetta",
+        "title": "Pasta con le melanzane",
+        "url": "/ricette/pasta-con-le-melanzane/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-008",
+      "album_slug": "008-cadore-estate-2021",
+      "reference": {
+        "id": "pasta-e-fagioli",
+        "kind": "ricetta",
+        "title": "Pasta e fagioli",
+        "url": "/ricette/pasta-e-fagioli/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-008",
+      "album_slug": "008-cadore-estate-2021",
+      "reference": {
+        "id": "penne-con-mazzancolle-alle-verdure",
+        "kind": "ricetta",
+        "title": "Penne con mazzancolle alle verdure",
+        "url": "/ricette/penne-con-mazzancolle-alle-verdure/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-008",
+      "album_slug": "008-cadore-estate-2021",
+      "reference": {
+        "id": "penne-con-zucchine",
+        "kind": "ricetta",
+        "title": "Penne con zucchine",
+        "url": "/ricette/penne-con-zucchine/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-008",
+      "album_slug": "008-cadore-estate-2021",
+      "reference": {
+        "id": "straccetti-di-pollo-al-limone",
+        "kind": "ricetta",
+        "title": "Straccetti di pollo al limone",
+        "url": "/ricette/straccetti-di-pollo-al-limone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-008",
+      "album_slug": "008-cadore-estate-2021",
+      "reference": {
+        "id": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
+        "kind": "ricetta",
+        "title": "Straccetti su letto di porri con rucola e aceto balsamico di Modena",
+        "url": "/ricette/straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-008",
+      "album_slug": "008-cadore-estate-2021",
+      "reference": {
+        "id": "tagliate",
+        "kind": "ricetta",
+        "title": "Tagliate",
+        "url": "/ricette/tagliate/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-008",
+      "album_slug": "008-cadore-estate-2021",
+      "reference": {
+        "id": "zuppa-di-legumi-con-funghi-settembrini-secchi",
+        "kind": "ricetta",
+        "title": "Zuppa di legumi con funghi settembrini secchi",
+        "url": "/ricette/zuppa-di-legumi-con-funghi-settembrini-secchi/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-009",
+      "album_slug": "009-parenzo-croazia-2021",
+      "reference": {
+        "id": "filettino-di-maiale",
+        "kind": "ricetta",
+        "title": "Filettin o di maiale",
+        "url": "/ricette/filettino-di-maiale/",
+        "geography": [
+          "croazia-hvar"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_generale",
+      "common_id": "croazia",
+      "automatic": true,
+      "left_path": "Croazia",
+      "right_path": "Croazia / Hvar"
+    },
+    {
+      "album_id": "album-010",
+      "album_slug": "010-toscana-e-lazio-2021",
+      "reference": {
+        "id": "anatra-in-salsa",
+        "kind": "ricetta",
+        "title": "Anatra in salsa",
+        "url": "/ricette/anatra-in-salsa/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Toscana",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-010",
+      "album_slug": "010-toscana-e-lazio-2021",
+      "reference": {
+        "id": "antipastino-piemontese",
+        "kind": "ricetta",
+        "title": "Antipast(ino) piemontese",
+        "url": "/ricette/antipastino-piemontese/",
+        "geography": [
+          "italia-piemonte"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Toscana",
+      "right_path": "Italia / Piemonte"
+    },
+    {
+      "album_id": "album-010",
+      "album_slug": "010-toscana-e-lazio-2021",
+      "reference": {
+        "id": "antipasto-di-canocce",
+        "kind": "ricetta",
+        "title": "Antipasto di canocce",
+        "url": "/ricette/antipasto-di-canocce/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Toscana",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-010",
+      "album_slug": "010-toscana-e-lazio-2021",
+      "reference": {
+        "id": "arista-alla-birra",
+        "kind": "ricetta",
+        "title": "Arista alla birra",
+        "url": "/ricette/arista-alla-birra/",
+        "geography": [
+          "italia-campania"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Toscana",
+      "right_path": "Italia / Campania"
+    },
+    {
+      "album_id": "album-010",
+      "album_slug": "010-toscana-e-lazio-2021",
+      "reference": {
+        "id": "bagna-cauda",
+        "kind": "ricetta",
+        "title": "Bagna cauda",
+        "url": "/ricette/bagna-cauda/",
+        "geography": [
+          "italia-piemonte"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Toscana",
+      "right_path": "Italia / Piemonte"
+    },
+    {
+      "album_id": "album-010",
+      "album_slug": "010-toscana-e-lazio-2021",
+      "reference": {
+        "id": "bigoli-in-salsa",
+        "kind": "ricetta",
+        "title": "Bigoli in salsa",
+        "url": "/ricette/bigoli-in-salsa/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Toscana",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-010",
+      "album_slug": "010-toscana-e-lazio-2021",
+      "reference": {
+        "id": "braciole-di-carne-di-cavallo",
+        "kind": "ricetta",
+        "title": "Braciole di carne di cavallo",
+        "url": "/ricette/braciole-di-carne-di-cavallo/",
+        "geography": [
+          "italia-puglia"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Toscana",
+      "right_path": "Italia / Puglia"
+    },
+    {
+      "album_id": "album-010",
+      "album_slug": "010-toscana-e-lazio-2021",
+      "reference": {
+        "id": "calamari-ripieni",
+        "kind": "ricetta",
+        "title": "Calamari ripieni",
+        "url": "/ricette/calamari-ripieni/",
+        "geography": [
+          "italia-puglia"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Toscana",
+      "right_path": "Italia / Puglia"
+    },
+    {
+      "album_id": "album-010",
+      "album_slug": "010-toscana-e-lazio-2021",
+      "reference": {
+        "id": "fusilli-carciofi-e-salmone",
+        "kind": "ricetta",
+        "title": "Fusilli carciofi e salmone",
+        "url": "/ricette/fusilli-carciofi-e-salmone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": true,
+      "left_path": "Italia / Toscana",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-010",
+      "album_slug": "010-toscana-e-lazio-2021",
+      "reference": {
+        "id": "gnocchi-con-le-trombette-dei-morti",
+        "kind": "ricetta",
+        "title": "Gnocchi con le trombette dei morti",
+        "url": "/ricette/gnocchi-con-le-trombette-dei-morti/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Toscana",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-010",
+      "album_slug": "010-toscana-e-lazio-2021",
+      "reference": {
+        "id": "medaglioni-di-manzo-con-porcini",
+        "kind": "ricetta",
+        "title": "Medaglioni di manzo con porcini",
+        "url": "/ricette/medaglioni-di-manzo-con-porcini/",
+        "geography": [
+          "italia-toscana"
+        ]
+      },
+      "score": 100,
+      "relation": "stesso_termine",
+      "common_id": "italia-toscana",
+      "automatic": true,
+      "left_path": "Italia / Toscana",
+      "right_path": "Italia / Toscana"
+    },
+    {
+      "album_id": "album-010",
+      "album_slug": "010-toscana-e-lazio-2021",
+      "reference": {
+        "id": "paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero",
+        "kind": "ricetta",
+        "title": "Paccheri di Gragnano IGP con orata, pomodorini, capperi e zenzero",
+        "url": "/ricette/paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero/",
+        "geography": [
+          "italia-sardegna"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Toscana",
+      "right_path": "Italia / Sardegna"
+    },
+    {
+      "album_id": "album-010",
+      "album_slug": "010-toscana-e-lazio-2021",
+      "reference": {
+        "id": "pappa-con-il-pomodoro",
+        "kind": "ricetta",
+        "title": "Pappa con il pomodoro",
+        "url": "/ricette/pappa-con-il-pomodoro/",
+        "geography": [
+          "italia-toscana"
+        ]
+      },
+      "score": 100,
+      "relation": "stesso_termine",
+      "common_id": "italia-toscana",
+      "automatic": true,
+      "left_path": "Italia / Toscana",
+      "right_path": "Italia / Toscana"
+    },
+    {
+      "album_id": "album-010",
+      "album_slug": "010-toscana-e-lazio-2021",
+      "reference": {
+        "id": "pasta-al-ragu-di-triglie-e-al-succo-d-arancia",
+        "kind": "ricetta",
+        "title": "Pasta al ragù di triglie e al succo d'arancia",
+        "url": "/ricette/pasta-al-ragu-di-triglie-e-al-succo-d-arancia/",
+        "geography": [
+          "italia-sicilia"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Toscana",
+      "right_path": "Italia / Sicilia"
+    },
+    {
+      "album_id": "album-010",
+      "album_slug": "010-toscana-e-lazio-2021",
+      "reference": {
+        "id": "pasta-con-le-melanzane",
+        "kind": "ricetta",
+        "title": "Pasta con le melanzane",
+        "url": "/ricette/pasta-con-le-melanzane/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Toscana",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-010",
+      "album_slug": "010-toscana-e-lazio-2021",
+      "reference": {
+        "id": "pasta-con-pesto-alla-siciliana",
+        "kind": "ricetta",
+        "title": "Pasta con pesto alla siciliana",
+        "url": "/ricette/pasta-con-pesto-alla-siciliana/",
+        "geography": [
+          "italia-sicilia"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Toscana",
+      "right_path": "Italia / Sicilia"
+    },
+    {
+      "album_id": "album-010",
+      "album_slug": "010-toscana-e-lazio-2021",
+      "reference": {
+        "id": "pasta-e-fagioli",
+        "kind": "ricetta",
+        "title": "Pasta e fagioli",
+        "url": "/ricette/pasta-e-fagioli/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Toscana",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-010",
+      "album_slug": "010-toscana-e-lazio-2021",
+      "reference": {
+        "id": "penne-con-mazzancolle-alle-verdure",
+        "kind": "ricetta",
+        "title": "Penne con mazzancolle alle verdure",
+        "url": "/ricette/penne-con-mazzancolle-alle-verdure/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Toscana",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-010",
+      "album_slug": "010-toscana-e-lazio-2021",
+      "reference": {
+        "id": "penne-con-zucchine",
+        "kind": "ricetta",
+        "title": "Penne con zucchine",
+        "url": "/ricette/penne-con-zucchine/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": true,
+      "left_path": "Italia / Toscana",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-010",
+      "album_slug": "010-toscana-e-lazio-2021",
+      "reference": {
+        "id": "ribollita",
+        "kind": "ricetta",
+        "title": "Ribollita",
+        "url": "/ricette/ribollita/",
+        "geography": [
+          "italia-toscana"
+        ]
+      },
+      "score": 100,
+      "relation": "stesso_termine",
+      "common_id": "italia-toscana",
+      "automatic": true,
+      "left_path": "Italia / Toscana",
+      "right_path": "Italia / Toscana"
+    },
+    {
+      "album_id": "album-010",
+      "album_slug": "010-toscana-e-lazio-2021",
+      "reference": {
+        "id": "salsa-verde",
+        "kind": "ricetta",
+        "title": "Salsa verde",
+        "url": "/ricette/salsa-verde/",
+        "geography": [
+          "italia-piemonte"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Toscana",
+      "right_path": "Italia / Piemonte"
+    },
+    {
+      "album_id": "album-010",
+      "album_slug": "010-toscana-e-lazio-2021",
+      "reference": {
+        "id": "sarde-a-beccafico",
+        "kind": "ricetta",
+        "title": "Sarde a beccafico",
+        "url": "/ricette/sarde-a-beccafico/",
+        "geography": [
+          "italia-sicilia"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Toscana",
+      "right_path": "Italia / Sicilia"
+    },
+    {
+      "album_id": "album-010",
+      "album_slug": "010-toscana-e-lazio-2021",
+      "reference": {
+        "id": "sfogliata-pugliese",
+        "kind": "ricetta",
+        "title": "Sfogliata pugliese",
+        "url": "/ricette/sfogliata-pugliese/",
+        "geography": [
+          "italia-puglia"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Toscana",
+      "right_path": "Italia / Puglia"
+    },
+    {
+      "album_id": "album-010",
+      "album_slug": "010-toscana-e-lazio-2021",
+      "reference": {
+        "id": "spaghetti-alla-bottarga",
+        "kind": "ricetta",
+        "title": "Spaghetti alla bottarga",
+        "url": "/ricette/spaghetti-alla-bottarga/",
+        "geography": [
+          "italia-sicilia"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Toscana",
+      "right_path": "Italia / Sicilia"
+    },
+    {
+      "album_id": "album-010",
+      "album_slug": "010-toscana-e-lazio-2021",
+      "reference": {
+        "id": "straccetti-di-pollo-al-limone",
+        "kind": "ricetta",
+        "title": "Straccetti di pollo al limone",
+        "url": "/ricette/straccetti-di-pollo-al-limone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": true,
+      "left_path": "Italia / Toscana",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-010",
+      "album_slug": "010-toscana-e-lazio-2021",
+      "reference": {
+        "id": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
+        "kind": "ricetta",
+        "title": "Straccetti su letto di porri con rucola e aceto balsamico di Modena",
+        "url": "/ricette/straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": true,
+      "left_path": "Italia / Toscana",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-010",
+      "album_slug": "010-toscana-e-lazio-2021",
+      "reference": {
+        "id": "tagliate",
+        "kind": "ricetta",
+        "title": "Tagliate",
+        "url": "/ricette/tagliate/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": true,
+      "left_path": "Italia / Toscana",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-010",
+      "album_slug": "010-toscana-e-lazio-2021",
+      "reference": {
+        "id": "vitello-tonnato",
+        "kind": "ricetta",
+        "title": "Vitello tonnato",
+        "url": "/ricette/vitello-tonnato/",
+        "geography": [
+          "italia-piemonte"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Toscana",
+      "right_path": "Italia / Piemonte"
+    },
+    {
+      "album_id": "album-010",
+      "album_slug": "010-toscana-e-lazio-2021",
+      "reference": {
+        "id": "zuppa-di-legumi-con-funghi-settembrini-secchi",
+        "kind": "ricetta",
+        "title": "Zuppa di legumi con funghi settembrini secchi",
+        "url": "/ricette/zuppa-di-legumi-con-funghi-settembrini-secchi/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": true,
+      "left_path": "Italia / Toscana",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-011",
+      "album_slug": "011-cadore-primavera-2021",
+      "reference": {
+        "id": "anatra-in-salsa",
+        "kind": "ricetta",
+        "title": "Anatra in salsa",
+        "url": "/ricette/anatra-in-salsa/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-011",
+      "album_slug": "011-cadore-primavera-2021",
+      "reference": {
+        "id": "antipasto-di-canocce",
+        "kind": "ricetta",
+        "title": "Antipasto di canocce",
+        "url": "/ricette/antipasto-di-canocce/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-011",
+      "album_slug": "011-cadore-primavera-2021",
+      "reference": {
+        "id": "bigoli-in-salsa",
+        "kind": "ricetta",
+        "title": "Bigoli in salsa",
+        "url": "/ricette/bigoli-in-salsa/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-011",
+      "album_slug": "011-cadore-primavera-2021",
+      "reference": {
+        "id": "fusilli-carciofi-e-salmone",
+        "kind": "ricetta",
+        "title": "Fusilli carciofi e salmone",
+        "url": "/ricette/fusilli-carciofi-e-salmone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-011",
+      "album_slug": "011-cadore-primavera-2021",
+      "reference": {
+        "id": "gnocchi-con-le-trombette-dei-morti",
+        "kind": "ricetta",
+        "title": "Gnocchi con le trombette dei morti",
+        "url": "/ricette/gnocchi-con-le-trombette-dei-morti/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-011",
+      "album_slug": "011-cadore-primavera-2021",
+      "reference": {
+        "id": "pasta-con-le-melanzane",
+        "kind": "ricetta",
+        "title": "Pasta con le melanzane",
+        "url": "/ricette/pasta-con-le-melanzane/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-011",
+      "album_slug": "011-cadore-primavera-2021",
+      "reference": {
+        "id": "pasta-e-fagioli",
+        "kind": "ricetta",
+        "title": "Pasta e fagioli",
+        "url": "/ricette/pasta-e-fagioli/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-011",
+      "album_slug": "011-cadore-primavera-2021",
+      "reference": {
+        "id": "penne-con-mazzancolle-alle-verdure",
+        "kind": "ricetta",
+        "title": "Penne con mazzancolle alle verdure",
+        "url": "/ricette/penne-con-mazzancolle-alle-verdure/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-011",
+      "album_slug": "011-cadore-primavera-2021",
+      "reference": {
+        "id": "penne-con-zucchine",
+        "kind": "ricetta",
+        "title": "Penne con zucchine",
+        "url": "/ricette/penne-con-zucchine/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-011",
+      "album_slug": "011-cadore-primavera-2021",
+      "reference": {
+        "id": "straccetti-di-pollo-al-limone",
+        "kind": "ricetta",
+        "title": "Straccetti di pollo al limone",
+        "url": "/ricette/straccetti-di-pollo-al-limone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-011",
+      "album_slug": "011-cadore-primavera-2021",
+      "reference": {
+        "id": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
+        "kind": "ricetta",
+        "title": "Straccetti su letto di porri con rucola e aceto balsamico di Modena",
+        "url": "/ricette/straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-011",
+      "album_slug": "011-cadore-primavera-2021",
+      "reference": {
+        "id": "tagliate",
+        "kind": "ricetta",
+        "title": "Tagliate",
+        "url": "/ricette/tagliate/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-011",
+      "album_slug": "011-cadore-primavera-2021",
+      "reference": {
+        "id": "zuppa-di-legumi-con-funghi-settembrini-secchi",
+        "kind": "ricetta",
+        "title": "Zuppa di legumi con funghi settembrini secchi",
+        "url": "/ricette/zuppa-di-legumi-con-funghi-settembrini-secchi/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-012",
+      "album_slug": "012-cadore-inverno-2021",
+      "reference": {
+        "id": "anatra-in-salsa",
+        "kind": "ricetta",
+        "title": "Anatra in salsa",
+        "url": "/ricette/anatra-in-salsa/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-012",
+      "album_slug": "012-cadore-inverno-2021",
+      "reference": {
+        "id": "antipasto-di-canocce",
+        "kind": "ricetta",
+        "title": "Antipasto di canocce",
+        "url": "/ricette/antipasto-di-canocce/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-012",
+      "album_slug": "012-cadore-inverno-2021",
+      "reference": {
+        "id": "bigoli-in-salsa",
+        "kind": "ricetta",
+        "title": "Bigoli in salsa",
+        "url": "/ricette/bigoli-in-salsa/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-012",
+      "album_slug": "012-cadore-inverno-2021",
+      "reference": {
+        "id": "fusilli-carciofi-e-salmone",
+        "kind": "ricetta",
+        "title": "Fusilli carciofi e salmone",
+        "url": "/ricette/fusilli-carciofi-e-salmone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-012",
+      "album_slug": "012-cadore-inverno-2021",
+      "reference": {
+        "id": "gnocchi-con-le-trombette-dei-morti",
+        "kind": "ricetta",
+        "title": "Gnocchi con le trombette dei morti",
+        "url": "/ricette/gnocchi-con-le-trombette-dei-morti/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-012",
+      "album_slug": "012-cadore-inverno-2021",
+      "reference": {
+        "id": "pasta-con-le-melanzane",
+        "kind": "ricetta",
+        "title": "Pasta con le melanzane",
+        "url": "/ricette/pasta-con-le-melanzane/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-012",
+      "album_slug": "012-cadore-inverno-2021",
+      "reference": {
+        "id": "pasta-e-fagioli",
+        "kind": "ricetta",
+        "title": "Pasta e fagioli",
+        "url": "/ricette/pasta-e-fagioli/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-012",
+      "album_slug": "012-cadore-inverno-2021",
+      "reference": {
+        "id": "penne-con-mazzancolle-alle-verdure",
+        "kind": "ricetta",
+        "title": "Penne con mazzancolle alle verdure",
+        "url": "/ricette/penne-con-mazzancolle-alle-verdure/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-012",
+      "album_slug": "012-cadore-inverno-2021",
+      "reference": {
+        "id": "penne-con-zucchine",
+        "kind": "ricetta",
+        "title": "Penne con zucchine",
+        "url": "/ricette/penne-con-zucchine/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-012",
+      "album_slug": "012-cadore-inverno-2021",
+      "reference": {
+        "id": "straccetti-di-pollo-al-limone",
+        "kind": "ricetta",
+        "title": "Straccetti di pollo al limone",
+        "url": "/ricette/straccetti-di-pollo-al-limone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-012",
+      "album_slug": "012-cadore-inverno-2021",
+      "reference": {
+        "id": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
+        "kind": "ricetta",
+        "title": "Straccetti su letto di porri con rucola e aceto balsamico di Modena",
+        "url": "/ricette/straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-012",
+      "album_slug": "012-cadore-inverno-2021",
+      "reference": {
+        "id": "tagliate",
+        "kind": "ricetta",
+        "title": "Tagliate",
+        "url": "/ricette/tagliate/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-012",
+      "album_slug": "012-cadore-inverno-2021",
+      "reference": {
+        "id": "zuppa-di-legumi-con-funghi-settembrini-secchi",
+        "kind": "ricetta",
+        "title": "Zuppa di legumi con funghi settembrini secchi",
+        "url": "/ricette/zuppa-di-legumi-con-funghi-settembrini-secchi/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-014",
+      "album_slug": "014-cadore-estate-2020",
+      "reference": {
+        "id": "anatra-in-salsa",
+        "kind": "ricetta",
+        "title": "Anatra in salsa",
+        "url": "/ricette/anatra-in-salsa/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-014",
+      "album_slug": "014-cadore-estate-2020",
+      "reference": {
+        "id": "antipasto-di-canocce",
+        "kind": "ricetta",
+        "title": "Antipasto di canocce",
+        "url": "/ricette/antipasto-di-canocce/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-014",
+      "album_slug": "014-cadore-estate-2020",
+      "reference": {
+        "id": "bigoli-in-salsa",
+        "kind": "ricetta",
+        "title": "Bigoli in salsa",
+        "url": "/ricette/bigoli-in-salsa/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-014",
+      "album_slug": "014-cadore-estate-2020",
+      "reference": {
+        "id": "fusilli-carciofi-e-salmone",
+        "kind": "ricetta",
+        "title": "Fusilli carciofi e salmone",
+        "url": "/ricette/fusilli-carciofi-e-salmone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-014",
+      "album_slug": "014-cadore-estate-2020",
+      "reference": {
+        "id": "gnocchi-con-le-trombette-dei-morti",
+        "kind": "ricetta",
+        "title": "Gnocchi con le trombette dei morti",
+        "url": "/ricette/gnocchi-con-le-trombette-dei-morti/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-014",
+      "album_slug": "014-cadore-estate-2020",
+      "reference": {
+        "id": "pasta-con-le-melanzane",
+        "kind": "ricetta",
+        "title": "Pasta con le melanzane",
+        "url": "/ricette/pasta-con-le-melanzane/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-014",
+      "album_slug": "014-cadore-estate-2020",
+      "reference": {
+        "id": "pasta-e-fagioli",
+        "kind": "ricetta",
+        "title": "Pasta e fagioli",
+        "url": "/ricette/pasta-e-fagioli/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-014",
+      "album_slug": "014-cadore-estate-2020",
+      "reference": {
+        "id": "penne-con-mazzancolle-alle-verdure",
+        "kind": "ricetta",
+        "title": "Penne con mazzancolle alle verdure",
+        "url": "/ricette/penne-con-mazzancolle-alle-verdure/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-014",
+      "album_slug": "014-cadore-estate-2020",
+      "reference": {
+        "id": "penne-con-zucchine",
+        "kind": "ricetta",
+        "title": "Penne con zucchine",
+        "url": "/ricette/penne-con-zucchine/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-014",
+      "album_slug": "014-cadore-estate-2020",
+      "reference": {
+        "id": "straccetti-di-pollo-al-limone",
+        "kind": "ricetta",
+        "title": "Straccetti di pollo al limone",
+        "url": "/ricette/straccetti-di-pollo-al-limone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-014",
+      "album_slug": "014-cadore-estate-2020",
+      "reference": {
+        "id": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
+        "kind": "ricetta",
+        "title": "Straccetti su letto di porri con rucola e aceto balsamico di Modena",
+        "url": "/ricette/straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-014",
+      "album_slug": "014-cadore-estate-2020",
+      "reference": {
+        "id": "tagliate",
+        "kind": "ricetta",
+        "title": "Tagliate",
+        "url": "/ricette/tagliate/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-014",
+      "album_slug": "014-cadore-estate-2020",
+      "reference": {
+        "id": "zuppa-di-legumi-con-funghi-settembrini-secchi",
+        "kind": "ricetta",
+        "title": "Zuppa di legumi con funghi settembrini secchi",
+        "url": "/ricette/zuppa-di-legumi-con-funghi-settembrini-secchi/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-016",
+      "album_slug": "016-roma-2019",
+      "reference": {
+        "id": "fusilli-carciofi-e-salmone",
+        "kind": "ricetta",
+        "title": "Fusilli carciofi e salmone",
+        "url": "/ricette/fusilli-carciofi-e-salmone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Lazio / Roma",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-016",
+      "album_slug": "016-roma-2019",
+      "reference": {
+        "id": "pasta-con-i-broccoli",
+        "kind": "ricetta",
+        "title": "Pasta con i broccoli",
+        "url": "/ricette/pasta-con-i-broccoli/",
+        "geography": [
+          "italia-lazio-roma"
+        ]
+      },
+      "score": 100,
+      "relation": "stesso_termine",
+      "common_id": "italia-lazio-roma",
+      "automatic": true,
+      "left_path": "Italia / Lazio / Roma",
+      "right_path": "Italia / Lazio / Roma"
+    },
+    {
+      "album_id": "album-016",
+      "album_slug": "016-roma-2019",
+      "reference": {
+        "id": "penne-con-zucchine",
+        "kind": "ricetta",
+        "title": "Penne con zucchine",
+        "url": "/ricette/penne-con-zucchine/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Lazio / Roma",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-016",
+      "album_slug": "016-roma-2019",
+      "reference": {
+        "id": "straccetti-di-pollo-al-limone",
+        "kind": "ricetta",
+        "title": "Straccetti di pollo al limone",
+        "url": "/ricette/straccetti-di-pollo-al-limone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Lazio / Roma",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-016",
+      "album_slug": "016-roma-2019",
+      "reference": {
+        "id": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
+        "kind": "ricetta",
+        "title": "Straccetti su letto di porri con rucola e aceto balsamico di Modena",
+        "url": "/ricette/straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Lazio / Roma",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-016",
+      "album_slug": "016-roma-2019",
+      "reference": {
+        "id": "tagliate",
+        "kind": "ricetta",
+        "title": "Tagliate",
+        "url": "/ricette/tagliate/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Lazio / Roma",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-016",
+      "album_slug": "016-roma-2019",
+      "reference": {
+        "id": "tortino-di-alici",
+        "kind": "ricetta",
+        "title": "Tortino di alici",
+        "url": "/ricette/tortino-di-alici/",
+        "geography": [
+          "italia-lazio-roma"
+        ]
+      },
+      "score": 100,
+      "relation": "stesso_termine",
+      "common_id": "italia-lazio-roma",
+      "automatic": true,
+      "left_path": "Italia / Lazio / Roma",
+      "right_path": "Italia / Lazio / Roma"
+    },
+    {
+      "album_id": "album-016",
+      "album_slug": "016-roma-2019",
+      "reference": {
+        "id": "zuppa-di-legumi-con-funghi-settembrini-secchi",
+        "kind": "ricetta",
+        "title": "Zuppa di legumi con funghi settembrini secchi",
+        "url": "/ricette/zuppa-di-legumi-con-funghi-settembrini-secchi/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Lazio / Roma",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-017",
+      "album_slug": "017-cadore-estate-2019",
+      "reference": {
+        "id": "anatra-in-salsa",
+        "kind": "ricetta",
+        "title": "Anatra in salsa",
+        "url": "/ricette/anatra-in-salsa/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-017",
+      "album_slug": "017-cadore-estate-2019",
+      "reference": {
+        "id": "antipasto-di-canocce",
+        "kind": "ricetta",
+        "title": "Antipasto di canocce",
+        "url": "/ricette/antipasto-di-canocce/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-017",
+      "album_slug": "017-cadore-estate-2019",
+      "reference": {
+        "id": "bigoli-in-salsa",
+        "kind": "ricetta",
+        "title": "Bigoli in salsa",
+        "url": "/ricette/bigoli-in-salsa/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-017",
+      "album_slug": "017-cadore-estate-2019",
+      "reference": {
+        "id": "fusilli-carciofi-e-salmone",
+        "kind": "ricetta",
+        "title": "Fusilli carciofi e salmone",
+        "url": "/ricette/fusilli-carciofi-e-salmone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-017",
+      "album_slug": "017-cadore-estate-2019",
+      "reference": {
+        "id": "gnocchi-con-le-trombette-dei-morti",
+        "kind": "ricetta",
+        "title": "Gnocchi con le trombette dei morti",
+        "url": "/ricette/gnocchi-con-le-trombette-dei-morti/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-017",
+      "album_slug": "017-cadore-estate-2019",
+      "reference": {
+        "id": "pasta-con-le-melanzane",
+        "kind": "ricetta",
+        "title": "Pasta con le melanzane",
+        "url": "/ricette/pasta-con-le-melanzane/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-017",
+      "album_slug": "017-cadore-estate-2019",
+      "reference": {
+        "id": "pasta-e-fagioli",
+        "kind": "ricetta",
+        "title": "Pasta e fagioli",
+        "url": "/ricette/pasta-e-fagioli/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-017",
+      "album_slug": "017-cadore-estate-2019",
+      "reference": {
+        "id": "penne-con-mazzancolle-alle-verdure",
+        "kind": "ricetta",
+        "title": "Penne con mazzancolle alle verdure",
+        "url": "/ricette/penne-con-mazzancolle-alle-verdure/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-017",
+      "album_slug": "017-cadore-estate-2019",
+      "reference": {
+        "id": "penne-con-zucchine",
+        "kind": "ricetta",
+        "title": "Penne con zucchine",
+        "url": "/ricette/penne-con-zucchine/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-017",
+      "album_slug": "017-cadore-estate-2019",
+      "reference": {
+        "id": "straccetti-di-pollo-al-limone",
+        "kind": "ricetta",
+        "title": "Straccetti di pollo al limone",
+        "url": "/ricette/straccetti-di-pollo-al-limone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-017",
+      "album_slug": "017-cadore-estate-2019",
+      "reference": {
+        "id": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
+        "kind": "ricetta",
+        "title": "Straccetti su letto di porri con rucola e aceto balsamico di Modena",
+        "url": "/ricette/straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-017",
+      "album_slug": "017-cadore-estate-2019",
+      "reference": {
+        "id": "tagliate",
+        "kind": "ricetta",
+        "title": "Tagliate",
+        "url": "/ricette/tagliate/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-017",
+      "album_slug": "017-cadore-estate-2019",
+      "reference": {
+        "id": "zuppa-di-legumi-con-funghi-settembrini-secchi",
+        "kind": "ricetta",
+        "title": "Zuppa di legumi con funghi settembrini secchi",
+        "url": "/ricette/zuppa-di-legumi-con-funghi-settembrini-secchi/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-022",
+      "album_slug": "022-cadore-primavera-2019",
+      "reference": {
+        "id": "anatra-in-salsa",
+        "kind": "ricetta",
+        "title": "Anatra in salsa",
+        "url": "/ricette/anatra-in-salsa/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-022",
+      "album_slug": "022-cadore-primavera-2019",
+      "reference": {
+        "id": "antipasto-di-canocce",
+        "kind": "ricetta",
+        "title": "Antipasto di canocce",
+        "url": "/ricette/antipasto-di-canocce/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-022",
+      "album_slug": "022-cadore-primavera-2019",
+      "reference": {
+        "id": "bigoli-in-salsa",
+        "kind": "ricetta",
+        "title": "Bigoli in salsa",
+        "url": "/ricette/bigoli-in-salsa/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-022",
+      "album_slug": "022-cadore-primavera-2019",
+      "reference": {
+        "id": "fusilli-carciofi-e-salmone",
+        "kind": "ricetta",
+        "title": "Fusilli carciofi e salmone",
+        "url": "/ricette/fusilli-carciofi-e-salmone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-022",
+      "album_slug": "022-cadore-primavera-2019",
+      "reference": {
+        "id": "gnocchi-con-le-trombette-dei-morti",
+        "kind": "ricetta",
+        "title": "Gnocchi con le trombette dei morti",
+        "url": "/ricette/gnocchi-con-le-trombette-dei-morti/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-022",
+      "album_slug": "022-cadore-primavera-2019",
+      "reference": {
+        "id": "pasta-con-le-melanzane",
+        "kind": "ricetta",
+        "title": "Pasta con le melanzane",
+        "url": "/ricette/pasta-con-le-melanzane/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-022",
+      "album_slug": "022-cadore-primavera-2019",
+      "reference": {
+        "id": "pasta-e-fagioli",
+        "kind": "ricetta",
+        "title": "Pasta e fagioli",
+        "url": "/ricette/pasta-e-fagioli/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-022",
+      "album_slug": "022-cadore-primavera-2019",
+      "reference": {
+        "id": "penne-con-mazzancolle-alle-verdure",
+        "kind": "ricetta",
+        "title": "Penne con mazzancolle alle verdure",
+        "url": "/ricette/penne-con-mazzancolle-alle-verdure/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-022",
+      "album_slug": "022-cadore-primavera-2019",
+      "reference": {
+        "id": "penne-con-zucchine",
+        "kind": "ricetta",
+        "title": "Penne con zucchine",
+        "url": "/ricette/penne-con-zucchine/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-022",
+      "album_slug": "022-cadore-primavera-2019",
+      "reference": {
+        "id": "straccetti-di-pollo-al-limone",
+        "kind": "ricetta",
+        "title": "Straccetti di pollo al limone",
+        "url": "/ricette/straccetti-di-pollo-al-limone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-022",
+      "album_slug": "022-cadore-primavera-2019",
+      "reference": {
+        "id": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
+        "kind": "ricetta",
+        "title": "Straccetti su letto di porri con rucola e aceto balsamico di Modena",
+        "url": "/ricette/straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-022",
+      "album_slug": "022-cadore-primavera-2019",
+      "reference": {
+        "id": "tagliate",
+        "kind": "ricetta",
+        "title": "Tagliate",
+        "url": "/ricette/tagliate/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-022",
+      "album_slug": "022-cadore-primavera-2019",
+      "reference": {
+        "id": "zuppa-di-legumi-con-funghi-settembrini-secchi",
+        "kind": "ricetta",
+        "title": "Zuppa di legumi con funghi settembrini secchi",
+        "url": "/ricette/zuppa-di-legumi-con-funghi-settembrini-secchi/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-024",
+      "album_slug": "024-cadore-inverno-2019",
+      "reference": {
+        "id": "anatra-in-salsa",
+        "kind": "ricetta",
+        "title": "Anatra in salsa",
+        "url": "/ricette/anatra-in-salsa/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-024",
+      "album_slug": "024-cadore-inverno-2019",
+      "reference": {
+        "id": "antipasto-di-canocce",
+        "kind": "ricetta",
+        "title": "Antipasto di canocce",
+        "url": "/ricette/antipasto-di-canocce/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-024",
+      "album_slug": "024-cadore-inverno-2019",
+      "reference": {
+        "id": "bigoli-in-salsa",
+        "kind": "ricetta",
+        "title": "Bigoli in salsa",
+        "url": "/ricette/bigoli-in-salsa/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-024",
+      "album_slug": "024-cadore-inverno-2019",
+      "reference": {
+        "id": "fusilli-carciofi-e-salmone",
+        "kind": "ricetta",
+        "title": "Fusilli carciofi e salmone",
+        "url": "/ricette/fusilli-carciofi-e-salmone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-024",
+      "album_slug": "024-cadore-inverno-2019",
+      "reference": {
+        "id": "gnocchi-con-le-trombette-dei-morti",
+        "kind": "ricetta",
+        "title": "Gnocchi con le trombette dei morti",
+        "url": "/ricette/gnocchi-con-le-trombette-dei-morti/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-024",
+      "album_slug": "024-cadore-inverno-2019",
+      "reference": {
+        "id": "pasta-con-le-melanzane",
+        "kind": "ricetta",
+        "title": "Pasta con le melanzane",
+        "url": "/ricette/pasta-con-le-melanzane/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-024",
+      "album_slug": "024-cadore-inverno-2019",
+      "reference": {
+        "id": "pasta-e-fagioli",
+        "kind": "ricetta",
+        "title": "Pasta e fagioli",
+        "url": "/ricette/pasta-e-fagioli/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-024",
+      "album_slug": "024-cadore-inverno-2019",
+      "reference": {
+        "id": "penne-con-mazzancolle-alle-verdure",
+        "kind": "ricetta",
+        "title": "Penne con mazzancolle alle verdure",
+        "url": "/ricette/penne-con-mazzancolle-alle-verdure/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-024",
+      "album_slug": "024-cadore-inverno-2019",
+      "reference": {
+        "id": "penne-con-zucchine",
+        "kind": "ricetta",
+        "title": "Penne con zucchine",
+        "url": "/ricette/penne-con-zucchine/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-024",
+      "album_slug": "024-cadore-inverno-2019",
+      "reference": {
+        "id": "straccetti-di-pollo-al-limone",
+        "kind": "ricetta",
+        "title": "Straccetti di pollo al limone",
+        "url": "/ricette/straccetti-di-pollo-al-limone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-024",
+      "album_slug": "024-cadore-inverno-2019",
+      "reference": {
+        "id": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
+        "kind": "ricetta",
+        "title": "Straccetti su letto di porri con rucola e aceto balsamico di Modena",
+        "url": "/ricette/straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-024",
+      "album_slug": "024-cadore-inverno-2019",
+      "reference": {
+        "id": "tagliate",
+        "kind": "ricetta",
+        "title": "Tagliate",
+        "url": "/ricette/tagliate/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-024",
+      "album_slug": "024-cadore-inverno-2019",
+      "reference": {
+        "id": "zuppa-di-legumi-con-funghi-settembrini-secchi",
+        "kind": "ricetta",
+        "title": "Zuppa di legumi con funghi settembrini secchi",
+        "url": "/ricette/zuppa-di-legumi-con-funghi-settembrini-secchi/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-029",
+      "album_slug": "029-cadore-estate-2018",
+      "reference": {
+        "id": "anatra-in-salsa",
+        "kind": "ricetta",
+        "title": "Anatra in salsa",
+        "url": "/ricette/anatra-in-salsa/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-029",
+      "album_slug": "029-cadore-estate-2018",
+      "reference": {
+        "id": "antipasto-di-canocce",
+        "kind": "ricetta",
+        "title": "Antipasto di canocce",
+        "url": "/ricette/antipasto-di-canocce/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-029",
+      "album_slug": "029-cadore-estate-2018",
+      "reference": {
+        "id": "bigoli-in-salsa",
+        "kind": "ricetta",
+        "title": "Bigoli in salsa",
+        "url": "/ricette/bigoli-in-salsa/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-029",
+      "album_slug": "029-cadore-estate-2018",
+      "reference": {
+        "id": "fusilli-carciofi-e-salmone",
+        "kind": "ricetta",
+        "title": "Fusilli carciofi e salmone",
+        "url": "/ricette/fusilli-carciofi-e-salmone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-029",
+      "album_slug": "029-cadore-estate-2018",
+      "reference": {
+        "id": "gnocchi-con-le-trombette-dei-morti",
+        "kind": "ricetta",
+        "title": "Gnocchi con le trombette dei morti",
+        "url": "/ricette/gnocchi-con-le-trombette-dei-morti/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-029",
+      "album_slug": "029-cadore-estate-2018",
+      "reference": {
+        "id": "pasta-con-le-melanzane",
+        "kind": "ricetta",
+        "title": "Pasta con le melanzane",
+        "url": "/ricette/pasta-con-le-melanzane/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-029",
+      "album_slug": "029-cadore-estate-2018",
+      "reference": {
+        "id": "pasta-e-fagioli",
+        "kind": "ricetta",
+        "title": "Pasta e fagioli",
+        "url": "/ricette/pasta-e-fagioli/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-029",
+      "album_slug": "029-cadore-estate-2018",
+      "reference": {
+        "id": "penne-con-mazzancolle-alle-verdure",
+        "kind": "ricetta",
+        "title": "Penne con mazzancolle alle verdure",
+        "url": "/ricette/penne-con-mazzancolle-alle-verdure/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-029",
+      "album_slug": "029-cadore-estate-2018",
+      "reference": {
+        "id": "penne-con-zucchine",
+        "kind": "ricetta",
+        "title": "Penne con zucchine",
+        "url": "/ricette/penne-con-zucchine/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-029",
+      "album_slug": "029-cadore-estate-2018",
+      "reference": {
+        "id": "straccetti-di-pollo-al-limone",
+        "kind": "ricetta",
+        "title": "Straccetti di pollo al limone",
+        "url": "/ricette/straccetti-di-pollo-al-limone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-029",
+      "album_slug": "029-cadore-estate-2018",
+      "reference": {
+        "id": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
+        "kind": "ricetta",
+        "title": "Straccetti su letto di porri con rucola e aceto balsamico di Modena",
+        "url": "/ricette/straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-029",
+      "album_slug": "029-cadore-estate-2018",
+      "reference": {
+        "id": "tagliate",
+        "kind": "ricetta",
+        "title": "Tagliate",
+        "url": "/ricette/tagliate/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-029",
+      "album_slug": "029-cadore-estate-2018",
+      "reference": {
+        "id": "zuppa-di-legumi-con-funghi-settembrini-secchi",
+        "kind": "ricetta",
+        "title": "Zuppa di legumi con funghi settembrini secchi",
+        "url": "/ricette/zuppa-di-legumi-con-funghi-settembrini-secchi/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-032",
+      "album_slug": "032-cadore-primavera-2018",
+      "reference": {
+        "id": "anatra-in-salsa",
+        "kind": "ricetta",
+        "title": "Anatra in salsa",
+        "url": "/ricette/anatra-in-salsa/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-032",
+      "album_slug": "032-cadore-primavera-2018",
+      "reference": {
+        "id": "antipasto-di-canocce",
+        "kind": "ricetta",
+        "title": "Antipasto di canocce",
+        "url": "/ricette/antipasto-di-canocce/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-032",
+      "album_slug": "032-cadore-primavera-2018",
+      "reference": {
+        "id": "bigoli-in-salsa",
+        "kind": "ricetta",
+        "title": "Bigoli in salsa",
+        "url": "/ricette/bigoli-in-salsa/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-032",
+      "album_slug": "032-cadore-primavera-2018",
+      "reference": {
+        "id": "fusilli-carciofi-e-salmone",
+        "kind": "ricetta",
+        "title": "Fusilli carciofi e salmone",
+        "url": "/ricette/fusilli-carciofi-e-salmone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-032",
+      "album_slug": "032-cadore-primavera-2018",
+      "reference": {
+        "id": "gnocchi-con-le-trombette-dei-morti",
+        "kind": "ricetta",
+        "title": "Gnocchi con le trombette dei morti",
+        "url": "/ricette/gnocchi-con-le-trombette-dei-morti/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-032",
+      "album_slug": "032-cadore-primavera-2018",
+      "reference": {
+        "id": "pasta-con-le-melanzane",
+        "kind": "ricetta",
+        "title": "Pasta con le melanzane",
+        "url": "/ricette/pasta-con-le-melanzane/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-032",
+      "album_slug": "032-cadore-primavera-2018",
+      "reference": {
+        "id": "pasta-e-fagioli",
+        "kind": "ricetta",
+        "title": "Pasta e fagioli",
+        "url": "/ricette/pasta-e-fagioli/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-032",
+      "album_slug": "032-cadore-primavera-2018",
+      "reference": {
+        "id": "penne-con-mazzancolle-alle-verdure",
+        "kind": "ricetta",
+        "title": "Penne con mazzancolle alle verdure",
+        "url": "/ricette/penne-con-mazzancolle-alle-verdure/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-032",
+      "album_slug": "032-cadore-primavera-2018",
+      "reference": {
+        "id": "penne-con-zucchine",
+        "kind": "ricetta",
+        "title": "Penne con zucchine",
+        "url": "/ricette/penne-con-zucchine/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-032",
+      "album_slug": "032-cadore-primavera-2018",
+      "reference": {
+        "id": "straccetti-di-pollo-al-limone",
+        "kind": "ricetta",
+        "title": "Straccetti di pollo al limone",
+        "url": "/ricette/straccetti-di-pollo-al-limone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-032",
+      "album_slug": "032-cadore-primavera-2018",
+      "reference": {
+        "id": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
+        "kind": "ricetta",
+        "title": "Straccetti su letto di porri con rucola e aceto balsamico di Modena",
+        "url": "/ricette/straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-032",
+      "album_slug": "032-cadore-primavera-2018",
+      "reference": {
+        "id": "tagliate",
+        "kind": "ricetta",
+        "title": "Tagliate",
+        "url": "/ricette/tagliate/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-032",
+      "album_slug": "032-cadore-primavera-2018",
+      "reference": {
+        "id": "zuppa-di-legumi-con-funghi-settembrini-secchi",
+        "kind": "ricetta",
+        "title": "Zuppa di legumi con funghi settembrini secchi",
+        "url": "/ricette/zuppa-di-legumi-con-funghi-settembrini-secchi/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-033",
+      "album_slug": "033-cadore-inverno-2018",
+      "reference": {
+        "id": "anatra-in-salsa",
+        "kind": "ricetta",
+        "title": "Anatra in salsa",
+        "url": "/ricette/anatra-in-salsa/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-033",
+      "album_slug": "033-cadore-inverno-2018",
+      "reference": {
+        "id": "antipasto-di-canocce",
+        "kind": "ricetta",
+        "title": "Antipasto di canocce",
+        "url": "/ricette/antipasto-di-canocce/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-033",
+      "album_slug": "033-cadore-inverno-2018",
+      "reference": {
+        "id": "bigoli-in-salsa",
+        "kind": "ricetta",
+        "title": "Bigoli in salsa",
+        "url": "/ricette/bigoli-in-salsa/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-033",
+      "album_slug": "033-cadore-inverno-2018",
+      "reference": {
+        "id": "fusilli-carciofi-e-salmone",
+        "kind": "ricetta",
+        "title": "Fusilli carciofi e salmone",
+        "url": "/ricette/fusilli-carciofi-e-salmone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-033",
+      "album_slug": "033-cadore-inverno-2018",
+      "reference": {
+        "id": "gnocchi-con-le-trombette-dei-morti",
+        "kind": "ricetta",
+        "title": "Gnocchi con le trombette dei morti",
+        "url": "/ricette/gnocchi-con-le-trombette-dei-morti/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-033",
+      "album_slug": "033-cadore-inverno-2018",
+      "reference": {
+        "id": "pasta-con-le-melanzane",
+        "kind": "ricetta",
+        "title": "Pasta con le melanzane",
+        "url": "/ricette/pasta-con-le-melanzane/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-033",
+      "album_slug": "033-cadore-inverno-2018",
+      "reference": {
+        "id": "pasta-e-fagioli",
+        "kind": "ricetta",
+        "title": "Pasta e fagioli",
+        "url": "/ricette/pasta-e-fagioli/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-033",
+      "album_slug": "033-cadore-inverno-2018",
+      "reference": {
+        "id": "penne-con-mazzancolle-alle-verdure",
+        "kind": "ricetta",
+        "title": "Penne con mazzancolle alle verdure",
+        "url": "/ricette/penne-con-mazzancolle-alle-verdure/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-033",
+      "album_slug": "033-cadore-inverno-2018",
+      "reference": {
+        "id": "penne-con-zucchine",
+        "kind": "ricetta",
+        "title": "Penne con zucchine",
+        "url": "/ricette/penne-con-zucchine/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-033",
+      "album_slug": "033-cadore-inverno-2018",
+      "reference": {
+        "id": "straccetti-di-pollo-al-limone",
+        "kind": "ricetta",
+        "title": "Straccetti di pollo al limone",
+        "url": "/ricette/straccetti-di-pollo-al-limone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-033",
+      "album_slug": "033-cadore-inverno-2018",
+      "reference": {
+        "id": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
+        "kind": "ricetta",
+        "title": "Straccetti su letto di porri con rucola e aceto balsamico di Modena",
+        "url": "/ricette/straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-033",
+      "album_slug": "033-cadore-inverno-2018",
+      "reference": {
+        "id": "tagliate",
+        "kind": "ricetta",
+        "title": "Tagliate",
+        "url": "/ricette/tagliate/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-033",
+      "album_slug": "033-cadore-inverno-2018",
+      "reference": {
+        "id": "zuppa-di-legumi-con-funghi-settembrini-secchi",
+        "kind": "ricetta",
+        "title": "Zuppa di legumi con funghi settembrini secchi",
+        "url": "/ricette/zuppa-di-legumi-con-funghi-settembrini-secchi/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-035",
+      "album_slug": "035-viaggio-in-croazia-2017",
+      "reference": {
+        "id": "filettino-di-maiale",
+        "kind": "ricetta",
+        "title": "Filettin o di maiale",
+        "url": "/ricette/filettino-di-maiale/",
+        "geography": [
+          "croazia-hvar"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_generale",
+      "common_id": "croazia",
+      "automatic": true,
+      "left_path": "Croazia",
+      "right_path": "Croazia / Hvar"
+    },
+    {
+      "album_id": "album-045",
+      "album_slug": "045-cadore-2013-2014",
+      "reference": {
+        "id": "anatra-in-salsa",
+        "kind": "ricetta",
+        "title": "Anatra in salsa",
+        "url": "/ricette/anatra-in-salsa/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-045",
+      "album_slug": "045-cadore-2013-2014",
+      "reference": {
+        "id": "antipasto-di-canocce",
+        "kind": "ricetta",
+        "title": "Antipasto di canocce",
+        "url": "/ricette/antipasto-di-canocce/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-045",
+      "album_slug": "045-cadore-2013-2014",
+      "reference": {
+        "id": "bigoli-in-salsa",
+        "kind": "ricetta",
+        "title": "Bigoli in salsa",
+        "url": "/ricette/bigoli-in-salsa/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-045",
+      "album_slug": "045-cadore-2013-2014",
+      "reference": {
+        "id": "fusilli-carciofi-e-salmone",
+        "kind": "ricetta",
+        "title": "Fusilli carciofi e salmone",
+        "url": "/ricette/fusilli-carciofi-e-salmone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-045",
+      "album_slug": "045-cadore-2013-2014",
+      "reference": {
+        "id": "gnocchi-con-le-trombette-dei-morti",
+        "kind": "ricetta",
+        "title": "Gnocchi con le trombette dei morti",
+        "url": "/ricette/gnocchi-con-le-trombette-dei-morti/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-045",
+      "album_slug": "045-cadore-2013-2014",
+      "reference": {
+        "id": "pasta-con-le-melanzane",
+        "kind": "ricetta",
+        "title": "Pasta con le melanzane",
+        "url": "/ricette/pasta-con-le-melanzane/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-045",
+      "album_slug": "045-cadore-2013-2014",
+      "reference": {
+        "id": "pasta-e-fagioli",
+        "kind": "ricetta",
+        "title": "Pasta e fagioli",
+        "url": "/ricette/pasta-e-fagioli/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-045",
+      "album_slug": "045-cadore-2013-2014",
+      "reference": {
+        "id": "penne-con-mazzancolle-alle-verdure",
+        "kind": "ricetta",
+        "title": "Penne con mazzancolle alle verdure",
+        "url": "/ricette/penne-con-mazzancolle-alle-verdure/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-045",
+      "album_slug": "045-cadore-2013-2014",
+      "reference": {
+        "id": "penne-con-zucchine",
+        "kind": "ricetta",
+        "title": "Penne con zucchine",
+        "url": "/ricette/penne-con-zucchine/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-045",
+      "album_slug": "045-cadore-2013-2014",
+      "reference": {
+        "id": "straccetti-di-pollo-al-limone",
+        "kind": "ricetta",
+        "title": "Straccetti di pollo al limone",
+        "url": "/ricette/straccetti-di-pollo-al-limone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-045",
+      "album_slug": "045-cadore-2013-2014",
+      "reference": {
+        "id": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
+        "kind": "ricetta",
+        "title": "Straccetti su letto di porri con rucola e aceto balsamico di Modena",
+        "url": "/ricette/straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-045",
+      "album_slug": "045-cadore-2013-2014",
+      "reference": {
+        "id": "tagliate",
+        "kind": "ricetta",
+        "title": "Tagliate",
+        "url": "/ricette/tagliate/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-045",
+      "album_slug": "045-cadore-2013-2014",
+      "reference": {
+        "id": "zuppa-di-legumi-con-funghi-settembrini-secchi",
+        "kind": "ricetta",
+        "title": "Zuppa di legumi con funghi settembrini secchi",
+        "url": "/ricette/zuppa-di-legumi-con-funghi-settembrini-secchi/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-057",
+      "album_slug": "057-hvar-2011",
+      "reference": {
+        "id": "filettino-di-maiale",
+        "kind": "ricetta",
+        "title": "Filettin o di maiale",
+        "url": "/ricette/filettino-di-maiale/",
+        "geography": [
+          "croazia-hvar"
+        ]
+      },
+      "score": 100,
+      "relation": "stesso_termine",
+      "common_id": "croazia-hvar",
+      "automatic": true,
+      "left_path": "Croazia / Hvar",
+      "right_path": "Croazia / Hvar"
+    },
+    {
+      "album_id": "album-106",
+      "album_slug": "106-san-germano-2005",
+      "reference": {
+        "id": "antipastino-piemontese",
+        "kind": "ricetta",
+        "title": "Antipast(ino) piemontese",
+        "url": "/ricette/antipastino-piemontese/",
+        "geography": [
+          "italia-piemonte"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-piemonte",
+      "automatic": false,
+      "left_path": "Italia / Piemonte / Provincia d Torino / San Germano",
+      "right_path": "Italia / Piemonte"
+    },
+    {
+      "album_id": "album-106",
+      "album_slug": "106-san-germano-2005",
+      "reference": {
+        "id": "bagna-cauda",
+        "kind": "ricetta",
+        "title": "Bagna cauda",
+        "url": "/ricette/bagna-cauda/",
+        "geography": [
+          "italia-piemonte"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-piemonte",
+      "automatic": false,
+      "left_path": "Italia / Piemonte / Provincia d Torino / San Germano",
+      "right_path": "Italia / Piemonte"
+    },
+    {
+      "album_id": "album-106",
+      "album_slug": "106-san-germano-2005",
+      "reference": {
+        "id": "fusilli-carciofi-e-salmone",
+        "kind": "ricetta",
+        "title": "Fusilli carciofi e salmone",
+        "url": "/ricette/fusilli-carciofi-e-salmone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Piemonte / Provincia d Torino / San Germano",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-106",
+      "album_slug": "106-san-germano-2005",
+      "reference": {
+        "id": "penne-con-zucchine",
+        "kind": "ricetta",
+        "title": "Penne con zucchine",
+        "url": "/ricette/penne-con-zucchine/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Piemonte / Provincia d Torino / San Germano",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-106",
+      "album_slug": "106-san-germano-2005",
+      "reference": {
+        "id": "salsa-verde",
+        "kind": "ricetta",
+        "title": "Salsa verde",
+        "url": "/ricette/salsa-verde/",
+        "geography": [
+          "italia-piemonte"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-piemonte",
+      "automatic": false,
+      "left_path": "Italia / Piemonte / Provincia d Torino / San Germano",
+      "right_path": "Italia / Piemonte"
+    },
+    {
+      "album_id": "album-106",
+      "album_slug": "106-san-germano-2005",
+      "reference": {
+        "id": "straccetti-di-pollo-al-limone",
+        "kind": "ricetta",
+        "title": "Straccetti di pollo al limone",
+        "url": "/ricette/straccetti-di-pollo-al-limone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Piemonte / Provincia d Torino / San Germano",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-106",
+      "album_slug": "106-san-germano-2005",
+      "reference": {
+        "id": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
+        "kind": "ricetta",
+        "title": "Straccetti su letto di porri con rucola e aceto balsamico di Modena",
+        "url": "/ricette/straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Piemonte / Provincia d Torino / San Germano",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-106",
+      "album_slug": "106-san-germano-2005",
+      "reference": {
+        "id": "tagliate",
+        "kind": "ricetta",
+        "title": "Tagliate",
+        "url": "/ricette/tagliate/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Piemonte / Provincia d Torino / San Germano",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-106",
+      "album_slug": "106-san-germano-2005",
+      "reference": {
+        "id": "vitello-tonnato",
+        "kind": "ricetta",
+        "title": "Vitello tonnato",
+        "url": "/ricette/vitello-tonnato/",
+        "geography": [
+          "italia-piemonte"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-piemonte",
+      "automatic": false,
+      "left_path": "Italia / Piemonte / Provincia d Torino / San Germano",
+      "right_path": "Italia / Piemonte"
+    },
+    {
+      "album_id": "album-106",
+      "album_slug": "106-san-germano-2005",
+      "reference": {
+        "id": "zuppa-di-legumi-con-funghi-settembrini-secchi",
+        "kind": "ricetta",
+        "title": "Zuppa di legumi con funghi settembrini secchi",
+        "url": "/ricette/zuppa-di-legumi-con-funghi-settembrini-secchi/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Piemonte / Provincia d Torino / San Germano",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-125",
+      "album_slug": "125-hvar-hr-1986",
+      "reference": {
+        "id": "filettino-di-maiale",
+        "kind": "ricetta",
+        "title": "Filettin o di maiale",
+        "url": "/ricette/filettino-di-maiale/",
+        "geography": [
+          "croazia-hvar"
+        ]
+      },
+      "score": 100,
+      "relation": "stesso_termine",
+      "common_id": "croazia-hvar",
+      "automatic": true,
+      "left_path": "Croazia / Hvar",
+      "right_path": "Croazia / Hvar"
+    },
+    {
+      "album_id": "album-131",
+      "album_slug": "131-san-germano-dintorni-1985",
+      "reference": {
+        "id": "antipastino-piemontese",
+        "kind": "ricetta",
+        "title": "Antipast(ino) piemontese",
+        "url": "/ricette/antipastino-piemontese/",
+        "geography": [
+          "italia-piemonte"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-piemonte",
+      "automatic": false,
+      "left_path": "Italia / Piemonte / Provincia d Torino / San Germano",
+      "right_path": "Italia / Piemonte"
+    },
+    {
+      "album_id": "album-131",
+      "album_slug": "131-san-germano-dintorni-1985",
+      "reference": {
+        "id": "bagna-cauda",
+        "kind": "ricetta",
+        "title": "Bagna cauda",
+        "url": "/ricette/bagna-cauda/",
+        "geography": [
+          "italia-piemonte"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-piemonte",
+      "automatic": false,
+      "left_path": "Italia / Piemonte / Provincia d Torino / San Germano",
+      "right_path": "Italia / Piemonte"
+    },
+    {
+      "album_id": "album-131",
+      "album_slug": "131-san-germano-dintorni-1985",
+      "reference": {
+        "id": "fusilli-carciofi-e-salmone",
+        "kind": "ricetta",
+        "title": "Fusilli carciofi e salmone",
+        "url": "/ricette/fusilli-carciofi-e-salmone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Piemonte / Provincia d Torino / San Germano",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-131",
+      "album_slug": "131-san-germano-dintorni-1985",
+      "reference": {
+        "id": "penne-con-zucchine",
+        "kind": "ricetta",
+        "title": "Penne con zucchine",
+        "url": "/ricette/penne-con-zucchine/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Piemonte / Provincia d Torino / San Germano",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-131",
+      "album_slug": "131-san-germano-dintorni-1985",
+      "reference": {
+        "id": "salsa-verde",
+        "kind": "ricetta",
+        "title": "Salsa verde",
+        "url": "/ricette/salsa-verde/",
+        "geography": [
+          "italia-piemonte"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-piemonte",
+      "automatic": false,
+      "left_path": "Italia / Piemonte / Provincia d Torino / San Germano",
+      "right_path": "Italia / Piemonte"
+    },
+    {
+      "album_id": "album-131",
+      "album_slug": "131-san-germano-dintorni-1985",
+      "reference": {
+        "id": "straccetti-di-pollo-al-limone",
+        "kind": "ricetta",
+        "title": "Straccetti di pollo al limone",
+        "url": "/ricette/straccetti-di-pollo-al-limone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Piemonte / Provincia d Torino / San Germano",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-131",
+      "album_slug": "131-san-germano-dintorni-1985",
+      "reference": {
+        "id": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
+        "kind": "ricetta",
+        "title": "Straccetti su letto di porri con rucola e aceto balsamico di Modena",
+        "url": "/ricette/straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Piemonte / Provincia d Torino / San Germano",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-131",
+      "album_slug": "131-san-germano-dintorni-1985",
+      "reference": {
+        "id": "tagliate",
+        "kind": "ricetta",
+        "title": "Tagliate",
+        "url": "/ricette/tagliate/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Piemonte / Provincia d Torino / San Germano",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-131",
+      "album_slug": "131-san-germano-dintorni-1985",
+      "reference": {
+        "id": "vitello-tonnato",
+        "kind": "ricetta",
+        "title": "Vitello tonnato",
+        "url": "/ricette/vitello-tonnato/",
+        "geography": [
+          "italia-piemonte"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-piemonte",
+      "automatic": false,
+      "left_path": "Italia / Piemonte / Provincia d Torino / San Germano",
+      "right_path": "Italia / Piemonte"
+    },
+    {
+      "album_id": "album-131",
+      "album_slug": "131-san-germano-dintorni-1985",
+      "reference": {
+        "id": "zuppa-di-legumi-con-funghi-settembrini-secchi",
+        "kind": "ricetta",
+        "title": "Zuppa di legumi con funghi settembrini secchi",
+        "url": "/ricette/zuppa-di-legumi-con-funghi-settembrini-secchi/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Piemonte / Provincia d Torino / San Germano",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-133",
+      "album_slug": "133-san-germano-e-dintorni-1984",
+      "reference": {
+        "id": "antipastino-piemontese",
+        "kind": "ricetta",
+        "title": "Antipast(ino) piemontese",
+        "url": "/ricette/antipastino-piemontese/",
+        "geography": [
+          "italia-piemonte"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-piemonte",
+      "automatic": false,
+      "left_path": "Italia / Piemonte / Provincia d Torino / San Germano",
+      "right_path": "Italia / Piemonte"
+    },
+    {
+      "album_id": "album-133",
+      "album_slug": "133-san-germano-e-dintorni-1984",
+      "reference": {
+        "id": "bagna-cauda",
+        "kind": "ricetta",
+        "title": "Bagna cauda",
+        "url": "/ricette/bagna-cauda/",
+        "geography": [
+          "italia-piemonte"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-piemonte",
+      "automatic": false,
+      "left_path": "Italia / Piemonte / Provincia d Torino / San Germano",
+      "right_path": "Italia / Piemonte"
+    },
+    {
+      "album_id": "album-133",
+      "album_slug": "133-san-germano-e-dintorni-1984",
+      "reference": {
+        "id": "fusilli-carciofi-e-salmone",
+        "kind": "ricetta",
+        "title": "Fusilli carciofi e salmone",
+        "url": "/ricette/fusilli-carciofi-e-salmone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Piemonte / Provincia d Torino / San Germano",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-133",
+      "album_slug": "133-san-germano-e-dintorni-1984",
+      "reference": {
+        "id": "penne-con-zucchine",
+        "kind": "ricetta",
+        "title": "Penne con zucchine",
+        "url": "/ricette/penne-con-zucchine/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Piemonte / Provincia d Torino / San Germano",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-133",
+      "album_slug": "133-san-germano-e-dintorni-1984",
+      "reference": {
+        "id": "salsa-verde",
+        "kind": "ricetta",
+        "title": "Salsa verde",
+        "url": "/ricette/salsa-verde/",
+        "geography": [
+          "italia-piemonte"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-piemonte",
+      "automatic": false,
+      "left_path": "Italia / Piemonte / Provincia d Torino / San Germano",
+      "right_path": "Italia / Piemonte"
+    },
+    {
+      "album_id": "album-133",
+      "album_slug": "133-san-germano-e-dintorni-1984",
+      "reference": {
+        "id": "straccetti-di-pollo-al-limone",
+        "kind": "ricetta",
+        "title": "Straccetti di pollo al limone",
+        "url": "/ricette/straccetti-di-pollo-al-limone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Piemonte / Provincia d Torino / San Germano",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-133",
+      "album_slug": "133-san-germano-e-dintorni-1984",
+      "reference": {
+        "id": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
+        "kind": "ricetta",
+        "title": "Straccetti su letto di porri con rucola e aceto balsamico di Modena",
+        "url": "/ricette/straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Piemonte / Provincia d Torino / San Germano",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-133",
+      "album_slug": "133-san-germano-e-dintorni-1984",
+      "reference": {
+        "id": "tagliate",
+        "kind": "ricetta",
+        "title": "Tagliate",
+        "url": "/ricette/tagliate/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Piemonte / Provincia d Torino / San Germano",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-133",
+      "album_slug": "133-san-germano-e-dintorni-1984",
+      "reference": {
+        "id": "vitello-tonnato",
+        "kind": "ricetta",
+        "title": "Vitello tonnato",
+        "url": "/ricette/vitello-tonnato/",
+        "geography": [
+          "italia-piemonte"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-piemonte",
+      "automatic": false,
+      "left_path": "Italia / Piemonte / Provincia d Torino / San Germano",
+      "right_path": "Italia / Piemonte"
+    },
+    {
+      "album_id": "album-133",
+      "album_slug": "133-san-germano-e-dintorni-1984",
+      "reference": {
+        "id": "zuppa-di-legumi-con-funghi-settembrini-secchi",
+        "kind": "ricetta",
+        "title": "Zuppa di legumi con funghi settembrini secchi",
+        "url": "/ricette/zuppa-di-legumi-con-funghi-settembrini-secchi/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Piemonte / Provincia d Torino / San Germano",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-046",
+      "album_slug": "046-casa-zanetti-lozzo-di-cadore",
+      "reference": {
+        "id": "anatra-in-salsa",
+        "kind": "ricetta",
+        "title": "Anatra in salsa",
+        "url": "/ricette/anatra-in-salsa/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-046",
+      "album_slug": "046-casa-zanetti-lozzo-di-cadore",
+      "reference": {
+        "id": "antipasto-di-canocce",
+        "kind": "ricetta",
+        "title": "Antipasto di canocce",
+        "url": "/ricette/antipasto-di-canocce/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-046",
+      "album_slug": "046-casa-zanetti-lozzo-di-cadore",
+      "reference": {
+        "id": "bigoli-in-salsa",
+        "kind": "ricetta",
+        "title": "Bigoli in salsa",
+        "url": "/ricette/bigoli-in-salsa/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-046",
+      "album_slug": "046-casa-zanetti-lozzo-di-cadore",
+      "reference": {
+        "id": "fusilli-carciofi-e-salmone",
+        "kind": "ricetta",
+        "title": "Fusilli carciofi e salmone",
+        "url": "/ricette/fusilli-carciofi-e-salmone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-046",
+      "album_slug": "046-casa-zanetti-lozzo-di-cadore",
+      "reference": {
+        "id": "gnocchi-con-le-trombette-dei-morti",
+        "kind": "ricetta",
+        "title": "Gnocchi con le trombette dei morti",
+        "url": "/ricette/gnocchi-con-le-trombette-dei-morti/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-046",
+      "album_slug": "046-casa-zanetti-lozzo-di-cadore",
+      "reference": {
+        "id": "pasta-con-le-melanzane",
+        "kind": "ricetta",
+        "title": "Pasta con le melanzane",
+        "url": "/ricette/pasta-con-le-melanzane/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-046",
+      "album_slug": "046-casa-zanetti-lozzo-di-cadore",
+      "reference": {
+        "id": "pasta-e-fagioli",
+        "kind": "ricetta",
+        "title": "Pasta e fagioli",
+        "url": "/ricette/pasta-e-fagioli/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-046",
+      "album_slug": "046-casa-zanetti-lozzo-di-cadore",
+      "reference": {
+        "id": "penne-con-mazzancolle-alle-verdure",
+        "kind": "ricetta",
+        "title": "Penne con mazzancolle alle verdure",
+        "url": "/ricette/penne-con-mazzancolle-alle-verdure/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-046",
+      "album_slug": "046-casa-zanetti-lozzo-di-cadore",
+      "reference": {
+        "id": "penne-con-zucchine",
+        "kind": "ricetta",
+        "title": "Penne con zucchine",
+        "url": "/ricette/penne-con-zucchine/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-046",
+      "album_slug": "046-casa-zanetti-lozzo-di-cadore",
+      "reference": {
+        "id": "straccetti-di-pollo-al-limone",
+        "kind": "ricetta",
+        "title": "Straccetti di pollo al limone",
+        "url": "/ricette/straccetti-di-pollo-al-limone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-046",
+      "album_slug": "046-casa-zanetti-lozzo-di-cadore",
+      "reference": {
+        "id": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
+        "kind": "ricetta",
+        "title": "Straccetti su letto di porri con rucola e aceto balsamico di Modena",
+        "url": "/ricette/straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-046",
+      "album_slug": "046-casa-zanetti-lozzo-di-cadore",
+      "reference": {
+        "id": "tagliate",
+        "kind": "ricetta",
+        "title": "Tagliate",
+        "url": "/ricette/tagliate/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-046",
+      "album_slug": "046-casa-zanetti-lozzo-di-cadore",
+      "reference": {
+        "id": "zuppa-di-legumi-con-funghi-settembrini-secchi",
+        "kind": "ricetta",
+        "title": "Zuppa di legumi con funghi settembrini secchi",
+        "url": "/ricette/zuppa-di-legumi-con-funghi-settembrini-secchi/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "left_path": "Italia / Veneto / Belluno / Cadore",
+      "right_path": "Italia"
+    }
+  ]
+}
