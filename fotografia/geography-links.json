@@ -44,14 +44,6 @@
       "photography_url": "/fotografia/geografia/annecy/"
     },
     {
-      "geography_id": "anterselva",
-      "recipe_anchor": null,
-      "album_ids": [
-        "album-039"
-      ],
-      "photography_url": "/fotografia/geografia/anterselva/"
-    },
-    {
       "geography_id": "ardeche",
       "recipe_anchor": null,
       "album_ids": [
@@ -121,7 +113,6 @@
       "geography_id": "berlino",
       "recipe_anchor": null,
       "album_ids": [
-        "album-056",
         "album-104"
       ],
       "photography_url": "/fotografia/geografia/berlino/"
@@ -221,8 +212,6 @@
         "album-022",
         "album-024",
         "album-029",
-        "album-032",
-        "album-033",
         "album-045",
         "album-046"
       ],
@@ -269,28 +258,12 @@
       "photography_url": "/fotografia/geografia/cape-tribulation/"
     },
     {
-      "geography_id": "capraia",
-      "recipe_anchor": null,
-      "album_ids": [
-        "album-031"
-      ],
-      "photography_url": "/fotografia/geografia/capraia/"
-    },
-    {
       "geography_id": "cascata-del-pis",
       "recipe_anchor": null,
       "album_ids": [
         "album-128"
       ],
       "photography_url": "/fotografia/geografia/cascata-del-pis/"
-    },
-    {
-      "geography_id": "cassis",
-      "recipe_anchor": null,
-      "album_ids": [
-        "album-040"
-      ],
-      "photography_url": "/fotografia/geografia/cassis/"
     },
     {
       "geography_id": "castello-di-tocchi",
@@ -322,8 +295,7 @@
       "album_ids": [
         "album-002",
         "album-004",
-        "album-009",
-        "album-035"
+        "album-009"
       ],
       "photography_url": "/fotografia/geografia/croazia/"
     },
@@ -371,14 +343,6 @@
         "album-103"
       ],
       "photography_url": "/fotografia/geografia/dubrovnik/"
-    },
-    {
-      "geography_id": "dugj-otok",
-      "recipe_anchor": null,
-      "album_ids": [
-        "album-036"
-      ],
-      "photography_url": "/fotografia/geografia/dugj-otok/"
     },
     {
       "geography_id": "erto",
@@ -657,14 +621,6 @@
       "photography_url": "/fotografia/geografia/marmolada/"
     },
     {
-      "geography_id": "marseille",
-      "recipe_anchor": null,
-      "album_ids": [
-        "album-040"
-      ],
-      "photography_url": "/fotografia/geografia/marseille/"
-    },
-    {
       "geography_id": "mary-river",
       "recipe_anchor": null,
       "album_ids": [
@@ -798,14 +754,6 @@
       "photography_url": "/fotografia/geografia/port-douglas/"
     },
     {
-      "geography_id": "portogallo",
-      "recipe_anchor": null,
-      "album_ids": [
-        "album-042"
-      ],
-      "photography_url": "/fotografia/geografia/portogallo/"
-    },
-    {
       "geography_id": "praga",
       "recipe_anchor": null,
       "album_ids": [
@@ -888,15 +836,6 @@
       "photography_url": "/fotografia/geografia/rolle/"
     },
     {
-      "geography_id": "romania",
-      "recipe_anchor": null,
-      "album_ids": [
-        "album-037",
-        "album-038"
-      ],
-      "photography_url": "/fotografia/geografia/romania/"
-    },
-    {
       "geography_id": "salisburgo",
       "recipe_anchor": null,
       "album_ids": [
@@ -921,14 +860,6 @@
         "album-082"
       ],
       "photography_url": "/fotografia/geografia/san-martino/"
-    },
-    {
-      "geography_id": "scozia",
-      "recipe_anchor": null,
-      "album_ids": [
-        "album-034"
-      ],
-      "photography_url": "/fotografia/geografia/scozia/"
     },
     {
       "geography_id": "sella-ronda",
@@ -993,14 +924,6 @@
         "album-073"
       ],
       "photography_url": "/fotografia/geografia/triglav/"
-    },
-    {
-      "geography_id": "urbino",
-      "recipe_anchor": null,
-      "album_ids": [
-        "album-041"
-      ],
-      "photography_url": "/fotografia/geografia/urbino/"
     },
     {
       "geography_id": "val-brembana",
@@ -1083,14 +1006,6 @@
         "album-065"
       ],
       "photography_url": "/fotografia/geografia/withsundays-islands/"
-    },
-    {
-      "geography_id": "zara",
-      "recipe_anchor": null,
-      "album_ids": [
-        "album-036"
-      ],
-      "photography_url": "/fotografia/geografia/zara/"
     },
     {
       "geography_id": "zortea",
@@ -4559,519 +4474,6 @@
       "automatic": false,
       "left_path": "Italia / Veneto / Belluno / Cadore",
       "right_path": "Italia"
-    },
-    {
-      "album_id": "album-032",
-      "album_slug": "032-cadore-primavera-2018",
-      "reference": {
-        "id": "anatra-in-salsa",
-        "kind": "ricetta",
-        "title": "Anatra in salsa",
-        "url": "/ricette/anatra-in-salsa/",
-        "geography": [
-          "italia-veneto"
-        ]
-      },
-      "score": 80,
-      "relation": "piu_specifico",
-      "common_id": "italia-veneto",
-      "automatic": false,
-      "left_path": "Italia / Veneto / Belluno / Cadore",
-      "right_path": "Italia / Veneto"
-    },
-    {
-      "album_id": "album-032",
-      "album_slug": "032-cadore-primavera-2018",
-      "reference": {
-        "id": "antipasto-di-canocce",
-        "kind": "ricetta",
-        "title": "Antipasto di canocce",
-        "url": "/ricette/antipasto-di-canocce/",
-        "geography": [
-          "italia-veneto"
-        ]
-      },
-      "score": 80,
-      "relation": "piu_specifico",
-      "common_id": "italia-veneto",
-      "automatic": false,
-      "left_path": "Italia / Veneto / Belluno / Cadore",
-      "right_path": "Italia / Veneto"
-    },
-    {
-      "album_id": "album-032",
-      "album_slug": "032-cadore-primavera-2018",
-      "reference": {
-        "id": "bigoli-in-salsa",
-        "kind": "ricetta",
-        "title": "Bigoli in salsa",
-        "url": "/ricette/bigoli-in-salsa/",
-        "geography": [
-          "italia-veneto"
-        ]
-      },
-      "score": 80,
-      "relation": "piu_specifico",
-      "common_id": "italia-veneto",
-      "automatic": false,
-      "left_path": "Italia / Veneto / Belluno / Cadore",
-      "right_path": "Italia / Veneto"
-    },
-    {
-      "album_id": "album-032",
-      "album_slug": "032-cadore-primavera-2018",
-      "reference": {
-        "id": "fusilli-carciofi-e-salmone",
-        "kind": "ricetta",
-        "title": "Fusilli carciofi e salmone",
-        "url": "/ricette/fusilli-carciofi-e-salmone/",
-        "geography": [
-          "italia"
-        ]
-      },
-      "score": 70,
-      "relation": "piu_specifico",
-      "common_id": "italia",
-      "automatic": false,
-      "left_path": "Italia / Veneto / Belluno / Cadore",
-      "right_path": "Italia"
-    },
-    {
-      "album_id": "album-032",
-      "album_slug": "032-cadore-primavera-2018",
-      "reference": {
-        "id": "gnocchi-con-le-trombette-dei-morti",
-        "kind": "ricetta",
-        "title": "Gnocchi con le trombette dei morti",
-        "url": "/ricette/gnocchi-con-le-trombette-dei-morti/",
-        "geography": [
-          "italia-veneto"
-        ]
-      },
-      "score": 80,
-      "relation": "piu_specifico",
-      "common_id": "italia-veneto",
-      "automatic": false,
-      "left_path": "Italia / Veneto / Belluno / Cadore",
-      "right_path": "Italia / Veneto"
-    },
-    {
-      "album_id": "album-032",
-      "album_slug": "032-cadore-primavera-2018",
-      "reference": {
-        "id": "pasta-con-le-melanzane",
-        "kind": "ricetta",
-        "title": "Pasta con le melanzane",
-        "url": "/ricette/pasta-con-le-melanzane/",
-        "geography": [
-          "italia-veneto"
-        ]
-      },
-      "score": 80,
-      "relation": "piu_specifico",
-      "common_id": "italia-veneto",
-      "automatic": false,
-      "left_path": "Italia / Veneto / Belluno / Cadore",
-      "right_path": "Italia / Veneto"
-    },
-    {
-      "album_id": "album-032",
-      "album_slug": "032-cadore-primavera-2018",
-      "reference": {
-        "id": "pasta-e-fagioli",
-        "kind": "ricetta",
-        "title": "Pasta e fagioli",
-        "url": "/ricette/pasta-e-fagioli/",
-        "geography": [
-          "italia-veneto"
-        ]
-      },
-      "score": 80,
-      "relation": "piu_specifico",
-      "common_id": "italia-veneto",
-      "automatic": false,
-      "left_path": "Italia / Veneto / Belluno / Cadore",
-      "right_path": "Italia / Veneto"
-    },
-    {
-      "album_id": "album-032",
-      "album_slug": "032-cadore-primavera-2018",
-      "reference": {
-        "id": "penne-con-mazzancolle-alle-verdure",
-        "kind": "ricetta",
-        "title": "Penne con mazzancolle alle verdure",
-        "url": "/ricette/penne-con-mazzancolle-alle-verdure/",
-        "geography": [
-          "italia-veneto"
-        ]
-      },
-      "score": 80,
-      "relation": "piu_specifico",
-      "common_id": "italia-veneto",
-      "automatic": false,
-      "left_path": "Italia / Veneto / Belluno / Cadore",
-      "right_path": "Italia / Veneto"
-    },
-    {
-      "album_id": "album-032",
-      "album_slug": "032-cadore-primavera-2018",
-      "reference": {
-        "id": "penne-con-zucchine",
-        "kind": "ricetta",
-        "title": "Penne con zucchine",
-        "url": "/ricette/penne-con-zucchine/",
-        "geography": [
-          "italia"
-        ]
-      },
-      "score": 70,
-      "relation": "piu_specifico",
-      "common_id": "italia",
-      "automatic": false,
-      "left_path": "Italia / Veneto / Belluno / Cadore",
-      "right_path": "Italia"
-    },
-    {
-      "album_id": "album-032",
-      "album_slug": "032-cadore-primavera-2018",
-      "reference": {
-        "id": "straccetti-di-pollo-al-limone",
-        "kind": "ricetta",
-        "title": "Straccetti di pollo al limone",
-        "url": "/ricette/straccetti-di-pollo-al-limone/",
-        "geography": [
-          "italia"
-        ]
-      },
-      "score": 70,
-      "relation": "piu_specifico",
-      "common_id": "italia",
-      "automatic": false,
-      "left_path": "Italia / Veneto / Belluno / Cadore",
-      "right_path": "Italia"
-    },
-    {
-      "album_id": "album-032",
-      "album_slug": "032-cadore-primavera-2018",
-      "reference": {
-        "id": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
-        "kind": "ricetta",
-        "title": "Straccetti su letto di porri con rucola e aceto balsamico di Modena",
-        "url": "/ricette/straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena/",
-        "geography": [
-          "italia"
-        ]
-      },
-      "score": 70,
-      "relation": "piu_specifico",
-      "common_id": "italia",
-      "automatic": false,
-      "left_path": "Italia / Veneto / Belluno / Cadore",
-      "right_path": "Italia"
-    },
-    {
-      "album_id": "album-032",
-      "album_slug": "032-cadore-primavera-2018",
-      "reference": {
-        "id": "tagliate",
-        "kind": "ricetta",
-        "title": "Tagliate",
-        "url": "/ricette/tagliate/",
-        "geography": [
-          "italia"
-        ]
-      },
-      "score": 70,
-      "relation": "piu_specifico",
-      "common_id": "italia",
-      "automatic": false,
-      "left_path": "Italia / Veneto / Belluno / Cadore",
-      "right_path": "Italia"
-    },
-    {
-      "album_id": "album-032",
-      "album_slug": "032-cadore-primavera-2018",
-      "reference": {
-        "id": "zuppa-di-legumi-con-funghi-settembrini-secchi",
-        "kind": "ricetta",
-        "title": "Zuppa di legumi con funghi settembrini secchi",
-        "url": "/ricette/zuppa-di-legumi-con-funghi-settembrini-secchi/",
-        "geography": [
-          "italia"
-        ]
-      },
-      "score": 70,
-      "relation": "piu_specifico",
-      "common_id": "italia",
-      "automatic": false,
-      "left_path": "Italia / Veneto / Belluno / Cadore",
-      "right_path": "Italia"
-    },
-    {
-      "album_id": "album-033",
-      "album_slug": "033-cadore-inverno-2018",
-      "reference": {
-        "id": "anatra-in-salsa",
-        "kind": "ricetta",
-        "title": "Anatra in salsa",
-        "url": "/ricette/anatra-in-salsa/",
-        "geography": [
-          "italia-veneto"
-        ]
-      },
-      "score": 80,
-      "relation": "piu_specifico",
-      "common_id": "italia-veneto",
-      "automatic": false,
-      "left_path": "Italia / Veneto / Belluno / Cadore",
-      "right_path": "Italia / Veneto"
-    },
-    {
-      "album_id": "album-033",
-      "album_slug": "033-cadore-inverno-2018",
-      "reference": {
-        "id": "antipasto-di-canocce",
-        "kind": "ricetta",
-        "title": "Antipasto di canocce",
-        "url": "/ricette/antipasto-di-canocce/",
-        "geography": [
-          "italia-veneto"
-        ]
-      },
-      "score": 80,
-      "relation": "piu_specifico",
-      "common_id": "italia-veneto",
-      "automatic": false,
-      "left_path": "Italia / Veneto / Belluno / Cadore",
-      "right_path": "Italia / Veneto"
-    },
-    {
-      "album_id": "album-033",
-      "album_slug": "033-cadore-inverno-2018",
-      "reference": {
-        "id": "bigoli-in-salsa",
-        "kind": "ricetta",
-        "title": "Bigoli in salsa",
-        "url": "/ricette/bigoli-in-salsa/",
-        "geography": [
-          "italia-veneto"
-        ]
-      },
-      "score": 80,
-      "relation": "piu_specifico",
-      "common_id": "italia-veneto",
-      "automatic": false,
-      "left_path": "Italia / Veneto / Belluno / Cadore",
-      "right_path": "Italia / Veneto"
-    },
-    {
-      "album_id": "album-033",
-      "album_slug": "033-cadore-inverno-2018",
-      "reference": {
-        "id": "fusilli-carciofi-e-salmone",
-        "kind": "ricetta",
-        "title": "Fusilli carciofi e salmone",
-        "url": "/ricette/fusilli-carciofi-e-salmone/",
-        "geography": [
-          "italia"
-        ]
-      },
-      "score": 70,
-      "relation": "piu_specifico",
-      "common_id": "italia",
-      "automatic": false,
-      "left_path": "Italia / Veneto / Belluno / Cadore",
-      "right_path": "Italia"
-    },
-    {
-      "album_id": "album-033",
-      "album_slug": "033-cadore-inverno-2018",
-      "reference": {
-        "id": "gnocchi-con-le-trombette-dei-morti",
-        "kind": "ricetta",
-        "title": "Gnocchi con le trombette dei morti",
-        "url": "/ricette/gnocchi-con-le-trombette-dei-morti/",
-        "geography": [
-          "italia-veneto"
-        ]
-      },
-      "score": 80,
-      "relation": "piu_specifico",
-      "common_id": "italia-veneto",
-      "automatic": false,
-      "left_path": "Italia / Veneto / Belluno / Cadore",
-      "right_path": "Italia / Veneto"
-    },
-    {
-      "album_id": "album-033",
-      "album_slug": "033-cadore-inverno-2018",
-      "reference": {
-        "id": "pasta-con-le-melanzane",
-        "kind": "ricetta",
-        "title": "Pasta con le melanzane",
-        "url": "/ricette/pasta-con-le-melanzane/",
-        "geography": [
-          "italia-veneto"
-        ]
-      },
-      "score": 80,
-      "relation": "piu_specifico",
-      "common_id": "italia-veneto",
-      "automatic": false,
-      "left_path": "Italia / Veneto / Belluno / Cadore",
-      "right_path": "Italia / Veneto"
-    },
-    {
-      "album_id": "album-033",
-      "album_slug": "033-cadore-inverno-2018",
-      "reference": {
-        "id": "pasta-e-fagioli",
-        "kind": "ricetta",
-        "title": "Pasta e fagioli",
-        "url": "/ricette/pasta-e-fagioli/",
-        "geography": [
-          "italia-veneto"
-        ]
-      },
-      "score": 80,
-      "relation": "piu_specifico",
-      "common_id": "italia-veneto",
-      "automatic": false,
-      "left_path": "Italia / Veneto / Belluno / Cadore",
-      "right_path": "Italia / Veneto"
-    },
-    {
-      "album_id": "album-033",
-      "album_slug": "033-cadore-inverno-2018",
-      "reference": {
-        "id": "penne-con-mazzancolle-alle-verdure",
-        "kind": "ricetta",
-        "title": "Penne con mazzancolle alle verdure",
-        "url": "/ricette/penne-con-mazzancolle-alle-verdure/",
-        "geography": [
-          "italia-veneto"
-        ]
-      },
-      "score": 80,
-      "relation": "piu_specifico",
-      "common_id": "italia-veneto",
-      "automatic": false,
-      "left_path": "Italia / Veneto / Belluno / Cadore",
-      "right_path": "Italia / Veneto"
-    },
-    {
-      "album_id": "album-033",
-      "album_slug": "033-cadore-inverno-2018",
-      "reference": {
-        "id": "penne-con-zucchine",
-        "kind": "ricetta",
-        "title": "Penne con zucchine",
-        "url": "/ricette/penne-con-zucchine/",
-        "geography": [
-          "italia"
-        ]
-      },
-      "score": 70,
-      "relation": "piu_specifico",
-      "common_id": "italia",
-      "automatic": false,
-      "left_path": "Italia / Veneto / Belluno / Cadore",
-      "right_path": "Italia"
-    },
-    {
-      "album_id": "album-033",
-      "album_slug": "033-cadore-inverno-2018",
-      "reference": {
-        "id": "straccetti-di-pollo-al-limone",
-        "kind": "ricetta",
-        "title": "Straccetti di pollo al limone",
-        "url": "/ricette/straccetti-di-pollo-al-limone/",
-        "geography": [
-          "italia"
-        ]
-      },
-      "score": 70,
-      "relation": "piu_specifico",
-      "common_id": "italia",
-      "automatic": false,
-      "left_path": "Italia / Veneto / Belluno / Cadore",
-      "right_path": "Italia"
-    },
-    {
-      "album_id": "album-033",
-      "album_slug": "033-cadore-inverno-2018",
-      "reference": {
-        "id": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
-        "kind": "ricetta",
-        "title": "Straccetti su letto di porri con rucola e aceto balsamico di Modena",
-        "url": "/ricette/straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena/",
-        "geography": [
-          "italia"
-        ]
-      },
-      "score": 70,
-      "relation": "piu_specifico",
-      "common_id": "italia",
-      "automatic": false,
-      "left_path": "Italia / Veneto / Belluno / Cadore",
-      "right_path": "Italia"
-    },
-    {
-      "album_id": "album-033",
-      "album_slug": "033-cadore-inverno-2018",
-      "reference": {
-        "id": "tagliate",
-        "kind": "ricetta",
-        "title": "Tagliate",
-        "url": "/ricette/tagliate/",
-        "geography": [
-          "italia"
-        ]
-      },
-      "score": 70,
-      "relation": "piu_specifico",
-      "common_id": "italia",
-      "automatic": false,
-      "left_path": "Italia / Veneto / Belluno / Cadore",
-      "right_path": "Italia"
-    },
-    {
-      "album_id": "album-033",
-      "album_slug": "033-cadore-inverno-2018",
-      "reference": {
-        "id": "zuppa-di-legumi-con-funghi-settembrini-secchi",
-        "kind": "ricetta",
-        "title": "Zuppa di legumi con funghi settembrini secchi",
-        "url": "/ricette/zuppa-di-legumi-con-funghi-settembrini-secchi/",
-        "geography": [
-          "italia"
-        ]
-      },
-      "score": 70,
-      "relation": "piu_specifico",
-      "common_id": "italia",
-      "automatic": false,
-      "left_path": "Italia / Veneto / Belluno / Cadore",
-      "right_path": "Italia"
-    },
-    {
-      "album_id": "album-035",
-      "album_slug": "035-viaggio-in-croazia-2017",
-      "reference": {
-        "id": "filettino-di-maiale",
-        "kind": "ricetta",
-        "title": "Filettin o di maiale",
-        "url": "/ricette/filettino-di-maiale/",
-        "geography": [
-          "croazia-hvar"
-        ]
-      },
-      "score": 90,
-      "relation": "piu_generale",
-      "common_id": "croazia",
-      "automatic": true,
-      "left_path": "Croazia",
-      "right_path": "Croazia / Hvar"
     },
     {
       "album_id": "album-045",
