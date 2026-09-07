@@ -35,11 +35,92 @@
     var dataNode = document.getElementById(container.dataset.mapData || 'geography-map-data');
     if (!dataNode) return;
 
-    var svg = d3.select(container.querySelector('svg'));
+    var svgNode = container.querySelector('svg');
+    var svg = d3.select(svgNode);
     var status = container.querySelector('[data-map-status]');
     var missingSummary = section && section.querySelector('[data-map-missing-summary]');
     var missingList = section && section.querySelector('[data-map-missing-list]');
     var places = JSON.parse(dataNode.textContent);
+    var mobileMapQuery = window.matchMedia('(max-width: 54rem)');
+    var modal = null;
+    var modalPlaceholder = null;
+    var suppressClicksUntil = 0;
+
+    function closeMobileMap(redraw) {
+      if (!modal) return;
+      if (modalPlaceholder && modalPlaceholder.parentNode) {
+        modalPlaceholder.parentNode.replaceChild(container, modalPlaceholder);
+      }
+      container.classList.remove('is-mobile-map-modal');
+      modal.remove();
+      modal = null;
+      modalPlaceholder = null;
+      document.body.classList.remove('mobile-map-modal-open');
+      document.removeEventListener('keydown', onModalKeydown);
+      if (redraw !== false) requestAnimationFrame(draw);
+    }
+
+    function onModalKeydown(event) {
+      if (event.key === 'Escape') closeMobileMap();
+    }
+
+    function openMobileMap() {
+      if (modal || !mobileMapQuery.matches || !container.parentNode) return;
+      modalPlaceholder = document.createComment('mobile-map-placeholder');
+      container.parentNode.insertBefore(modalPlaceholder, container);
+
+      modal = document.createElement('div');
+      modal.className = 'mobile-map-overlay';
+      modal.setAttribute('role', 'dialog');
+      modal.setAttribute('aria-modal', 'true');
+      modal.setAttribute('aria-label', 'Planisfero interattivo');
+
+      var toolbar = document.createElement('div');
+      toolbar.className = 'mobile-map-toolbar';
+      var closeButton = document.createElement('button');
+      closeButton.type = 'button';
+      closeButton.className = 'mobile-map-close';
+      closeButton.setAttribute('aria-label', 'Chiudi il planisfero');
+      closeButton.textContent = '×';
+      closeButton.addEventListener('click', function () { closeMobileMap(); });
+      toolbar.appendChild(closeButton);
+
+      var holder = document.createElement('div');
+      holder.className = 'mobile-map-holder';
+      container.classList.add('is-mobile-map-modal');
+      holder.appendChild(container);
+      modal.appendChild(toolbar);
+      modal.appendChild(holder);
+      document.body.appendChild(modal);
+      document.body.classList.add('mobile-map-modal-open');
+      document.addEventListener('keydown', onModalKeydown);
+      requestAnimationFrame(draw);
+      closeButton.focus();
+    }
+
+    svgNode.addEventListener('pointerdown', function (event) {
+      if (!modal && mobileMapQuery.matches) {
+        suppressClicksUntil = Date.now() + 700;
+        event.preventDefault();
+        event.stopImmediatePropagation();
+        openMobileMap();
+      }
+    }, true);
+
+    svgNode.addEventListener('click', function (event) {
+      if (Date.now() < suppressClicksUntil) {
+        event.preventDefault();
+        event.stopImmediatePropagation();
+        return;
+      }
+      if (!modal) return;
+      var link = event.target.closest && event.target.closest('a[href]');
+      if (!link) return;
+      event.preventDefault();
+      var destination = link.getAttribute('href');
+      closeMobileMap(false);
+      location.assign(destination);
+    }, true);
 
     function renderMissing(filter) {
       if (!missingSummary || !missingList || mode !== 'explorer') return;
@@ -57,9 +138,12 @@
     }
 
     function draw() {
+      var isMobileModal = container.classList.contains('is-mobile-map-modal');
       var width = Math.max(mode === 'overview' ? 260 : 320, container.clientWidth || 900);
       var narrow = width < 700;
-      var height = mode === 'overview'
+      var height = isMobileModal
+        ? Math.max(420, container.clientHeight || window.innerHeight - 56)
+        : mode === 'overview'
         ? Math.max(170, Math.round(width / (narrow ? 1.75 : 2.75)))
         : Math.max(260, Math.round(width / (narrow ? 1.45 : 1.9)));
       var filter = mode === 'overview' ? 'content' : controls.elements.corpus.value;
@@ -113,7 +197,7 @@
 
       if (mode === 'explorer' || mode === 'overview') {
         var zoom = d3.zoom()
-          .scaleExtent([1, 80])
+          .scaleExtent([1, 320])
           .clickDistance(10)
           .tapDistance(18)
           .on('zoom', function (event) {
