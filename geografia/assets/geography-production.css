@@ -13,6 +13,7 @@
 .geography-map svg{display:block;width:100%;height:auto;aspect-ratio:1.9/1;background:#eaf2f3;border:1px solid var(--line)}
 .map-sphere{fill:#eaf2f3}.map-land{fill:#dce4df;stroke:#aab8b5;stroke-width:.45}.map-graticule{fill:none;stroke:#c5d4d7;stroke-width:.4}
 .map-marker{fill:#385d73;fill-opacity:.78;stroke:#fff;stroke-width:1;vector-effect:non-scaling-stroke}
+.map-marker-hit{fill:transparent;stroke:none;pointer-events:all}
 .map-marker-state{fill:#7b3f8c;fill-opacity:.9;stroke:#fff;stroke-width:1.5}
 .map-markers a:hover .map-marker,.map-markers a:focus .map-marker,.map-markers a.is-selected .map-marker{fill:#8b4a31;fill-opacity:1;stroke-width:2}
 .map-status{margin:.55rem 0;color:var(--muted)}

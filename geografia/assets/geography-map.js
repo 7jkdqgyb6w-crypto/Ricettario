@@ -92,6 +92,12 @@
         .on('focus mouseenter', function () { d3.select(this).classed('is-selected', true); })
         .on('blur mouseleave', function () { d3.select(this).classed('is-selected', false); });
       links.append('circle')
+        .attr('class', 'map-marker-hit')
+        .attr('cx', function (place) { return projection(place.coordinates)[0]; })
+        .attr('cy', function (place) { return projection(place.coordinates)[1]; })
+        .attr('data-hit-radius', mode === 'overview' ? 18 : 20)
+        .attr('r', function () { return this.getAttribute('data-hit-radius'); });
+      links.append('circle')
         .attr('class', function (place) {
           return place.kind === 'stato' ? 'map-marker map-marker-state' : 'map-marker';
         })
@@ -106,13 +112,21 @@
       links.append('title').text(function (place) { return labelFor(place, filter); });
 
       if (mode === 'explorer' || mode === 'overview') {
-        var zoom = d3.zoom().scaleExtent([1, 20]).on('zoom', function (event) {
+        var zoom = d3.zoom()
+          .scaleExtent([1, 80])
+          .clickDistance(10)
+          .tapDistance(18)
+          .on('zoom', function (event) {
           layer.attr('transform', event.transform);
-          markers.selectAll('circle')
+          markers.selectAll('circle.map-marker')
             .attr('r', function () {
               return Number(this.getAttribute('data-base-radius')) / Math.pow(event.transform.k, 1.12);
             })
             .attr('stroke-width', 1 / event.transform.k);
+          markers.selectAll('circle.map-marker-hit')
+            .attr('r', function () {
+              return Number(this.getAttribute('data-hit-radius')) / event.transform.k;
+            });
         });
         svg.call(zoom);
         var spec = viewSpecs[view] || viewSpecs.world;
