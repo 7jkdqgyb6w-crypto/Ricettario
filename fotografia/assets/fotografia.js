@@ -1,6 +1,20 @@
 (() => {
   'use strict';
-  document.querySelectorAll('[data-photo-print]').forEach(button => button.addEventListener('click', () => window.print()));
+  document.querySelectorAll('[data-photo-print]').forEach(button => button.addEventListener('click', event => {
+    event.preventDefault();
+    window.print();
+  }));
+  document.querySelectorAll('[data-photo-copy]').forEach(button => button.addEventListener('click', async event => {
+    event.preventDefault();
+    const originalTitle = button.title;
+    try {
+      await navigator.clipboard.writeText(window.location.href);
+      button.title = 'Link copiato';
+    } catch (_error) {
+      window.prompt('Copia il link della pagina:', window.location.href);
+    }
+    window.setTimeout(() => { button.title = originalTitle; }, 1800);
+  }));
   const normalize = text => text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase('it').trim();
   const form = document.querySelector('[data-photo-filters]');
   if (form) {

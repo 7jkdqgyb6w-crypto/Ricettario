@@ -8,9 +8,10 @@
     ricette: new URL('indici/ricette.html', siteRoot).href,
     ingredienti: new URL('indici/ingredienti.html', siteRoot).href,
     fonti: new URL('indici/fonti.html', siteRoot).href,
-    geografia: new URL('indici/geografia.html', siteRoot).href,
+    geografia: new URL('geografia/', siteRoot).href,
     approfondimenti: new URL('approfondimenti/', siteRoot).href,
-    fotografia: new URL('fotografia/', siteRoot).href
+    fotografia: new URL('fotografia/', siteRoot).href,
+    cerca: new URL('cerca/', siteRoot).href
   };
   var mobileQuery = window.matchMedia('(max-width: 54rem)');
 
@@ -31,11 +32,22 @@
 
   function currentPrimaryKey() {
     var current = normalizedPage(location.href);
+    var path = new URL(current).pathname;
+    if (path.indexOf('/geografia/') === 0) return 'geografia';
+    if (path.indexOf('/ricette/') === 0 || path.indexOf('/indici/ricette.html') !== -1) return 'ricette';
+    if (path.indexOf('/fotografia/') === 0) return 'fotografia';
+    if (path.indexOf('/approfondimenti/') === 0) return 'approfondimenti';
     for (var i = 0; i < primaryItems.length; i += 1) {
       var item = primaryItems[i];
       if (current === normalizedPage(urls[item.key])) return item.key;
     }
     return '';
+  }
+
+  function omitFromNavigation(item) {
+    var active = currentPrimaryKey();
+    if (item.key === 'ingredienti' || item.key === 'fonti') return active !== 'ricette';
+    return item.key === active;
   }
 
   function iconButton() {
@@ -122,7 +134,25 @@
       lastTrigger.focus();
     }
     function wireOverlay() {
-      if (!overlay || overlay.dataset.globalSearchFallback === 'ready') return;
+      if (!overlay) return;
+      var form = overlay.querySelector('form');
+      if (form) {
+        form.action = urls.cerca;
+        if (form.dataset.transversalSearch !== 'ready') {
+          form.dataset.transversalSearch = 'ready';
+          form.addEventListener('submit', function (event) {
+            var input = form.querySelector('input[name="q"]');
+            var query = input ? input.value.replace(/\s+/g, ' ').trim() : '';
+            event.preventDefault();
+            event.stopImmediatePropagation();
+            if (!query) { if (input) input.focus(); return; }
+            location.href = urls.cerca + '?q=' + encodeURIComponent(query);
+          }, true);
+        }
+        var hint = overlay.querySelector('.recipe-search-hint');
+        if (hint) hint.textContent = 'La ricerca interroga tutti gli archivi; potrai restringere i risultati nella pagina successiva.';
+      }
+      if (overlay.dataset.globalSearchFallback === 'ready') return;
       overlay.dataset.globalSearchFallback = 'ready';
       overlay.querySelectorAll('.js-site-search-close, .js-recipe-search-close, .global-nav-search-backdrop, .global-nav-search-close').forEach(function (control) {
         control.addEventListener('click', close);
@@ -139,7 +169,7 @@
         overlay.className = 'global-nav-search-overlay';
         overlay.setAttribute('aria-hidden', 'true');
         overlay.innerHTML = '<div class="global-nav-search-backdrop"></div><section class="global-nav-search-dialog" role="dialog" aria-modal="true" aria-labelledby="global-search-title"><button class="global-nav-search-close" type="button" aria-label="Chiudi ricerca">×</button><h2 id="global-search-title">Cerca nel ricettario</h2><form method="get"><label for="global-search-input">Parole da cercare</label><input class="global-nav-search-input" id="global-search-input" name="q" type="search" autocomplete="off"><button class="global-nav-search-submit" type="submit">Cerca</button></form></section>';
-        overlay.querySelector('form').action = urls.ricette;
+        overlay.querySelector('form').action = urls.cerca;
         document.body.appendChild(overlay);
       }
       wireOverlay();
@@ -163,9 +193,17 @@
     nav.replaceChildren();
     nav.dataset.globalNav = 'ready';
     nav.setAttribute('aria-label', 'Navigazione principale');
-    if (back) nav.appendChild(back);
+    if (back) {
+      back.setAttribute('href', '#');
+      back.onclick = function (event) {
+        event.preventDefault();
+        if (history.length > 1) history.back();
+        else location.href = urls.ricette;
+      };
+      nav.appendChild(back);
+    }
     primaryItems.forEach(function (item) {
-      if (item.key === currentKey) return;
+      if (item.key === currentKey || omitFromNavigation(item)) return;
       nav.appendChild(link(item.label, urls[item.key], item.compact ? '' : 'global-nav-wide'));
     });
 
@@ -175,7 +213,7 @@
     more.innerHTML = '<button class="global-nav-more-toggle" type="button" aria-haspopup="menu" aria-expanded="false" aria-controls="' + menuId + '">Altro</button><div class="global-nav-more-menu" id="' + menuId + '" role="menu" hidden></div>';
     var menu = more.querySelector('.global-nav-more-menu');
     primaryItems.forEach(function (item) {
-      if (item.compact || item.key === currentKey) return;
+      if (item.compact || item.key === currentKey || omitFromNavigation(item)) return;
       menu.appendChild(link(item.label, urls[item.key], '', 'menuitem'));
     });
     nav.appendChild(more);
