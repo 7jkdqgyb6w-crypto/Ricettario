@@ -776,7 +776,7 @@ function injectPrintIngredientDecor(doc){
   var whiteThreshold = 235;
   var ingredientAssetRelpathsFallback = Array.isArray(window.__PRINT_INGREDIENT_ASSET_RELPATHS__) ? window.__PRINT_INGREDIENT_ASSET_RELPATHS__.slice() : [];
   var ingredientAssetRelpaths = ingredientAssetRelpathsFallback.slice();
-  var ingredientBaseHref = '/Ingredienti/';
+  var ingredientBaseHref = '/ingredienti/';
 
   function normalizeIngredientManifestAssets(data){
     var assets = [];
@@ -799,7 +799,7 @@ function injectPrintIngredientDecor(doc){
       return Promise.resolve(ingredientAssetRelpathsFallback.slice());
     }
     var candidates = [
-      {manifest:'/Ingredienti/manifest.json', base:'/Ingredienti/'}
+      {manifest:'/ingredienti/manifest.json', base:'/ingredienti/'}
     ];
     function tryCandidate(index){
       if(index >= candidates.length){

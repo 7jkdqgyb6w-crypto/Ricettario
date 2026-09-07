@@ -188,7 +188,13 @@
     var back = nav.querySelector('.recipe-nav-back, .index-nav-back');
     var search = nav.querySelector('.site-search-button') || iconButton();
     var currentKey = currentPrimaryKey();
-    if (back) back.remove();
+    if (back) {
+      // Le pagine storiche possono avere già un listener inline sul Back.
+      // Clonandolo eliminiamo i listener precedenti e garantiamo un solo passo indietro.
+      var cleanBack = back.cloneNode(true);
+      back.remove();
+      back = cleanBack;
+    }
     search.remove();
     nav.replaceChildren();
     nav.dataset.globalNav = 'ready';
@@ -198,7 +204,7 @@
       back.onclick = function (event) {
         event.preventDefault();
         if (history.length > 1) history.back();
-        else location.href = urls.ricette;
+        else location.href = siteRoot.href;
       };
       nav.appendChild(back);
     }

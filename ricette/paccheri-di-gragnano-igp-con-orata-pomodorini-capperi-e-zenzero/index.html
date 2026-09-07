@@ -603,6 +603,8 @@ main figure a[data-image-link] img{cursor:pointer;}
 .recipe-license-overlay.is-hidden{display:none !important;}
 .recipe-license-bar{display:flex !important; justify-content:flex-end !important; align-items:center !important; gap:.75rem !important; flex:0 0 auto !important; padding:10px 14px !important; border-bottom:1px solid rgba(0,0,0,.08) !important; background:#fff !important;}
 .recipe-license-title{margin-right:auto !important; font-size:.92rem !important; line-height:1.2 !important; color:#566064 !important; overflow:hidden !important; text-overflow:ellipsis !important; white-space:nowrap !important;}
+.recipe-license-open{border:1px solid rgba(0,0,0,.18) !important; border-radius:999px !important; padding:.35rem .65rem !important; color:#264f6d !important; background:#fff !important; text-decoration:none !important; font-size:.9rem !important; white-space:nowrap !important;}
+.recipe-license-open:hover{text-decoration:underline !important;}
 .recipe-license-close{border:0 !important; background:transparent !important; font-size:28px !important; line-height:1 !important; cursor:pointer !important; color:#333 !important; padding:0 !important; margin:0 !important;}
 .recipe-license-frame{display:block !important; flex:1 1 auto !important; width:100% !important; height:100% !important; min-height:0 !important; border:0 !important; background:#fff !important;}</style>
 <link href="../../foto/ui/site-navigation.css" rel="stylesheet"/>
@@ -699,8 +701,7 @@ document.addEventListener('DOMContentLoaded', function(){
     });
   });
 })();</script>
-<script id="recipe-tools-script">window.__PRINT_INGREDIENT_ASSET_RELPATHS__ = ["aglio-800x520.jpg", "alloro fresco-800x548.jpg", "baccelli-verdi-del-cardamomo-isolati-su-fondo-bianco-con-il-percorso-di-ritaglio-e-lo-spazio-della-copia-130964485-1500128308.jpg", "bacche di ginepro-800x450.jpg", "basilico-800x532.jpg", "borago-officinalis-della-pianta-borragine-99112667-2469776195.jpg", "broccoli-800x531.jpg", "calendula-semi-del-tagete.jpg", "cannella-600x400.jpg", "carciofo-740x493.jpg", "carota-800x534.jpg", "chiodo di garofano-800x534.jpg", "cime di rapa-800x528.jpg", "cipolla bianca-800x534.jpg", "cipolla dorata-800x600.jpg", "cipolla rossa-800x661.jpg", "cipolle di trope-602x900.jpg", "cipollotti-800x532.jpg", "concentrato di pomodoro-800x800.jpg", "coriandolo-800x794.jpg", "cous cous-612x459.jpg", "cozze-800x533.jpg", "cumino-800x534.jpg", "curcuma-800x525.jpg", "erba-luigia_oit-800x800.jpg", "erbe-aromatiche-della-menta 800x798.jpg", "erbe-aromatiche-o-di-latina-absinthii-800x578.jpg", "erbe-aromatiche-selvatiche-essiccate-800x1194.jpg", "erbe-aromatiche8-800x1021.jpg", "erbe-fresche-del-giardino-800x420.jpg", "farina di frumento 00-800x535.jpg", "frutti-e-semi-della-spezia-dell-anice-stellato-isolati-su-fondo-bianco-alimento-naturale-800x441.jpg", "genziana-800x543.jpg", "Lichene-Islandico-Cetraria-islandica-L-800x851.jpg", "menta-rosmarino-mazzo-del-timo-800x549.jpg", "origano-800x592.jpg", "peperoncino-rosso-secco-800x527.jpg", "planta-pimpinella-800x786.jpg", "rosmarino-fresco-isolato-su-fondo-bianco-rosemary-bellezza-ramo-mazzetto-pulito-chiuso-cultura-cibo-freschezza-verde-salute-erbe-163199634-3909175301-800x535.jpg", "salvia-474x316.jpg", "Sedano-Bianco-600x600.jpeg", "sedano-verde-isolato-su-fondo-bianco-134104760.jpg", "semi-di-finocchio-secchi-800x437.jpg", "semi-di-zucca-800x754.jpg", "spighette-e-semi-del-grano--800x609.jpg", "topinambur-800x562.jpg", "un-mazzo-di-aneto-81915942-2011024533.jpg"];
-(function(){
+<script id="recipe-tools-script">(function(){
   function isInternalListReferrer(ref){
     try{
       if(!ref) return false;
@@ -806,7 +807,7 @@ document.addEventListener('DOMContentLoaded', function(){
     overlay.classList.remove('is-hidden');
   }
 
-  var PRINT_ENGINE_SRC = '../../foto/ui/recipe-editorial-print.js?v=CMS2-R18-172';
+  var PRINT_ENGINE_SRC = '../../foto/ui/recipe-editorial-print.js?v=CMS2-R18-173';
   var printEnginePromise = null;
 
   function loadRecipeEditorialPrintEngine(){
@@ -1008,7 +1009,8 @@ document.addEventListener('DOMContentLoaded', function(){
         var qty = cellShoppingText(cells[1]);
         var unit = cellShoppingText(cells[2]);
         var note = cellShoppingText(cells[3]);
-        rows.push({name:name, qty:qty, unit:unit, note:note});
+        var quality = cellShoppingText(cells[4]);
+        rows.push({name:name, qty:qty, unit:unit, note:note, quality:quality});
       });
       return rows;
     }
