@@ -52,6 +52,22 @@
     var currentProjection = null;
     var currentTransform = d3.zoomIdentity;
     var currentWidth = 0;
+    var currentHeight = 0;
+
+    function positionModalSelection(place) {
+      if (!modal || !modalSelection || modalSelection.hidden || !place || !currentProjection) return;
+      var holder = modal.querySelector('.mobile-map-holder');
+      if (!holder) return;
+      var holderRect = holder.getBoundingClientRect();
+      var svgRect = svgNode.getBoundingClientRect();
+      var projected = currentTransform.apply(currentProjection(place.coordinates));
+      var x = svgRect.left - holderRect.left + projected[0] * svgRect.width / Math.max(1, currentWidth);
+      var y = svgRect.top - holderRect.top + projected[1] * svgRect.height / Math.max(1, currentHeight);
+      var horizontalMargin = Math.min(92, holderRect.width / 2);
+      modalSelection.style.left = Math.max(horizontalMargin, Math.min(holderRect.width - horizontalMargin, x)) + 'px';
+      modalSelection.style.top = y + 'px';
+      modalSelection.classList.toggle('is-below', y < 92);
+    }
 
     function closeMobileMap(redraw) {
       if (!modal) return;
@@ -101,11 +117,9 @@
       holder.appendChild(container);
 
       modalSelection = document.createElement('div');
-      modalSelection.className = 'mobile-map-selection';
+      modalSelection.className = 'mobile-map-tooltip';
       modalSelection.hidden = true;
       modalSelection.setAttribute('aria-live', 'polite');
-      var selectionLabel = document.createElement('span');
-      selectionLabel.textContent = 'Luogo selezionato';
       modalSelectionLink = document.createElement('a');
       modalSelectionLink.addEventListener('click', function (event) {
         event.preventDefault();
@@ -113,11 +127,10 @@
         closeMobileMap(false);
         location.assign(destination);
       });
-      modalSelection.appendChild(selectionLabel);
       modalSelection.appendChild(modalSelectionLink);
+      holder.appendChild(modalSelection);
       modal.appendChild(toolbar);
       modal.appendChild(holder);
-      modal.appendChild(modalSelection);
       document.body.appendChild(modal);
       document.body.classList.add('mobile-map-modal-open');
       document.addEventListener('keydown', onModalKeydown);
@@ -168,6 +181,7 @@
       modalSelectionLink.href = nearest.url;
       modalSelectionLink.textContent = nearest.label + ' →';
       modalSelection.hidden = false;
+      positionModalSelection(nearest);
     }, true);
 
     function renderMissing(filter) {
@@ -201,6 +215,7 @@
       });
       currentVisible = visible;
       currentWidth = width;
+      currentHeight = height;
 
       svg.attr('viewBox', '0 0 ' + width + ' ' + height);
       svg.selectAll('g[data-map-layer]').remove();
@@ -274,6 +289,10 @@
             .attr('r', function () {
               return Number(this.getAttribute('data-hit-radius')) / event.transform.k;
             });
+          if (selectedPlaceId) {
+            var selectedPlace = currentVisible.find(function (place) { return place.id === selectedPlaceId; });
+            positionModalSelection(selectedPlace);
+          }
         });
         svg.call(zoom);
         var spec = viewSpecs[view] || viewSpecs.world;
