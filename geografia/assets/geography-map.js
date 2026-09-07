@@ -44,7 +44,14 @@
     var mobileMapQuery = window.matchMedia('(max-width: 54rem)');
     var modal = null;
     var modalPlaceholder = null;
+    var modalSelection = null;
+    var modalSelectionLink = null;
     var suppressClicksUntil = 0;
+    var selectedPlaceId = '';
+    var currentVisible = [];
+    var currentProjection = null;
+    var currentTransform = d3.zoomIdentity;
+    var currentWidth = 0;
 
     function closeMobileMap(redraw) {
       if (!modal) return;
@@ -55,6 +62,9 @@
       modal.remove();
       modal = null;
       modalPlaceholder = null;
+      modalSelection = null;
+      modalSelectionLink = null;
+      selectedPlaceId = '';
       document.body.classList.remove('mobile-map-modal-open');
       document.removeEventListener('keydown', onModalKeydown);
       if (redraw !== false) requestAnimationFrame(draw);
@@ -89,8 +99,25 @@
       holder.className = 'mobile-map-holder';
       container.classList.add('is-mobile-map-modal');
       holder.appendChild(container);
+
+      modalSelection = document.createElement('div');
+      modalSelection.className = 'mobile-map-selection';
+      modalSelection.hidden = true;
+      modalSelection.setAttribute('aria-live', 'polite');
+      var selectionLabel = document.createElement('span');
+      selectionLabel.textContent = 'Luogo selezionato';
+      modalSelectionLink = document.createElement('a');
+      modalSelectionLink.addEventListener('click', function (event) {
+        event.preventDefault();
+        var destination = modalSelectionLink.getAttribute('href');
+        closeMobileMap(false);
+        location.assign(destination);
+      });
+      modalSelection.appendChild(selectionLabel);
+      modalSelection.appendChild(modalSelectionLink);
       modal.appendChild(toolbar);
       modal.appendChild(holder);
+      modal.appendChild(modalSelection);
       document.body.appendChild(modal);
       document.body.classList.add('mobile-map-modal-open');
       document.addEventListener('keydown', onModalKeydown);
@@ -114,12 +141,33 @@
         return;
       }
       if (!modal) return;
-      var link = event.target.closest && event.target.closest('a[href]');
-      if (!link) return;
+      if (!currentProjection || !currentVisible.length) return;
+      var point = d3.pointer(event, svgNode);
+      var rect = svgNode.getBoundingClientRect();
+      var threshold = 24 * (currentWidth / Math.max(1, rect.width));
+      var nearest = null;
+      var nearestDistance = Infinity;
+      currentVisible.forEach(function (place) {
+        var projected = currentProjection(place.coordinates);
+        var transformed = currentTransform.apply(projected);
+        var dx = point[0] - transformed[0];
+        var dy = point[1] - transformed[1];
+        var distance = Math.sqrt(dx * dx + dy * dy);
+        if (distance < nearestDistance) {
+          nearest = place;
+          nearestDistance = distance;
+        }
+      });
+      if (!nearest || nearestDistance > threshold) return;
       event.preventDefault();
-      var destination = link.getAttribute('href');
-      closeMobileMap(false);
-      location.assign(destination);
+      event.stopImmediatePropagation();
+      selectedPlaceId = nearest.id;
+      svg.selectAll('.map-markers a').classed('is-selected', function (place) {
+        return place.id === selectedPlaceId;
+      });
+      modalSelectionLink.href = nearest.url;
+      modalSelectionLink.textContent = nearest.label + ' →';
+      modalSelection.hidden = false;
     }, true);
 
     function renderMissing(filter) {
@@ -151,6 +199,8 @@
       var visible = places.filter(function (place) {
         return place.coordinates && countFor(place, filter) > 0;
       });
+      currentVisible = visible;
+      currentWidth = width;
 
       svg.attr('viewBox', '0 0 ' + width + ' ' + height);
       svg.selectAll('g[data-map-layer]').remove();
@@ -159,6 +209,8 @@
       var projection = d3.geoEqualEarth()
         .fitExtent([[8, 8], [width - 8, height - 8]], { type: 'Sphere' });
       var path = d3.geoPath(projection);
+      currentProjection = projection;
+      currentTransform = d3.zoomIdentity;
       var layer = svg.append('g').attr('data-map-layer', '');
 
       layer.append('path').attr('class', 'map-sphere').attr('d', path({ type: 'Sphere' }));
@@ -174,7 +226,10 @@
         .attr('href', function (place) { return place.url; })
         .attr('aria-label', function (place) { return labelFor(place, filter); })
         .on('focus mouseenter', function () { d3.select(this).classed('is-selected', true); })
-        .on('blur mouseleave', function () { d3.select(this).classed('is-selected', false); });
+        .on('blur mouseleave', function (event, place) {
+          d3.select(this).classed('is-selected', place.id === selectedPlaceId);
+        })
+        .classed('is-selected', function (place) { return place.id === selectedPlaceId; });
       links.append('circle')
         .attr('class', 'map-marker-hit')
         .attr('cx', function (place) { return projection(place.coordinates)[0]; })
@@ -192,6 +247,10 @@
           if (mode === 'overview') return Math.min(6.5, 2.6 + Math.sqrt(value) * 0.82);
           return filter === 'all' ? 4 : Math.min(13, 4 + Math.sqrt(value) * 1.45);
         })
+        .attr('data-min-screen-radius', function (place) {
+          if (place.kind === 'stato') return 5;
+          return mode === 'overview' ? 3.5 : 4;
+        })
         .attr('r', function () { return this.getAttribute('data-base-radius'); });
       links.append('title').text(function (place) { return labelFor(place, filter); });
 
@@ -201,10 +260,14 @@
           .clickDistance(10)
           .tapDistance(18)
           .on('zoom', function (event) {
+          currentTransform = event.transform;
           layer.attr('transform', event.transform);
           markers.selectAll('circle.map-marker')
             .attr('r', function () {
-              return Number(this.getAttribute('data-base-radius')) / Math.pow(event.transform.k, 1.12);
+              var baseRadius = Number(this.getAttribute('data-base-radius'));
+              var minimumScreenRadius = Number(this.getAttribute('data-min-screen-radius'));
+              var screenRadius = Math.max(minimumScreenRadius, baseRadius / Math.pow(event.transform.k, 0.12));
+              return screenRadius / event.transform.k;
             })
             .attr('stroke-width', 1 / event.transform.k);
           markers.selectAll('circle.map-marker-hit')
