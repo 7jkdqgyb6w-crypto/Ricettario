@@ -1,69 +1,6 @@
 (function () {
   "use strict";
 
-  var geographyContent = document.querySelector(".geography-page .index-content");
-  var geographyIntro = geographyContent && geographyContent.querySelector(".page-intro");
-  if (geographyIntro && !geographyContent.querySelector(".geography-hero")) {
-    var geographyMeta = geographyIntro.nextElementSibling;
-    var geographyDescription = null;
-    if (geographyMeta && geographyMeta.classList.contains("archive-meta-grid")) {
-      var geographyLabel = geographyMeta.querySelector("strong");
-      var geographyValue = geographyMeta.querySelector(".archive-meta-item span");
-      var geographyText = geographyValue ? geographyValue.textContent.trim() : "";
-      if (geographyLabel && geographyLabel.textContent.trim() === "Tipo") {
-        if (geographyText.length > 90 || (geographyText.match(/\./g) || []).length >= 2) {
-          geographyDescription = document.createElement("section");
-          geographyDescription.className = "geography-description lead archive-intro";
-          geographyDescription.innerHTML = "<h2>Descrizione</h2><p></p>";
-          geographyDescription.querySelector("p").innerHTML = geographyValue.innerHTML;
-          geographyMeta.remove();
-          geographyMeta = null;
-        } else {
-          geographyLabel.textContent = "Classificazione";
-        }
-      }
-    }
-
-    var geographyNote = geographyContent.querySelector(".geography-editorial-note");
-    var heroSource = geographyNote && geographyNote.querySelector(".geography-editorial-image img");
-    var promotedFigure = heroSource && heroSource.closest("figure");
-    if (!heroSource) {
-      var photographyHeading = [].slice.call(geographyContent.querySelectorAll("h3")).find(function (heading) {
-        return heading.textContent.indexOf("Fotografie") !== -1;
-      });
-      var photographyList = photographyHeading && photographyHeading.nextElementSibling;
-      heroSource = photographyList && photographyList.querySelector("img");
-    }
-
-    var insertionAnchor = geographyMeta || geographyIntro;
-    if (heroSource) {
-      var hero = document.createElement("figure");
-      hero.className = "geography-hero";
-      var heroImage = heroSource.cloneNode(false);
-      heroImage.src = heroImage.src.replace(/=w\d+-h\d+-no$/, "=w1800-h1200-no");
-      heroImage.alt = (geographyIntro.querySelector("h1") || {}).textContent || "";
-      heroImage.loading = "eager";
-      heroImage.decoding = "async";
-      hero.appendChild(heroImage);
-      insertionAnchor.after(hero);
-      insertionAnchor = hero;
-      if (promotedFigure) {
-        var imageGroup = promotedFigure.parentElement;
-        promotedFigure.remove();
-        if (imageGroup && !imageGroup.querySelector("figure")) imageGroup.remove();
-      }
-    }
-    if (geographyDescription) insertionAnchor.after(geographyDescription);
-
-    if (geographyNote) {
-      var hierarchy = [].slice.call(geographyContent.querySelectorAll("section")).find(function (section) {
-        var heading = section.firstElementChild;
-        return heading && heading.tagName === "H2" && heading.textContent.trim() === "Gerarchie e appartenenze";
-      });
-      if (hierarchy) hierarchy.before(geographyNote);
-    }
-  }
-
   document.querySelector("[data-prototype-print]")?.addEventListener("click", function (event) {
     event.preventDefault();
     window.print();
