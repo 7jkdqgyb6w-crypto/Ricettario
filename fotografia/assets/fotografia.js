@@ -73,7 +73,7 @@
   const gallery = document.querySelector('[data-photo-gallery]');
   const dialog = document.querySelector('[data-photo-lightbox]');
   if (!gallery || !dialog || typeof dialog.showModal !== 'function') return;
-  const links = [...gallery.querySelectorAll('[data-photo-open]')];
+  const links = [...document.querySelectorAll('[data-photo-open]')];
   const image = dialog.querySelector('img');
   const caption = dialog.querySelector('[data-photo-caption]');
   const external = dialog.querySelector('[data-photo-external]');
