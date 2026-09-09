@@ -12,10 +12,20 @@
       "photography_url": "/fotografia/geografia/5-terre/"
     },
     {
+      "geography_id": "alghero",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-143",
+        "album-144"
+      ],
+      "photography_url": "/fotografia/geografia/alghero/"
+    },
+    {
       "geography_id": "alta-pusteria",
       "recipe_anchor": null,
       "album_ids": [
-        "album-087"
+        "album-087",
+        "album-141"
       ],
       "photography_url": "/fotografia/geografia/alta-pusteria/"
     },
@@ -50,6 +60,14 @@
         "album-113"
       ],
       "photography_url": "/fotografia/geografia/ardeche/"
+    },
+    {
+      "geography_id": "argentina",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-149"
+      ],
+      "photography_url": "/fotografia/geografia/argentina/"
     },
     {
       "geography_id": "aspra",
@@ -152,6 +170,14 @@
       "photography_url": "/fotografia/geografia/bowen/"
     },
     {
+      "geography_id": "braies",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-141"
+      ],
+      "photography_url": "/fotografia/geografia/braies/"
+    },
+    {
       "geography_id": "bretagna",
       "recipe_anchor": null,
       "album_ids": [
@@ -193,6 +219,14 @@
       "photography_url": "/fotografia/geografia/bucharest/"
     },
     {
+      "geography_id": "buenos-aires",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-149"
+      ],
+      "photography_url": "/fotografia/geografia/buenos-aires/"
+    },
+    {
       "geography_id": "cadore",
       "recipe_anchor": null,
       "album_ids": [
@@ -205,6 +239,8 @@
         "album-022",
         "album-024",
         "album-029",
+        "album-032",
+        "album-033",
         "album-045",
         "album-046"
       ],
@@ -251,12 +287,28 @@
       "photography_url": "/fotografia/geografia/cape-tribulation/"
     },
     {
+      "geography_id": "capraia",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-031"
+      ],
+      "photography_url": "/fotografia/geografia/capraia/"
+    },
+    {
       "geography_id": "cascata-del-pis",
       "recipe_anchor": null,
       "album_ids": [
         "album-128"
       ],
       "photography_url": "/fotografia/geografia/cascata-del-pis/"
+    },
+    {
+      "geography_id": "cassis",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-040"
+      ],
+      "photography_url": "/fotografia/geografia/cassis/"
     },
     {
       "geography_id": "castello-di-tocchi",
@@ -283,12 +335,21 @@
       "photography_url": "/fotografia/geografia/collio/"
     },
     {
+      "geography_id": "uruguay-costa-est",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-147"
+      ],
+      "photography_url": "/fotografia/geografia/uruguay-costa-est/"
+    },
+    {
       "geography_id": "croazia",
       "recipe_anchor": null,
       "album_ids": [
         "album-002",
         "album-004",
-        "album-009"
+        "album-009",
+        "album-035"
       ],
       "photography_url": "/fotografia/geografia/croazia/"
     },
@@ -300,6 +361,14 @@
         "album-125"
       ],
       "photography_url": "/fotografia/geografia/croazia-hvar/"
+    },
+    {
+      "geography_id": "curon-venosta",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-142"
+      ],
+      "photography_url": "/fotografia/geografia/curon-venosta/"
     },
     {
       "geography_id": "dalmazia",
@@ -321,9 +390,18 @@
       "geography_id": "deutschland-berlin",
       "recipe_anchor": null,
       "album_ids": [
+        "album-056",
         "album-104"
       ],
       "photography_url": "/fotografia/geografia/deutschland-berlin/"
+    },
+    {
+      "geography_id": "dobbiaco",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-141"
+      ],
+      "photography_url": "/fotografia/geografia/dobbiaco/"
     },
     {
       "geography_id": "drome",
@@ -344,6 +422,14 @@
         "album-103"
       ],
       "photography_url": "/fotografia/geografia/dubrovnik/"
+    },
+    {
+      "geography_id": "dugj-otok",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-036"
+      ],
+      "photography_url": "/fotografia/geografia/dugj-otok/"
     },
     {
       "geography_id": "erto",
@@ -383,8 +469,10 @@
       "album_ids": [
         "album-005",
         "album-043",
+        "album-145",
         "album-110",
         "album-111",
+        "album-146",
         "album-115",
         "album-130"
       ],
@@ -456,6 +544,14 @@
       "photography_url": "/fotografia/geografia/isola-d-elba/"
     },
     {
+      "geography_id": "asinara",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-144"
+      ],
+      "photography_url": "/fotografia/geografia/asinara/"
+    },
+    {
       "geography_id": "isola-di-lussino",
       "recipe_anchor": null,
       "album_ids": [
@@ -501,7 +597,8 @@
       "geography_id": "italia-trentino-alto-adige-bolzano-anterselva-valle-di",
       "recipe_anchor": null,
       "album_ids": [
-        "album-008"
+        "album-008",
+        "album-039"
       ],
       "photography_url": "/fotografia/geografia/italia-trentino-alto-adige-bolzano-anterselva-valle-di/"
     },
@@ -652,6 +749,14 @@
       "photography_url": "/fotografia/geografia/marmolada/"
     },
     {
+      "geography_id": "marseille",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-040"
+      ],
+      "photography_url": "/fotografia/geografia/marseille/"
+    },
+    {
       "geography_id": "mary-river",
       "recipe_anchor": null,
       "album_ids": [
@@ -674,6 +779,14 @@
         "album-132"
       ],
       "photography_url": "/fotografia/geografia/mestre/"
+    },
+    {
+      "geography_id": "montevideo",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-148"
+      ],
+      "photography_url": "/fotografia/geografia/montevideo/"
     },
     {
       "geography_id": "montpellier",
@@ -724,6 +837,14 @@
       "photography_url": "/fotografia/geografia/paros/"
     },
     {
+      "geography_id": "passo-dello-stelvio",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-142"
+      ],
+      "photography_url": "/fotografia/geografia/passo-dello-stelvio/"
+    },
+    {
       "geography_id": "perth",
       "recipe_anchor": null,
       "album_ids": [
@@ -762,6 +883,22 @@
         "album-063"
       ],
       "photography_url": "/fotografia/geografia/port-douglas/"
+    },
+    {
+      "geography_id": "porto-conte",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-144"
+      ],
+      "photography_url": "/fotografia/geografia/porto-conte/"
+    },
+    {
+      "geography_id": "portogallo",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-042"
+      ],
+      "photography_url": "/fotografia/geografia/portogallo/"
     },
     {
       "geography_id": "praga",
@@ -846,6 +983,15 @@
       "photography_url": "/fotografia/geografia/rolle/"
     },
     {
+      "geography_id": "romania",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-037",
+        "album-038"
+      ],
+      "photography_url": "/fotografia/geografia/romania/"
+    },
+    {
       "geography_id": "salisburgo",
       "recipe_anchor": null,
       "album_ids": [
@@ -862,6 +1008,14 @@
         "album-133"
       ],
       "photography_url": "/fotografia/geografia/san-germano/"
+    },
+    {
+      "geography_id": "scozia",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-034"
+      ],
+      "photography_url": "/fotografia/geografia/scozia/"
     },
     {
       "geography_id": "sella-ronda",
@@ -931,9 +1085,27 @@
       "geography_id": "united-kingdom-england-greater-london-london",
       "recipe_anchor": null,
       "album_ids": [
-        "album-090"
+        "album-090",
+        "album-140"
       ],
       "photography_url": "/fotografia/geografia/united-kingdom-england-greater-london-london/"
+    },
+    {
+      "geography_id": "urbino",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-041"
+      ],
+      "photography_url": "/fotografia/geografia/urbino/"
+    },
+    {
+      "geography_id": "uruguay",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-147",
+        "album-148"
+      ],
+      "photography_url": "/fotografia/geografia/uruguay/"
     },
     {
       "geography_id": "usseaux",
@@ -963,7 +1135,8 @@
       "geography_id": "val-venosta",
       "recipe_anchor": null,
       "album_ids": [
-        "album-098"
+        "album-098",
+        "album-142"
       ],
       "photography_url": "/fotografia/geografia/val-venosta/"
     },
@@ -1024,6 +1197,14 @@
         "album-065"
       ],
       "photography_url": "/fotografia/geografia/withsundays-islands/"
+    },
+    {
+      "geography_id": "zara",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-036"
+      ],
+      "photography_url": "/fotografia/geografia/zara/"
     },
     {
       "geography_id": "zortea",
@@ -2677,27 +2858,6 @@
       "album_id": "album-010",
       "album_slug": "010-toscana-e-lazio-2021",
       "reference": {
-        "id": "bollito-misto",
-        "kind": "ricetta",
-        "title": "Bollito misto",
-        "url": "/ricette/bollito-misto/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Toscana",
-      "right_path": "Italia / Piemonte"
-    },
-    {
-      "album_id": "album-010",
-      "album_slug": "010-toscana-e-lazio-2021",
-      "reference": {
         "id": "braciole-di-carne-di-cavallo",
         "kind": "ricetta",
         "title": "Braciole di carne di cavallo",
@@ -3811,27 +3971,6 @@
       "album_id": "album-138",
       "album_slug": "138-usseaux-2021",
       "reference": {
-        "id": "bollito-misto",
-        "kind": "ricetta",
-        "title": "Bollito misto",
-        "url": "/ricette/bollito-misto/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 80,
-      "relation": "piu_specifico",
-      "common_id": "italia-piemonte",
-      "automatic": false,
-      "automatic_eligible": true,
-      "eligibility_reason": "",
-      "left_path": "Italia / Piemonte / Provincia di Torino / Usseaux",
-      "right_path": "Italia / Piemonte"
-    },
-    {
-      "album_id": "album-138",
-      "album_slug": "138-usseaux-2021",
-      "reference": {
         "id": "fusilli-carciofi-e-salmone",
         "kind": "ricetta",
         "title": "Fusilli carciofi e salmone",
@@ -4583,27 +4722,6 @@
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
       "left_path": "Italia / Lazio",
       "right_path": "Italia / Veneto"
-    },
-    {
-      "album_id": "album-015",
-      "album_slug": "015-argentario-e-lazio-2020",
-      "reference": {
-        "id": "bollito-misto",
-        "kind": "ricetta",
-        "title": "Bollito misto",
-        "url": "/ricette/bollito-misto/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Lazio",
-      "right_path": "Italia / Piemonte"
     },
     {
       "album_id": "album-015",
@@ -7291,6 +7409,1896 @@
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
       "left_path": "Italia / Veneto / Provincia di Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-031",
+      "album_slug": "031-capraia-2018",
+      "reference": {
+        "id": "fusilli-carciofi-e-salmone",
+        "kind": "ricetta",
+        "title": "Fusilli carciofi e salmone",
+        "url": "/ricette/fusilli-carciofi-e-salmone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Toscana / Provincia di Livorno / Isola di Capraia",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-031",
+      "album_slug": "031-capraia-2018",
+      "reference": {
+        "id": "medaglioni-di-manzo-con-porcini",
+        "kind": "ricetta",
+        "title": "Medaglioni di manzo con porcini",
+        "url": "/ricette/medaglioni-di-manzo-con-porcini/",
+        "geography": [
+          "italia-toscana"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-toscana",
+      "automatic": false,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Italia / Toscana / Provincia di Livorno / Isola di Capraia",
+      "right_path": "Italia / Toscana"
+    },
+    {
+      "album_id": "album-031",
+      "album_slug": "031-capraia-2018",
+      "reference": {
+        "id": "pappa-con-il-pomodoro",
+        "kind": "ricetta",
+        "title": "Pappa con il pomodoro",
+        "url": "/ricette/pappa-con-il-pomodoro/",
+        "geography": [
+          "italia-toscana"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-toscana",
+      "automatic": false,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Italia / Toscana / Provincia di Livorno / Isola di Capraia",
+      "right_path": "Italia / Toscana"
+    },
+    {
+      "album_id": "album-031",
+      "album_slug": "031-capraia-2018",
+      "reference": {
+        "id": "penne-con-zucchine",
+        "kind": "ricetta",
+        "title": "Penne con zucchine",
+        "url": "/ricette/penne-con-zucchine/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Toscana / Provincia di Livorno / Isola di Capraia",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-031",
+      "album_slug": "031-capraia-2018",
+      "reference": {
+        "id": "ribollita",
+        "kind": "ricetta",
+        "title": "Ribollita",
+        "url": "/ricette/ribollita/",
+        "geography": [
+          "italia-toscana"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-toscana",
+      "automatic": false,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Italia / Toscana / Provincia di Livorno / Isola di Capraia",
+      "right_path": "Italia / Toscana"
+    },
+    {
+      "album_id": "album-031",
+      "album_slug": "031-capraia-2018",
+      "reference": {
+        "id": "straccetti-di-pollo-al-limone",
+        "kind": "ricetta",
+        "title": "Straccetti di pollo al limone",
+        "url": "/ricette/straccetti-di-pollo-al-limone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Toscana / Provincia di Livorno / Isola di Capraia",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-031",
+      "album_slug": "031-capraia-2018",
+      "reference": {
+        "id": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
+        "kind": "ricetta",
+        "title": "Straccetti su letto di porri con rucola e aceto balsamico di Modena",
+        "url": "/ricette/straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Toscana / Provincia di Livorno / Isola di Capraia",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-031",
+      "album_slug": "031-capraia-2018",
+      "reference": {
+        "id": "tagliate",
+        "kind": "ricetta",
+        "title": "Tagliate",
+        "url": "/ricette/tagliate/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Toscana / Provincia di Livorno / Isola di Capraia",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-031",
+      "album_slug": "031-capraia-2018",
+      "reference": {
+        "id": "zuppa-di-legumi-con-funghi-settembrini-secchi",
+        "kind": "ricetta",
+        "title": "Zuppa di legumi con funghi settembrini secchi",
+        "url": "/ricette/zuppa-di-legumi-con-funghi-settembrini-secchi/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Toscana / Provincia di Livorno / Isola di Capraia",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-032",
+      "album_slug": "032-cadore-primavera-2018",
+      "reference": {
+        "id": "anatra-in-salsa",
+        "kind": "ricetta",
+        "title": "Anatra in salsa",
+        "url": "/ricette/anatra-in-salsa/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Italia / Veneto / Provincia di Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-032",
+      "album_slug": "032-cadore-primavera-2018",
+      "reference": {
+        "id": "antipasto-di-canocce",
+        "kind": "ricetta",
+        "title": "Antipasto di canocce",
+        "url": "/ricette/antipasto-di-canocce/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Italia / Veneto / Provincia di Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-032",
+      "album_slug": "032-cadore-primavera-2018",
+      "reference": {
+        "id": "bigoli-in-salsa",
+        "kind": "ricetta",
+        "title": "Bigoli in salsa",
+        "url": "/ricette/bigoli-in-salsa/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Italia / Veneto / Provincia di Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-032",
+      "album_slug": "032-cadore-primavera-2018",
+      "reference": {
+        "id": "fusilli-carciofi-e-salmone",
+        "kind": "ricetta",
+        "title": "Fusilli carciofi e salmone",
+        "url": "/ricette/fusilli-carciofi-e-salmone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Veneto / Provincia di Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-032",
+      "album_slug": "032-cadore-primavera-2018",
+      "reference": {
+        "id": "gnocchi-con-le-trombette-dei-morti",
+        "kind": "ricetta",
+        "title": "Gnocchi con le trombette dei morti",
+        "url": "/ricette/gnocchi-con-le-trombette-dei-morti/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Italia / Veneto / Provincia di Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-032",
+      "album_slug": "032-cadore-primavera-2018",
+      "reference": {
+        "id": "pasta-con-le-melanzane",
+        "kind": "ricetta",
+        "title": "Pasta con le melanzane",
+        "url": "/ricette/pasta-con-le-melanzane/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Italia / Veneto / Provincia di Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-032",
+      "album_slug": "032-cadore-primavera-2018",
+      "reference": {
+        "id": "pasta-e-fagioli",
+        "kind": "ricetta",
+        "title": "Pasta e fagioli",
+        "url": "/ricette/pasta-e-fagioli/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Italia / Veneto / Provincia di Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-032",
+      "album_slug": "032-cadore-primavera-2018",
+      "reference": {
+        "id": "penne-con-mazzancolle-alle-verdure",
+        "kind": "ricetta",
+        "title": "Penne con mazzancolle alle verdure",
+        "url": "/ricette/penne-con-mazzancolle-alle-verdure/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Italia / Veneto / Provincia di Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-032",
+      "album_slug": "032-cadore-primavera-2018",
+      "reference": {
+        "id": "penne-con-zucchine",
+        "kind": "ricetta",
+        "title": "Penne con zucchine",
+        "url": "/ricette/penne-con-zucchine/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Veneto / Provincia di Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-032",
+      "album_slug": "032-cadore-primavera-2018",
+      "reference": {
+        "id": "straccetti-di-pollo-al-limone",
+        "kind": "ricetta",
+        "title": "Straccetti di pollo al limone",
+        "url": "/ricette/straccetti-di-pollo-al-limone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Veneto / Provincia di Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-032",
+      "album_slug": "032-cadore-primavera-2018",
+      "reference": {
+        "id": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
+        "kind": "ricetta",
+        "title": "Straccetti su letto di porri con rucola e aceto balsamico di Modena",
+        "url": "/ricette/straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Veneto / Provincia di Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-032",
+      "album_slug": "032-cadore-primavera-2018",
+      "reference": {
+        "id": "tagliate",
+        "kind": "ricetta",
+        "title": "Tagliate",
+        "url": "/ricette/tagliate/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Veneto / Provincia di Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-032",
+      "album_slug": "032-cadore-primavera-2018",
+      "reference": {
+        "id": "zuppa-di-legumi-con-funghi-settembrini-secchi",
+        "kind": "ricetta",
+        "title": "Zuppa di legumi con funghi settembrini secchi",
+        "url": "/ricette/zuppa-di-legumi-con-funghi-settembrini-secchi/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Veneto / Provincia di Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-033",
+      "album_slug": "033-cadore-inverno-2018",
+      "reference": {
+        "id": "anatra-in-salsa",
+        "kind": "ricetta",
+        "title": "Anatra in salsa",
+        "url": "/ricette/anatra-in-salsa/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Italia / Veneto / Provincia di Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-033",
+      "album_slug": "033-cadore-inverno-2018",
+      "reference": {
+        "id": "antipasto-di-canocce",
+        "kind": "ricetta",
+        "title": "Antipasto di canocce",
+        "url": "/ricette/antipasto-di-canocce/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Italia / Veneto / Provincia di Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-033",
+      "album_slug": "033-cadore-inverno-2018",
+      "reference": {
+        "id": "bigoli-in-salsa",
+        "kind": "ricetta",
+        "title": "Bigoli in salsa",
+        "url": "/ricette/bigoli-in-salsa/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Italia / Veneto / Provincia di Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-033",
+      "album_slug": "033-cadore-inverno-2018",
+      "reference": {
+        "id": "fusilli-carciofi-e-salmone",
+        "kind": "ricetta",
+        "title": "Fusilli carciofi e salmone",
+        "url": "/ricette/fusilli-carciofi-e-salmone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Veneto / Provincia di Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-033",
+      "album_slug": "033-cadore-inverno-2018",
+      "reference": {
+        "id": "gnocchi-con-le-trombette-dei-morti",
+        "kind": "ricetta",
+        "title": "Gnocchi con le trombette dei morti",
+        "url": "/ricette/gnocchi-con-le-trombette-dei-morti/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Italia / Veneto / Provincia di Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-033",
+      "album_slug": "033-cadore-inverno-2018",
+      "reference": {
+        "id": "pasta-con-le-melanzane",
+        "kind": "ricetta",
+        "title": "Pasta con le melanzane",
+        "url": "/ricette/pasta-con-le-melanzane/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Italia / Veneto / Provincia di Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-033",
+      "album_slug": "033-cadore-inverno-2018",
+      "reference": {
+        "id": "pasta-e-fagioli",
+        "kind": "ricetta",
+        "title": "Pasta e fagioli",
+        "url": "/ricette/pasta-e-fagioli/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Italia / Veneto / Provincia di Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-033",
+      "album_slug": "033-cadore-inverno-2018",
+      "reference": {
+        "id": "penne-con-mazzancolle-alle-verdure",
+        "kind": "ricetta",
+        "title": "Penne con mazzancolle alle verdure",
+        "url": "/ricette/penne-con-mazzancolle-alle-verdure/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Italia / Veneto / Provincia di Belluno / Cadore",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-033",
+      "album_slug": "033-cadore-inverno-2018",
+      "reference": {
+        "id": "penne-con-zucchine",
+        "kind": "ricetta",
+        "title": "Penne con zucchine",
+        "url": "/ricette/penne-con-zucchine/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Veneto / Provincia di Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-033",
+      "album_slug": "033-cadore-inverno-2018",
+      "reference": {
+        "id": "straccetti-di-pollo-al-limone",
+        "kind": "ricetta",
+        "title": "Straccetti di pollo al limone",
+        "url": "/ricette/straccetti-di-pollo-al-limone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Veneto / Provincia di Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-033",
+      "album_slug": "033-cadore-inverno-2018",
+      "reference": {
+        "id": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
+        "kind": "ricetta",
+        "title": "Straccetti su letto di porri con rucola e aceto balsamico di Modena",
+        "url": "/ricette/straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Veneto / Provincia di Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-033",
+      "album_slug": "033-cadore-inverno-2018",
+      "reference": {
+        "id": "tagliate",
+        "kind": "ricetta",
+        "title": "Tagliate",
+        "url": "/ricette/tagliate/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Veneto / Provincia di Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-033",
+      "album_slug": "033-cadore-inverno-2018",
+      "reference": {
+        "id": "zuppa-di-legumi-con-funghi-settembrini-secchi",
+        "kind": "ricetta",
+        "title": "Zuppa di legumi con funghi settembrini secchi",
+        "url": "/ricette/zuppa-di-legumi-con-funghi-settembrini-secchi/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Veneto / Provincia di Belluno / Cadore",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-034",
+      "album_slug": "034-scozia-2017",
+      "reference": {
+        "id": "roastbeef-arrosto-all-inglese",
+        "kind": "ricetta",
+        "title": "Roastbeef (arrosto all'inglese)",
+        "url": "/ricette/roastbeef-arrosto-all-inglese/",
+        "geography": [
+          "regno-unito"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "regno-unito",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Regno Unito / Scozia",
+      "right_path": "Regno Unito"
+    },
+    {
+      "album_id": "album-035",
+      "album_slug": "035-viaggio-in-croazia-2017",
+      "reference": {
+        "id": "filettino-di-maiale",
+        "kind": "ricetta",
+        "title": "Filettin o di maiale",
+        "url": "/ricette/filettino-di-maiale/",
+        "geography": [
+          "croazia-hvar"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_generale",
+      "common_id": "croazia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Croazia",
+      "right_path": "Croazia / Hvar"
+    },
+    {
+      "album_id": "album-036",
+      "album_slug": "036-2016-zara-e-dugj-otok",
+      "reference": {
+        "id": "filettino-di-maiale",
+        "kind": "ricetta",
+        "title": "Filettin o di maiale",
+        "url": "/ricette/filettino-di-maiale/",
+        "geography": [
+          "croazia-hvar"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "croazia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Croazia / Zara",
+      "right_path": "Croazia / Hvar"
+    },
+    {
+      "album_id": "album-039",
+      "album_slug": "039-anterselva-2014",
+      "reference": {
+        "id": "fusilli-carciofi-e-salmone",
+        "kind": "ricetta",
+        "title": "Fusilli carciofi e salmone",
+        "url": "/ricette/fusilli-carciofi-e-salmone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Trentino-Alto Adige / Provincia autonoma di Bolzano / Anterselva, Valle di",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-039",
+      "album_slug": "039-anterselva-2014",
+      "reference": {
+        "id": "penne-con-zucchine",
+        "kind": "ricetta",
+        "title": "Penne con zucchine",
+        "url": "/ricette/penne-con-zucchine/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Trentino-Alto Adige / Provincia autonoma di Bolzano / Anterselva, Valle di",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-039",
+      "album_slug": "039-anterselva-2014",
+      "reference": {
+        "id": "straccetti-di-pollo-al-limone",
+        "kind": "ricetta",
+        "title": "Straccetti di pollo al limone",
+        "url": "/ricette/straccetti-di-pollo-al-limone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Trentino-Alto Adige / Provincia autonoma di Bolzano / Anterselva, Valle di",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-039",
+      "album_slug": "039-anterselva-2014",
+      "reference": {
+        "id": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
+        "kind": "ricetta",
+        "title": "Straccetti su letto di porri con rucola e aceto balsamico di Modena",
+        "url": "/ricette/straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Trentino-Alto Adige / Provincia autonoma di Bolzano / Anterselva, Valle di",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-039",
+      "album_slug": "039-anterselva-2014",
+      "reference": {
+        "id": "tagliate",
+        "kind": "ricetta",
+        "title": "Tagliate",
+        "url": "/ricette/tagliate/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Trentino-Alto Adige / Provincia autonoma di Bolzano / Anterselva, Valle di",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-039",
+      "album_slug": "039-anterselva-2014",
+      "reference": {
+        "id": "zuppa-di-legumi-con-funghi-settembrini-secchi",
+        "kind": "ricetta",
+        "title": "Zuppa di legumi con funghi settembrini secchi",
+        "url": "/ricette/zuppa-di-legumi-con-funghi-settembrini-secchi/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Trentino-Alto Adige / Provincia autonoma di Bolzano / Anterselva, Valle di",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-040",
+      "album_slug": "040-cassis-e-marseille-2014",
+      "reference": {
+        "id": "anatra-all-arancia",
+        "kind": "ricetta",
+        "title": "Anatra all'arancia",
+        "url": "/ricette/anatra-all-arancia/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Cassis",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-040",
+      "album_slug": "040-cassis-e-marseille-2014",
+      "reference": {
+        "id": "aringhe-in-terrina",
+        "kind": "ricetta",
+        "title": "Aringhe in terrina",
+        "url": "/ricette/aringhe-in-terrina/",
+        "geography": [
+          "francia-alsazia"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Cassis",
+      "right_path": "Francia / Alsazia"
+    },
+    {
+      "album_id": "album-040",
+      "album_slug": "040-cassis-e-marseille-2014",
+      "reference": {
+        "id": "cavolo-rosso-condito",
+        "kind": "ricetta",
+        "title": "Cavolo rosso condito",
+        "url": "/ricette/cavolo-rosso-condito/",
+        "geography": [
+          "francia-alsazia"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Cassis",
+      "right_path": "Francia / Alsazia"
+    },
+    {
+      "album_id": "album-040",
+      "album_slug": "040-cassis-e-marseille-2014",
+      "reference": {
+        "id": "choux-croute",
+        "kind": "ricetta",
+        "title": "Choux croute",
+        "url": "/ricette/choux-croute/",
+        "geography": [
+          "francia-alsazia"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Cassis",
+      "right_path": "Francia / Alsazia"
+    },
+    {
+      "album_id": "album-040",
+      "album_slug": "040-cassis-e-marseille-2014",
+      "reference": {
+        "id": "crepes",
+        "kind": "ricetta",
+        "title": "Crêpes",
+        "url": "/ricette/crepes/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Cassis",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-040",
+      "album_slug": "040-cassis-e-marseille-2014",
+      "reference": {
+        "id": "daube",
+        "kind": "ricetta",
+        "title": "Daube",
+        "url": "/ricette/daube/",
+        "geography": [
+          "francia-provenza"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "francia-provenza",
+      "automatic": true,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Francia / Provenza / Marsiglia",
+      "right_path": "Francia / Provenza"
+    },
+    {
+      "album_id": "album-040",
+      "album_slug": "040-cassis-e-marseille-2014",
+      "reference": {
+        "id": "gigot-roti",
+        "kind": "ricetta",
+        "title": "Gigot roti",
+        "url": "/ricette/gigot-roti/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Cassis",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-040",
+      "album_slug": "040-cassis-e-marseille-2014",
+      "reference": {
+        "id": "madeleine",
+        "kind": "ricetta",
+        "title": "Madeleine",
+        "url": "/ricette/madeleine/",
+        "geography": [
+          "francia-normandia"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Cassis",
+      "right_path": "Francia / Normandia"
+    },
+    {
+      "album_id": "album-040",
+      "album_slug": "040-cassis-e-marseille-2014",
+      "reference": {
+        "id": "minestra-di-cavoli",
+        "kind": "ricetta",
+        "title": "Minestra di cavoli",
+        "url": "/ricette/minestra-di-cavoli/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Cassis",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-040",
+      "album_slug": "040-cassis-e-marseille-2014",
+      "reference": {
+        "id": "minestra-di-porri",
+        "kind": "ricetta",
+        "title": "Minestra di porri",
+        "url": "/ricette/minestra-di-porri/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Cassis",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-040",
+      "album_slug": "040-cassis-e-marseille-2014",
+      "reference": {
+        "id": "patatine",
+        "kind": "ricetta",
+        "title": "Patatine*",
+        "url": "/ricette/patatine/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Cassis",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-040",
+      "album_slug": "040-cassis-e-marseille-2014",
+      "reference": {
+        "id": "pate-di-fegato",
+        "kind": "ricetta",
+        "title": "Paté di fegato",
+        "url": "/ricette/pate-di-fegato/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Cassis",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-040",
+      "album_slug": "040-cassis-e-marseille-2014",
+      "reference": {
+        "id": "puree-di-sedano",
+        "kind": "ricetta",
+        "title": "Purée di sedano",
+        "url": "/ricette/puree-di-sedano/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Cassis",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-040",
+      "album_slug": "040-cassis-e-marseille-2014",
+      "reference": {
+        "id": "ratatouille-variante",
+        "kind": "ricetta",
+        "title": "Ratatouille (variante)",
+        "url": "/ricette/ratatouille-variante/",
+        "geography": [
+          "francia-provenza"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "francia-provenza",
+      "automatic": true,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Francia / Provenza / Marsiglia",
+      "right_path": "Francia / Provenza"
+    },
+    {
+      "album_id": "album-040",
+      "album_slug": "040-cassis-e-marseille-2014",
+      "reference": {
+        "id": "roux-brun",
+        "kind": "ricetta",
+        "title": "Roux brun",
+        "url": "/ricette/roux-brun/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Cassis",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-040",
+      "album_slug": "040-cassis-e-marseille-2014",
+      "reference": {
+        "id": "soupe-au-pistou",
+        "kind": "ricetta",
+        "title": "Soupe au pistou",
+        "url": "/ricette/soupe-au-pistou/",
+        "geography": [
+          "francia-provenza"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "francia-provenza",
+      "automatic": true,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Francia / Provenza / Marsiglia",
+      "right_path": "Francia / Provenza"
+    },
+    {
+      "album_id": "album-040",
+      "album_slug": "040-cassis-e-marseille-2014",
+      "reference": {
+        "id": "trancio-di-tonno-con-sesamo-provenzale",
+        "kind": "ricetta",
+        "title": "Trancio di tonno con sesamo provenzale",
+        "url": "/ricette/trancio-di-tonno-con-sesamo-provenzale/",
+        "geography": [
+          "francia-provenza"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "francia-provenza",
+      "automatic": true,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Francia / Provenza / Marsiglia",
+      "right_path": "Francia / Provenza"
+    },
+    {
+      "album_id": "album-041",
+      "album_slug": "041-urbino-2014",
+      "reference": {
+        "id": "anatra-in-salsa",
+        "kind": "ricetta",
+        "title": "Anatra in salsa",
+        "url": "/ricette/anatra-in-salsa/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Urbino",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-041",
+      "album_slug": "041-urbino-2014",
+      "reference": {
+        "id": "antipastino-piemontese",
+        "kind": "ricetta",
+        "title": "Antipast(ino) piemontese",
+        "url": "/ricette/antipastino-piemontese/",
+        "geography": [
+          "italia-piemonte"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Urbino",
+      "right_path": "Italia / Piemonte"
+    },
+    {
+      "album_id": "album-041",
+      "album_slug": "041-urbino-2014",
+      "reference": {
+        "id": "antipasto-di-canocce",
+        "kind": "ricetta",
+        "title": "Antipasto di canocce",
+        "url": "/ricette/antipasto-di-canocce/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Urbino",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-041",
+      "album_slug": "041-urbino-2014",
+      "reference": {
+        "id": "arista-alla-birra",
+        "kind": "ricetta",
+        "title": "Arista alla birra",
+        "url": "/ricette/arista-alla-birra/",
+        "geography": [
+          "italia-campania"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Urbino",
+      "right_path": "Italia / Campania"
+    },
+    {
+      "album_id": "album-041",
+      "album_slug": "041-urbino-2014",
+      "reference": {
+        "id": "bagna-cauda",
+        "kind": "ricetta",
+        "title": "Bagna cauda",
+        "url": "/ricette/bagna-cauda/",
+        "geography": [
+          "italia-piemonte"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Urbino",
+      "right_path": "Italia / Piemonte"
+    },
+    {
+      "album_id": "album-041",
+      "album_slug": "041-urbino-2014",
+      "reference": {
+        "id": "bigoli-in-salsa",
+        "kind": "ricetta",
+        "title": "Bigoli in salsa",
+        "url": "/ricette/bigoli-in-salsa/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Urbino",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-041",
+      "album_slug": "041-urbino-2014",
+      "reference": {
+        "id": "braciole-di-carne-di-cavallo",
+        "kind": "ricetta",
+        "title": "Braciole di carne di cavallo",
+        "url": "/ricette/braciole-di-carne-di-cavallo/",
+        "geography": [
+          "italia-puglia"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Urbino",
+      "right_path": "Italia / Puglia"
+    },
+    {
+      "album_id": "album-041",
+      "album_slug": "041-urbino-2014",
+      "reference": {
+        "id": "calamari-ripieni",
+        "kind": "ricetta",
+        "title": "Calamari ripieni",
+        "url": "/ricette/calamari-ripieni/",
+        "geography": [
+          "italia-puglia"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Urbino",
+      "right_path": "Italia / Puglia"
+    },
+    {
+      "album_id": "album-041",
+      "album_slug": "041-urbino-2014",
+      "reference": {
+        "id": "fusilli-carciofi-e-salmone",
+        "kind": "ricetta",
+        "title": "Fusilli carciofi e salmone",
+        "url": "/ricette/fusilli-carciofi-e-salmone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Urbino",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-041",
+      "album_slug": "041-urbino-2014",
+      "reference": {
+        "id": "gnocchi-con-le-trombette-dei-morti",
+        "kind": "ricetta",
+        "title": "Gnocchi con le trombette dei morti",
+        "url": "/ricette/gnocchi-con-le-trombette-dei-morti/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Urbino",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-041",
+      "album_slug": "041-urbino-2014",
+      "reference": {
+        "id": "medaglioni-di-manzo-con-porcini",
+        "kind": "ricetta",
+        "title": "Medaglioni di manzo con porcini",
+        "url": "/ricette/medaglioni-di-manzo-con-porcini/",
+        "geography": [
+          "italia-toscana"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Urbino",
+      "right_path": "Italia / Toscana"
+    },
+    {
+      "album_id": "album-041",
+      "album_slug": "041-urbino-2014",
+      "reference": {
+        "id": "paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero",
+        "kind": "ricetta",
+        "title": "Paccheri di Gragnano IGP con orata, pomodorini, capperi e zenzero",
+        "url": "/ricette/paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero/",
+        "geography": [
+          "italia-sardegna"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Urbino",
+      "right_path": "Italia / Sardegna"
+    },
+    {
+      "album_id": "album-041",
+      "album_slug": "041-urbino-2014",
+      "reference": {
+        "id": "pappa-con-il-pomodoro",
+        "kind": "ricetta",
+        "title": "Pappa con il pomodoro",
+        "url": "/ricette/pappa-con-il-pomodoro/",
+        "geography": [
+          "italia-toscana"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Urbino",
+      "right_path": "Italia / Toscana"
+    },
+    {
+      "album_id": "album-041",
+      "album_slug": "041-urbino-2014",
+      "reference": {
+        "id": "pasta-al-ragu-di-triglie-e-al-succo-d-arancia",
+        "kind": "ricetta",
+        "title": "Pasta al ragù di triglie e al succo d'arancia",
+        "url": "/ricette/pasta-al-ragu-di-triglie-e-al-succo-d-arancia/",
+        "geography": [
+          "italia-sicilia"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Urbino",
+      "right_path": "Italia / Sicilia"
+    },
+    {
+      "album_id": "album-041",
+      "album_slug": "041-urbino-2014",
+      "reference": {
+        "id": "pasta-con-le-melanzane",
+        "kind": "ricetta",
+        "title": "Pasta con le melanzane",
+        "url": "/ricette/pasta-con-le-melanzane/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Urbino",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-041",
+      "album_slug": "041-urbino-2014",
+      "reference": {
+        "id": "pasta-con-pesto-alla-siciliana",
+        "kind": "ricetta",
+        "title": "Pasta con pesto alla siciliana",
+        "url": "/ricette/pasta-con-pesto-alla-siciliana/",
+        "geography": [
+          "italia-sicilia"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Urbino",
+      "right_path": "Italia / Sicilia"
+    },
+    {
+      "album_id": "album-041",
+      "album_slug": "041-urbino-2014",
+      "reference": {
+        "id": "pasta-e-fagioli",
+        "kind": "ricetta",
+        "title": "Pasta e fagioli",
+        "url": "/ricette/pasta-e-fagioli/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Urbino",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-041",
+      "album_slug": "041-urbino-2014",
+      "reference": {
+        "id": "penne-con-mazzancolle-alle-verdure",
+        "kind": "ricetta",
+        "title": "Penne con mazzancolle alle verdure",
+        "url": "/ricette/penne-con-mazzancolle-alle-verdure/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Urbino",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-041",
+      "album_slug": "041-urbino-2014",
+      "reference": {
+        "id": "penne-con-zucchine",
+        "kind": "ricetta",
+        "title": "Penne con zucchine",
+        "url": "/ricette/penne-con-zucchine/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Urbino",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-041",
+      "album_slug": "041-urbino-2014",
+      "reference": {
+        "id": "ribollita",
+        "kind": "ricetta",
+        "title": "Ribollita",
+        "url": "/ricette/ribollita/",
+        "geography": [
+          "italia-toscana"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Urbino",
+      "right_path": "Italia / Toscana"
+    },
+    {
+      "album_id": "album-041",
+      "album_slug": "041-urbino-2014",
+      "reference": {
+        "id": "salsa-verde",
+        "kind": "ricetta",
+        "title": "Salsa verde",
+        "url": "/ricette/salsa-verde/",
+        "geography": [
+          "italia-piemonte"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Urbino",
+      "right_path": "Italia / Piemonte"
+    },
+    {
+      "album_id": "album-041",
+      "album_slug": "041-urbino-2014",
+      "reference": {
+        "id": "sarde-a-beccafico",
+        "kind": "ricetta",
+        "title": "Sarde a beccafico",
+        "url": "/ricette/sarde-a-beccafico/",
+        "geography": [
+          "italia-sicilia"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Urbino",
+      "right_path": "Italia / Sicilia"
+    },
+    {
+      "album_id": "album-041",
+      "album_slug": "041-urbino-2014",
+      "reference": {
+        "id": "sfogliata-pugliese",
+        "kind": "ricetta",
+        "title": "Sfogliata pugliese",
+        "url": "/ricette/sfogliata-pugliese/",
+        "geography": [
+          "italia-puglia"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Urbino",
+      "right_path": "Italia / Puglia"
+    },
+    {
+      "album_id": "album-041",
+      "album_slug": "041-urbino-2014",
+      "reference": {
+        "id": "spaghetti-alla-bottarga",
+        "kind": "ricetta",
+        "title": "Spaghetti alla bottarga",
+        "url": "/ricette/spaghetti-alla-bottarga/",
+        "geography": [
+          "italia-sicilia"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Urbino",
+      "right_path": "Italia / Sicilia"
+    },
+    {
+      "album_id": "album-041",
+      "album_slug": "041-urbino-2014",
+      "reference": {
+        "id": "straccetti-di-pollo-al-limone",
+        "kind": "ricetta",
+        "title": "Straccetti di pollo al limone",
+        "url": "/ricette/straccetti-di-pollo-al-limone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Urbino",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-041",
+      "album_slug": "041-urbino-2014",
+      "reference": {
+        "id": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
+        "kind": "ricetta",
+        "title": "Straccetti su letto di porri con rucola e aceto balsamico di Modena",
+        "url": "/ricette/straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Urbino",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-041",
+      "album_slug": "041-urbino-2014",
+      "reference": {
+        "id": "tagliate",
+        "kind": "ricetta",
+        "title": "Tagliate",
+        "url": "/ricette/tagliate/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Urbino",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-041",
+      "album_slug": "041-urbino-2014",
+      "reference": {
+        "id": "vitello-tonnato",
+        "kind": "ricetta",
+        "title": "Vitello tonnato",
+        "url": "/ricette/vitello-tonnato/",
+        "geography": [
+          "italia-piemonte"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Urbino",
+      "right_path": "Italia / Piemonte"
+    },
+    {
+      "album_id": "album-041",
+      "album_slug": "041-urbino-2014",
+      "reference": {
+        "id": "zuppa-di-legumi-con-funghi-settembrini-secchi",
+        "kind": "ricetta",
+        "title": "Zuppa di legumi con funghi settembrini secchi",
+        "url": "/ricette/zuppa-di-legumi-con-funghi-settembrini-secchi/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Urbino",
       "right_path": "Italia"
     },
     {
@@ -12660,13 +14668,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Trentino-Alto Adige / Canazei",
+      "left_path": "Italia / Veneto / Provincia di Belluno / Livinallongo del col di lana",
       "right_path": "Italia"
     },
     {
@@ -12765,13 +14773,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Trentino-Alto Adige / Canazei",
+      "left_path": "Italia / Veneto / Provincia di Belluno / Livinallongo del col di lana",
       "right_path": "Italia"
     },
     {
@@ -12786,13 +14794,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Trentino-Alto Adige / Canazei",
+      "left_path": "Italia / Veneto / Provincia di Belluno / Livinallongo del col di lana",
       "right_path": "Italia"
     },
     {
@@ -12807,13 +14815,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Trentino-Alto Adige / Canazei",
+      "left_path": "Italia / Veneto / Provincia di Belluno / Livinallongo del col di lana",
       "right_path": "Italia"
     },
     {
@@ -12828,13 +14836,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Trentino-Alto Adige / Canazei",
+      "left_path": "Italia / Veneto / Provincia di Belluno / Livinallongo del col di lana",
       "right_path": "Italia"
     },
     {
@@ -12849,13 +14857,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Trentino-Alto Adige / Canazei",
+      "left_path": "Italia / Veneto / Provincia di Belluno / Livinallongo del col di lana",
       "right_path": "Italia"
     },
     {
@@ -12887,27 +14895,6 @@
         "kind": "ricetta",
         "title": "Bagna cauda",
         "url": "/ricette/bagna-cauda/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 80,
-      "relation": "piu_specifico",
-      "common_id": "italia-piemonte",
-      "automatic": false,
-      "automatic_eligible": true,
-      "eligibility_reason": "",
-      "left_path": "Italia / Piemonte / Provincia di Torino / San Germano Chisone",
-      "right_path": "Italia / Piemonte"
-    },
-    {
-      "album_id": "album-106",
-      "album_slug": "106-san-germano-2005",
-      "reference": {
-        "id": "bollito-misto",
-        "kind": "ricetta",
-        "title": "Bollito misto",
-        "url": "/ricette/bollito-misto/",
         "geography": [
           "italia-piemonte"
         ]
@@ -13090,6 +15077,216 @@
       "right_path": "Italia"
     },
     {
+      "album_id": "album-140",
+      "album_slug": "140-londra-2005",
+      "reference": {
+        "id": "roastbeef-arrosto-all-inglese",
+        "kind": "ricetta",
+        "title": "Roastbeef (arrosto all'inglese)",
+        "url": "/ricette/roastbeef-arrosto-all-inglese/",
+        "geography": [
+          "regno-unito"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "regno-unito",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Regno Unito / Inghilterra / Grande Londra / Londra",
+      "right_path": "Regno Unito"
+    },
+    {
+      "album_id": "album-145",
+      "album_slug": "145-parigi-2005",
+      "reference": {
+        "id": "anatra-all-arancia",
+        "kind": "ricetta",
+        "title": "Anatra all'arancia",
+        "url": "/ricette/anatra-all-arancia/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Île-de-France / Parigi",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-145",
+      "album_slug": "145-parigi-2005",
+      "reference": {
+        "id": "crepes",
+        "kind": "ricetta",
+        "title": "Crêpes",
+        "url": "/ricette/crepes/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Île-de-France / Parigi",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-145",
+      "album_slug": "145-parigi-2005",
+      "reference": {
+        "id": "gigot-roti",
+        "kind": "ricetta",
+        "title": "Gigot roti",
+        "url": "/ricette/gigot-roti/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Île-de-France / Parigi",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-145",
+      "album_slug": "145-parigi-2005",
+      "reference": {
+        "id": "minestra-di-cavoli",
+        "kind": "ricetta",
+        "title": "Minestra di cavoli",
+        "url": "/ricette/minestra-di-cavoli/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Île-de-France / Parigi",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-145",
+      "album_slug": "145-parigi-2005",
+      "reference": {
+        "id": "minestra-di-porri",
+        "kind": "ricetta",
+        "title": "Minestra di porri",
+        "url": "/ricette/minestra-di-porri/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Île-de-France / Parigi",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-145",
+      "album_slug": "145-parigi-2005",
+      "reference": {
+        "id": "patatine",
+        "kind": "ricetta",
+        "title": "Patatine*",
+        "url": "/ricette/patatine/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Île-de-France / Parigi",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-145",
+      "album_slug": "145-parigi-2005",
+      "reference": {
+        "id": "pate-di-fegato",
+        "kind": "ricetta",
+        "title": "Paté di fegato",
+        "url": "/ricette/pate-di-fegato/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Île-de-France / Parigi",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-145",
+      "album_slug": "145-parigi-2005",
+      "reference": {
+        "id": "puree-di-sedano",
+        "kind": "ricetta",
+        "title": "Purée di sedano",
+        "url": "/ricette/puree-di-sedano/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Île-de-France / Parigi",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-145",
+      "album_slug": "145-parigi-2005",
+      "reference": {
+        "id": "roux-brun",
+        "kind": "ricetta",
+        "title": "Roux brun",
+        "url": "/ricette/roux-brun/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Île-de-France / Parigi",
+      "right_path": "Francia"
+    },
+    {
       "album_id": "album-107",
       "album_slug": "107-provincia-di-viterbo-e-provincia-di-perugia-2004",
       "reference": {
@@ -13255,6 +15452,279 @@
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
       "left_path": "Italia / Lazio / Provincia di Viterbo",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-141",
+      "album_slug": "141-weekend-a-braies-e-dobbiaco-2004",
+      "reference": {
+        "id": "fusilli-carciofi-e-salmone",
+        "kind": "ricetta",
+        "title": "Fusilli carciofi e salmone",
+        "url": "/ricette/fusilli-carciofi-e-salmone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Trentino-Alto Adige / Alto Adige / Alta Pusteria",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-141",
+      "album_slug": "141-weekend-a-braies-e-dobbiaco-2004",
+      "reference": {
+        "id": "goulash-variante",
+        "kind": "ricetta",
+        "title": "Gulash (variante)",
+        "url": "/ricette/goulash-variante/",
+        "geography": [
+          "italia-alto-adige-val-di-casies"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia-alto-adige",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Rami geografici distinti: solo suggerimento",
+      "left_path": "Italia / Trentino-Alto Adige / Alto Adige / Alta Pusteria",
+      "right_path": "Italia / Trentino-Alto Adige / Alto Adige / Val-di-Casies"
+    },
+    {
+      "album_id": "album-141",
+      "album_slug": "141-weekend-a-braies-e-dobbiaco-2004",
+      "reference": {
+        "id": "penne-con-zucchine",
+        "kind": "ricetta",
+        "title": "Penne con zucchine",
+        "url": "/ricette/penne-con-zucchine/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Trentino-Alto Adige / Alto Adige / Alta Pusteria",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-141",
+      "album_slug": "141-weekend-a-braies-e-dobbiaco-2004",
+      "reference": {
+        "id": "straccetti-di-pollo-al-limone",
+        "kind": "ricetta",
+        "title": "Straccetti di pollo al limone",
+        "url": "/ricette/straccetti-di-pollo-al-limone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Trentino-Alto Adige / Alto Adige / Alta Pusteria",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-141",
+      "album_slug": "141-weekend-a-braies-e-dobbiaco-2004",
+      "reference": {
+        "id": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
+        "kind": "ricetta",
+        "title": "Straccetti su letto di porri con rucola e aceto balsamico di Modena",
+        "url": "/ricette/straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Trentino-Alto Adige / Alto Adige / Alta Pusteria",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-141",
+      "album_slug": "141-weekend-a-braies-e-dobbiaco-2004",
+      "reference": {
+        "id": "tagliate",
+        "kind": "ricetta",
+        "title": "Tagliate",
+        "url": "/ricette/tagliate/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Trentino-Alto Adige / Alto Adige / Alta Pusteria",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-141",
+      "album_slug": "141-weekend-a-braies-e-dobbiaco-2004",
+      "reference": {
+        "id": "zuppa-di-legumi-con-funghi-settembrini-secchi",
+        "kind": "ricetta",
+        "title": "Zuppa di legumi con funghi settembrini secchi",
+        "url": "/ricette/zuppa-di-legumi-con-funghi-settembrini-secchi/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Trentino-Alto Adige / Alto Adige / Alta Pusteria",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-142",
+      "album_slug": "142-weekend-a-curon-venosta-e-stelvio-2004",
+      "reference": {
+        "id": "fusilli-carciofi-e-salmone",
+        "kind": "ricetta",
+        "title": "Fusilli carciofi e salmone",
+        "url": "/ricette/fusilli-carciofi-e-salmone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Trentino-Alto Adige / Provincia autonoma di Bolzano / Curon Venosta",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-142",
+      "album_slug": "142-weekend-a-curon-venosta-e-stelvio-2004",
+      "reference": {
+        "id": "penne-con-zucchine",
+        "kind": "ricetta",
+        "title": "Penne con zucchine",
+        "url": "/ricette/penne-con-zucchine/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Trentino-Alto Adige / Provincia autonoma di Bolzano / Curon Venosta",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-142",
+      "album_slug": "142-weekend-a-curon-venosta-e-stelvio-2004",
+      "reference": {
+        "id": "straccetti-di-pollo-al-limone",
+        "kind": "ricetta",
+        "title": "Straccetti di pollo al limone",
+        "url": "/ricette/straccetti-di-pollo-al-limone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Trentino-Alto Adige / Provincia autonoma di Bolzano / Curon Venosta",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-142",
+      "album_slug": "142-weekend-a-curon-venosta-e-stelvio-2004",
+      "reference": {
+        "id": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
+        "kind": "ricetta",
+        "title": "Straccetti su letto di porri con rucola e aceto balsamico di Modena",
+        "url": "/ricette/straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Trentino-Alto Adige / Provincia autonoma di Bolzano / Curon Venosta",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-142",
+      "album_slug": "142-weekend-a-curon-venosta-e-stelvio-2004",
+      "reference": {
+        "id": "tagliate",
+        "kind": "ricetta",
+        "title": "Tagliate",
+        "url": "/ricette/tagliate/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Trentino-Alto Adige / Provincia autonoma di Bolzano / Curon Venosta",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-142",
+      "album_slug": "142-weekend-a-curon-venosta-e-stelvio-2004",
+      "reference": {
+        "id": "zuppa-di-legumi-con-funghi-settembrini-secchi",
+        "kind": "ricetta",
+        "title": "Zuppa di legumi con funghi settembrini secchi",
+        "url": "/ricette/zuppa-di-legumi-con-funghi-settembrini-secchi/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Trentino-Alto Adige / Provincia autonoma di Bolzano / Curon Venosta",
       "right_path": "Italia"
     },
     {
@@ -14182,6 +16652,531 @@
       "right_path": "Francia"
     },
     {
+      "album_id": "album-143",
+      "album_slug": "143-viaggio-a-alghero-2002",
+      "reference": {
+        "id": "fusilli-carciofi-e-salmone",
+        "kind": "ricetta",
+        "title": "Fusilli carciofi e salmone",
+        "url": "/ricette/fusilli-carciofi-e-salmone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Sardegna / Alghero",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-143",
+      "album_slug": "143-viaggio-a-alghero-2002",
+      "reference": {
+        "id": "paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero",
+        "kind": "ricetta",
+        "title": "Paccheri di Gragnano IGP con orata, pomodorini, capperi e zenzero",
+        "url": "/ricette/paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero/",
+        "geography": [
+          "italia-sardegna"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "italia-sardegna",
+      "automatic": true,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Italia / Sardegna / Alghero",
+      "right_path": "Italia / Sardegna"
+    },
+    {
+      "album_id": "album-143",
+      "album_slug": "143-viaggio-a-alghero-2002",
+      "reference": {
+        "id": "penne-con-zucchine",
+        "kind": "ricetta",
+        "title": "Penne con zucchine",
+        "url": "/ricette/penne-con-zucchine/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Sardegna / Alghero",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-143",
+      "album_slug": "143-viaggio-a-alghero-2002",
+      "reference": {
+        "id": "straccetti-di-pollo-al-limone",
+        "kind": "ricetta",
+        "title": "Straccetti di pollo al limone",
+        "url": "/ricette/straccetti-di-pollo-al-limone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Sardegna / Alghero",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-143",
+      "album_slug": "143-viaggio-a-alghero-2002",
+      "reference": {
+        "id": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
+        "kind": "ricetta",
+        "title": "Straccetti su letto di porri con rucola e aceto balsamico di Modena",
+        "url": "/ricette/straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Sardegna / Alghero",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-143",
+      "album_slug": "143-viaggio-a-alghero-2002",
+      "reference": {
+        "id": "tagliate",
+        "kind": "ricetta",
+        "title": "Tagliate",
+        "url": "/ricette/tagliate/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Sardegna / Alghero",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-143",
+      "album_slug": "143-viaggio-a-alghero-2002",
+      "reference": {
+        "id": "tonno-alla-carlofortina",
+        "kind": "ricetta",
+        "title": "Tonno alla CarloFortina",
+        "url": "/ricette/tonno-alla-carlofortina/",
+        "geography": [
+          "italia-sardegna-carloforte"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia-sardegna",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Rami geografici distinti: solo suggerimento",
+      "left_path": "Italia / Sardegna / Alghero",
+      "right_path": "Italia / Sardegna / Carloforte"
+    },
+    {
+      "album_id": "album-143",
+      "album_slug": "143-viaggio-a-alghero-2002",
+      "reference": {
+        "id": "zuppa-di-legumi-con-funghi-settembrini-secchi",
+        "kind": "ricetta",
+        "title": "Zuppa di legumi con funghi settembrini secchi",
+        "url": "/ricette/zuppa-di-legumi-con-funghi-settembrini-secchi/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Sardegna / Alghero",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-144",
+      "album_slug": "144-alghero-porto-conte-e-asinara-2002",
+      "reference": {
+        "id": "fusilli-carciofi-e-salmone",
+        "kind": "ricetta",
+        "title": "Fusilli carciofi e salmone",
+        "url": "/ricette/fusilli-carciofi-e-salmone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Sardegna / Isola dell’Asinara",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-144",
+      "album_slug": "144-alghero-porto-conte-e-asinara-2002",
+      "reference": {
+        "id": "paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero",
+        "kind": "ricetta",
+        "title": "Paccheri di Gragnano IGP con orata, pomodorini, capperi e zenzero",
+        "url": "/ricette/paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero/",
+        "geography": [
+          "italia-sardegna"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "italia-sardegna",
+      "automatic": true,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Italia / Sardegna / Isola dell’Asinara",
+      "right_path": "Italia / Sardegna"
+    },
+    {
+      "album_id": "album-144",
+      "album_slug": "144-alghero-porto-conte-e-asinara-2002",
+      "reference": {
+        "id": "penne-con-zucchine",
+        "kind": "ricetta",
+        "title": "Penne con zucchine",
+        "url": "/ricette/penne-con-zucchine/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Sardegna / Isola dell’Asinara",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-144",
+      "album_slug": "144-alghero-porto-conte-e-asinara-2002",
+      "reference": {
+        "id": "straccetti-di-pollo-al-limone",
+        "kind": "ricetta",
+        "title": "Straccetti di pollo al limone",
+        "url": "/ricette/straccetti-di-pollo-al-limone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Sardegna / Isola dell’Asinara",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-144",
+      "album_slug": "144-alghero-porto-conte-e-asinara-2002",
+      "reference": {
+        "id": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
+        "kind": "ricetta",
+        "title": "Straccetti su letto di porri con rucola e aceto balsamico di Modena",
+        "url": "/ricette/straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Sardegna / Isola dell’Asinara",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-144",
+      "album_slug": "144-alghero-porto-conte-e-asinara-2002",
+      "reference": {
+        "id": "tagliate",
+        "kind": "ricetta",
+        "title": "Tagliate",
+        "url": "/ricette/tagliate/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Sardegna / Isola dell’Asinara",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-144",
+      "album_slug": "144-alghero-porto-conte-e-asinara-2002",
+      "reference": {
+        "id": "tonno-alla-carlofortina",
+        "kind": "ricetta",
+        "title": "Tonno alla CarloFortina",
+        "url": "/ricette/tonno-alla-carlofortina/",
+        "geography": [
+          "italia-sardegna-carloforte"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia-sardegna",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Rami geografici distinti: solo suggerimento",
+      "left_path": "Italia / Sardegna / Isola dell’Asinara",
+      "right_path": "Italia / Sardegna / Carloforte"
+    },
+    {
+      "album_id": "album-144",
+      "album_slug": "144-alghero-porto-conte-e-asinara-2002",
+      "reference": {
+        "id": "zuppa-di-legumi-con-funghi-settembrini-secchi",
+        "kind": "ricetta",
+        "title": "Zuppa di legumi con funghi settembrini secchi",
+        "url": "/ricette/zuppa-di-legumi-con-funghi-settembrini-secchi/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Sardegna / Isola dell’Asinara",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-146",
+      "album_slug": "146-parigi-2002",
+      "reference": {
+        "id": "anatra-all-arancia",
+        "kind": "ricetta",
+        "title": "Anatra all'arancia",
+        "url": "/ricette/anatra-all-arancia/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Île-de-France / Parigi",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-146",
+      "album_slug": "146-parigi-2002",
+      "reference": {
+        "id": "crepes",
+        "kind": "ricetta",
+        "title": "Crêpes",
+        "url": "/ricette/crepes/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Île-de-France / Parigi",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-146",
+      "album_slug": "146-parigi-2002",
+      "reference": {
+        "id": "gigot-roti",
+        "kind": "ricetta",
+        "title": "Gigot roti",
+        "url": "/ricette/gigot-roti/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Île-de-France / Parigi",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-146",
+      "album_slug": "146-parigi-2002",
+      "reference": {
+        "id": "minestra-di-cavoli",
+        "kind": "ricetta",
+        "title": "Minestra di cavoli",
+        "url": "/ricette/minestra-di-cavoli/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Île-de-France / Parigi",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-146",
+      "album_slug": "146-parigi-2002",
+      "reference": {
+        "id": "minestra-di-porri",
+        "kind": "ricetta",
+        "title": "Minestra di porri",
+        "url": "/ricette/minestra-di-porri/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Île-de-France / Parigi",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-146",
+      "album_slug": "146-parigi-2002",
+      "reference": {
+        "id": "patatine",
+        "kind": "ricetta",
+        "title": "Patatine*",
+        "url": "/ricette/patatine/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Île-de-France / Parigi",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-146",
+      "album_slug": "146-parigi-2002",
+      "reference": {
+        "id": "pate-di-fegato",
+        "kind": "ricetta",
+        "title": "Paté di fegato",
+        "url": "/ricette/pate-di-fegato/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Île-de-France / Parigi",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-146",
+      "album_slug": "146-parigi-2002",
+      "reference": {
+        "id": "puree-di-sedano",
+        "kind": "ricetta",
+        "title": "Purée di sedano",
+        "url": "/ricette/puree-di-sedano/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Île-de-France / Parigi",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-146",
+      "album_slug": "146-parigi-2002",
+      "reference": {
+        "id": "roux-brun",
+        "kind": "ricetta",
+        "title": "Roux brun",
+        "url": "/ricette/roux-brun/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Île-de-France / Parigi",
+      "right_path": "Francia"
+    },
+    {
       "album_id": "album-112",
       "album_slug": "112-marina-di-modica-1989",
       "reference": {
@@ -15025,27 +18020,6 @@
       "album_id": "album-119",
       "album_slug": "119-chamois-1988",
       "reference": {
-        "id": "bollito-misto",
-        "kind": "ricetta",
-        "title": "Bollito misto",
-        "url": "/ricette/bollito-misto/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Chamois",
-      "right_path": "Italia / Piemonte"
-    },
-    {
-      "album_id": "album-119",
-      "album_slug": "119-chamois-1988",
-      "reference": {
         "id": "braciole-di-carne-di-cavallo",
         "kind": "ricetta",
         "title": "Braciole di carne di cavallo",
@@ -15571,27 +18545,6 @@
       "album_id": "album-121",
       "album_slug": "121-pragelato-e-dintorni-1988",
       "reference": {
-        "id": "bollito-misto",
-        "kind": "ricetta",
-        "title": "Bollito misto",
-        "url": "/ricette/bollito-misto/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 80,
-      "relation": "piu_specifico",
-      "common_id": "italia-piemonte",
-      "automatic": false,
-      "automatic_eligible": true,
-      "eligibility_reason": "",
-      "left_path": "Italia / Piemonte / Provincia di Torino / Pragelato",
-      "right_path": "Italia / Piemonte"
-    },
-    {
-      "album_id": "album-121",
-      "album_slug": "121-pragelato-e-dintorni-1988",
-      "reference": {
         "id": "fusilli-carciofi-e-salmone",
         "kind": "ricetta",
         "title": "Fusilli carciofi e salmone",
@@ -15881,27 +18834,6 @@
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
       "left_path": "Italia / Cinque Terre",
       "right_path": "Italia / Veneto"
-    },
-    {
-      "album_id": "album-122",
-      "album_slug": "122-5-terre-1988",
-      "reference": {
-        "id": "bollito-misto",
-        "kind": "ricetta",
-        "title": "Bollito misto",
-        "url": "/ricette/bollito-misto/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Cinque Terre",
-      "right_path": "Italia / Piemonte"
     },
     {
       "album_id": "album-122",
@@ -16789,27 +19721,6 @@
       "album_id": "album-124",
       "album_slug": "124-sestriere-1987",
       "reference": {
-        "id": "bollito-misto",
-        "kind": "ricetta",
-        "title": "Bollito misto",
-        "url": "/ricette/bollito-misto/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 80,
-      "relation": "piu_specifico",
-      "common_id": "italia-piemonte",
-      "automatic": false,
-      "automatic_eligible": true,
-      "eligibility_reason": "",
-      "left_path": "Italia / Piemonte / Provincia di Torino / Sestriere",
-      "right_path": "Italia / Piemonte"
-    },
-    {
-      "album_id": "album-124",
-      "album_slug": "124-sestriere-1987",
-      "reference": {
         "id": "fusilli-carciofi-e-salmone",
         "kind": "ricetta",
         "title": "Fusilli carciofi e salmone",
@@ -17120,27 +20031,6 @@
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
       "left_path": "Italia / Marmolada",
       "right_path": "Italia / Veneto"
-    },
-    {
-      "album_id": "album-126",
-      "album_slug": "126-marmolada-1986",
-      "reference": {
-        "id": "bollito-misto",
-        "kind": "ricetta",
-        "title": "Bollito misto",
-        "url": "/ricette/bollito-misto/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Marmolada",
-      "right_path": "Italia / Piemonte"
     },
     {
       "album_id": "album-126",
@@ -17654,27 +20544,6 @@
         "kind": "ricetta",
         "title": "Bagna cauda",
         "url": "/ricette/bagna-cauda/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 70,
-      "relation": "piu_specifico",
-      "common_id": "italia-piemonte",
-      "automatic": false,
-      "automatic_eligible": true,
-      "eligibility_reason": "",
-      "left_path": "Italia / Piemonte / Provincia di Torino / Roure / Rifugio Selleries",
-      "right_path": "Italia / Piemonte"
-    },
-    {
-      "album_id": "album-127",
-      "album_slug": "127-rifugio-selleries-1986",
-      "reference": {
-        "id": "bollito-misto",
-        "kind": "ricetta",
-        "title": "Bollito misto",
-        "url": "/ricette/bollito-misto/",
         "geography": [
           "italia-piemonte"
         ]
@@ -18322,27 +21191,6 @@
       "album_id": "album-131",
       "album_slug": "131-san-germano-dintorni-1985",
       "reference": {
-        "id": "bollito-misto",
-        "kind": "ricetta",
-        "title": "Bollito misto",
-        "url": "/ricette/bollito-misto/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 80,
-      "relation": "piu_specifico",
-      "common_id": "italia-piemonte",
-      "automatic": false,
-      "automatic_eligible": true,
-      "eligibility_reason": "",
-      "left_path": "Italia / Piemonte / Provincia di Torino / San Germano Chisone",
-      "right_path": "Italia / Piemonte"
-    },
-    {
-      "album_id": "album-131",
-      "album_slug": "131-san-germano-dintorni-1985",
-      "reference": {
         "id": "fusilli-carciofi-e-salmone",
         "kind": "ricetta",
         "title": "Fusilli carciofi e salmone",
@@ -18893,27 +21741,6 @@
         "kind": "ricetta",
         "title": "Bagna cauda",
         "url": "/ricette/bagna-cauda/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 80,
-      "relation": "piu_specifico",
-      "common_id": "italia-piemonte",
-      "automatic": false,
-      "automatic_eligible": true,
-      "eligibility_reason": "",
-      "left_path": "Italia / Piemonte / Provincia di Torino / San Germano Chisone",
-      "right_path": "Italia / Piemonte"
-    },
-    {
-      "album_id": "album-133",
-      "album_slug": "133-san-germano-e-dintorni-1984",
-      "reference": {
-        "id": "bollito-misto",
-        "kind": "ricetta",
-        "title": "Bollito misto",
-        "url": "/ricette/bollito-misto/",
         "geography": [
           "italia-piemonte"
         ]
