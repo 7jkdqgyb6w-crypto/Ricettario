@@ -90,6 +90,13 @@
       if (event.key === 'Escape') closeMobileMap();
     }
 
+    function onPageShow() {
+      // Safari su iPhone può ripristinare la pagina dalla cache mantenendo
+      // la finestra del planisfero aperta. Il ritorno a Geografia deve invece
+      // mostrare sempre la pagina normale.
+      if (modal) closeMobileMap();
+    }
+
     function openMobileMap() {
       if (modal || !mobileMapQuery.matches || !container.parentNode) return;
       modalPlaceholder = document.createComment('mobile-map-placeholder');
@@ -131,6 +138,9 @@
       holder.appendChild(modalSelection);
       modal.appendChild(toolbar);
       modal.appendChild(holder);
+      modal.addEventListener('click', function (event) {
+        if (event.target === modal) closeMobileMap();
+      });
       document.body.appendChild(modal);
       document.body.classList.add('mobile-map-modal-open');
       document.addEventListener('keydown', onModalKeydown);
@@ -331,6 +341,7 @@
     }
     draw();
     new ResizeObserver(draw).observe(container);
+    window.addEventListener('pageshow', onPageShow);
   }
 
   ready(function () {
