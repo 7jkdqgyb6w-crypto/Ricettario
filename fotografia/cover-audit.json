@@ -1,0 +1,1638 @@
+{
+  "albums": 148,
+  "explicit_covers": 0,
+  "explicit_cover_references": 0,
+  "fallback_covers": 148,
+  "missing_original_reference": [
+    {
+      "album_id": "album-001",
+      "slug": "001-cadore-estate-2022",
+      "title": "Cadore - Estate 2022"
+    },
+    {
+      "album_id": "album-002",
+      "slug": "002-baska-2-krk-croazia-2022",
+      "title": "Baska (2) - Krk - Croazia 2022"
+    },
+    {
+      "album_id": "album-003",
+      "slug": "003-la-loupie-drome-francia-2022",
+      "title": "La Loupie - Drome - Francia 2022"
+    },
+    {
+      "album_id": "album-004",
+      "slug": "004-baska-krk-croazia-2022",
+      "title": "Baska - Krk - Croazia 2022"
+    },
+    {
+      "album_id": "album-005",
+      "slug": "005-parigi-2022",
+      "title": "Parigi 2022"
+    },
+    {
+      "album_id": "album-006",
+      "slug": "006-ravenna-e-roma-2022",
+      "title": "Ravenna e Roma 2022"
+    },
+    {
+      "album_id": "album-007",
+      "slug": "007-manas-2021",
+      "title": "Manas 2021"
+    },
+    {
+      "album_id": "album-008",
+      "slug": "008-cadore-estate-2021",
+      "title": "Cadore - Estate 2021"
+    },
+    {
+      "album_id": "album-009",
+      "slug": "009-parenzo-croazia-2021",
+      "title": "Parenzo - Croazia 2021"
+    },
+    {
+      "album_id": "album-010",
+      "slug": "010-toscana-e-lazio-2021",
+      "title": "Toscana e Lazio 2021"
+    },
+    {
+      "album_id": "album-011",
+      "slug": "011-cadore-primavera-2021",
+      "title": "Cadore - Primavera 2021"
+    },
+    {
+      "album_id": "album-012",
+      "slug": "012-cadore-inverno-2021",
+      "title": "Cadore - Inverno 2021"
+    },
+    {
+      "album_id": "album-138",
+      "slug": "138-usseaux-2021",
+      "title": "Usseaux"
+    },
+    {
+      "album_id": "album-013",
+      "slug": "013-isola-d-elba-2020",
+      "title": "Isola d'Elba 2020"
+    },
+    {
+      "album_id": "album-014",
+      "slug": "014-cadore-estate-2020",
+      "title": "Cadore - Estate 2020"
+    },
+    {
+      "album_id": "album-015",
+      "slug": "015-argentario-e-lazio-2020",
+      "title": "Argentario e Lazio 2020"
+    },
+    {
+      "album_id": "album-016",
+      "slug": "016-roma-2019",
+      "title": "Roma 2019"
+    },
+    {
+      "album_id": "album-017",
+      "slug": "017-cadore-estate-2019",
+      "title": "Cadore - Estate 2019"
+    },
+    {
+      "album_id": "album-018",
+      "slug": "018-vilnius-2019",
+      "title": "Vilnius 2019"
+    },
+    {
+      "album_id": "album-019",
+      "slug": "019-riga-2019",
+      "title": "Riga 2019"
+    },
+    {
+      "album_id": "album-020",
+      "slug": "020-tallinn-2019",
+      "title": "Tallinn 2019"
+    },
+    {
+      "album_id": "album-021",
+      "slug": "021-helsinki-2019",
+      "title": "Helsinki 2019"
+    },
+    {
+      "album_id": "album-022",
+      "slug": "022-cadore-primavera-2019",
+      "title": "Cadore - Primavera 2019"
+    },
+    {
+      "album_id": "album-023",
+      "slug": "023-vienna-2019",
+      "title": "Vienna 2019"
+    },
+    {
+      "album_id": "album-024",
+      "slug": "024-cadore-inverno-2019",
+      "title": "Cadore - Inverno 2019"
+    },
+    {
+      "album_id": "album-025",
+      "slug": "025-salisburgo-2019",
+      "title": "Salisburgo 2019"
+    },
+    {
+      "album_id": "album-026",
+      "slug": "026-borgogna-2018",
+      "title": "Borgogna 2018"
+    },
+    {
+      "album_id": "album-027",
+      "slug": "027-drome-2018",
+      "title": "Drome 2018"
+    },
+    {
+      "album_id": "album-028",
+      "slug": "028-porquerolle-2018",
+      "title": "Porquerolle 2018"
+    },
+    {
+      "album_id": "album-029",
+      "slug": "029-cadore-estate-2018",
+      "title": "Cadore - Estate 2018"
+    },
+    {
+      "album_id": "album-030",
+      "slug": "030-praga-2018",
+      "title": "Praga 2018"
+    },
+    {
+      "album_id": "album-031",
+      "slug": "031-capraia-2018",
+      "title": "Capraia 2018"
+    },
+    {
+      "album_id": "album-032",
+      "slug": "032-cadore-primavera-2018",
+      "title": "Cadore - Primavera 2018"
+    },
+    {
+      "album_id": "album-033",
+      "slug": "033-cadore-inverno-2018",
+      "title": "Cadore - Inverno 2018"
+    },
+    {
+      "album_id": "album-034",
+      "slug": "034-scozia-2017",
+      "title": "Scozia 2017"
+    },
+    {
+      "album_id": "album-035",
+      "slug": "035-viaggio-in-croazia-2017",
+      "title": "Viaggio in Croazia 2017"
+    },
+    {
+      "album_id": "album-036",
+      "slug": "036-2016-zara-e-dugj-otok",
+      "title": "2016 Zara e Dugj Otok"
+    },
+    {
+      "album_id": "album-037",
+      "slug": "037-romania-2015",
+      "title": "Romania 2015"
+    },
+    {
+      "album_id": "album-038",
+      "slug": "038-romania-2014",
+      "title": "Romania 2014"
+    },
+    {
+      "album_id": "album-039",
+      "slug": "039-anterselva-2014",
+      "title": "Anterselva 2014"
+    },
+    {
+      "album_id": "album-040",
+      "slug": "040-cassis-e-marseille-2014",
+      "title": "Cassis e Marseille 2014"
+    },
+    {
+      "album_id": "album-041",
+      "slug": "041-urbino-2014",
+      "title": "Urbino 2014"
+    },
+    {
+      "album_id": "album-043",
+      "slug": "043-parigi-2014",
+      "title": "Parigi 2014"
+    },
+    {
+      "album_id": "album-044",
+      "slug": "044-bled-2014",
+      "title": "Bled 2014"
+    },
+    {
+      "album_id": "album-045",
+      "slug": "045-cadore-2013-2014",
+      "title": "Cadore 2013-2014"
+    },
+    {
+      "album_id": "album-047",
+      "slug": "047-gent-bruges-bruxelles-2013",
+      "title": "Gent-Bruges-Bruxelles 2013"
+    },
+    {
+      "album_id": "album-048",
+      "slug": "048-annecy-2013",
+      "title": "Annecy 2013"
+    },
+    {
+      "album_id": "album-049",
+      "slug": "049-drome-e-montpellier-2013",
+      "title": "Drome e Montpellier 2013"
+    },
+    {
+      "album_id": "album-050",
+      "slug": "050-valle-aurina-2013",
+      "title": "Valle Aurina 2013"
+    },
+    {
+      "album_id": "album-042",
+      "slug": "042-portogallo-2012",
+      "title": "Portogallo 2012"
+    },
+    {
+      "album_id": "album-051",
+      "slug": "051-vienna-2012",
+      "title": "Vienna 2012"
+    },
+    {
+      "album_id": "album-052",
+      "slug": "052-drome-2012",
+      "title": "Drome 2012"
+    },
+    {
+      "album_id": "album-053",
+      "slug": "053-amsterdam-2012",
+      "title": "Amsterdam 2012"
+    },
+    {
+      "album_id": "album-054",
+      "slug": "054-lubiana-2012",
+      "title": "Lubiana 2012"
+    },
+    {
+      "album_id": "album-055",
+      "slug": "055-bacellona-2011",
+      "title": "Bacellona 2011"
+    },
+    {
+      "album_id": "album-056",
+      "slug": "056-berlino-2011",
+      "title": "Berlino 2011"
+    },
+    {
+      "album_id": "album-057",
+      "slug": "057-hvar-2011",
+      "title": "Hvar 2011"
+    },
+    {
+      "album_id": "album-058",
+      "slug": "058-paesaggi-au-2009",
+      "title": "Paesaggi (AU) 2009"
+    },
+    {
+      "album_id": "album-059",
+      "slug": "059-perth-au-2009",
+      "title": "Perth (AU) 2009"
+    },
+    {
+      "album_id": "album-060",
+      "slug": "060-broome-au-2009",
+      "title": "Broome (AU) 2009"
+    },
+    {
+      "album_id": "album-061",
+      "slug": "061-kununurra-darwin-kakadu-au-2009",
+      "title": "Kununurra - Darwin - Kakadu (AU) 2009"
+    },
+    {
+      "album_id": "album-062",
+      "slug": "062-mary-river-pine-kreek-batchelor-au-2009",
+      "title": "Mary River - Pine Kreek - Batchelor (AU) 2009"
+    },
+    {
+      "album_id": "album-063",
+      "slug": "063-port-douglas-cape-tribulation-great-reef-au-2009",
+      "title": "Port Douglas - Cape Tribulation - Great Reef (AU) 2009"
+    },
+    {
+      "album_id": "album-064",
+      "slug": "064-kairns-au-2009",
+      "title": "Kairns (AU) 2009"
+    },
+    {
+      "album_id": "album-065",
+      "slug": "065-bowen-withsundays-islands-au-2009",
+      "title": "Bowen - Withsundays Islands (AU) 2009"
+    },
+    {
+      "album_id": "album-066",
+      "slug": "066-townsville-gold-coast-surfer-paradise-au-2009",
+      "title": "Townsville - Gold Coast - Surfer Paradise (AU) 2009"
+    },
+    {
+      "album_id": "album-067",
+      "slug": "067-sydney-au-2009",
+      "title": "Sydney (AU) 2009"
+    },
+    {
+      "album_id": "album-068",
+      "slug": "068-canberra-au-2009",
+      "title": "Canberra (AU) 2009"
+    },
+    {
+      "album_id": "album-069",
+      "slug": "069-colori-e-segni-au-2009",
+      "title": "Colori e segni (AU) 2009"
+    },
+    {
+      "album_id": "album-070",
+      "slug": "070-borghetto-2009",
+      "title": "Borghetto 2009"
+    },
+    {
+      "album_id": "album-071",
+      "slug": "071-parco-segurta",
+      "title": "Parco Segurta"
+    },
+    {
+      "album_id": "album-072",
+      "slug": "072-vanoi-etc-2009",
+      "title": "Vanoi, etc. 2009"
+    },
+    {
+      "album_id": "album-073",
+      "slug": "073-triglav-2009",
+      "title": "Triglav 2009"
+    },
+    {
+      "album_id": "album-074",
+      "slug": "074-piccolo-itinerario-palladiano-fra-malcontenta-e-vicenza-2008",
+      "title": "Piccolo itinerario palladiano fra Malcontenta e Vicenza 2008"
+    },
+    {
+      "album_id": "album-075",
+      "slug": "075-festa-della-salute-2008",
+      "title": "Festa della Salute 2008"
+    },
+    {
+      "album_id": "album-076",
+      "slug": "076-erto-2008",
+      "title": "Erto 2008"
+    },
+    {
+      "album_id": "album-077",
+      "slug": "077-mykonos-2008",
+      "title": "Mykonos 2008"
+    },
+    {
+      "album_id": "album-078",
+      "slug": "078-paros-2008",
+      "title": "Paros 2008"
+    },
+    {
+      "album_id": "album-079",
+      "slug": "079-amorgos-2008",
+      "title": "Amorgos 2008"
+    },
+    {
+      "album_id": "album-080",
+      "slug": "080-naxos-2008",
+      "title": "Naxos 2008"
+    },
+    {
+      "album_id": "album-081",
+      "slug": "081-pusteria-falzarego-fanes-2008",
+      "title": "Pusteria, Falzarego, Fanes... 2008"
+    },
+    {
+      "album_id": "album-082",
+      "slug": "082-vanoi-e-san-martino-2008",
+      "title": "Vanoi e San Martino 2008"
+    },
+    {
+      "album_id": "album-083",
+      "slug": "083-borgogna-2008",
+      "title": "Borgogna 2008"
+    },
+    {
+      "album_id": "album-084",
+      "slug": "084-bucharest",
+      "title": "Bucharest"
+    },
+    {
+      "album_id": "album-085",
+      "slug": "085-dalmazia",
+      "title": "Dalmazia"
+    },
+    {
+      "album_id": "album-086",
+      "slug": "086-drome-2007",
+      "title": "Drome 2007"
+    },
+    {
+      "album_id": "album-087",
+      "slug": "087-alta-pusteria-2007",
+      "title": "Alta Pusteria 2007"
+    },
+    {
+      "album_id": "album-088",
+      "slug": "088-baska-2007",
+      "title": "Baska 2007"
+    },
+    {
+      "album_id": "album-089",
+      "slug": "089-rolle-ii-2007",
+      "title": "Rolle II 2007"
+    },
+    {
+      "album_id": "album-090",
+      "slug": "090-marylebone-londra-uk-2007",
+      "title": "Marylebone Londra UK 2007"
+    },
+    {
+      "album_id": "album-091",
+      "slug": "091-lugano-2007",
+      "title": "Lugano 2007"
+    },
+    {
+      "album_id": "album-092",
+      "slug": "092-ischia-e-procida-2007",
+      "title": "Ischia e Procida 2007"
+    },
+    {
+      "album_id": "album-094",
+      "slug": "094-rolle-2007",
+      "title": "Rolle 2007"
+    },
+    {
+      "album_id": "album-095",
+      "slug": "095-sella-ronda-2007",
+      "title": "Sella Ronda 2007"
+    },
+    {
+      "album_id": "album-096",
+      "slug": "096-cansiglio-2007",
+      "title": "Cansiglio 2007"
+    },
+    {
+      "album_id": "album-097",
+      "slug": "097-borca-villaggio-eni-2007",
+      "title": "Borca Villaggio ENI 2007"
+    },
+    {
+      "album_id": "album-098",
+      "slug": "098-val-venosta-2007",
+      "title": "Val Venosta 2007"
+    },
+    {
+      "album_id": "album-099",
+      "slug": "099-zortea-2006",
+      "title": "Zortea 2006"
+    },
+    {
+      "album_id": "album-100",
+      "slug": "100-siena-e-castello-di-tocchi-2006",
+      "title": "Siena e Castello di Tocchi 2006"
+    },
+    {
+      "album_id": "album-101",
+      "slug": "101-collio-2006",
+      "title": "Collio 2006"
+    },
+    {
+      "album_id": "album-102",
+      "slug": "102-livinallongo-del-col-di-lana-e-canazei-2006",
+      "title": "Livinallongo del col di lana e Canazei 2006"
+    },
+    {
+      "album_id": "album-103",
+      "slug": "103-opcina-e-dubrovnik-hr-2006",
+      "title": "Ston e Dubrovnik HR 2006"
+    },
+    {
+      "album_id": "album-104",
+      "slug": "104-berlino-2005",
+      "title": "Berlino 2005"
+    },
+    {
+      "album_id": "album-105",
+      "slug": "105-plitvica-selo-hr-2005",
+      "title": "Plitvica Selo HR 2005"
+    },
+    {
+      "album_id": "album-106",
+      "slug": "106-san-germano-2005",
+      "title": "San Germano 2005"
+    },
+    {
+      "album_id": "album-140",
+      "slug": "140-londra-2005",
+      "title": "Londra 2005"
+    },
+    {
+      "album_id": "album-145",
+      "slug": "145-parigi-2005",
+      "title": "Parigi 2005"
+    },
+    {
+      "album_id": "album-107",
+      "slug": "107-provincia-di-viterbo-e-provincia-di-perugia-2004",
+      "title": "Provincia di Viterbo e Provincia di Perugia 2004"
+    },
+    {
+      "album_id": "album-141",
+      "slug": "141-weekend-a-braies-e-dobbiaco-2004",
+      "title": "Weekend a Braies e Dobbiaco 2004"
+    },
+    {
+      "album_id": "album-142",
+      "slug": "142-weekend-a-curon-venosta-e-stelvio-2004",
+      "title": "Weekend a Curon Venosta e Stelvio 2004"
+    },
+    {
+      "album_id": "album-108",
+      "slug": "108-lubenice-e-lussingrande-hr-2003",
+      "title": "Lubenice e Lussingrande HR 2003"
+    },
+    {
+      "album_id": "album-109",
+      "slug": "109-versailles-e-maincy-2003",
+      "title": "Versailles e Maincy 2003"
+    },
+    {
+      "album_id": "album-110",
+      "slug": "110-parigi-e-fontainebleau-2003",
+      "title": "Parigi e Fontainebleau 2003"
+    },
+    {
+      "album_id": "album-111",
+      "slug": "111-parigi-2002",
+      "title": "Parigi 2002"
+    },
+    {
+      "album_id": "album-143",
+      "slug": "143-viaggio-a-alghero-2002",
+      "title": "Viaggio a Alghero 2002"
+    },
+    {
+      "album_id": "album-144",
+      "slug": "144-alghero-porto-conte-e-asinara-2002",
+      "title": "Alghero, Porto Conte e Asinara 2002"
+    },
+    {
+      "album_id": "album-146",
+      "slug": "146-parigi-2002",
+      "title": "Parigi 2002"
+    },
+    {
+      "album_id": "album-147",
+      "slug": "147-uruguay-costa-est-1994",
+      "title": "Uruguay, costa est 1994"
+    },
+    {
+      "album_id": "album-148",
+      "slug": "148-montevideo-1994",
+      "title": "Montevideo 1994"
+    },
+    {
+      "album_id": "album-149",
+      "slug": "149-buenos-aires-1994",
+      "title": "Buenos Aires 1994"
+    },
+    {
+      "album_id": "album-112",
+      "slug": "112-marina-di-modica-1989",
+      "title": "Marina di Modica 1989"
+    },
+    {
+      "album_id": "album-113",
+      "slug": "113-ardeche-un-tranquillo-weekend-di-1989",
+      "title": "Ardeche, un tranquillo weekend di... 1989"
+    },
+    {
+      "album_id": "album-114",
+      "slug": "114-isola-di-lussino-hr-1989",
+      "title": "Isola di Lussino HR 1989"
+    },
+    {
+      "album_id": "album-115",
+      "slug": "115-parigi-fr-1989",
+      "title": "Parigi FR 1989"
+    },
+    {
+      "album_id": "album-116",
+      "slug": "116-castelli-di-baviera-de-1989",
+      "title": "Castelli di Baviera DE 1989"
+    },
+    {
+      "album_id": "album-117",
+      "slug": "117-bagheria-aspra-1988",
+      "title": "Bagheria Aspra 1988"
+    },
+    {
+      "album_id": "album-118",
+      "slug": "118-val-brembana-1988",
+      "title": "Val Brembana 1988"
+    },
+    {
+      "album_id": "album-119",
+      "slug": "119-chamois-1988",
+      "title": "Chamois 1988"
+    },
+    {
+      "album_id": "album-120",
+      "slug": "120-bruxelles-b-1988",
+      "title": "Bruxelles B 1988"
+    },
+    {
+      "album_id": "album-121",
+      "slug": "121-pragelato-e-dintorni-1988",
+      "title": "Pragelato e dintorni 1988"
+    },
+    {
+      "album_id": "album-122",
+      "slug": "122-5-terre-1988",
+      "title": "5 Terre 1988"
+    },
+    {
+      "album_id": "album-123",
+      "slug": "123-caorle-1987",
+      "title": "Caorle 1987"
+    },
+    {
+      "album_id": "album-124",
+      "slug": "124-sestriere-1987",
+      "title": "Sestriere 1987"
+    },
+    {
+      "album_id": "album-125",
+      "slug": "125-hvar-hr-1986",
+      "title": "Hvar HR 1986"
+    },
+    {
+      "album_id": "album-126",
+      "slug": "126-marmolada-1986",
+      "title": "Marmolada 1986"
+    },
+    {
+      "album_id": "album-127",
+      "slug": "127-rifugio-selleries-1986",
+      "title": "Rifugio Selleries 1986"
+    },
+    {
+      "album_id": "album-128",
+      "slug": "128-cascata-del-pis-1985",
+      "title": "Cascata del Pis 1985"
+    },
+    {
+      "album_id": "album-129",
+      "slug": "129-bretagna-fr-1985",
+      "title": "Bretagna FR 1985"
+    },
+    {
+      "album_id": "album-130",
+      "slug": "130-parigi-1985",
+      "title": "Parigi 1985"
+    },
+    {
+      "album_id": "album-131",
+      "slug": "131-san-germano-dintorni-1985",
+      "title": "San Germano (dintorni) 1985"
+    },
+    {
+      "album_id": "album-132",
+      "slug": "132-mestre-1984",
+      "title": "Mestre 1984"
+    },
+    {
+      "album_id": "album-133",
+      "slug": "133-san-germano-e-dintorni-1984",
+      "title": "San Germano e dintorni 1984"
+    },
+    {
+      "album_id": "album-134",
+      "slug": "134-veneto-nebbie-1983",
+      "title": "Veneto Nebbie 1983"
+    },
+    {
+      "album_id": "album-135",
+      "slug": "135-isola-d-elba-e-maremma-1981",
+      "title": "Isola d'Elba e Maremma 1981"
+    },
+    {
+      "album_id": "album-136",
+      "slug": "136-irpinia-terremoto-1980",
+      "title": "Irpinia Terremoto 1980"
+    },
+    {
+      "album_id": "album-046",
+      "slug": "046-casa-zanetti-lozzo-di-cadore",
+      "title": "Casa Zanetti (Lozzo di Cadore)"
+    },
+    {
+      "album_id": "album-093",
+      "slug": "093-val-fiscalina",
+      "title": "Val Fiscalina"
+    },
+    {
+      "album_id": "album-137",
+      "slug": "137-fino-al-1970-1970",
+      "title": "Fino al 1970 1970"
+    }
+  ],
+  "missing_explicit_cover": [
+    {
+      "album_id": "album-001",
+      "slug": "001-cadore-estate-2022",
+      "title": "Cadore - Estate 2022",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-002",
+      "slug": "002-baska-2-krk-croazia-2022",
+      "title": "Baska (2) - Krk - Croazia 2022",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-003",
+      "slug": "003-la-loupie-drome-francia-2022",
+      "title": "La Loupie - Drome - Francia 2022",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-004",
+      "slug": "004-baska-krk-croazia-2022",
+      "title": "Baska - Krk - Croazia 2022",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-005",
+      "slug": "005-parigi-2022",
+      "title": "Parigi 2022",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-006",
+      "slug": "006-ravenna-e-roma-2022",
+      "title": "Ravenna e Roma 2022",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-007",
+      "slug": "007-manas-2021",
+      "title": "Manas 2021",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-008",
+      "slug": "008-cadore-estate-2021",
+      "title": "Cadore - Estate 2021",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-009",
+      "slug": "009-parenzo-croazia-2021",
+      "title": "Parenzo - Croazia 2021",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-010",
+      "slug": "010-toscana-e-lazio-2021",
+      "title": "Toscana e Lazio 2021",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-011",
+      "slug": "011-cadore-primavera-2021",
+      "title": "Cadore - Primavera 2021",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-012",
+      "slug": "012-cadore-inverno-2021",
+      "title": "Cadore - Inverno 2021",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-138",
+      "slug": "138-usseaux-2021",
+      "title": "Usseaux",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-013",
+      "slug": "013-isola-d-elba-2020",
+      "title": "Isola d'Elba 2020",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-014",
+      "slug": "014-cadore-estate-2020",
+      "title": "Cadore - Estate 2020",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-015",
+      "slug": "015-argentario-e-lazio-2020",
+      "title": "Argentario e Lazio 2020",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-016",
+      "slug": "016-roma-2019",
+      "title": "Roma 2019",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-017",
+      "slug": "017-cadore-estate-2019",
+      "title": "Cadore - Estate 2019",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-018",
+      "slug": "018-vilnius-2019",
+      "title": "Vilnius 2019",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-019",
+      "slug": "019-riga-2019",
+      "title": "Riga 2019",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-020",
+      "slug": "020-tallinn-2019",
+      "title": "Tallinn 2019",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-021",
+      "slug": "021-helsinki-2019",
+      "title": "Helsinki 2019",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-022",
+      "slug": "022-cadore-primavera-2019",
+      "title": "Cadore - Primavera 2019",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-023",
+      "slug": "023-vienna-2019",
+      "title": "Vienna 2019",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-024",
+      "slug": "024-cadore-inverno-2019",
+      "title": "Cadore - Inverno 2019",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-025",
+      "slug": "025-salisburgo-2019",
+      "title": "Salisburgo 2019",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-026",
+      "slug": "026-borgogna-2018",
+      "title": "Borgogna 2018",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-027",
+      "slug": "027-drome-2018",
+      "title": "Drome 2018",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-028",
+      "slug": "028-porquerolle-2018",
+      "title": "Porquerolle 2018",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-029",
+      "slug": "029-cadore-estate-2018",
+      "title": "Cadore - Estate 2018",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-030",
+      "slug": "030-praga-2018",
+      "title": "Praga 2018",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-031",
+      "slug": "031-capraia-2018",
+      "title": "Capraia 2018",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-032",
+      "slug": "032-cadore-primavera-2018",
+      "title": "Cadore - Primavera 2018",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-033",
+      "slug": "033-cadore-inverno-2018",
+      "title": "Cadore - Inverno 2018",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-034",
+      "slug": "034-scozia-2017",
+      "title": "Scozia 2017",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-035",
+      "slug": "035-viaggio-in-croazia-2017",
+      "title": "Viaggio in Croazia 2017",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-036",
+      "slug": "036-2016-zara-e-dugj-otok",
+      "title": "2016 Zara e Dugj Otok",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-037",
+      "slug": "037-romania-2015",
+      "title": "Romania 2015",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-038",
+      "slug": "038-romania-2014",
+      "title": "Romania 2014",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-039",
+      "slug": "039-anterselva-2014",
+      "title": "Anterselva 2014",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-040",
+      "slug": "040-cassis-e-marseille-2014",
+      "title": "Cassis e Marseille 2014",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-041",
+      "slug": "041-urbino-2014",
+      "title": "Urbino 2014",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-043",
+      "slug": "043-parigi-2014",
+      "title": "Parigi 2014",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-044",
+      "slug": "044-bled-2014",
+      "title": "Bled 2014",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-045",
+      "slug": "045-cadore-2013-2014",
+      "title": "Cadore 2013-2014",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-047",
+      "slug": "047-gent-bruges-bruxelles-2013",
+      "title": "Gent-Bruges-Bruxelles 2013",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-048",
+      "slug": "048-annecy-2013",
+      "title": "Annecy 2013",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-049",
+      "slug": "049-drome-e-montpellier-2013",
+      "title": "Drome e Montpellier 2013",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-050",
+      "slug": "050-valle-aurina-2013",
+      "title": "Valle Aurina 2013",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-042",
+      "slug": "042-portogallo-2012",
+      "title": "Portogallo 2012",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-051",
+      "slug": "051-vienna-2012",
+      "title": "Vienna 2012",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-052",
+      "slug": "052-drome-2012",
+      "title": "Drome 2012",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-053",
+      "slug": "053-amsterdam-2012",
+      "title": "Amsterdam 2012",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-054",
+      "slug": "054-lubiana-2012",
+      "title": "Lubiana 2012",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-055",
+      "slug": "055-bacellona-2011",
+      "title": "Bacellona 2011",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-056",
+      "slug": "056-berlino-2011",
+      "title": "Berlino 2011",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-057",
+      "slug": "057-hvar-2011",
+      "title": "Hvar 2011",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-058",
+      "slug": "058-paesaggi-au-2009",
+      "title": "Paesaggi (AU) 2009",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-059",
+      "slug": "059-perth-au-2009",
+      "title": "Perth (AU) 2009",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-060",
+      "slug": "060-broome-au-2009",
+      "title": "Broome (AU) 2009",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-061",
+      "slug": "061-kununurra-darwin-kakadu-au-2009",
+      "title": "Kununurra - Darwin - Kakadu (AU) 2009",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-062",
+      "slug": "062-mary-river-pine-kreek-batchelor-au-2009",
+      "title": "Mary River - Pine Kreek - Batchelor (AU) 2009",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-063",
+      "slug": "063-port-douglas-cape-tribulation-great-reef-au-2009",
+      "title": "Port Douglas - Cape Tribulation - Great Reef (AU) 2009",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-064",
+      "slug": "064-kairns-au-2009",
+      "title": "Kairns (AU) 2009",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-065",
+      "slug": "065-bowen-withsundays-islands-au-2009",
+      "title": "Bowen - Withsundays Islands (AU) 2009",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-066",
+      "slug": "066-townsville-gold-coast-surfer-paradise-au-2009",
+      "title": "Townsville - Gold Coast - Surfer Paradise (AU) 2009",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-067",
+      "slug": "067-sydney-au-2009",
+      "title": "Sydney (AU) 2009",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-068",
+      "slug": "068-canberra-au-2009",
+      "title": "Canberra (AU) 2009",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-069",
+      "slug": "069-colori-e-segni-au-2009",
+      "title": "Colori e segni (AU) 2009",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-070",
+      "slug": "070-borghetto-2009",
+      "title": "Borghetto 2009",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-071",
+      "slug": "071-parco-segurta",
+      "title": "Parco Segurta",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-072",
+      "slug": "072-vanoi-etc-2009",
+      "title": "Vanoi, etc. 2009",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-073",
+      "slug": "073-triglav-2009",
+      "title": "Triglav 2009",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-074",
+      "slug": "074-piccolo-itinerario-palladiano-fra-malcontenta-e-vicenza-2008",
+      "title": "Piccolo itinerario palladiano fra Malcontenta e Vicenza 2008",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-075",
+      "slug": "075-festa-della-salute-2008",
+      "title": "Festa della Salute 2008",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-076",
+      "slug": "076-erto-2008",
+      "title": "Erto 2008",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-077",
+      "slug": "077-mykonos-2008",
+      "title": "Mykonos 2008",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-078",
+      "slug": "078-paros-2008",
+      "title": "Paros 2008",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-079",
+      "slug": "079-amorgos-2008",
+      "title": "Amorgos 2008",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-080",
+      "slug": "080-naxos-2008",
+      "title": "Naxos 2008",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-081",
+      "slug": "081-pusteria-falzarego-fanes-2008",
+      "title": "Pusteria, Falzarego, Fanes... 2008",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-082",
+      "slug": "082-vanoi-e-san-martino-2008",
+      "title": "Vanoi e San Martino 2008",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-083",
+      "slug": "083-borgogna-2008",
+      "title": "Borgogna 2008",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-084",
+      "slug": "084-bucharest",
+      "title": "Bucharest",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-085",
+      "slug": "085-dalmazia",
+      "title": "Dalmazia",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-086",
+      "slug": "086-drome-2007",
+      "title": "Drome 2007",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-087",
+      "slug": "087-alta-pusteria-2007",
+      "title": "Alta Pusteria 2007",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-088",
+      "slug": "088-baska-2007",
+      "title": "Baska 2007",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-089",
+      "slug": "089-rolle-ii-2007",
+      "title": "Rolle II 2007",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-090",
+      "slug": "090-marylebone-londra-uk-2007",
+      "title": "Marylebone Londra UK 2007",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-091",
+      "slug": "091-lugano-2007",
+      "title": "Lugano 2007",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-092",
+      "slug": "092-ischia-e-procida-2007",
+      "title": "Ischia e Procida 2007",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-094",
+      "slug": "094-rolle-2007",
+      "title": "Rolle 2007",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-095",
+      "slug": "095-sella-ronda-2007",
+      "title": "Sella Ronda 2007",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-096",
+      "slug": "096-cansiglio-2007",
+      "title": "Cansiglio 2007",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-097",
+      "slug": "097-borca-villaggio-eni-2007",
+      "title": "Borca Villaggio ENI 2007",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-098",
+      "slug": "098-val-venosta-2007",
+      "title": "Val Venosta 2007",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-099",
+      "slug": "099-zortea-2006",
+      "title": "Zortea 2006",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-100",
+      "slug": "100-siena-e-castello-di-tocchi-2006",
+      "title": "Siena e Castello di Tocchi 2006",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-101",
+      "slug": "101-collio-2006",
+      "title": "Collio 2006",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-102",
+      "slug": "102-livinallongo-del-col-di-lana-e-canazei-2006",
+      "title": "Livinallongo del col di lana e Canazei 2006",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-103",
+      "slug": "103-opcina-e-dubrovnik-hr-2006",
+      "title": "Ston e Dubrovnik HR 2006",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-104",
+      "slug": "104-berlino-2005",
+      "title": "Berlino 2005",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-105",
+      "slug": "105-plitvica-selo-hr-2005",
+      "title": "Plitvica Selo HR 2005",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-106",
+      "slug": "106-san-germano-2005",
+      "title": "San Germano 2005",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-140",
+      "slug": "140-londra-2005",
+      "title": "Londra 2005",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-145",
+      "slug": "145-parigi-2005",
+      "title": "Parigi 2005",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-107",
+      "slug": "107-provincia-di-viterbo-e-provincia-di-perugia-2004",
+      "title": "Provincia di Viterbo e Provincia di Perugia 2004",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-141",
+      "slug": "141-weekend-a-braies-e-dobbiaco-2004",
+      "title": "Weekend a Braies e Dobbiaco 2004",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-142",
+      "slug": "142-weekend-a-curon-venosta-e-stelvio-2004",
+      "title": "Weekend a Curon Venosta e Stelvio 2004",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-108",
+      "slug": "108-lubenice-e-lussingrande-hr-2003",
+      "title": "Lubenice e Lussingrande HR 2003",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-109",
+      "slug": "109-versailles-e-maincy-2003",
+      "title": "Versailles e Maincy 2003",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-110",
+      "slug": "110-parigi-e-fontainebleau-2003",
+      "title": "Parigi e Fontainebleau 2003",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-111",
+      "slug": "111-parigi-2002",
+      "title": "Parigi 2002",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-143",
+      "slug": "143-viaggio-a-alghero-2002",
+      "title": "Viaggio a Alghero 2002",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-144",
+      "slug": "144-alghero-porto-conte-e-asinara-2002",
+      "title": "Alghero, Porto Conte e Asinara 2002",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-146",
+      "slug": "146-parigi-2002",
+      "title": "Parigi 2002",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-147",
+      "slug": "147-uruguay-costa-est-1994",
+      "title": "Uruguay, costa est 1994",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-148",
+      "slug": "148-montevideo-1994",
+      "title": "Montevideo 1994",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-149",
+      "slug": "149-buenos-aires-1994",
+      "title": "Buenos Aires 1994",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-112",
+      "slug": "112-marina-di-modica-1989",
+      "title": "Marina di Modica 1989",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-113",
+      "slug": "113-ardeche-un-tranquillo-weekend-di-1989",
+      "title": "Ardeche, un tranquillo weekend di... 1989",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-114",
+      "slug": "114-isola-di-lussino-hr-1989",
+      "title": "Isola di Lussino HR 1989",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-115",
+      "slug": "115-parigi-fr-1989",
+      "title": "Parigi FR 1989",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-116",
+      "slug": "116-castelli-di-baviera-de-1989",
+      "title": "Castelli di Baviera DE 1989",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-117",
+      "slug": "117-bagheria-aspra-1988",
+      "title": "Bagheria Aspra 1988",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-118",
+      "slug": "118-val-brembana-1988",
+      "title": "Val Brembana 1988",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-119",
+      "slug": "119-chamois-1988",
+      "title": "Chamois 1988",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-120",
+      "slug": "120-bruxelles-b-1988",
+      "title": "Bruxelles B 1988",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-121",
+      "slug": "121-pragelato-e-dintorni-1988",
+      "title": "Pragelato e dintorni 1988",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-122",
+      "slug": "122-5-terre-1988",
+      "title": "5 Terre 1988",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-123",
+      "slug": "123-caorle-1987",
+      "title": "Caorle 1987",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-124",
+      "slug": "124-sestriere-1987",
+      "title": "Sestriere 1987",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-125",
+      "slug": "125-hvar-hr-1986",
+      "title": "Hvar HR 1986",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-126",
+      "slug": "126-marmolada-1986",
+      "title": "Marmolada 1986",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-127",
+      "slug": "127-rifugio-selleries-1986",
+      "title": "Rifugio Selleries 1986",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-128",
+      "slug": "128-cascata-del-pis-1985",
+      "title": "Cascata del Pis 1985",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-129",
+      "slug": "129-bretagna-fr-1985",
+      "title": "Bretagna FR 1985",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-130",
+      "slug": "130-parigi-1985",
+      "title": "Parigi 1985",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-131",
+      "slug": "131-san-germano-dintorni-1985",
+      "title": "San Germano (dintorni) 1985",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-132",
+      "slug": "132-mestre-1984",
+      "title": "Mestre 1984",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-133",
+      "slug": "133-san-germano-e-dintorni-1984",
+      "title": "San Germano e dintorni 1984",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-134",
+      "slug": "134-veneto-nebbie-1983",
+      "title": "Veneto Nebbie 1983",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-135",
+      "slug": "135-isola-d-elba-e-maremma-1981",
+      "title": "Isola d'Elba e Maremma 1981",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-136",
+      "slug": "136-irpinia-terremoto-1980",
+      "title": "Irpinia Terremoto 1980",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-046",
+      "slug": "046-casa-zanetti-lozzo-di-cadore",
+      "title": "Casa Zanetti (Lozzo di Cadore)",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-093",
+      "slug": "093-val-fiscalina",
+      "title": "Val Fiscalina",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-137",
+      "slug": "137-fino-al-1970-1970",
+      "title": "Fino al 1970 1970",
+      "reason": "manifest.first_photo.temporary_fallback"
+    }
+  ]
+}

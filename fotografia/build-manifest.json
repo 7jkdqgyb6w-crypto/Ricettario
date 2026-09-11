@@ -302,31 +302,6 @@
     "fotografia/137-fino-al-1970-1970/index.html"
   ],
   "assets": [],
-  "related_recipe_files": [
-    "ricette/pasta-con-i-broccoli/index.html",
-    "ricette/tortino-di-alici/index.html",
-    "ricette/medaglioni-di-manzo-con-porcini/index.html",
-    "ricette/pappa-con-il-pomodoro/index.html",
-    "ricette/ribollita/index.html",
-    "ricette/daube/index.html",
-    "ricette/ratatouille-variante/index.html",
-    "ricette/soupe-au-pistou/index.html",
-    "ricette/trancio-di-tonno-con-sesamo-provenzale/index.html",
-    "ricette/filettino-di-maiale/index.html",
-    "ricette/anatra-in-salsa/index.html",
-    "ricette/antipasto-di-canocce/index.html",
-    "ricette/baccala-mantecato/index.html",
-    "ricette/bigoli-in-salsa/index.html",
-    "ricette/fegato-alla-veneziana/index.html",
-    "ricette/gnocchetti-sardi-alla-urbaweb/index.html",
-    "ricette/gnocchi-con-le-trombette-dei-morti/index.html",
-    "ricette/pasta-con-le-melanzane/index.html",
-    "ricette/pasta-e-fagioli/index.html",
-    "ricette/penne-con-mazzancolle-alle-verdure/index.html",
-    "ricette/risi-e-bisi/index.html",
-    "ricette/spaghetti-alla-puttanesca/index.html",
-    "ricette/zucchine-in-scapece/index.html",
-    "ricette/paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero/index.html",
-    "ricette/arista-alla-birra/index.html"
-  ]
+  "related_recipe_files": [],
+  "cover_audit": "fotografia/cover-audit.json"
 }
