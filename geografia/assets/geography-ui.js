@@ -136,11 +136,9 @@
   function render(writeUrl) {
     var country = form.elements.country.value;
     var order = form.elements.order.value;
-    var decade = form.elements.decade ? form.elements.decade.value : '';
     var visible = cards.filter(function (card) {
       var countries = (card.dataset.countries || '').split(/\s+/).filter(Boolean);
-      var countryOk = !country || (country === '__unknown__' ? countries.length === 0 : countries.includes(country));
-      return countryOk && (!decade || card.dataset.decade === decade);
+      return !country || (country === '__unknown__' ? countries.length === 0 : countries.includes(country));
     });
     cards.forEach(function (card) { card.hidden = !visible.includes(card); });
     visible.sort(function (a, b) {
@@ -153,7 +151,6 @@
       var params = new URLSearchParams();
       if (country) params.set('paese', country);
       if (order !== 'recent') params.set('ordine', order);
-      if (decade) params.set('periodo', decade);
       history.pushState({}, '', location.pathname + (params.toString() ? '?' + params : ''));
     }
   }
@@ -161,7 +158,6 @@
     var params = new URLSearchParams(location.search);
     form.elements.country.value = params.get('paese') || '';
     form.elements.order.value = params.get('ordine') || 'recent';
-    if (form.elements.decade) form.elements.decade.value = params.get('periodo') || '';
     render(false);
   }
   form.addEventListener('change', function () { render(true); });

@@ -35,164 +35,11 @@
     var dataNode = document.getElementById(container.dataset.mapData || 'geography-map-data');
     if (!dataNode) return;
 
-    var svgNode = container.querySelector('svg');
-    var svg = d3.select(svgNode);
+    var svg = d3.select(container.querySelector('svg'));
     var status = container.querySelector('[data-map-status]');
     var missingSummary = section && section.querySelector('[data-map-missing-summary]');
     var missingList = section && section.querySelector('[data-map-missing-list]');
     var places = JSON.parse(dataNode.textContent);
-    var mobileMapQuery = window.matchMedia('(max-width: 54rem)');
-    var modal = null;
-    var modalPlaceholder = null;
-    var modalSelection = null;
-    var modalSelectionLink = null;
-    var suppressClicksUntil = 0;
-    var selectedPlaceId = '';
-    var currentVisible = [];
-    var currentProjection = null;
-    var currentTransform = d3.zoomIdentity;
-    var currentWidth = 0;
-    var currentHeight = 0;
-
-    function positionModalSelection(place) {
-      if (!modal || !modalSelection || modalSelection.hidden || !place || !currentProjection) return;
-      var holder = modal.querySelector('.mobile-map-holder');
-      if (!holder) return;
-      var holderRect = holder.getBoundingClientRect();
-      var svgRect = svgNode.getBoundingClientRect();
-      var projected = currentTransform.apply(currentProjection(place.coordinates));
-      var x = svgRect.left - holderRect.left + projected[0] * svgRect.width / Math.max(1, currentWidth);
-      var y = svgRect.top - holderRect.top + projected[1] * svgRect.height / Math.max(1, currentHeight);
-      var horizontalMargin = Math.min(92, holderRect.width / 2);
-      modalSelection.style.left = Math.max(horizontalMargin, Math.min(holderRect.width - horizontalMargin, x)) + 'px';
-      modalSelection.style.top = y + 'px';
-      modalSelection.classList.toggle('is-below', y < 92);
-    }
-
-    function closeMobileMap(redraw) {
-      if (!modal) return;
-      if (modalPlaceholder && modalPlaceholder.parentNode) {
-        modalPlaceholder.parentNode.replaceChild(container, modalPlaceholder);
-      }
-      container.classList.remove('is-mobile-map-modal');
-      modal.remove();
-      modal = null;
-      modalPlaceholder = null;
-      modalSelection = null;
-      modalSelectionLink = null;
-      selectedPlaceId = '';
-      document.body.classList.remove('mobile-map-modal-open');
-      document.removeEventListener('keydown', onModalKeydown);
-      if (redraw !== false) requestAnimationFrame(draw);
-    }
-
-    function onModalKeydown(event) {
-      if (event.key === 'Escape') closeMobileMap();
-    }
-
-    function onPageShow() {
-      // Safari su iPhone può ripristinare la pagina dalla cache mantenendo
-      // la finestra del planisfero aperta. Il ritorno a Geografia deve invece
-      // mostrare sempre la pagina normale.
-      if (modal) closeMobileMap();
-    }
-
-    function openMobileMap() {
-      if (modal || !mobileMapQuery.matches || !container.parentNode) return;
-      modalPlaceholder = document.createComment('mobile-map-placeholder');
-      container.parentNode.insertBefore(modalPlaceholder, container);
-
-      modal = document.createElement('div');
-      modal.className = 'mobile-map-overlay';
-      modal.setAttribute('role', 'dialog');
-      modal.setAttribute('aria-modal', 'true');
-      modal.setAttribute('aria-label', 'Planisfero interattivo');
-
-      var toolbar = document.createElement('div');
-      toolbar.className = 'mobile-map-toolbar';
-      var closeButton = document.createElement('button');
-      closeButton.type = 'button';
-      closeButton.className = 'mobile-map-close';
-      closeButton.setAttribute('aria-label', 'Chiudi il planisfero');
-      closeButton.textContent = '×';
-      closeButton.addEventListener('click', function () { closeMobileMap(); });
-      toolbar.appendChild(closeButton);
-
-      var holder = document.createElement('div');
-      holder.className = 'mobile-map-holder';
-      container.classList.add('is-mobile-map-modal');
-      holder.appendChild(container);
-
-      modalSelection = document.createElement('div');
-      modalSelection.className = 'mobile-map-tooltip';
-      modalSelection.hidden = true;
-      modalSelection.setAttribute('aria-live', 'polite');
-      modalSelectionLink = document.createElement('a');
-      modalSelectionLink.addEventListener('click', function (event) {
-        event.preventDefault();
-        var destination = modalSelectionLink.getAttribute('href');
-        closeMobileMap(false);
-        location.assign(destination);
-      });
-      modalSelection.appendChild(modalSelectionLink);
-      holder.appendChild(modalSelection);
-      modal.appendChild(toolbar);
-      modal.appendChild(holder);
-      modal.addEventListener('click', function (event) {
-        if (event.target === modal) closeMobileMap();
-      });
-      document.body.appendChild(modal);
-      document.body.classList.add('mobile-map-modal-open');
-      document.addEventListener('keydown', onModalKeydown);
-      requestAnimationFrame(draw);
-      closeButton.focus();
-    }
-
-    svgNode.addEventListener('pointerdown', function (event) {
-      if (!modal && mobileMapQuery.matches) {
-        suppressClicksUntil = Date.now() + 700;
-        event.preventDefault();
-        event.stopImmediatePropagation();
-        openMobileMap();
-      }
-    }, true);
-
-    svgNode.addEventListener('click', function (event) {
-      if (Date.now() < suppressClicksUntil) {
-        event.preventDefault();
-        event.stopImmediatePropagation();
-        return;
-      }
-      if (!modal) return;
-      if (!currentProjection || !currentVisible.length) return;
-      var point = d3.pointer(event, svgNode);
-      var rect = svgNode.getBoundingClientRect();
-      var threshold = 24 * (currentWidth / Math.max(1, rect.width));
-      var nearest = null;
-      var nearestDistance = Infinity;
-      currentVisible.forEach(function (place) {
-        var projected = currentProjection(place.coordinates);
-        var transformed = currentTransform.apply(projected);
-        var dx = point[0] - transformed[0];
-        var dy = point[1] - transformed[1];
-        var distance = Math.sqrt(dx * dx + dy * dy);
-        if (distance < nearestDistance) {
-          nearest = place;
-          nearestDistance = distance;
-        }
-      });
-      if (!nearest || nearestDistance > threshold) return;
-      event.preventDefault();
-      event.stopImmediatePropagation();
-      selectedPlaceId = nearest.id;
-      svg.selectAll('.map-markers a').classed('is-selected', function (place) {
-        return place.id === selectedPlaceId;
-      });
-      modalSelectionLink.href = nearest.url;
-      modalSelectionLink.textContent = nearest.label + ' →';
-      modalSelection.hidden = false;
-      positionModalSelection(nearest);
-    }, true);
 
     function renderMissing(filter) {
       if (!missingSummary || !missingList || mode !== 'explorer') return;
@@ -210,12 +57,9 @@
     }
 
     function draw() {
-      var isMobileModal = container.classList.contains('is-mobile-map-modal');
       var width = Math.max(mode === 'overview' ? 260 : 320, container.clientWidth || 900);
       var narrow = width < 700;
-      var height = isMobileModal
-        ? Math.max(420, container.clientHeight || window.innerHeight - 56)
-        : mode === 'overview'
+      var height = mode === 'overview'
         ? Math.max(170, Math.round(width / (narrow ? 1.75 : 2.75)))
         : Math.max(260, Math.round(width / (narrow ? 1.45 : 1.9)));
       var filter = mode === 'overview' ? 'content' : controls.elements.corpus.value;
@@ -223,9 +67,6 @@
       var visible = places.filter(function (place) {
         return place.coordinates && countFor(place, filter) > 0;
       });
-      currentVisible = visible;
-      currentWidth = width;
-      currentHeight = height;
 
       svg.attr('viewBox', '0 0 ' + width + ' ' + height);
       svg.selectAll('g[data-map-layer]').remove();
@@ -234,8 +75,6 @@
       var projection = d3.geoEqualEarth()
         .fitExtent([[8, 8], [width - 8, height - 8]], { type: 'Sphere' });
       var path = d3.geoPath(projection);
-      currentProjection = projection;
-      currentTransform = d3.zoomIdentity;
       var layer = svg.append('g').attr('data-map-layer', '');
 
       layer.append('path').attr('class', 'map-sphere').attr('d', path({ type: 'Sphere' }));
@@ -247,62 +86,36 @@
         .attr('d', path);
 
       var markers = layer.append('g').attr('class', 'map-markers');
-      var links = markers.selectAll('a').data(visible).join('a')
-        .attr('href', function (place) { return place.url; })
-        .attr('aria-label', function (place) { return labelFor(place, filter); })
-        .on('focus mouseenter', function () { d3.select(this).classed('is-selected', true); })
-        .on('blur mouseleave', function (event, place) {
-          d3.select(this).classed('is-selected', place.id === selectedPlaceId);
-        })
-        .classed('is-selected', function (place) { return place.id === selectedPlaceId; });
+      var links;
+      if (mode === 'overview') {
+        links = markers.selectAll('g').data(visible).join('g');
+      } else {
+        links = markers.selectAll('a').data(visible).join('a')
+          .attr('href', function (place) { return place.url; })
+          .attr('aria-label', function (place) { return labelFor(place, filter); })
+          .on('focus mouseenter', function () { d3.select(this).classed('is-selected', true); })
+          .on('blur mouseleave', function () { d3.select(this).classed('is-selected', false); });
+      }
       links.append('circle')
-        .attr('class', 'map-marker-hit')
-        .attr('cx', function (place) { return projection(place.coordinates)[0]; })
-        .attr('cy', function (place) { return projection(place.coordinates)[1]; })
-        .attr('data-hit-radius', mode === 'overview' ? 18 : 20)
-        .attr('r', function () { return this.getAttribute('data-hit-radius'); });
-      links.append('circle')
-        .attr('class', function (place) {
-          return place.kind === 'stato' ? 'map-marker map-marker-state' : 'map-marker';
-        })
+        .attr('class', 'map-marker')
         .attr('cx', function (place) { return projection(place.coordinates)[0]; })
         .attr('cy', function (place) { return projection(place.coordinates)[1]; })
         .attr('data-base-radius', function (place) {
           var value = countFor(place, filter);
-          if (mode === 'overview') return Math.min(6.5, 2.6 + Math.sqrt(value) * 0.82);
-          return filter === 'all' ? 4 : Math.min(13, 4 + Math.sqrt(value) * 1.45);
-        })
-        .attr('data-min-screen-radius', function (place) {
-          if (place.kind === 'stato') return 5;
-          return mode === 'overview' ? 3.5 : 4;
+          if (mode === 'overview') return Math.min(5.5, 2 + Math.sqrt(value) * 0.72);
+          return filter === 'all' ? 3 : Math.min(11, 3 + Math.sqrt(value) * 1.35);
         })
         .attr('r', function () { return this.getAttribute('data-base-radius'); });
       links.append('title').text(function (place) { return labelFor(place, filter); });
 
-      if (mode === 'explorer' || mode === 'overview') {
-        var zoom = d3.zoom()
-          .scaleExtent([1, 320])
-          .clickDistance(10)
-          .tapDistance(18)
-          .on('zoom', function (event) {
-          currentTransform = event.transform;
+      if (mode === 'explorer') {
+        var zoom = d3.zoom().scaleExtent([1, 12]).on('zoom', function (event) {
           layer.attr('transform', event.transform);
-          markers.selectAll('circle.map-marker')
+          markers.selectAll('circle')
             .attr('r', function () {
-              var baseRadius = Number(this.getAttribute('data-base-radius'));
-              var minimumScreenRadius = Number(this.getAttribute('data-min-screen-radius'));
-              var screenRadius = Math.max(minimumScreenRadius, baseRadius / Math.pow(event.transform.k, 0.12));
-              return screenRadius / event.transform.k;
+              return Number(this.getAttribute('data-base-radius')) / Math.pow(event.transform.k, 1.12);
             })
             .attr('stroke-width', 1 / event.transform.k);
-          markers.selectAll('circle.map-marker-hit')
-            .attr('r', function () {
-              return Number(this.getAttribute('data-hit-radius')) / event.transform.k;
-            });
-          if (selectedPlaceId) {
-            var selectedPlace = currentVisible.find(function (place) { return place.id === selectedPlaceId; });
-            positionModalSelection(selectedPlace);
-          }
         });
         svg.call(zoom);
         var spec = viewSpecs[view] || viewSpecs.world;
@@ -312,10 +125,10 @@
           .scale(spec.scale)
           .translate(-projected[0], -projected[1]);
         svg.call(zoom.transform, initial);
-        if (status && mode === 'explorer') {
+        if (status) {
           status.textContent = visible.length + (visible.length === 1 ? ' luogo visualizzato' : ' luoghi visualizzati') + ' · trascina o ingrandisci la mappa; seleziona un punto per aprire la voce.';
         }
-        if (mode === 'explorer') renderMissing(filter);
+        renderMissing(filter);
       }
     }
 
@@ -341,7 +154,6 @@
     }
     draw();
     new ResizeObserver(draw).observe(container);
-    window.addEventListener('pageshow', onPageShow);
   }
 
   ready(function () {

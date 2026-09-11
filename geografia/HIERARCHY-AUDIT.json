@@ -1,0 +1,51 @@
+{
+  "places_checked": 258,
+  "canonical_merges_checked": 2,
+  "self_references": [],
+  "cycles": [],
+  "lost_broader_after_merge": [],
+  "propagation": {
+    "ricette": {
+      "verified_paths_by_relation": {
+        "amministrativa": 40,
+        "territoriale": 31
+      },
+      "failures": []
+    },
+    "fotografie": {
+      "verified_paths_by_relation": {
+        "amministrativa": 254,
+        "territoriale": 142
+      },
+      "failures": []
+    },
+    "approfondimenti": {
+      "verified_paths_by_relation": {
+        "amministrativa": 1,
+        "territoriale": 6
+      },
+      "failures": []
+    }
+  },
+  "piemonte": {
+    "recipes": 6,
+    "albums": 8,
+    "album_titles": [
+      "San Germano 2005",
+      "Pragelato e dintorni 1988",
+      "Sestriere 1987",
+      "Rifugio Selleries 1986",
+      "Cascata del Pis 1985",
+      "San Germano (dintorni) 1985",
+      "San Germano e dintorni 1984",
+      "Usseaux"
+    ],
+    "required_titles_present": {
+      "San Germano 2005": true,
+      "Pragelato e dintorni 1988": true,
+      "Sestriere 1987": true
+    },
+    "ussegl_or_ussegl_album_present": true
+  },
+  "ok": true
+}
