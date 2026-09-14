@@ -645,8 +645,8 @@ main figure a[data-image-link] img{cursor:pointer;}
 <style id="recipe-quick-meta-clean-style">/* R18-072 — quick-meta: nessun separatore testuale, solo ::after sui campi reali */
 .recipe-quick-meta .recipe-quick-meta-sep{display:none !important;}
 .recipe-quick-meta .recipe-quick-meta-sep::after{content:'' !important;margin:0 !important;}
-.recipe-quick-meta span.recipe-quick-meta-sep{display:none !important;}</style></head>
-<body>
+.recipe-quick-meta span.recipe-quick-meta-sep{display:none !important;}</style><link rel="stylesheet" href="/foto/ui/transversal-navigation.css"></head>
+<body class="phase2-local">
 <div class="page">
 <header class="site-header">
 <a class="brand" href="/">Ricette (e altro) di Pierre</a>
@@ -736,7 +736,7 @@ document.addEventListener('DOMContentLoaded', function(){
     try{
       if(!ref) return false;
       var u = new URL(ref);
-      return u.origin === window.location.origin && /\/indici\/(ricette|ingredienti|fonti|geografia)\.html$/i.test(u.pathname);
+      return u.origin === window.location.origin && (/\/indici\/(ricette|ingredienti|fonti|geografia)\.html$/i.test(u.pathname) || /\/geografia(?:\/[^/?#]+)*\/?$/i.test(u.pathname));
     }catch(e){
       return false;
     }
@@ -1293,9 +1293,9 @@ document.addEventListener('DOMContentLoaded', function(){
 <section aria-labelledby="recipeSearchTitle" aria-modal="true" class="recipe-search-dialog" role="dialog">
 <button aria-label="Chiudi" class="recipe-search-close js-recipe-search-close" type="button">×</button>
 <h2 id="recipeSearchTitle">Cerca nel ricettario</h2>
-<form action="../../indici/ricette.html" id="recipeSearchForm" method="get">
+<form action="../../cerca/" id="recipeSearchForm" method="get">
 <input autocomplete="off" class="recipe-search-input" id="recipeSearchInput" name="q" placeholder="Titolo, ingrediente, luogo…" type="search"/>
-<p class="recipe-search-hint">Inserisci un termine: l’indice Ricette si aprirà già filtrato.</p>
+<p class="recipe-search-hint">La ricerca interroga Ricette, Fotografie, Approfondimenti e Luoghi.</p>
 <div class="recipe-search-actions"><button class="recipe-search-submit" type="submit">Cerca</button></div>
 </form>
 </section>
@@ -1315,9 +1315,7 @@ document.addEventListener('DOMContentLoaded', function(){
     document.addEventListener('keydown',function(ev){if(ev.key==='Escape') closeSearch();});
     form.addEventListener('submit',function(ev){
       var q=(input.value||'').replace(/\s+/g,' ').trim();
-      if(!q){ev.preventDefault();input.focus();return;}
-      ev.preventDefault();
-      window.location.href='../../indici/ricette.html?q='+encodeURIComponent(q);
+      if(!q){ev.preventDefault();input.focus();}
     });
   }
   if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',initRecipeSearch); else initRecipeSearch();

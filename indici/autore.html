@@ -165,29 +165,14 @@
   <section class="recipe-search-dialog" role="dialog" aria-modal="true" aria-labelledby="recipeSearchTitle">
     <button class="recipe-search-close js-site-search-close" type="button" aria-label="Chiudi">×</button>
     <h2 id="recipeSearchTitle">Cerca nel ricettario</h2>
-    <form id="recipeSearchForm" action="ricette.html" method="get">
+    <form id="recipeSearchForm" action="../cerca/" method="get">
       <input id="recipeSearchInput" name="q" class="recipe-search-input" type="search" placeholder="Titolo, ingrediente, luogo…" autocomplete="off">
-      <p class="recipe-search-hint">Inserisci un termine: l’indice Ricette si aprirà già filtrato.</p>
+      <p class="recipe-search-hint">La ricerca interroga Ricette, Fotografie, Approfondimenti e Luoghi.</p>
       <div class="recipe-search-actions"><button class="recipe-search-submit" type="submit">Cerca</button><p class="recipe-search-count" id="recipeSearchCount" aria-live="polite"></p></div>
     </form>
   </section>
 </div>
-<script id="index-term-search-submit-script">
-(function(){
-  function initIndexTermSearchSubmit(){
-    var form=document.getElementById('recipeSearchForm');
-    var input=document.getElementById('recipeSearchInput');
-    if(!form||!input) return;
-    form.addEventListener('submit',function(ev){
-      var q=(input.value||'').replace(/\s+/g,' ').trim();
-      if(!q){ev.preventDefault();input.focus();return;}
-      ev.preventDefault();
-      window.location.href='ricette.html?q='+encodeURIComponent(q);
-    });
-  }
-  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',initIndexTermSearchSubmit); else initIndexTermSearchSubmit();
-})();
-</script></div></main></div>
+</div></main></div>
 <script>
 document.addEventListener('DOMContentLoaded', function () {
   const wrap = document.querySelector('.index-filter');

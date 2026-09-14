@@ -79,13 +79,18 @@
     results.replaceChildren();
     if (!query) return;
     var groups = { ricette: "Ricette", fotografie: "Fotografie", approfondimenti: "Approfondimenti", geografia: "Geografia" };
+    var groupUrls = { ricette: "/indici/ricette.html", fotografie: "/fotografia/", approfondimenti: "/approfondimenti/", geografia: "/geografia/" };
     Object.keys(groups).forEach(function (groupKind) {
       var rows = found.filter(function (item) { return item.kind === groupKind; });
       if (!rows.length) return;
       var section = document.createElement("section");
       section.className = "search-group";
       var heading = document.createElement("h2");
-      heading.textContent = groups[groupKind] + " ";
+      var headingLink = document.createElement("a");
+      headingLink.href = groupUrls[groupKind];
+      headingLink.textContent = groups[groupKind];
+      heading.appendChild(headingLink);
+      heading.appendChild(document.createTextNode(" "));
       var count = document.createElement("span");
       count.className = "count";
       count.textContent = rows.length;
@@ -110,6 +115,7 @@
     writeStateToUrl();
     render();
   });
+  form.elements.q.addEventListener("input", render);
   filters.addEventListener("click", function (event) {
     var button = event.target.closest("button");
     if (!button) return;

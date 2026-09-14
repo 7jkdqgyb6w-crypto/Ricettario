@@ -121,6 +121,72 @@
     var triggers = Array.prototype.slice.call(document.querySelectorAll('.js-global-search-open'));
     if (triggers.indexOf(button) === -1) triggers.push(button);
     var sourceIcon = button.querySelector('svg');
+    var liveItems = null;
+    var liveInput = null;
+    var liveOutput = null;
+    var kindLabels = { ricette: 'Ricetta', fotografie: 'Album fotografico', approfondimenti: 'Approfondimento', geografia: 'Luogo' };
+    function normalizeSearch(value) {
+      return String(value || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase('it').replace(/\s+/g, ' ').trim();
+    }
+    function renderLiveSearch() {
+      if (!liveInput || !liveOutput) return;
+      var query = normalizeSearch(liveInput.value);
+      liveOutput.replaceChildren();
+      liveOutput.hidden = !query;
+      if (!query) return;
+      if (!liveItems) {
+        liveOutput.textContent = 'Caricamento risultati…';
+        return;
+      }
+      var words = query.split(' ').filter(Boolean);
+      var found = liveItems.filter(function (item) {
+        var haystack = normalizeSearch((item.title || '') + ' ' + (item.text || ''));
+        return words.every(function (word) { return haystack.indexOf(word) !== -1; });
+      });
+      var status = document.createElement('p');
+      status.className = 'global-nav-search-live-status';
+      status.textContent = found.length + (found.length === 1 ? ' risultato' : ' risultati');
+      liveOutput.appendChild(status);
+      found.slice(0, 8).forEach(function (item) {
+        var link = document.createElement('a');
+        link.className = 'global-nav-search-live-result';
+        link.href = item.url;
+        var label = document.createElement('small');
+        label.textContent = kindLabels[item.kind] || item.kind || '';
+        var title = document.createElement('strong');
+        title.textContent = item.title || '';
+        link.appendChild(label);
+        link.appendChild(title);
+        liveOutput.appendChild(link);
+      });
+    }
+    function prepareLiveSearch(form) {
+      if (!form) return;
+      liveInput = form.querySelector('input[type="search"]');
+      if (!liveInput) return;
+      liveOutput = form.querySelector('.global-nav-search-live');
+      if (!liveOutput) {
+        liveOutput = document.createElement('div');
+        liveOutput.className = 'global-nav-search-live';
+        liveOutput.hidden = true;
+        liveOutput.setAttribute('aria-live', 'polite');
+        form.appendChild(liveOutput);
+      }
+      if (liveInput.dataset.globalLiveSearch !== 'ready') {
+        liveInput.dataset.globalLiveSearch = 'ready';
+        liveInput.addEventListener('input', renderLiveSearch);
+        fetch(new URL('assets/search-data.json', siteRoot).href, { cache: 'no-store' })
+          .then(function (response) { return response.ok ? response.json() : []; })
+          .then(function (items) {
+            liveItems = Array.isArray(items) ? items : [];
+            renderLiveSearch();
+          })
+          .catch(function () {
+            liveItems = [];
+            renderLiveSearch();
+          });
+      }
+    }
     triggers.forEach(function (trigger) {
       if (trigger === button || !sourceIcon || trigger.querySelector('svg')) return;
       var clonedIcon = sourceIcon.cloneNode(true);
@@ -138,17 +204,7 @@
       var form = overlay.querySelector('form');
       if (form) {
         form.action = urls.cerca;
-        if (form.dataset.transversalSearch !== 'ready') {
-          form.dataset.transversalSearch = 'ready';
-          form.addEventListener('submit', function (event) {
-            var input = form.querySelector('input[name="q"]');
-            var query = input ? input.value.replace(/\s+/g, ' ').trim() : '';
-            event.preventDefault();
-            event.stopImmediatePropagation();
-            if (!query) { if (input) input.focus(); return; }
-            location.href = urls.cerca + '?q=' + encodeURIComponent(query);
-          }, true);
-        }
+        prepareLiveSearch(form);
         var hint = overlay.querySelector('.recipe-search-hint');
         if (hint) hint.textContent = 'La ricerca interroga tutti gli archivi; potrai restringere i risultati nella pagina successiva.';
       }
@@ -176,7 +232,11 @@
       overlay.classList.add('is-open');
       overlay.setAttribute('aria-hidden', 'false');
       var input = overlay.querySelector('input');
-      if (input) input.focus();
+      if (input) {
+        input.value = '';
+        renderLiveSearch();
+        input.focus();
+      }
     }
     wireOverlay();
     triggers.forEach(function (trigger) { trigger.addEventListener('click', open); });
@@ -201,15 +261,20 @@
     nav.setAttribute('aria-label', 'Navigazione principale');
     if (back) {
       back.setAttribute('href', '#');
-      back.onclick = function (event) {
+      back.removeAttribute('onclick');
+      back.dataset.globalBack = 'ready';
+      back.addEventListener('click', function (event) {
         event.preventDefault();
+        event.stopImmediatePropagation();
         if (history.length > 1) history.back();
         else location.href = siteRoot.href;
-      };
+      }, true);
       nav.appendChild(back);
     }
+    var currentPath = new URL(normalizedPage(location.href)).pathname;
+    var showRecipeIndexLink = currentKey === 'ricette';
     primaryItems.forEach(function (item) {
-      if (item.key === currentKey || omitFromNavigation(item)) return;
+      if ((item.key === currentKey && !showRecipeIndexLink) || omitFromNavigation(item) && item.key !== currentKey) return;
       nav.appendChild(link(item.label, urls[item.key], item.compact ? '' : 'global-nav-wide'));
     });
 
