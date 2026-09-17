@@ -15,6 +15,88 @@
   };
   var mobileQuery = window.matchMedia('(max-width: 54rem)');
 
+  function shuffledCopy(items, chooseIndex) {
+    var shuffled = items.slice();
+    for (var index = shuffled.length - 1; index > 0; index -= 1) {
+      var selected = chooseIndex(index + 1);
+      if (!Number.isInteger(selected) || selected < 0 || selected > index) {
+        throw new RangeError('Indice di permutazione non valido');
+      }
+      var swap = shuffled[index];
+      shuffled[index] = shuffled[selected];
+      shuffled[selected] = swap;
+    }
+    return shuffled;
+  }
+
+  function cryptoIndex(upperExclusive) {
+    var range = 0x100000000;
+    var ceiling = Math.floor(range / upperExclusive) * upperExclusive;
+    var values = new Uint32Array(1);
+    var value;
+    do {
+      window.crypto.getRandomValues(values);
+      value = values[0];
+    } while (value >= ceiling);
+    return value % upperExclusive;
+  }
+
+  function initializeStorySequence(sequence, chooseIndex) {
+    if (!sequence || sequence.dataset.presentationReady === 'true') return false;
+
+    var groups = Array.prototype.filter.call(sequence.children, function (node) {
+      return node.classList.contains('story-continue-group');
+    });
+    var actions = Array.prototype.filter.call(sequence.children, function (node) {
+      return node.classList.contains('story-actions');
+    });
+    var groupSizes = [];
+    var items = [];
+    groups.forEach(function (group) {
+      var groupItems = Array.prototype.filter.call(group.children, function (node) {
+        return node.classList.contains('story-item');
+      });
+      groupSizes.push(groupItems.length);
+      items = items.concat(groupItems);
+    });
+    if (!groups.length) {
+      items = Array.prototype.filter.call(sequence.children, function (node) {
+        return node.classList.contains('story-item');
+      });
+    }
+
+    var shuffled = shuffledCopy(items, chooseIndex);
+    var offset = 0;
+    if (groups.length) {
+      groups.forEach(function (group, index) {
+        shuffled.slice(offset, offset + groupSizes[index]).forEach(function (item) {
+          group.appendChild(item);
+        });
+        offset += groupSizes[index];
+        group.hidden = index !== 0;
+      });
+    } else {
+      shuffled.forEach(function (item) { sequence.appendChild(item); });
+    }
+    actions.forEach(function (action, index) {
+      action.hidden = index !== 0;
+    });
+    sequence.dataset.presentationReady = 'true';
+    return true;
+  }
+
+  function setupTransversalPresentation() {
+    if (!window.crypto || typeof window.crypto.getRandomValues !== 'function') return;
+    document.querySelectorAll('.transversal-continuation .story-sequence').forEach(function (sequence) {
+      initializeStorySequence(sequence, cryptoIndex);
+    });
+  }
+
+  window.RicettarioTransversalPresentation = Object.freeze({
+    initializeSequence: initializeStorySequence,
+    shuffledCopy: shuffledCopy
+  });
+
   function normalizedPage(url) {
     return new URL(url, location.href).href
       .replace(/index\.html(?=([?#]|$))/i, '')
@@ -293,5 +375,6 @@
     setupFallbackSearch(search);
   }
 
+  setupTransversalPresentation();
   document.querySelectorAll('header.site-header').forEach(setupNavigation);
 }());
