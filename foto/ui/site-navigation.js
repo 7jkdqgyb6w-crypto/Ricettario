@@ -353,10 +353,8 @@
       }, true);
       nav.appendChild(back);
     }
-    var currentPath = new URL(normalizedPage(location.href)).pathname;
-    var showRecipeIndexLink = currentKey === 'ricette';
     primaryItems.forEach(function (item) {
-      if ((item.key === currentKey && !showRecipeIndexLink) || omitFromNavigation(item) && item.key !== currentKey) return;
+      if (item.key === currentKey || omitFromNavigation(item)) return;
       nav.appendChild(link(item.label, urls[item.key], item.compact ? '' : 'global-nav-wide'));
     });
 
