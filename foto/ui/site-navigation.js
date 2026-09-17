@@ -41,27 +41,27 @@
     return value % upperExclusive;
   }
 
-  function initializeStorySequence(sequence, chooseIndex) {
+  function initializeGroupedSequence(sequence, chooseIndex, classes) {
     if (!sequence || sequence.dataset.presentationReady === 'true') return false;
 
     var groups = Array.prototype.filter.call(sequence.children, function (node) {
-      return node.classList.contains('story-continue-group');
+      return node.classList.contains(classes.group);
     });
     var actions = Array.prototype.filter.call(sequence.children, function (node) {
-      return node.classList.contains('story-actions');
+      return node.classList.contains(classes.actions);
     });
     var groupSizes = [];
     var items = [];
     groups.forEach(function (group) {
       var groupItems = Array.prototype.filter.call(group.children, function (node) {
-        return node.classList.contains('story-item');
+        return node.classList.contains(classes.item);
       });
       groupSizes.push(groupItems.length);
       items = items.concat(groupItems);
     });
     if (!groups.length) {
       items = Array.prototype.filter.call(sequence.children, function (node) {
-        return node.classList.contains('story-item');
+        return node.classList.contains(classes.item);
       });
     }
 
@@ -85,15 +85,61 @@
     return true;
   }
 
-  function setupTransversalPresentation() {
+  function initializeStorySequence(sequence, chooseIndex) {
+    return initializeGroupedSequence(sequence, chooseIndex, {
+      group: 'story-continue-group', actions: 'story-actions', item: 'story-item'
+    });
+  }
+
+  function initializePlaceCorpusSequence(sequence, chooseIndex) {
+    return initializeGroupedSequence(sequence, chooseIndex, {
+      group: 'place-corpus-group', actions: 'place-corpus-actions', item: 'place-content-card'
+    });
+  }
+
+  function initializePhotoRelatedSequence(sequence, chooseIndex) {
+    return initializeGroupedSequence(sequence, chooseIndex, {
+      group: 'photo-related-group', actions: 'photo-related-actions', item: 'photo-related-item'
+    });
+  }
+
+  function initializePlaceImages(nodes, chooseIndex) {
+    var used = new Set();
+    Array.prototype.forEach.call(nodes, function (node) {
+      if (!node || node.dataset.presentationReady === 'true') return;
+      var candidates;
+      try { candidates = JSON.parse(node.dataset.imageCandidates || '[]'); }
+      catch (error) { candidates = []; }
+      candidates = candidates.filter(function (candidate) { return candidate && !used.has(candidate); });
+      var image = node.querySelector('img');
+      if (image && candidates.length) {
+        var selected = candidates[chooseIndex(candidates.length)];
+        image.setAttribute('src', selected);
+        used.add(selected);
+      }
+      node.dataset.presentationReady = 'true';
+    });
+  }
+
+  function setupVariablePresentations() {
     if (!window.crypto || typeof window.crypto.getRandomValues !== 'function') return;
     document.querySelectorAll('.transversal-continuation .story-sequence').forEach(function (sequence) {
       initializeStorySequence(sequence, cryptoIndex);
     });
+    document.querySelectorAll('.place-corpus-fotografie .place-corpus-sequence').forEach(function (sequence) {
+      initializePlaceCorpusSequence(sequence, cryptoIndex);
+    });
+    document.querySelectorAll('.photo-related-albums .photo-related-sequence').forEach(function (sequence) {
+      initializePhotoRelatedSequence(sequence, cryptoIndex);
+    });
+    initializePlaceImages(document.querySelectorAll('.story-place[data-image-candidates]'), cryptoIndex);
   }
 
   window.RicettarioTransversalPresentation = Object.freeze({
     initializeSequence: initializeStorySequence,
+    initializePlaceCorpusSequence: initializePlaceCorpusSequence,
+    initializePhotoRelatedSequence: initializePhotoRelatedSequence,
+    initializePlaceImages: initializePlaceImages,
     shuffledCopy: shuffledCopy
   });
 
@@ -373,6 +419,6 @@
     setupFallbackSearch(search);
   }
 
-  setupTransversalPresentation();
+  setupVariablePresentations();
   document.querySelectorAll('header.site-header').forEach(setupNavigation);
 }());
