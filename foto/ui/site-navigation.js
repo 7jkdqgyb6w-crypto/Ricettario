@@ -126,7 +126,7 @@
     document.querySelectorAll('.transversal-continuation .story-sequence').forEach(function (sequence) {
       initializeStorySequence(sequence, cryptoIndex);
     });
-    document.querySelectorAll('.place-corpus-fotografie .place-corpus-sequence').forEach(function (sequence) {
+    document.querySelectorAll('.place-corpus-fotografie .place-corpus-sequence, .place-corpus-ricette .place-corpus-sequence').forEach(function (sequence) {
       initializePlaceCorpusSequence(sequence, cryptoIndex);
     });
     document.querySelectorAll('.photo-related-albums .photo-related-sequence').forEach(function (sequence) {
