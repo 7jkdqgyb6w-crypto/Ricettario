@@ -1,8 +1,8 @@
 {
-  "albums": 148,
+  "albums": 153,
   "explicit_covers": 0,
   "explicit_cover_references": 0,
-  "fallback_covers": 148,
+  "fallback_covers": 153,
   "missing_original_reference": [
     {
       "album_id": "album-001",
@@ -190,6 +190,11 @@
       "title": "2016 Zara e Dugj Otok"
     },
     {
+      "album_id": "album-154",
+      "slug": "154-val-di-casies",
+      "title": "Val di Casies"
+    },
+    {
       "album_id": "album-037",
       "slug": "037-romania-2015",
       "title": "Romania 2015"
@@ -275,6 +280,16 @@
       "title": "Lubiana 2012"
     },
     {
+      "album_id": "album-150",
+      "slug": "150-venezia-architetture",
+      "title": "Venezia - Architetture"
+    },
+    {
+      "album_id": "album-152",
+      "slug": "152-drome-provenzale-eno-gastronomica",
+      "title": "Drome provenzale eno-gastronomica"
+    },
+    {
       "album_id": "album-055",
       "slug": "055-bacellona-2011",
       "title": "Bacellona 2011"
@@ -288,6 +303,11 @@
       "album_id": "album-057",
       "slug": "057-hvar-2011",
       "title": "Hvar 2011"
+    },
+    {
+      "album_id": "album-153",
+      "slug": "153-craterellus-cornucopioides",
+      "title": "Craterellus cornucopioides"
     },
     {
       "album_id": "album-058",
@@ -488,6 +508,11 @@
       "album_id": "album-098",
       "slug": "098-val-venosta-2007",
       "title": "Val Venosta 2007"
+    },
+    {
+      "album_id": "album-151",
+      "slug": "151-normandia-2007",
+      "title": "Normandia 2007"
     },
     {
       "album_id": "album-099",
@@ -969,6 +994,12 @@
       "reason": "manifest.first_photo.temporary_fallback"
     },
     {
+      "album_id": "album-154",
+      "slug": "154-val-di-casies",
+      "title": "Val di Casies",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
       "album_id": "album-037",
       "slug": "037-romania-2015",
       "title": "Romania 2015",
@@ -1071,6 +1102,18 @@
       "reason": "manifest.first_photo.temporary_fallback"
     },
     {
+      "album_id": "album-150",
+      "slug": "150-venezia-architetture",
+      "title": "Venezia - Architetture",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-152",
+      "slug": "152-drome-provenzale-eno-gastronomica",
+      "title": "Drome provenzale eno-gastronomica",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
       "album_id": "album-055",
       "slug": "055-bacellona-2011",
       "title": "Bacellona 2011",
@@ -1086,6 +1129,12 @@
       "album_id": "album-057",
       "slug": "057-hvar-2011",
       "title": "Hvar 2011",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-153",
+      "slug": "153-craterellus-cornucopioides",
+      "title": "Craterellus cornucopioides",
       "reason": "manifest.first_photo.temporary_fallback"
     },
     {
@@ -1326,6 +1375,12 @@
       "album_id": "album-098",
       "slug": "098-val-venosta-2007",
       "title": "Val Venosta 2007",
+      "reason": "manifest.first_photo.temporary_fallback"
+    },
+    {
+      "album_id": "album-151",
+      "slug": "151-normandia-2007",
+      "title": "Normandia 2007",
       "reason": "manifest.first_photo.temporary_fallback"
     },
     {

@@ -370,9 +370,39 @@
     triggers.forEach(function (trigger) { trigger.addEventListener('click', open); });
   }
 
+  function setupPrebuiltRecipeNavigation(nav, index) {
+    if (!nav.querySelector('.recipe-back-link') || nav.querySelector('.global-nav-more')) return;
+    var wideLabels = new Set(primaryItems.filter(function (item) {
+      return !item.compact;
+    }).map(function (item) { return item.label; }));
+    var wideLinks = Array.prototype.filter.call(nav.children, function (child) {
+      return child.tagName === 'A' && wideLabels.has(child.textContent.trim());
+    });
+    if (!wideLinks.length) return;
+
+    var more = document.createElement('div');
+    more.className = 'global-nav-more';
+    var menuId = 'global-nav-more-menu-' + index;
+    more.innerHTML = '<button class="global-nav-more-toggle" type="button" aria-haspopup="menu" aria-expanded="false" aria-controls="' + menuId + '">Altro</button><div class="global-nav-more-menu" id="' + menuId + '" role="menu" hidden></div>';
+    var menu = more.querySelector('.global-nav-more-menu');
+    wideLinks.forEach(function (anchor) {
+      anchor.classList.add('global-nav-wide');
+      var menuLink = anchor.cloneNode(true);
+      menuLink.classList.remove('global-nav-wide');
+      menuLink.setAttribute('role', 'menuitem');
+      menu.appendChild(menuLink);
+    });
+    nav.insertBefore(more, nav.querySelector('.site-search-button'));
+    setupMore(nav, more);
+  }
+
   function setupNavigation(header, index) {
     var nav = header.querySelector('nav');
-    if (!nav || nav.dataset.globalNav === 'ready') return;
+    if (!nav) return;
+    if (nav.dataset.globalNav === 'ready') {
+      setupPrebuiltRecipeNavigation(nav, index);
+      return;
+    }
     var back = nav.querySelector('.recipe-nav-back, .index-nav-back');
     var search = nav.querySelector('.site-search-button') || iconButton();
     var currentKey = currentPrimaryKey();

@@ -411,6 +411,7 @@
         "album-027",
         "album-049",
         "album-052",
+        "album-152",
         "album-086"
       ],
       "photography_url": "/fotografia/geografia/drome/"
@@ -487,6 +488,14 @@
       "photography_url": "/fotografia/geografia/francia/"
     },
     {
+      "geography_id": "francia-normandia",
+      "recipe_anchor": "francia-normandia",
+      "album_ids": [
+        "album-151"
+      ],
+      "photography_url": "/fotografia/geografia/francia-normandia/"
+    },
+    {
       "geography_id": "gent",
       "recipe_anchor": null,
       "album_ids": [
@@ -560,6 +569,14 @@
       "photography_url": "/fotografia/geografia/isola-di-lussino/"
     },
     {
+      "geography_id": "italia-alto-adige-val-di-casies",
+      "recipe_anchor": "italia-alto-adige-val-di-casies",
+      "album_ids": [
+        "album-154"
+      ],
+      "photography_url": "/fotografia/geografia/italia-alto-adige-val-di-casies/"
+    },
+    {
       "geography_id": "italia-lazio",
       "recipe_anchor": null,
       "album_ids": [
@@ -609,6 +626,14 @@
         "album-082"
       ],
       "photography_url": "/fotografia/geografia/italia-trentino-alto-adige-trento-san-martino-di-castrozza/"
+    },
+    {
+      "geography_id": "italia-veneto-venezia",
+      "recipe_anchor": "italia-veneto-venezia",
+      "album_ids": [
+        "album-150"
+      ],
+      "photography_url": "/fotografia/geografia/italia-veneto-venezia/"
     },
     {
       "geography_id": "kairns",
@@ -8273,6 +8298,153 @@
       "right_path": "Croazia / Hvar"
     },
     {
+      "album_id": "album-154",
+      "album_slug": "154-val-di-casies",
+      "reference": {
+        "id": "fusilli-carciofi-e-salmone",
+        "kind": "ricetta",
+        "title": "Fusilli carciofi e salmone",
+        "url": "/ricette/fusilli-carciofi-e-salmone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Trentino-Alto Adige / Alto Adige / Val-di-Casies",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-154",
+      "album_slug": "154-val-di-casies",
+      "reference": {
+        "id": "goulash-variante",
+        "kind": "ricetta",
+        "title": "Gulash (variante)",
+        "url": "/ricette/goulash-variante/",
+        "geography": [
+          "italia-alto-adige-val-di-casies"
+        ]
+      },
+      "score": 100,
+      "relation": "stesso_termine",
+      "common_id": "italia-alto-adige-val-di-casies",
+      "automatic": true,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Italia / Trentino-Alto Adige / Alto Adige / Val-di-Casies",
+      "right_path": "Italia / Trentino-Alto Adige / Alto Adige / Val-di-Casies"
+    },
+    {
+      "album_id": "album-154",
+      "album_slug": "154-val-di-casies",
+      "reference": {
+        "id": "penne-con-zucchine",
+        "kind": "ricetta",
+        "title": "Penne con zucchine",
+        "url": "/ricette/penne-con-zucchine/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Trentino-Alto Adige / Alto Adige / Val-di-Casies",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-154",
+      "album_slug": "154-val-di-casies",
+      "reference": {
+        "id": "straccetti-di-pollo-al-limone",
+        "kind": "ricetta",
+        "title": "Straccetti di pollo al limone",
+        "url": "/ricette/straccetti-di-pollo-al-limone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Trentino-Alto Adige / Alto Adige / Val-di-Casies",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-154",
+      "album_slug": "154-val-di-casies",
+      "reference": {
+        "id": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
+        "kind": "ricetta",
+        "title": "Straccetti su letto di porri con rucola e aceto balsamico di Modena",
+        "url": "/ricette/straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Trentino-Alto Adige / Alto Adige / Val-di-Casies",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-154",
+      "album_slug": "154-val-di-casies",
+      "reference": {
+        "id": "tagliate",
+        "kind": "ricetta",
+        "title": "Tagliate",
+        "url": "/ricette/tagliate/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Trentino-Alto Adige / Alto Adige / Val-di-Casies",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-154",
+      "album_slug": "154-val-di-casies",
+      "reference": {
+        "id": "zuppa-di-legumi-con-funghi-settembrini-secchi",
+        "kind": "ricetta",
+        "title": "Zuppa di legumi con funghi settembrini secchi",
+        "url": "/ricette/zuppa-di-legumi-con-funghi-settembrini-secchi/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 70,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Trentino-Alto Adige / Alto Adige / Val-di-Casies",
+      "right_path": "Italia"
+    },
+    {
       "album_id": "album-039",
       "album_slug": "039-anterselva-2014",
       "reference": {
@@ -10774,6 +10946,657 @@
     {
       "album_id": "album-052",
       "album_slug": "052-drome-2012",
+      "reference": {
+        "id": "trancio-di-tonno-con-sesamo-provenzale",
+        "kind": "ricetta",
+        "title": "Trancio di tonno con sesamo provenzale",
+        "url": "/ricette/trancio-di-tonno-con-sesamo-provenzale/",
+        "geography": [
+          "francia-provenza"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "francia-provenza",
+      "automatic": true,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Francia / Provenza / Drôme provençale",
+      "right_path": "Francia / Provenza"
+    },
+    {
+      "album_id": "album-150",
+      "album_slug": "150-venezia-architetture",
+      "reference": {
+        "id": "anatra-in-salsa",
+        "kind": "ricetta",
+        "title": "Anatra in salsa",
+        "url": "/ricette/anatra-in-salsa/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": true,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Italia / Veneto / Provincia di Venezia",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-150",
+      "album_slug": "150-venezia-architetture",
+      "reference": {
+        "id": "antipasto-di-canocce",
+        "kind": "ricetta",
+        "title": "Antipasto di canocce",
+        "url": "/ricette/antipasto-di-canocce/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": true,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Italia / Veneto / Provincia di Venezia",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-150",
+      "album_slug": "150-venezia-architetture",
+      "reference": {
+        "id": "baccala-mantecato",
+        "kind": "ricetta",
+        "title": "Baccalà mantecato",
+        "url": "/ricette/baccala-mantecato/",
+        "geography": [
+          "italia-veneto-venezia"
+        ]
+      },
+      "score": 100,
+      "relation": "stesso_termine",
+      "common_id": "italia-veneto-venezia",
+      "automatic": true,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Italia / Veneto / Provincia di Venezia",
+      "right_path": "Italia / Veneto / Provincia di Venezia"
+    },
+    {
+      "album_id": "album-150",
+      "album_slug": "150-venezia-architetture",
+      "reference": {
+        "id": "battuta-di-manzo-alla-boscaiola",
+        "kind": "ricetta",
+        "title": "Battuta di manzo alla boscaiola",
+        "url": "/ricette/battuta-di-manzo-alla-boscaiola/",
+        "geography": [
+          "italia-veneto-alpago"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "italia-veneto",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Rami geografici distinti: solo suggerimento",
+      "left_path": "Italia / Veneto / Provincia di Venezia",
+      "right_path": "Italia / Veneto / Alpago"
+    },
+    {
+      "album_id": "album-150",
+      "album_slug": "150-venezia-architetture",
+      "reference": {
+        "id": "bigoli-in-salsa",
+        "kind": "ricetta",
+        "title": "Bigoli in salsa",
+        "url": "/ricette/bigoli-in-salsa/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": true,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Italia / Veneto / Provincia di Venezia",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-150",
+      "album_slug": "150-venezia-architetture",
+      "reference": {
+        "id": "fegato-alla-veneziana",
+        "kind": "ricetta",
+        "title": "Fegato alla veneziana",
+        "url": "/ricette/fegato-alla-veneziana/",
+        "geography": [
+          "italia-veneto-venezia"
+        ]
+      },
+      "score": 100,
+      "relation": "stesso_termine",
+      "common_id": "italia-veneto-venezia",
+      "automatic": true,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Italia / Veneto / Provincia di Venezia",
+      "right_path": "Italia / Veneto / Provincia di Venezia"
+    },
+    {
+      "album_id": "album-150",
+      "album_slug": "150-venezia-architetture",
+      "reference": {
+        "id": "fusilli-carciofi-e-salmone",
+        "kind": "ricetta",
+        "title": "Fusilli carciofi e salmone",
+        "url": "/ricette/fusilli-carciofi-e-salmone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Veneto / Provincia di Venezia",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-150",
+      "album_slug": "150-venezia-architetture",
+      "reference": {
+        "id": "gnocchetti-sardi-alla-urbaweb",
+        "kind": "ricetta",
+        "title": "Gnocchetti sardi alla Urbaweb",
+        "url": "/ricette/gnocchetti-sardi-alla-urbaweb/",
+        "geography": [
+          "italia-veneto-venezia"
+        ]
+      },
+      "score": 100,
+      "relation": "stesso_termine",
+      "common_id": "italia-veneto-venezia",
+      "automatic": true,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Italia / Veneto / Provincia di Venezia",
+      "right_path": "Italia / Veneto / Provincia di Venezia"
+    },
+    {
+      "album_id": "album-150",
+      "album_slug": "150-venezia-architetture",
+      "reference": {
+        "id": "gnocchi-con-le-trombette-dei-morti",
+        "kind": "ricetta",
+        "title": "Gnocchi con le trombette dei morti",
+        "url": "/ricette/gnocchi-con-le-trombette-dei-morti/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": true,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Italia / Veneto / Provincia di Venezia",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-150",
+      "album_slug": "150-venezia-architetture",
+      "reference": {
+        "id": "pasta-con-le-melanzane",
+        "kind": "ricetta",
+        "title": "Pasta con le melanzane",
+        "url": "/ricette/pasta-con-le-melanzane/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": true,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Italia / Veneto / Provincia di Venezia",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-150",
+      "album_slug": "150-venezia-architetture",
+      "reference": {
+        "id": "pasta-e-fagioli",
+        "kind": "ricetta",
+        "title": "Pasta e fagioli",
+        "url": "/ricette/pasta-e-fagioli/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": true,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Italia / Veneto / Provincia di Venezia",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-150",
+      "album_slug": "150-venezia-architetture",
+      "reference": {
+        "id": "penne-con-mazzancolle-alle-verdure",
+        "kind": "ricetta",
+        "title": "Penne con mazzancolle alle verdure",
+        "url": "/ricette/penne-con-mazzancolle-alle-verdure/",
+        "geography": [
+          "italia-veneto"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "italia-veneto",
+      "automatic": true,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Italia / Veneto / Provincia di Venezia",
+      "right_path": "Italia / Veneto"
+    },
+    {
+      "album_id": "album-150",
+      "album_slug": "150-venezia-architetture",
+      "reference": {
+        "id": "penne-con-zucchine",
+        "kind": "ricetta",
+        "title": "Penne con zucchine",
+        "url": "/ricette/penne-con-zucchine/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Veneto / Provincia di Venezia",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-150",
+      "album_slug": "150-venezia-architetture",
+      "reference": {
+        "id": "risi-e-bisi",
+        "kind": "ricetta",
+        "title": "Risi e bisi",
+        "url": "/ricette/risi-e-bisi/",
+        "geography": [
+          "italia-veneto-venezia"
+        ]
+      },
+      "score": 100,
+      "relation": "stesso_termine",
+      "common_id": "italia-veneto-venezia",
+      "automatic": true,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Italia / Veneto / Provincia di Venezia",
+      "right_path": "Italia / Veneto / Provincia di Venezia"
+    },
+    {
+      "album_id": "album-150",
+      "album_slug": "150-venezia-architetture",
+      "reference": {
+        "id": "straccetti-di-pollo-al-limone",
+        "kind": "ricetta",
+        "title": "Straccetti di pollo al limone",
+        "url": "/ricette/straccetti-di-pollo-al-limone/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Veneto / Provincia di Venezia",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-150",
+      "album_slug": "150-venezia-architetture",
+      "reference": {
+        "id": "straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena",
+        "kind": "ricetta",
+        "title": "Straccetti su letto di porri con rucola e aceto balsamico di Modena",
+        "url": "/ricette/straccetti-su-letto-di-porri-con-rucola-e-aceto-balsamico-di-modena/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Veneto / Provincia di Venezia",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-150",
+      "album_slug": "150-venezia-architetture",
+      "reference": {
+        "id": "tagliate",
+        "kind": "ricetta",
+        "title": "Tagliate",
+        "url": "/ricette/tagliate/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Veneto / Provincia di Venezia",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-150",
+      "album_slug": "150-venezia-architetture",
+      "reference": {
+        "id": "zuppa-di-legumi-con-funghi-settembrini-secchi",
+        "kind": "ricetta",
+        "title": "Zuppa di legumi con funghi settembrini secchi",
+        "url": "/ricette/zuppa-di-legumi-con-funghi-settembrini-secchi/",
+        "geography": [
+          "italia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "italia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Italia / Veneto / Provincia di Venezia",
+      "right_path": "Italia"
+    },
+    {
+      "album_id": "album-152",
+      "album_slug": "152-drome-provenzale-eno-gastronomica",
+      "reference": {
+        "id": "anatra-all-arancia",
+        "kind": "ricetta",
+        "title": "Anatra all'arancia",
+        "url": "/ricette/anatra-all-arancia/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Provenza / Drôme provençale",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-152",
+      "album_slug": "152-drome-provenzale-eno-gastronomica",
+      "reference": {
+        "id": "crepes",
+        "kind": "ricetta",
+        "title": "Crêpes",
+        "url": "/ricette/crepes/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Provenza / Drôme provençale",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-152",
+      "album_slug": "152-drome-provenzale-eno-gastronomica",
+      "reference": {
+        "id": "daube",
+        "kind": "ricetta",
+        "title": "Daube",
+        "url": "/ricette/daube/",
+        "geography": [
+          "francia-provenza"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "francia-provenza",
+      "automatic": true,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Francia / Provenza / Drôme provençale",
+      "right_path": "Francia / Provenza"
+    },
+    {
+      "album_id": "album-152",
+      "album_slug": "152-drome-provenzale-eno-gastronomica",
+      "reference": {
+        "id": "gigot-roti",
+        "kind": "ricetta",
+        "title": "Gigot roti",
+        "url": "/ricette/gigot-roti/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Provenza / Drôme provençale",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-152",
+      "album_slug": "152-drome-provenzale-eno-gastronomica",
+      "reference": {
+        "id": "minestra-di-cavoli",
+        "kind": "ricetta",
+        "title": "Minestra di cavoli",
+        "url": "/ricette/minestra-di-cavoli/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Provenza / Drôme provençale",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-152",
+      "album_slug": "152-drome-provenzale-eno-gastronomica",
+      "reference": {
+        "id": "minestra-di-porri",
+        "kind": "ricetta",
+        "title": "Minestra di porri",
+        "url": "/ricette/minestra-di-porri/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Provenza / Drôme provençale",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-152",
+      "album_slug": "152-drome-provenzale-eno-gastronomica",
+      "reference": {
+        "id": "patatine",
+        "kind": "ricetta",
+        "title": "Patatine*",
+        "url": "/ricette/patatine/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Provenza / Drôme provençale",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-152",
+      "album_slug": "152-drome-provenzale-eno-gastronomica",
+      "reference": {
+        "id": "pate-di-fegato",
+        "kind": "ricetta",
+        "title": "Paté di fegato",
+        "url": "/ricette/pate-di-fegato/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Provenza / Drôme provençale",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-152",
+      "album_slug": "152-drome-provenzale-eno-gastronomica",
+      "reference": {
+        "id": "puree-di-sedano",
+        "kind": "ricetta",
+        "title": "Purée di sedano",
+        "url": "/ricette/puree-di-sedano/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Provenza / Drôme provençale",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-152",
+      "album_slug": "152-drome-provenzale-eno-gastronomica",
+      "reference": {
+        "id": "ratatouille-variante",
+        "kind": "ricetta",
+        "title": "Ratatouille (variante)",
+        "url": "/ricette/ratatouille-variante/",
+        "geography": [
+          "francia-provenza"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "francia-provenza",
+      "automatic": true,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Francia / Provenza / Drôme provençale",
+      "right_path": "Francia / Provenza"
+    },
+    {
+      "album_id": "album-152",
+      "album_slug": "152-drome-provenzale-eno-gastronomica",
+      "reference": {
+        "id": "roux-brun",
+        "kind": "ricetta",
+        "title": "Roux brun",
+        "url": "/ricette/roux-brun/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 80,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Provenza / Drôme provençale",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-152",
+      "album_slug": "152-drome-provenzale-eno-gastronomica",
+      "reference": {
+        "id": "soupe-au-pistou",
+        "kind": "ricetta",
+        "title": "Soupe au pistou",
+        "url": "/ricette/soupe-au-pistou/",
+        "geography": [
+          "francia-provenza"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "francia-provenza",
+      "automatic": true,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Francia / Provenza / Drôme provençale",
+      "right_path": "Francia / Provenza"
+    },
+    {
+      "album_id": "album-152",
+      "album_slug": "152-drome-provenzale-eno-gastronomica",
       "reference": {
         "id": "trancio-di-tonno-con-sesamo-provenzale",
         "kind": "ricetta",
@@ -14361,6 +15184,363 @@
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
       "left_path": "Italia / Trentino-Alto Adige / Provincia autonoma di Bolzano / Val Venosta",
       "right_path": "Italia"
+    },
+    {
+      "album_id": "album-151",
+      "album_slug": "151-normandia-2007",
+      "reference": {
+        "id": "anatra-all-arancia",
+        "kind": "ricetta",
+        "title": "Anatra all'arancia",
+        "url": "/ricette/anatra-all-arancia/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Normandia",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-151",
+      "album_slug": "151-normandia-2007",
+      "reference": {
+        "id": "aringhe-in-terrina",
+        "kind": "ricetta",
+        "title": "Aringhe in terrina",
+        "url": "/ricette/aringhe-in-terrina/",
+        "geography": [
+          "francia-alsazia"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Normandia",
+      "right_path": "Francia / Alsazia"
+    },
+    {
+      "album_id": "album-151",
+      "album_slug": "151-normandia-2007",
+      "reference": {
+        "id": "cavolo-rosso-condito",
+        "kind": "ricetta",
+        "title": "Cavolo rosso condito",
+        "url": "/ricette/cavolo-rosso-condito/",
+        "geography": [
+          "francia-alsazia"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Normandia",
+      "right_path": "Francia / Alsazia"
+    },
+    {
+      "album_id": "album-151",
+      "album_slug": "151-normandia-2007",
+      "reference": {
+        "id": "choux-croute",
+        "kind": "ricetta",
+        "title": "Choux croute",
+        "url": "/ricette/choux-croute/",
+        "geography": [
+          "francia-alsazia"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Normandia",
+      "right_path": "Francia / Alsazia"
+    },
+    {
+      "album_id": "album-151",
+      "album_slug": "151-normandia-2007",
+      "reference": {
+        "id": "crepes",
+        "kind": "ricetta",
+        "title": "Crêpes",
+        "url": "/ricette/crepes/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Normandia",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-151",
+      "album_slug": "151-normandia-2007",
+      "reference": {
+        "id": "daube",
+        "kind": "ricetta",
+        "title": "Daube",
+        "url": "/ricette/daube/",
+        "geography": [
+          "francia-provenza"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Normandia",
+      "right_path": "Francia / Provenza"
+    },
+    {
+      "album_id": "album-151",
+      "album_slug": "151-normandia-2007",
+      "reference": {
+        "id": "gigot-roti",
+        "kind": "ricetta",
+        "title": "Gigot roti",
+        "url": "/ricette/gigot-roti/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Normandia",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-151",
+      "album_slug": "151-normandia-2007",
+      "reference": {
+        "id": "madeleine",
+        "kind": "ricetta",
+        "title": "Madeleine",
+        "url": "/ricette/madeleine/",
+        "geography": [
+          "francia-normandia"
+        ]
+      },
+      "score": 100,
+      "relation": "stesso_termine",
+      "common_id": "francia-normandia",
+      "automatic": true,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Francia / Normandia",
+      "right_path": "Francia / Normandia"
+    },
+    {
+      "album_id": "album-151",
+      "album_slug": "151-normandia-2007",
+      "reference": {
+        "id": "minestra-di-cavoli",
+        "kind": "ricetta",
+        "title": "Minestra di cavoli",
+        "url": "/ricette/minestra-di-cavoli/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Normandia",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-151",
+      "album_slug": "151-normandia-2007",
+      "reference": {
+        "id": "minestra-di-porri",
+        "kind": "ricetta",
+        "title": "Minestra di porri",
+        "url": "/ricette/minestra-di-porri/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Normandia",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-151",
+      "album_slug": "151-normandia-2007",
+      "reference": {
+        "id": "patatine",
+        "kind": "ricetta",
+        "title": "Patatine*",
+        "url": "/ricette/patatine/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Normandia",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-151",
+      "album_slug": "151-normandia-2007",
+      "reference": {
+        "id": "pate-di-fegato",
+        "kind": "ricetta",
+        "title": "Paté di fegato",
+        "url": "/ricette/pate-di-fegato/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Normandia",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-151",
+      "album_slug": "151-normandia-2007",
+      "reference": {
+        "id": "puree-di-sedano",
+        "kind": "ricetta",
+        "title": "Purée di sedano",
+        "url": "/ricette/puree-di-sedano/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Normandia",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-151",
+      "album_slug": "151-normandia-2007",
+      "reference": {
+        "id": "ratatouille-variante",
+        "kind": "ricetta",
+        "title": "Ratatouille (variante)",
+        "url": "/ricette/ratatouille-variante/",
+        "geography": [
+          "francia-provenza"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Normandia",
+      "right_path": "Francia / Provenza"
+    },
+    {
+      "album_id": "album-151",
+      "album_slug": "151-normandia-2007",
+      "reference": {
+        "id": "roux-brun",
+        "kind": "ricetta",
+        "title": "Roux brun",
+        "url": "/ricette/roux-brun/",
+        "geography": [
+          "francia"
+        ]
+      },
+      "score": 90,
+      "relation": "piu_specifico",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Normandia",
+      "right_path": "Francia"
+    },
+    {
+      "album_id": "album-151",
+      "album_slug": "151-normandia-2007",
+      "reference": {
+        "id": "soupe-au-pistou",
+        "kind": "ricetta",
+        "title": "Soupe au pistou",
+        "url": "/ricette/soupe-au-pistou/",
+        "geography": [
+          "francia-provenza"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Normandia",
+      "right_path": "Francia / Provenza"
+    },
+    {
+      "album_id": "album-151",
+      "album_slug": "151-normandia-2007",
+      "reference": {
+        "id": "trancio-di-tonno-con-sesamo-provenzale",
+        "kind": "ricetta",
+        "title": "Trancio di tonno con sesamo provenzale",
+        "url": "/ricette/trancio-di-tonno-con-sesamo-provenzale/",
+        "geography": [
+          "francia-provenza"
+        ]
+      },
+      "score": 70,
+      "relation": "antenato_comune",
+      "common_id": "francia",
+      "automatic": false,
+      "automatic_eligible": false,
+      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
+      "left_path": "Francia / Normandia",
+      "right_path": "Francia / Provenza"
     },
     {
       "album_id": "album-100",
