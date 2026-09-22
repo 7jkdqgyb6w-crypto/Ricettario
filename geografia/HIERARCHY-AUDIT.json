@@ -1,5 +1,5 @@
 {
-  "places_checked": 258,
+  "places_checked": 268,
   "canonical_merges_checked": 2,
   "self_references": [],
   "cycles": [],
@@ -7,15 +7,16 @@
   "propagation": {
     "ricette": {
       "verified_paths_by_relation": {
-        "amministrativa": 40,
-        "territoriale": 31
+        "amministrativa": 41,
+        "territoriale": 30
       },
       "failures": []
     },
     "fotografie": {
       "verified_paths_by_relation": {
-        "amministrativa": 254,
-        "territoriale": 142
+        "amministrativa": 278,
+        "storico_culturale": 2,
+        "territoriale": 156
       },
       "failures": []
     },

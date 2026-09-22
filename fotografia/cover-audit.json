@@ -1,7 +1,7 @@
 {
-  "albums": 153,
-  "explicit_covers": 0,
-  "explicit_cover_references": 0,
+  "albums": 165,
+  "explicit_covers": 12,
+  "explicit_cover_references": 12,
   "fallback_covers": 153,
   "missing_original_reference": [
     {
