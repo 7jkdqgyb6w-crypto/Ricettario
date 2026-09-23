@@ -4,14 +4,6 @@
   "suggestion_min_score": 70,
   "place_links": [
     {
-      "geography_id": "5-terre",
-      "recipe_anchor": null,
-      "album_ids": [
-        "album-122"
-      ],
-      "photography_url": "/fotografia/geografia/5-terre/"
-    },
-    {
       "geography_id": "alghero",
       "recipe_anchor": null,
       "album_ids": [
@@ -19,6 +11,14 @@
         "album-144"
       ],
       "photography_url": "/fotografia/geografia/alghero/"
+    },
+    {
+      "geography_id": "fanes",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-081"
+      ],
+      "photography_url": "/fotografia/geografia/fanes/"
     },
     {
       "geography_id": "alta-pusteria",
@@ -54,12 +54,29 @@
       "photography_url": "/fotografia/geografia/annecy/"
     },
     {
+      "geography_id": "italia-trentino-alto-adige-bolzano-anterselva-valle-di",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-008",
+        "album-039"
+      ],
+      "photography_url": "/fotografia/geografia/italia-trentino-alto-adige-bolzano-anterselva-valle-di/"
+    },
+    {
       "geography_id": "ardeche",
       "recipe_anchor": null,
       "album_ids": [
         "album-113"
       ],
       "photography_url": "/fotografia/geografia/ardeche/"
+    },
+    {
+      "geography_id": "italia-toscana-grosseto-argentario-monte",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-015"
+      ],
+      "photography_url": "/fotografia/geografia/italia-toscana-grosseto-argentario-monte/"
     },
     {
       "geography_id": "argentina",
@@ -93,14 +110,6 @@
         "album-069"
       ],
       "photography_url": "/fotografia/geografia/australia/"
-    },
-    {
-      "geography_id": "australia-queensland-great-barrier-reefs-the",
-      "recipe_anchor": null,
-      "album_ids": [
-        "album-063"
-      ],
-      "photography_url": "/fotografia/geografia/australia-queensland-great-barrier-reefs-the/"
     },
     {
       "geography_id": "bacellona",
@@ -137,6 +146,15 @@
       "photography_url": "/fotografia/geografia/baviera/"
     },
     {
+      "geography_id": "deutschland-berlin",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-056",
+        "album-104"
+      ],
+      "photography_url": "/fotografia/geografia/deutschland-berlin/"
+    },
+    {
       "geography_id": "bled",
       "recipe_anchor": null,
       "album_ids": [
@@ -170,6 +188,14 @@
         "album-083"
       ],
       "photography_url": "/fotografia/geografia/borgogna/"
+    },
+    {
+      "geography_id": "cansiglio",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-096"
+      ],
+      "photography_url": "/fotografia/geografia/cansiglio/"
     },
     {
       "geography_id": "bowen",
@@ -257,6 +283,14 @@
       "photography_url": "/fotografia/geografia/cadore/"
     },
     {
+      "geography_id": "kairns",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-064"
+      ],
+      "photography_url": "/fotografia/geografia/kairns/"
+    },
+    {
       "geography_id": "camargue",
       "recipe_anchor": null,
       "album_ids": [
@@ -281,14 +315,6 @@
       "photography_url": "/fotografia/geografia/canberra/"
     },
     {
-      "geography_id": "cansiglio",
-      "recipe_anchor": null,
-      "album_ids": [
-        "album-096"
-      ],
-      "photography_url": "/fotografia/geografia/cansiglio/"
-    },
-    {
       "geography_id": "caorle",
       "recipe_anchor": null,
       "album_ids": [
@@ -303,14 +329,6 @@
         "album-063"
       ],
       "photography_url": "/fotografia/geografia/cape-tribulation/"
-    },
-    {
-      "geography_id": "capraia",
-      "recipe_anchor": null,
-      "album_ids": [
-        "album-031"
-      ],
-      "photography_url": "/fotografia/geografia/capraia/"
     },
     {
       "geography_id": "cascata-del-pis",
@@ -345,6 +363,14 @@
       "photography_url": "/fotografia/geografia/chamois/"
     },
     {
+      "geography_id": "5-terre",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-122"
+      ],
+      "photography_url": "/fotografia/geografia/5-terre/"
+    },
+    {
       "geography_id": "collio",
       "recipe_anchor": null,
       "album_ids": [
@@ -372,15 +398,6 @@
       "photography_url": "/fotografia/geografia/croazia/"
     },
     {
-      "geography_id": "croazia-hvar",
-      "recipe_anchor": "croazia-hvar",
-      "album_ids": [
-        "album-057",
-        "album-125"
-      ],
-      "photography_url": "/fotografia/geografia/croazia-hvar/"
-    },
-    {
       "geography_id": "curon-venosta",
       "recipe_anchor": null,
       "album_ids": [
@@ -403,15 +420,6 @@
         "album-061"
       ],
       "photography_url": "/fotografia/geografia/darwin/"
-    },
-    {
-      "geography_id": "deutschland-berlin",
-      "recipe_anchor": null,
-      "album_ids": [
-        "album-056",
-        "album-104"
-      ],
-      "photography_url": "/fotografia/geografia/deutschland-berlin/"
     },
     {
       "geography_id": "dobbiaco",
@@ -459,30 +467,6 @@
       "photography_url": "/fotografia/geografia/erto/"
     },
     {
-      "geography_id": "espana",
-      "recipe_anchor": null,
-      "album_ids": [
-        "album-166"
-      ],
-      "photography_url": "/fotografia/geografia/espana/"
-    },
-    {
-      "geography_id": "falzarego",
-      "recipe_anchor": null,
-      "album_ids": [
-        "album-081"
-      ],
-      "photography_url": "/fotografia/geografia/falzarego/"
-    },
-    {
-      "geography_id": "fanes",
-      "recipe_anchor": null,
-      "album_ids": [
-        "album-081"
-      ],
-      "photography_url": "/fotografia/geografia/fanes/"
-    },
-    {
       "geography_id": "fontainebleau",
       "recipe_anchor": null,
       "album_ids": [
@@ -491,35 +475,12 @@
       "photography_url": "/fotografia/geografia/fontainebleau/"
     },
     {
-      "geography_id": "france-ile-de-france-paris",
-      "recipe_anchor": null,
-      "album_ids": [
-        "album-005",
-        "album-043",
-        "album-145",
-        "album-110",
-        "album-111",
-        "album-146",
-        "album-115",
-        "album-130"
-      ],
-      "photography_url": "/fotografia/geografia/france-ile-de-france-paris/"
-    },
-    {
       "geography_id": "francia",
       "recipe_anchor": "francia",
       "album_ids": [
         "album-003"
       ],
       "photography_url": "/fotografia/geografia/francia/"
-    },
-    {
-      "geography_id": "francia-normandia",
-      "recipe_anchor": "francia-normandia",
-      "album_ids": [
-        "album-151"
-      ],
-      "photography_url": "/fotografia/geografia/francia-normandia/"
     },
     {
       "geography_id": "gent",
@@ -538,6 +499,14 @@
       "photography_url": "/fotografia/geografia/gold-coast/"
     },
     {
+      "geography_id": "australia-queensland-great-barrier-reefs-the",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-063"
+      ],
+      "photography_url": "/fotografia/geografia/australia-queensland-great-barrier-reefs-the/"
+    },
+    {
       "geography_id": "grignan",
       "recipe_anchor": null,
       "album_ids": [
@@ -554,12 +523,13 @@
       "photography_url": "/fotografia/geografia/helsinki/"
     },
     {
-      "geography_id": "hrvatska-dubrovacko-neretvanska-zupanija-ston",
-      "recipe_anchor": null,
+      "geography_id": "croazia-hvar",
+      "recipe_anchor": "croazia-hvar",
       "album_ids": [
-        "album-103"
+        "album-057",
+        "album-125"
       ],
-      "photography_url": "/fotografia/geografia/hrvatska-dubrovacko-neretvanska-zupanija-ston/"
+      "photography_url": "/fotografia/geografia/croazia-hvar/"
     },
     {
       "geography_id": "irpinia",
@@ -568,14 +538,6 @@
         "album-136"
       ],
       "photography_url": "/fotografia/geografia/irpinia/"
-    },
-    {
-      "geography_id": "ischia",
-      "recipe_anchor": null,
-      "album_ids": [
-        "album-092"
-      ],
-      "photography_url": "/fotografia/geografia/ischia/"
     },
     {
       "geography_id": "isola-d-elba",
@@ -587,12 +549,37 @@
       "photography_url": "/fotografia/geografia/isola-d-elba/"
     },
     {
+      "geography_id": "ischia",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-092"
+      ],
+      "photography_url": "/fotografia/geografia/ischia/"
+    },
+    {
       "geography_id": "asinara",
       "recipe_anchor": null,
       "album_ids": [
         "album-144"
       ],
       "photography_url": "/fotografia/geografia/asinara/"
+    },
+    {
+      "geography_id": "capraia",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-031"
+      ],
+      "photography_url": "/fotografia/geografia/capraia/"
+    },
+    {
+      "geography_id": "krk",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-002",
+        "album-004"
+      ],
+      "photography_url": "/fotografia/geografia/krk/"
     },
     {
       "geography_id": "isola-di-lussino",
@@ -603,6 +590,14 @@
       "photography_url": "/fotografia/geografia/isola-di-lussino/"
     },
     {
+      "geography_id": "procida",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-092"
+      ],
+      "photography_url": "/fotografia/geografia/procida/"
+    },
+    {
       "geography_id": "isole-eolie",
       "recipe_anchor": null,
       "album_ids": [
@@ -611,98 +606,12 @@
       "photography_url": "/fotografia/geografia/isole-eolie/"
     },
     {
-      "geography_id": "italia-alto-adige-val-di-casies",
-      "recipe_anchor": "italia-alto-adige-val-di-casies",
-      "album_ids": [
-        "album-154"
-      ],
-      "photography_url": "/fotografia/geografia/italia-alto-adige-val-di-casies/"
-    },
-    {
-      "geography_id": "italia-lazio",
-      "recipe_anchor": null,
-      "album_ids": [
-        "album-010",
-        "album-015"
-      ],
-      "photography_url": "/fotografia/geografia/italia-lazio/"
-    },
-    {
-      "geography_id": "italia-lazio-roma",
-      "recipe_anchor": "italia-lazio-roma",
-      "album_ids": [
-        "album-162",
-        "album-006",
-        "album-016"
-      ],
-      "photography_url": "/fotografia/geografia/italia-lazio-roma/"
-    },
-    {
-      "geography_id": "italia-sicilia-ragusa-modica",
-      "recipe_anchor": null,
-      "album_ids": [
-        "album-159"
-      ],
-      "photography_url": "/fotografia/geografia/italia-sicilia-ragusa-modica/"
-    },
-    {
-      "geography_id": "italia-toscana",
-      "recipe_anchor": "italia-toscana",
-      "album_ids": [
-        "album-010",
-        "album-158"
-      ],
-      "photography_url": "/fotografia/geografia/italia-toscana/"
-    },
-    {
-      "geography_id": "italia-toscana-grosseto-argentario-monte",
-      "recipe_anchor": null,
-      "album_ids": [
-        "album-015"
-      ],
-      "photography_url": "/fotografia/geografia/italia-toscana-grosseto-argentario-monte/"
-    },
-    {
-      "geography_id": "italia-trentino-alto-adige-bolzano-anterselva-valle-di",
-      "recipe_anchor": null,
-      "album_ids": [
-        "album-008",
-        "album-039"
-      ],
-      "photography_url": "/fotografia/geografia/italia-trentino-alto-adige-bolzano-anterselva-valle-di/"
-    },
-    {
-      "geography_id": "italia-trentino-alto-adige-trento-san-martino-di-castrozza",
-      "recipe_anchor": null,
-      "album_ids": [
-        "album-082"
-      ],
-      "photography_url": "/fotografia/geografia/italia-trentino-alto-adige-trento-san-martino-di-castrozza/"
-    },
-    {
-      "geography_id": "kairns",
-      "recipe_anchor": null,
-      "album_ids": [
-        "album-064"
-      ],
-      "photography_url": "/fotografia/geografia/kairns/"
-    },
-    {
       "geography_id": "kakadu",
       "recipe_anchor": null,
       "album_ids": [
         "album-061"
       ],
       "photography_url": "/fotografia/geografia/kakadu/"
-    },
-    {
-      "geography_id": "krk",
-      "recipe_anchor": null,
-      "album_ids": [
-        "album-002",
-        "album-004"
-      ],
-      "photography_url": "/fotografia/geografia/krk/"
     },
     {
       "geography_id": "kununurra",
@@ -721,12 +630,30 @@
       "photography_url": "/fotografia/geografia/la-loupie/"
     },
     {
+      "geography_id": "italia-lazio",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-010",
+        "album-015"
+      ],
+      "photography_url": "/fotografia/geografia/italia-lazio/"
+    },
+    {
       "geography_id": "livinallongo-del-col-di-lana",
       "recipe_anchor": null,
       "album_ids": [
         "album-102"
       ],
       "photography_url": "/fotografia/geografia/livinallongo-del-col-di-lana/"
+    },
+    {
+      "geography_id": "united-kingdom-england-greater-london-london",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-090",
+        "album-140"
+      ],
+      "photography_url": "/fotografia/geografia/united-kingdom-england-greater-london-london/"
     },
     {
       "geography_id": "lozzo-di-cadore",
@@ -850,6 +777,14 @@
       "photography_url": "/fotografia/geografia/mestre/"
     },
     {
+      "geography_id": "italia-sicilia-ragusa-modica",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-159"
+      ],
+      "photography_url": "/fotografia/geografia/italia-sicilia-ragusa-modica/"
+    },
+    {
       "geography_id": "monte-bianco",
       "recipe_anchor": null,
       "album_ids": [
@@ -890,6 +825,14 @@
       "photography_url": "/fotografia/geografia/naxos/"
     },
     {
+      "geography_id": "francia-normandia",
+      "recipe_anchor": "francia-normandia",
+      "album_ids": [
+        "album-151"
+      ],
+      "photography_url": "/fotografia/geografia/francia-normandia/"
+    },
+    {
       "geography_id": "parco-segurta",
       "recipe_anchor": null,
       "album_ids": [
@@ -906,6 +849,21 @@
       "photography_url": "/fotografia/geografia/parenzo/"
     },
     {
+      "geography_id": "france-ile-de-france-paris",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-005",
+        "album-043",
+        "album-145",
+        "album-110",
+        "album-111",
+        "album-146",
+        "album-115",
+        "album-130"
+      ],
+      "photography_url": "/fotografia/geografia/france-ile-de-france-paris/"
+    },
+    {
       "geography_id": "paros",
       "recipe_anchor": null,
       "album_ids": [
@@ -920,6 +878,14 @@
         "album-142"
       ],
       "photography_url": "/fotografia/geografia/passo-dello-stelvio/"
+    },
+    {
+      "geography_id": "falzarego",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-081"
+      ],
+      "photography_url": "/fotografia/geografia/falzarego/"
     },
     {
       "geography_id": "perth",
@@ -994,14 +960,6 @@
       "photography_url": "/fotografia/geografia/pragelato/"
     },
     {
-      "geography_id": "procida",
-      "recipe_anchor": null,
-      "album_ids": [
-        "album-092"
-      ],
-      "photography_url": "/fotografia/geografia/procida/"
-    },
-    {
       "geography_id": "provincia-di-perugia",
       "recipe_anchor": null,
       "album_ids": [
@@ -1016,15 +974,6 @@
         "album-107"
       ],
       "photography_url": "/fotografia/geografia/provincia-di-viterbo/"
-    },
-    {
-      "geography_id": "pusteria",
-      "recipe_anchor": null,
-      "album_ids": [
-        "album-081",
-        "album-087"
-      ],
-      "photography_url": "/fotografia/geografia/pusteria/"
     },
     {
       "geography_id": "ravenna-comune",
@@ -1060,6 +1009,16 @@
       "photography_url": "/fotografia/geografia/rolle/"
     },
     {
+      "geography_id": "italia-lazio-roma",
+      "recipe_anchor": "italia-lazio-roma",
+      "album_ids": [
+        "album-162",
+        "album-006",
+        "album-016"
+      ],
+      "photography_url": "/fotografia/geografia/italia-lazio-roma/"
+    },
+    {
       "geography_id": "romania",
       "recipe_anchor": null,
       "album_ids": [
@@ -1085,6 +1044,14 @@
         "album-133"
       ],
       "photography_url": "/fotografia/geografia/san-germano/"
+    },
+    {
+      "geography_id": "italia-trentino-alto-adige-trento-san-martino-di-castrozza",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-082"
+      ],
+      "photography_url": "/fotografia/geografia/italia-trentino-alto-adige-trento-san-martino-di-castrozza/"
     },
     {
       "geography_id": "scozia",
@@ -1119,6 +1086,22 @@
       "photography_url": "/fotografia/geografia/siena-comune/"
     },
     {
+      "geography_id": "espana",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-166"
+      ],
+      "photography_url": "/fotografia/geografia/espana/"
+    },
+    {
+      "geography_id": "hrvatska-dubrovacko-neretvanska-zupanija-ston",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-103"
+      ],
+      "photography_url": "/fotografia/geografia/hrvatska-dubrovacko-neretvanska-zupanija-ston/"
+    },
+    {
       "geography_id": "surfer-paradise",
       "recipe_anchor": null,
       "album_ids": [
@@ -1151,6 +1134,15 @@
       "photography_url": "/fotografia/geografia/tallinn/"
     },
     {
+      "geography_id": "italia-toscana",
+      "recipe_anchor": "italia-toscana",
+      "album_ids": [
+        "album-010",
+        "album-158"
+      ],
+      "photography_url": "/fotografia/geografia/italia-toscana/"
+    },
+    {
       "geography_id": "townsville",
       "recipe_anchor": null,
       "album_ids": [
@@ -1165,15 +1157,6 @@
         "album-073"
       ],
       "photography_url": "/fotografia/geografia/triglav/"
-    },
-    {
-      "geography_id": "united-kingdom-england-greater-london-london",
-      "recipe_anchor": null,
-      "album_ids": [
-        "album-090",
-        "album-140"
-      ],
-      "photography_url": "/fotografia/geografia/united-kingdom-england-greater-london-london/"
     },
     {
       "geography_id": "urbino",
@@ -1217,6 +1200,15 @@
       "photography_url": "/fotografia/geografia/val-fiscalina/"
     },
     {
+      "geography_id": "pusteria",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-081",
+        "album-087"
+      ],
+      "photography_url": "/fotografia/geografia/pusteria/"
+    },
+    {
       "geography_id": "val-venosta",
       "recipe_anchor": null,
       "album_ids": [
@@ -1224,6 +1216,14 @@
         "album-142"
       ],
       "photography_url": "/fotografia/geografia/val-venosta/"
+    },
+    {
+      "geography_id": "italia-alto-adige-val-di-casies",
+      "recipe_anchor": "italia-alto-adige-val-di-casies",
+      "album_ids": [
+        "album-154"
+      ],
+      "photography_url": "/fotografia/geografia/italia-alto-adige-val-di-casies/"
     },
     {
       "geography_id": "valle-aurina",
@@ -26003,7 +26003,7 @@
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Provence-Alpes-Côte d’Azur / Arles",
+      "left_path": "Francia / Provence-Alpes-Côte d’Azur / Bouches-du-Rhône / Arles",
       "right_path": "Francia"
     },
     {
@@ -26024,7 +26024,7 @@
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Provence-Alpes-Côte d’Azur / Arles",
+      "left_path": "Francia / Provence-Alpes-Côte d’Azur / Bouches-du-Rhône / Arles",
       "right_path": "Francia"
     },
     {
@@ -26045,7 +26045,7 @@
       "automatic": true,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Francia / Provence-Alpes-Côte d’Azur / Arles",
+      "left_path": "Francia / Provence-Alpes-Côte d’Azur / Bouches-du-Rhône / Arles",
       "right_path": "Francia / Provenza"
     },
     {
@@ -26066,7 +26066,7 @@
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Provence-Alpes-Côte d’Azur / Arles",
+      "left_path": "Francia / Provence-Alpes-Côte d’Azur / Bouches-du-Rhône / Arles",
       "right_path": "Francia"
     },
     {
@@ -26087,7 +26087,7 @@
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Provence-Alpes-Côte d’Azur / Arles",
+      "left_path": "Francia / Provence-Alpes-Côte d’Azur / Bouches-du-Rhône / Arles",
       "right_path": "Francia"
     },
     {
@@ -26108,7 +26108,7 @@
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Provence-Alpes-Côte d’Azur / Arles",
+      "left_path": "Francia / Provence-Alpes-Côte d’Azur / Bouches-du-Rhône / Arles",
       "right_path": "Francia"
     },
     {
@@ -26129,7 +26129,7 @@
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Provence-Alpes-Côte d’Azur / Arles",
+      "left_path": "Francia / Provence-Alpes-Côte d’Azur / Bouches-du-Rhône / Arles",
       "right_path": "Francia"
     },
     {
@@ -26150,7 +26150,7 @@
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Provence-Alpes-Côte d’Azur / Arles",
+      "left_path": "Francia / Provence-Alpes-Côte d’Azur / Bouches-du-Rhône / Arles",
       "right_path": "Francia"
     },
     {
@@ -26171,7 +26171,7 @@
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Provence-Alpes-Côte d’Azur / Arles",
+      "left_path": "Francia / Provence-Alpes-Côte d’Azur / Bouches-du-Rhône / Arles",
       "right_path": "Francia"
     },
     {
@@ -26192,7 +26192,7 @@
       "automatic": true,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Francia / Provence-Alpes-Côte d’Azur / Arles",
+      "left_path": "Francia / Provence-Alpes-Côte d’Azur / Bouches-du-Rhône / Arles",
       "right_path": "Francia / Provenza"
     },
     {
@@ -26213,7 +26213,7 @@
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Provence-Alpes-Côte d’Azur / Arles",
+      "left_path": "Francia / Provence-Alpes-Côte d’Azur / Bouches-du-Rhône / Arles",
       "right_path": "Francia"
     },
     {
@@ -26234,7 +26234,7 @@
       "automatic": true,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Francia / Provence-Alpes-Côte d’Azur / Arles",
+      "left_path": "Francia / Provence-Alpes-Côte d’Azur / Bouches-du-Rhône / Arles",
       "right_path": "Francia / Provenza"
     },
     {
@@ -26255,7 +26255,7 @@
       "automatic": true,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Francia / Provence-Alpes-Côte d’Azur / Arles",
+      "left_path": "Francia / Provence-Alpes-Côte d’Azur / Bouches-du-Rhône / Arles",
       "right_path": "Francia / Provenza"
     },
     {

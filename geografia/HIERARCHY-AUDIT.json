@@ -1,5 +1,5 @@
 {
-  "places_checked": 268,
+  "places_checked": 265,
   "canonical_merges_checked": 2,
   "self_references": [],
   "cycles": [],
@@ -14,7 +14,7 @@
     },
     "fotografie": {
       "verified_paths_by_relation": {
-        "amministrativa": 278,
+        "amministrativa": 279,
         "storico_culturale": 2,
         "territoriale": 156
       },
