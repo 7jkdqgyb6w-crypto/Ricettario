@@ -379,6 +379,30 @@
       "photography_url": "/fotografia/geografia/collio/"
     },
     {
+      "geography_id": "hrvatska-dubrovacko-neretvanska-zupanija",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-035"
+      ],
+      "photography_url": "/fotografia/geografia/hrvatska-dubrovacko-neretvanska-zupanija/"
+    },
+    {
+      "geography_id": "croazia-splitsko-dalmatinska-zupanija",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-035"
+      ],
+      "photography_url": "/fotografia/geografia/croazia-splitsko-dalmatinska-zupanija/"
+    },
+    {
+      "geography_id": "croazia-zadarska-zupanija",
+      "recipe_anchor": null,
+      "album_ids": [
+        "album-035"
+      ],
+      "photography_url": "/fotografia/geografia/croazia-zadarska-zupanija/"
+    },
+    {
       "geography_id": "uruguay-costa-est",
       "recipe_anchor": null,
       "album_ids": [
@@ -392,8 +416,7 @@
       "album_ids": [
         "album-002",
         "album-004",
-        "album-009",
-        "album-035"
+        "album-009"
       ],
       "photography_url": "/fotografia/geografia/croazia/"
     },
@@ -1322,13 +1345,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Lazio / Roma",
+      "left_path": "Italia / Lazio / Provincia di Roma / Roma",
       "right_path": "Italia"
     },
     {
@@ -1349,8 +1372,8 @@
       "automatic": true,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Lazio / Roma",
-      "right_path": "Italia / Lazio / Roma"
+      "left_path": "Italia / Lazio / Provincia di Roma / Roma",
+      "right_path": "Italia / Lazio / Provincia di Roma / Roma"
     },
     {
       "album_id": "album-162",
@@ -1364,13 +1387,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Lazio / Roma",
+      "left_path": "Italia / Lazio / Provincia di Roma / Roma",
       "right_path": "Italia"
     },
     {
@@ -1385,13 +1408,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Lazio / Roma",
+      "left_path": "Italia / Lazio / Provincia di Roma / Roma",
       "right_path": "Italia"
     },
     {
@@ -1406,13 +1429,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Lazio / Roma",
+      "left_path": "Italia / Lazio / Provincia di Roma / Roma",
       "right_path": "Italia"
     },
     {
@@ -1427,13 +1450,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Lazio / Roma",
+      "left_path": "Italia / Lazio / Provincia di Roma / Roma",
       "right_path": "Italia"
     },
     {
@@ -1454,8 +1477,8 @@
       "automatic": true,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Lazio / Roma",
-      "right_path": "Italia / Lazio / Roma"
+      "left_path": "Italia / Lazio / Provincia di Roma / Roma",
+      "right_path": "Italia / Lazio / Provincia di Roma / Roma"
     },
     {
       "album_id": "album-162",
@@ -1469,13 +1492,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Lazio / Roma",
+      "left_path": "Italia / Lazio / Provincia di Roma / Roma",
       "right_path": "Italia"
     },
     {
@@ -1752,27 +1775,6 @@
       "right_path": "Italia"
     },
     {
-      "album_id": "album-002",
-      "album_slug": "002-baska-2-krk-croazia-2022",
-      "reference": {
-        "id": "filettino-di-maiale",
-        "kind": "ricetta",
-        "title": "Filettino di maiale",
-        "url": "/ricette/filettino-di-maiale/",
-        "geography": [
-          "croazia-hvar"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "croazia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Croazia / Baška",
-      "right_path": "Croazia / Hvar"
-    },
-    {
       "album_id": "album-003",
       "album_slug": "003-la-loupie-drome-francia-2022",
       "reference": {
@@ -2046,27 +2048,6 @@
       "right_path": "Francia / Provenza"
     },
     {
-      "album_id": "album-004",
-      "album_slug": "004-baska-krk-croazia-2022",
-      "reference": {
-        "id": "filettino-di-maiale",
-        "kind": "ricetta",
-        "title": "Filettino di maiale",
-        "url": "/ricette/filettino-di-maiale/",
-        "geography": [
-          "croazia-hvar"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "croazia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Croazia / Baška",
-      "right_path": "Croazia / Hvar"
-    },
-    {
       "album_id": "album-005",
       "album_slug": "005-parigi-2022",
       "reference": {
@@ -2267,13 +2248,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Lazio / Roma",
+      "left_path": "Italia / Lazio / Provincia di Roma / Roma",
       "right_path": "Italia"
     },
     {
@@ -2294,8 +2275,8 @@
       "automatic": true,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Lazio / Roma",
-      "right_path": "Italia / Lazio / Roma"
+      "left_path": "Italia / Lazio / Provincia di Roma / Roma",
+      "right_path": "Italia / Lazio / Provincia di Roma / Roma"
     },
     {
       "album_id": "album-006",
@@ -2309,13 +2290,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Lazio / Roma",
+      "left_path": "Italia / Lazio / Provincia di Roma / Roma",
       "right_path": "Italia"
     },
     {
@@ -2330,13 +2311,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Lazio / Roma",
+      "left_path": "Italia / Lazio / Provincia di Roma / Roma",
       "right_path": "Italia"
     },
     {
@@ -2351,13 +2332,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Lazio / Roma",
+      "left_path": "Italia / Lazio / Provincia di Roma / Roma",
       "right_path": "Italia"
     },
     {
@@ -2372,13 +2353,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Lazio / Roma",
+      "left_path": "Italia / Lazio / Provincia di Roma / Roma",
       "right_path": "Italia"
     },
     {
@@ -2399,8 +2380,8 @@
       "automatic": true,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Lazio / Roma",
-      "right_path": "Italia / Lazio / Roma"
+      "left_path": "Italia / Lazio / Provincia di Roma / Roma",
+      "right_path": "Italia / Lazio / Provincia di Roma / Roma"
     },
     {
       "album_id": "album-006",
@@ -2414,13 +2395,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Lazio / Roma",
+      "left_path": "Italia / Lazio / Provincia di Roma / Roma",
       "right_path": "Italia"
     },
     {
@@ -2968,27 +2949,6 @@
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
       "left_path": "Italia / Veneto / Provincia di Belluno / Cadore / Lozzo di Cadore",
       "right_path": "Italia"
-    },
-    {
-      "album_id": "album-009",
-      "album_slug": "009-parenzo-croazia-2021",
-      "reference": {
-        "id": "filettino-di-maiale",
-        "kind": "ricetta",
-        "title": "Filettino di maiale",
-        "url": "/ricette/filettino-di-maiale/",
-        "geography": [
-          "croazia-hvar"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "croazia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Croazia / Parenzo",
-      "right_path": "Croazia / Hvar"
     },
     {
       "album_id": "album-010",
@@ -3115,27 +3075,6 @@
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
       "left_path": "Italia / Toscana",
       "right_path": "Italia / Veneto"
-    },
-    {
-      "album_id": "album-010",
-      "album_slug": "010-toscana-e-lazio-2021",
-      "reference": {
-        "id": "bollito-misto",
-        "kind": "ricetta",
-        "title": "Bollito misto",
-        "url": "/ricette/bollito-misto/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Toscana",
-      "right_path": "Italia / Piemonte"
     },
     {
       "album_id": "album-010",
@@ -3317,14 +3256,14 @@
           "italia-lazio-roma"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_generale",
       "common_id": "italia-lazio",
-      "automatic": true,
+      "automatic": false,
       "automatic_eligible": true,
       "eligibility_reason": "",
       "left_path": "Italia / Lazio",
-      "right_path": "Italia / Lazio / Roma"
+      "right_path": "Italia / Lazio / Provincia di Roma / Roma"
     },
     {
       "album_id": "album-010",
@@ -3611,14 +3550,14 @@
           "italia-lazio-roma"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_generale",
       "common_id": "italia-lazio",
-      "automatic": true,
+      "automatic": false,
       "automatic_eligible": true,
       "eligibility_reason": "",
       "left_path": "Italia / Lazio",
-      "right_path": "Italia / Lazio / Roma"
+      "right_path": "Italia / Lazio / Provincia di Roma / Roma"
     },
     {
       "album_id": "album-010",
@@ -4237,27 +4176,6 @@
         "kind": "ricetta",
         "title": "Bagna cauda",
         "url": "/ricette/bagna-cauda/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 80,
-      "relation": "piu_specifico",
-      "common_id": "italia-piemonte",
-      "automatic": false,
-      "automatic_eligible": true,
-      "eligibility_reason": "",
-      "left_path": "Italia / Piemonte / Provincia di Torino / Usseaux",
-      "right_path": "Italia / Piemonte"
-    },
-    {
-      "album_id": "album-138",
-      "album_slug": "138-usseaux-2021",
-      "reference": {
-        "id": "bollito-misto",
-        "kind": "ricetta",
-        "title": "Bollito misto",
-        "url": "/ricette/bollito-misto/",
         "geography": [
           "italia-piemonte"
         ]
@@ -5031,27 +4949,6 @@
       "album_id": "album-015",
       "album_slug": "015-argentario-e-lazio-2020",
       "reference": {
-        "id": "bollito-misto",
-        "kind": "ricetta",
-        "title": "Bollito misto",
-        "url": "/ricette/bollito-misto/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Lazio",
-      "right_path": "Italia / Piemonte"
-    },
-    {
-      "album_id": "album-015",
-      "album_slug": "015-argentario-e-lazio-2020",
-      "reference": {
         "id": "braciole-di-carne-di-cavallo",
         "kind": "ricetta",
         "title": "Braciole di carne di cavallo",
@@ -5228,14 +5125,14 @@
           "italia-lazio-roma"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_generale",
       "common_id": "italia-lazio",
-      "automatic": true,
+      "automatic": false,
       "automatic_eligible": true,
       "eligibility_reason": "",
       "left_path": "Italia / Lazio",
-      "right_path": "Italia / Lazio / Roma"
+      "right_path": "Italia / Lazio / Provincia di Roma / Roma"
     },
     {
       "album_id": "album-015",
@@ -5522,14 +5419,14 @@
           "italia-lazio-roma"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_generale",
       "common_id": "italia-lazio",
-      "automatic": true,
+      "automatic": false,
       "automatic_eligible": true,
       "eligibility_reason": "",
       "left_path": "Italia / Lazio",
-      "right_path": "Italia / Lazio / Roma"
+      "right_path": "Italia / Lazio / Provincia di Roma / Roma"
     },
     {
       "album_id": "album-015",
@@ -5585,13 +5482,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Lazio / Roma",
+      "left_path": "Italia / Lazio / Provincia di Roma / Roma",
       "right_path": "Italia"
     },
     {
@@ -5612,8 +5509,8 @@
       "automatic": true,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Lazio / Roma",
-      "right_path": "Italia / Lazio / Roma"
+      "left_path": "Italia / Lazio / Provincia di Roma / Roma",
+      "right_path": "Italia / Lazio / Provincia di Roma / Roma"
     },
     {
       "album_id": "album-016",
@@ -5627,13 +5524,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Lazio / Roma",
+      "left_path": "Italia / Lazio / Provincia di Roma / Roma",
       "right_path": "Italia"
     },
     {
@@ -5648,13 +5545,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Lazio / Roma",
+      "left_path": "Italia / Lazio / Provincia di Roma / Roma",
       "right_path": "Italia"
     },
     {
@@ -5669,13 +5566,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Lazio / Roma",
+      "left_path": "Italia / Lazio / Provincia di Roma / Roma",
       "right_path": "Italia"
     },
     {
@@ -5690,13 +5587,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Lazio / Roma",
+      "left_path": "Italia / Lazio / Provincia di Roma / Roma",
       "right_path": "Italia"
     },
     {
@@ -5717,8 +5614,8 @@
       "automatic": true,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Lazio / Roma",
-      "right_path": "Italia / Lazio / Roma"
+      "left_path": "Italia / Lazio / Provincia di Roma / Roma",
+      "right_path": "Italia / Lazio / Provincia di Roma / Roma"
     },
     {
       "album_id": "album-016",
@@ -5732,13 +5629,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Lazio / Roma",
+      "left_path": "Italia / Lazio / Provincia di Roma / Roma",
       "right_path": "Italia"
     },
     {
@@ -8506,33 +8403,12 @@
       },
       "score": 90,
       "relation": "piu_generale",
-      "common_id": "croazia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Croazia",
-      "right_path": "Croazia / Hvar"
-    },
-    {
-      "album_id": "album-036",
-      "album_slug": "036-2016-zara-e-dugj-otok",
-      "reference": {
-        "id": "filettino-di-maiale",
-        "kind": "ricetta",
-        "title": "Filettino di maiale",
-        "url": "/ricette/filettino-di-maiale/",
-        "geography": [
-          "croazia-hvar"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "croazia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Croazia / Zara",
-      "right_path": "Croazia / Hvar"
+      "common_id": "croazia-splitsko-dalmatinska-zupanija",
+      "automatic": true,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Croazia / Contea di Spalato-Dalmazia",
+      "right_path": "Croazia / Contea di Spalato-Dalmazia / Hvar"
     },
     {
       "album_id": "album-154",
@@ -8819,77 +8695,14 @@
           "francia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Cassis",
+      "left_path": "Francia / Provenza / Marsiglia",
       "right_path": "Francia"
-    },
-    {
-      "album_id": "album-040",
-      "album_slug": "040-cassis-e-marseille-2014",
-      "reference": {
-        "id": "aringhe-in-terrina",
-        "kind": "ricetta",
-        "title": "Aringhe in terrina",
-        "url": "/ricette/aringhe-in-terrina/",
-        "geography": [
-          "francia-alsazia"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "francia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Cassis",
-      "right_path": "Francia / Alsazia"
-    },
-    {
-      "album_id": "album-040",
-      "album_slug": "040-cassis-e-marseille-2014",
-      "reference": {
-        "id": "cavolo-rosso-condito",
-        "kind": "ricetta",
-        "title": "Cavolo rosso condito",
-        "url": "/ricette/cavolo-rosso-condito/",
-        "geography": [
-          "francia-alsazia"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "francia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Cassis",
-      "right_path": "Francia / Alsazia"
-    },
-    {
-      "album_id": "album-040",
-      "album_slug": "040-cassis-e-marseille-2014",
-      "reference": {
-        "id": "choux-croute",
-        "kind": "ricetta",
-        "title": "Choux croute",
-        "url": "/ricette/choux-croute/",
-        "geography": [
-          "francia-alsazia"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "francia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Cassis",
-      "right_path": "Francia / Alsazia"
     },
     {
       "album_id": "album-040",
@@ -8903,13 +8716,13 @@
           "francia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Cassis",
+      "left_path": "Francia / Provenza / Marsiglia",
       "right_path": "Francia"
     },
     {
@@ -8945,35 +8758,14 @@
           "francia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Cassis",
+      "left_path": "Francia / Provenza / Marsiglia",
       "right_path": "Francia"
-    },
-    {
-      "album_id": "album-040",
-      "album_slug": "040-cassis-e-marseille-2014",
-      "reference": {
-        "id": "madeleine",
-        "kind": "ricetta",
-        "title": "Madeleine",
-        "url": "/ricette/madeleine/",
-        "geography": [
-          "francia-normandia"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "francia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Cassis",
-      "right_path": "Francia / Normandia"
     },
     {
       "album_id": "album-040",
@@ -8987,13 +8779,13 @@
           "francia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Cassis",
+      "left_path": "Francia / Provenza / Marsiglia",
       "right_path": "Francia"
     },
     {
@@ -9008,13 +8800,13 @@
           "francia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Cassis",
+      "left_path": "Francia / Provenza / Marsiglia",
       "right_path": "Francia"
     },
     {
@@ -9029,13 +8821,13 @@
           "francia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Cassis",
+      "left_path": "Francia / Provenza / Marsiglia",
       "right_path": "Francia"
     },
     {
@@ -9050,13 +8842,13 @@
           "francia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Cassis",
+      "left_path": "Francia / Provenza / Marsiglia",
       "right_path": "Francia"
     },
     {
@@ -9071,13 +8863,13 @@
           "francia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Cassis",
+      "left_path": "Francia / Provenza / Marsiglia",
       "right_path": "Francia"
     },
     {
@@ -9113,13 +8905,13 @@
           "francia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Cassis",
+      "left_path": "Francia / Provenza / Marsiglia",
       "right_path": "Francia"
     },
     {
@@ -9168,195 +8960,6 @@
       "album_id": "album-041",
       "album_slug": "041-urbino-2014",
       "reference": {
-        "id": "anatra-in-salsa",
-        "kind": "ricetta",
-        "title": "Anatra in salsa",
-        "url": "/ricette/anatra-in-salsa/",
-        "geography": [
-          "italia-veneto"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Urbino",
-      "right_path": "Italia / Veneto"
-    },
-    {
-      "album_id": "album-041",
-      "album_slug": "041-urbino-2014",
-      "reference": {
-        "id": "antipastino-piemontese",
-        "kind": "ricetta",
-        "title": "Antipast(ino) piemontese",
-        "url": "/ricette/antipastino-piemontese/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Urbino",
-      "right_path": "Italia / Piemonte"
-    },
-    {
-      "album_id": "album-041",
-      "album_slug": "041-urbino-2014",
-      "reference": {
-        "id": "antipasto-di-canocce",
-        "kind": "ricetta",
-        "title": "Antipasto di canocce",
-        "url": "/ricette/antipasto-di-canocce/",
-        "geography": [
-          "italia-veneto"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Urbino",
-      "right_path": "Italia / Veneto"
-    },
-    {
-      "album_id": "album-041",
-      "album_slug": "041-urbino-2014",
-      "reference": {
-        "id": "arista-alla-birra",
-        "kind": "ricetta",
-        "title": "Arista alla birra",
-        "url": "/ricette/arista-alla-birra/",
-        "geography": [
-          "italia-campania"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Urbino",
-      "right_path": "Italia / Campania"
-    },
-    {
-      "album_id": "album-041",
-      "album_slug": "041-urbino-2014",
-      "reference": {
-        "id": "bagna-cauda",
-        "kind": "ricetta",
-        "title": "Bagna cauda",
-        "url": "/ricette/bagna-cauda/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Urbino",
-      "right_path": "Italia / Piemonte"
-    },
-    {
-      "album_id": "album-041",
-      "album_slug": "041-urbino-2014",
-      "reference": {
-        "id": "bigoli-in-salsa",
-        "kind": "ricetta",
-        "title": "Bigoli in salsa",
-        "url": "/ricette/bigoli-in-salsa/",
-        "geography": [
-          "italia-veneto"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Urbino",
-      "right_path": "Italia / Veneto"
-    },
-    {
-      "album_id": "album-041",
-      "album_slug": "041-urbino-2014",
-      "reference": {
-        "id": "bollito-misto",
-        "kind": "ricetta",
-        "title": "Bollito misto",
-        "url": "/ricette/bollito-misto/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Urbino",
-      "right_path": "Italia / Piemonte"
-    },
-    {
-      "album_id": "album-041",
-      "album_slug": "041-urbino-2014",
-      "reference": {
-        "id": "braciole-di-carne-di-cavallo",
-        "kind": "ricetta",
-        "title": "Braciole di carne di cavallo",
-        "url": "/ricette/braciole-di-carne-di-cavallo/",
-        "geography": [
-          "italia-puglia"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Urbino",
-      "right_path": "Italia / Puglia"
-    },
-    {
-      "album_id": "album-041",
-      "album_slug": "041-urbino-2014",
-      "reference": {
-        "id": "calamari-ripieni",
-        "kind": "ricetta",
-        "title": "Calamari ripieni",
-        "url": "/ricette/calamari-ripieni/",
-        "geography": [
-          "italia-puglia"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Urbino",
-      "right_path": "Italia / Puglia"
-    },
-    {
-      "album_id": "album-041",
-      "album_slug": "041-urbino-2014",
-      "reference": {
         "id": "fusilli-carciofi-e-salmone",
         "kind": "ricetta",
         "title": "Fusilli carciofi e salmone",
@@ -9365,203 +8968,14 @@
           "italia"
         ]
       },
-      "score": 90,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Urbino",
+      "left_path": "Italia / Marche / Provincia di Pesaro e Urbino / Urbino",
       "right_path": "Italia"
-    },
-    {
-      "album_id": "album-041",
-      "album_slug": "041-urbino-2014",
-      "reference": {
-        "id": "gnocchi-con-le-trombette-dei-morti",
-        "kind": "ricetta",
-        "title": "Gnocchi con le trombette dei morti",
-        "url": "/ricette/gnocchi-con-le-trombette-dei-morti/",
-        "geography": [
-          "italia-veneto"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Urbino",
-      "right_path": "Italia / Veneto"
-    },
-    {
-      "album_id": "album-041",
-      "album_slug": "041-urbino-2014",
-      "reference": {
-        "id": "medaglioni-di-manzo-con-porcini",
-        "kind": "ricetta",
-        "title": "Medaglioni di manzo con porcini",
-        "url": "/ricette/medaglioni-di-manzo-con-porcini/",
-        "geography": [
-          "italia-toscana"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Urbino",
-      "right_path": "Italia / Toscana"
-    },
-    {
-      "album_id": "album-041",
-      "album_slug": "041-urbino-2014",
-      "reference": {
-        "id": "paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero",
-        "kind": "ricetta",
-        "title": "Paccheri di Gragnano IGP con orata, pomodorini, capperi e zenzero",
-        "url": "/ricette/paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero/",
-        "geography": [
-          "italia-sardegna"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Urbino",
-      "right_path": "Italia / Sardegna"
-    },
-    {
-      "album_id": "album-041",
-      "album_slug": "041-urbino-2014",
-      "reference": {
-        "id": "pappa-con-il-pomodoro",
-        "kind": "ricetta",
-        "title": "Pappa con il pomodoro",
-        "url": "/ricette/pappa-con-il-pomodoro/",
-        "geography": [
-          "italia-toscana"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Urbino",
-      "right_path": "Italia / Toscana"
-    },
-    {
-      "album_id": "album-041",
-      "album_slug": "041-urbino-2014",
-      "reference": {
-        "id": "pasta-al-ragu-di-triglie-e-al-succo-d-arancia",
-        "kind": "ricetta",
-        "title": "Pasta al ragù di triglie e al succo d'arancia",
-        "url": "/ricette/pasta-al-ragu-di-triglie-e-al-succo-d-arancia/",
-        "geography": [
-          "italia-sicilia"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Urbino",
-      "right_path": "Italia / Sicilia"
-    },
-    {
-      "album_id": "album-041",
-      "album_slug": "041-urbino-2014",
-      "reference": {
-        "id": "pasta-con-le-melanzane",
-        "kind": "ricetta",
-        "title": "Pasta con le melanzane",
-        "url": "/ricette/pasta-con-le-melanzane/",
-        "geography": [
-          "italia-veneto"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Urbino",
-      "right_path": "Italia / Veneto"
-    },
-    {
-      "album_id": "album-041",
-      "album_slug": "041-urbino-2014",
-      "reference": {
-        "id": "pasta-con-pesto-alla-siciliana",
-        "kind": "ricetta",
-        "title": "Pasta con pesto alla siciliana",
-        "url": "/ricette/pasta-con-pesto-alla-siciliana/",
-        "geography": [
-          "italia-sicilia"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Urbino",
-      "right_path": "Italia / Sicilia"
-    },
-    {
-      "album_id": "album-041",
-      "album_slug": "041-urbino-2014",
-      "reference": {
-        "id": "pasta-e-fagioli",
-        "kind": "ricetta",
-        "title": "Pasta e fagioli",
-        "url": "/ricette/pasta-e-fagioli/",
-        "geography": [
-          "italia-veneto"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Urbino",
-      "right_path": "Italia / Veneto"
-    },
-    {
-      "album_id": "album-041",
-      "album_slug": "041-urbino-2014",
-      "reference": {
-        "id": "penne-con-mazzancolle-alle-verdure",
-        "kind": "ricetta",
-        "title": "Penne con mazzancolle alle verdure",
-        "url": "/ricette/penne-con-mazzancolle-alle-verdure/",
-        "geography": [
-          "italia-veneto"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Urbino",
-      "right_path": "Italia / Veneto"
     },
     {
       "album_id": "album-041",
@@ -9575,119 +8989,14 @@
           "italia"
         ]
       },
-      "score": 90,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Urbino",
+      "left_path": "Italia / Marche / Provincia di Pesaro e Urbino / Urbino",
       "right_path": "Italia"
-    },
-    {
-      "album_id": "album-041",
-      "album_slug": "041-urbino-2014",
-      "reference": {
-        "id": "ribollita",
-        "kind": "ricetta",
-        "title": "Ribollita",
-        "url": "/ricette/ribollita/",
-        "geography": [
-          "italia-toscana"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Urbino",
-      "right_path": "Italia / Toscana"
-    },
-    {
-      "album_id": "album-041",
-      "album_slug": "041-urbino-2014",
-      "reference": {
-        "id": "salsa-verde",
-        "kind": "ricetta",
-        "title": "Salsa verde",
-        "url": "/ricette/salsa-verde/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Urbino",
-      "right_path": "Italia / Piemonte"
-    },
-    {
-      "album_id": "album-041",
-      "album_slug": "041-urbino-2014",
-      "reference": {
-        "id": "sarde-a-beccafico",
-        "kind": "ricetta",
-        "title": "Sarde a beccafico",
-        "url": "/ricette/sarde-a-beccafico/",
-        "geography": [
-          "italia-sicilia"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Urbino",
-      "right_path": "Italia / Sicilia"
-    },
-    {
-      "album_id": "album-041",
-      "album_slug": "041-urbino-2014",
-      "reference": {
-        "id": "sfogliata-pugliese",
-        "kind": "ricetta",
-        "title": "Sfogliata pugliese",
-        "url": "/ricette/sfogliata-pugliese/",
-        "geography": [
-          "italia-puglia"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Urbino",
-      "right_path": "Italia / Puglia"
-    },
-    {
-      "album_id": "album-041",
-      "album_slug": "041-urbino-2014",
-      "reference": {
-        "id": "spaghetti-alla-bottarga",
-        "kind": "ricetta",
-        "title": "Spaghetti alla bottarga",
-        "url": "/ricette/spaghetti-alla-bottarga/",
-        "geography": [
-          "italia-sicilia"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Urbino",
-      "right_path": "Italia / Sicilia"
     },
     {
       "album_id": "album-041",
@@ -9701,13 +9010,13 @@
           "italia"
         ]
       },
-      "score": 90,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Urbino",
+      "left_path": "Italia / Marche / Provincia di Pesaro e Urbino / Urbino",
       "right_path": "Italia"
     },
     {
@@ -9722,13 +9031,13 @@
           "italia"
         ]
       },
-      "score": 90,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Urbino",
+      "left_path": "Italia / Marche / Provincia di Pesaro e Urbino / Urbino",
       "right_path": "Italia"
     },
     {
@@ -9743,35 +9052,14 @@
           "italia"
         ]
       },
-      "score": 90,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Urbino",
+      "left_path": "Italia / Marche / Provincia di Pesaro e Urbino / Urbino",
       "right_path": "Italia"
-    },
-    {
-      "album_id": "album-041",
-      "album_slug": "041-urbino-2014",
-      "reference": {
-        "id": "vitello-tonnato",
-        "kind": "ricetta",
-        "title": "Vitello tonnato",
-        "url": "/ricette/vitello-tonnato/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Urbino",
-      "right_path": "Italia / Piemonte"
     },
     {
       "album_id": "album-041",
@@ -9785,13 +9073,13 @@
           "italia"
         ]
       },
-      "score": 90,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Urbino",
+      "left_path": "Italia / Marche / Provincia di Pesaro e Urbino / Urbino",
       "right_path": "Italia"
     },
     {
@@ -10268,13 +9556,13 @@
           "francia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Auvergne-Rhône-Alpes / Annecy",
+      "left_path": "Francia / Auvergne-Rhône-Alpes / Dipartimento dell’Alta Savoia / Annecy",
       "right_path": "Francia"
     },
     {
@@ -10289,13 +9577,13 @@
           "francia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Auvergne-Rhône-Alpes / Annecy",
+      "left_path": "Francia / Auvergne-Rhône-Alpes / Dipartimento dell’Alta Savoia / Annecy",
       "right_path": "Francia"
     },
     {
@@ -10310,13 +9598,13 @@
           "francia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Auvergne-Rhône-Alpes / Annecy",
+      "left_path": "Francia / Auvergne-Rhône-Alpes / Dipartimento dell’Alta Savoia / Annecy",
       "right_path": "Francia"
     },
     {
@@ -10331,13 +9619,13 @@
           "francia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Auvergne-Rhône-Alpes / Annecy",
+      "left_path": "Francia / Auvergne-Rhône-Alpes / Dipartimento dell’Alta Savoia / Annecy",
       "right_path": "Francia"
     },
     {
@@ -10352,13 +9640,13 @@
           "francia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Auvergne-Rhône-Alpes / Annecy",
+      "left_path": "Francia / Auvergne-Rhône-Alpes / Dipartimento dell’Alta Savoia / Annecy",
       "right_path": "Francia"
     },
     {
@@ -10373,13 +9661,13 @@
           "francia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Auvergne-Rhône-Alpes / Annecy",
+      "left_path": "Francia / Auvergne-Rhône-Alpes / Dipartimento dell’Alta Savoia / Annecy",
       "right_path": "Francia"
     },
     {
@@ -10394,13 +9682,13 @@
           "francia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Auvergne-Rhône-Alpes / Annecy",
+      "left_path": "Francia / Auvergne-Rhône-Alpes / Dipartimento dell’Alta Savoia / Annecy",
       "right_path": "Francia"
     },
     {
@@ -10415,13 +9703,13 @@
           "francia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Auvergne-Rhône-Alpes / Annecy",
+      "left_path": "Francia / Auvergne-Rhône-Alpes / Dipartimento dell’Alta Savoia / Annecy",
       "right_path": "Francia"
     },
     {
@@ -10436,13 +9724,13 @@
           "francia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Auvergne-Rhône-Alpes / Annecy",
+      "left_path": "Francia / Auvergne-Rhône-Alpes / Dipartimento dell’Alta Savoia / Annecy",
       "right_path": "Francia"
     },
     {
@@ -10457,77 +9745,14 @@
           "francia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Montpellier",
+      "left_path": "Francia / Provenza / Drôme provençale",
       "right_path": "Francia"
-    },
-    {
-      "album_id": "album-049",
-      "album_slug": "049-drome-e-montpellier-2013",
-      "reference": {
-        "id": "aringhe-in-terrina",
-        "kind": "ricetta",
-        "title": "Aringhe in terrina",
-        "url": "/ricette/aringhe-in-terrina/",
-        "geography": [
-          "francia-alsazia"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "francia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Montpellier",
-      "right_path": "Francia / Alsazia"
-    },
-    {
-      "album_id": "album-049",
-      "album_slug": "049-drome-e-montpellier-2013",
-      "reference": {
-        "id": "cavolo-rosso-condito",
-        "kind": "ricetta",
-        "title": "Cavolo rosso condito",
-        "url": "/ricette/cavolo-rosso-condito/",
-        "geography": [
-          "francia-alsazia"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "francia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Montpellier",
-      "right_path": "Francia / Alsazia"
-    },
-    {
-      "album_id": "album-049",
-      "album_slug": "049-drome-e-montpellier-2013",
-      "reference": {
-        "id": "choux-croute",
-        "kind": "ricetta",
-        "title": "Choux croute",
-        "url": "/ricette/choux-croute/",
-        "geography": [
-          "francia-alsazia"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "francia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Montpellier",
-      "right_path": "Francia / Alsazia"
     },
     {
       "album_id": "album-049",
@@ -10541,13 +9766,13 @@
           "francia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Montpellier",
+      "left_path": "Francia / Provenza / Drôme provençale",
       "right_path": "Francia"
     },
     {
@@ -10583,35 +9808,14 @@
           "francia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Montpellier",
+      "left_path": "Francia / Provenza / Drôme provençale",
       "right_path": "Francia"
-    },
-    {
-      "album_id": "album-049",
-      "album_slug": "049-drome-e-montpellier-2013",
-      "reference": {
-        "id": "madeleine",
-        "kind": "ricetta",
-        "title": "Madeleine",
-        "url": "/ricette/madeleine/",
-        "geography": [
-          "francia-normandia"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "francia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Montpellier",
-      "right_path": "Francia / Normandia"
     },
     {
       "album_id": "album-049",
@@ -10625,13 +9829,13 @@
           "francia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Montpellier",
+      "left_path": "Francia / Provenza / Drôme provençale",
       "right_path": "Francia"
     },
     {
@@ -10646,13 +9850,13 @@
           "francia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Montpellier",
+      "left_path": "Francia / Provenza / Drôme provençale",
       "right_path": "Francia"
     },
     {
@@ -10667,13 +9871,13 @@
           "francia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Montpellier",
+      "left_path": "Francia / Provenza / Drôme provençale",
       "right_path": "Francia"
     },
     {
@@ -10688,13 +9892,13 @@
           "francia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Montpellier",
+      "left_path": "Francia / Provenza / Drôme provençale",
       "right_path": "Francia"
     },
     {
@@ -10709,13 +9913,13 @@
           "francia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Montpellier",
+      "left_path": "Francia / Provenza / Drôme provençale",
       "right_path": "Francia"
     },
     {
@@ -10751,13 +9955,13 @@
           "francia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Montpellier",
+      "left_path": "Francia / Provenza / Drôme provençale",
       "right_path": "Francia"
     },
     {
@@ -11849,8 +11053,8 @@
       "automatic": true,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Croazia / Hvar",
-      "right_path": "Croazia / Hvar"
+      "left_path": "Croazia / Contea di Spalato-Dalmazia / Hvar",
+      "right_path": "Croazia / Contea di Spalato-Dalmazia / Hvar"
     },
     {
       "album_id": "album-070",
@@ -12284,13 +11488,13 @@
           "italia-veneto"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "italia-veneto",
-      "automatic": true,
+      "automatic": false,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Veneto / Vicenza",
+      "left_path": "Italia / Veneto / Provincia di Venezia / Malcontenta",
       "right_path": "Italia / Veneto"
     },
     {
@@ -12305,13 +11509,13 @@
           "italia-veneto"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "italia-veneto",
-      "automatic": true,
+      "automatic": false,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Veneto / Vicenza",
+      "left_path": "Italia / Veneto / Provincia di Venezia / Malcontenta",
       "right_path": "Italia / Veneto"
     },
     {
@@ -12339,27 +11543,6 @@
       "album_id": "album-074",
       "album_slug": "074-piccolo-itinerario-palladiano-fra-malcontenta-e-vicenza-2008",
       "reference": {
-        "id": "battuta-di-manzo-alla-boscaiola",
-        "kind": "ricetta",
-        "title": "Battuta di manzo alla boscaiola",
-        "url": "/ricette/battuta-di-manzo-alla-boscaiola/",
-        "geography": [
-          "italia-veneto-alpago"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia-veneto",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Rami geografici distinti: solo suggerimento",
-      "left_path": "Italia / Veneto / Vicenza",
-      "right_path": "Italia / Veneto / Alpago"
-    },
-    {
-      "album_id": "album-074",
-      "album_slug": "074-piccolo-itinerario-palladiano-fra-malcontenta-e-vicenza-2008",
-      "reference": {
         "id": "bigoli-in-salsa",
         "kind": "ricetta",
         "title": "Bigoli in salsa",
@@ -12368,13 +11551,13 @@
           "italia-veneto"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "italia-veneto",
-      "automatic": true,
+      "automatic": false,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Veneto / Vicenza",
+      "left_path": "Italia / Veneto / Provincia di Venezia / Malcontenta",
       "right_path": "Italia / Veneto"
     },
     {
@@ -12410,13 +11593,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Veneto / Vicenza",
+      "left_path": "Italia / Veneto / Provincia di Venezia / Malcontenta",
       "right_path": "Italia"
     },
     {
@@ -12452,13 +11635,13 @@
           "italia-veneto"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "italia-veneto",
-      "automatic": true,
+      "automatic": false,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Veneto / Vicenza",
+      "left_path": "Italia / Veneto / Provincia di Venezia / Malcontenta",
       "right_path": "Italia / Veneto"
     },
     {
@@ -12473,13 +11656,13 @@
           "italia-veneto"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "italia-veneto",
-      "automatic": true,
+      "automatic": false,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Veneto / Vicenza",
+      "left_path": "Italia / Veneto / Provincia di Venezia / Malcontenta",
       "right_path": "Italia / Veneto"
     },
     {
@@ -12494,13 +11677,13 @@
           "italia-veneto"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "italia-veneto",
-      "automatic": true,
+      "automatic": false,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Veneto / Vicenza",
+      "left_path": "Italia / Veneto / Provincia di Venezia / Malcontenta",
       "right_path": "Italia / Veneto"
     },
     {
@@ -12515,13 +11698,13 @@
           "italia-veneto"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "italia-veneto",
-      "automatic": true,
+      "automatic": false,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Veneto / Vicenza",
+      "left_path": "Italia / Veneto / Provincia di Venezia / Malcontenta",
       "right_path": "Italia / Veneto"
     },
     {
@@ -12536,13 +11719,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Veneto / Vicenza",
+      "left_path": "Italia / Veneto / Provincia di Venezia / Malcontenta",
       "right_path": "Italia"
     },
     {
@@ -12578,13 +11761,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Veneto / Vicenza",
+      "left_path": "Italia / Veneto / Provincia di Venezia / Malcontenta",
       "right_path": "Italia"
     },
     {
@@ -12599,13 +11782,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Veneto / Vicenza",
+      "left_path": "Italia / Veneto / Provincia di Venezia / Malcontenta",
       "right_path": "Italia"
     },
     {
@@ -12620,13 +11803,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Veneto / Vicenza",
+      "left_path": "Italia / Veneto / Provincia di Venezia / Malcontenta",
       "right_path": "Italia"
     },
     {
@@ -12641,13 +11824,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Veneto / Vicenza",
+      "left_path": "Italia / Veneto / Provincia di Venezia / Malcontenta",
       "right_path": "Italia"
     },
     {
@@ -13407,27 +12590,6 @@
       "right_path": "Francia / Provenza"
     },
     {
-      "album_id": "album-085",
-      "album_slug": "085-dalmazia",
-      "reference": {
-        "id": "filettino-di-maiale",
-        "kind": "ricetta",
-        "title": "Filettino di maiale",
-        "url": "/ricette/filettino-di-maiale/",
-        "geography": [
-          "croazia-hvar"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "croazia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Croazia / Dalmazia",
-      "right_path": "Croazia / Hvar"
-    },
-    {
       "album_id": "album-086",
       "album_slug": "086-drome-2007",
       "reference": {
@@ -13848,27 +13010,6 @@
       "right_path": "Italia"
     },
     {
-      "album_id": "album-088",
-      "album_slug": "088-baska-2007",
-      "reference": {
-        "id": "filettino-di-maiale",
-        "kind": "ricetta",
-        "title": "Filettino di maiale",
-        "url": "/ricette/filettino-di-maiale/",
-        "geography": [
-          "croazia-hvar"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "croazia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Croazia / Baška",
-      "right_path": "Croazia / Hvar"
-    },
-    {
       "album_id": "album-089",
       "album_slug": "089-rolle-ii-2007",
       "reference": {
@@ -13886,7 +13027,7 @@
       "automatic": false,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Veneto / Provincia di Treviso / Tarzo / Rolle",
+      "left_path": "Italia / Veneto / Provincia di Treviso / Cison di Valmarino / Rolle",
       "right_path": "Italia / Veneto"
     },
     {
@@ -13907,7 +13048,7 @@
       "automatic": false,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Veneto / Provincia di Treviso / Tarzo / Rolle",
+      "left_path": "Italia / Veneto / Provincia di Treviso / Cison di Valmarino / Rolle",
       "right_path": "Italia / Veneto"
     },
     {
@@ -13928,7 +13069,7 @@
       "automatic": false,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Veneto / Provincia di Treviso / Tarzo / Rolle",
+      "left_path": "Italia / Veneto / Provincia di Treviso / Cison di Valmarino / Rolle",
       "right_path": "Italia / Veneto"
     },
     {
@@ -13949,7 +13090,7 @@
       "automatic": false,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Veneto / Provincia di Treviso / Tarzo / Rolle",
+      "left_path": "Italia / Veneto / Provincia di Treviso / Cison di Valmarino / Rolle",
       "right_path": "Italia / Veneto"
     },
     {
@@ -13970,7 +13111,7 @@
       "automatic": false,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Veneto / Provincia di Treviso / Tarzo / Rolle",
+      "left_path": "Italia / Veneto / Provincia di Treviso / Cison di Valmarino / Rolle",
       "right_path": "Italia / Veneto"
     },
     {
@@ -13991,7 +13132,7 @@
       "automatic": false,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Veneto / Provincia di Treviso / Tarzo / Rolle",
+      "left_path": "Italia / Veneto / Provincia di Treviso / Cison di Valmarino / Rolle",
       "right_path": "Italia / Veneto"
     },
     {
@@ -14012,7 +13153,7 @@
       "automatic": false,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Veneto / Provincia di Treviso / Tarzo / Rolle",
+      "left_path": "Italia / Veneto / Provincia di Treviso / Cison di Valmarino / Rolle",
       "right_path": "Italia / Veneto"
     },
     {
@@ -14222,7 +13363,7 @@
       "automatic": false,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Veneto / Provincia di Treviso / Tarzo / Rolle",
+      "left_path": "Italia / Veneto / Provincia di Treviso / Cison di Valmarino / Rolle",
       "right_path": "Italia / Veneto"
     },
     {
@@ -14243,7 +13384,7 @@
       "automatic": false,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Veneto / Provincia di Treviso / Tarzo / Rolle",
+      "left_path": "Italia / Veneto / Provincia di Treviso / Cison di Valmarino / Rolle",
       "right_path": "Italia / Veneto"
     },
     {
@@ -14264,7 +13405,7 @@
       "automatic": false,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Veneto / Provincia di Treviso / Tarzo / Rolle",
+      "left_path": "Italia / Veneto / Provincia di Treviso / Cison di Valmarino / Rolle",
       "right_path": "Italia / Veneto"
     },
     {
@@ -14285,7 +13426,7 @@
       "automatic": false,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Veneto / Provincia di Treviso / Tarzo / Rolle",
+      "left_path": "Italia / Veneto / Provincia di Treviso / Cison di Valmarino / Rolle",
       "right_path": "Italia / Veneto"
     },
     {
@@ -14306,7 +13447,7 @@
       "automatic": false,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Veneto / Provincia di Treviso / Tarzo / Rolle",
+      "left_path": "Italia / Veneto / Provincia di Treviso / Cison di Valmarino / Rolle",
       "right_path": "Italia / Veneto"
     },
     {
@@ -14327,7 +13468,7 @@
       "automatic": false,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Veneto / Provincia di Treviso / Tarzo / Rolle",
+      "left_path": "Italia / Veneto / Provincia di Treviso / Cison di Valmarino / Rolle",
       "right_path": "Italia / Veneto"
     },
     {
@@ -14348,7 +13489,7 @@
       "automatic": false,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Veneto / Provincia di Treviso / Tarzo / Rolle",
+      "left_path": "Italia / Veneto / Provincia di Treviso / Cison di Valmarino / Rolle",
       "right_path": "Italia / Veneto"
     },
     {
@@ -14636,13 +13777,13 @@
           "italia-veneto"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "italia-veneto",
-      "automatic": true,
+      "automatic": false,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Veneto / Bosco del Cansiglio",
+      "left_path": "Italia / Veneto / Provincia di Treviso / Bosco del Cansiglio",
       "right_path": "Italia / Veneto"
     },
     {
@@ -14657,56 +13798,14 @@
           "italia-veneto"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "italia-veneto",
-      "automatic": true,
+      "automatic": false,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Veneto / Bosco del Cansiglio",
+      "left_path": "Italia / Veneto / Provincia di Treviso / Bosco del Cansiglio",
       "right_path": "Italia / Veneto"
-    },
-    {
-      "album_id": "album-096",
-      "album_slug": "096-cansiglio-2007",
-      "reference": {
-        "id": "baccala-mantecato",
-        "kind": "ricetta",
-        "title": "Baccalà mantecato",
-        "url": "/ricette/baccala-mantecato/",
-        "geography": [
-          "italia-veneto-venezia"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia-veneto",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Rami geografici distinti: solo suggerimento",
-      "left_path": "Italia / Veneto / Bosco del Cansiglio",
-      "right_path": "Italia / Veneto / Provincia di Venezia"
-    },
-    {
-      "album_id": "album-096",
-      "album_slug": "096-cansiglio-2007",
-      "reference": {
-        "id": "battuta-di-manzo-alla-boscaiola",
-        "kind": "ricetta",
-        "title": "Battuta di manzo alla boscaiola",
-        "url": "/ricette/battuta-di-manzo-alla-boscaiola/",
-        "geography": [
-          "italia-veneto-alpago"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia-veneto",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Rami geografici distinti: solo suggerimento",
-      "left_path": "Italia / Veneto / Bosco del Cansiglio",
-      "right_path": "Italia / Veneto / Alpago"
     },
     {
       "album_id": "album-096",
@@ -14720,35 +13819,14 @@
           "italia-veneto"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "italia-veneto",
-      "automatic": true,
+      "automatic": false,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Veneto / Bosco del Cansiglio",
+      "left_path": "Italia / Veneto / Provincia di Treviso / Bosco del Cansiglio",
       "right_path": "Italia / Veneto"
-    },
-    {
-      "album_id": "album-096",
-      "album_slug": "096-cansiglio-2007",
-      "reference": {
-        "id": "fegato-alla-veneziana",
-        "kind": "ricetta",
-        "title": "Fegato alla veneziana",
-        "url": "/ricette/fegato-alla-veneziana/",
-        "geography": [
-          "italia-veneto-venezia"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia-veneto",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Rami geografici distinti: solo suggerimento",
-      "left_path": "Italia / Veneto / Bosco del Cansiglio",
-      "right_path": "Italia / Veneto / Provincia di Venezia"
     },
     {
       "album_id": "album-096",
@@ -14762,35 +13840,14 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Veneto / Bosco del Cansiglio",
+      "left_path": "Italia / Veneto / Provincia di Treviso / Bosco del Cansiglio",
       "right_path": "Italia"
-    },
-    {
-      "album_id": "album-096",
-      "album_slug": "096-cansiglio-2007",
-      "reference": {
-        "id": "gnocchetti-sardi-alla-urbaweb",
-        "kind": "ricetta",
-        "title": "Gnocchetti sardi alla Urbaweb",
-        "url": "/ricette/gnocchetti-sardi-alla-urbaweb/",
-        "geography": [
-          "italia-veneto-venezia"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia-veneto",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Rami geografici distinti: solo suggerimento",
-      "left_path": "Italia / Veneto / Bosco del Cansiglio",
-      "right_path": "Italia / Veneto / Provincia di Venezia"
     },
     {
       "album_id": "album-096",
@@ -14804,13 +13861,13 @@
           "italia-veneto"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "italia-veneto",
-      "automatic": true,
+      "automatic": false,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Veneto / Bosco del Cansiglio",
+      "left_path": "Italia / Veneto / Provincia di Treviso / Bosco del Cansiglio",
       "right_path": "Italia / Veneto"
     },
     {
@@ -14825,13 +13882,13 @@
           "italia-veneto"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "italia-veneto",
-      "automatic": true,
+      "automatic": false,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Veneto / Bosco del Cansiglio",
+      "left_path": "Italia / Veneto / Provincia di Treviso / Bosco del Cansiglio",
       "right_path": "Italia / Veneto"
     },
     {
@@ -14846,13 +13903,13 @@
           "italia-veneto"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "italia-veneto",
-      "automatic": true,
+      "automatic": false,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Veneto / Bosco del Cansiglio",
+      "left_path": "Italia / Veneto / Provincia di Treviso / Bosco del Cansiglio",
       "right_path": "Italia / Veneto"
     },
     {
@@ -14867,13 +13924,13 @@
           "italia-veneto"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "italia-veneto",
-      "automatic": true,
+      "automatic": false,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Veneto / Bosco del Cansiglio",
+      "left_path": "Italia / Veneto / Provincia di Treviso / Bosco del Cansiglio",
       "right_path": "Italia / Veneto"
     },
     {
@@ -14888,35 +13945,14 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Veneto / Bosco del Cansiglio",
+      "left_path": "Italia / Veneto / Provincia di Treviso / Bosco del Cansiglio",
       "right_path": "Italia"
-    },
-    {
-      "album_id": "album-096",
-      "album_slug": "096-cansiglio-2007",
-      "reference": {
-        "id": "risi-e-bisi",
-        "kind": "ricetta",
-        "title": "Risi e bisi",
-        "url": "/ricette/risi-e-bisi/",
-        "geography": [
-          "italia-veneto-venezia"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia-veneto",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Rami geografici distinti: solo suggerimento",
-      "left_path": "Italia / Veneto / Bosco del Cansiglio",
-      "right_path": "Italia / Veneto / Provincia di Venezia"
     },
     {
       "album_id": "album-096",
@@ -14930,13 +13966,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Veneto / Bosco del Cansiglio",
+      "left_path": "Italia / Veneto / Provincia di Treviso / Bosco del Cansiglio",
       "right_path": "Italia"
     },
     {
@@ -14951,13 +13987,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Veneto / Bosco del Cansiglio",
+      "left_path": "Italia / Veneto / Provincia di Treviso / Bosco del Cansiglio",
       "right_path": "Italia"
     },
     {
@@ -14972,13 +14008,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Veneto / Bosco del Cansiglio",
+      "left_path": "Italia / Veneto / Provincia di Treviso / Bosco del Cansiglio",
       "right_path": "Italia"
     },
     {
@@ -14993,13 +14029,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Veneto / Bosco del Cansiglio",
+      "left_path": "Italia / Veneto / Provincia di Treviso / Bosco del Cansiglio",
       "right_path": "Italia"
     },
     {
@@ -16392,27 +15428,6 @@
       "album_id": "album-106",
       "album_slug": "106-san-germano-2005",
       "reference": {
-        "id": "bollito-misto",
-        "kind": "ricetta",
-        "title": "Bollito misto",
-        "url": "/ricette/bollito-misto/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 80,
-      "relation": "piu_specifico",
-      "common_id": "italia-piemonte",
-      "automatic": false,
-      "automatic_eligible": true,
-      "eligibility_reason": "",
-      "left_path": "Italia / Piemonte / Provincia di Torino / San Germano Chisone",
-      "right_path": "Italia / Piemonte"
-    },
-    {
-      "album_id": "album-106",
-      "album_slug": "106-san-germano-2005",
-      "reference": {
         "id": "fusilli-carciofi-e-salmone",
         "kind": "ricetta",
         "title": "Fusilli carciofi e salmone",
@@ -16812,27 +15827,6 @@
       "album_id": "album-107",
       "album_slug": "107-provincia-di-viterbo-e-provincia-di-perugia-2004",
       "reference": {
-        "id": "pasta-con-i-broccoli",
-        "kind": "ricetta",
-        "title": "Pasta con i broccoli",
-        "url": "/ricette/pasta-con-i-broccoli/",
-        "geography": [
-          "italia-lazio-roma"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia-lazio",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Rami geografici distinti: solo suggerimento",
-      "left_path": "Italia / Lazio / Provincia di Viterbo",
-      "right_path": "Italia / Lazio / Roma"
-    },
-    {
-      "album_id": "album-107",
-      "album_slug": "107-provincia-di-viterbo-e-provincia-di-perugia-2004",
-      "reference": {
         "id": "penne-con-zucchine",
         "kind": "ricetta",
         "title": "Penne con zucchine",
@@ -16912,27 +15906,6 @@
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
       "left_path": "Italia / Lazio / Provincia di Viterbo",
       "right_path": "Italia"
-    },
-    {
-      "album_id": "album-107",
-      "album_slug": "107-provincia-di-viterbo-e-provincia-di-perugia-2004",
-      "reference": {
-        "id": "tortino-di-alici",
-        "kind": "ricetta",
-        "title": "Tortino di alici",
-        "url": "/ricette/tortino-di-alici/",
-        "geography": [
-          "italia-lazio-roma"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia-lazio",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Rami geografici distinti: solo suggerimento",
-      "left_path": "Italia / Lazio / Provincia di Viterbo",
-      "right_path": "Italia / Lazio / Roma"
     },
     {
       "album_id": "album-107",
@@ -17229,27 +16202,6 @@
       "right_path": "Italia"
     },
     {
-      "album_id": "album-108",
-      "album_slug": "108-lubenice-e-lussingrande-hr-2003",
-      "reference": {
-        "id": "filettino-di-maiale",
-        "kind": "ricetta",
-        "title": "Filettino di maiale",
-        "url": "/ricette/filettino-di-maiale/",
-        "geography": [
-          "croazia-hvar"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "croazia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Croazia / Lussingrande",
-      "right_path": "Croazia / Hvar"
-    },
-    {
       "album_id": "album-109",
       "album_slug": "109-versailles-e-maincy-2003",
       "reference": {
@@ -17261,77 +16213,14 @@
           "francia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Maincy",
+      "left_path": "Francia / Île-de-France / Versailles",
       "right_path": "Francia"
-    },
-    {
-      "album_id": "album-109",
-      "album_slug": "109-versailles-e-maincy-2003",
-      "reference": {
-        "id": "aringhe-in-terrina",
-        "kind": "ricetta",
-        "title": "Aringhe in terrina",
-        "url": "/ricette/aringhe-in-terrina/",
-        "geography": [
-          "francia-alsazia"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "francia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Maincy",
-      "right_path": "Francia / Alsazia"
-    },
-    {
-      "album_id": "album-109",
-      "album_slug": "109-versailles-e-maincy-2003",
-      "reference": {
-        "id": "cavolo-rosso-condito",
-        "kind": "ricetta",
-        "title": "Cavolo rosso condito",
-        "url": "/ricette/cavolo-rosso-condito/",
-        "geography": [
-          "francia-alsazia"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "francia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Maincy",
-      "right_path": "Francia / Alsazia"
-    },
-    {
-      "album_id": "album-109",
-      "album_slug": "109-versailles-e-maincy-2003",
-      "reference": {
-        "id": "choux-croute",
-        "kind": "ricetta",
-        "title": "Choux croute",
-        "url": "/ricette/choux-croute/",
-        "geography": [
-          "francia-alsazia"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "francia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Maincy",
-      "right_path": "Francia / Alsazia"
     },
     {
       "album_id": "album-109",
@@ -17345,35 +16234,14 @@
           "francia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Maincy",
+      "left_path": "Francia / Île-de-France / Versailles",
       "right_path": "Francia"
-    },
-    {
-      "album_id": "album-109",
-      "album_slug": "109-versailles-e-maincy-2003",
-      "reference": {
-        "id": "daube",
-        "kind": "ricetta",
-        "title": "Daube",
-        "url": "/ricette/daube/",
-        "geography": [
-          "francia-provenza"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "francia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Maincy",
-      "right_path": "Francia / Provenza"
     },
     {
       "album_id": "album-109",
@@ -17387,35 +16255,14 @@
           "francia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Maincy",
+      "left_path": "Francia / Île-de-France / Versailles",
       "right_path": "Francia"
-    },
-    {
-      "album_id": "album-109",
-      "album_slug": "109-versailles-e-maincy-2003",
-      "reference": {
-        "id": "madeleine",
-        "kind": "ricetta",
-        "title": "Madeleine",
-        "url": "/ricette/madeleine/",
-        "geography": [
-          "francia-normandia"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "francia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Maincy",
-      "right_path": "Francia / Normandia"
     },
     {
       "album_id": "album-109",
@@ -17429,13 +16276,13 @@
           "francia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Maincy",
+      "left_path": "Francia / Île-de-France / Versailles",
       "right_path": "Francia"
     },
     {
@@ -17450,13 +16297,13 @@
           "francia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Maincy",
+      "left_path": "Francia / Île-de-France / Versailles",
       "right_path": "Francia"
     },
     {
@@ -17471,13 +16318,13 @@
           "francia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Maincy",
+      "left_path": "Francia / Île-de-France / Versailles",
       "right_path": "Francia"
     },
     {
@@ -17492,13 +16339,13 @@
           "francia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Maincy",
+      "left_path": "Francia / Île-de-France / Versailles",
       "right_path": "Francia"
     },
     {
@@ -17513,35 +16360,14 @@
           "francia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Maincy",
+      "left_path": "Francia / Île-de-France / Versailles",
       "right_path": "Francia"
-    },
-    {
-      "album_id": "album-109",
-      "album_slug": "109-versailles-e-maincy-2003",
-      "reference": {
-        "id": "ratatouille-variante",
-        "kind": "ricetta",
-        "title": "Ratatouille (variante)",
-        "url": "/ricette/ratatouille-variante/",
-        "geography": [
-          "francia-provenza"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "francia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Maincy",
-      "right_path": "Francia / Provenza"
     },
     {
       "album_id": "album-109",
@@ -17555,56 +16381,14 @@
           "francia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Maincy",
+      "left_path": "Francia / Île-de-France / Versailles",
       "right_path": "Francia"
-    },
-    {
-      "album_id": "album-109",
-      "album_slug": "109-versailles-e-maincy-2003",
-      "reference": {
-        "id": "soupe-au-pistou",
-        "kind": "ricetta",
-        "title": "Soupe au pistou",
-        "url": "/ricette/soupe-au-pistou/",
-        "geography": [
-          "francia-provenza"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "francia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Maincy",
-      "right_path": "Francia / Provenza"
-    },
-    {
-      "album_id": "album-109",
-      "album_slug": "109-versailles-e-maincy-2003",
-      "reference": {
-        "id": "trancio-di-tonno-con-sesamo-provenzale",
-        "kind": "ricetta",
-        "title": "Trancio di tonno con sesamo provenzale",
-        "url": "/ricette/trancio-di-tonno-con-sesamo-provenzale/",
-        "geography": [
-          "francia-provenza"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "francia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Maincy",
-      "right_path": "Francia / Provenza"
     },
     {
       "album_id": "album-110",
@@ -17618,77 +16402,14 @@
           "francia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Fontainebleau",
+      "left_path": "Francia / Île-de-France / Parigi",
       "right_path": "Francia"
-    },
-    {
-      "album_id": "album-110",
-      "album_slug": "110-parigi-e-fontainebleau-2003",
-      "reference": {
-        "id": "aringhe-in-terrina",
-        "kind": "ricetta",
-        "title": "Aringhe in terrina",
-        "url": "/ricette/aringhe-in-terrina/",
-        "geography": [
-          "francia-alsazia"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "francia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Fontainebleau",
-      "right_path": "Francia / Alsazia"
-    },
-    {
-      "album_id": "album-110",
-      "album_slug": "110-parigi-e-fontainebleau-2003",
-      "reference": {
-        "id": "cavolo-rosso-condito",
-        "kind": "ricetta",
-        "title": "Cavolo rosso condito",
-        "url": "/ricette/cavolo-rosso-condito/",
-        "geography": [
-          "francia-alsazia"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "francia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Fontainebleau",
-      "right_path": "Francia / Alsazia"
-    },
-    {
-      "album_id": "album-110",
-      "album_slug": "110-parigi-e-fontainebleau-2003",
-      "reference": {
-        "id": "choux-croute",
-        "kind": "ricetta",
-        "title": "Choux croute",
-        "url": "/ricette/choux-croute/",
-        "geography": [
-          "francia-alsazia"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "francia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Fontainebleau",
-      "right_path": "Francia / Alsazia"
     },
     {
       "album_id": "album-110",
@@ -17702,35 +16423,14 @@
           "francia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Fontainebleau",
+      "left_path": "Francia / Île-de-France / Parigi",
       "right_path": "Francia"
-    },
-    {
-      "album_id": "album-110",
-      "album_slug": "110-parigi-e-fontainebleau-2003",
-      "reference": {
-        "id": "daube",
-        "kind": "ricetta",
-        "title": "Daube",
-        "url": "/ricette/daube/",
-        "geography": [
-          "francia-provenza"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "francia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Fontainebleau",
-      "right_path": "Francia / Provenza"
     },
     {
       "album_id": "album-110",
@@ -17744,35 +16444,14 @@
           "francia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Fontainebleau",
+      "left_path": "Francia / Île-de-France / Parigi",
       "right_path": "Francia"
-    },
-    {
-      "album_id": "album-110",
-      "album_slug": "110-parigi-e-fontainebleau-2003",
-      "reference": {
-        "id": "madeleine",
-        "kind": "ricetta",
-        "title": "Madeleine",
-        "url": "/ricette/madeleine/",
-        "geography": [
-          "francia-normandia"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "francia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Fontainebleau",
-      "right_path": "Francia / Normandia"
     },
     {
       "album_id": "album-110",
@@ -17786,13 +16465,13 @@
           "francia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Fontainebleau",
+      "left_path": "Francia / Île-de-France / Parigi",
       "right_path": "Francia"
     },
     {
@@ -17807,13 +16486,13 @@
           "francia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Fontainebleau",
+      "left_path": "Francia / Île-de-France / Parigi",
       "right_path": "Francia"
     },
     {
@@ -17828,13 +16507,13 @@
           "francia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Fontainebleau",
+      "left_path": "Francia / Île-de-France / Parigi",
       "right_path": "Francia"
     },
     {
@@ -17849,13 +16528,13 @@
           "francia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Fontainebleau",
+      "left_path": "Francia / Île-de-France / Parigi",
       "right_path": "Francia"
     },
     {
@@ -17870,35 +16549,14 @@
           "francia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Fontainebleau",
+      "left_path": "Francia / Île-de-France / Parigi",
       "right_path": "Francia"
-    },
-    {
-      "album_id": "album-110",
-      "album_slug": "110-parigi-e-fontainebleau-2003",
-      "reference": {
-        "id": "ratatouille-variante",
-        "kind": "ricetta",
-        "title": "Ratatouille (variante)",
-        "url": "/ricette/ratatouille-variante/",
-        "geography": [
-          "francia-provenza"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "francia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Fontainebleau",
-      "right_path": "Francia / Provenza"
     },
     {
       "album_id": "album-110",
@@ -17912,56 +16570,14 @@
           "francia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "francia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Fontainebleau",
+      "left_path": "Francia / Île-de-France / Parigi",
       "right_path": "Francia"
-    },
-    {
-      "album_id": "album-110",
-      "album_slug": "110-parigi-e-fontainebleau-2003",
-      "reference": {
-        "id": "soupe-au-pistou",
-        "kind": "ricetta",
-        "title": "Soupe au pistou",
-        "url": "/ricette/soupe-au-pistou/",
-        "geography": [
-          "francia-provenza"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "francia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Fontainebleau",
-      "right_path": "Francia / Provenza"
-    },
-    {
-      "album_id": "album-110",
-      "album_slug": "110-parigi-e-fontainebleau-2003",
-      "reference": {
-        "id": "trancio-di-tonno-con-sesamo-provenzale",
-        "kind": "ricetta",
-        "title": "Trancio di tonno con sesamo provenzale",
-        "url": "/ricette/trancio-di-tonno-con-sesamo-provenzale/",
-        "geography": [
-          "francia-provenza"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "francia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Fontainebleau",
-      "right_path": "Francia / Provenza"
     },
     {
       "album_id": "album-111",
@@ -18164,13 +16780,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Sardegna / Alghero",
+      "left_path": "Italia / Sardegna / Provincia di Sassari / Alghero",
       "right_path": "Italia"
     },
     {
@@ -18185,13 +16801,13 @@
           "italia-sardegna"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "italia-sardegna",
-      "automatic": true,
+      "automatic": false,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Sardegna / Alghero",
+      "left_path": "Italia / Sardegna / Provincia di Sassari / Alghero",
       "right_path": "Italia / Sardegna"
     },
     {
@@ -18206,13 +16822,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Sardegna / Alghero",
+      "left_path": "Italia / Sardegna / Provincia di Sassari / Alghero",
       "right_path": "Italia"
     },
     {
@@ -18227,13 +16843,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Sardegna / Alghero",
+      "left_path": "Italia / Sardegna / Provincia di Sassari / Alghero",
       "right_path": "Italia"
     },
     {
@@ -18248,13 +16864,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Sardegna / Alghero",
+      "left_path": "Italia / Sardegna / Provincia di Sassari / Alghero",
       "right_path": "Italia"
     },
     {
@@ -18269,35 +16885,14 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Sardegna / Alghero",
+      "left_path": "Italia / Sardegna / Provincia di Sassari / Alghero",
       "right_path": "Italia"
-    },
-    {
-      "album_id": "album-143",
-      "album_slug": "143-viaggio-a-alghero-2002",
-      "reference": {
-        "id": "tonno-alla-carlofortina",
-        "kind": "ricetta",
-        "title": "Tonno alla CarloFortina",
-        "url": "/ricette/tonno-alla-carlofortina/",
-        "geography": [
-          "italia-sardegna-carloforte"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia-sardegna",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Rami geografici distinti: solo suggerimento",
-      "left_path": "Italia / Sardegna / Alghero",
-      "right_path": "Italia / Sardegna / Carloforte"
     },
     {
       "album_id": "album-143",
@@ -18311,13 +16906,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Sardegna / Alghero",
+      "left_path": "Italia / Sardegna / Provincia di Sassari / Alghero",
       "right_path": "Italia"
     },
     {
@@ -18332,13 +16927,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Sardegna / Isola dell’Asinara",
+      "left_path": "Italia / Sardegna / Provincia di Sassari / Isola dell’Asinara",
       "right_path": "Italia"
     },
     {
@@ -18353,13 +16948,13 @@
           "italia-sardegna"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "italia-sardegna",
-      "automatic": true,
+      "automatic": false,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Sardegna / Isola dell’Asinara",
+      "left_path": "Italia / Sardegna / Provincia di Sassari / Isola dell’Asinara",
       "right_path": "Italia / Sardegna"
     },
     {
@@ -18374,13 +16969,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Sardegna / Isola dell’Asinara",
+      "left_path": "Italia / Sardegna / Provincia di Sassari / Isola dell’Asinara",
       "right_path": "Italia"
     },
     {
@@ -18395,13 +16990,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Sardegna / Isola dell’Asinara",
+      "left_path": "Italia / Sardegna / Provincia di Sassari / Isola dell’Asinara",
       "right_path": "Italia"
     },
     {
@@ -18416,13 +17011,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Sardegna / Isola dell’Asinara",
+      "left_path": "Italia / Sardegna / Provincia di Sassari / Isola dell’Asinara",
       "right_path": "Italia"
     },
     {
@@ -18437,35 +17032,14 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Sardegna / Isola dell’Asinara",
+      "left_path": "Italia / Sardegna / Provincia di Sassari / Isola dell’Asinara",
       "right_path": "Italia"
-    },
-    {
-      "album_id": "album-144",
-      "album_slug": "144-alghero-porto-conte-e-asinara-2002",
-      "reference": {
-        "id": "tonno-alla-carlofortina",
-        "kind": "ricetta",
-        "title": "Tonno alla CarloFortina",
-        "url": "/ricette/tonno-alla-carlofortina/",
-        "geography": [
-          "italia-sardegna-carloforte"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia-sardegna",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Rami geografici distinti: solo suggerimento",
-      "left_path": "Italia / Sardegna / Isola dell’Asinara",
-      "right_path": "Italia / Sardegna / Carloforte"
     },
     {
       "album_id": "album-144",
@@ -18479,13 +17053,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Sardegna / Isola dell’Asinara",
+      "left_path": "Italia / Sardegna / Provincia di Sassari / Isola dell’Asinara",
       "right_path": "Italia"
     },
     {
@@ -18949,27 +17523,6 @@
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
       "left_path": "Francia / Auvergne-Rhône-Alpes / Ardèche",
       "right_path": "Francia"
-    },
-    {
-      "album_id": "album-114",
-      "album_slug": "114-isola-di-lussino-hr-1989",
-      "reference": {
-        "id": "filettino-di-maiale",
-        "kind": "ricetta",
-        "title": "Filettino di maiale",
-        "url": "/ricette/filettino-di-maiale/",
-        "geography": [
-          "croazia-hvar"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "croazia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Croazia / Isola di Lussino",
-      "right_path": "Croazia / Hvar"
     },
     {
       "album_id": "album-115",
@@ -19395,195 +17948,6 @@
       "album_id": "album-119",
       "album_slug": "119-chamois-1988",
       "reference": {
-        "id": "anatra-in-salsa",
-        "kind": "ricetta",
-        "title": "Anatra in salsa",
-        "url": "/ricette/anatra-in-salsa/",
-        "geography": [
-          "italia-veneto"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Chamois",
-      "right_path": "Italia / Veneto"
-    },
-    {
-      "album_id": "album-119",
-      "album_slug": "119-chamois-1988",
-      "reference": {
-        "id": "antipastino-piemontese",
-        "kind": "ricetta",
-        "title": "Antipast(ino) piemontese",
-        "url": "/ricette/antipastino-piemontese/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Chamois",
-      "right_path": "Italia / Piemonte"
-    },
-    {
-      "album_id": "album-119",
-      "album_slug": "119-chamois-1988",
-      "reference": {
-        "id": "antipasto-di-canocce",
-        "kind": "ricetta",
-        "title": "Antipasto di canocce",
-        "url": "/ricette/antipasto-di-canocce/",
-        "geography": [
-          "italia-veneto"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Chamois",
-      "right_path": "Italia / Veneto"
-    },
-    {
-      "album_id": "album-119",
-      "album_slug": "119-chamois-1988",
-      "reference": {
-        "id": "arista-alla-birra",
-        "kind": "ricetta",
-        "title": "Arista alla birra",
-        "url": "/ricette/arista-alla-birra/",
-        "geography": [
-          "italia-campania"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Chamois",
-      "right_path": "Italia / Campania"
-    },
-    {
-      "album_id": "album-119",
-      "album_slug": "119-chamois-1988",
-      "reference": {
-        "id": "bagna-cauda",
-        "kind": "ricetta",
-        "title": "Bagna cauda",
-        "url": "/ricette/bagna-cauda/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Chamois",
-      "right_path": "Italia / Piemonte"
-    },
-    {
-      "album_id": "album-119",
-      "album_slug": "119-chamois-1988",
-      "reference": {
-        "id": "bigoli-in-salsa",
-        "kind": "ricetta",
-        "title": "Bigoli in salsa",
-        "url": "/ricette/bigoli-in-salsa/",
-        "geography": [
-          "italia-veneto"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Chamois",
-      "right_path": "Italia / Veneto"
-    },
-    {
-      "album_id": "album-119",
-      "album_slug": "119-chamois-1988",
-      "reference": {
-        "id": "bollito-misto",
-        "kind": "ricetta",
-        "title": "Bollito misto",
-        "url": "/ricette/bollito-misto/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Chamois",
-      "right_path": "Italia / Piemonte"
-    },
-    {
-      "album_id": "album-119",
-      "album_slug": "119-chamois-1988",
-      "reference": {
-        "id": "braciole-di-carne-di-cavallo",
-        "kind": "ricetta",
-        "title": "Braciole di carne di cavallo",
-        "url": "/ricette/braciole-di-carne-di-cavallo/",
-        "geography": [
-          "italia-puglia"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Chamois",
-      "right_path": "Italia / Puglia"
-    },
-    {
-      "album_id": "album-119",
-      "album_slug": "119-chamois-1988",
-      "reference": {
-        "id": "calamari-ripieni",
-        "kind": "ricetta",
-        "title": "Calamari ripieni",
-        "url": "/ricette/calamari-ripieni/",
-        "geography": [
-          "italia-puglia"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Chamois",
-      "right_path": "Italia / Puglia"
-    },
-    {
-      "album_id": "album-119",
-      "album_slug": "119-chamois-1988",
-      "reference": {
         "id": "fusilli-carciofi-e-salmone",
         "kind": "ricetta",
         "title": "Fusilli carciofi e salmone",
@@ -19592,203 +17956,14 @@
           "italia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Chamois",
+      "left_path": "Italia / Valle d'Aosta / Chamois",
       "right_path": "Italia"
-    },
-    {
-      "album_id": "album-119",
-      "album_slug": "119-chamois-1988",
-      "reference": {
-        "id": "gnocchi-con-le-trombette-dei-morti",
-        "kind": "ricetta",
-        "title": "Gnocchi con le trombette dei morti",
-        "url": "/ricette/gnocchi-con-le-trombette-dei-morti/",
-        "geography": [
-          "italia-veneto"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Chamois",
-      "right_path": "Italia / Veneto"
-    },
-    {
-      "album_id": "album-119",
-      "album_slug": "119-chamois-1988",
-      "reference": {
-        "id": "medaglioni-di-manzo-con-porcini",
-        "kind": "ricetta",
-        "title": "Medaglioni di manzo con porcini",
-        "url": "/ricette/medaglioni-di-manzo-con-porcini/",
-        "geography": [
-          "italia-toscana"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Chamois",
-      "right_path": "Italia / Toscana"
-    },
-    {
-      "album_id": "album-119",
-      "album_slug": "119-chamois-1988",
-      "reference": {
-        "id": "paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero",
-        "kind": "ricetta",
-        "title": "Paccheri di Gragnano IGP con orata, pomodorini, capperi e zenzero",
-        "url": "/ricette/paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero/",
-        "geography": [
-          "italia-sardegna"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Chamois",
-      "right_path": "Italia / Sardegna"
-    },
-    {
-      "album_id": "album-119",
-      "album_slug": "119-chamois-1988",
-      "reference": {
-        "id": "pappa-con-il-pomodoro",
-        "kind": "ricetta",
-        "title": "Pappa con il pomodoro",
-        "url": "/ricette/pappa-con-il-pomodoro/",
-        "geography": [
-          "italia-toscana"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Chamois",
-      "right_path": "Italia / Toscana"
-    },
-    {
-      "album_id": "album-119",
-      "album_slug": "119-chamois-1988",
-      "reference": {
-        "id": "pasta-al-ragu-di-triglie-e-al-succo-d-arancia",
-        "kind": "ricetta",
-        "title": "Pasta al ragù di triglie e al succo d'arancia",
-        "url": "/ricette/pasta-al-ragu-di-triglie-e-al-succo-d-arancia/",
-        "geography": [
-          "italia-sicilia"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Chamois",
-      "right_path": "Italia / Sicilia"
-    },
-    {
-      "album_id": "album-119",
-      "album_slug": "119-chamois-1988",
-      "reference": {
-        "id": "pasta-con-le-melanzane",
-        "kind": "ricetta",
-        "title": "Pasta con le melanzane",
-        "url": "/ricette/pasta-con-le-melanzane/",
-        "geography": [
-          "italia-veneto"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Chamois",
-      "right_path": "Italia / Veneto"
-    },
-    {
-      "album_id": "album-119",
-      "album_slug": "119-chamois-1988",
-      "reference": {
-        "id": "pasta-con-pesto-alla-siciliana",
-        "kind": "ricetta",
-        "title": "Pasta con pesto alla siciliana",
-        "url": "/ricette/pasta-con-pesto-alla-siciliana/",
-        "geography": [
-          "italia-sicilia"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Chamois",
-      "right_path": "Italia / Sicilia"
-    },
-    {
-      "album_id": "album-119",
-      "album_slug": "119-chamois-1988",
-      "reference": {
-        "id": "pasta-e-fagioli",
-        "kind": "ricetta",
-        "title": "Pasta e fagioli",
-        "url": "/ricette/pasta-e-fagioli/",
-        "geography": [
-          "italia-veneto"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Chamois",
-      "right_path": "Italia / Veneto"
-    },
-    {
-      "album_id": "album-119",
-      "album_slug": "119-chamois-1988",
-      "reference": {
-        "id": "penne-con-mazzancolle-alle-verdure",
-        "kind": "ricetta",
-        "title": "Penne con mazzancolle alle verdure",
-        "url": "/ricette/penne-con-mazzancolle-alle-verdure/",
-        "geography": [
-          "italia-veneto"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Chamois",
-      "right_path": "Italia / Veneto"
     },
     {
       "album_id": "album-119",
@@ -19802,119 +17977,14 @@
           "italia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Chamois",
+      "left_path": "Italia / Valle d'Aosta / Chamois",
       "right_path": "Italia"
-    },
-    {
-      "album_id": "album-119",
-      "album_slug": "119-chamois-1988",
-      "reference": {
-        "id": "ribollita",
-        "kind": "ricetta",
-        "title": "Ribollita",
-        "url": "/ricette/ribollita/",
-        "geography": [
-          "italia-toscana"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Chamois",
-      "right_path": "Italia / Toscana"
-    },
-    {
-      "album_id": "album-119",
-      "album_slug": "119-chamois-1988",
-      "reference": {
-        "id": "salsa-verde",
-        "kind": "ricetta",
-        "title": "Salsa verde",
-        "url": "/ricette/salsa-verde/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Chamois",
-      "right_path": "Italia / Piemonte"
-    },
-    {
-      "album_id": "album-119",
-      "album_slug": "119-chamois-1988",
-      "reference": {
-        "id": "sarde-a-beccafico",
-        "kind": "ricetta",
-        "title": "Sarde a beccafico",
-        "url": "/ricette/sarde-a-beccafico/",
-        "geography": [
-          "italia-sicilia"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Chamois",
-      "right_path": "Italia / Sicilia"
-    },
-    {
-      "album_id": "album-119",
-      "album_slug": "119-chamois-1988",
-      "reference": {
-        "id": "sfogliata-pugliese",
-        "kind": "ricetta",
-        "title": "Sfogliata pugliese",
-        "url": "/ricette/sfogliata-pugliese/",
-        "geography": [
-          "italia-puglia"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Chamois",
-      "right_path": "Italia / Puglia"
-    },
-    {
-      "album_id": "album-119",
-      "album_slug": "119-chamois-1988",
-      "reference": {
-        "id": "spaghetti-alla-bottarga",
-        "kind": "ricetta",
-        "title": "Spaghetti alla bottarga",
-        "url": "/ricette/spaghetti-alla-bottarga/",
-        "geography": [
-          "italia-sicilia"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Chamois",
-      "right_path": "Italia / Sicilia"
     },
     {
       "album_id": "album-119",
@@ -19928,13 +17998,13 @@
           "italia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Chamois",
+      "left_path": "Italia / Valle d'Aosta / Chamois",
       "right_path": "Italia"
     },
     {
@@ -19949,13 +18019,13 @@
           "italia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Chamois",
+      "left_path": "Italia / Valle d'Aosta / Chamois",
       "right_path": "Italia"
     },
     {
@@ -19970,35 +18040,14 @@
           "italia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Chamois",
+      "left_path": "Italia / Valle d'Aosta / Chamois",
       "right_path": "Italia"
-    },
-    {
-      "album_id": "album-119",
-      "album_slug": "119-chamois-1988",
-      "reference": {
-        "id": "vitello-tonnato",
-        "kind": "ricetta",
-        "title": "Vitello tonnato",
-        "url": "/ricette/vitello-tonnato/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Chamois",
-      "right_path": "Italia / Piemonte"
     },
     {
       "album_id": "album-119",
@@ -20012,13 +18061,13 @@
           "italia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Chamois",
+      "left_path": "Italia / Valle d'Aosta / Chamois",
       "right_path": "Italia"
     },
     {
@@ -20050,27 +18099,6 @@
         "kind": "ricetta",
         "title": "Bagna cauda",
         "url": "/ricette/bagna-cauda/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 80,
-      "relation": "piu_specifico",
-      "common_id": "italia-piemonte",
-      "automatic": false,
-      "automatic_eligible": true,
-      "eligibility_reason": "",
-      "left_path": "Italia / Piemonte / Provincia di Torino / Pragelato",
-      "right_path": "Italia / Piemonte"
-    },
-    {
-      "album_id": "album-121",
-      "album_slug": "121-pragelato-e-dintorni-1988",
-      "reference": {
-        "id": "bollito-misto",
-        "kind": "ricetta",
-        "title": "Bollito misto",
-        "url": "/ricette/bollito-misto/",
         "geography": [
           "italia-piemonte"
         ]
@@ -20781,27 +18809,6 @@
       "album_id": "album-124",
       "album_slug": "124-sestriere-1987",
       "reference": {
-        "id": "bollito-misto",
-        "kind": "ricetta",
-        "title": "Bollito misto",
-        "url": "/ricette/bollito-misto/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 80,
-      "relation": "piu_specifico",
-      "common_id": "italia-piemonte",
-      "automatic": false,
-      "automatic_eligible": true,
-      "eligibility_reason": "",
-      "left_path": "Italia / Piemonte / Provincia di Torino / Sestriere",
-      "right_path": "Italia / Piemonte"
-    },
-    {
-      "album_id": "album-124",
-      "album_slug": "124-sestriere-1987",
-      "reference": {
         "id": "fusilli-carciofi-e-salmone",
         "kind": "ricetta",
         "title": "Fusilli carciofi e salmone",
@@ -20984,8 +18991,8 @@
       "automatic": true,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Croazia / Hvar",
-      "right_path": "Croazia / Hvar"
+      "left_path": "Croazia / Contea di Spalato-Dalmazia / Hvar",
+      "right_path": "Croazia / Contea di Spalato-Dalmazia / Hvar"
     },
     {
       "album_id": "album-126",
@@ -21112,27 +19119,6 @@
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
       "left_path": "Italia / Marmolada",
       "right_path": "Italia / Veneto"
-    },
-    {
-      "album_id": "album-126",
-      "album_slug": "126-marmolada-1986",
-      "reference": {
-        "id": "bollito-misto",
-        "kind": "ricetta",
-        "title": "Bollito misto",
-        "url": "/ricette/bollito-misto/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Marmolada",
-      "right_path": "Italia / Piemonte"
     },
     {
       "album_id": "album-126",
@@ -21646,27 +19632,6 @@
         "kind": "ricetta",
         "title": "Bagna cauda",
         "url": "/ricette/bagna-cauda/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 70,
-      "relation": "piu_specifico",
-      "common_id": "italia-piemonte",
-      "automatic": false,
-      "automatic_eligible": true,
-      "eligibility_reason": "",
-      "left_path": "Italia / Piemonte / Provincia di Torino / Roure / Rifugio Selleries",
-      "right_path": "Italia / Piemonte"
-    },
-    {
-      "album_id": "album-127",
-      "album_slug": "127-rifugio-selleries-1986",
-      "reference": {
-        "id": "bollito-misto",
-        "kind": "ricetta",
-        "title": "Bollito misto",
-        "url": "/ricette/bollito-misto/",
         "geography": [
           "italia-piemonte"
         ]
@@ -22314,27 +20279,6 @@
       "album_id": "album-131",
       "album_slug": "131-san-germano-dintorni-1985",
       "reference": {
-        "id": "bollito-misto",
-        "kind": "ricetta",
-        "title": "Bollito misto",
-        "url": "/ricette/bollito-misto/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 80,
-      "relation": "piu_specifico",
-      "common_id": "italia-piemonte",
-      "automatic": false,
-      "automatic_eligible": true,
-      "eligibility_reason": "",
-      "left_path": "Italia / Piemonte / Provincia di Torino / San Germano Chisone",
-      "right_path": "Italia / Piemonte"
-    },
-    {
-      "album_id": "album-131",
-      "album_slug": "131-san-germano-dintorni-1985",
-      "reference": {
         "id": "fusilli-carciofi-e-salmone",
         "kind": "ricetta",
         "title": "Fusilli carciofi e salmone",
@@ -22885,27 +20829,6 @@
         "kind": "ricetta",
         "title": "Bagna cauda",
         "url": "/ricette/bagna-cauda/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 80,
-      "relation": "piu_specifico",
-      "common_id": "italia-piemonte",
-      "automatic": false,
-      "automatic_eligible": true,
-      "eligibility_reason": "",
-      "left_path": "Italia / Piemonte / Provincia di Torino / San Germano Chisone",
-      "right_path": "Italia / Piemonte"
-    },
-    {
-      "album_id": "album-133",
-      "album_slug": "133-san-germano-e-dintorni-1984",
-      "reference": {
-        "id": "bollito-misto",
-        "kind": "ricetta",
-        "title": "Bollito misto",
-        "url": "/ricette/bollito-misto/",
         "geography": [
           "italia-piemonte"
         ]
@@ -24645,27 +22568,6 @@
       "album_id": "album-158",
       "album_slug": "158-crete-senesi-san-donato-san-giminiano-pienza-buonconvento-e-altri-luoghi-limitrofi",
       "reference": {
-        "id": "bollito-misto",
-        "kind": "ricetta",
-        "title": "Bollito misto",
-        "url": "/ricette/bollito-misto/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Toscana",
-      "right_path": "Italia / Piemonte"
-    },
-    {
-      "album_id": "album-158",
-      "album_slug": "158-crete-senesi-san-donato-san-giminiano-pienza-buonconvento-e-altri-luoghi-limitrofi",
-      "reference": {
         "id": "braciole-di-carne-di-cavallo",
         "kind": "ricetta",
         "title": "Braciole di carne di cavallo",
@@ -25359,27 +23261,6 @@
       "album_id": "album-160",
       "album_slug": "160-isole-eolie",
       "reference": {
-        "id": "cous-cous-alla-trapanese",
-        "kind": "ricetta",
-        "title": "Cous cous alla trapanese",
-        "url": "/ricette/cous-cous-alla-trapanese/",
-        "geography": [
-          "italia-sicilia-trapani"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia-sicilia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Rami geografici distinti: solo suggerimento",
-      "left_path": "Italia / Sicilia / Isole Eolie",
-      "right_path": "Italia / Sicilia / Trapani"
-    },
-    {
-      "album_id": "album-160",
-      "album_slug": "160-isole-eolie",
-      "reference": {
         "id": "fusilli-carciofi-e-salmone",
         "kind": "ricetta",
         "title": "Fusilli carciofi e salmone",
@@ -25388,13 +23269,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Sicilia / Isole Eolie",
+      "left_path": "Italia / Sicilia / Provincia di Messina / Isole Eolie",
       "right_path": "Italia"
     },
     {
@@ -25409,35 +23290,14 @@
           "italia-sicilia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "italia-sicilia",
-      "automatic": true,
+      "automatic": false,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Sicilia / Isole Eolie",
+      "left_path": "Italia / Sicilia / Provincia di Messina / Isole Eolie",
       "right_path": "Italia / Sicilia"
-    },
-    {
-      "album_id": "album-160",
-      "album_slug": "160-isole-eolie",
-      "reference": {
-        "id": "pasta-con-le-sarde",
-        "kind": "ricetta",
-        "title": "Pasta con le sarde",
-        "url": "/ricette/pasta-con-le-sarde/",
-        "geography": [
-          "italia-sicilia-palermo"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia-sicilia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Rami geografici distinti: solo suggerimento",
-      "left_path": "Italia / Sicilia / Isole Eolie",
-      "right_path": "Italia / Sicilia / Provincia di Palermo"
     },
     {
       "album_id": "album-160",
@@ -25451,13 +23311,13 @@
           "italia-sicilia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "italia-sicilia",
-      "automatic": true,
+      "automatic": false,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Sicilia / Isole Eolie",
+      "left_path": "Italia / Sicilia / Provincia di Messina / Isole Eolie",
       "right_path": "Italia / Sicilia"
     },
     {
@@ -25472,14 +23332,14 @@
           "italia-sicilia-salina"
         ]
       },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia-sicilia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Rami geografici distinti: solo suggerimento",
-      "left_path": "Italia / Sicilia / Isole Eolie",
-      "right_path": "Italia / Sicilia / Salina"
+      "score": 90,
+      "relation": "piu_generale",
+      "common_id": "isole-eolie",
+      "automatic": true,
+      "automatic_eligible": true,
+      "eligibility_reason": "",
+      "left_path": "Italia / Sicilia / Provincia di Messina / Isole Eolie",
+      "right_path": "Italia / Sicilia / Provincia di Messina / Isole Eolie / Salina"
     },
     {
       "album_id": "album-160",
@@ -25493,13 +23353,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Sicilia / Isole Eolie",
+      "left_path": "Italia / Sicilia / Provincia di Messina / Isole Eolie",
       "right_path": "Italia"
     },
     {
@@ -25514,13 +23374,13 @@
           "italia-sicilia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "italia-sicilia",
-      "automatic": true,
+      "automatic": false,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Sicilia / Isole Eolie",
+      "left_path": "Italia / Sicilia / Provincia di Messina / Isole Eolie",
       "right_path": "Italia / Sicilia"
     },
     {
@@ -25535,13 +23395,13 @@
           "italia-sicilia"
         ]
       },
-      "score": 90,
+      "score": 80,
       "relation": "piu_specifico",
       "common_id": "italia-sicilia",
-      "automatic": true,
+      "automatic": false,
       "automatic_eligible": true,
       "eligibility_reason": "",
-      "left_path": "Italia / Sicilia / Isole Eolie",
+      "left_path": "Italia / Sicilia / Provincia di Messina / Isole Eolie",
       "right_path": "Italia / Sicilia"
     },
     {
@@ -25556,13 +23416,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Sicilia / Isole Eolie",
+      "left_path": "Italia / Sicilia / Provincia di Messina / Isole Eolie",
       "right_path": "Italia"
     },
     {
@@ -25577,13 +23437,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Sicilia / Isole Eolie",
+      "left_path": "Italia / Sicilia / Provincia di Messina / Isole Eolie",
       "right_path": "Italia"
     },
     {
@@ -25598,13 +23458,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Sicilia / Isole Eolie",
+      "left_path": "Italia / Sicilia / Provincia di Messina / Isole Eolie",
       "right_path": "Italia"
     },
     {
@@ -25619,13 +23479,13 @@
           "italia"
         ]
       },
-      "score": 80,
+      "score": 70,
       "relation": "piu_specifico",
       "common_id": "italia",
       "automatic": false,
       "automatic_eligible": false,
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Sicilia / Isole Eolie",
+      "left_path": "Italia / Sicilia / Provincia di Messina / Isole Eolie",
       "right_path": "Italia"
     },
     {
@@ -26425,27 +24285,6 @@
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
       "left_path": "Francia / Monte Bianco",
       "right_path": "Italia / Veneto"
-    },
-    {
-      "album_id": "album-165",
-      "album_slug": "165-traversata-del-monte-bianco",
-      "reference": {
-        "id": "bollito-misto",
-        "kind": "ricetta",
-        "title": "Bollito misto",
-        "url": "/ricette/bollito-misto/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Monte Bianco",
-      "right_path": "Italia / Piemonte"
     },
     {
       "album_id": "album-165",

@@ -28,19 +28,16 @@
     return place.label + ' · ' + count + (count === 1 ? ' contenuto' : ' contenuti');
   }
 
-  function initialize(container, world) {
+  function initialize(container, world, places) {
     var mode = container.dataset.mapMode || 'explorer';
     var section = container.closest('section') || container.parentElement;
     var controls = section && section.querySelector('[data-map-controls]');
-    var dataNode = document.getElementById(container.dataset.mapData || 'geography-map-data');
-    if (!dataNode) return;
 
     var svgNode = container.querySelector('svg');
     var svg = d3.select(svgNode);
     var status = container.querySelector('[data-map-status]');
     var missingSummary = section && section.querySelector('[data-map-missing-summary]');
     var missingList = section && section.querySelector('[data-map-missing-list]');
-    var places = JSON.parse(dataNode.textContent);
     var mobileMapQuery = window.matchMedia('(max-width: 54rem)');
     var modal = null;
     var modalPlaceholder = null;
@@ -338,17 +335,24 @@
     if (!containers.length) return;
     var groups = new Map();
     containers.forEach(function (container) {
-      var url = container.dataset.mapWorldUrl || '../assets/countries-110m.json';
-      if (!groups.has(url)) groups.set(url, []);
-      groups.get(url).push(container);
+      var worldUrl = container.dataset.mapWorldUrl || '../assets/countries-110m.json';
+      var dataUrl = container.dataset.mapJsonUrl;
+      var key = JSON.stringify([worldUrl, dataUrl]);
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(container);
     });
-    groups.forEach(function (items, url) {
-      fetch(url)
-        .then(function (response) {
-          if (!response.ok) throw new Error('Base cartografica non disponibile');
+    groups.forEach(function (items, key) {
+      var urls = JSON.parse(key);
+      Promise.all(urls.map(function (url) {
+        if (!url) return Promise.reject(new Error('Dati geografici non configurati'));
+        return fetch(url).then(function (response) {
+          if (!response.ok) throw new Error('Risorsa del planisfero non disponibile: ' + url);
           return response.json();
+        });
+      }))
+        .then(function (resources) {
+          items.forEach(function (container) { initialize(container, resources[0], resources[1]); });
         })
-        .then(function (world) { items.forEach(function (container) { initialize(container, world); }); })
         .catch(function (error) {
           items.forEach(function (container) {
             var status = container.querySelector('[data-map-status]');

@@ -1,29 +1,29 @@
 {
-  "places_checked": 265,
-  "canonical_merges_checked": 2,
+  "places_checked": 295,
+  "canonical_merges_checked": 1,
   "self_references": [],
   "cycles": [],
   "lost_broader_after_merge": [],
   "propagation": {
     "ricette": {
       "verified_paths_by_relation": {
-        "amministrativa": 41,
-        "territoriale": 30
+        "amministrativa": 58,
+        "territoriale": 23
       },
       "failures": []
     },
     "fotografie": {
       "verified_paths_by_relation": {
-        "amministrativa": 279,
+        "amministrativa": 315,
         "storico_culturale": 2,
-        "territoriale": 156
+        "territoriale": 201
       },
       "failures": []
     },
     "approfondimenti": {
       "verified_paths_by_relation": {
         "amministrativa": 1,
-        "territoriale": 6
+        "territoriale": 7
       },
       "failures": []
     }
