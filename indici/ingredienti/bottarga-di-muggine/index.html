@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<base href="/indici/">
+<title>Bottarga Di Muggine - Ricette (e altro) di Pierre</title>
+<meta name="description" content="Indice Bottarga Di Muggine del ricettario di Pierre Piccotti.">
+<link rel="canonical" href="https://ricette.pierre.piccotti.it/indici/ingredienti/bottarga-di-muggine/">
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="../foto/ui/site-navigation.css">
+<style>
+.index-page > .index-content{max-width:var(--reading);margin-left:auto;margin-right:auto;width:100%;}
+.index-page > .index-content > h1{margin-bottom:1.2rem;}
+.index-page .block,.index-page .lead,.index-page .index-section{max-width:100%;}
+.index-filter{margin:0 0 1.5rem 0}
+.index-filter h2{font-size:1.05rem;margin:0 0 .75rem 0}
+.filter-buttons{display:flex;gap:.8rem;flex-wrap:wrap}
+.filter-btn{border:1px solid #c9c1b8;background:#fff;border-radius:999px;padding:.75rem 1.2rem;font:inherit;cursor:pointer}
+.filter-btn.is-active{background:#222;color:#fff;border-color:#222}
+.index-links li{margin:.25rem 0}
+.index-category{padding-top:.7rem;border-top:1px solid var(--line);margin-bottom:1.4rem;}
+.index-category h2{margin-bottom:.9rem;}
+.recipe-index-list{display:grid;gap:1.6rem;}
+.recipe-index-card{display:block;padding-top:1.2rem;border-top:1px solid var(--line);}
+.recipe-index-card:first-child{border-top:0;padding-top:0;}
+.recipe-index-media{display:block;width:100%;margin:0 0 1rem 0;}
+.recipe-index-media a{display:block;width:100%;}
+.recipe-index-media img{display:block;width:100%;max-width:100%;height:auto;box-shadow:none;background:#fff;}
+.recipe-index-body h3{margin:0 0 .45rem;font-size:1.15rem;line-height:1.2;color:#566064;}
+.recipe-index-body p{margin:0 0 .7rem;}
+.recipe-index-meta{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:.55rem 1.2rem;}
+.recipe-index-meta li{margin:0;}
+.index-page .index-category .home-secondary-list{grid-template-columns:repeat(auto-fit,minmax(18rem,1fr));gap:.38rem .7rem;align-items:start;}
+.index-page .index-category .home-secondary-list li{min-width:0;}
+.index-page .index-category .home-secondary-list a.has-recipe-thumb{display:grid;grid-template-columns:4.35rem minmax(0,1fr);gap:.55rem;align-items:center;height:auto;min-height:3.15rem;padding:.42rem .55rem;border:1px solid var(--line);background:rgba(255,255,255,0.34);box-shadow:none;}
+.index-page .index-category .home-secondary-list a.has-recipe-thumb:hover{background:rgba(255,255,255,0.68);}
+.recipe-list-thumb{display:block;width:4.35rem;aspect-ratio:1.618/1;overflow:hidden;background:#f4f1ed;align-self:center;}
+.recipe-list-thumb img{display:block;width:100%;height:100%;object-fit:cover;box-shadow:none;background:#fff;}
+.recipe-list-text{display:block;min-width:0;line-height:1.18;}
+.recipe-list-text strong{display:block;color:#566064;font-size:.92rem;line-height:1.16;overflow-wrap:anywhere;}
+.recipe-list-text span{display:block;margin-top:.12rem;color:var(--muted);font-size:.78rem;line-height:1.2;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;}
+@media (min-width:1180px){
+  .index-page .index-category .home-secondary-list{grid-template-columns:repeat(auto-fit,minmax(20rem,1fr));}
+}
+@media (max-width:520px){
+  .index-page .index-category .home-secondary-list{grid-template-columns:1fr;gap:.34rem;}
+  .index-page .index-category .home-secondary-list a.has-recipe-thumb{grid-template-columns:3.8rem minmax(0,1fr);gap:.5rem;padding:.38rem .48rem;min-height:2.85rem;}
+  .recipe-list-thumb{width:3.8rem;}
+}
+.recipe-refine-panel{margin:0 0 1.5rem 0;padding:.45rem 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
+.recipe-refine summary{cursor:pointer;font-size:.95rem;color:#566064;}
+.recipe-refine-grid{display:grid;gap:.7rem;margin:.75rem 0 0 0;}
+.recipe-refine-group h2{font-size:.82rem;text-transform:uppercase;letter-spacing:.04em;margin:0 0 .35rem 0;color:#566064;}
+.recipe-refine-buttons{display:flex;flex-wrap:wrap;gap:.35rem;}
+.recipe-refine-btn{border:1px solid #c9c1b8;background:#fff;border-radius:999px;padding:.28rem .58rem;font:inherit;font-size:.86rem;line-height:1.2;cursor:pointer;}
+.recipe-refine-btn.is-active{background:#566064;color:#fff;border-color:#566064;}
+
+.recipe-refine-group-allergens{position:relative;}
+.recipe-allergen-picker{display:block;}
+.recipe-allergen-picker > summary{display:inline-flex;align-items:center;gap:.35rem;border:1px solid #c9c1b8;background:#fff;border-radius:999px;padding:.32rem .7rem;font:inherit;font-size:.86rem;line-height:1.2;cursor:pointer;color:#111;}
+.recipe-allergen-panel{display:grid;grid-template-columns:repeat(auto-fit,minmax(13rem,1fr));gap:.35rem .8rem;margin:.55rem 0 0 0;padding:.75rem;border:1px solid var(--line);background:#fff;border-radius:.5rem;}
+.recipe-allergen-option{display:flex;align-items:flex-start;gap:.45rem;font-size:.86rem;line-height:1.25;color:var(--text);}
+.recipe-allergen-option input{margin-top:.08rem;accent-color:#566064;}
+.recipe-allergen-source{margin:.45rem 0 0 0;font-size:.76rem;color:#566064;}
+.recipe-allergen-source a{color:#5f86ad;font-weight:600;}
+.recipe-refine-actions{margin:.55rem 0 0 0;}
+.recipe-reset-btn{border:1px solid #c9c1b8;background:#fff;border-radius:999px;padding:.28rem .62rem;font:inherit;font-size:.86rem;line-height:1.2;cursor:pointer;color:#566064;}
+.recipe-reset-btn:hover{border-color:#566064;color:#222;}
+.recipe-result-count{margin:.6rem 0 0 0;font-size:.9rem;color:#566064;}
+.recipe-result-count strong,.recipe-search-count strong{font-weight:700;color:#222;}
+.recipe-current-query{color:#566064;}
+.recipe-clear-search{border:1px solid #c9c1b8;background:#fff;border-radius:999px;padding:.18rem .52rem;font:inherit;font-size:.82rem;line-height:1.2;cursor:pointer;color:#566064;margin-left:.45rem;}
+.recipe-clear-search:hover{border-color:#566064;color:#222;}
+.site-header nav{display:flex;align-items:center;gap:1rem;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none;margin-left:auto;justify-content:flex-end;}
+.site-header nav::-webkit-scrollbar{display:none;width:0;height:0;}
+.site-header nav a{white-space:nowrap;}
+.site-header .index-nav-back{display:inline-flex !important;align-items:center;justify-content:center;width:28px;height:28px;font-size:24px;line-height:1;text-decoration:none;color:inherit;flex:0 0 auto;position:relative;top:-2px;visibility:visible !important;}
+.site-header .index-nav-back:hover{text-decoration:none;}
+.site-search-button{display:inline-flex;align-items:center;justify-content:center;border:0;background:transparent;color:inherit;padding:.15rem .1rem;cursor:pointer;vertical-align:middle;flex:0 0 auto;}
+.site-search-button svg{width:1.08em;height:1.08em;stroke:currentColor;stroke-width:2;fill:none;display:block;}
+.recipe-search-overlay{position:fixed;inset:0;z-index:2000;display:none;}
+.recipe-search-overlay.is-open{display:block;}
+.recipe-search-backdrop{position:absolute;inset:0;background:rgba(0,0,0,.10);}
+.recipe-search-dialog{position:fixed;top:4.8rem;right:2rem;width:min(410px,calc(100vw - 2rem));margin:0;padding:.95rem 1rem;background:#fff;border:1px solid #8b837b;box-shadow:0 18px 45px rgba(0,0,0,.22);border-radius:.45rem;}
+.recipe-search-dialog h2{margin:0 2rem .55rem 0;font-size:1.05rem;}
+.recipe-search-close{position:absolute;top:.45rem;right:.65rem;border:0;background:transparent;font:inherit;font-size:1.45rem;line-height:1;cursor:pointer;color:#566064;}
+.recipe-search-input{box-sizing:border-box;width:100%;border:1px solid #9d948b;border-radius:.45rem;padding:.55rem .65rem;font:inherit;background:#fff;}
+.recipe-search-hint{margin:.45rem 0 .65rem 0;font-size:.84rem;color:#566064;}
+.recipe-search-actions{display:flex;align-items:center;justify-content:flex-start;gap:.7rem;margin:.55rem 0 0 0;}
+.recipe-search-submit{display:inline-flex;align-items:center;justify-content:center;width:auto;min-width:5.8rem;border:1px solid #8b837b;background:#fff;border-radius:999px;padding:.32rem .78rem;font:inherit;font-size:.9rem;line-height:1.2;cursor:pointer;}
+.recipe-search-submit:hover{border-color:#566064;}
+.recipe-search-count{margin:0;font-size:.84rem;color:#566064;}
+.index-editorial-card{display:grid;gap:.75rem;margin:.2rem 0 1rem 0;padding:.85rem;border:1px solid var(--line);background:rgba(255,255,255,.42);}
+.index-editorial-card figure{margin:0;}
+.index-editorial-card p{margin:0 0 .55rem 0;}
+.index-editorial-html::after{content:"";display:block;clear:both;}
+.index-editorial-html figure{margin:.2rem .7rem .7rem 0;display:inline-block;vertical-align:top;max-width:100%;box-sizing:border-box;}
+.index-editorial-html img{display:block;max-width:100%;height:auto;box-shadow:none;background:#fff;}
+.index-editorial-card img{cursor:zoom-in;}
+.index-editorial-html figcaption{font-size:.84rem;color:#566064;margin-top:.25rem;line-height:1.25;}
+.index-editorial-html figure.step-photo,.index-editorial-html figure.step-photo-large,.index-editorial-html figure.step-photo-left,.index-editorial-html figure.step-photo-right{display:block;box-sizing:border-box;margin:0 0 .8rem 0;}
+.index-editorial-html figure.step-photo img,.index-editorial-html figure.step-photo-large img,.index-editorial-html figure.step-photo-left img,.index-editorial-html figure.step-photo-right img{width:100%;max-width:100%;height:auto;}
+.index-editorial-html figure.step-photo-large,.index-editorial-html figure.step-photo[data-align="center"],.index-editorial-html figure.step-photo-large[data-align="center"]{float:none;clear:both;margin-left:auto;margin-right:auto;}
+.index-editorial-html figure.step-photo[data-align="left"]{float:left;clear:left;margin-right:1rem;margin-left:0;}
+.index-editorial-html figure.step-photo[data-align="right"]{float:right;clear:right;margin-left:1rem;margin-right:0;}
+.index-editorial-html .image-row{display:flex;flex-wrap:wrap;align-items:flex-start;gap:.75rem;margin:.35rem 0 .9rem 0;clear:both;}
+.index-editorial-html .image-row > figure{flex:0 1 auto;margin:0;}
+@media (min-width:760px){
+  .index-editorial-html figure.step-photo-right{float:right;clear:right;margin-left:1rem;margin-right:0;}
+  .index-editorial-html figure.step-photo-left{float:left;clear:left;margin-right:1rem;margin-left:0;}
+}
+@media (max-width:640px){
+  .index-editorial-html figure.step-photo,.index-editorial-html figure.step-photo-large,.index-editorial-html figure.step-photo-left,.index-editorial-html figure.step-photo-right{float:none !important;clear:both !important;width:100% !important;max-width:100% !important;margin:.35rem 0 .85rem 0 !important;}
+  .index-editorial-html .image-row{display:block;}
+  .index-editorial-html .image-row > figure{width:100% !important;max-width:100% !important;margin:.35rem 0 .85rem 0 !important;}
+}
+.index-editorial-html ul,.index-editorial-html ol{margin:.25rem 0 .75rem 1.35rem;line-height:1.28;}
+.index-editorial-html li{margin:.08rem 0;}
+.index-editorial-html .index-mini-table{width:100%;border-collapse:collapse;margin:.6rem 0;background:#fff;table-layout:fixed;}
+.index-editorial-html .index-mini-table th,.index-editorial-html .index-mini-table td{border:1px solid var(--line);padding:.35rem .5rem;vertical-align:top;line-height:1.25;}
+.index-editorial-html .index-mini-table th{background:rgba(255,255,255,.58);font-weight:700;}
+.index-editorial-images{display:grid;grid-template-columns:repeat(auto-fit,minmax(7rem,1fr));gap:.55rem;}
+.index-editorial-images img{width:100%;height:auto;box-shadow:none;background:#fff;cursor:zoom-in;}
+.index-editorial-links{display:flex;flex-wrap:wrap;gap:.45rem .7rem;margin:.55rem 0 0 0;}
+.index-editorial-link{display:inline-flex;border:1px solid #c9c1b8;background:#fff;border-radius:999px;padding:.25rem .62rem;font-size:.86rem;line-height:1.2;}
+.index-editorial-link:hover{text-decoration:none;border-color:#566064;}
+@media (max-width:760px){.site-header nav{gap:.32rem;margin-left:auto;justify-content:flex-end;}.site-header nav a{font-size:.95rem;letter-spacing:-.015em;}.site-header .index-nav-back{width:20px;height:22px;font-size:18px;top:-1px;}.site-header .site-search-button{padding:.05rem 0;}.site-header .site-search-button svg{width:.98em;height:.98em;}}
+@media (max-width:640px){.recipe-search-dialog{top:4rem;right:1rem;left:1rem;width:auto;}}
+</style>
+<link rel="stylesheet" href="/geografia/assets/geography-production.css"><link rel="stylesheet" href="/fotografia/assets/fotografia.css?v=c14ef15d7c52"><link rel="stylesheet" href="/foto/ui/transversal-navigation.css"></head>
+<body>
+<div class="page">
+<header class="site-header">
+  <a class="brand" href="/">Ricette (e altro) di Pierre</a>
+  <nav>
+    <a class="index-nav-back" href="/" aria-label="Torna indietro" title="Torna indietro" onclick="if(history.length>1){event.preventDefault();history.back();}">←</a>
+    <a href="ricette.html">Ricette</a>
+    <a href="ingredienti.html">Ingredienti</a>
+    <a href="fonti.html">Fonti</a>
+    <a href="../geografia/">Geografia</a>
+    <button class="site-search-button js-site-search-open" type="button" aria-label="Cerca nel ricettario" title="Cerca nel ricettario"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="M15.5 15.5L21 21"></path></svg></button>
+  </nav>
+</header>
+<main class="index-page">
+<div class="index-content">
+<h1>Bottarga Di Muggine</h1>
+<p><a href="ingredienti.html">← Tutti gli Ingredienti</a></p><style>.ingredient-opening{display:flow-root}.ingredient-excellence{display:flow-root;margin:1.3rem 0;padding-top:1rem;border-top:1px solid var(--line)}.ingredient-excellence-heading{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin:0 0 .35rem}.ingredient-excellence-deck{color:var(--muted)}.ingredient-excellence .geography-map svg{aspect-ratio:4/3}.ingredient-excellence-details{clear:both;margin-top:.7rem;font-size:.92rem;line-height:1.5}.ingredient-excellence-details summary{cursor:pointer;color:#24556a}.ingredient-excellence-details .when-open{display:none}.ingredient-excellence-details[open] .when-open{display:inline}.ingredient-excellence-details[open] .when-closed{display:none}.ingredient-excellence-recognition{display:inline-flex;align-items:center;flex:none}.ingredient-excellence-recognition img{width:1.8rem;height:1.8rem;object-fit:contain;box-shadow:none;cursor:default}.ingredient-excellence-source{margin:.35rem 0;color:var(--muted)}.ingredient-excellence-details p{margin:.55rem 0}.ingredient-excellence-summary{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden}.ingredient-excellence-references{border-top:1px solid var(--line);margin-top:.5rem}.ingredient-all-gallery[hidden],.ingredient-excellence[hidden]{display:none}.ingredient-all-gallery{margin-top:1rem}.ingredient-all-gallery .home-secondary-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.35rem .6rem;list-style:none;margin:0;padding:0}.ingredient-all-gallery .home-secondary-list li{margin:.3rem 0}.ingredient-all-gallery a.has-recipe-thumb{display:grid;grid-template-columns:4.35rem minmax(0,1fr);gap:.55rem;align-items:center;padding:.42rem .55rem;border:1px solid var(--line);text-decoration:none}.ingredient-all-gallery .recipe-list-thumb{display:block;width:4.35rem;aspect-ratio:1.618/1}.ingredient-all-gallery .recipe-list-thumb img{width:100%;height:100%;object-fit:cover;box-shadow:none}@media(max-width:640px){.ingredient-all-gallery .home-secondary-list{grid-template-columns:1fr}}</style><section class="block ingredient-opening"><h2>Nota</h2><div class="index-editorial-html"><p>Non esiste un DOP o un IGP per la Bottarga di muggine.<br>Ma Slow Food l'ha inserita fra i prodotti da salvare.<br>Si trova raramente in commercio.</p><p><strong>Sardegna</strong></p><p>Bottarga di muggine e pesca tradizionale dello stagno di Cabras</p><p><a href="https://www.slowfood.it/comunicati-stampa/da-cabras-oristano-un-nuovo-presidio-slow-food-tutela-la-bottarga-di-muggine-e-la-pesca-tradizionale-nello-stagno-di-cabras/" target="_blank" rel="noopener noreferrer">Comunicato</a> – <a href="https://media.slowfood.it/Nuovi-Pres%C3%ACdi-Slow-Food/Pres%C3%ACdi-Slow-Food-del-mare/Bottarga-di-muggine-pesca-tradizionale-Stagno-di-Cabras" target="_blank" rel="noopener noreferrer">Immagini</a> – <a href="https://www.fondazioneslowfood.com/it/presidi-slow-food/bottarga-di-muggine-e-pesca-tradizionale-dello-stagno-di-cabras/" target="_blank" rel="noopener noreferrer">Scheda</a></p><p>A Cabras, nello Stagno che si apre a nord del Golfo di Oristano, la bottarga di muggine viene prodotta seguendo tecniche tradizionali che risalgono ai Fenici. I muggini vengono catturati nei lavorieri, impianti naturali che intrappolano il pesce, e le uova delle femmine vengono prelevate, salate e poi essiccate all’aria per conservarle. Oltre alla bottarga, il muggine viene valorizzato anche come merca, lessato e avvolto in foglie di <em>sa zibba</em>, e come <em>su pisci affumau</em>, filetti affumicati dopo salatura e asciugatura. La pesca e la trasformazione seguono metodi artigianali, rispettosi dell’ecosistema dello stagno e della stagionalità del pesce, garantendo un prodotto dal colore ambrato e dal sapore dolce, nettamente diverso da quello dei muggini importati dall’estero. Il progetto è sostenuto dal Gal Sinis e FLAG “Pescando”.</p></div></section><section class="block"><h2>Approfondimenti</h2><ul><li><a href="/approfondimenti/la-trasformazione-invisibile/">La trasformazione invisibile</a></li></ul></section><section class="block place-corpus-ricette"><h2>Ricette</h2><div class="place-corpus-sequence" data-ingredient-recipes data-inline-gallery-sequence><div class="place-content-list place-corpus-group"><a class="place-content-card" href="../ricette/pasta-con-pesto-alla-siciliana/"><img src="../foto/pasta-con-pesto-alla-siciliana/01.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><strong>Pasta con pesto alla siciliana</strong></a><a class="place-content-card" href="../ricette/spaghetti-alla-bottarga/"><img src="../foto/spaghetti-alla-bottarga/01.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><strong>Spaghetti alla bottarga</strong></a></div><div class="place-corpus-actions"><button type="button" class="place-corpus-show-all" data-ingredient-all data-inline-gallery-toggle>Tutte</button></div><div class="ingredient-all-gallery" data-ingredient-all-gallery data-inline-gallery hidden><ul class="home-secondary-list"><li><a class="has-recipe-thumb" href="../ricette/pasta-con-pesto-alla-siciliana/"><span class="recipe-list-thumb" aria-hidden="true"><img src="../foto/pasta-con-pesto-alla-siciliana/01.jpg" alt="" loading="lazy" decoding="async" width="84" height="52" onerror="this.closest('.recipe-list-thumb').remove()"></span><span class="recipe-list-text"><strong>Pasta con pesto alla siciliana</strong></span></a></li><li><a class="has-recipe-thumb" href="../ricette/spaghetti-alla-bottarga/"><span class="recipe-list-thumb" aria-hidden="true"><img src="../foto/spaghetti-alla-bottarga/01.jpg" alt="" loading="lazy" decoding="async" width="84" height="52" onerror="this.closest('.recipe-list-thumb').remove()"></span><span class="recipe-list-text"><strong>Spaghetti alla bottarga</strong></span></a></li></ul></div></div></section><script>
+document.querySelectorAll('[data-ingredient-expand]').forEach(button => button.addEventListener('click', () => {
+  const text = document.getElementById(button.dataset.ingredientExpand);
+  const expanded = button.getAttribute('aria-expanded') === 'true';
+  text.classList.toggle('is-clamped', expanded);
+  button.setAttribute('aria-expanded', String(!expanded));
+  button.textContent = expanded ? 'Continua ↓' : 'Riduci ↑';
+}));
+document.querySelectorAll('[data-ingredient-more]').forEach(button => button.addEventListener('click', () => {
+  const hidden = Array.from(document.querySelectorAll('[data-ingredient-recipes] .place-corpus-group[hidden]'));
+  if (hidden[0]) hidden[0].hidden = false;
+  const remaining = hidden.length - 1;
+  if (!remaining) button.hidden = true;
+  else button.textContent = 'Continua (+3)';
+}));
+document.querySelectorAll('[data-excellence-more]').forEach(button => button.addEventListener('click', () => {
+  const hidden = Array.from(document.querySelectorAll('[data-excellence-position][hidden]'));
+  hidden.slice(0, 3).forEach(row => row.hidden = false);
+  const remaining = hidden.length - Math.min(3, hidden.length);
+  if (!remaining) button.hidden = true;
+  else button.textContent = 'Continua (+' + Math.min(3, remaining) + ')';
+}));
+</script><footer class="site-footer recipe-footer"><div class="site-footer-left"><a class="cc-link site-footer-cc" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" aria-label="Licenza Creative Commons BY-NC-SA" title="Licenza Creative Commons BY-NC-SA"><img src="../foto/licenze/Cc-by-nc-sa_icon.svg" alt="CC BY-NC-SA"></a></div>
+  <nav class="site-footer-center" aria-label="Strumenti pagina">
+    <a class="site-footer-text" href="../informativa.html" aria-label="Informativa" title="Informativa"><img src="../foto/ui/info-light.svg" alt=""></a>
+    <a class="site-footer-icon" href="../scrivimi.html" aria-label="Scrivimi" title="Scrivimi">
+      <img src="../foto/ui/mail-light.svg" alt="">
+    </a>
+    <a class="site-footer-icon js-print-link" href="#" aria-label="Stampa pagina" title="Stampa pagina">
+      <img src="../foto/ui/print-light.svg" alt="">
+    </a>
+    <a class="site-footer-icon js-copy-link" href="#" aria-label="Copia link pagina" title="Copia link pagina">
+      <img src="../foto/ui/link-light.svg" alt="">
+    </a>
+  </nav><div class="site-footer-right"><a class="site-footer-qr-link recipe-qrcode-link" href="../foto/indici/ingredienti/bottarga-di-muggine/qr-code.png" aria-label="Bottarga Di Muggine" title="Bottarga Di Muggine"><img src="../foto/indici/ingredienti/bottarga-di-muggine/qr-code.png" alt="Bottarga Di Muggine"></a></div></footer><div class="recipe-search-overlay" id="recipeSearchOverlay" aria-hidden="true">
+  <div class="recipe-search-backdrop js-site-search-close"></div>
+  <section class="recipe-search-dialog" role="dialog" aria-modal="true" aria-labelledby="recipeSearchTitle">
+    <button class="recipe-search-close js-site-search-close" type="button" aria-label="Chiudi">×</button>
+    <h2 id="recipeSearchTitle">Cerca nel ricettario</h2>
+    <form id="recipeSearchForm" action="../cerca/" method="get">
+      <input id="recipeSearchInput" name="q" class="recipe-search-input" type="search" placeholder="Titolo, ingrediente, luogo…" autocomplete="off">
+      <p class="recipe-search-hint">La ricerca interroga Ricette, Fotografie, Approfondimenti e Luoghi.</p>
+      <div class="recipe-search-actions"><button class="recipe-search-submit" type="submit">Cerca</button><p class="recipe-search-count" id="recipeSearchCount" aria-live="polite"></p></div>
+    </form>
+  </section>
+</div></div></main></div>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const wrap = document.querySelector('.index-filter');
+  if (!wrap) return;
+  const buttons = wrap.querySelectorAll('.filter-btn');
+  function apply(cat) {
+    document.querySelectorAll('[data-cats]').forEach(item => {
+      const cats = (item.getAttribute('data-cats') || '').split(' ').filter(Boolean);
+      const show = (cat === 'tutte') || cats.includes(cat);
+      item.style.display = show ? '' : 'none';
+    });
+    document.querySelectorAll('[data-filter-group]').forEach(group => {
+      const visible = Array.from(group.querySelectorAll('[data-cats]')).some(el => el.style.display !== 'none');
+      group.style.display = visible ? '' : 'none';
+    });
+    buttons.forEach(b => b.classList.toggle('is-active', b.dataset.cat === cat));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => apply(btn.dataset.cat)));
+  apply('tutte');
+});
+</script>
+
+<script id="cms-editor-shortcut-script">
+(function(){
+  var lastRecipeHref = '';
+  function recipeSlugFromHref(href){
+    if(!href) return '';
+    try{
+      var u = new URL(href, window.location.href);
+      var match = u.pathname.match(/\/ricette\/([^\/?#]+)\/?(?:index\.html)?$/i);
+      return match ? decodeURIComponent(match[1]) : '';
+    }catch(e){
+      var m = String(href).match(/(?:^|\/)ricette\/([^\/?#]+)\/?(?:index\.html)?$/i);
+      return m ? decodeURIComponent(m[1]) : '';
+    }
+  }
+  function cmsEditorBaseUrl(){
+    try{
+      var configured = window.localStorage && window.localStorage.getItem('ricettario.cmsBaseUrl');
+      if(configured) return configured.replace(/\/+$/, '');
+    }catch(e){}
+    var host = window.location.hostname;
+    var port = window.location.port;
+    if(port === '5000' || /\.app\.github\.dev$/i.test(host)) return window.location.origin;
+    if(host === 'localhost' || host === '127.0.0.1' || host === '::1') return 'http://127.0.0.1:5000';
+    return 'http://127.0.0.1:5000';
+  }
+  function rememberRecipeLink(link){
+    if(!link) return;
+    var href = link.getAttribute('href') || '';
+    if(recipeSlugFromHref(href)) lastRecipeHref = href;
+  }
+  function activeRecipeSlug(){
+    var active = document.activeElement && document.activeElement.closest ? document.activeElement.closest('a[href]') : null;
+    var slug = recipeSlugFromHref(active && active.getAttribute('href'));
+    return slug || recipeSlugFromHref(lastRecipeHref);
+  }
+  function openCmsEditorForSlug(slug){
+    if(!slug) return;
+    var url = cmsEditorBaseUrl() + '/?slug=' + encodeURIComponent(slug);
+    var win = window.open(url, 'ricettarioCmsEditor');
+    if(win){ try{ win.focus(); }catch(e){} }
+  }
+  document.addEventListener('mouseover', function(ev){ rememberRecipeLink(ev.target.closest && ev.target.closest('a[href]')); }, true);
+  document.addEventListener('focusin', function(ev){ rememberRecipeLink(ev.target.closest && ev.target.closest('a[href]')); }, true);
+  document.addEventListener('click', function(ev){ rememberRecipeLink(ev.target.closest && ev.target.closest('a[href]')); }, true);
+  document.addEventListener('keydown', function(ev){
+    var key = (ev.key || '').toLowerCase();
+    if(!(ev.ctrlKey && ev.altKey && key === 'e')) return;
+    var target = ev.target;
+    if(target && (target.isContentEditable || /^(input|textarea|select)$/i.test(target.tagName || ''))) return;
+    var slug = activeRecipeSlug();
+    if(!slug) return;
+    ev.preventDefault();
+    openCmsEditorForSlug(slug);
+  });
+})();
+</script>
+<script id="site-footer-script">
+(function(){
+  function ensureLightbox(){
+    var lb=document.querySelector('.site-lightbox');
+    if(lb) return lb;
+    lb=document.createElement('div');
+    lb.className='site-lightbox';
+    lb.innerHTML='<button class="site-lightbox-close" aria-label="Chiudi">×</button><figure class="site-lightbox-frame"><img class="site-lightbox-image" alt=""><figcaption class="site-lightbox-caption"></figcaption></figure>';
+    lb.addEventListener('click', function(ev){
+  // chiude su overlay, su X e anche sull'immagine (come index)
+  if (
+    ev.target === lb ||
+    ev.target.classList.contains('site-lightbox-close') ||
+    ev.target.classList.contains('site-lightbox-image')
+  ) {
+    lb.classList.remove('is-open');
+  }
+});
+    document.addEventListener('keydown', function(ev){ if(ev.key==='Escape') lb.classList.remove('is-open'); });
+    document.body.appendChild(lb);
+    return lb;
+  }
+  function openLightbox(src, alt){
+    var lb=ensureLightbox();
+    var img=lb.querySelector('.site-lightbox-image');
+    var cap=lb.querySelector('.site-lightbox-caption');
+    img.src=src; img.alt=alt||'';
+    if(cap) cap.textContent=alt||'';
+    lb.classList.add('is-open');
+  }
+  function showCopyToast(){
+    var oldToast=document.querySelector('.site-copy-toast');
+    if(oldToast) oldToast.remove();
+    var toast=document.createElement('div');
+    toast.className='site-copy-toast';
+    toast.textContent='URL copiato';
+    document.body.appendChild(toast);
+    setTimeout(function(){ if(toast && toast.parentNode) toast.parentNode.removeChild(toast); }, 1200);
+  }
+  document.addEventListener('DOMContentLoaded', function(){
+    /* Indici: nessun QR nel footer. QR riservati alle singole ricette. */
+
+    document.querySelectorAll('.js-print-link').forEach(function(a){
+      a.addEventListener('click', function(ev){ ev.preventDefault(); window.print(); });
+    });
+    document.querySelectorAll('.js-qr-lightbox').forEach(function(a){
+      a.addEventListener('click', function(ev){
+        ev.preventDefault();
+        openLightbox(a.getAttribute('href'), (a.querySelector('img')||{}).alt || 'QR della pagina');
+      });
+    });
+    document.querySelectorAll('.index-editorial-card img, .index-editorial-images img').forEach(function(img){
+      img.addEventListener('click', function(ev){
+        ev.preventDefault();
+        ev.stopPropagation();
+        window.setTimeout(function(){
+          openLightbox(img.currentSrc || img.src, img.alt || '');
+        }, 0);
+      });
+    });
+    document.querySelectorAll('.js-copy-link').forEach(function(a){
+      a.addEventListener('click', async function(ev){
+        ev.preventDefault();
+        try {
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            await navigator.clipboard.writeText(window.location.href);
+          } else {
+            var ta=document.createElement('textarea');
+            ta.value=window.location.href; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); ta.remove();
+          }
+          showCopyToast();
+        } catch(e) {}
+      });
+    });
+  });
+})();
+</script>
+<script src="../../../foto/ui/site-navigation.js?v=6002c756be3d"></script>
+</body>
+</html>

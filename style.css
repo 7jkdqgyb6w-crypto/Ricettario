@@ -170,6 +170,13 @@ dt{
   color: var(--muted);
 }
 
+.recipe-license-overlay{position:fixed;inset:0;background:#fff;z-index:10000;display:flex;flex-direction:column}
+.recipe-license-overlay.is-hidden{display:none}
+.recipe-license-bar{display:flex;align-items:center;gap:.75rem;padding:10px 14px;border-bottom:1px solid var(--line)}
+.recipe-license-title{margin-right:auto;color:var(--muted)}
+.recipe-license-frame{display:block;flex:1;width:100%;min-height:0;border:0}
+.recipe-license-hint{margin:.4rem .9rem;color:var(--muted);font-size:.82rem}
+
 .step-photo-large{
   width: 100%;
   max-width: none;
@@ -1598,7 +1605,7 @@ main.recipe-page .image-row.image-group-continuation{
 .index-editorial-html figure{margin:.2rem .7rem .7rem 0;display:inline-block;vertical-align:top;max-width:100%;box-sizing:border-box;}
 .index-editorial-html img{display:block;max-width:100%;height:auto;box-shadow:none;background:#fff;cursor:zoom-in;}
 .index-editorial-html figcaption{font-size:.84rem;color:#566064;margin-top:.25rem;line-height:1.25;}
-.index-editorial-html figure.step-photo,.index-editorial-html figure.step-photo-large,.index-editorial-html figure.step-photo-left,.index-editorial-html figure.step-photo-right{display:block;box-sizing:border-box;margin:.35rem 0 .8rem 0;}
+.index-editorial-html figure.step-photo,.index-editorial-html figure.step-photo-large,.index-editorial-html figure.step-photo-left,.index-editorial-html figure.step-photo-right{display:block;box-sizing:border-box;margin:0 0 .8rem 0;}
 .index-editorial-html figure.step-photo img,.index-editorial-html figure.step-photo-large img,.index-editorial-html figure.step-photo-left img,.index-editorial-html figure.step-photo-right img{width:100%;max-width:100%;height:auto;}
 .index-editorial-html figure.step-photo-large,.index-editorial-html figure.step-photo[data-align="center"],.index-editorial-html figure.step-photo-large[data-align="center"]{float:none;clear:both;margin-left:auto;margin-right:auto;}
 .index-editorial-html figure.step-photo[data-align="left"]{float:left;clear:left;margin-right:1rem;margin-left:0;}

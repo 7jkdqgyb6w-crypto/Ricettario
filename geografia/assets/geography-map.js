@@ -28,7 +28,7 @@
     return place.label + ' · ' + count + (count === 1 ? ' contenuto' : ' contenuti');
   }
 
-  function initialize(container, world, places) {
+  function initialize(container, world, places, regions) {
     var mode = container.dataset.mapMode || 'explorer';
     var section = container.closest('section') || container.parentElement;
     var controls = section && section.querySelector('[data-map-controls]');
@@ -198,15 +198,17 @@
 
     function draw() {
       var isMobileModal = container.classList.contains('is-mobile-map-modal');
-      var width = Math.max(mode === 'overview' ? 260 : 320, container.clientWidth || 900);
+      var width = Math.max(mode === 'territory' ? 180 : mode === 'overview' ? 260 : 320, container.clientWidth || 900);
       var narrow = width < 700;
       var height = isMobileModal
         ? Math.max(420, container.clientHeight || window.innerHeight - 56)
+        : mode === 'territory'
+        ? Math.max(150, Math.round(width * 3 / 4))
         : mode === 'overview'
         ? Math.max(170, Math.round(width / (narrow ? 1.75 : 2.75)))
         : Math.max(260, Math.round(width / (narrow ? 1.45 : 1.9)));
-      var filter = mode === 'overview' ? 'content' : controls.elements.corpus.value;
-      var view = mode === 'overview' ? 'world' : controls.elements.view.value;
+      var filter = mode === 'territory' ? 'all' : mode === 'overview' ? 'content' : controls.elements.corpus.value;
+      var view = mode === 'territory' ? 'territory' : mode === 'overview' ? 'world' : controls.elements.view.value;
       var visible = places.filter(function (place) {
         return place.coordinates && countFor(place, filter) > 0;
       });
@@ -233,6 +235,15 @@
         .attr('class', 'map-land')
         .attr('d', path);
 
+      var regionName = container.dataset.mapRegionName;
+      var region = regions && regionName
+        ? topojson.feature(regions, regions.objects.regions).features.find(function (feature) {
+          return feature.properties.reg_name === regionName;
+        }) : null;
+      if (region) {
+        layer.append('path').datum(region).attr('class', 'map-region').attr('d', path);
+      }
+
       var markers = layer.append('g').attr('class', 'map-markers');
       var links = markers.selectAll('a').data(visible).join('a')
         .attr('href', function (place) { return place.url; })
@@ -246,7 +257,7 @@
         .attr('class', 'map-marker-hit')
         .attr('cx', function (place) { return projection(place.coordinates)[0]; })
         .attr('cy', function (place) { return projection(place.coordinates)[1]; })
-        .attr('data-hit-radius', mode === 'overview' ? 18 : 20)
+        .attr('data-hit-radius', mode === 'overview' ? 18 : mode === 'territory' ? 10 : 20)
         .attr('r', function () { return this.getAttribute('data-hit-radius'); });
       links.append('circle')
         .attr('class', function (place) {
@@ -256,17 +267,19 @@
         .attr('cy', function (place) { return projection(place.coordinates)[1]; })
         .attr('data-base-radius', function (place) {
           var value = countFor(place, filter);
+          if (mode === 'territory') return 2;
           if (mode === 'overview') return Math.min(6.5, 2.6 + Math.sqrt(value) * 0.82);
           return filter === 'all' ? 4 : Math.min(13, 4 + Math.sqrt(value) * 1.45);
         })
         .attr('data-min-screen-radius', function (place) {
+          if (mode === 'territory') return 2;
           if (place.kind === 'stato') return 5;
           return mode === 'overview' ? 3.5 : 4;
         })
         .attr('r', function () { return this.getAttribute('data-base-radius'); });
       links.append('title').text(function (place) { return labelFor(place, filter); });
 
-      if (mode === 'explorer' || mode === 'overview') {
+      if (mode === 'explorer' || mode === 'overview' || mode === 'territory') {
         var zoom = d3.zoom()
           .scaleExtent([1, 320])
           .clickDistance(10)
@@ -292,12 +305,26 @@
           }
         });
         svg.call(zoom);
-        var spec = viewSpecs[view] || viewSpecs.world;
+        var focus = (container.dataset.mapFocus || '').split(',').map(Number);
+        var territorySpec = focus.length === 2 && focus.every(Number.isFinite)
+          ? { center: focus, scale: Number(container.dataset.mapScale) || 18 }
+          : viewSpecs['italy-adriatic'];
+        var spec = view === 'territory' ? territorySpec : viewSpecs[view] || viewSpecs.world;
         var projected = projection(spec.center);
-        var initial = d3.zoomIdentity
-          .translate(width / 2, height / 2)
-          .scale(spec.scale)
-          .translate(-projected[0], -projected[1]);
+        var initial;
+        if (region && view === 'territory') {
+          var bounds = path.bounds(region);
+          var regionWidth = bounds[1][0] - bounds[0][0];
+          var regionHeight = bounds[1][1] - bounds[0][1];
+          var regionScale = Math.min(width * .82 / regionWidth, height * .72 / regionHeight);
+          var regionCenter = [(bounds[0][0] + bounds[1][0]) / 2,
+                              (bounds[0][1] + bounds[1][1]) / 2];
+          initial = d3.zoomIdentity.translate(width / 2, height / 2)
+            .scale(regionScale).translate(-regionCenter[0], -regionCenter[1]);
+        } else {
+          initial = d3.zoomIdentity.translate(width / 2, height / 2)
+            .scale(spec.scale).translate(-projected[0], -projected[1]);
+        }
         svg.call(zoom.transform, initial);
         if (status && mode === 'explorer') {
           status.textContent = visible.length + (visible.length === 1 ? ' luogo visualizzato' : ' luoghi visualizzati') + ' · trascina o ingrandisci la mappa; seleziona un punto per aprire la voce.';
@@ -337,13 +364,15 @@
     containers.forEach(function (container) {
       var worldUrl = container.dataset.mapWorldUrl || '../assets/countries-110m.json';
       var dataUrl = container.dataset.mapJsonUrl;
-      var key = JSON.stringify([worldUrl, dataUrl]);
+      var regionUrl = container.dataset.mapRegionUrl || null;
+      var key = JSON.stringify([worldUrl, dataUrl, regionUrl]);
       if (!groups.has(key)) groups.set(key, []);
       groups.get(key).push(container);
     });
     groups.forEach(function (items, key) {
       var urls = JSON.parse(key);
-      Promise.all(urls.map(function (url) {
+      Promise.all(urls.map(function (url, index) {
+        if (!url && index === 2) return Promise.resolve(null);
         if (!url) return Promise.reject(new Error('Dati geografici non configurati'));
         return fetch(url).then(function (response) {
           if (!response.ok) throw new Error('Risorsa del planisfero non disponibile: ' + url);
@@ -351,7 +380,7 @@
         });
       }))
         .then(function (resources) {
-          items.forEach(function (container) { initialize(container, resources[0], resources[1]); });
+          items.forEach(function (container) { initialize(container, resources[0], resources[1], resources[2]); });
         })
         .catch(function (error) {
           items.forEach(function (container) {

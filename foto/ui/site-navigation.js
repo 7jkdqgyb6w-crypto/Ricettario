@@ -97,10 +97,21 @@
     });
   }
 
-  function initializePhotoRelatedSequence(sequence, chooseIndex) {
-    return initializeGroupedSequence(sequence, chooseIndex, {
-      group: 'photo-related-group', actions: 'photo-related-actions', item: 'photo-related-item'
+  function initializeInlineGallery(sequence) {
+    if (sequence.dataset.inlineGalleryReady === 'true') return;
+    var toggle = sequence.querySelector('[data-inline-gallery-toggle]');
+    var gallery = sequence.querySelector('[data-inline-gallery]');
+    if (!toggle || !gallery) return;
+    var groups = Array.prototype.slice.call(sequence.querySelectorAll('.place-corpus-group'));
+    var more = sequence.querySelector('.place-corpus-continue');
+    toggle.addEventListener('click', function () {
+      var opening = gallery.hidden;
+      gallery.hidden = !opening;
+      groups.forEach(function (group, index) { group.hidden = opening || index !== 0; });
+      if (more) more.hidden = opening;
+      toggle.textContent = opening ? 'Chiudi ↑' : 'Tutte';
     });
+    sequence.dataset.inlineGalleryReady = 'true';
   }
 
   function initializePlaceImages(nodes, chooseIndex) {
@@ -122,6 +133,7 @@
   }
 
   function setupVariablePresentations() {
+    document.querySelectorAll('[data-inline-gallery-sequence]').forEach(initializeInlineGallery);
     if (!window.crypto || typeof window.crypto.getRandomValues !== 'function') return;
     document.querySelectorAll('.transversal-continuation .story-sequence').forEach(function (sequence) {
       initializeStorySequence(sequence, cryptoIndex);
@@ -129,8 +141,8 @@
     document.querySelectorAll('.place-corpus-fotografie .place-corpus-sequence, .place-corpus-ricette .place-corpus-sequence').forEach(function (sequence) {
       initializePlaceCorpusSequence(sequence, cryptoIndex);
     });
-    document.querySelectorAll('.photo-related-albums .photo-related-sequence').forEach(function (sequence) {
-      initializePhotoRelatedSequence(sequence, cryptoIndex);
+    document.querySelectorAll('.photo-related-albums .place-corpus-sequence').forEach(function (sequence) {
+      initializePlaceCorpusSequence(sequence, cryptoIndex);
     });
     initializePlaceImages(document.querySelectorAll('.story-place[data-image-candidates]'), cryptoIndex);
   }
@@ -138,7 +150,6 @@
   window.RicettarioTransversalPresentation = Object.freeze({
     initializeSequence: initializeStorySequence,
     initializePlaceCorpusSequence: initializePlaceCorpusSequence,
-    initializePhotoRelatedSequence: initializePhotoRelatedSequence,
     initializePlaceImages: initializePlaceImages,
     shuffledCopy: shuffledCopy
   });
@@ -448,6 +459,71 @@
     setupMore(nav, more);
     setupFallbackSearch(search);
   }
+
+  // The same dead-end source viewer serves Recipes and Ingredient editorial links.
+  function ensureDocumentarySourceStyles() {
+    if (document.querySelector('link[data-documentary-source-styles]')) return;
+    var style = document.createElement('link');
+    style.rel = 'stylesheet';
+    style.href = '/foto/ui/source-viewer.css?v=1';
+    style.setAttribute('data-documentary-source-styles', '');
+    document.head.appendChild(style);
+  }
+
+  function openDocumentarySource(link) {
+    ensureDocumentarySourceStyles();
+    var overlay = document.getElementById('recipeLicenseOverlay');
+    if (overlay && !overlay.classList.contains('site-source-viewer')) {
+      overlay.remove();
+      overlay = null;
+    }
+    if (!overlay) {
+      overlay = document.createElement('div');
+      overlay.id = 'recipeLicenseOverlay';
+      overlay.className = 'recipe-license-overlay site-source-viewer is-hidden';
+      overlay.innerHTML = '<div class="site-source-viewer-panel" role="dialog" aria-modal="true" aria-label="Visualizzatore del Ricettario"><div class="site-source-viewer-bar"><div class="recipe-license-title"></div><a class="recipe-license-open" target="_blank" rel="noopener noreferrer">Apri la fonte separatamente</a><button type="button" class="recipe-license-close site-source-viewer-close">Chiudi</button></div><p class="recipe-license-hint">Fonte nel visualizzatore del Ricettario. Se il sito impedisce la visualizzazione qui, puoi aprirlo separatamente. Chiudi per tornare a questa pagina.</p><iframe class="recipe-license-frame" title="Fonte documentaria"></iframe></div>';
+      document.body.appendChild(overlay);
+      overlay.querySelector('.site-source-viewer-close').addEventListener('click', closeDocumentarySource);
+      overlay.addEventListener('click', function (event) {
+        if (event.target === overlay) closeDocumentarySource();
+      });
+      document.addEventListener('keydown', function (event) {
+        if (event.key === 'Escape' && !overlay.classList.contains('is-hidden')) closeDocumentarySource();
+      });
+    }
+    overlay.querySelector('.recipe-license-title').textContent = link.getAttribute('title') || link.textContent.trim() || 'Fonte documentaria';
+    overlay.querySelector('.recipe-license-open').href = link.href;
+    overlay.querySelector('.recipe-license-frame').src = link.href;
+    overlay._returnFocus = link;
+    overlay.classList.remove('is-hidden');
+    overlay.querySelector('.site-source-viewer-close').focus();
+  }
+
+  function closeDocumentarySource() {
+    var overlay = document.getElementById('recipeLicenseOverlay');
+    if (!overlay) return;
+    overlay.classList.add('is-hidden');
+    overlay.querySelector('.recipe-license-frame').src = 'about:blank';
+    if (overlay._returnFocus && overlay._returnFocus.isConnected) overlay._returnFocus.focus();
+  }
+
+  window.RicettarioDocumentarySource = { open: openDocumentarySource, close: closeDocumentarySource };
+  document.addEventListener('click', function (event) {
+    var link = event.target.closest && event.target.closest('a[href]');
+    if (!link) return;
+    var url = new URL(link.href, window.location.href);
+    if (!/^https?:$/.test(url.protocol)) return;
+    var license = link.matches('.cc-link');
+    var sourceScope = link.closest('.ingredient-opening, .ingredient-excellence, .recipe-content');
+    if (!license && !sourceScope) return;
+    if (!license && /(^|\.)(photos\.app\.goo\.gl|inao\.gouv\.fr)$/i.test(url.hostname)) return;
+    var external = url.origin !== window.location.origin;
+    var documentFile = /\.pdf$/i.test(url.pathname);
+    if (!license && !external && !documentFile) return;
+    event.preventDefault();
+    event.stopPropagation();
+    openDocumentarySource(link);
+  }, true);
 
   setupVariablePresentations();
   document.querySelectorAll('header.site-header').forEach(setupNavigation);
