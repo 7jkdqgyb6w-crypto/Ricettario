@@ -1603,7 +1603,8 @@ main.recipe-page .image-row.image-group-continuation{
 .recipe-index-media img{display:block;width:100%;max-width:100%;height:auto;box-shadow:none;background:#fff;}
 .index-editorial-html::after{content:"";display:block;clear:both;}
 .index-editorial-html figure{margin:.2rem .7rem .7rem 0;display:inline-block;vertical-align:top;max-width:100%;box-sizing:border-box;}
-.index-editorial-html img{display:block;max-width:100%;height:auto;box-shadow:none;background:#fff;cursor:zoom-in;}
+.index-editorial-html img{display:block;max-width:100%;height:auto;box-shadow:none;background:#fff;}
+.index-editorial-html figure a[href] img{cursor:pointer;}
 .index-editorial-html figcaption{font-size:.84rem;color:#566064;margin-top:.25rem;line-height:1.25;}
 .index-editorial-html figure.step-photo,.index-editorial-html figure.step-photo-large,.index-editorial-html figure.step-photo-left,.index-editorial-html figure.step-photo-right{display:block;box-sizing:border-box;margin:0 0 .8rem 0;}
 .index-editorial-html figure.step-photo img,.index-editorial-html figure.step-photo-large img,.index-editorial-html figure.step-photo-left img,.index-editorial-html figure.step-photo-right img{width:100%;max-width:100%;height:auto;}
