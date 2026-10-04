@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Come è costruito il Ricettario - Ricette (e altro) di Pierre</title>
+<meta name="description" content="Il Ricettario mette insieme attività diverse: consultare una preparazione, osservare fotografie, leggere un racconto, esplorare un territorio. La sua costruzione deve permettere di passare dall’una all’altra conservando un orientamento. Grafica e tecnologia concorrono allo stesso risultato: rendere leggibili i contenuti e comprensibili i rapporti che li collegano.">
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="Come è costruito il Ricettario">
+<meta property="og:description" content="Il Ricettario mette insieme attività diverse: consultare una preparazione, osservare fotografie, leggere un racconto, esplorare un territorio. La sua costruzione deve permettere di passare dall’una all’altra conservando un orientamento. Grafica e tecnologia concorrono allo stesso risultato: rendere leggibili i contenuti e comprensibili i rapporti che li collegano.">
+<meta property="og:url" content="https://ricette.pierre.piccotti.it/approfondimenti/come-costruito-il-ricettario/">
+<meta property="article:published_time" content="2026-09-27T12:25:55Z">
+<meta property="article:modified_time" content="2026-09-27T12:32:57Z">
+<link rel="canonical" href="https://ricette.pierre.piccotti.it/approfondimenti/come-costruito-il-ricettario/">
+<link rel="stylesheet" href="../../style.css?v=ROOT-R18-151">
+<link rel="stylesheet" href="../../foto/ui/site-navigation.css?v=ROOT-R18-149">
+
+<style>
+.article-shell{max-width:var(--reading);width:100%;margin:0 auto;}
+.article-header{margin:0 0 2rem;}
+.article-header h1{margin-bottom:.55rem;}
+.article-deck{font-size:1.08rem;color:var(--muted);max-width:46rem;}
+.article-body{line-height:1.62;}
+.article-body p{margin:.55rem 0;}
+.article-body ul,.article-body ol{margin:.7rem 0 1rem 1.4rem;}
+.article-body li{margin:.35rem 0;}
+.article-body h2{margin:2.2rem 0 .75rem;padding-top:.65rem;border-top:1px solid var(--line);}
+.article-body h3{margin:1.6rem 0 .55rem;}
+.article-body h4{margin:1.2rem 0 .45rem;}
+.article-body a{overflow-wrap:anywhere;}
+.article-body blockquote{margin:1.2rem 0;padding:.2rem 0 .2rem 1rem;border-left:3px solid var(--line);color:var(--muted);}
+.article-notes{margin-top:2.4rem;font-size:.92rem;}
+.note-marker{font-size:.72em;vertical-align:super;white-space:nowrap;}
+.article-note-reference{font-size:.75em;vertical-align:super;white-space:nowrap;}
+.article-note-reference a,.article-note-back{text-decoration:none;}
+.article-note-entry{clear:both;margin:.5rem 0;padding:.35rem .55rem .35rem 2.85rem;border-left:3px solid var(--line);position:relative;}
+.article-note-number{position:absolute;left:.7rem;font-weight:700;}
+.article-note-back{margin-left:.45rem;white-space:nowrap;}
+.article-note-reference:target,.article-note-entry:target{background:rgba(255,236,168,.55);}
+.table-scroll{overflow-x:auto;margin:1rem 0;}
+.article-body table{width:100%;border-collapse:collapse;background:#fff;font-size:.9rem;}
+.article-body th,.article-body td{border:1px solid var(--line);padding:.45rem .55rem;vertical-align:top;}
+.article-body hr{border:0;border-top:1px solid var(--line);margin:1.6rem 0;}
+.article-body figure{box-sizing:border-box;margin:1.2rem 0;max-width:100%;}
+.article-body figure img,.article-hero img{display:block;width:100%;height:auto;}
+.article-body figure>img,.article-hero>img{cursor:zoom-in;}
+.article-body figcaption,.article-hero figcaption{margin-top:.4rem;color:var(--muted);font-size:.9rem;font-style:italic;}
+.article-body .step-photo-left{float:left;margin:.4rem 1rem .7rem 0;}
+.article-body .step-photo-right{float:right;margin:.4rem 0 .7rem 1rem;}
+.article-body .step-photo-large{float:none;margin:1.2rem auto;}
+.article-body .image-row,.article-body .article-image-row{display:flex;align-items:flex-start;gap:.8rem;clear:both;}
+.article-body .image-row figure,.article-body .article-image-row figure{flex:1 1 0;float:none;margin:.8rem 0;}
+.article-body::after{content:"";display:block;clear:both;}
+.article-hero{margin:0 0 1.5rem;}
+.article-callout,.article-note{padding:1rem;border:1px solid var(--line);background:rgba(255,255,255,.55);margin:1rem 0;}
+.article-related{clear:both;margin-top:2.5rem;padding-top:1rem;border-top:1px solid var(--line);}
+.article-related>h2{margin:.2rem 0 1rem;}
+.article-related section{margin:.8rem 0;}
+.article-related h3{margin:0 0 .35rem;font-size:1rem;}
+.article-related ul{margin:.2rem 0 .8rem 1.2rem;}
+.article-backlinks{display:grid;grid-template-columns:repeat(auto-fit,minmax(12rem,1fr));gap:.25rem 1.4rem;padding:1rem 1.1rem;border:1px solid var(--line);background:rgba(255,255,255,.35);}
+.article-related+.article-backlinks{margin-top:1.35rem;}
+.article-backlinks>h2{grid-column:1/-1;font-size:1.25rem;}
+.article-backlinks section{margin:.25rem 0;}
+.article-index-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(17rem,1fr));gap:1rem;list-style:none;padding:0;margin:1.5rem 0 0;}
+.article-index-card{display:block;height:100%;box-sizing:border-box;padding:1rem;border:1px solid var(--line);background:rgba(255,255,255,.42);}
+.article-index-card:hover{text-decoration:none;background:rgba(255,255,255,.72);}
+.article-index-card strong{display:block;font-size:1.12rem;color:#566064;margin-bottom:.35rem;}
+.article-index-card span{display:block;color:var(--text);line-height:1.4;}
+@media(max-width:640px){.article-body{line-height:1.55}.article-body table{font-size:.82rem}.article-body th,.article-body td{padding:.35rem}.article-index-list{grid-template-columns:1fr}.article-body .step-photo-left,.article-body .step-photo-right{float:none!important;width:100%!important;max-width:100%!important;margin:1rem 0!important}.article-body .image-row,.article-body .article-image-row{display:grid;grid-template-columns:1fr}}
+</style>
+
+</head>
+<body>
+<div class="page">
+<header class="site-header">
+  <a class="brand" href="/">Ricette (e altro) di Pierre</a>
+  <nav><a aria-label="Torna agli approfondimenti" class="index-nav-back" href="../" title="Torna agli approfondimenti">←</a></nav>
+</header>
+<main class="article-shell">
+<article class="article-page"><header class="article-header"><h1>Come è costruito il Ricettario</h1><p class="article-deck">Il Ricettario mette insieme attività diverse: consultare una preparazione, osservare fotografie, leggere un racconto, esplorare un territorio. La sua costruzione deve permettere di passare dall’una all’altra conservando un orientamento. Grafica e tecnologia concorrono allo stesso risultato: rendere leggibili i contenuti e comprensibili i rapporti che li collegano.</p></header><div class="article-body"><p>Come è costruito il Ricettario<br/><strong>Una forma riconoscibile</strong></p><p>La coerenza grafica è una forma di continuità. Ritrovare gli stessi criteri per i titoli, i collegamenti e i comandi permette di riconoscere come funziona una pagina anche quando cambia ciò che contiene. Il lettore può dedicare attenzione alla ricetta o alla fotografia, perché ha già imparato dove cercare gli strumenti per proseguire.</p><p>Questo non richiede che tutte le pagine siano uguali. Una ricetta ha bisogno di rendere immediatamente distinguibili ingredienti e procedimento; un album deve lasciare spazio alle immagini; un approfondimento deve sostenere una lettura più distesa. La coerenza sta nel linguaggio comune che tiene insieme queste differenze: gerarchie dei testi, uso dei colori, posizione e comportamento degli elementi ricorrenti.</p><p>Nel Ricettario, questa riconoscibilità può diventare parte del racconto personale. La continuità visiva accompagna il passaggio fra cucina, luoghi e memoria, facendo percepire che appartengono alla stessa raccolta. La sua qualità si misura soprattutto nella facilità con cui si comprende dove ci si trova e quali possibilità offre la pagina.</p><p><strong>Lo spazio che permette di leggere</strong></p><p>Anche il vuoto organizza. La distanza fra un titolo e un paragrafo, il margine intorno a una fotografia, la separazione fra due gruppi di collegamenti indicano che cosa va letto insieme e dove comincia un argomento diverso. Lo spazio bianco non deve necessariamente essere bianco: è la parte della pagina lasciata libera affinché i contenuti possano distinguersi.</p><p>Una raccolta ricca di relazioni rende particolarmente importante questa scelta. Mostrare subito ogni informazione e ogni uscita possibile può rendere difficile capire da dove iniziare. Occorre decidere che cosa anticipare, che cosa sviluppare nella pagina dedicata e che cosa lasciare raggiungibile attraverso un collegamento. Il modello dell’indice Ingredienti esprime bene questo criterio: una presentazione sintetica introduce la voce; la pagina autonoma ospita il testo completo e la navigazione trasversale.</p><p>Il vuoto va però proporzionato alla lettura. Se allontana un comando dal contenuto cui si riferisce, o obbliga a scorrere a lungo per ritrovare il procedimento, smette di aiutare. La misura cambia fra uno schermo grande, un telefono e una pagina stampata: ciò che deve restare stabile è la chiarezza dei rapporti.</p><p><strong>La semplicità si costruisce</strong></p><p>Una pagina semplice è il risultato di molte decisioni: quali informazioni mostrare, quali termini usare, come rendere riconoscibile un collegamento, dove interrompere una sequenza. La sottrazione funziona quando conserva ciò che serve a capire e ad agire. Eliminare una spiegazione necessaria può rendere l’aspetto più pulito e l’esperienza più difficile.</p><p>Nel Ricettario la semplicità riguarda anche il significato. Ingrediente, Eccellenza e territorio devono restare distinguibili, pur essendo collegati. Una proposta di esplorazione deve lasciar capire perché viene mostrata. Il lettore non ha bisogno di conoscere le regole del grafo, ma deve poter riconoscere la differenza fra un contenuto locale e uno raggiunto attraverso un territorio più ampio.</p><p><strong>Il lavoro dietro le pagine</strong></p><p>Il sito utilizza pagine statiche e un CMS editoriale dedicato. Il CMS serve a organizzare il lavoro sui contenuti; i generatori trasformano testi, dati e relazioni nelle pagine destinate alla pubblicazione. La separazione fra contenuto e presentazione consente di applicare criteri comuni a molte pagine, conservando le caratteristiche delle diverse sezioni.</p><p>Statico descrive il modo in cui le pagine vengono preparate e distribuite: non esclude filtri, mappe e interazioni nel browser. La consultazione può essere articolata anche quando la pagina è stata generata in precedenza. Per spiegare il funzionamento concreto di questi strumenti occorrerà descriverne i componenti effettivamente utilizzati, senza confondere una possibilità tecnica con una funzione presente.</p><p>Il grafo geografico fornisce una struttura comune ai percorsi. Identifica i luoghi e conserva il tipo di relazione che li unisce; le regole di generazione usano questi dati per costruire collegamenti e proposte. Getty aiuta nella normalizzazione geografica. Per le Eccellenze, fonti come quelle ministeriali ed eAmbrosia documentano prodotti e riconoscimenti. La revisione editoriale decide quali informazioni e raccordi possono entrare nelle pagine.</p><p>Questa organizzazione sostiene anche la coerenza grafica. Se una struttura ricorrente cambia, la modifica può essere applicata nel componente che la genera, anziché ripetuta a mano su ogni pagina. Un errore comune va corretto alla sua origine. La pubblicazione diventa così un passaggio controllabile dal contenuto approvato alla sua rappresentazione sul sito.</p><p><strong>Dallo schermo alla cucina</strong></p><p>Sul sito il lettore può seguire collegamenti e cambiare percorso. Sulla carta ha soprattutto bisogno di ritrovare ingredienti, quantità e passaggi mentre cucina. La stampa richiede quindi una composizione adatta a quel compito. Anche l’adattamento ai diversi schermi deve rispettare le priorità del contenuto, mantenendo leggibili i testi e utilizzabili i comandi.</p><p>È qui che le scelte grafiche e tecnologiche trovano una verifica concreta: nella possibilità di leggere una ricetta senza perdere il punto, guardare una fotografia senza interferenze, seguire un collegamento sapendo dove conduce. Lo studio necessario per ottenere questa naturalezza resta in gran parte dietro le pagine; il suo risultato è il tempo che il lettore può dedicare a ciò che è venuto a cercare.</p></div></article>
+<footer class="site-footer recipe-footer">
+  <div class="site-footer-left">
+    <a class="cc-link site-footer-cc" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" aria-label="Licenza Creative Commons BY-NC-SA" title="Licenza Creative Commons BY-NC-SA">
+      <img src="../../foto/licenze/Cc-by-nc-sa_icon.svg" alt="Licenza Creative Commons BY-NC-SA">
+    </a>
+  </div>
+  <nav class="site-footer-center" aria-label="Strumenti pagina">
+    <a class="site-footer-text" href="../../informativa.html" aria-label="Informativa" title="Informativa"><img src="../../foto/ui/info-light.svg" alt=""></a>
+    <a class="site-footer-icon" href="../../scrivimi.html" aria-label="Scrivimi" title="Scrivimi"><img src="../../foto/ui/mail-light.svg" alt=""></a>
+    <a class="site-footer-icon js-print-link" href="#" aria-label="Stampa pagina" title="Stampa pagina"><img src="../../foto/ui/print-light.svg" alt=""></a>
+    <a class="site-footer-icon js-copy-link" href="#" aria-label="Copia link pagina" title="Copia link pagina"><img src="../../foto/ui/link-light.svg" alt=""></a>
+  </nav>
+  <div class="site-footer-right">
+    <a class="site-footer-qr-link recipe-qrcode-link" href="../../foto/approfondimenti/come-costruito-il-ricettario/qr-code.png" aria-label="Come è costruito il Ricettario" title="Come è costruito il Ricettario">
+      <img src="../../foto/approfondimenti/come-costruito-il-ricettario/qr-code.png" alt="Come è costruito il Ricettario" title="Come è costruito il Ricettario">
+    </a>
+  </div>
+</footer>
+</main>
+</div>
+<script id="site-footer-script">
+(function(){
+  function showCopyToast(){
+    var oldToast=document.querySelector('.site-copy-toast');
+    if(oldToast) oldToast.remove();
+    var toast=document.createElement('div');
+    toast.className='site-copy-toast';
+    toast.textContent='URL copiato';
+    document.body.appendChild(toast);
+    setTimeout(function(){ if(toast && toast.parentNode) toast.parentNode.removeChild(toast); },1200);
+  }
+  document.querySelectorAll('.js-print-link').forEach(function(link){
+    link.addEventListener('click',function(event){event.preventDefault();window.print();});
+  });
+  document.querySelectorAll('.js-copy-link').forEach(function(link){
+    link.addEventListener('click',async function(event){
+      event.preventDefault();
+      try{
+        if(navigator.clipboard && navigator.clipboard.writeText) await navigator.clipboard.writeText(window.location.href);
+        else{var field=document.createElement('textarea');field.value=window.location.href;document.body.appendChild(field);field.select();document.execCommand('copy');field.remove();}
+        showCopyToast();
+      }catch(error){}
+    });
+  });
+})();
+</script>
+<script id="article-lightbox-script">
+(function(){
+  var images=Array.from(document.querySelectorAll('.article-body figure > img, .article-hero > img'));
+  if(!images.length) return;
+  var lightbox=document.querySelector('.site-lightbox');
+  var lastFocus=null;
+  if(!lightbox){
+    lightbox=document.createElement('div');
+    lightbox.className='site-lightbox';
+    lightbox.setAttribute('role','dialog');
+    lightbox.setAttribute('aria-modal','true');
+    lightbox.setAttribute('aria-label','Immagine ingrandita');
+    lightbox.innerHTML='<button class="site-lightbox-close" type="button" aria-label="Chiudi">×</button><figure class="site-lightbox-frame"><img class="site-lightbox-image" alt=""><figcaption class="site-lightbox-caption"></figcaption></figure>';
+    document.body.appendChild(lightbox);
+  }
+  var zoomed=lightbox.querySelector('.site-lightbox-image');
+  var caption=lightbox.querySelector('.site-lightbox-caption');
+  var closeButton=lightbox.querySelector('.site-lightbox-close');
+  function close(){
+    if(!lightbox.classList.contains('is-open')) return;
+    lightbox.classList.remove('is-open');
+    zoomed.removeAttribute('src');
+    if(lastFocus && typeof lastFocus.focus==='function') lastFocus.focus();
+  }
+  function open(source){
+    var figure=source.closest('figure');
+    var figcaption=figure && figure.querySelector('figcaption');
+    var captionText=figcaption ? figcaption.textContent.trim() : '';
+    lastFocus=source;
+    zoomed.src=source.currentSrc || source.src;
+    zoomed.alt=source.alt || '';
+    caption.textContent=captionText;
+    caption.hidden=!captionText;
+    lightbox.classList.add('is-open');
+    closeButton.focus();
+  }
+  images.forEach(function(image){
+    var figure=image.closest('figure');
+    var figcaption=figure && figure.querySelector('figcaption');
+    var description=(figcaption && figcaption.textContent.trim()) || image.alt || 'immagine';
+    image.tabIndex=0;
+    image.setAttribute('role','button');
+    image.setAttribute('aria-label','Ingrandisci: '+description);
+    image.addEventListener('click',function(){open(image);});
+    image.addEventListener('keydown',function(event){
+      if(event.key==='Enter' || event.key===' '){event.preventDefault();open(image);}
+    });
+  });
+  lightbox.addEventListener('click',function(event){
+    if(event.target===lightbox || event.target===zoomed || event.target===closeButton) close();
+  });
+  document.addEventListener('keydown',function(event){
+    if(event.key==='Escape' && lightbox.classList.contains('is-open')) close();
+  });
+})();
+</script>
+<script src="../../foto/ui/site-navigation.js?v=01527c259c71"></script>
+</body>
+</html>

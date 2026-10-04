@@ -1,43 +1,137 @@
 {
   "aceto": {
     "titolo": "Aceto",
-    "html": "<p>In generale preferisco l'aceto che faccio in casa. Nell'apposito contenitore in vetro aggiungo periodicamente alla \"madre\" il vino rosso che avanza... e lascio riposare e trasformarsi per alcuni mesi. Poi di tanto in tanto estraggo l'aceto per riempire dei piccoli contenitori in vetro in cui conservo l'aceto.<br>Forse non è eccelso, ma sono certo che sia fatto con vino discreto.<br>Questo non ha nulla a che fare con l'Aceto Balsamico tradizionale di Modena, i cui usi sono molto specifici.</p><div data-consolidated-ingredient=\"aceto-balsamico-tradizionale-di-modena-dop\"><p><strong>Aceto Balsamico Tradizionale Di Modena Dop.</strong></p><p>Lo utilizzo raramente perché ritengo che solo pochi piatti meritano di essere accompagnati a questo nettare.<br>Ma ho la fortuna di essere amico di Roberto L. che lo produce per uso proprio...<br>Peraltro oltre al DOP per il \"Tradizionale\" vi è un IGP per un prodotto profumato ma molto diverso. Molto più economico, molto più \"aceto\".<br>Per il ricettario contemplo solo il DOP, ragione per cui indico solo questo prodotto. Senza certificazione si parla di altro. Non contemplo.</p><p><strong>Eccellenze.</strong></p><figure class=\"step-photo step-photo-large\" style=\"width: 152px; max-width: 100%;\"><img src=\"../foto/indici/ingredienti/aceto-balsamico-tradizionale-di-modena-dop/banner_tutela_internazionale_dop_.jpg\" width=\"152\"></figure><p><em>da </em><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/15453\" target=\"_blank\" rel=\"noopener noreferrer\"><em>Ministero dell'agricoltura, della sovranità alimentare e delle foreste</em></a><em> - Elenco e disciplinari DOP e IGP prodotti agricoli</em></p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/1%252Fa%252F1%252FD.87188f5f32d178a6d2ad/P/BLOB%3AID%3D3345/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Aceto balsamico di Modena IGP</strong></a></p><p>\"...L'«Aceto Balsamico di Modena» è un aceto prodotto nel rispetto delle seguenti disposizioni avente le caratteristiche elencate di seguito:</p><ul><li><p>limpidezza: limpido e brillante;</p></li><li><p>colore: bruno intenso;</p></li><li><p><strong>odore: caratteristico, persistente, intenso e delicato, gradevolmente acetico, con eventuali note legnose;</strong></p></li><li><p><strong>sapore: agrodolce, equilibrato, gradevole, caratteristico;</strong></p></li><li><p>densità a 20°C: non inferiore a 1,06 per il prodotto affinato e non inferiore a 1,15 per il prodotto «invecchiato» e a 1,25 per il prodotto «riserva»;</p></li><li><p>titolo alcolometrico effettivo: non superiore a 1,5% in volume;</p></li><li><p>estratto secco netto minimo: 30 gr per litro;</p></li><li><p>acidità totale minima: 6 per cento per il prodotto affinato e 5,5 per cento per i prodotti «invecchiato» e «riserva»;</p></li><li><p>anidride solforosa totale: massimo 100 mg/l;</p></li><li><p>ceneri: minimo 2,5 per mille;</p></li><li><p>zuccheri riduttori: minimo 110 g/l...\"</p></li></ul><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/3%252F7%252F2%252FD.1177bd227185c4fa4790/P/BLOB%3AID%3D3345/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Aceto balsamico tradizionale di Modena DOP</strong></a></p><figure class=\"step-photo step-photo-right\" style=\"width: 46%; max-width: 46%;\"><img src=\"../foto/indici/ingredienti/aceto-balsamico-tradizionale-di-modena-dop/aceto-balsamico-tradizionale-di-modena-versato-su-scaglia-parmigiano-reggiano.jpg\"></figure><p>\"...Art. 6. Caratteristiche al consumo<br>L'Aceto balsamico tradizionale di Modena, all'atto dell'immissione al consumo deve rispondere alle seguenti caratteristiche:</p><ul><li><p>colore: bruno scuro, carico e lucente;</p></li><li><p>densità : apprezzabile in una corretta, scorrevole sciropposità;</p></li><li><p><strong>profumo: bouquet caratteristico, fragrante, complesso ma bene amalgamato, penetrante e persistente, di evidente ma gradevole ed armonica acidità;</strong></p></li><li><p><strong>sapore: caratteristico del balsamico, così come attraverso i secoli è stato consacrato dalla tradizione in immutabile continuità , dolce e agro e ben equilibrato con apprezzabile acidità con lieve tangente di aromaticità ottenuta per influenza dei vari legni usati dei vaselli di acetaia, vivo, franco, pieno, vellutato, intenso e persistente, in buona sintonia con i caratteri olfattivi che gli sono propri;</strong></p></li><li><p>acidità totale: non inferiore a 4,5 gradi (espressa in grammi di acido acetico per 100 grammi di prodotto);</p></li><li><p>densità a 20 gradi centigradi: non inferiore a 1,240.</p></li></ul><p>L'accertamento delle caratteristiche analitiche ed organolettiche della denominazione è effettuato, su richiesta degli interessati, su tutte le partite prima dell'immissione al consumo...\"</p></div>",
+    "html": "<p>In generale preferisco l'aceto che faccio in casa. Nell'apposito contenitore in vetro aggiungo periodicamente alla \"madre\" il vino rosso che avanza... e lascio riposare e trasformarsi per alcuni mesi. Poi di tanto in tanto estraggo l'aceto per riempire dei piccoli contenitori in vetro in cui conservo l'aceto.<br>Forse non è eccelso, ma sono certo che sia fatto con vino discreto.<br>Questo non ha nulla a che fare con l'Aceto Balsamico tradizionale di Modena, i cui usi sono molto specifici.</p><p><strong>Aceto Balsamico Tradizionale Di Modena Dop.</strong></p><p>Lo utilizzo raramente perché ritengo che solo pochi piatti meritano di essere accompagnati a questo nettare.<br>Ma ho la fortuna di essere amico di Roberto L. che lo produce per uso proprio...<br>Peraltro oltre al DOP per il \"Tradizionale\" vi è un IGP per un prodotto profumato ma molto diverso. Molto più economico, molto più \"aceto\".<br>Per il ricettario contemplo solo il DOP, ragione per cui indico solo questo prodotto. Senza certificazione si parla di altro. Non contemplo.</p>",
+    "immagini": [
+      "../foto/indici/ingredienti/aceto/aceto-balsamico-tradizionale-di-modena-versato-su-scaglia-parmigiano-reggiano.jpg",
+      "../foto/indici/ingredienti/aceto/banner_tutela_internazionale_dop_.jpg",
+      "../foto/indici/ingredienti/aceto/qr-code.png"
+    ]
+  },
+  "aceto-balsamico-tradizionale-di-modena-dop": {
+    "titolo": "Aceto Balsamico Tradizionale Di Modena Dop",
     "immagini": [
       "../foto/indici/ingredienti/aceto-balsamico-tradizionale-di-modena-dop/aceto-balsamico-tradizionale-di-modena-versato-su-scaglia-parmigiano-reggiano.jpg",
       "../foto/indici/ingredienti/aceto-balsamico-tradizionale-di-modena-dop/banner_tutela_internazionale_dop_.jpg"
     ]
   },
+  "aceto-di-vino-bianco": {
+    "titolo": "Aceto Di Vino Bianco",
+    "immagini": [
+      "../foto/indici/ingredienti/aceto-di-vino-bianco/qr-code.png"
+    ]
+  },
   "aglio": {
     "titolo": "Aglio",
-    "html": "<p>Vi sono diverse varietà di aglio. Io in generale, forse per la mia storia, preferisco l'aglio \"di montagna\", a spicchi più piccoli e un profumo meno invasivo.</p><p><strong>Eccellenze.</strong></p><p><em>Da </em><a href=\"https://www.fondazioneslowfood.com/it/presidi-slow-food/\" target=\"_blank\" rel=\"noopener noreferrer\"><em>presidi Slow Food</em></a><em>:</em></p><p><a href=\"https://www.fondazioneslowfood.com/it/presidi-slow-food/aglio-storico-di-caraglio/\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Aglio storico di Caraglio, Piemonte</strong></a></p><p>\"... Presidio Slow Food della Valle Grana, in Piemonte, più precisamente in una <strong>zona pedemontana della provincia di Cuneo</strong> da sempre votata a questa coltivazione. I bulbi sono piccoli e affusolati, di colore bianco con striature color vinaccia: prima di poter essere consumati vengono fatti essiccare per almeno 40 giorni e sono delicati nel profumo e nel sapore, oltre a essere facilmente digeribili. Spazio all’uso in pilastri della cucina regionale quali bagna cauda e salsa verde....\"</p><p>Ma anche :</p><p><a href=\"https://www.fondazioneslowfood.com/it/presidi-slow-food/aglio-di-resia/\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Aglio di Resia</strong></a><strong> e </strong><a href=\"https://www.fondazioneslowfood.com/it/presidi-slow-food/aglio-rosso-di-nubia/\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Aglio rosso di Nubia</strong></a></p><p><em>da </em><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/15453\" target=\"_blank\" rel=\"noopener noreferrer\"><em>Ministero dell'agricoltura, della sovranità alimentare e delle foreste</em></a><em> - Elenco e disciplinari DOP e IGP prodotti agricoli</em></p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/4%252Fb%252Fb%252FD.b54abfdb3015b86d0a2f/P/BLOB%3AID%3D3343/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Aglio Bianco Polesano DOP</strong></a></p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/3%252F3%252F7%252FD.e771ec79985bf81f1a97/P/BLOB%3AID%3D3343/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Aglio di Voghiera DOP</strong></a></p><p><br></p>",
-    "immagini": []
+    "html": "<p>Vi sono diverse varietà di aglio. Io in generale, forse per la mia storia, preferisco l'aglio \"di montagna\", a spicchi più piccoli e un profumo meno invasivo.</p><p><br></p>",
+    "immagini": [
+      "../foto/indici/ingredienti/aglio/qr-code.png"
+    ]
   },
   "agnello": {
     "titolo": "Agnello",
     "html": "<p><strong>Eccellenze.</strong></p><p><em>dal </em><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/15453\" target=\"_blank\" rel=\"noopener noreferrer\"><em>Ministero dell&#x27;agricoltura, della sovranità alimentare e delle foreste</em></a><img src=\"../foto/indici/ingredienti/agnello/marchio-igp.jpg\" alt=\"IGP\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"></p><p><a href=\"https://www.masaf.gov.it/flex/files/b/e/0/D.2f20f02dbdef96f3ebe3/ABBACCHIO_ROMANO___DISCIPLINARE.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Abbacchio Romano IGP</strong></a></p><p><em>Dal disciplinare:</em> “Carne di agnelli nati, allevati e macellati nel Lazio, di colore rosa chiaro, con grasso di copertura bianco, tessitura fine e consistenza compatta, leggermente infiltrata di grasso.”</p><p><em>dal registro </em><a href=\"https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/\" target=\"_blank\" rel=\"noopener noreferrer\"><em>eAmbrosia - registro delle indicazioni geografiche dell&#x27;Unione europea</em></a><img src=\"../foto/indici/ingredienti/agnello/marchio-igp.jpg\" alt=\"IGP\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"></p><p><a href=\"https://agnellodelcentroitalia.it/la-filiera-igp/il-disciplinare/\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Agnello del Centro Italia IGP</strong></a></p><p><em>Dal disciplinare:</em> “Carne ottenuta da agnelli di età inferiore a dodici mesi, appartenenti alle tipologie leggero, pesante o castrato e allevati nell&#x27;area dell&#x27;Italia centrale definita dal disciplinare.”</p><p><a href=\"https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/13308\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Agnello di Sardegna IGP</strong></a></p><p><em>Dal disciplinare:</em> “Carne di agnelli nati e allevati in Sardegna, appartenenti alle tipologie da latte, leggero o da taglio. La carne è chiara, tenera e di tessitura fine, con odore delicato e sapore caratteristico.”</p>",
     "immagini": [
-      "../foto/indici/ingredienti/agnello/marchio-igp.jpg"
+      "../foto/indici/ingredienti/agnello/marchio-igp.jpg",
+      "../foto/indici/ingredienti/agnello/qr-code.png"
+    ]
+  },
+  "albume": {
+    "titolo": "Albume",
+    "immagini": [
+      "../foto/indici/ingredienti/albume/qr-code.png"
+    ]
+  },
+  "alici": {
+    "titolo": "Alici",
+    "immagini": [
+      "../foto/indici/ingredienti/alici/qr-code.png"
     ]
   },
   "alici-sotto-sale": {
     "titolo": "Alici Sotto Sale",
     "html": "<p>Alici e acciughe sono lo stesso pesce, <em>Engraulis encrasicolus</em>. Nell'uso comune tendo a parlare di <strong>alici</strong> quando sono fresche e di <strong>acciughe</strong> quando sono conservate, ma non si tratta di due specie differenti.</p><p>Nelle mie ricette, quando utilizzo le acciughe conservate, preferisco quasi sempre quelle <strong>sotto sale</strong> e di provenienza mediterranea. Non è soltanto una scelta di qualità: la conservazione modifica l'ingrediente e determina anche il modo in cui posso utilizzarlo.</p><p>Le acciughe sott'olio sono molto comode e sono ottime anche mangiate direttamente — con pane e burro le preferisco senz'altro così — ma in cucina scelgo quelle sotto sale. Posso dissalarle nella misura necessaria prima di utilizzarle, mentre un'acciuga già conservata nell'olio mi offre un controllo minore sulla sapidità finale del piatto.</p><p>Ho una preferenza personale per le acciughe mediterranee. Trovo spesso quelle del Cantabrico più grasse e untuose di quanto desideri nelle mie preparazioni; apprezzo invece molto quelle del Canale di Sicilia e, quando riesco a trovarle, le Acciughe sotto sale del Mar Ligure IGP.</p><p><strong>Non soltanto sale: l'umami</strong></p><p>L'acciuga sotto sale ha però per me un'importanza che va oltre il singolo ingrediente. In molte ricette non deve necessariamente essere riconosciuta come «gusto di acciuga»: sciogliendosi nel condimento contribuisce a costruire il gusto complessivo del piatto.</p><p>Qui entra in gioco l'<strong>umami</strong>, uno dei <a href=\"/approfondimenti/il-gusto\">gusti fondamentali</a> riconosciuti dalla fisiologia. È associato in particolare alla percezione del glutammato e di alcuni nucleotidi presenti negli alimenti ricchi di proteine e in molti prodotti trasformati, stagionati o fermentati.</p><p>È un argomento importante per questo ricettario perché mi obbliga a distinguere cose che nel linguaggio comune tendo facilmente a confondere. <strong>Gusto e sapore non sono sinonimi</strong>: ciò che percepisco mangiando nasce dall'interazione del gusto con l'olfatto e con altre sensazioni. Anche il piccante, per esempio, non è propriamente uno dei gusti fondamentali.</p><p>Le acciughe sono inoltre un esempio particolarmente evidente del ruolo dell'umami nella costruzione del sapore; ne parlo nell'approfondimento <a href=\"/approfondimenti/il-gusto\"><strong>Il gusto</strong></a><strong>.</strong></p><p>Per questo considero le acciughe un ingrediente particolarmente interessante: possono essere protagoniste, come nei <strong>bigoli in salsa</strong>, oppure quasi scomparire come ingrediente riconoscibile e contribuire alla profondità complessiva di una preparazione.</p><p><strong>Acciughe sotto sale del Mar Ligure IGP</strong></p><p>Tra le eccellenze italiane utilizzo come riferimento le <strong>Acciughe sotto sale del Mar Ligure IGP</strong>. La denominazione è effettivamente registrata come Indicazione Geografica Protetta e il disciplinare è pubblicato dal MASAF; la registrazione europea risale al 2008 e il disciplinare è stato successivamente modificato.</p><p>Il disciplinare riserva la denominazione alle acciughe della specie <em>Engraulis encrasicolus</em> pescate, lavorate e conservate sotto sale secondo le condizioni previste. Nel prodotto maturo prescrive, fra l'altro, carni morbide e compatte aderenti alla lisca, colore dal rosa al bruno e carni magre e poco untuose al palato.</p><p><strong>Eccellenze.</strong></p><p><em>da </em><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/15453\" target=\"_blank\" rel=\"noopener noreferrer\"><em>Ministero dell'agricoltura, della sovranità alimentare e delle foreste</em></a><em> - Elenco e disciplinari DOP e IGP prodotti agricoli</em></p><figure class=\"step-photo step-photo-right\" style=\"width: 46%; max-width: 46%;\"><img src=\"../foto/indici/ingredienti/alici-sotto-sale/alici-igp.jpg\"></figure><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/9%252Fa%252F5%252FD.b4b286b7d816763f1e30/P/BLOB%3AID%3D3344/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Acciughe sotto sale del Mar Ligure</strong></a><strong> IGP</strong></p><p><strong>\"ART. 2 - Descrizione del prodotto</strong></p><p>L’Indicazione Geografica Protetta (I.G.P.) \"Acciughe sotto sale del Mar Ligure”, viene riservata al prodotto ottenuto dalla lavorazione e successiva conservazione sotto sale delle acciughe. Le acciughe, riferite esclusivamente ad individui della specie Engraulis encrasicolus L., sono pesci migratori e gregari che transitano, dalla primavera all’autunno, in prossimità della costa ligure e in inverno si stanziano tra i 100 e 150 metri di profondità.</p><p>La taglia massima è di 20 centimetri di lunghezza.</p><p>Il prodotto definito maturo, cioè pronto per essere commercializzato dovrà presentare le seguenti caratteristiche:</p><p>Aspetto esterno: le acciughe devono risultare intere; la pelle, molto fine, deve risultare in parte ancora visibile;</p><p>Consistenza: i filetti devono risultare morbidi e compatti ed aderenti alla lisca;</p><p>Colore: differente a seconda della porzione del corpo varia dal rosa al bruno intenso;</p><p><strong>Sapore: asciutto, vivacemente sapido.</strong></p><p><strong>Le carni risultano magre, poco untuose al palato</strong>.\"</p>",
     "immagini": [
-      "../foto/indici/ingredienti/alici-sotto-sale/alici-igp.jpg"
+      "../foto/indici/ingredienti/alici-sotto-sale/alici-igp.jpg",
+      "../foto/indici/ingredienti/alici-sotto-sale/qr-code.png"
+    ]
+  },
+  "anatra": {
+    "titolo": "Anatra",
+    "immagini": [
+      "../foto/indici/ingredienti/anatra/qr-code.png"
+    ]
+  },
+  "arancia": {
+    "titolo": "Arancia",
+    "immagini": [
+      "../foto/indici/ingredienti/arancia/qr-code.png"
+    ]
+  },
+  "aringhe": {
+    "titolo": "Aringhe",
+    "immagini": [
+      "../foto/indici/ingredienti/aringhe/qr-code.png"
+    ]
+  },
+  "aringhe-sciocche-affumicate": {
+    "titolo": "Aringhe Sciocche Affumicate",
+    "immagini": [
+      "../foto/indici/ingredienti/aringhe-sciocche-affumicate/qr-code.png"
+    ]
+  },
+  "arista-di-maiale": {
+    "titolo": "Arista Di Maiale",
+    "immagini": [
+      "../foto/indici/ingredienti/arista-di-maiale/qr-code.png"
     ]
   },
   "barbera": {
     "titolo": "Barbera",
     "html": "<p><strong>Eccellenze.</strong></p><p><em>dal registro </em><a href=\"https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/\" target=\"_blank\" rel=\"noopener noreferrer\"><em>eAmbrosia - registro delle indicazioni geografiche dell&#x27;Unione europea</em></a><img src=\"../foto/indici/ingredienti/barbera/marchio-dop.jpg\" alt=\"DOP\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"></p><p><a href=\"https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/4382\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Barbera d&#x27;Asti DOP</strong></a></p><p><em>Dal disciplinare:</em> “DESCRIZIONE DEI VINI: Barbera d&#x27;Asti, Barbera d&#x27;Asti Superiore Domanda di una nuova modifica Barbera d&#x27;Asti (it) DOP - Denominazione di origine protetta 1. Vino Breve descrizione testuale colore: rosso rubino tendente al rosso granato con l&#x27;invecchiamento odore: intenso e caratteristico, tendente all&#x27;etereo con l&#x27;invecchiamento sapore: asciutto, tranquillo, di corpo, con adeguato invecchiamento più armonico, gradevole, di gusto pieno”</p><p><a href=\"https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/3751\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Barbera del Monferrato DOP</strong></a></p><p><em>Dal disciplinare:</em> “Vino ottenuto prevalentemente da uve Barbera, di colore rosso rubino, con profumo vinoso caratteristico e gusto asciutto, fresco e sapido; può presentarsi anche nella tipologia vivace o frizzante.”</p>",
     "immagini": [
-      "../foto/indici/ingredienti/barbera/marchio-dop.jpg"
+      "../foto/indici/ingredienti/barbera/marchio-dop.jpg",
+      "../foto/indici/ingredienti/barbera/qr-code.png"
     ]
   },
   "basilico": {
     "titolo": "Basilico",
     "html": "<p><strong>Eccellenze.</strong></p><p><em>dal </em><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/15453\" target=\"_blank\" rel=\"noopener noreferrer\"><em>Ministero dell&#x27;agricoltura, della sovranità alimentare e delle foreste</em></a><img src=\"../foto/indici/ingredienti/basilico/marchio-dop.jpg\" alt=\"DOP\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"></p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/1%252Fa%252F1%252FD.c7df33c091f212925a8b/P/BLOB%3AID%3D3343/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Basilico Genovese DOP</strong></a></p><p><em>Dal disciplinare:</em> “caratteristiche di seguito elencate: - pianta con altezza da media a molto alta e portamento espanso o cilindrico forma della foglia ellittica assenza totale di aroma di menta”</p>",
     "immagini": [
-      "../foto/indici/ingredienti/basilico/marchio-dop.jpg"
+      "../foto/indici/ingredienti/basilico/marchio-dop.jpg",
+      "../foto/indici/ingredienti/basilico/qr-code.png"
+    ]
+  },
+  "battuta-di-manzo": {
+    "titolo": "Battuta Di Manzo",
+    "immagini": [
+      "../foto/indici/ingredienti/battuta-di-manzo/qr-code.png"
+    ]
+  },
+  "beurre-disigny-aop": {
+    "titolo": "Beurre Disigny Aop",
+    "immagini": [
+      "../foto/indici/ingredienti/beurre-disigny-aop/beurre-isigny.jpg",
+      "../foto/indici/ingredienti/beurre-disigny-aop/marchio-aop.jpg",
+      "../foto/indici/ingredienti/beurre-disigny-aop/qr-code.png"
+    ]
+  },
+  "bigoli": {
+    "titolo": "Bigoli",
+    "immagini": [
+      "../foto/indici/ingredienti/bigoli/qr-code.png"
+    ]
+  },
+  "birra-ambrata": {
+    "titolo": "Birra Ambrata",
+    "immagini": [
+      "../foto/indici/ingredienti/birra-ambrata/qr-code.png"
+    ]
+  },
+  "birra-bionda": {
+    "titolo": "Birra Bionda",
+    "immagini": [
+      "../foto/indici/ingredienti/birra-bionda/qr-code.png"
     ]
   },
   "bottarga-di-muggine": {
@@ -45,53 +139,169 @@
     "html": "<p>Non esiste un DOP o un IGP per la Bottarga di muggine.<br>Ma Slow Food l'ha inserita fra i prodotti da salvare.<br>Si trova raramente in commercio.</p><p><strong>Sardegna</strong></p><p>Bottarga di muggine e pesca tradizionale dello stagno di Cabras</p><p><a href=\"https://www.slowfood.it/comunicati-stampa/da-cabras-oristano-un-nuovo-presidio-slow-food-tutela-la-bottarga-di-muggine-e-la-pesca-tradizionale-nello-stagno-di-cabras/\" target=\"_blank\" rel=\"noopener noreferrer\">Comunicato</a> – <a href=\"https://media.slowfood.it/Nuovi-Pres%C3%ACdi-Slow-Food/Pres%C3%ACdi-Slow-Food-del-mare/Bottarga-di-muggine-pesca-tradizionale-Stagno-di-Cabras\" target=\"_blank\" rel=\"noopener noreferrer\">Immagini</a> – <a href=\"https://www.fondazioneslowfood.com/it/presidi-slow-food/bottarga-di-muggine-e-pesca-tradizionale-dello-stagno-di-cabras/\" target=\"_blank\" rel=\"noopener noreferrer\">Scheda</a></p><p>A Cabras, nello Stagno che si apre a nord del Golfo di Oristano, la bottarga di muggine viene prodotta seguendo tecniche tradizionali che risalgono ai Fenici. I muggini vengono catturati nei lavorieri, impianti naturali che intrappolano il pesce, e le uova delle femmine vengono prelevate, salate e poi essiccate all’aria per conservarle. Oltre alla bottarga, il muggine viene valorizzato anche come merca, lessato e avvolto in foglie di <em>sa zibba</em>, e come <em>su pisci affumau</em>, filetti affumicati dopo salatura e asciugatura. La pesca e la trasformazione seguono metodi artigianali, rispettosi dell’ecosistema dello stagno e della stagionalità del pesce, garantendo un prodotto dal colore ambrato e dal sapore dolce, nettamente diverso da quello dei muggini importati dall’estero. Il progetto è sostenuto dal Gal Sinis e FLAG “Pescando”.</p>",
     "immagini": [
       "../foto/indici/ingredienti/bottarga-di-muggine/01.jpg",
-      "../foto/indici/ingredienti/bottarga-di-muggine/01.old.jpg"
+      "../foto/indici/ingredienti/bottarga-di-muggine/01.old.jpg",
+      "../foto/indici/ingredienti/bottarga-di-muggine/qr-code.png"
+    ]
+  },
+  "broccoli": {
+    "titolo": "Broccoli",
+    "immagini": [
+      "../foto/indici/ingredienti/broccoli/qr-code.png"
+    ]
+  },
+  "brodo": {
+    "titolo": "Brodo",
+    "immagini": [
+      "../foto/indici/ingredienti/brodo/qr-code.png"
+    ]
+  },
+  "brodo-di-carne": {
+    "titolo": "Brodo Di Carne",
+    "immagini": [
+      "../foto/indici/ingredienti/brodo-di-carne/qr-code.png"
+    ]
+  },
+  "brodo-vegetale": {
+    "titolo": "Brodo Vegetale",
+    "immagini": [
+      "../foto/indici/ingredienti/brodo-vegetale/qr-code.png"
     ]
   },
   "bucatini": {
     "titolo": "Bucatini",
     "immagini": [
       "../foto/indici/ingredienti/bucatini/eccellenza-pasta-di-gragnano-igp.jpg",
-      "../foto/indici/ingredienti/bucatini/marchio-igp.jpg"
+      "../foto/indici/ingredienti/bucatini/marchio-igp.jpg",
+      "../foto/indici/ingredienti/bucatini/qr-code.png"
     ]
   },
   "burro": {
     "titolo": "Burro",
     "immagini": [
       "../foto/indici/ingredienti/burro/marchio-dop.jpg",
-      "../foto/indici/ingredienti/burro-centrifugato/marchio-dop.jpg",
-      "../foto/indici/ingredienti/beurre-disigny-aop/beurre-isigny.jpg",
-      "../foto/indici/ingredienti/beurre-disigny-aop/marchio-aop.jpg"
+      "../foto/indici/ingredienti/burro/qr-code.png"
     ],
     "html": "<div data-consolidated-ingredient=\"beurre-disigny-aop\"><p><strong>Beurre d’Isigny AOP.</strong></p><p><strong>Eccellenze.</strong></p><p><em>dall’</em><a href=\"https://inao.gouv.fr/produit/beurre-disigny-12035\" target=\"_blank\" rel=\"noopener noreferrer\"><em>Institut national de l’origine et de la qualité (INAO)</em></a><img src=\"../foto/indici/ingredienti/beurre-disigny-aop/marchio-aop.jpg\" alt=\"AOP\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"></p><p><a href=\"https://inao.gouv.fr/produit/beurre-disigny-12035\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Beurre d’Isigny AOP</strong></a></p><figure class=\"step-photo step-photo-right\" style=\"width:320px;max-width:46%;\"><img src=\"../foto/indici/ingredienti/beurre-disigny-aop/beurre-isigny.jpg\" alt=\"Confezione di Beurre d’Isigny AOP\"><figcaption>Beurre d’Isigny. Foto di <a href=\"https://commons.wikimedia.org/wiki/File:Beurre_d%27Isigny_(25360349311).jpg\" target=\"_blank\" rel=\"noopener noreferrer\">Edsel Little, Wikimedia Commons</a>, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\" target=\"_blank\" rel=\"noopener noreferrer\">CC BY-SA 2.0</a>.</figcaption></figure><p><em>Caratteristiche:</em> burro da panna maturata lentamente, di colore dall’avorio al giallo “bottone d’oro”, con consistenza morbida e aromi frequenti di panna fresca e nocciola. È prodotto dolce o salato ed è disponibile anche come burro da tourage per pasticceria e pasta sfoglia.</p></div>"
+  },
+  "burro-centrifugato": {
+    "titolo": "Burro Centrifugato",
+    "immagini": [
+      "../foto/indici/ingredienti/burro-centrifugato/marchio-dop.jpg"
+    ]
+  },
+  "calamari": {
+    "titolo": "Calamari",
+    "immagini": [
+      "../foto/indici/ingredienti/calamari/qr-code.png"
+    ]
+  },
+  "cannella": {
+    "titolo": "Cannella",
+    "immagini": [
+      "../foto/indici/ingredienti/cannella/qr-code.png"
+    ]
+  },
+  "canoccia": {
+    "titolo": "Canoccia",
+    "immagini": [
+      "../foto/indici/ingredienti/canoccia/qr-code.png"
+    ]
   },
   "capperi": {
     "titolo": "Capperi",
     "immagini": [
+      "../foto/indici/ingredienti/capperi/Galleria_Cappero-di-Pantelleria_11.jpg",
       "../foto/indici/ingredienti/capperi/marchio-dop.jpg",
       "../foto/indici/ingredienti/capperi/marchio-igp.jpg",
       "../foto/indici/ingredienti/capperi/marchio-prodotto-cappero-delle-isole-eolie-dop.png",
-      "../foto/indici/ingredienti/capperi-di-pantelleria-dop/Galleria_Cappero-di-Pantelleria_11.jpg",
+      "../foto/indici/ingredienti/capperi/qr-code.png"
+    ],
+    "html": "<div data-consolidated-ingredient=\"capperi-di-pantelleria-igp\"><p><strong>Capperi di Pantelleria IGP.</strong></p><p><strong>Eccellenze.</strong></p><p><em>dal </em><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/15453\" target=\"_blank\" rel=\"noopener noreferrer\"><em>Ministero dell’agricoltura, della sovranità alimentare e delle foreste</em></a><img src=\"../foto/indici/ingredienti/capperi/marchio-igp.jpg\" alt=\"IGP\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"></p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/f%252F2%252F3%252FD.6d29fd47d84b453e2089/P/BLOB%3AID%3D3343/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Cappero di Pantelleria IGP</strong></a></p><figure class=\"step-photo step-photo-right\" style=\"width:280px;max-width:46%;\"><img src=\"../foto/indici/ingredienti/capperi-di-pantelleria-igp/Galleria_Cappero-di-Pantelleria_11.jpg\" alt=\"Capperi di Pantelleria conservati sotto sale\"></figure><p><em>Dal disciplinare:</em> bocciolo fiorale di <em>Capparis spinosa</em> della cultivar Nocellara, coltivato a Pantelleria e conservato sotto sale. È verde tendente al senape, consistente, carnoso e particolarmente aromatico.</p></div>"
+  },
+  "capperi-di-pantelleria-dop": {
+    "titolo": "Capperi Di Pantelleria Dop",
+    "immagini": [
+      "../foto/indici/ingredienti/capperi-di-pantelleria-dop/Galleria_Cappero-di-Pantelleria_11.jpg"
+    ]
+  },
+  "capperi-di-pantelleria-igp": {
+    "titolo": "Capperi Di Pantelleria Igp",
+    "immagini": [
       "../foto/indici/ingredienti/capperi-di-pantelleria-igp/Galleria_Cappero-di-Pantelleria_11.jpg",
       "../foto/indici/ingredienti/capperi-di-pantelleria-igp/marchio-dop.jpg",
       "../foto/indici/ingredienti/capperi-di-pantelleria-igp/marchio-igp.jpg",
       "../foto/indici/ingredienti/capperi-di-pantelleria-igp/marchio-prodotto-cappero-delle-isole-eolie-dop.png"
-    ],
-    "html": "<div data-consolidated-ingredient=\"capperi-di-pantelleria-igp\"><p><strong>Capperi di Pantelleria IGP.</strong></p><p><strong>Eccellenze.</strong></p><p><em>dal </em><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/15453\" target=\"_blank\" rel=\"noopener noreferrer\"><em>Ministero dell’agricoltura, della sovranità alimentare e delle foreste</em></a><img src=\"../foto/indici/ingredienti/capperi/marchio-igp.jpg\" alt=\"IGP\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"></p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/f%252F2%252F3%252FD.6d29fd47d84b453e2089/P/BLOB%3AID%3D3343/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Cappero di Pantelleria IGP</strong></a></p><figure class=\"step-photo step-photo-right\" style=\"width:280px;max-width:46%;\"><img src=\"../foto/indici/ingredienti/capperi-di-pantelleria-igp/Galleria_Cappero-di-Pantelleria_11.jpg\" alt=\"Capperi di Pantelleria conservati sotto sale\"></figure><p><em>Dal disciplinare:</em> bocciolo fiorale di <em>Capparis spinosa</em> della cultivar Nocellara, coltivato a Pantelleria e conservato sotto sale. È verde tendente al senape, consistente, carnoso e particolarmente aromatico.</p></div>"
+    ]
   },
   "carciofi": {
     "titolo": "Carciofi",
     "html": "<p><strong>Eccellenze.</strong></p><p><em>dal </em><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/15453\" target=\"_blank\" rel=\"noopener noreferrer\"><em>Ministero dell&#x27;agricoltura, della sovranità alimentare e delle foreste</em></a><img src=\"../foto/indici/ingredienti/carciofi/marchio-dop.jpg\" alt=\"DOP\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"><img src=\"../foto/indici/ingredienti/carciofi/marchio-igp.jpg\" alt=\"IGP\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"></p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/4%252F2%252F2%252FD.7a1c0ed72668b8dab749/P/BLOB%3AID%3D3343/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Carciofo Brindisino IGP</strong></a></p><p><em>Dal disciplinare:</em> “L’Indicazione Geografica Protetta (IGP) “Carciofo Brindisino” designa i carciofi della specie Cynara cardunculus subsp. Le caratteristiche morfologiche della pianta del “Carciofo Brindisino” sono rappresentate da taglia di altezza media con elevata attitudine pollonifera, foglie di colore verde, inermi con eterofillia elevata. Il “ Carciofo Brindisino” ammesso a tutela, all’atto dell’immissione al consumo, deve avere le seguenti caratteristiche: - capolino di forma cilindrica, con altezza minima di 8 cm e diametro minimo di 6, mediamente compatto, brattee esterne di colore verde con sfumature violette, ad apice arrotondato intero o lievemente inciso, inerme o talvolta con una piccola spina”</p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/5%252Fa%252Fa%252FD.b7a3f78681f9c4deead8/P/BLOB%3AID%3D3343/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Carciofo di Paestum IGP</strong></a></p><p><em>Dal disciplinare:</em> “pezzatura media (non più di 4 capolini con gambo per Kg. capolini di forma sub-sferica, compatta, con caratteristico foro all&#x27;apice”</p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/6%252Fa%252F1%252FD.3d759e4d65ebf9f376b7/P/BLOB%3AID%3D3343/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Carciofo Romanesco del Lazio IGP</strong></a></p><p><em>Dal disciplinare:</em> “Descrizione) Le cultivar di &quot;Carciofo Romanesco del Lazio&quot; da inserire nella piattaforma varietale vengono di seguito descritte, CASTELLAMMARE E RELATIVI CLONI a) caratteristiche morfologiche Pianta: taglia media o grande, altezza inserzione capolino principale intomo ai cm 30, portamento espanso, attitudine pollonifera media Foglia: colore verde scuro, inerme, dimensioni grandi, eterofillia media Capolino Principale: sferico, compatto, con caratteristico foro all&#x27;apice, dimensioni grandi, brattee esteme di colore verde con sfiunature violette, ad”</p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/0%252F0%252Fd%252FD.cdad71c75174ff320329/P/BLOB%3AID%3D3343/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Carciofo Spinoso di Sardegna DOP</strong></a></p><p><em>Dal disciplinare:</em> “Il “Carciofo Spinoso di Sardegna” proviene da coltivazioni dell’ecotipo locale “S pinoso Sardo” riconducibili alla specie botanica “ Cynara scolymus ” e si caratterizza per le peculiarità morfologiche indicate di seguito: Pianta poliennale rizomatosa di taglia media con inserzione del capolino principale ad un’altezza che varia dai 45 ai 70 cm, portamento assurgente, attitudine pollonifera elevata, produzione scalare. Foglia di colore verde spinescente di dimensioni medie ed eterofillia elevata che si manifesta con la presenza di numerose foglie a lamina intera ed altre foglie lobate o più frequentemente pennatosette.”</p>",
     "immagini": [
       "../foto/indici/ingredienti/carciofi/marchio-dop.jpg",
-      "../foto/indici/ingredienti/carciofi/marchio-igp.jpg"
+      "../foto/indici/ingredienti/carciofi/marchio-igp.jpg",
+      "../foto/indici/ingredienti/carciofi/qr-code.png"
     ]
   },
   "cardo-bianco-gobbo": {
     "titolo": "Cardo Bianco Gobbo",
     "html": "<p>Solo da alcuni anni sembra sempre meno presente ai mercati, eppure era stato recentemente scoperto anche fuori dal Piemonte.<br>Eccellenze:</p><p><strong>Presidio Slow Food:</strong><br><a href=\"https://www.fondazioneslowfood.com/it/presidi-slow-food/cardo-gobbo-di-nizza-monferrato/\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Cardo gobbo di Nizza Monferrato</strong></a></p><figure class=\"step-photo step-photo-left\" style=\"width: 50%; max-width: 50%;\"><img src=\"../foto/indici/ingredienti/cardo-bianco-gobbo/cardo-gobbo-nizza.jpg\"></figure><p>\"...A settembre, quando sono già alti e rigogliosi, sono piegati e ricoperti di terra. È qui che, tentando di liberarsi per ritrovare la luce, si gonfiano e si incurvano trasformandosi in cardi gobbi; è qui che le coste perdono ogni traccia di clorofilla, diventando bianchissime e tenere. Dopo un mese l’imbianchimento è compiuto: si dissotterrano i cardi, si eliminano le foglie esterne e le coste rovinate con la purinetta (una roncola lunga e sottile) e si tiene il cuore. Basta risciacquarli con un po’ d’acqua e sono pronti: straordinariamente croccanti e dolci. Tutti i cardi si mangiano cotti, soltanto il cardo gobbo di Nizza Monferrato è buono crudo, ingrediente fondamentale di uno dei piatti simbolo della gastronomia piemontese; la bagna cauda, salsa bollente a base di aglio, olio extravergine e acciughe....\"<br></p>",
     "immagini": [
-      "../foto/indici/ingredienti/cardo-bianco-gobbo/cardo-gobbo-nizza.jpg"
+      "../foto/indici/ingredienti/cardo-bianco-gobbo/cardo-gobbo-nizza.jpg",
+      "../foto/indici/ingredienti/cardo-bianco-gobbo/qr-code.png"
+    ]
+  },
+  "carne-di-bue-grasso-di-carru": {
+    "titolo": "Carne Di Bue Grasso Di Carru",
+    "immagini": [
+      "../foto/indici/ingredienti/carne-di-bue-grasso-di-carru/qr-code.png"
+    ]
+  },
+  "carota": {
+    "titolo": "Carota",
+    "immagini": [
+      "../foto/indici/ingredienti/carota/qr-code.png"
+    ]
+  },
+  "carote": {
+    "titolo": "Carote",
+    "immagini": [
+      "../foto/indici/ingredienti/carote/qr-code.png"
+    ]
+  },
+  "carpaccio-di-manzo": {
+    "titolo": "Carpaccio Di Manzo",
+    "immagini": [
+      "../foto/indici/ingredienti/carpaccio-di-manzo/qr-code.png"
+    ]
+  },
+  "carre-di-maiale-affumicato": {
+    "titolo": "Carre Di Maiale Affumicato",
+    "immagini": [
+      "../foto/indici/ingredienti/carre-di-maiale-affumicato/qr-code.png"
+    ]
+  },
+  "cavolfiore": {
+    "titolo": "Cavolfiore",
+    "immagini": [
+      "../foto/indici/ingredienti/cavolfiore/qr-code.png"
+    ]
+  },
+  "cavolo": {
+    "titolo": "Cavolo",
+    "immagini": [
+      "../foto/indici/ingredienti/cavolo/qr-code.png"
+    ]
+  },
+  "cavolo-rosso": {
+    "titolo": "Cavolo Rosso",
+    "immagini": [
+      "../foto/indici/ingredienti/cavolo-rosso/qr-code.png"
+    ]
+  },
+  "cime-di-rapa": {
+    "titolo": "Cime Di Rapa",
+    "immagini": [
+      "../foto/indici/ingredienti/cime-di-rapa/qr-code.png"
     ]
   },
   "cipolla": {
@@ -102,43 +312,287 @@
       "../foto/indici/ingredienti/cipolla/eccellenza-cipolla-di-giarratana.jpg",
       "../foto/indici/ingredienti/cipolla/marchio-igp.jpg",
       "../foto/indici/ingredienti/cipolla/marchio-presidio-slow-food.png",
-      "../foto/indici/ingredienti/cipolla-bianca/marchio-igp.jpg",
+      "../foto/indici/ingredienti/cipolla/qr-code.png"
+    ]
+  },
+  "cipolla-bianca": {
+    "titolo": "Cipolla Bianca",
+    "immagini": [
+      "../foto/indici/ingredienti/cipolla-bianca/marchio-igp.jpg"
+    ]
+  },
+  "cipolla-viola": {
+    "titolo": "Cipolla Viola",
+    "immagini": [
       "../foto/indici/ingredienti/cipolla-viola/marchio-igp.jpg"
+    ]
+  },
+  "cipollotti": {
+    "titolo": "Cipollotti",
+    "immagini": [
+      "../foto/indici/ingredienti/cipollotti/qr-code.png"
+    ]
+  },
+  "concentrato-di-pomodoro": {
+    "titolo": "Concentrato Di Pomodoro",
+    "immagini": [
+      "../foto/indici/ingredienti/concentrato-di-pomodoro/qr-code.png"
+    ]
+  },
+  "conchiglie": {
+    "titolo": "Conchiglie",
+    "immagini": [
+      "../foto/indici/ingredienti/conchiglie/qr-code.png"
+    ]
+  },
+  "coniglio": {
+    "titolo": "Coniglio",
+    "immagini": [
+      "../foto/indici/ingredienti/coniglio/qr-code.png"
+    ]
+  },
+  "coriandolo": {
+    "titolo": "Coriandolo",
+    "immagini": [
+      "../foto/indici/ingredienti/coriandolo/qr-code.png"
+    ]
+  },
+  "corteccia": {
+    "titolo": "Corteccia",
+    "immagini": [
+      "../foto/indici/ingredienti/corteccia/qr-code.png"
+    ]
+  },
+  "cosciotto-dagnello": {
+    "titolo": "Cosciotto Dagnello",
+    "immagini": [
+      "../foto/indici/ingredienti/cosciotto-dagnello/qr-code.png"
     ]
   },
   "cotechino-di-suino": {
     "titolo": "Cotechino di suino",
     "html": "<p><strong>Eccellenze.</strong></p><p><em>dal </em><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/15453\" target=\"_blank\" rel=\"noopener noreferrer\"><em>Ministero dell&#x27;agricoltura, della sovranità alimentare e delle foreste</em></a><img src=\"../foto/indici/ingredienti/cotechino-di-suino/marchio-igp.jpg\" alt=\"IGP\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"></p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/b%252Fe%252F5%252FD.54e0f764a95944a2b7fb/P/BLOB%3AID%3D3339/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Cotechino Modena IGP</strong></a></p><p><em>Dal disciplinare:</em> “Insaccato di carni suine ottenuto da muscoli striati, grasso e cotenna, insaporiti secondo il disciplinare. Dopo la cottura la fetta è compatta e uniforme, di colore rosato tendente al rosso, con consistenza morbida e gusto caratteristico.”</p>",
     "immagini": [
-      "../foto/indici/ingredienti/cotechino-di-suino/marchio-igp.jpg"
+      "../foto/indici/ingredienti/cotechino-di-suino/marchio-igp.jpg",
+      "../foto/indici/ingredienti/cotechino-di-suino/qr-code.png"
+    ]
+  },
+  "cotenna-di-maiale": {
+    "titolo": "Cotenna Di Maiale",
+    "immagini": [
+      "../foto/indici/ingredienti/cotenna-di-maiale/qr-code.png"
+    ]
+  },
+  "cous-cous": {
+    "titolo": "Cous Cous",
+    "immagini": [
+      "../foto/indici/ingredienti/cous-cous/qr-code.png"
     ]
   },
   "cozze": {
     "titolo": "Cozze",
     "html": "<p><strong>Eccellenze.</strong></p><p><em>dal </em><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/15453\" target=\"_blank\" rel=\"noopener noreferrer\"><em>Ministero dell&#x27;agricoltura, della sovranità alimentare e delle foreste</em></a><img src=\"../foto/indici/ingredienti/cozze/marchio-dop.jpg\" alt=\"DOP\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"></p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/e%252F2%252F7%252FD.43d02133ce19f479252b/P/BLOB%3AID%3D3344/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Cozza di Scardovari DOP</strong></a></p><p><em>Dal disciplinare:</em> “Caratteristiche biologiche La “Cozza di Scardovari” è un mollusco bivalve dalla forma allungata e dotato di una conchiglia colore nero -violaceo. Le valve sono bombate, uguali di forma quasi triangolare e presentano sottili striature concentriche. All’interno il colore è viola -madreperlaceo e questo può variare in relazione al ciclo produttivo ed al sesso. Le valve si chiudono grazie a muscoli adduttori, ad una cerniera e ad un legamento elastico, stretto allungato di colore brunastro. Caratteristiche chimico-fisiche e organolettiche La Cozza di Scardovari presenta le seguenti peculiarità derivanti dall’ambiente di produzione quali:  indice di condizione…”</p>",
     "immagini": [
-      "../foto/indici/ingredienti/cozze/marchio-dop.jpg"
+      "../foto/indici/ingredienti/cozze/marchio-dop.jpg",
+      "../foto/indici/ingredienti/cozze/qr-code.png"
+    ]
+  },
+  "crauti": {
+    "titolo": "Crauti",
+    "immagini": [
+      "../foto/indici/ingredienti/crauti/qr-code.png"
+    ]
+  },
+  "cubetti-di-pane-abbrustoliti": {
+    "titolo": "Cubetti Di Pane Abbrustoliti",
+    "immagini": [
+      "../foto/indici/ingredienti/cubetti-di-pane-abbrustoliti/qr-code.png"
+    ]
+  },
+  "cumino": {
+    "titolo": "Cumino",
+    "immagini": [
+      "../foto/indici/ingredienti/cumino/qr-code.png"
+    ]
+  },
+  "cuore-di-sedano": {
+    "titolo": "Cuore Di Sedano",
+    "immagini": [
+      "../foto/indici/ingredienti/cuore-di-sedano/qr-code.png"
+    ]
+  },
+  "cura-ao": {
+    "titolo": "Cura Ao",
+    "immagini": [
+      "../foto/indici/ingredienti/cura-ao/qr-code.png"
+    ]
+  },
+  "curcuma": {
+    "titolo": "Curcuma",
+    "immagini": [
+      "../foto/indici/ingredienti/curcuma/qr-code.png"
+    ]
+  },
+  "erbe-provenzali": {
+    "titolo": "Erbe Provenzali",
+    "immagini": [
+      "../foto/indici/ingredienti/erbe-provenzali/qr-code.png"
+    ]
+  },
+  "fagioli-bianchi-e-rossi": {
+    "titolo": "Fagioli Bianchi E Rossi",
+    "immagini": [
+      "../foto/indici/ingredienti/fagioli-bianchi-e-rossi/qr-code.png"
     ]
   },
   "fagioli-di-lamon": {
     "titolo": "Fagioli di Lamon",
     "html": "<p><strong>Eccellenze.</strong></p><p><em>dal </em><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/15453\" target=\"_blank\" rel=\"noopener noreferrer\"><em>Ministero dell&#x27;agricoltura, della sovranità alimentare e delle foreste</em></a><img src=\"../foto/indici/ingredienti/fagioli-di-lamon/marchio-igp.jpg\" alt=\"IGP\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"></p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/e%252F7%252F7%252FD.4bfd25ad1f135cdc7384/P/BLOB%3AID%3D3343/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Fagiolo di Lamon della Vallata Bellunese IGP</strong></a></p><p><em>Dal disciplinare:</em> “DESCRIZIONE: Il Fagiolo di Lamon della Vallata Bellunşe si distingue in quattro ecotipi principali: Spagnolo, Spagnolit, Calonega, Canalino. 1 - Il tipo Spagnolo è di forma ovoidale e possiede una buccia abbastanaza fine 2-11 tipo Spagnolit si presenta con una forma piuttosto rotondeggiante”</p>",
     "immagini": [
-      "../foto/indici/ingredienti/fagioli-di-lamon/marchio-igp.jpg"
+      "../foto/indici/ingredienti/fagioli-di-lamon/marchio-igp.jpg",
+      "../foto/indici/ingredienti/fagioli-di-lamon/qr-code.png"
+    ]
+  },
+  "fagiolini-verdi": {
+    "titolo": "Fagiolini Verdi",
+    "immagini": [
+      "../foto/indici/ingredienti/fagiolini-verdi/qr-code.png"
+    ]
+  },
+  "farina": {
+    "titolo": "Farina",
+    "immagini": [
+      "../foto/indici/ingredienti/farina/qr-code.png"
+    ]
+  },
+  "farina-di-frumento-00": {
+    "titolo": "Farina Di Frumento 00",
+    "immagini": [
+      "../foto/indici/ingredienti/farina-di-frumento-00/qr-code.png"
+    ]
+  },
+  "fegatini-di-pollo": {
+    "titolo": "Fegatini Di Pollo",
+    "immagini": [
+      "../foto/indici/ingredienti/fegatini-di-pollo/qr-code.png"
+    ]
+  },
+  "fegato": {
+    "titolo": "Fegato",
+    "immagini": [
+      "../foto/indici/ingredienti/fegato/qr-code.png"
+    ]
+  },
+  "fegato-di-anatra": {
+    "titolo": "Fegato Di Anatra",
+    "immagini": [
+      "../foto/indici/ingredienti/fegato-di-anatra/qr-code.png"
+    ]
+  },
+  "fegato-di-vitello": {
+    "titolo": "Fegato Di Vitello",
+    "immagini": [
+      "../foto/indici/ingredienti/fegato-di-vitello/qr-code.png"
+    ]
+  },
+  "fesa-di-tacchino": {
+    "titolo": "Fesa Di Tacchino",
+    "immagini": [
+      "../foto/indici/ingredienti/fesa-di-tacchino/qr-code.png"
+    ]
+  },
+  "filetti-di-orata": {
+    "titolo": "Filetti Di Orata",
+    "immagini": [
+      "../foto/indici/ingredienti/filetti-di-orata/qr-code.png"
+    ]
+  },
+  "filettino-di-maiale": {
+    "titolo": "Filettino Di Maiale",
+    "immagini": [
+      "../foto/indici/ingredienti/filettino-di-maiale/qr-code.png"
+    ]
+  },
+  "filetto-angus": {
+    "titolo": "Filetto Angus",
+    "immagini": [
+      "../foto/indici/ingredienti/filetto-angus/qr-code.png"
     ]
   },
   "finocchi": {
     "titolo": "Finocchi",
     "html": "<p><strong>Eccellenze.</strong></p><p><em>dal </em><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/15453\" target=\"_blank\" rel=\"noopener noreferrer\"><em>Ministero dell&#x27;agricoltura, della sovranità alimentare e delle foreste</em></a><img src=\"../foto/indici/ingredienti/finocchi/marchio-igp.jpg\" alt=\"IGP\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"></p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/1%252Ff%252F3%252FD.fb8f4fcb07831bcb3255/P/BLOB%3AID%3D3343/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Finocchio di Isola Capo Rizzuto IGP</strong></a></p><p><em>Dal disciplinare:</em> “Finocchio coltivato nell&#x27;area di Isola di Capo Rizzuto, con grumolo bianco, compatto e ben formato. Si distingue per la consistenza croccante, l&#x27;aroma caratteristico e il gusto dolce.”</p>",
     "immagini": [
-      "../foto/indici/ingredienti/finocchi/marchio-igp.jpg"
+      "../foto/indici/ingredienti/finocchi/marchio-igp.jpg",
+      "../foto/indici/ingredienti/finocchi/qr-code.png"
+    ]
+  },
+  "finocchietto": {
+    "titolo": "Finocchietto",
+    "immagini": [
+      "../foto/indici/ingredienti/finocchietto/qr-code.png"
+    ]
+  },
+  "funghi-porcini": {
+    "titolo": "Funghi Porcini",
+    "immagini": [
+      "../foto/indici/ingredienti/funghi-porcini/qr-code.png"
+    ]
+  },
+  "funghi-settembrini": {
+    "titolo": "Funghi Settembrini",
+    "immagini": [
+      "../foto/indici/ingredienti/funghi-settembrini/qr-code.png"
+    ]
+  },
+  "funghi-trombette-dei-morti-essiccati-e-grattugiati": {
+    "titolo": "Funghi Trombette Dei Morti Essiccati E Grattugiati",
+    "immagini": [
+      "../foto/indici/ingredienti/funghi-trombette-dei-morti-essiccati-e-grattugiati/qr-code.png"
+    ]
+  },
+  "fusilli": {
+    "titolo": "Fusilli",
+    "immagini": [
+      "../foto/indici/ingredienti/fusilli/qr-code.png"
+    ]
+  },
+  "gallina": {
+    "titolo": "Gallina",
+    "immagini": [
+      "../foto/indici/ingredienti/gallina/qr-code.png"
+    ]
+  },
+  "girello-di-vitello-intero": {
+    "titolo": "Girello Di Vitello Intero",
+    "immagini": [
+      "../foto/indici/ingredienti/girello-di-vitello-intero/qr-code.png"
+    ]
+  },
+  "gnocchetti-di-patate": {
+    "titolo": "Gnocchetti Di Patate",
+    "immagini": [
+      "../foto/indici/ingredienti/gnocchetti-di-patate/qr-code.png"
+    ]
+  },
+  "gnocchetti-sardi": {
+    "titolo": "Gnocchetti Sardi",
+    "immagini": [
+      "../foto/indici/ingredienti/gnocchetti-sardi/qr-code.png"
     ]
   },
   "grana-padano": {
     "titolo": "Grana Padano",
     "html": "<p><strong>Eccellenze.</strong></p><p><em>dal </em><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/15453\" target=\"_blank\" rel=\"noopener noreferrer\"><em>Ministero dell&#x27;agricoltura, della sovranità alimentare e delle foreste</em></a><img src=\"../foto/indici/ingredienti/grana-padano/marchio-dop.jpg\" alt=\"DOP\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"></p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/1%252F5%252Fd%252FD.bb1352e027769b2c7793/P/BLOB%3AID%3D3340/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Grana Padano DOP</strong></a></p><p><em>Dal disciplinare:</em> “DESCRIZIONE DEL PRODOTTO: SINľESI DEI REQUISITI DI CUI ALL&#x27;ART.4, PARAGRAFO 2: a) NOME: cfr.3 Grana Padano b) DESCRIZIONE: formaggio, di latte di vacca, semi­ grasso, a pasta cotta, a lenta maturazione, di forma cilindrica a scalzo leggermente convesso o quasi diritto con facce piane leggermente orlate, usato da tavola o da grattugia e) ZONA GEOGRAFICA: l&#x27;intero territorio delle provincie di Alessandria, Asti, Cuneo,”</p>",
     "immagini": [
-      "../foto/indici/ingredienti/grana-padano/marchio-dop.jpg"
+      "../foto/indici/ingredienti/grana-padano/marchio-dop.jpg",
+      "../foto/indici/ingredienti/grana-padano/qr-code.png"
+    ]
+  },
+  "insalata-novella": {
+    "titolo": "Insalata Novella",
+    "immagini": [
+      "../foto/indici/ingredienti/insalata-novella/qr-code.png"
     ]
   },
   "lardo": {
@@ -146,7 +600,26 @@
     "html": "<p><strong>Eccellenze.</strong></p><p><em>dal </em><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/15453\" target=\"_blank\" rel=\"noopener noreferrer\"><em>Ministero dell&#x27;agricoltura, della sovranità alimentare e delle foreste</em></a><img src=\"../foto/indici/ingredienti/lardo/marchio-dop.jpg\" alt=\"DOP\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"><img src=\"../foto/indici/ingredienti/lardo/marchio-igp.jpg\" alt=\"IGP\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"></p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/f%252F5%252F9%252FD.9ccc21b5b5b37eb21a62/P/BLOB%3AID%3D3339/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Lardo di Colonnata IGP</strong></a></p><p><em>Dal disciplinare:</em> “Lardo suino stagionato nelle conche di marmo di Colonnata con sale, spezie ed erbe aromatiche. Ha aspetto umido, colore bianco rosato, consistenza omogenea e morbida e gusto delicato, fresco e aromatico.”</p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/8%252Ff%252F1%252FD.f1c7b76dca32dc9d837f/P/BLOB%3AID%3D3339/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Valle d&#x27;Aosta Lard d&#x27;Arnad / Vallée d&#x27;Aoste Lard d&#x27;Arnad DOP</strong></a></p><p><em>Dal disciplinare:</em> “Lardo suino stagionato nei tradizionali contenitori con sale, acqua, aglio, spezie ed erbe aromatiche. Al taglio è bianco, talvolta con un sottile strato di carne, di consistenza morbida e gusto delicatamente dolce e aromatico.”</p>",
     "immagini": [
       "../foto/indici/ingredienti/lardo/marchio-dop.jpg",
-      "../foto/indici/ingredienti/lardo/marchio-igp.jpg"
+      "../foto/indici/ingredienti/lardo/marchio-igp.jpg",
+      "../foto/indici/ingredienti/lardo/qr-code.png"
+    ]
+  },
+  "latte": {
+    "titolo": "Latte",
+    "immagini": [
+      "../foto/indici/ingredienti/latte/qr-code.png"
+    ]
+  },
+  "latte-intero": {
+    "titolo": "Latte Intero",
+    "immagini": [
+      "../foto/indici/ingredienti/latte-intero/qr-code.png"
+    ]
+  },
+  "legumi-misti-secchi": {
+    "titolo": "Legumi Misti Secchi",
+    "immagini": [
+      "../foto/indici/ingredienti/legumi-misti-secchi/qr-code.png"
     ]
   },
   "lenticchie": {
@@ -160,14 +633,34 @@
       "../foto/indici/ingredienti/lenticchie/eccellenza-lenticchia-nera-delle-colline-ennesi-pres-di-slow-food-fondazione-slow-food.jpg",
       "../foto/indici/ingredienti/lenticchie/marchio-igp.jpg",
       "../foto/indici/ingredienti/lenticchie/marchio-presidio-slow-food.png",
-      "../foto/indici/ingredienti/lenticchie/marchio-prodotto-lenticchia-di-altamura-igp.png"
+      "../foto/indici/ingredienti/lenticchie/marchio-prodotto-lenticchia-di-altamura-igp.png",
+      "../foto/indici/ingredienti/lenticchie/qr-code.png"
+    ]
+  },
+  "lievito-per-dolci": {
+    "titolo": "Lievito Per Dolci",
+    "immagini": [
+      "../foto/indici/ingredienti/lievito-per-dolci/qr-code.png"
     ]
   },
   "limone": {
     "titolo": "Limone",
     "html": "<p><strong>Eccellenze.</strong></p><p><em>dal </em><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/15453\" target=\"_blank\" rel=\"noopener noreferrer\"><em>Ministero dell&#x27;agricoltura, della sovranità alimentare e delle foreste</em></a><img src=\"../foto/indici/ingredienti/limone/marchio-igp.jpg\" alt=\"IGP\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"></p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/e%252Fc%252F6%252FD.040c59d2b84cb61db00c/P/BLOB%3AID%3D3343/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Limone Costa d&#x27;Amalfi IGP</strong></a></p><p><em>Dal disciplinare:</em> “Limone dell&#x27;ecotipo Sfusato amalfitano, di forma ellittico-allungata, con buccia giallo citrino di medio spessore, ricca di oli essenziali. La polpa è succosa, moderatamente acida e con pochi semi.”</p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/7%252F1%252F1%252FD.5fe83f96caf7447a9dcb/P/BLOB%3AID%3D3343/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Limone dell&#x27;Etna IGP</strong></a></p><p><em>Dal disciplinare:</em> “Limone ottenuto da cultivar ed ecotipi del gruppo Femminello coltivati alle pendici dell&#x27;Etna. Le diverse fioriture danno frutti dalla buccia aromatica e dalla polpa succosa, con acidità e profumo caratteristici.”</p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/2%252Ff%252Fa%252FD.07cc5f50892c5e678626/P/BLOB%3AID%3D3343/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Limone di Rocca Imperiale IGP</strong></a></p><p><em>Dal disciplinare:</em> “L&#x27;Indicazione Geografica Protetta “Limone di Rocca Imperiale” e&#x27; riservata ai frutti provenienti dalle cultivar del gruppo Femminello, appartenente alla specie botanica Citrus Limun Burm., noti nel comprensorio col nome di “Limone di Rocca Imperiale”. All’atto della sua immissione al consumo, i frutti di «Limone di Rocca Imperiale» presentano le seguenti caratteristiche: - colore della buccia: da verde chiaro a giallo forma del frutto: da ellittico-allungata a sferoidale flavedo: ricco di olio essenziale, aroma e profumo forte e intenso con contenuto in limonene &gt; 70% (% sul totale degli idrocarburi terpenici)”</p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/0%252F8%252F4%252FD.d11fcaaa69fd5b673015/P/BLOB%3AID%3D3343/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Limone di Siracusa IGP</strong></a></p><p><em>Dal disciplinare:</em> “L’Indicazione Geografica Protetta “ Limone di Siracusa ” è riservata alla cultivar “Femminello” e ai suoi cloni, riferibil i alla specie botanica Citrus limon (L) Burm coltivat i in impianti specializzati nel territorio della Provincia di Siracusa definito nel successivo art.3, rispondenti ai requisiti stabiliti nel presente disciplinare. In particolare, i dati caratterizzanti le tipologie di frutto a seconda delle epoche di raccolta, sono le seguenti: Primofiore sono i frutti raccolti a partire dal 1 ottobre e che rispondono alle seguenti caratteristiche: Colore della buccia: da verde chiaro a giallo citrino”</p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/a%252F7%252Fc%252FD.04cac7bb06e6f0e65527/P/BLOB%3AID%3D3343/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Limone di Sorrento IGP</strong></a></p><p><em>Dal disciplinare:</em> “Limone dell&#x27;ecotipo Ovale o Femminello di Sorrento, di pezzatura medio-grande e forma ellittica. Ha buccia giallo citrino ricca di oli essenziali, profumo intenso e polpa molto succosa e acidula.”</p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/5%252F8%252F9%252FD.3a81a541ceae21b4c6ea/P/BLOB%3AID%3D3343/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Limone Interdonato Messina IGP</strong></a></p><p><em>Dal disciplinare:</em> “L&#x27;Indicazione Geografica Protetta «Limone Interdonato Messina» e&#x27; riservata alla cultivar «Interdonato», ibrido naturale tra un clone di cedro e un clone di limo ne, appartenente alla Fam: Rutacee All’atto della sua immissione al consumo l’indicazione geografica protetta «Limone Interdonato Messina» presenta le seguenti caratteristiche: frutto: (esperidio) di pezzatura medio-elevata compresa tra 80 e 350 gr. forma: tipicamente ellittica con umbone pronunciato e cicatrice stilare poco depressa colore: ad inizio della maturazione commerciale verde opaco con viraggio sul g iallo e alla maturazione fisiologica colore giallo ad eccezione delle estremità che manteng ono una colorazione verde opaco”</p>",
     "immagini": [
-      "../foto/indici/ingredienti/limone/marchio-igp.jpg"
+      "../foto/indici/ingredienti/limone/marchio-igp.jpg",
+      "../foto/indici/ingredienti/limone/qr-code.png"
+    ]
+  },
+  "limoni": {
+    "titolo": "Limoni",
+    "immagini": [
+      "../foto/indici/ingredienti/limoni/qr-code.png"
+    ]
+  },
+  "lingua-di-manzo": {
+    "titolo": "Lingua Di Manzo",
+    "immagini": [
+      "../foto/indici/ingredienti/lingua-di-manzo/qr-code.png"
     ]
   },
   "maiale": {
@@ -177,48 +670,139 @@
       "../foto/indici/ingredienti/maiale/eccellenza-razza-suina-mora-romagnola.jpg",
       "../foto/indici/ingredienti/maiale/eccellenza-suino-nero-dei-nebrodi.jpg",
       "../foto/indici/ingredienti/maiale/marchio-dop.jpg",
-      "../foto/indici/ingredienti/maiale/marchio-presidio-slow-food.png"
+      "../foto/indici/ingredienti/maiale/marchio-presidio-slow-food.png",
+      "../foto/indici/ingredienti/maiale/qr-code.png"
+    ]
+  },
+  "maionese": {
+    "titolo": "Maionese",
+    "immagini": [
+      "../foto/indici/ingredienti/maionese/qr-code.png"
+    ]
+  },
+  "mandorle": {
+    "titolo": "Mandorle",
+    "immagini": [
+      "../foto/indici/ingredienti/mandorle/qr-code.png"
+    ]
+  },
+  "mandorle-sgusciate": {
+    "titolo": "Mandorle Sgusciate",
+    "immagini": [
+      "../foto/indici/ingredienti/mandorle-sgusciate/qr-code.png"
+    ]
+  },
+  "mandorle-tostate-e-grattugiate": {
+    "titolo": "Mandorle Tostate E Grattugiate",
+    "immagini": [
+      "../foto/indici/ingredienti/mandorle-tostate-e-grattugiate/qr-code.png"
     ]
   },
   "manzo": {
     "titolo": "Manzo",
     "html": "<p><strong>Eccellenze.</strong></p><p><em>dal registro </em><a href=\"https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/\" target=\"_blank\" rel=\"noopener noreferrer\"><em>eAmbrosia - registro delle indicazioni geografiche dell&#x27;Unione europea</em></a><img src=\"../foto/indici/ingredienti/manzo/marchio-igp.jpg\" alt=\"IGP\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"></p><p><a href=\"https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/13333\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Vitellone Bianco dell&#x27;Appennino Centrale IGP</strong></a></p><p><em>Dal disciplinare:</em> “colore delle parti carnose esposte della carcassa non deve presentare colorazioni anomale (magenta o tendente al nero). Il colore del grasso visibile non deve tendere al giallo cinerino ne&#x27; deve avere venature tendenti al giallo carico. I parametri qualitativi della carne di Vitellone Bianco dell&#x27;Appennino Centrale devono essere: - pH fra 5.2 e 5.8 -.”</p><p><em>Da altre fonti documentarie:</em></p><p><a href=\"https://www.consorziobuegrassocarru.it/\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Bue grasso di Carru / Consorzio tutela bue grasso</strong></a></p><p><em>Dal disciplinare:</em> “Sito ufficiale del Consorzio di tutela del Bue Grasso di Carrù Accetti i Cookies ?”</p>",
     "immagini": [
-      "../foto/indici/ingredienti/manzo/marchio-igp.jpg"
+      "../foto/indici/ingredienti/manzo/marchio-igp.jpg",
+      "../foto/indici/ingredienti/manzo/qr-code.png"
     ]
   },
   "marsala": {
     "titolo": "Marsala",
     "html": "<p><strong>Eccellenze.</strong></p><p><em>dal registro </em><a href=\"https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/\" target=\"_blank\" rel=\"noopener noreferrer\"><em>eAmbrosia - registro delle indicazioni geografiche dell&#x27;Unione europea</em></a><img src=\"../foto/indici/ingredienti/marsala/marchio-dop.jpg\" alt=\"DOP\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"></p><p><a href=\"https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/5782\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Marsala DOP</strong></a></p><p><em>Dal disciplinare:</em> “DESCRIZIONE DEI VINI: “Marsala” Fine Oro, Fine Ambra e Fine Rubino Domanda di una nuova modifica Marsala (it) DOP - Denominazione di origine protetta 3. Vino liquoroso Breve descrizione testuale Colore: dorato più o meno intenso o giallo ambrato più o meno intenso o rosso rubino che, con l’invecchiamento, acquista riflessi ambrati”</p>",
     "immagini": [
-      "../foto/indici/ingredienti/marsala/marchio-dop.jpg"
+      "../foto/indici/ingredienti/marsala/marchio-dop.jpg",
+      "../foto/indici/ingredienti/marsala/qr-code.png"
+    ]
+  },
+  "mazzancolle": {
+    "titolo": "Mazzancolle",
+    "immagini": [
+      "../foto/indici/ingredienti/mazzancolle/qr-code.png"
+    ]
+  },
+  "mela": {
+    "titolo": "Mela",
+    "immagini": [
+      "../foto/indici/ingredienti/mela/qr-code.png"
+    ]
+  },
+  "melanzana": {
+    "titolo": "Melanzana",
+    "immagini": [
+      "../foto/indici/ingredienti/melanzana/qr-code.png"
     ]
   },
   "melanzane-lunghe": {
     "titolo": "Melanzane lunghe",
     "html": "<p><strong>Eccellenze.</strong></p><p><em>dal </em><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/15453\" target=\"_blank\" rel=\"noopener noreferrer\"><em>Ministero dell&#x27;agricoltura, della sovranità alimentare e delle foreste</em></a><img src=\"../foto/indici/ingredienti/melanzane-lunghe/marchio-dop.jpg\" alt=\"DOP\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"></p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/2%252F0%252Ff%252FD.f7ab24e7f62ece21256a/P/BLOB%3AID%3D3343/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Melanzana Rossa di Rotonda DOP</strong></a></p><p><em>Dal disciplinare:</em> “La denominazione d’origine protetta (DOP) “Melanzana Rossa di Rotonda ” si ottiene con l’ecot ipo Melanzana Rossa di Rotonda riconducibile alla specie Solanum aethiopicum, comunemente nota come Melanzana Rossa. La Melanzana Rossa di Rotonda, all&#x27;atto dell&#x27;immissione al consumo allo stato fresco deve avere le seguenti caratteristiche: - pezzatura della bacca: lunghezza fino a cm. colore e sovracolore, verde arancio chiaro con tenui sfumature verdognole ad inizio maturazione e successivamente arancione vivo tendente al rosso lucido bacca intera di aspetto fresco, sana”</p>",
     "immagini": [
-      "../foto/indici/ingredienti/melanzane-lunghe/marchio-dop.jpg"
+      "../foto/indici/ingredienti/melanzane-lunghe/marchio-dop.jpg",
+      "../foto/indici/ingredienti/melanzane-lunghe/qr-code.png"
+    ]
+  },
+  "melograno": {
+    "titolo": "Melograno",
+    "immagini": [
+      "../foto/indici/ingredienti/melograno/qr-code.png"
+    ]
+  },
+  "mezze-penne-rigate": {
+    "titolo": "Mezze Penne Rigate",
+    "immagini": [
+      "../foto/indici/ingredienti/mezze-penne-rigate/qr-code.png"
     ]
   },
   "miele": {
     "titolo": "Miele",
     "html": "<p><strong>Eccellenze.</strong></p><p><em>dal </em><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/15453\" target=\"_blank\" rel=\"noopener noreferrer\"><em>Ministero dell&#x27;agricoltura, della sovranità alimentare e delle foreste</em></a><img src=\"../foto/indici/ingredienti/miele/marchio-dop.jpg\" alt=\"DOP\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"></p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/1%252Fd%252Ff%252FD.1b5dd28a1cdee1ecd6c9/P/BLOB%3AID%3D3341/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Miele della Lunigiana DOP</strong></a></p><p><em>Dal disciplinare:</em> “Descrizione del prodotto 2.1 Si definisce &quot;Miele della Lunigiana&quot; di Acacia, il Miele prodotto su fioritura di Robinia pseudoacacia L. 2.2 Caratteristiche del prodotto 2.2.1 &quot;Miele della Lunigiana&quot; di Acacia 2.2.1.1 Caratteristiche organolettiche Il &quot;Miele della Lunigiana&quot; di Acacia presenta le seguenti caratteristiche: - si mantiene a lungo liquido e limpido”</p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/1%252F3%252Fe%252FD.77c39e9f90679ca651d4/P/BLOB%3AID%3D3341/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Miele delle Dolomiti Bellunesi DOP</strong></a></p><p><em>Dal disciplinare:</em> “Il “Miele delle Dolomiti Bellunesi” viene prodotto a partire dal nettare dei fiori e dalle melate del territorio montano bellunese, dall’ecotipo locale di “Apis mellifera” che deriva da incroci naturali tra diverse razze apistiche, prevalentemente tra quella Ligustica e Carnica essa si è particolarmente adattata nel corso del tempo alle caratteristiche dell’ambiente montano alpino bellunese e permette di ottenere buone rese di miele. Caratteristiche chimico-fisiche Oltre al “pregio floreale”, la qualità del Miele delle Dolomiti bellunesi ha altri aspetti fondamentali, come la purezza, la salubrità e l’elevata conservabilità, testimoniate anche dal basso valore di HMF…”</p>",
     "immagini": [
-      "../foto/indici/ingredienti/miele/marchio-dop.jpg"
+      "../foto/indici/ingredienti/miele/marchio-dop.jpg",
+      "../foto/indici/ingredienti/miele/qr-code.png"
+    ]
+  },
+  "miele-delicato": {
+    "titolo": "Miele Delicato",
+    "immagini": [
+      "../foto/indici/ingredienti/miele-delicato/qr-code.png"
+    ]
+  },
+  "mollica-di-pane-imbevuto-di-latte": {
+    "titolo": "Mollica Di Pane Imbevuto Di Latte",
+    "immagini": [
+      "../foto/indici/ingredienti/mollica-di-pane-imbevuto-di-latte/qr-code.png"
+    ]
+  },
+  "montone": {
+    "titolo": "Montone",
+    "immagini": [
+      "../foto/indici/ingredienti/montone/qr-code.png"
     ]
   },
   "nepetella": {
     "titolo": "Nepetella",
     "html": "<p>Chiamata anche mentuccia romana.</p>",
-    "immagini": []
+    "immagini": [
+      "../foto/indici/ingredienti/nepetella/qr-code.png"
+    ]
+  },
+  "noce-moscata": {
+    "titolo": "Noce Moscata",
+    "immagini": [
+      "../foto/indici/ingredienti/noce-moscata/qr-code.png"
+    ]
+  },
+  "olio": {
+    "titolo": "Olio",
+    "immagini": [
+      "../foto/indici/ingredienti/olio/marchio-igp.jpg"
+    ]
   },
   "olio-extra-vergine-d-oliva": {
     "titolo": "Olio extravergine d'oliva",
     "html": "<p><strong>Eccellenze.</strong></p><p><em>dal </em><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/15453\" target=\"_blank\" rel=\"noopener noreferrer\"><em>Ministero dell&#x27;agricoltura, della sovranità alimentare e delle foreste</em></a><img src=\"../foto/indici/ingredienti/olio-extra-vergine-d-oliva/marchio-igp.jpg\" alt=\"IGP\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"></p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/1%252F1%252Fa%252FD.ce3269c7f7b767fc5a76/P/BLOB%3AID%3D3342/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Olio Campania IGP</strong></a></p><p><em>Dal disciplinare:</em> “Olio extra vergine ottenuto in Campania da olive prodotte e trasformate nel territorio regionale. Presenta fruttato di oliva con note vegetali, accompagnato da sensazioni di amaro e piccante.”</p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/1%252F2%252F6%252FD.4db77316bc4a79a341f4/P/BLOB%3AID%3D3335/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Olio dei Colli di Bologna IGP</strong></a></p><p><em>Dal disciplinare:</em> “Olio extra vergine ottenuto nell&#x27;area collinare bolognese delimitata dal disciplinare. Presenta fruttato di oliva da medio a intenso, con note vegetali e sensazioni di amaro e piccante.”</p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/1%252Fb%252F5%252FD.ec34690ea42d8eda31cb/P/BLOB%3AID%3D3342/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Olio di Calabria IGP</strong></a></p><p><em>Dal disciplinare:</em> “Olio extra vergine prodotto in Calabria con olive delle varietà ammesse dal disciplinare. Il profilo organolettico è fruttato, con intensità variabile, e presenta sensazioni di amaro e piccante.”</p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/7%252F7%252F8%252FD.5e4cd1870681e7bb4982/P/BLOB%3AID%3D3342/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Olio di Puglia IGP</strong></a></p><p><em>Dal disciplinare:</em> “Olio extra vergine ottenuto in Puglia da olive prodotte, raccolte e trasformate nel territorio regionale. È caratterizzato da fruttato di oliva, accompagnato da percezioni di amaro e piccante.”</p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/4%252Fd%252Fb%252FD.aa912f5e7e632542b926/P/BLOB%3AID%3D3342/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Olio di Roma IGP</strong></a></p><p><em>Dal disciplinare:</em> “Olio extra vergine dal fruttato con sentori riconducibili a pomodoro, carciofo, mandorla ed erba, con amaro e piccante; il colore varia dal verde al giallo dorato.”</p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/5%252F6%252Fe%252FD.b65873b1591f5cb3beb8/P/BLOB%3AID%3D3342/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Olio lucano IGP</strong></a></p><p><em>Dal disciplinare:</em> “Olio extra vergine prodotto in Basilicata dalle varietà previste dal disciplinare. Ha fruttato di oliva verde o matura, con percezioni vegetali e sensazioni di amaro e piccante.”</p><p><em>dal registro </em><a href=\"https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/\" target=\"_blank\" rel=\"noopener noreferrer\"><em>eAmbrosia - registro delle indicazioni geografiche dell&#x27;Unione europea</em></a><img src=\"../foto/indici/ingredienti/olio-extra-vergine-d-oliva/marchio-igp.jpg\" alt=\"IGP\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"></p><p><a href=\"https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/22599\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Olio d&#x27;Abruzzo IGP</strong></a></p><p><em>Dal disciplinare:</em> “Olio extra vergine ottenuto in Abruzzo dalle varietà previste dal disciplinare. È caratterizzato da fruttato di oliva, con richiami vegetali e un equilibrio di amaro e piccante.”</p><div data-consolidated-ingredient=\"olio\"><p><strong>Olio.</strong></p><p><strong>Eccellenze.</strong></p><p><em>dal </em><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/15453\" target=\"_blank\" rel=\"noopener noreferrer\"><em>Ministero dell&#x27;agricoltura, della sovranità alimentare e delle foreste</em></a><img src=\"../foto/indici/ingredienti/olio/marchio-igp.jpg\" alt=\"IGP\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"></p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/1%252F2%252F6%252FD.4db77316bc4a79a341f4/P/BLOB%3AID%3D3335/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Olio dei Colli di Bologna IGP</strong></a></p><p><em>Dal disciplinare:</em> “Olio extra vergine ottenuto nell&#x27;area collinare bolognese delimitata dal disciplinare. Presenta fruttato di oliva da medio a intenso, con note vegetali e sensazioni di amaro e piccante.”</p><p><em>dal registro </em><a href=\"https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/\" target=\"_blank\" rel=\"noopener noreferrer\"><em>eAmbrosia - registro delle indicazioni geografiche dell&#x27;Unione europea</em></a><img src=\"../foto/indici/ingredienti/olio/marchio-igp.jpg\" alt=\"IGP\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"></p><p><a href=\"https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/18147\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Olio Campania IGP</strong></a></p><p><em>Dal disciplinare:</em> “Olio extra vergine ottenuto in Campania da olive prodotte e trasformate nel territorio regionale. Presenta fruttato di oliva con note vegetali, accompagnato da sensazioni di amaro e piccante.”</p><p><a href=\"https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/22599\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Olio d&#x27;Abruzzo IGP</strong></a></p><p><em>Dal disciplinare:</em> “Olio extra vergine ottenuto in Abruzzo dalle varietà previste dal disciplinare. È caratterizzato da fruttato di oliva, con richiami vegetali e un equilibrio di amaro e piccante.”</p><p><a href=\"https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/15898\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Olio di Calabria IGP</strong></a></p><p><em>Dal disciplinare:</em> “Olio extra vergine prodotto in Calabria con olive delle varietà ammesse dal disciplinare. Il profilo organolettico è fruttato, con intensità variabile, e presenta sensazioni di amaro e piccante.”</p><p><a href=\"https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/15999\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Olio di Puglia IGP</strong></a></p><p><em>Dal disciplinare:</em> “Olio extra vergine ottenuto in Puglia da olive prodotte, raccolte e trasformate nel territorio regionale. È caratterizzato da fruttato di oliva, accompagnato da percezioni di amaro e piccante.”</p><p><a href=\"https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/16652\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Olio di Roma IGP</strong></a></p><p><em>Dal disciplinare:</em> “Olio extra vergine dal fruttato con sentori riconducibili a pomodoro, carciofo, mandorla ed erba, con amaro e piccante; il colore varia dal verde al giallo dorato.”</p><p><a href=\"https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/16649\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Olio lucano IGP</strong></a></p><p><em>Dal disciplinare:</em> “Olio extra vergine prodotto in Basilicata dalle varietà previste dal disciplinare. Ha fruttato di oliva verde o matura, con percezioni vegetali e sensazioni di amaro e piccante.”</p></div>",
     "immagini": [
       "../foto/indici/ingredienti/olio-extra-vergine-d-oliva/marchio-igp.jpg",
-      "../foto/indici/ingredienti/olio/marchio-igp.jpg"
+      "../foto/indici/ingredienti/olio-extra-vergine-d-oliva/qr-code.png"
     ]
   },
   "olive-di-gaeta": {
@@ -238,28 +822,80 @@
       "../foto/indici/ingredienti/olive-di-gaeta-dop/glossario-marchio_dop-529262275.old.jpg",
       "../foto/indici/ingredienti/olive-di-gaeta-dop/marchio-dop.jpg",
       "../foto/indici/ingredienti/olive-di-gaeta-dop/olive-di-gaeta.jpg",
-      "../foto/indici/ingredienti/olive-di-gaeta-dop/olive-di-gaeta.old.jpg"
+      "../foto/indici/ingredienti/olive-di-gaeta-dop/olive-di-gaeta.old.jpg",
+      "../foto/indici/ingredienti/olive-di-gaeta-dop/qr-code.png"
     ],
     "html": "<p><strong>Eccellenze.</strong></p><p><em>dal </em><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/15453\" target=\"_blank\" rel=\"noopener noreferrer\"><em>Ministero dell&#x27;agricoltura, della sovranità alimentare e delle foreste</em></a><img src=\"../foto/indici/ingredienti/olive-di-gaeta-dop/marchio-dop.jpg\" alt=\"DOP\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"></p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/4%252F0%252F5%252FD.f9b07367822a86d20aed/P/BLOB%3AID%3D3343/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Oliva di Gaeta DOP</strong></a></p><p><em>Dal disciplinare:</em> “Oliva da mensa della varietà Itrana, raccolta a piena maturazione e trasformata in salamoia. Ha colore dal rosa intenso al violaceo o nero, polpa soda che si distacca dal nocciolo e gusto sapido, lievemente amarognolo e vinoso.”</p>"
   },
   "olive-nere": {
     "titolo": "Olive Nere",
     "immagini": [
-      "../foto/indici/ingredienti/olive-nere/marchio-dop.jpg"
+      "../foto/indici/ingredienti/olive-nere/marchio-dop.jpg",
+      "../foto/indici/ingredienti/olive-nere/qr-code.png"
+    ]
+  },
+  "olive-nere-snocciolate-pugliesi": {
+    "titolo": "Olive Nere Snocciolate Pugliesi",
+    "immagini": [
+      "../foto/indici/ingredienti/olive-nere-snocciolate-pugliesi/qr-code.png"
+    ]
+  },
+  "olive-verdi": {
+    "titolo": "Olive Verdi",
+    "immagini": [
+      "../foto/indici/ingredienti/olive-verdi/qr-code.png"
+    ]
+  },
+  "orecchiette-baresi": {
+    "titolo": "Orecchiette Baresi",
+    "immagini": [
+      "../foto/indici/ingredienti/orecchiette-baresi/qr-code.png"
+    ]
+  },
+  "osso-di-prosciutto-crudo": {
+    "titolo": "Osso Di Prosciutto Crudo",
+    "immagini": [
+      "../foto/indici/ingredienti/osso-di-prosciutto-crudo/qr-code.png"
     ]
   },
   "pancetta": {
     "titolo": "Pancetta",
     "html": "<p><strong>Eccellenze.</strong></p><p><em>dal </em><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/15453\" target=\"_blank\" rel=\"noopener noreferrer\"><em>Ministero dell&#x27;agricoltura, della sovranità alimentare e delle foreste</em></a><img src=\"../foto/indici/ingredienti/pancetta/marchio-dop.jpg\" alt=\"DOP\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"></p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/4%252F7%252F4%252FD.7583f82e7b809a1d1cbb/P/BLOB%3AID%3D3339/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Pancetta di Calabria DOP</strong></a></p><p><em>Dal disciplinare:</em> “Salume ricavato dal sottocostato inferiore del suino, rifilato e stagionato con sale, pepe e peperoncino. Al taglio presenta strati alternati di carne rosata e grasso bianco, con profumo intenso e gusto sapido e aromatico.”</p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/1%252F2%252F4%252FD.3e3c7ab775de97861f62/P/BLOB%3AID%3D3339/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Pancetta Piacentina DOP</strong></a></p><p><em>Dal disciplinare:</em> “Salume stagionato di forma cilindrica, con alternanza regolare di parti rosse e bianche. Al taglio la fetta è morbida; profumo e sapore sono gradevoli, dolci e sapidi, con note delle spezie impiegate.”</p>",
     "immagini": [
-      "../foto/indici/ingredienti/pancetta/marchio-dop.jpg"
+      "../foto/indici/ingredienti/pancetta/marchio-dop.jpg",
+      "../foto/indici/ingredienti/pancetta/qr-code.png"
+    ]
+  },
+  "pancetta-affumicata": {
+    "titolo": "Pancetta Affumicata",
+    "immagini": [
+      "../foto/indici/ingredienti/pancetta-affumicata/qr-code.png"
     ]
   },
   "pane-toscano": {
     "titolo": "Pane toscano",
     "html": "<p><strong>Eccellenze.</strong></p><p><em>dal </em><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/15453\" target=\"_blank\" rel=\"noopener noreferrer\"><em>Ministero dell&#x27;agricoltura, della sovranità alimentare e delle foreste</em></a><img src=\"../foto/indici/ingredienti/pane-toscano/marchio-dop.jpg\" alt=\"DOP\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"></p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/1%252F7%252F2%252FD.7d47f4b4ad65bb04e5b6/P/BLOB%3AID%3D3347/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Pane Toscano DOP</strong></a></p><p><em>Dal disciplinare:</em> “Pane prodotto con farina di grano tenero, lievito madre e acqua, senza sale. Ha crosta friabile e croccante, mollica soffice e irregolarmente alveolata e un profumo di cereale tostato e frutta secca.”</p>",
     "immagini": [
-      "../foto/indici/ingredienti/pane-toscano/marchio-dop.jpg"
+      "../foto/indici/ingredienti/pane-toscano/marchio-dop.jpg",
+      "../foto/indici/ingredienti/pane-toscano/qr-code.png"
+    ]
+  },
+  "pangrattato": {
+    "titolo": "Pangrattato",
+    "immagini": [
+      "../foto/indici/ingredienti/pangrattato/qr-code.png"
+    ]
+  },
+  "panna": {
+    "titolo": "Panna",
+    "immagini": [
+      "../foto/indici/ingredienti/panna/qr-code.png"
+    ]
+  },
+  "paprika": {
+    "titolo": "Paprika",
+    "immagini": [
+      "../foto/indici/ingredienti/paprika/qr-code.png"
     ]
   },
   "parmigiano-reggiano": {
@@ -272,16 +908,30 @@
     "titolo": "Parmigiano Reggiano DOP",
     "html": "<p><strong>Eccellenze.</strong></p><p><em>dal </em><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/15453\" target=\"_blank\" rel=\"noopener noreferrer\"><em>Ministero dell&#x27;agricoltura, della sovranità alimentare e delle foreste</em></a><img src=\"../foto/indici/ingredienti/parmigiano-reggiano-dop/marchio-dop.jpg\" alt=\"DOP\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"></p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/1%252F7%252Fc%252FD.b8f2719939c9ce971273/P/BLOB%3AID%3D3340/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Parmigiano Reggiano DOP</strong></a></p><p><em>Dal disciplinare:</em> “Formaggio a pasta dura, cotta e a lenta maturazione, ottenuto da latte vaccino crudo. La pasta è finemente granulosa e friabile, di colore paglierino, con aroma fragrante e gusto saporito ma armonico.”</p>",
     "immagini": [
-      "../foto/indici/ingredienti/parmigiano-reggiano-dop/marchio-dop.jpg"
+      "../foto/indici/ingredienti/parmigiano-reggiano-dop/marchio-dop.jpg",
+      "../foto/indici/ingredienti/parmigiano-reggiano-dop/qr-code.png"
+    ]
+  },
+  "passata-di-pomodoro": {
+    "titolo": "Passata Di Pomodoro",
+    "immagini": [
+      "../foto/indici/ingredienti/passata-di-pomodoro/qr-code.png"
     ]
   },
   "pasta": {
     "titolo": "Pasta",
     "immagini": [
       "../foto/indici/ingredienti/pasta/eccellenza-pasta-di-gragnano-igp.jpg",
-      "../foto/indici/ingredienti/pasta/marchio-igp.jpg"
+      "../foto/indici/ingredienti/pasta/marchio-igp.jpg",
+      "../foto/indici/ingredienti/pasta/qr-code.png"
     ],
     "html": "<div data-consolidated-ingredient=\"pasta-di-gragnano-igp\"><p><strong>Pasta di Gragnano IGP.</strong></p><p><strong>Dal disciplinate della </strong><a href=\"https://www.pastadigragnanoigp.it/wp-content/uploads/2024/09/Disciplinare_Pasta_di_Gragnano_12.02.2020.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Pasta di Gragnano IGP</strong></a><strong>.</strong></p><figure class=\"step-photo step-photo-right\" style=\"width: 50%; max-width: 50%;\"><img src=\"../foto/paccheri-di-gragnano-igp-con-orata-pomodorini-capperi-e-zenzero/OIP-2219084004.jpg\"></figure><p><br>La “Pasta di Gragnano” è il prodotto ottenuto dall’impasto della semola di grano duro con acqua della falda acquifera locale.</p><p>I formati immessi al consumo sono, diversi, tutti tipici, frutto della fantasia dei pastai gragnanesi.</p><p>Il prodotto all'atto dell'immissione al consumo, deve possedere le seguenti caratteristiche:</p><p>2.1 Caratteristiche fisiche:</p><p>aspetto esterno: omogeneo senza macchie bianche o nere; assenza di bolle d'aria, di fessure o tagli, di muffe, larve o parassiti e di corpi estranei;</p><p>sezione di frattura: vitrea;</p><p>colore: giallo paglierino;</p><p>rugosità: presente quale caratteristica dell’uso delle trafile in bronzo.</p><p>Alla cottura la “Pasta di Gragnano” IGP si presenta di:</p><p>consistenza: soda ed elastica;</p><p>omogeneità della cottura: uniforme;</p><p>tenuta di cottura: buona e lunga;</p><p>collosità: assente o impercettibile.</p><p>2.2 Caratteristiche chimiche:</p><p>umidità: non superiore al 12,5% sul prodotto finito;</p><p>proteine minimo: 13% sulla sostanza secca;</p><p>ceneri max.: 0.86% sulla sostanza secca.</p><p>2.3 Caratteristiche organolettiche:</p><p>sapore: sapido con gusto deciso di grano duro;</p><p>odore: di grano maturo.</p></div>"
+  },
+  "pasta-per-pane": {
+    "titolo": "Pasta Per Pane",
+    "immagini": [
+      "../foto/indici/ingredienti/pasta-per-pane/qr-code.png"
+    ]
   },
   "patate": {
     "titolo": "Patate",
@@ -292,13 +942,27 @@
       "../foto/indici/ingredienti/patate/marchio-igp.jpg",
       "../foto/indici/ingredienti/patate/marchio-prodotto-patata-del-fucino-igp.png",
       "../foto/indici/ingredienti/patate/marchio-prodotto-patata-dell-alto-viterbese-igp.png",
-      "../foto/indici/ingredienti/patate/marchio-prodotto-patata-novella-di-galatina-dop.png"
+      "../foto/indici/ingredienti/patate/marchio-prodotto-patata-novella-di-galatina-dop.png",
+      "../foto/indici/ingredienti/patate/qr-code.png"
+    ]
+  },
+  "patate-gialle": {
+    "titolo": "Patate Gialle",
+    "immagini": [
+      "../foto/indici/ingredienti/patate-gialle/qr-code.png"
+    ]
+  },
+  "patatine": {
+    "titolo": "Patatine",
+    "immagini": [
+      "../foto/indici/ingredienti/patatine/qr-code.png"
     ]
   },
   "pecorino": {
     "titolo": "Pecorino",
     "html": "<p><strong>Eccellenze.</strong></p><p><em>dal </em><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/15453\" target=\"_blank\" rel=\"noopener noreferrer\"><em>Ministero dell&#x27;agricoltura, della sovranità alimentare e delle foreste</em></a><img src=\"../foto/indici/ingredienti/pecorino/marchio-dop.jpg\" alt=\"DOP\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"></p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/1%252Fe%252F4%252FD.c276e55522e5119d7e60/P/BLOB%3AID%3D3340/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Pecorino Crotonese DOP</strong></a></p><figure class=\"step-photo step-photo-right\" style=\"width:210px;max-width:46%;\"><img src=\"../foto/indici/ingredienti/pecorino/eccellenza-pecorino-crotonese-dop.jpg\" alt=\"Pecorino Crotonese DOP\"></figure><figure class=\"step-photo step-photo-right\" style=\"width:112px;max-width:46%;\"><img src=\"../foto/indici/ingredienti/pecorino/marchio-prodotto-pecorino-crotonese-dop.png\" alt=\"Marchio Pecorino Crotonese DOP\"></figure><p><em>Dal disciplinare:</em> “Il pecorino Crotonese presenta le seguenti caratteristiche:  Forma: cilindrica con facce piane o leggermente convesse e con scalzo dritto o leggermente convesso   Peso: o formaggio fresco: o per la forma piccola il peso è compreso fra kg. o per la forma media il peso è compreso fra kg 1,3 e kg 3. o formaggio semiduro e stagionato: o per la forma media il peso è compreso fra kg 1,3 e kg 2,5 o per la forma grande il peso è compreso fra kg 5 e kg 15. La produzione di Pecorino Crotonese in forma diversa da quella cilindrica è permessa solo ed esclusivamente per determinate t ipologie di richiesta, ed è ammessa per il prodotto destinato esclusivamen te al preconfezionamento (affettato, cubettatura, grattug ia).”</p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/1%252F4%252Ff%252FD.5497cfcd9f347f8917f3/P/BLOB%3AID%3D3340/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Pecorino del Monte Poro DOP</strong></a></p><figure class=\"step-photo step-photo-right\" style=\"width:112px;max-width:46%;\"><img src=\"../foto/indici/ingredienti/pecorino/marchio-prodotto-pecorino-del-monte-poro-dop.png\" alt=\"Marchio Pecorino del Monte Poro DOP\"></figure><p><em>Dal disciplinare:</em> “finito Il “Pecorino del Monte Poro” DOP è un formaggio prodotto con latte di pecora, che risponde, a seconda del periodo di stagionatura, alle seguenti tre diverse tipologie: - “fresco”, da 20 giorni a 60 giorni di conservazione Il &quot;Pecorino del Monte Poro” deve, inoltre, presentare al momento dell’immissione al consumo, le seguenti caratteristiche. 2.1 Caratteristiche fisiche Forma: rotonda, facce piane. Crosta: dura, rugosa, di colore variabile dal giallo oro per la tipologia «fresco» al nocciola più o meno scuro per la tipologia «semistagionato» e «stagionato», tendente al rossiccio, laddove unto con peperoncino e olio extravergine di oliva e peperoncino per trattare la crosta esterna.”</p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/6%252Fa%252Fb%252FD.039cb6c7419f0343d444/P/BLOB%3AID%3D3340/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Pecorino delle Balze Volterrane DOP</strong></a></p><figure class=\"step-photo step-photo-right\" style=\"width:210px;max-width:46%;\"><img src=\"../foto/indici/ingredienti/pecorino/eccellenza-pecorino-delle-balze-volterrane-dop.jpg\" alt=\"Pecorino delle Balze Volterrane DOP\"></figure><figure class=\"step-photo step-photo-right\" style=\"width:112px;max-width:46%;\"><img src=\"../foto/indici/ingredienti/pecorino/marchio-prodotto-pecorino-delle-balze-volterrane-dop.png\" alt=\"Marchio Pecorino delle Balze Volterrane DOP\"></figure><p><em>Dal disciplinare:</em> “finito Il &quot;Pecorino delle Balze Volterrane” è un formaggio prodotto esclusivamente con caglio vegetale e latte ovino crudo intero proveniente da allevamenti ubicati nella zona di cui all’art.3, rispondente, a seconda del periodo di stagionatura, a quattro diverse tipologie: “fresco”, da 7 giorni a 44 giorni di conservazione Il &quot;Pecorino delle Balze Volterrane” deve, inoltre, avere al momento della immissione al consumo, le seguenti caratteristiche: 2.1 Caratteristiche fisiche Forma: cilindrica a facce piane con scalzo dritto o leggermente convesso. Crosta: di colore variabile dal giallo pa glierino al giallo carico.”</p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/c%252F9%252F6%252FD.dff77920097cd0587827/P/BLOB%3AID%3D3340/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Pecorino di Filiano DOP</strong></a></p><figure class=\"step-photo step-photo-right\" style=\"width:210px;max-width:46%;\"><img src=\"../foto/indici/ingredienti/pecorino/eccellenza-pecorino-di-filiano-dop.jpg\" alt=\"Pecorino di Filiano DOP\"></figure><p><em>Dal disciplinare:</em> “finito Il formaggio &quot;Pecorino di Filiano&quot; può essere utilizzato come formaggio da tavola e da grattugia e all&#x27;atto del consumo il prodotto deve avere le seguenti caratteristiche: - la forma deve essere cilindrica a facce piane con scalzo diritto o leggermente convesso il peso deve essere compreso da 2,5 a 5 Kg in relazione alle dimensioni della forma il colore della crosta recante i caratteristici segni della fuscella si presenta dal giallo dorato al bruno scuro nelle forme più stagionate e trattate superficialmente con olio extra vergine di oliva prodotto in Basilicata e aceto di vino, tramite uno sfregamento superficiale effettuato a mano”</p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/3%252Fd%252F1%252FD.89712a58f639c07304ca/P/BLOB%3AID%3D3340/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Pecorino di Picinisco DOP</strong></a></p><figure class=\"step-photo step-photo-right\" style=\"width:112px;max-width:46%;\"><img src=\"../foto/indici/ingredienti/pecorino/marchio-prodotto-pecorino-di-picinisco-dop.png\" alt=\"Marchio Pecorino di Picinisco DOP\"></figure><p><em>Dal disciplinare:</em> “All’atto dell’immissione al consumo, il “Pecorino di Picinisco” DOP è un formaggio di forma cilindrica a facce piane, a latte crudo e a pasta c ruda, ottenuto da latte ovino delle razze di Sopravissana, Comisana, Massese o incroci con almeno una di queste razze. Il formaggio “Pecorino di Picinisco” DOP, immesso al consumo nelle tipologie “Scamosciato” e “Stagionato”, presente le seguenti caratteristiche: o Scamosciato: Stagionatura: da 30 a 60 giorni Crosta: sottile e rugosa, tendente al giallo paglierino Pasta: struttura compatta con leggera occhiatura colore bianco tendente al giallo paglierino”</p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/1%252Fa%252F3%252FD.389338baf9ad6c2f85fd/P/BLOB%3AID%3D3340/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Pecorino Romano DOP</strong></a></p><figure class=\"step-photo step-photo-right\" style=\"width:210px;max-width:46%;\"><img src=\"../foto/indici/ingredienti/pecorino/eccellenza-pecorino-romano-dop.png\" alt=\"Pecorino Romano DOP\"></figure><figure class=\"step-photo step-photo-right\" style=\"width:112px;max-width:46%;\"><img src=\"../foto/indici/ingredienti/pecorino/marchio-prodotto-pecorino-romano-dop.png\" alt=\"Marchio Pecorino Romano DOP\"></figure><p><em>Dal disciplinare:</em> “Il formaggio a pasta dura e cotta “Pecorino Romano” è prodotto esclusivamente con latte fresco di pecora intero, proveniente da allevamenti ubicati nella zona di cui all’art. All’atto della sua immissione al consumo il formaggio “Pecorino Romano” si presenta di forma cilindrica a facce piane, con dimensioni comprese, per quanto riguarda il diametro, tra 25 cm e 35 cm, altezza dello scalzo tra 25 e 40 cm e con un peso variabile tra i 20 e i 35 kg. Aspetto esterno: crosta sottile, di colore avorio o paglierino naturale, più o meno intenso. Sono consentiti la cappatura della crosta, con protettivi per alimenti di colore neutro, nero o marron e/o l’eventuale utilizzo di incarti per alimenti e conservanti in crosta previsti dalle norme sanitarie.”</p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/4%252Fd%252F9%252FD.e832b1db0a8cce307ba3/P/BLOB%3AID%3D3340/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Pecorino Sardo DOP</strong></a></p><figure class=\"step-photo step-photo-right\" style=\"width:210px;max-width:46%;\"><img src=\"../foto/indici/ingredienti/pecorino/eccellenza-pecorino-sardo-dop.png\" alt=\"Pecorino Sardo DOP\"></figure><figure class=\"step-photo step-photo-right\" style=\"width:112px;max-width:46%;\"><img src=\"../foto/indici/ingredienti/pecorino/marchio-prodotto-pecorino-sardo-dop.png\" alt=\"Marchio Pecorino Sardo DOP\"></figure><p><em>Dal disciplinare:</em> “Il “Pecorino Sardo” D.O.P. è un formaggio a pasta semicotta, prodotto esclusivamente con latte intero di pecora, eventualmente termizzato o pastorizzato, distinto in due tipologie: dolce” di breve maturazione (20- 60 giorni) e “maturo”, a stagionatura non inferiore ai due mesi, di forma cilindrica a facce piane con scalzo diritto o leggermente convesso. “Pecorino Sardo” dolce deve presentare: - peso: compreso tra 1,0 e 2,3 kg crosta: liscia, morbida, sottile, di colore bianco o paglierino tenue pasta: bianca, morbida ed elastica, compatta o con occhiatura rada e minuta”</p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/b%252F9%252F8%252FD.ef5afbabb78d8d7719de/P/BLOB%3AID%3D3340/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Pecorino Siciliano DOP</strong></a></p><figure class=\"step-photo step-photo-right\" style=\"width:210px;max-width:46%;\"><img src=\"../foto/indici/ingredienti/pecorino/eccellenza-pecorino-siciliano-dop.jpg\" alt=\"Pecorino Siciliano DOP\"></figure><figure class=\"step-photo step-photo-right\" style=\"width:112px;max-width:46%;\"><img src=\"../foto/indici/ingredienti/pecorino/marchio-prodotto-pecorino-siciliano-dop.png\" alt=\"Marchio Pecorino Siciliano DOP\"></figure><p><em>Dal disciplinare:</em> “All’atto dell’immissione al consumo, il “Pecorino Siciliano” DOP è un formaggio di forma cilindrica a facce piane o leggermente concava quella sup eriore, a latte crudo e a pasta semicotta. Il formaggio “Pecorino Siciliano” DOP, immesso al consumo nelle tipologie “Fresco”, “Semistagionato” e “Stagionato”, presente le seguenti caratteristiche: Fresco -maturazione: da 20 a 30 giorni -forma: cilindrica, a facce piane o leggermente concava la superiore peso: compreso tra 3 e 5 kg in relazione alle dimensioni della forma superficie: assenza di crosta, parte esterna edibile di colore bianco o giallo paglierino, recante impressi i segni del canestro nel quale è stata formata”</p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/1%252F5%252Fb%252FD.3f72c673859439a39e78/P/BLOB%3AID%3D3340/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Pecorino Toscano DOP</strong></a></p><figure class=\"step-photo step-photo-right\" style=\"width:112px;max-width:46%;\"><img src=\"../foto/indici/ingredienti/pecorino/marchio-prodotto-pecorino-toscano-dop.png\" alt=\"Marchio Pecorino Toscano DOP\"></figure><p><em>Dal disciplinare:</em> “La denominazione di origine «Pecorino Toscano» è ri servata al formaggio avente le seguenti caratteristiche: formaggio a pasta tenera o a pasta semi dura, prodotto esclusivamente con latte di pecora intero proveniente dalla zona di produzione. Il periodo di maturazione è di almeno venti giorni per il tipo a pasta tenera e deve essere non inferiore a quattro mesi per il tipo a pasta semidura. Per il prodotto a pasta tenera è ammessa la dicitura volontaria di “semistagionato” per il prodotto che abbia almeno 60 giorni di maturazione. È usato come formaggio da tavola o da grattugia.”</p><div data-consolidated-ingredient=\"pecorino-romano-dop\"><p><strong>Pecorino Romano Dop.</strong></p><p><strong><a href=\"https://www.pecorinoromano.com/download_file/view/111/366\" target=\"_blank\" rel=\"noopener noreferrer\">Pecorino romano DOP</a></strong></p><figure class=\"step-photo step-photo-right\" style=\"width: 46%; max-width: 46%;\"><img src=\"../foto/indici/ingredienti/pecorino-romano-dop/12-pecorino-romano_001.jpg\"></figure><p>“Il Pecorino Romano D.O.P. è un formaggio unico, naturale e nutriente, prodotto esclusivamente con latte di pecora delle zone geografiche protette.</p><p>Il suo gusto aromatico, intenso e piccante - che si declina a seconda del grado di stagionatura - si sposa a meraviglia con un'infinità di sapori...anche quelli che non immagini.</p><p>Un Formaggio dalle origini antiche, perfetto per tutte le sfumature della cucina contemporanea\"</p></div>",
     "immagini": [
+      "../foto/indici/ingredienti/pecorino/12-pecorino-romano_001.jpg",
       "../foto/indici/ingredienti/pecorino/eccellenza-pecorino-crotonese-dop.jpg",
       "../foto/indici/ingredienti/pecorino/eccellenza-pecorino-delle-balze-volterrane-dop.jpg",
       "../foto/indici/ingredienti/pecorino/eccellenza-pecorino-di-filiano-dop.jpg",
@@ -314,6 +978,18 @@
       "../foto/indici/ingredienti/pecorino/marchio-prodotto-pecorino-sardo-dop.png",
       "../foto/indici/ingredienti/pecorino/marchio-prodotto-pecorino-siciliano-dop.png",
       "../foto/indici/ingredienti/pecorino/marchio-prodotto-pecorino-toscano-dop.png",
+      "../foto/indici/ingredienti/pecorino/qr-code.png"
+    ]
+  },
+  "pecorino-romano": {
+    "titolo": "Pecorino Romano",
+    "immagini": [
+      "../foto/indici/ingredienti/pecorino-romano/qr-code.png"
+    ]
+  },
+  "pecorino-romano-dop": {
+    "titolo": "Pecorino Romano Dop",
+    "immagini": [
       "../foto/indici/ingredienti/pecorino-romano-dop/12-pecorino-romano_001.jpg"
     ]
   },
@@ -321,7 +997,32 @@
     "titolo": "Penne",
     "immagini": [
       "../foto/indici/ingredienti/penne/eccellenza-pasta-di-gragnano-igp.jpg",
-      "../foto/indici/ingredienti/penne/marchio-igp.jpg"
+      "../foto/indici/ingredienti/penne/marchio-igp.jpg",
+      "../foto/indici/ingredienti/penne/qr-code.png"
+    ]
+  },
+  "pepe-tritato": {
+    "titolo": "Pepe Tritato",
+    "immagini": [
+      "../foto/indici/ingredienti/pepe-tritato/qr-code.png"
+    ]
+  },
+  "peperoncini-secchi-piccanti": {
+    "titolo": "Peperoncini Secchi Piccanti",
+    "immagini": [
+      "../foto/indici/ingredienti/peperoncini-secchi-piccanti/qr-code.png"
+    ]
+  },
+  "peperoncino": {
+    "titolo": "Peperoncino",
+    "immagini": [
+      "../foto/indici/ingredienti/peperoncino/qr-code.png"
+    ]
+  },
+  "peperoncino-piccante": {
+    "titolo": "Peperoncino Piccante",
+    "immagini": [
+      "../foto/indici/ingredienti/peperoncino-piccante/qr-code.png"
     ]
   },
   "peperoni": {
@@ -332,7 +1033,50 @@
       "../foto/indici/ingredienti/peperoni/eccellenza-peperone-corno-di-bue-di-carmagnola.jpg",
       "../foto/indici/ingredienti/peperoni/marchio-dop.jpg",
       "../foto/indici/ingredienti/peperoni/marchio-igp.jpg",
-      "../foto/indici/ingredienti/peperoni/marchio-presidio-slow-food.png"
+      "../foto/indici/ingredienti/peperoni/marchio-presidio-slow-food.png",
+      "../foto/indici/ingredienti/peperoni/qr-code.png"
+    ]
+  },
+  "peperoni-gialli-e-rossi": {
+    "titolo": "Peperoni Gialli E Rossi",
+    "immagini": [
+      "../foto/indici/ingredienti/peperoni-gialli-e-rossi/qr-code.png"
+    ]
+  },
+  "pesce-spada-affumicato": {
+    "titolo": "Pesce Spada Affumicato",
+    "immagini": [
+      "../foto/indici/ingredienti/pesce-spada-affumicato/qr-code.png"
+    ]
+  },
+  "petto-di-pollo": {
+    "titolo": "Petto Di Pollo",
+    "immagini": [
+      "../foto/indici/ingredienti/petto-di-pollo/qr-code.png"
+    ]
+  },
+  "pica-a-lombata": {
+    "titolo": "Pica A Lombata",
+    "immagini": [
+      "../foto/indici/ingredienti/pica-a-lombata/qr-code.png"
+    ]
+  },
+  "pinoli": {
+    "titolo": "Pinoli",
+    "immagini": [
+      "../foto/indici/ingredienti/pinoli/qr-code.png"
+    ]
+  },
+  "piselli": {
+    "titolo": "Piselli",
+    "immagini": [
+      "../foto/indici/ingredienti/piselli/qr-code.png"
+    ]
+  },
+  "pistilli-di-zafferano": {
+    "titolo": "Pistilli Di Zafferano",
+    "immagini": [
+      "../foto/indici/ingredienti/pistilli-di-zafferano/qr-code.png"
     ]
   },
   "pollo": {
@@ -340,18 +1084,37 @@
     "html": "<p><strong>Eccellenze.</strong></p><p><em>Da </em><a href=\"https://www.fondazioneslowfood.com/it/presidi-slow-food/\" target=\"_blank\" rel=\"noopener noreferrer\"><em>Fondazione Slow Food - Presìdi</em></a><img src=\"../foto/indici/ingredienti/pollo/marchio-presidio-slow-food.png\" alt=\"Presidio Slow Food\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"></p><p><a href=\"https://www.fondazioneslowfood.com/it/presidi-slow-food/cappone-di-morozzo/\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Cappone di Morozzo</strong></a></p><figure class=\"step-photo step-photo-right\" style=\"width:210px;max-width:46%;\"><img src=\"../foto/indici/ingredienti/pollo/eccellenza-cappone-di-morozzo.jpg\" alt=\"Cappone di Morozzo\"></figure><p><em>Dalla scheda ufficiale:</em> “A Morozzo tradizionalmente i capponi si fanno con la razza bionda piemontese e, quando sono pronti, hanno una lunga coda nera con riflessi metallici”</p>",
     "immagini": [
       "../foto/indici/ingredienti/pollo/eccellenza-cappone-di-morozzo.jpg",
-      "../foto/indici/ingredienti/pollo/marchio-presidio-slow-food.png"
+      "../foto/indici/ingredienti/pollo/marchio-presidio-slow-food.png",
+      "../foto/indici/ingredienti/pollo/qr-code.png"
+    ]
+  },
+  "polpa-di-cavallo-a-fettine": {
+    "titolo": "Polpa Di Cavallo A Fettine",
+    "immagini": [
+      "../foto/indici/ingredienti/polpa-di-cavallo-a-fettine/qr-code.png"
     ]
   },
   "pomodori": {
     "titolo": "Pomodori",
     "html": "<p><strong>Eccellenze.</strong></p><p><em>dal </em><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/15453\" target=\"_blank\" rel=\"noopener noreferrer\"><em>Ministero dell&#x27;agricoltura, della sovranità alimentare e delle foreste</em></a><img src=\"../foto/indici/ingredienti/pomodori/marchio-dop.jpg\" alt=\"DOP\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"><img src=\"../foto/indici/ingredienti/pomodori/marchio-igp.jpg\" alt=\"IGP\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"></p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/f%252F7%252F8%252FD.4d867b818ff85f870064/P/BLOB%3AID%3D3343/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Pomodorino del Piennolo del Vesuvio DOP</strong></a></p><p><em>Dal disciplinare:</em> “La Denom inazione d’Origine Protetta (DOP) Pomodorino del Piennolo del Vesuvio designa il frutto degli ecotipi di pomodorini della s pecie Lycopersicon esculentum Mill. frutto di forma ovale o leggermente pruniforme con apice appuntito e frequente costolatura della parte peduncolare I frutti ammessi a tutela devono avere le seguenti caratteristiche: a) allo stato fresco, entro quattro giorni dalla raccolta.: ­ pezzatura: peso non superiore a 30 g - parametri di forma: rapporto fra i diametri maggiore e minore: compreso fra 1,2 e 1,3 - colore esterno (a maturazione): vermiglio - colore della polpa: rosso - consistenza: elevata - sapore: vivace…”</p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/7%252F0%252F2%252FD.078a86b4e98f0e2fad26/P/BLOB%3AID%3D3343/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Pomodoro di Pachino IGP</strong></a></p><figure class=\"step-photo step-photo-right\" style=\"width:210px;max-width:46%;\"><img src=\"../foto/indici/ingredienti/pomodori/eccellenza-pomodoro-di-pachino-igp.jpg\" alt=\"Pomodoro di Pachino IGP\"></figure><figure class=\"step-photo step-photo-right\" style=\"width:112px;max-width:46%;\"><img src=\"../foto/indici/ingredienti/pomodori/marchio-prodotto-pomodoro-di-pachino-igp.png\" alt=\"Marchio Pomodoro di Pachino IGP\"></figure><p><em>Dal disciplinare:</em> “Pomodoro prodotto nelle tipologie tondo liscio, costoluto, cherry e oblungo. I frutti hanno colore brillante, polpa soda, gusto dolce e sapido e un contenuto zuccherino che contribuisce alla loro riconoscibilità.”</p><div data-consolidated-ingredient=\"pomodori-pelati-san-marzano-dop\"><p><strong>Pomodori pelati San Marzano DOP.</strong></p><p><a href=\"https://consorziopomodorosanmarzanodop.it/\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Pomodoro san Marzano DOP</strong></a></p><figure class=\"step-photo step-photo-right\" style=\"width: 46%; max-width: 46%;\"><img src=\"../foto/indici/ingredienti/pomodori-pelati-san-marzano-dop/DSC3077-1.jpg\"></figure><p>Le caratteristiche che rendono unico e distinguibile il Pomodoro San Marzano da tutti gli altri sono ben specifiche.</p><p><strong>&nbsp;I frutti hanno una tipica forma allungata e una misura solitamente compresa tra i sei e gli otto centimetri e il colore a maturazione è un rosso brillante.</strong></p><p><strong>La buccia sottile si stacca facilmente e custodisce una polpa elastica e corposa quasi priva di semi.</strong></p><p><strong>La sezione interna del pomodoro presenta due o tre logge e il sapore è tipicamente intenso ed agrodolce.</strong></p><p><strong>La densità della polpa, compatta e carnosa, fa sì che il San Marzano non si schiacci durante la lavorazione dando vita a pelati sodi e salse consistenti.</strong></p><p><strong>Dal </strong><a href=\"https://consorziopomodorosanmarzanodop.it/wp-content/uploads/2024/03/disciplinare_Pomodoro_San_marzano_dell_Agro_Sarnese_Nocerino_26.8.2019.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>disciplinare</strong></a><strong>...</strong></p></div>",
     "immagini": [
+      "../foto/indici/ingredienti/pomodori/DSC3077-1.jpg",
       "../foto/indici/ingredienti/pomodori/eccellenza-pomodoro-di-pachino-igp.jpg",
       "../foto/indici/ingredienti/pomodori/marchio-dop.jpg",
       "../foto/indici/ingredienti/pomodori/marchio-igp.jpg",
       "../foto/indici/ingredienti/pomodori/marchio-prodotto-pomodoro-di-pachino-igp.png",
-      "../foto/indici/ingredienti/pomodori-pelati-san-marzano-dop/DSC3077-1.jpg",
+      "../foto/indici/ingredienti/pomodori/qr-code.png"
+    ]
+  },
+  "pomodori-pelati-san-marzano-dop": {
+    "titolo": "Pomodori Pelati San Marzano Dop",
+    "immagini": [
+      "../foto/indici/ingredienti/pomodori-pelati-san-marzano-dop/DSC3077-1.jpg"
+    ]
+  },
+  "pomodori-san-marzano": {
+    "titolo": "Pomodori San Marzano",
+    "immagini": [
       "../foto/indici/ingredienti/pomodori-san-marzano/marchio-dop.jpg"
     ]
   },
@@ -362,7 +1125,32 @@
       "../foto/indici/ingredienti/pomodorini/eccellenza-pomodoro-di-pachino-igp.jpg",
       "../foto/indici/ingredienti/pomodorini/marchio-dop.jpg",
       "../foto/indici/ingredienti/pomodorini/marchio-igp.jpg",
-      "../foto/indici/ingredienti/pomodorini/marchio-prodotto-pomodoro-di-pachino-igp.png"
+      "../foto/indici/ingredienti/pomodorini/marchio-prodotto-pomodoro-di-pachino-igp.png",
+      "../foto/indici/ingredienti/pomodorini/qr-code.png"
+    ]
+  },
+  "pomodoro-rosso": {
+    "titolo": "Pomodoro Rosso",
+    "immagini": [
+      "../foto/indici/ingredienti/pomodoro-rosso/qr-code.png"
+    ]
+  },
+  "porro": {
+    "titolo": "Porro",
+    "immagini": [
+      "../foto/indici/ingredienti/porro/qr-code.png"
+    ]
+  },
+  "prosciutto-cotto": {
+    "titolo": "Prosciutto Cotto",
+    "immagini": [
+      "../foto/indici/ingredienti/prosciutto-cotto/qr-code.png"
+    ]
+  },
+  "prosciutto-cotto-affumicato": {
+    "titolo": "Prosciutto Cotto Affumicato",
+    "immagini": [
+      "../foto/indici/ingredienti/prosciutto-cotto-affumicato/qr-code.png"
     ]
   },
   "prosciutto-crudo": {
@@ -375,7 +1163,20 @@
       "../foto/indici/ingredienti/prosciutto-crudo/eccellenza-prosciutto-di-san-daniele-dop.jpg",
       "../foto/indici/ingredienti/prosciutto-crudo/marchio-dop.jpg",
       "../foto/indici/ingredienti/prosciutto-crudo/marchio-igp.jpg",
-      "../foto/indici/ingredienti/prosciutto-crudo/marchio-prodotto-prosciutto-di-parma-dop.png"
+      "../foto/indici/ingredienti/prosciutto-crudo/marchio-prodotto-prosciutto-di-parma-dop.png",
+      "../foto/indici/ingredienti/prosciutto-crudo/qr-code.png"
+    ]
+  },
+  "rape": {
+    "titolo": "Rape",
+    "immagini": [
+      "../foto/indici/ingredienti/rape/qr-code.png"
+    ]
+  },
+  "ravanelli": {
+    "titolo": "Ravanelli",
+    "immagini": [
+      "../foto/indici/ingredienti/ravanelli/qr-code.png"
     ]
   },
   "riso": {
@@ -383,7 +1184,20 @@
     "html": "<p><strong>Eccellenze.</strong></p><p><em>dal </em><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/15453\" target=\"_blank\" rel=\"noopener noreferrer\"><em>Ministero dell&#x27;agricoltura, della sovranità alimentare e delle foreste</em></a><img src=\"../foto/indici/ingredienti/riso/marchio-dop.jpg\" alt=\"DOP\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"><img src=\"../foto/indici/ingredienti/riso/marchio-igp.jpg\" alt=\"IGP\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"></p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/2%252Fc%252F0%252FD.d26541ebf8a35f6cd2ed/P/BLOB%3AID%3D3343/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Riso di Baraggia Biellese e Vercellese DOP</strong></a></p><p><em>Dal disciplinare:</em> “Descrizione del prodotto La denominazione d&#x27;origine protetta &quot;Riso di Baraggia Biellese e Vercellese&quot; designa, con esclusività, il prodotto risiero ottenuto mediante l&#x27;elaborazione del riso grezzo o risone a riso &quot;integrale&quot;, &quot;raffinato&quot; e &quot;parboiled&quot;.”</p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/1%252Ff%252Fa%252FD.591872b757f645ec48b4/P/BLOB%3AID%3D3343/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Riso Nano Vialone Veronese IGP</strong></a></p><p><em>Dal disciplinare:</em> “Riso semilavorato della varietà Vialone Nano, con chicco di media grandezza, forma tondeggiante e perla centrale estesa. Assorbe bene i condimenti e mantiene una buona consistenza in cottura.”</p><p><em>Da altre fonti documentarie:</em></p><p><a href=\"https://risodeltapoigp.it/it/il-riso-delta-del-po-igp/\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Riso del Delta del Po IGP</strong></a></p><p><em>Dal disciplinare:</em> “Riso del gruppo Japonica, nelle varietà ammesse dal disciplinare, con chicco grande, compatto, cristallino o perlato e tenore proteico elevato.”</p>",
     "immagini": [
       "../foto/indici/ingredienti/riso/marchio-dop.jpg",
-      "../foto/indici/ingredienti/riso/marchio-igp.jpg"
+      "../foto/indici/ingredienti/riso/marchio-igp.jpg",
+      "../foto/indici/ingredienti/riso/qr-code.png"
+    ]
+  },
+  "riso-bollito-nel-latte": {
+    "titolo": "Riso Bollito Nel Latte",
+    "immagini": [
+      "../foto/indici/ingredienti/riso-bollito-nel-latte/qr-code.png"
+    ]
+  },
+  "rucola": {
+    "titolo": "Rucola",
+    "immagini": [
+      "../foto/indici/ingredienti/rucola/qr-code.png"
     ]
   },
   "sale": {
@@ -392,7 +1206,44 @@
     "immagini": [
       "../foto/indici/ingredienti/sale/eccellenza-sale-marino-artigianale-di-cervia.jpg",
       "../foto/indici/ingredienti/sale/eccellenza-sale-marino-di-trapani.jpg",
-      "../foto/indici/ingredienti/sale/marchio-presidio-slow-food.png"
+      "../foto/indici/ingredienti/sale/marchio-presidio-slow-food.png",
+      "../foto/indici/ingredienti/sale/qr-code.png"
+    ]
+  },
+  "salmone-cotto-a-vapore": {
+    "titolo": "Salmone Cotto A Vapore",
+    "immagini": [
+      "../foto/indici/ingredienti/salmone-cotto-a-vapore/qr-code.png"
+    ]
+  },
+  "salsicce-quadrate-affumicate": {
+    "titolo": "Salsicce Quadrate Affumicate",
+    "immagini": [
+      "../foto/indici/ingredienti/salsicce-quadrate-affumicate/qr-code.png"
+    ]
+  },
+  "sarde": {
+    "titolo": "Sarde",
+    "immagini": [
+      "../foto/indici/ingredienti/sarde/qr-code.png"
+    ]
+  },
+  "scalogno": {
+    "titolo": "Scalogno",
+    "immagini": [
+      "../foto/indici/ingredienti/scalogno/qr-code.png"
+    ]
+  },
+  "schie": {
+    "titolo": "Schie",
+    "immagini": [
+      "../foto/indici/ingredienti/schie/qr-code.png"
+    ]
+  },
+  "scorza-di-limone-grattugiata": {
+    "titolo": "Scorza Di Limone Grattugiata",
+    "immagini": [
+      "../foto/indici/ingredienti/scorza-di-limone-grattugiata/qr-code.png"
     ]
   },
   "sedano": {
@@ -401,49 +1252,212 @@
     "immagini": [
       "../foto/indici/ingredienti/sedano/eccellenza-sedano-rosso-di-orbassano.jpg",
       "../foto/indici/ingredienti/sedano/marchio-igp.jpg",
-      "../foto/indici/ingredienti/sedano/marchio-presidio-slow-food.png"
+      "../foto/indici/ingredienti/sedano/marchio-presidio-slow-food.png",
+      "../foto/indici/ingredienti/sedano/qr-code.png"
+    ]
+  },
+  "sedano-rapa": {
+    "titolo": "Sedano Rapa",
+    "immagini": [
+      "../foto/indici/ingredienti/sedano-rapa/qr-code.png"
+    ]
+  },
+  "semi-di-sesamo": {
+    "titolo": "Semi Di Sesamo",
+    "immagini": [
+      "../foto/indici/ingredienti/semi-di-sesamo/qr-code.png"
+    ]
+  },
+  "senape": {
+    "titolo": "Senape",
+    "immagini": [
+      "../foto/indici/ingredienti/senape/qr-code.png"
+    ]
+  },
+  "senape-di-digione": {
+    "titolo": "Senape Di Digione",
+    "immagini": [
+      "../foto/indici/ingredienti/senape-di-digione/qr-code.png"
     ]
   },
   "soppressa-veneta": {
     "titolo": "Soppressa veneta",
     "html": "<p><strong>Eccellenze.</strong></p><p><em>dal </em><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/15453\" target=\"_blank\" rel=\"noopener noreferrer\"><em>Ministero dell&#x27;agricoltura, della sovranità alimentare e delle foreste</em></a><img src=\"../foto/indici/ingredienti/soppressa-veneta/marchio-dop.jpg\" alt=\"DOP\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"></p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/e%252Fd%252F2%252FD.569d6cbb9d3747cc4cbc/P/BLOB%3AID%3D3339/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Soprèssa Vicentina DOP</strong></a></p><p><em>Dal disciplinare:</em> “Insaccato di carni suine selezionate e macinate, di forma cilindrica e dimensioni anche molto grandi. Al taglio la pasta è compatta ma tenera, rosata o rossa con grasso bianco, dal profumo speziato e dal gusto delicato e leggermente agliato.”</p>",
     "immagini": [
-      "../foto/indici/ingredienti/soppressa-veneta/marchio-dop.jpg"
+      "../foto/indici/ingredienti/soppressa-veneta/marchio-dop.jpg",
+      "../foto/indici/ingredienti/soppressa-veneta/qr-code.png"
+    ]
+  },
+  "sopressa-vicentina": {
+    "titolo": "Sopressa Vicentina",
+    "immagini": [
+      "../foto/indici/ingredienti/sopressa-vicentina/qr-code.png"
     ]
   },
   "spaghetti": {
     "titolo": "Spaghetti",
     "immagini": [
       "../foto/indici/ingredienti/spaghetti/eccellenza-pasta-di-gragnano-igp.jpg",
-      "../foto/indici/ingredienti/spaghetti/marchio-igp.jpg"
+      "../foto/indici/ingredienti/spaghetti/marchio-igp.jpg",
+      "../foto/indici/ingredienti/spaghetti/qr-code.png"
+    ]
+  },
+  "spaghetti-o-vermicelli": {
+    "titolo": "Spaghetti O Vermicelli",
+    "immagini": [
+      "../foto/indici/ingredienti/spaghetti-o-vermicelli/qr-code.png"
     ]
   },
   "speck": {
     "titolo": "Speck",
     "html": "<p><strong>Eccellenze.</strong></p><p><em>dal registro </em><a href=\"https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/\" target=\"_blank\" rel=\"noopener noreferrer\"><em>eAmbrosia - registro delle indicazioni geografiche dell&#x27;Unione europea</em></a><img src=\"../foto/indici/ingredienti/speck/marchio-igp.jpg\" alt=\"IGP\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"></p><p><a href=\"https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/13141\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Speck Alto Adige / Südtiroler Markenspeck / Südtiroler Speck IGP</strong></a></p><p><em>Dal disciplinare:</em> “Coscia suina disossata, salata e aromatizzata a secco, leggermente affumicata a freddo e stagionata. Al taglio presenta carne rosso-rosata e grasso bianco, con profumo di fumo e spezie e gusto sapido equilibrato.”</p>",
     "immagini": [
-      "../foto/indici/ingredienti/speck/marchio-igp.jpg"
+      "../foto/indici/ingredienti/speck/marchio-igp.jpg",
+      "../foto/indici/ingredienti/speck/qr-code.png"
+    ]
+  },
+  "spinaci": {
+    "titolo": "Spinaci",
+    "immagini": [
+      "../foto/indici/ingredienti/spinaci/qr-code.png"
     ]
   },
   "stoccafisso": {
     "titolo": "Stoccafisso",
     "html": "<p><strong>Eccellenze.</strong></p><p><em>dal registro </em><a href=\"https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/\" target=\"_blank\" rel=\"noopener noreferrer\"><em>eAmbrosia - registro delle indicazioni geografiche dell&#x27;Unione europea</em></a><img src=\"../foto/indici/ingredienti/stoccafisso/marchio-igp.jpg\" alt=\"IGP\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"></p><p><a href=\"https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/14365\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Tørrfisk fra Lofoten IGP</strong></a></p><p><em>Dal disciplinare:</em> “Merluzzo artico norvegese essiccato naturalmente all&#x27;aperto nelle isole Lofoten, senza aggiunta di sale. Dopo la maturazione presenta carne soda, colore chiaro e aroma caratteristico.”</p>",
     "immagini": [
-      "../foto/indici/ingredienti/stoccafisso/marchio-igp.jpg"
+      "../foto/indici/ingredienti/stoccafisso/marchio-igp.jpg",
+      "../foto/indici/ingredienti/stoccafisso/qr-code.png"
+    ]
+  },
+  "strutto": {
+    "titolo": "Strutto",
+    "immagini": [
+      "../foto/indici/ingredienti/strutto/qr-code.png"
+    ]
+  },
+  "subiotini": {
+    "titolo": "Subiotini",
+    "immagini": [
+      "../foto/indici/ingredienti/subiotini/qr-code.png"
+    ]
+  },
+  "testina-di-vitello": {
+    "titolo": "Testina Di Vitello",
+    "immagini": [
+      "../foto/indici/ingredienti/testina-di-vitello/qr-code.png"
+    ]
+  },
+  "tonno": {
+    "titolo": "Tonno",
+    "immagini": [
+      "../foto/indici/ingredienti/tonno/qr-code.png"
+    ]
+  },
+  "tonno-fresco": {
+    "titolo": "Tonno Fresco",
+    "immagini": [
+      "../foto/indici/ingredienti/tonno-fresco/qr-code.png"
+    ]
+  },
+  "tonno-in-scatola": {
+    "titolo": "Tonno In Scatola",
+    "immagini": [
+      "../foto/indici/ingredienti/tonno-in-scatola/qr-code.png"
+    ]
+  },
+  "topinambur": {
+    "titolo": "Topinambur",
+    "immagini": [
+      "../foto/indici/ingredienti/topinambur/qr-code.png"
+    ]
+  },
+  "triglie-di-scoglio": {
+    "titolo": "Triglie Di Scoglio",
+    "immagini": [
+      "../foto/indici/ingredienti/triglie-di-scoglio/qr-code.png"
+    ]
+  },
+  "uova": {
+    "titolo": "Uova",
+    "immagini": [
+      "../foto/indici/ingredienti/uova/qr-code.png"
+    ]
+  },
+  "uva-passa": {
+    "titolo": "Uva Passa",
+    "immagini": [
+      "../foto/indici/ingredienti/uva-passa/qr-code.png"
+    ]
+  },
+  "uva-sultanina": {
+    "titolo": "Uva Sultanina",
+    "immagini": [
+      "../foto/indici/ingredienti/uva-sultanina/qr-code.png"
+    ]
+  },
+  "vino-bianco-molto-secco": {
+    "titolo": "Vino Bianco Molto Secco",
+    "immagini": [
+      "../foto/indici/ingredienti/vino-bianco-molto-secco/qr-code.png"
+    ]
+  },
+  "vino-bianco-secco": {
+    "titolo": "Vino Bianco Secco",
+    "immagini": [
+      "../foto/indici/ingredienti/vino-bianco-secco/qr-code.png"
+    ]
+  },
+  "vino-rosso": {
+    "titolo": "Vino Rosso",
+    "immagini": [
+      "../foto/indici/ingredienti/vino-rosso/qr-code.png"
     ]
   },
   "vitello": {
     "titolo": "Vitello",
     "html": "<p><strong>Eccellenze.</strong></p><p><em>dal registro </em><a href=\"https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/\" target=\"_blank\" rel=\"noopener noreferrer\"><em>eAmbrosia - registro delle indicazioni geografiche dell&#x27;Unione europea</em></a><img src=\"../foto/indici/ingredienti/vitello/marchio-igp.jpg\" alt=\"IGP\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"></p><p><a href=\"https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/details/13333\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Vitellone Bianco dell&#x27;Appennino Centrale IGP</strong></a></p><p><em>Dal disciplinare:</em> “colore delle parti carnose esposte della carcassa non deve presentare colorazioni anomale (magenta o tendente al nero). Il colore del grasso visibile non deve tendere al giallo cinerino ne&#x27; deve avere venature tendenti al giallo carico. I parametri qualitativi della carne di Vitellone Bianco dell&#x27;Appennino Centrale devono essere: - pH fra 5.2 e 5.8 -.”</p>",
     "immagini": [
-      "../foto/indici/ingredienti/vitello/marchio-igp.jpg"
+      "../foto/indici/ingredienti/vitello/marchio-igp.jpg",
+      "../foto/indici/ingredienti/vitello/qr-code.png"
+    ]
+  },
+  "wurster-di-diverse-qualita": {
+    "titolo": "Wurster Di Diverse Qualita",
+    "immagini": [
+      "../foto/indici/ingredienti/wurster-di-diverse-qualita/qr-code.png"
     ]
   },
   "zafferano": {
     "titolo": "Zafferano",
     "html": "<p><strong>Eccellenze.</strong></p><p><em>dal </em><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/15453\" target=\"_blank\" rel=\"noopener noreferrer\"><em>Ministero dell&#x27;agricoltura, della sovranità alimentare e delle foreste</em></a><img src=\"../foto/indici/ingredienti/zafferano/marchio-dop.jpg\" alt=\"DOP\" width=\"34\" style=\"display:inline-block;width:34px;height:auto;vertical-align:middle;margin-left:.45rem\"></p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/0%252F9%252F7%252FD.3b1022cb8ea6ca581c00/P/BLOB%3AID%3D3345/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Zafferano dell&#x27;Aquila DOP</strong></a></p><p><em>Dal disciplinare:</em> “Descrizione del prodotto- Lo &quot;Zafferano dell&#x27;Aquila&quot; a Denommazione d&#x27;Origine Protetta (DOP) si ottiene dagli stimmi del fiore del Crocus Sativus L., pianta tubero-bulbosa appartenente alla famiglia delle iridacee.. Il prodotto è di colore rosso porpora e viene commercializzato, previa tostatura, in filamenti allo stato naturale o in polvere. Il prodotto ammesso a tutela, in condizioni di assoluta purezza, deve avere le seguenti caratteristiche: a) Presentazione - Polvere, mediante macinatura degli”</p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/e%252Fe%252F8%252FD.e367995f77a9dfde3341/P/BLOB%3AID%3D3345/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Zafferano di San Gimignano DOP</strong></a></p><p><em>Dal disciplinare:</em> “Descrizione del prodotto Lo &quot;Zafferano di San Gimignano&quot; è costituito esclusivamente dalla parte di colore rosso aranciato, sottoposta a tostatura, degli stimmi dei fiori provenienti dalla coltivazione del bulbo-tubero &quot;crocus sativus L.&quot;, pianta erbacea monocotiledone appartenente alla famiglia delle iridacee. Dopo la tostatura, il loro colore vira da aranciato in un caratteristico rosso bordeaux.”</p><p><a href=\"https://www.masaf.gov.it/flex/cm/pages/ServeAttachment.php/L/IT/D/0%252Fd%252F1%252FD.700903927a7117cdde53/P/BLOB%3AID%3D3345/E/pdf?mode=download\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Zafferano di Sardegna DOP</strong></a></p><p><em>Dal disciplinare:</em> “Zafferano in stimmi essiccati ottenuto in Sardegna da Crocus sativus L. Si distingue per l&#x27;elevato potere colorante, l&#x27;aroma intenso e il gusto deciso.”</p>",
     "immagini": [
-      "../foto/indici/ingredienti/zafferano/marchio-dop.jpg"
+      "../foto/indici/ingredienti/zafferano/marchio-dop.jpg",
+      "../foto/indici/ingredienti/zafferano/qr-code.png"
+    ]
+  },
+  "zenzero": {
+    "titolo": "Zenzero",
+    "immagini": [
+      "../foto/indici/ingredienti/zenzero/qr-code.png"
+    ]
+  },
+  "zucchero-di-canna": {
+    "titolo": "Zucchero Di Canna",
+    "immagini": [
+      "../foto/indici/ingredienti/zucchero-di-canna/qr-code.png"
+    ]
+  },
+  "zucchero-semolato": {
+    "titolo": "Zucchero Semolato",
+    "immagini": [
+      "../foto/indici/ingredienti/zucchero-semolato/qr-code.png"
+    ]
+  },
+  "zucchine": {
+    "titolo": "Zucchine",
+    "immagini": [
+      "../foto/indici/ingredienti/zucchine/qr-code.png"
     ]
   }
 }

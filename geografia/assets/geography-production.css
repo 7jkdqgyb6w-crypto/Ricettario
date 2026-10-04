@@ -3,6 +3,7 @@
 .geography-page .page-intro{margin:0 0 2.4rem}
 .geography-page .page-intro p{color:var(--muted)}
 .place-classification strong{display:block;margin-bottom:.18rem}
+.place-navigators{display:flex;gap:.45rem;margin:0 0 1.4rem}.place-navigators a{display:inline-grid;place-items:center;width:2rem;height:2rem;border:1px solid var(--line);border-radius:50%;background:#fff;color:var(--link);text-decoration:none}.place-navigators a:hover,.place-navigators a:focus-visible{border-color:currentColor;outline-offset:2px}.place-navigator-icon{display:block;width:1.25rem;height:1.25rem;object-fit:contain;font-size:.78rem;font-weight:700;line-height:1}
 .context-nav{display:flex;gap:.55rem 1.15rem;flex-wrap:wrap;padding:.65rem 0;margin:0 0 2rem;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .geo-modes{display:flex;gap:.65rem;flex-wrap:wrap;margin:0 0 2rem}
 .geo-modes a{display:inline-block;padding:.5rem .7rem;border:1px solid var(--line);background:#fff}
@@ -13,6 +14,7 @@
 .geography-map{position:relative}
 .geography-map svg{display:block;width:100%;height:auto;aspect-ratio:1.9/1;background:#eaf2f3;border:1px solid var(--line)}
 .map-sphere{fill:#eaf2f3}.map-land{fill:#dce4df;stroke:#aab8b5;stroke-width:.45}.map-graticule{fill:none;stroke:#c5d4d7;stroke-width:.4}
+.map-land,.map-graticule,.map-region{vector-effect:non-scaling-stroke}
 .map-marker{fill:#385d73;fill-opacity:.78;stroke:#fff;stroke-width:1;vector-effect:non-scaling-stroke}
 .map-marker-hit{fill:transparent;stroke:none;pointer-events:all}
 .map-marker-state{fill:#7b3f8c;fill-opacity:.9;stroke:#fff;stroke-width:1.5}
@@ -23,6 +25,8 @@
 .place-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 1.25rem}.place-grid>a{display:flex;justify-content:space-between;gap:1rem;padding:.75rem 0;border-bottom:1px solid var(--line)}.place-grid span{color:var(--muted);font-size:.85rem;text-align:right}
 .graph-columns{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem}.graph-columns>section{padding:1rem;border:1px solid var(--line);background:#fff}
 .geo-tree,.geo-tree ul,.reverse-hierarchy,.reverse-hierarchy ul{list-style:none;padding-left:1.2rem}.geo-tree>li,.reverse-hierarchy>li{padding-left:0}.geo-tree details>summary{cursor:pointer}
+.geo-tree[data-geo-territory-primary]{max-height:32rem;overflow-y:auto;overscroll-behavior:contain;padding-right:.4rem}
+.geo-tree button,.alphabet-index button{margin:.2rem .45rem .2rem 0;padding:.25rem .5rem;border:1px solid var(--line);background:#fff;color:var(--link);font:inherit;cursor:pointer}.geo-tree button{font-size:.78rem}.alphabet-index [data-geo-letters]{display:flex;flex-wrap:wrap;gap:.2rem;margin:1rem 0}.alphabet-index button[aria-pressed="true"]{background:var(--link);color:#fff}
 .reverse-hierarchy{margin:0}.reverse-hierarchy-row{padding:.75rem 0;border-bottom:1px solid var(--line)}.reverse-term{font-weight:700}.reverse-hierarchy-row>ul{padding:.25rem 0 0;margin:0;color:var(--muted);font-size:.88rem}.relation-step{display:inline}.relation-type{font-style:italic;color:var(--muted)}
 .alphabet-index>section{margin-top:1.4rem}.alphabet-index h3{padding-bottom:.25rem;border-bottom:2px solid var(--line)}
 .relation-branch{margin:1rem 0;padding-left:1rem;border-left:3px solid var(--line)}.semantic-path{margin:.45rem 0}.relation-children{display:flex;gap:.5rem 1.25rem;flex-wrap:wrap}
@@ -37,3 +41,9 @@
 @media(max-width:700px){.geography-editorial-note figure.step-photo,.geography-editorial-note figure.step-photo-large,.geography-editorial-note figure.step-photo-left,.geography-editorial-note figure.step-photo-right{float:none!important;clear:both!important;width:100%!important;max-width:100%!important;margin:.35rem 0 .85rem!important}.place-corpus h2{padding-right:8.5rem}.place-corpus-more summary{font-size:.72rem}}
 .place-exploration{position:relative;clear:both;margin:2.8rem 0 0;padding-top:.7rem;border-top:1px solid var(--line)}.place-exploration h2{margin:0 0 .75rem;font-size:1.05rem}.place-exploration h3{margin:1rem 0 .55rem;font-size:1rem}.place-exploration h4{margin:.7rem 0 .45rem;font-size:.9rem}
 .place-corpus-sequence .place-corpus-group[hidden]{display:none}
+.place-corpus-actions{display:flex;gap:.35rem;margin:.35rem 0 .95rem}.place-corpus-actions[hidden]{display:none}.place-corpus-actions button,.place-exploration .place-corpus-actions a{display:inline-block;padding:.25rem .48rem;border:1px solid var(--line);background:#fff;color:var(--link);font:inherit;font-size:.76rem;line-height:1.25;text-decoration:none;cursor:pointer}
+.place-corpus-actions button[hidden]{display:none}
+section[data-excellence-list]:not(:has([data-excellence-position][hidden])) .place-corpus-actions{display:none}
+.place-corpus-eccellenze .ingredient-excellence-recognition{display:inline-flex;align-items:center;vertical-align:middle}
+.place-corpus-eccellenze .ingredient-excellence-recognition img{display:inline-block;width:1.1rem;height:1.1rem;margin:0 0 0 .18rem;object-fit:contain;box-shadow:none;cursor:default}
+.place-corpus-eccellenze .place-excellence-origin{display:block;color:var(--muted);font-size:.82rem}

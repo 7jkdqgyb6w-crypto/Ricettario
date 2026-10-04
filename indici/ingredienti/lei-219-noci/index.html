@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<base href="/indici/">
+<title>Noci - Ricette (e altro) di Pierre</title>
+<meta name="description" content="Indice Noci del ricettario di Pierre Piccotti.">
+<link rel="canonical" href="https://ricette.pierre.piccotti.it/indici/ingredienti/lei-219-noci/">
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="../foto/ui/site-navigation.css">
+<style>
+.index-page > .index-content{max-width:var(--reading);margin-left:auto;margin-right:auto;width:100%;}
+.index-page > .index-content > h1{margin-bottom:1.2rem;}
+.index-page .block,.index-page .lead,.index-page .index-section{max-width:100%;}
+.index-filter{margin:0 0 1.5rem 0}
+.index-filter h2{font-size:1.05rem;margin:0 0 .75rem 0}
+.filter-buttons{display:flex;gap:.8rem;flex-wrap:wrap}
+.filter-btn{border:1px solid #c9c1b8;background:#fff;border-radius:999px;padding:.75rem 1.2rem;font:inherit;cursor:pointer}
+.filter-btn.is-active{background:#222;color:#fff;border-color:#222}
+.index-links li{margin:.25rem 0}
+.index-category{padding-top:.7rem;border-top:1px solid var(--line);margin-bottom:1.4rem;}
+.index-category h2{margin-bottom:.9rem;}
+.recipe-index-list{display:grid;gap:1.6rem;}
+.recipe-index-card{display:block;padding-top:1.2rem;border-top:1px solid var(--line);}
+.recipe-index-card:first-child{border-top:0;padding-top:0;}
+.recipe-index-media{display:block;width:100%;margin:0 0 1rem 0;}
+.recipe-index-media a{display:block;width:100%;}
+.recipe-index-media img{display:block;width:100%;max-width:100%;height:auto;box-shadow:none;background:#fff;}
+.recipe-index-body h3{margin:0 0 .45rem;font-size:1.15rem;line-height:1.2;color:#566064;}
+.recipe-index-body p{margin:0 0 .7rem;}
+.recipe-index-meta{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:.55rem 1.2rem;}
+.recipe-index-meta li{margin:0;}
+.index-page .index-category .home-secondary-list{grid-template-columns:repeat(auto-fit,minmax(18rem,1fr));gap:.38rem .7rem;align-items:start;}
+.index-page .index-category .home-secondary-list li{min-width:0;}
+.index-page .index-category .home-secondary-list a.has-recipe-thumb{display:grid;grid-template-columns:4.35rem minmax(0,1fr);gap:.55rem;align-items:center;height:auto;min-height:3.15rem;padding:.42rem .55rem;border:1px solid var(--line);background:rgba(255,255,255,0.34);box-shadow:none;}
+.index-page .index-category .home-secondary-list a.has-recipe-thumb:hover{background:rgba(255,255,255,0.68);}
+.recipe-list-thumb{display:block;width:4.35rem;aspect-ratio:1.618/1;overflow:hidden;background:#f4f1ed;align-self:center;}
+.recipe-list-thumb img{display:block;width:100%;height:100%;object-fit:cover;box-shadow:none;background:#fff;}
+.recipe-list-text{display:block;min-width:0;line-height:1.18;}
+.recipe-list-text strong{display:block;color:#566064;font-size:.92rem;line-height:1.16;overflow-wrap:anywhere;}
+.recipe-list-text span{display:block;margin-top:.12rem;color:var(--muted);font-size:.78rem;line-height:1.2;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;}
+@media (min-width:1180px){
+  .index-page .index-category .home-secondary-list{grid-template-columns:repeat(auto-fit,minmax(20rem,1fr));}
+}
+@media (max-width:520px){
+  .index-page .index-category .home-secondary-list{grid-template-columns:1fr;gap:.34rem;}
+  .index-page .index-category .home-secondary-list a.has-recipe-thumb{grid-template-columns:3.8rem minmax(0,1fr);gap:.5rem;padding:.38rem .48rem;min-height:2.85rem;}
+  .recipe-list-thumb{width:3.8rem;}
+}
+.recipe-refine-panel{margin:0 0 1.5rem 0;padding:.45rem 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
+.recipe-refine summary{cursor:pointer;font-size:.95rem;color:#566064;}
+.recipe-refine-grid{display:grid;gap:.7rem;margin:.75rem 0 0 0;}
+.recipe-refine-group h2{font-size:.82rem;text-transform:uppercase;letter-spacing:.04em;margin:0 0 .35rem 0;color:#566064;}
+.recipe-refine-buttons{display:flex;flex-wrap:wrap;gap:.35rem;}
+.recipe-refine-btn{border:1px solid #c9c1b8;background:#fff;border-radius:999px;padding:.28rem .58rem;font:inherit;font-size:.86rem;line-height:1.2;cursor:pointer;}
+.recipe-refine-btn.is-active{background:#566064;color:#fff;border-color:#566064;}
+
+.recipe-refine-group-allergens{position:relative;}
+.recipe-allergen-picker{display:block;}
+.recipe-allergen-picker > summary{display:inline-flex;align-items:center;gap:.35rem;border:1px solid #c9c1b8;background:#fff;border-radius:999px;padding:.32rem .7rem;font:inherit;font-size:.86rem;line-height:1.2;cursor:pointer;color:#111;}
+.recipe-allergen-panel{display:grid;grid-template-columns:repeat(auto-fit,minmax(13rem,1fr));gap:.35rem .8rem;margin:.55rem 0 0 0;padding:.75rem;border:1px solid var(--line);background:#fff;border-radius:.5rem;}
+.recipe-allergen-option{display:flex;align-items:flex-start;gap:.45rem;font-size:.86rem;line-height:1.25;color:var(--text);}
+.recipe-allergen-option input{margin-top:.08rem;accent-color:#566064;}
+.recipe-allergen-source{margin:.45rem 0 0 0;font-size:.76rem;color:#566064;}
+.recipe-allergen-source a{color:#5f86ad;font-weight:600;}
+.recipe-refine-actions{margin:.55rem 0 0 0;}
+.recipe-reset-btn{border:1px solid #c9c1b8;background:#fff;border-radius:999px;padding:.28rem .62rem;font:inherit;font-size:.86rem;line-height:1.2;cursor:pointer;color:#566064;}
+.recipe-reset-btn:hover{border-color:#566064;color:#222;}
+.recipe-result-count{margin:.6rem 0 0 0;font-size:.9rem;color:#566064;}
+.recipe-result-count strong,.recipe-search-count strong{font-weight:700;color:#222;}
+.recipe-current-query{color:#566064;}
+.recipe-clear-search{border:1px solid #c9c1b8;background:#fff;border-radius:999px;padding:.18rem .52rem;font:inherit;font-size:.82rem;line-height:1.2;cursor:pointer;color:#566064;margin-left:.45rem;}
+.recipe-clear-search:hover{border-color:#566064;color:#222;}
+.site-header nav{display:flex;align-items:center;gap:1rem;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none;margin-left:auto;justify-content:flex-end;}
+.site-header nav::-webkit-scrollbar{display:none;width:0;height:0;}
+.site-header nav a{white-space:nowrap;}
+.site-header .index-nav-back{display:inline-flex !important;align-items:center;justify-content:center;width:28px;height:28px;font-size:24px;line-height:1;text-decoration:none;color:inherit;flex:0 0 auto;position:relative;top:-2px;visibility:visible !important;}
+.site-header .index-nav-back:hover{text-decoration:none;}
+.site-search-button{display:inline-flex;align-items:center;justify-content:center;border:0;background:transparent;color:inherit;padding:.15rem .1rem;cursor:pointer;vertical-align:middle;flex:0 0 auto;}
+.site-search-button svg{width:1.08em;height:1.08em;stroke:currentColor;stroke-width:2;fill:none;display:block;}
+.recipe-search-overlay{position:fixed;inset:0;z-index:2000;display:none;}
+.recipe-search-overlay.is-open{display:block;}
+.recipe-search-backdrop{position:absolute;inset:0;background:rgba(0,0,0,.10);}
+.recipe-search-dialog{position:fixed;top:4.8rem;right:2rem;width:min(410px,calc(100vw - 2rem));margin:0;padding:.95rem 1rem;background:#fff;border:1px solid #8b837b;box-shadow:0 18px 45px rgba(0,0,0,.22);border-radius:.45rem;}
+.recipe-search-dialog h2{margin:0 2rem .55rem 0;font-size:1.05rem;}
+.recipe-search-close{position:absolute;top:.45rem;right:.65rem;border:0;background:transparent;font:inherit;font-size:1.45rem;line-height:1;cursor:pointer;color:#566064;}
+.recipe-search-input{box-sizing:border-box;width:100%;border:1px solid #9d948b;border-radius:.45rem;padding:.55rem .65rem;font:inherit;background:#fff;}
+.recipe-search-hint{margin:.45rem 0 .65rem 0;font-size:.84rem;color:#566064;}
+.recipe-search-actions{display:flex;align-items:center;justify-content:flex-start;gap:.7rem;margin:.55rem 0 0 0;}
+.recipe-search-submit{display:inline-flex;align-items:center;justify-content:center;width:auto;min-width:5.8rem;border:1px solid #8b837b;background:#fff;border-radius:999px;padding:.32rem .78rem;font:inherit;font-size:.9rem;line-height:1.2;cursor:pointer;}
+.recipe-search-submit:hover{border-color:#566064;}
+.recipe-search-count{margin:0;font-size:.84rem;color:#566064;}
+.index-editorial-card{display:grid;gap:.75rem;margin:.2rem 0 1rem 0;padding:.85rem;border:1px solid var(--line);background:rgba(255,255,255,.42);}
+.index-editorial-card figure{margin:0;}
+.index-editorial-card p{margin:0 0 .55rem 0;}
+.index-editorial-html::after{content:"";display:block;clear:both;}
+.index-editorial-html figure{margin:.2rem .7rem .7rem 0;display:inline-block;vertical-align:top;max-width:100%;box-sizing:border-box;}
+.index-editorial-html img{display:block;max-width:100%;height:auto;box-shadow:none;background:#fff;}
+.index-editorial-html figure a[href] img{cursor:pointer;}
+.index-editorial-card img{cursor:zoom-in;}
+.index-editorial-html figcaption{font-size:.84rem;color:#566064;margin-top:.25rem;line-height:1.25;}
+.index-editorial-html figure.step-photo,.index-editorial-html figure.step-photo-large,.index-editorial-html figure.step-photo-left,.index-editorial-html figure.step-photo-right{display:block;box-sizing:border-box;margin:0 0 .8rem 0;}
+.index-editorial-html figure.step-photo img,.index-editorial-html figure.step-photo-large img,.index-editorial-html figure.step-photo-left img,.index-editorial-html figure.step-photo-right img{width:100%;max-width:100%;height:auto;}
+.index-editorial-html figure.step-photo-large,.index-editorial-html figure.step-photo[data-align="center"],.index-editorial-html figure.step-photo-large[data-align="center"]{float:none;clear:both;margin-left:auto;margin-right:auto;}
+.index-editorial-html figure.step-photo[data-align="left"]{float:left;clear:left;margin-right:1rem;margin-left:0;}
+.index-editorial-html figure.step-photo[data-align="right"]{float:right;clear:right;margin-left:1rem;margin-right:0;}
+.index-editorial-html .image-row{display:flex;flex-wrap:wrap;align-items:flex-start;gap:.75rem;margin:.35rem 0 .9rem 0;clear:both;}
+.index-editorial-html .image-row > figure{flex:0 1 auto;margin:0;}
+@media (min-width:760px){
+  .index-editorial-html figure.step-photo-right{float:right;clear:right;margin-left:1rem;margin-right:0;}
+  .index-editorial-html figure.step-photo-left{float:left;clear:left;margin-right:1rem;margin-left:0;}
+}
+@media (max-width:640px){
+  .index-editorial-html figure.step-photo,.index-editorial-html figure.step-photo-large,.index-editorial-html figure.step-photo-left,.index-editorial-html figure.step-photo-right{float:none !important;clear:both !important;width:100% !important;max-width:100% !important;margin:.35rem 0 .85rem 0 !important;}
+  .index-editorial-html .image-row{display:block;}
+  .index-editorial-html .image-row > figure{width:100% !important;max-width:100% !important;margin:.35rem 0 .85rem 0 !important;}
+}
+.index-editorial-html ul,.index-editorial-html ol{margin:.25rem 0 .75rem 1.35rem;line-height:1.28;}
+.index-editorial-html li{margin:.08rem 0;}
+.index-editorial-html .index-mini-table{width:100%;border-collapse:collapse;margin:.6rem 0;background:#fff;table-layout:fixed;}
+.index-editorial-html .index-mini-table th,.index-editorial-html .index-mini-table td{border:1px solid var(--line);padding:.35rem .5rem;vertical-align:top;line-height:1.25;}
+.index-editorial-html .index-mini-table th{background:rgba(255,255,255,.58);font-weight:700;}
+.index-editorial-images{display:grid;grid-template-columns:repeat(auto-fit,minmax(7rem,1fr));gap:.55rem;}
+.index-editorial-images img{width:100%;height:auto;box-shadow:none;background:#fff;cursor:zoom-in;}
+.index-editorial-links{display:flex;flex-wrap:wrap;gap:.45rem .7rem;margin:.55rem 0 0 0;}
+.index-editorial-link{display:inline-flex;border:1px solid #c9c1b8;background:#fff;border-radius:999px;padding:.25rem .62rem;font-size:.86rem;line-height:1.2;}
+.index-editorial-link:hover{text-decoration:none;border-color:#566064;}
+@media (max-width:760px){.site-header nav{gap:.32rem;margin-left:auto;justify-content:flex-end;}.site-header nav a{font-size:.95rem;letter-spacing:-.015em;}.site-header .index-nav-back{width:20px;height:22px;font-size:18px;top:-1px;}.site-header .site-search-button{padding:.05rem 0;}.site-header .site-search-button svg{width:.98em;height:.98em;}}
+@media (max-width:640px){.recipe-search-dialog{top:4rem;right:1rem;left:1rem;width:auto;}}
+</style>
+<link rel="stylesheet" href="/geografia/assets/geography-production.css"><link rel="stylesheet" href="/fotografia/assets/fotografia.css?v=4c60d488e03e"><link rel="stylesheet" href="/foto/ui/transversal-navigation.css"></head>
+<body>
+<div class="page">
+<header class="site-header">
+  <a class="brand" href="/">Ricette (e altro) di Pierre</a>
+  <nav>
+    <a class="index-nav-back" href="/" aria-label="Torna indietro" title="Torna indietro" onclick="if(history.length>1){event.preventDefault();history.back();}">←</a>
+    <a href="ricette.html">Ricette</a>
+    <a href="ingredienti.html">Ingredienti</a>
+    <a href="fonti.html">Fonti</a>
+    <a href="../geografia/">Geografia</a>
+    <button class="site-search-button js-site-search-open" type="button" aria-label="Cerca nel ricettario" title="Cerca nel ricettario"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="M15.5 15.5L21 21"></path></svg></button>
+  </nav>
+</header>
+<main class="index-page">
+<div class="index-content">
+<h1>Noci</h1>
+<p><a href="ingredienti.html">← Tutti gli Ingredienti</a></p><style>.ingredient-opening{display:flow-root}.ingredient-excellence{display:flow-root;margin:1.3rem 0;padding-top:1rem;border-top:1px solid var(--line)}.ingredient-excellence-heading{display:flex;align-items:center;gap:.5rem;flex-wrap:wrap;margin:0 0 .35rem}.ingredient-excellence-deck{color:var(--muted)}.ingredient-excellence .geography-map svg{aspect-ratio:4/3}.ingredient-excellence-details{clear:both;margin-top:.7rem;font-size:.92rem;line-height:1.5}.ingredient-excellence-details summary{cursor:pointer;color:#24556a}.ingredient-excellence-details .when-open{display:none}.ingredient-excellence-details[open] .when-open{display:inline}.ingredient-excellence-details[open] .when-closed{display:none}.ingredient-excellence-recognition{display:inline-flex;align-items:center;flex:none}.ingredient-excellence-recognition img{width:1.8rem;height:1.8rem;object-fit:contain;box-shadow:none;cursor:default}.ingredient-excellence-source{margin:.35rem 0;color:var(--muted)}.ingredient-excellence-details p{margin:.55rem 0}.ingredient-excellence-summary{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden}.ingredient-excellence-references{border-top:1px solid var(--line);margin-top:.5rem}.ingredient-all-gallery[hidden],.ingredient-excellence[hidden]{display:none}.ingredient-all-gallery{margin-top:1rem}.ingredient-all-gallery .home-secondary-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.35rem .6rem;list-style:none;margin:0;padding:0}.ingredient-all-gallery .home-secondary-list li{margin:.3rem 0}.ingredient-all-gallery a.has-recipe-thumb{display:grid;grid-template-columns:4.35rem minmax(0,1fr);gap:.55rem;align-items:center;padding:.42rem .55rem;border:1px solid var(--line);text-decoration:none}.ingredient-all-gallery .recipe-list-thumb{display:block;width:4.35rem;aspect-ratio:1.618/1}.ingredient-all-gallery .recipe-list-thumb img{width:100%;height:100%;object-fit:cover;box-shadow:none}@media(max-width:640px){.ingredient-all-gallery .home-secondary-list{grid-template-columns:1fr}}</style><section class="block" data-excellence-list><h2>Eccellenze e territori</h2><div data-excellence-position="0"><article class="ingredient-excellence index-editorial-html" data-excellence-id="527"><h3 class="ingredient-excellence-heading">Noix de Grenoble<span class="ingredient-excellence-recognition"><span class="ingredient-excellence-mark-text">AOP</span></span></h3><p class="ingredient-excellence-source">INAO</p><p class="ingredient-excellence-deck">Valle dell’Isère, dal sud-ovest della Savoia al nord-est della Drôme, soprattutto nel Bas Grésivaudan.</p><p class="ingredient-excellence-summary">Noce fresca o secca delle varietà Franquette, Mayette e Parisienne, con aromi di pane fresco imburrato e nocciola.</p><p class="ingredient-excellence-access">Vai ai territori (261): <a href="/geografia/lei-4563-alixan/">Alixan</a> · <a href="/geografia/lei-4489-allevard/">Allevard</a> · <a href="/geografia/lei-4656-apprieu/">Apprieu</a> · elenco completo in Espandi</p><details class="ingredient-excellence-details"><summary><span class="when-closed">Espandi ↓</span><span class="when-open">Comprimi ↑</span></summary><p><strong>Territorio attestato.</strong> L’area si sviluppa lungo la valle dell’Isère, dai rilievi savoiardi alle pianure della Drôme; comprende 261 comuni, in maggioranza nell’Isère.</p><p><strong>Area disciplinata.</strong> 261 comuni dell’area AOP, prevalentemente in Isère, con estensioni verso Savoia e Drôme.</p><p><strong>Caratteristiche.</strong> Sono ammesse tre varietà locali: Franquette, Mayette e Parisienne. Il frutto sviluppa aromi delicati di pane fresco imburrato e nocciola.</p><p><strong>Lavorazione.</strong> Tutte le fasi, dalla produzione nei noceti al condizionamento delle noci, sono effettuate nell’area geografica.</p><p><strong>Legame con il territorio.</strong> Il clima alpino, ventoso, fresco e umido in autunno, e l’uso delle tre varietà locali contribuiscono alla finezza e ricchezza aromatica.</p><p><strong>Fonte.</strong> <a href="https://www.inao.gouv.fr/produit/noix-de-grenoble-12938" target="_blank" rel="noopener noreferrer">INAO</a></p><p><strong>Territori collegati nell’Atlante.</strong> <a href="/geografia/lei-4563-alixan/">Alixan</a> · <a href="/geografia/lei-4489-allevard/">Allevard</a> · <a href="/geografia/lei-4656-apprieu/">Apprieu</a> · <a href="/geografia/lei-4518-apremont/">Apremont</a> · <a href="/geografia/lei-4727-arbin/">Arbin</a> · <a href="/geografia/lei-4487-arvillard/">Arvillard</a> · <a href="/geografia/lei-4561-auberives-en-royans/">Auberives-en-Royans</a> · <a href="/geografia/lei-4692-balbins/">Balbins</a> · <a href="/geografia/lei-4600-barbieres/">Barbières</a> · <a href="/geografia/lei-4701-barraux/">Barraux</a> · <a href="/geografia/lei-4532-beaucroissant/">Beaucroissant</a> · <a href="/geografia/lei-4523-beaufort/">Beaufort</a> · <a href="/geografia/lei-4619-beaulieu/">Beaulieu</a> · <a href="/geografia/lei-4510-beauregard-baret/">Beauregard-Baret</a> · <a href="/geografia/lei-4535-beauvoir-en-royans/">Beauvoir-en-Royans</a> · <a href="/geografia/lei-4732-bernin/">Bernin</a> · <a href="/geografia/lei-4634-bessins/">Bessins</a> · <a href="/geografia/lei-4538-biviers/">Biviers</a> · <a href="/geografia/lei-4533-bourg-de-peage/">Bourg-de-Péage</a> · <a href="/geografia/lei-4722-bourget-en-huile/">Bourget-en-Huile</a> · <a href="/geografia/lei-4667-bouvante/">Bouvante</a> · <a href="/geografia/lei-4687-bressieux/">Bressieux</a> · <a href="/geografia/lei-4671-bresson/">Bresson</a> · <a href="/geografia/lei-4519-brion/">Brion</a> · <a href="/geografia/lei-4686-brezins/">Brézins</a> · <a href="/geografia/lei-4521-besayes/">Bésayes</a> · <a href="/geografia/lei-4549-bevenais/">Bévenais</a> · <a href="/geografia/lei-4564-chantesse/">Chantesse</a> · <a href="/geografia/lei-4639-chapareillan/">Chapareillan</a> · <a href="/geografia/lei-4714-charnecles/">Charnècles</a> · <a href="/geografia/lei-4530-charpey/">Charpey</a> · <a href="/geografia/lei-4631-chasselay/">Chasselay</a> · <a href="/geografia/lei-4660-chatte/">Chatte</a> · <a href="/geografia/lei-4528-chatuzange-le-goubet/">Chatuzange-le-Goubet</a> · <a href="/geografia/lei-4698-chevrieres/">Chevrières</a> · <a href="/geografia/lei-4706-chignin/">Chignin</a> · <a href="/geografia/lei-4486-chirens/">Chirens</a> · <a href="/geografia/lei-4707-choranche/">Choranche</a> · <a href="/geografia/lei-4677-chateauneuf-sur-isere/">Châteauneuf-sur-Isère</a> · <a href="/geografia/lei-4608-chatelus/">Châtelus</a> · <a href="/geografia/lei-4717-chatenay/">Châtenay</a> · <a href="/geografia/lei-4581-chatillon-saint-jean/">Châtillon-Saint-Jean</a> · <a href="/geografia/lei-4651-clerieux/">Clérieux</a> · <a href="/geografia/lei-4592-cognin-les-gorges/">Cognin-les-Gorges</a> · <a href="/geografia/lei-4560-colombe/">Colombe</a> · <a href="/geografia/lei-4659-corenc/">Corenc</a> · <a href="/geografia/lei-4516-coublevie/">Coublevie</a> · <a href="/geografia/lei-4720-cras/">Cras</a> · <a href="/geografia/lei-4725-crolles/">Crolles</a> · <a href="/geografia/lei-4587-crepol/">Crépol</a> · <a href="/geografia/lei-4591-dionay/">Dionay</a> · <a href="/geografia/lei-4485-domene/">Domène</a> · <a href="/geografia/lei-4583-detrier/">Détrier</a> · <a href="/geografia/lei-4573-engins/">Engins</a> · <a href="/geografia/lei-4571-eybens/">Eybens</a> · <a href="/geografia/lei-4517-eymeux/">Eymeux</a> · <a href="/geografia/lei-4630-faramans/">Faramans</a> · <a href="/geografia/lei-4548-fontaine/">Fontaine</a> · <a href="/geografia/lei-4636-fontanil-cornillon/">Fontanil-Cornillon</a> · <a href="/geografia/lei-4633-francin/">Francin</a> · <a href="/geografia/lei-4526-froges/">Froges</a> · <a href="/geografia/lei-4620-geyssans/">Geyssans</a> · <a href="/geografia/lei-4625-gillonnay/">Gillonnay</a> · <a href="/geografia/lei-4584-gieres/">Gières</a> · <a href="/geografia/lei-4729-goncelin/">Goncelin</a> · <a href="/geografia/lei-4708-grenoble/">Grenoble</a> · <a href="/geografia/lei-4721-genissieux/">Génissieux</a> · <a href="/geografia/lei-4694-herbeys/">Herbeys</a> · <a href="/geografia/lei-4496-hostun/">Hostun</a> · <a href="/geografia/lei-4675-hurtieres/">Hurtières</a> · <a href="/geografia/lei-4490-izeaux/">Izeaux</a> · <a href="/geografia/lei-4648-izeron/">Izeron</a> · <a href="/geografia/lei-4657-jaillans/">Jaillans</a> · <a href="/geografia/lei-4593-l-albenc/">L&#x27;Albenc</a> · <a href="/geografia/lei-4713-la-baume-d-hostun/">La Baume-d&#x27;Hostun</a> · <a href="/geografia/lei-4488-la-buisse/">La Buisse</a> · <a href="/geografia/lei-4710-la-buissiere/">La Buissière</a> · <a href="/geografia/lei-4695-la-chapelle-blanche/">La Chapelle-Blanche</a> · <a href="/geografia/lei-4664-la-chapelle-du-bard/">La Chapelle-du-Bard</a> · <a href="/geografia/lei-4570-la-chavanne/">La Chavanne</a> · <a href="/geografia/lei-4576-la-combe-de-lancey/">La Combe-de-Lancey</a> · <a href="/geografia/lei-4604-la-cote-saint-andre/">La Cote-Saint-André</a> · <a href="/geografia/lei-4514-la-croix-de-la-rochette/">La Croix-de-la-Rochette</a> · <a href="/geografia/lei-4546-la-ferriere/">La Ferrière</a> · <a href="/geografia/lei-4666-la-flachere/">La Flachère</a> · <a href="/geografia/lei-4643-la-forteresse/">La Forteresse</a> · <a href="/geografia/lei-4737-la-frette/">La Frette</a> · <a href="/geografia/lei-4503-la-motte-fanjas/">La Motte-Fanjas</a> · <a href="/geografia/lei-4534-la-murette/">La Murette</a> · <a href="/geografia/lei-4616-la-pierre/">La Pierre</a> · <a href="/geografia/lei-4690-la-riviere/">La Rivière</a> · <a href="/geografia/lei-4680-la-rochette/">La Rochette</a> · <a href="/geografia/lei-4635-la-sone/">La Sone</a> · <a href="/geografia/lei-4597-la-table/">La Table</a> · <a href="/geografia/lei-4562-la-terrasse/">La Terrasse</a> · <a href="/geografia/lei-4558-la-trinite/">La Trinité</a> · <a href="/geografia/lei-4730-la-tronche/">La Tronche</a> · <a href="/geografia/lei-4499-laissaud/">Laissaud</a> · <a href="/geografia/lei-4724-laval/">Laval</a> · <a href="/geografia/lei-4572-le-chalon/">Le Chalon</a> · <a href="/geografia/lei-4614-le-champ-pres-froges/">Le Champ-Prés-Froges</a> · <a href="/geografia/lei-4712-le-cheylas/">Le Cheylas</a> · <a href="/geografia/lei-4629-le-grand-lemps/">Le Grand-Lemps</a> · <a href="/geografia/lei-4511-le-grand-serre/">Le Grand-Serre</a> · <a href="/geografia/lei-4559-le-moutaret/">Le Moutaret</a> · <a href="/geografia/lei-4684-le-pontet/">Le Pontet</a> · <a href="/geografia/lei-4497-le-sappey-en-chartreuse/">Le Sappey-en-Chartreuse</a> · <a href="/geografia/lei-4699-le-touvet/">Le Touvet</a> · <a href="/geografia/lei-4615-le-verneil/">Le Verneil</a> · <a href="/geografia/lei-4567-le-versoud/">Le Versoud</a> · <a href="/geografia/lei-4540-lentiol/">Lentiol</a> · <a href="/geografia/lei-4568-les-adrets/">Les Adrets</a> · <a href="/geografia/lei-4658-les-marches/">Les Marches</a> · <a href="/geografia/lei-4585-les-molettes/">Les Molettes</a> · <a href="/geografia/lei-4689-lumbin/">Lumbin</a> · <a href="/geografia/lei-4494-leoncel/">Léoncel</a> · <a href="/geografia/lei-4575-malleval/">Malleval</a> · <a href="/geografia/lei-4502-marches/">Marches</a> · <a href="/geografia/lei-4646-marcilloles/">Marcilloles</a> · <a href="/geografia/lei-4508-marcollin/">Marcollin</a> · <a href="/geografia/lei-4663-marnans/">Marnans</a> · <a href="/geografia/lei-4700-meylan/">Meylan</a> · <a href="/geografia/lei-4601-miribel/">Miribel</a> · <a href="/geografia/lei-4531-moirans/">Moirans</a> · <a href="/geografia/lei-4537-mont-saint-martin/">Mont-Saint-Martin</a> · <a href="/geografia/lei-4679-montagne/">Montagne</a> · <a href="/geografia/lei-4696-montaud/">Montaud</a> · <a href="/geografia/lei-4491-montbonnot-saint-martin/">Montbonnot-Saint-Martin</a> · <a href="/geografia/lei-4484-montfalcon/">Montfalcon</a> · <a href="/geografia/lei-4715-montmiral/">Montmiral</a> · <a href="/geografia/lei-4552-montmelian/">Montmélian</a> · <a href="/geografia/lei-4628-montrigaud/">Montrigaud</a> · <a href="/geografia/lei-4726-morette/">Morette</a> · <a href="/geografia/lei-4740-moretel-de-mailles/">Morêtel-de-Mailles</a> · <a href="/geografia/lei-4493-mours-saint-eusebe/">Mours-Saint-Eusèbe</a> · <a href="/geografia/lei-4500-murianette/">Murianette</a> · <a href="/geografia/lei-4731-murinais/">Murinais</a> · <a href="/geografia/lei-4617-myans/">Myans</a> · <a href="/geografia/lei-4734-notre-dame-de-l-osier/">Notre-Dame-de-l&#x27;Osier</a> · <a href="/geografia/lei-4691-noyarey/">Noyarey</a> · <a href="/geografia/lei-4566-oriol-en-royans/">Oriol-en-Royans</a> · <a href="/geografia/lei-4613-ornacieux/">Ornacieux</a> · <a href="/geografia/lei-4644-pajay/">Pajay</a> · <a href="/geografia/lei-4626-parnans/">Parnans</a> · <a href="/geografia/lei-4536-penol/">Penol</a> · <a href="/geografia/lei-4607-peyrins/">Peyrins</a> · <a href="/geografia/lei-4650-pinsot/">Pinsot</a> · <a href="/geografia/lei-4623-plan/">Plan</a> · <a href="/geografia/lei-4627-planaise/">Planaise</a> · <a href="/geografia/lei-4509-poisat/">Poisat</a> · <a href="/geografia/lei-4598-polienas/">Poliénas</a> · <a href="/geografia/lei-4554-pommiers-la-placette/">Pommiers-la-Placette</a> · <a href="/geografia/lei-4602-pont-en-royans/">Pont-en-Royans</a> · <a href="/geografia/lei-4577-pontcharra/">Pontcharra</a> · <a href="/geografia/lei-4681-presle/">Presle</a> · <a href="/geografia/lei-4673-presles/">Presles</a> · <a href="/geografia/lei-4507-proveysieux/">Proveysieux</a> · <a href="/geografia/lei-4718-quaix-en-chartreuse/">Quaix-en-Chartreuse</a> · <a href="/geografia/lei-4580-quincieu/">Quincieu</a> · <a href="/geografia/lei-4655-renage/">Renage</a> · <a href="/geografia/lei-4525-rencurel/">Rencurel</a> · <a href="/geografia/lei-4501-revel/">Revel</a> · <a href="/geografia/lei-4685-rives/">Rives</a> · <a href="/geografia/lei-4529-rochechinard/">Rochechinard</a> · <a href="/geografia/lei-4682-rochefort-samson/">Rochefort-Samson</a> · <a href="/geografia/lei-4520-romans-sur-isere/">Romans-sur-Isère</a> · <a href="/geografia/lei-4498-rotherens/">Rotherens</a> · <a href="/geografia/lei-4505-rovon/">Rovon</a> · <a href="/geografia/lei-4640-roybon/">Roybon</a> · <a href="/geografia/lei-4555-reaumont/">Réaumont</a> · <a href="/geografia/lei-4527-saint-andre-en-royans/">Saint-André-en-Royans</a> · <a href="/geografia/lei-4736-saint-antoine-l-abbaye/">Saint-Antoine-l&#x27;Abbaye</a> · <a href="/geografia/lei-4665-saint-appolinard/">Saint-Appolinard</a> · <a href="/geografia/lei-4723-saint-aupre/">Saint-Aupre</a> · <a href="/geografia/lei-4541-saint-bardoux/">Saint-Bardoux</a> · <a href="/geografia/lei-4669-saint-bernard/">Saint-Bernard</a> · <a href="/geografia/lei-4703-saint-blaise-du-buis/">Saint-Blaise-du-Buis</a> · <a href="/geografia/lei-4481-saint-bonnet-de-chavagne/">Saint-Bonnet-de-Chavagne</a> · <a href="/geografia/lei-4688-saint-bonnet-de-valclerieux/">Saint-Bonnet-de-Valclérieux</a> · <a href="/geografia/lei-4711-saint-cassien/">Saint-Cassien</a> · <a href="/geografia/lei-4515-saint-clair-sur-galaure/">Saint-Clair-sur-Galaure</a> · <a href="/geografia/lei-4590-saint-donat-sur-l-herbasse/">Saint-Donat-sur-l&#x27;Herbasse</a> · <a href="/geografia/lei-4618-saint-geoirs/">Saint-Geoirs</a> · <a href="/geografia/lei-4589-saint-gervais/">Saint-Gervais</a> · <a href="/geografia/lei-4611-saint-hilaire/">Saint-Hilaire</a> · <a href="/geografia/lei-4504-saint-hilaire-de-la-cote/">Saint-Hilaire-de-la-Côte</a> · <a href="/geografia/lei-4735-saint-hilaire-du-rosier/">Saint-Hilaire-du-Rosier</a> · <a href="/geografia/lei-4506-saint-ismier/">Saint-Ismier</a> · <a href="/geografia/lei-4544-saint-jean-de-moirans/">Saint-Jean-de-Moirans</a> · <a href="/geografia/lei-4609-saint-jean-en-royans/">Saint-Jean-en-Royans</a> · <a href="/geografia/lei-4599-saint-jean-le-vieux/">Saint-Jean-le-Vieux</a> · <a href="/geografia/lei-4653-saint-julien-de-raz/">Saint-Julien-de-Raz</a> · <a href="/geografia/lei-4579-saint-just-de-claix/">Saint-Just-de-Claix</a> · <a href="/geografia/lei-4557-saint-lattier/">Saint-Lattier</a> · <a href="/geografia/lei-4702-saint-laurent-d-onay/">Saint-Laurent-d&#x27;Onay</a> · <a href="/geografia/lei-4716-saint-laurent-en-royans/">Saint-Laurent-en-Royans</a> · <a href="/geografia/lei-4495-saint-marcellin/">Saint-Marcellin</a> · <a href="/geografia/lei-4709-saint-martin-d-heres/">Saint-Martin-d&#x27;Hères</a> · <a href="/geografia/lei-4586-saint-martin-d-uriage/">Saint-Martin-d&#x27;Uriage</a> · <a href="/geografia/lei-4578-saint-martin-le-colonel/">Saint-Martin-le-Colonel</a> · <a href="/geografia/lei-4542-saint-martin-le-vinoux/">Saint-Martin-le-Vinoux</a> · <a href="/geografia/lei-4704-saint-maximin/">Saint-Maximin</a> · <a href="/geografia/lei-4595-saint-michel-de-saint-geoirs/">Saint-Michel-de-Saint-Geoirs</a> · <a href="/geografia/lei-4674-saint-michel-sur-savasse/">Saint-Michel-sur-Savasse</a> · <a href="/geografia/lei-4719-saint-mury-monteymond/">Saint-Mury-Monteymond</a> · <a href="/geografia/lei-4670-saint-nazaire-en-royans/">Saint-Nazaire-en-Royans</a> · <a href="/geografia/lei-4662-saint-nazaire-les-eymes/">Saint-Nazaire-les-Eymes</a> · <a href="/geografia/lei-4522-saint-nicolas-de-macherin/">Saint-Nicolas-de-Macherin</a> · <a href="/geografia/lei-4733-saint-nizier-du-moucherotte/">Saint-Nizier-du-Moucherotte</a> · <a href="/geografia/lei-4569-saint-pancrasse/">Saint-Pancrasse</a> · <a href="/geografia/lei-4556-saint-paul-d-izeaux/">Saint-Paul-d&#x27;Izeaux</a> · <a href="/geografia/lei-4547-saint-paul-les-romans/">Saint-Paul-lès-Romans</a> · <a href="/geografia/lei-4637-saint-pierre-d-allevard/">Saint-Pierre-d&#x27;Allevard</a> · <a href="/geografia/lei-4545-saint-pierre-de-bressieux/">Saint-Pierre-de-Bressieux</a> · <a href="/geografia/lei-4661-saint-pierre-de-cherennes/">Saint-Pierre-de-Chérennes</a> · <a href="/geografia/lei-4603-saint-pierre-de-soucy/">Saint-Pierre-de-Soucy</a> · <a href="/geografia/lei-4550-saint-quentin-sur-isere/">Saint-Quentin-sur-Isère</a> · <a href="/geografia/lei-4543-saint-romans/">Saint-Romans</a> · <a href="/geografia/lei-4642-saint-sauveur/">Saint-Sauveur</a> · <a href="/geografia/lei-4683-saint-simeon-de-bressieux/">Saint-Siméon-de-Bressieux</a> · <a href="/geografia/lei-4480-saint-thomas-en-royans/">Saint-Thomas-en-Royans</a> · <a href="/geografia/lei-4739-saint-vincent-de-mercuze/">Saint-Vincent-de-Mercuze</a> · <a href="/geografia/lei-4551-saint-vincent-la-commanderie/">Saint-Vincent-la-Commanderie</a> · <a href="/geografia/lei-4638-saint-verand/">Saint-Vérand</a> · <a href="/geografia/lei-4693-saint-egreve/">Saint-Égrève</a> · <a href="/geografia/lei-4606-saint-etienne-de-crossey/">Saint-Étienne-de-Crossey</a> · <a href="/geografia/lei-4652-saint-etienne-de-saint-geoirs/">Saint-Étienne-de-Saint-Geoirs</a> · <a href="/geografia/lei-4676-sainte-agnes/">Sainte-Agnès</a> · <a href="/geografia/lei-4539-sainte-eulalie-en-royans/">Sainte-Eulalie-en-Royans</a> · <a href="/geografia/lei-4524-sainte-helene-du-lac/">Sainte-Hélène-du-Lac</a> · <a href="/geografia/lei-4612-sainte-marie-d-alloix/">Sainte-Marie-d&#x27;Alloix</a> · <a href="/geografia/lei-4649-sainte-marie-du-mont/">Sainte-Marie-du-Mont</a> · <a href="/geografia/lei-4482-sarcenas/">Sarcenas</a> · <a href="/geografia/lei-4492-sardieu/">Sardieu</a> · <a href="/geografia/lei-4605-sassenage/">Sassenage</a> · <a href="/geografia/lei-4645-serre-nerpol/">Serre-Nerpol</a> · <a href="/geografia/lei-4512-seyssinet-pariset/">Seyssinet-Pariset</a> · <a href="/geografia/lei-4738-seyssins/">Seyssins</a> · <a href="/geografia/lei-4728-sillans/">Sillans</a> · <a href="/geografia/lei-4565-tencin/">Tencin</a> · <a href="/geografia/lei-4672-theys/">Theys</a> · <a href="/geografia/lei-4705-thodure/">Thodure</a> · <a href="/geografia/lei-4654-triors/">Triors</a> · <a href="/geografia/lei-4697-tullins/">Tullins</a> · <a href="/geografia/lei-4610-teche/">Têche</a> · <a href="/geografia/lei-4553-varacieux/">Varacieux</a> · <a href="/geografia/lei-4596-vatilieu/">Vatilieu</a> · <a href="/geografia/lei-4622-venon/">Venon</a> · <a href="/geografia/lei-4588-veurey-voroize/">Veurey-Voroize</a> · <a href="/geografia/lei-4574-villard-bonnot/">Villard-Bonnot</a> · <a href="/geografia/lei-4621-villard-d-hery/">Villard-d&#x27;Héry</a> · <a href="/geografia/lei-4668-villard-sallet/">Villard-Sallet</a> · <a href="/geografia/lei-4594-villaroux/">Villaroux</a> · <a href="/geografia/lei-4641-vinay/">Vinay</a> · <a href="/geografia/lei-4483-viriville/">Viriville</a> · <a href="/geografia/lei-4678-voiron/">Voiron</a> · <a href="/geografia/lei-4647-voreppe/">Voreppe</a> · <a href="/geografia/lei-4632-vourey/">Vourey</a> · <a href="/geografia/lei-4624-echevis/">Échevis</a> · <a href="/geografia/lei-4513-echirolles/">Échirolles</a> · <a href="/geografia/lei-4582-etable/">Étable</a></p></details></article></div></section><script>
+document.querySelectorAll('[data-ingredient-expand]').forEach(button => button.addEventListener('click', () => {
+  const text = document.getElementById(button.dataset.ingredientExpand);
+  const expanded = button.getAttribute('aria-expanded') === 'true';
+  text.classList.toggle('is-clamped', expanded);
+  button.setAttribute('aria-expanded', String(!expanded));
+  button.textContent = expanded ? 'Continua ↓' : 'Riduci ↑';
+}));
+document.querySelectorAll('[data-ingredient-more]').forEach(button => button.addEventListener('click', () => {
+  const hidden = Array.from(document.querySelectorAll('[data-ingredient-recipes] .place-corpus-group[hidden]'));
+  if (hidden[0]) hidden[0].hidden = false;
+  const remaining = hidden.length - 1;
+  if (!remaining) button.hidden = true;
+  else button.textContent = 'Continua (+3)';
+}));
+document.querySelectorAll('[data-excellence-more]').forEach(button => button.addEventListener('click', () => {
+  const section = button.closest('[data-excellence-list]');
+  const hidden = Array.from(section.querySelectorAll('[data-excellence-position][hidden]'));
+  hidden.slice(0, 3).forEach(row => row.hidden = false);
+  const remaining = hidden.length - Math.min(3, hidden.length);
+  if (!remaining) button.hidden = true;
+  else button.textContent = 'Continua (+' + remaining + ')';
+}));
+document.querySelectorAll('[data-excellence-all]').forEach(button => button.addEventListener('click', () => {
+  const section = button.closest('[data-excellence-list]');
+  section.querySelectorAll('[data-excellence-position][hidden]').forEach(row => row.hidden = false);
+  section.querySelector('[data-excellence-more]').hidden = true;
+  button.hidden = true;
+}));
+</script><footer class="site-footer recipe-footer"><div class="site-footer-left"><a class="cc-link site-footer-cc" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" aria-label="Licenza Creative Commons BY-NC-SA" title="Licenza Creative Commons BY-NC-SA"><img src="../foto/licenze/Cc-by-nc-sa_icon.svg" alt="CC BY-NC-SA"></a></div>
+  <nav class="site-footer-center" aria-label="Strumenti pagina">
+    <a class="site-footer-text" href="../informativa.html" aria-label="Informativa" title="Informativa"><img src="../foto/ui/info-light.svg" alt=""></a>
+    <a class="site-footer-icon" href="../scrivimi.html" aria-label="Scrivimi" title="Scrivimi">
+      <img src="../foto/ui/mail-light.svg" alt="">
+    </a>
+    <a class="site-footer-icon js-print-link" href="#" aria-label="Stampa pagina" title="Stampa pagina">
+      <img src="../foto/ui/print-light.svg" alt="">
+    </a>
+    <a class="site-footer-icon js-copy-link" href="#" aria-label="Copia link pagina" title="Copia link pagina">
+      <img src="../foto/ui/link-light.svg" alt="">
+    </a>
+  </nav><div class="site-footer-right"><a class="site-footer-qr-link recipe-qrcode-link" href="../foto/indici/ingredienti/lei-219-noci/qr-code.png" aria-label="Noci" title="Noci"><img src="../foto/indici/ingredienti/lei-219-noci/qr-code.png" alt="Noci"></a></div></footer><div class="recipe-search-overlay" id="recipeSearchOverlay" aria-hidden="true">
+  <div class="recipe-search-backdrop js-site-search-close"></div>
+  <section class="recipe-search-dialog" role="dialog" aria-modal="true" aria-labelledby="recipeSearchTitle">
+    <button class="recipe-search-close js-site-search-close" type="button" aria-label="Chiudi">×</button>
+    <h2 id="recipeSearchTitle">Cerca nel ricettario</h2>
+    <form id="recipeSearchForm" action="../cerca/" method="get">
+      <input id="recipeSearchInput" name="q" class="recipe-search-input" type="search" placeholder="Titolo, ingrediente, luogo…" autocomplete="off">
+      <p class="recipe-search-hint">La ricerca interroga Ricette, Fotografie, Approfondimenti e Luoghi.</p>
+      <div class="recipe-search-actions"><button class="recipe-search-submit" type="submit">Cerca</button><p class="recipe-search-count" id="recipeSearchCount" aria-live="polite"></p></div>
+    </form>
+  </section>
+</div></div></main></div>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const wrap = document.querySelector('.index-filter');
+  if (!wrap) return;
+  const buttons = wrap.querySelectorAll('.filter-btn');
+  function apply(cat) {
+    document.querySelectorAll('[data-cats]').forEach(item => {
+      const cats = (item.getAttribute('data-cats') || '').split(' ').filter(Boolean);
+      const show = (cat === 'tutte') || cats.includes(cat);
+      item.style.display = show ? '' : 'none';
+    });
+    document.querySelectorAll('[data-filter-group]').forEach(group => {
+      const visible = Array.from(group.querySelectorAll('[data-cats]')).some(el => el.style.display !== 'none');
+      group.style.display = visible ? '' : 'none';
+    });
+    buttons.forEach(b => b.classList.toggle('is-active', b.dataset.cat === cat));
+  }
+  buttons.forEach(btn => btn.addEventListener('click', () => apply(btn.dataset.cat)));
+  apply('tutte');
+});
+</script>
+
+<script id="cms-editor-shortcut-script">
+(function(){
+  var lastRecipeHref = '';
+  function recipeSlugFromHref(href){
+    if(!href) return '';
+    try{
+      var u = new URL(href, window.location.href);
+      var match = u.pathname.match(/\/ricette\/([^\/?#]+)\/?(?:index\.html)?$/i);
+      return match ? decodeURIComponent(match[1]) : '';
+    }catch(e){
+      var m = String(href).match(/(?:^|\/)ricette\/([^\/?#]+)\/?(?:index\.html)?$/i);
+      return m ? decodeURIComponent(m[1]) : '';
+    }
+  }
+  function cmsEditorBaseUrl(){
+    try{
+      var configured = window.localStorage && window.localStorage.getItem('ricettario.cmsBaseUrl');
+      if(configured) return configured.replace(/\/+$/, '');
+    }catch(e){}
+    var host = window.location.hostname;
+    var port = window.location.port;
+    if(port === '5000' || /\.app\.github\.dev$/i.test(host)) return window.location.origin;
+    if(host === 'localhost' || host === '127.0.0.1' || host === '::1') return 'http://127.0.0.1:5000';
+    return 'http://127.0.0.1:5000';
+  }
+  function rememberRecipeLink(link){
+    if(!link) return;
+    var href = link.getAttribute('href') || '';
+    if(recipeSlugFromHref(href)) lastRecipeHref = href;
+  }
+  function activeRecipeSlug(){
+    var active = document.activeElement && document.activeElement.closest ? document.activeElement.closest('a[href]') : null;
+    var slug = recipeSlugFromHref(active && active.getAttribute('href'));
+    return slug || recipeSlugFromHref(lastRecipeHref);
+  }
+  function openCmsEditorForSlug(slug){
+    if(!slug) return;
+    var url = cmsEditorBaseUrl() + '/?slug=' + encodeURIComponent(slug);
+    var win = window.open(url, 'ricettarioCmsEditor');
+    if(win){ try{ win.focus(); }catch(e){} }
+  }
+  document.addEventListener('mouseover', function(ev){ rememberRecipeLink(ev.target.closest && ev.target.closest('a[href]')); }, true);
+  document.addEventListener('focusin', function(ev){ rememberRecipeLink(ev.target.closest && ev.target.closest('a[href]')); }, true);
+  document.addEventListener('click', function(ev){ rememberRecipeLink(ev.target.closest && ev.target.closest('a[href]')); }, true);
+  document.addEventListener('keydown', function(ev){
+    var key = (ev.key || '').toLowerCase();
+    if(!(ev.ctrlKey && ev.altKey && key === 'e')) return;
+    var target = ev.target;
+    if(target && (target.isContentEditable || /^(input|textarea|select)$/i.test(target.tagName || ''))) return;
+    var slug = activeRecipeSlug();
+    if(!slug) return;
+    ev.preventDefault();
+    openCmsEditorForSlug(slug);
+  });
+})();
+</script>
+<script id="site-footer-script">
+(function(){
+  function ensureLightbox(){
+    var lb=document.querySelector('.site-lightbox');
+    if(lb) return lb;
+    lb=document.createElement('div');
+    lb.className='site-lightbox';
+    lb.innerHTML='<button class="site-lightbox-close" aria-label="Chiudi">×</button><figure class="site-lightbox-frame"><img class="site-lightbox-image" alt=""><figcaption class="site-lightbox-caption"></figcaption></figure>';
+    lb.addEventListener('click', function(ev){
+  // chiude su overlay, su X e anche sull'immagine (come index)
+  if (
+    ev.target === lb ||
+    ev.target.classList.contains('site-lightbox-close') ||
+    ev.target.classList.contains('site-lightbox-image')
+  ) {
+    lb.classList.remove('is-open');
+  }
+});
+    document.addEventListener('keydown', function(ev){ if(ev.key==='Escape') lb.classList.remove('is-open'); });
+    document.body.appendChild(lb);
+    return lb;
+  }
+  function openLightbox(src, alt){
+    var lb=ensureLightbox();
+    var img=lb.querySelector('.site-lightbox-image');
+    var cap=lb.querySelector('.site-lightbox-caption');
+    img.src=src; img.alt=alt||'';
+    if(cap) cap.textContent=alt||'';
+    lb.classList.add('is-open');
+  }
+  function showCopyToast(){
+    var oldToast=document.querySelector('.site-copy-toast');
+    if(oldToast) oldToast.remove();
+    var toast=document.createElement('div');
+    toast.className='site-copy-toast';
+    toast.textContent='URL copiato';
+    document.body.appendChild(toast);
+    setTimeout(function(){ if(toast && toast.parentNode) toast.parentNode.removeChild(toast); }, 1200);
+  }
+  document.addEventListener('DOMContentLoaded', function(){
+    /* Indici: nessun QR nel footer. QR riservati alle singole ricette. */
+
+    document.querySelectorAll('.js-print-link').forEach(function(a){
+      a.addEventListener('click', function(ev){ ev.preventDefault(); window.print(); });
+    });
+    document.querySelectorAll('.js-qr-lightbox').forEach(function(a){
+      a.addEventListener('click', function(ev){
+        ev.preventDefault();
+        openLightbox(a.getAttribute('href'), (a.querySelector('img')||{}).alt || 'QR della pagina');
+      });
+    });
+    document.querySelectorAll('.index-editorial-card img, .index-editorial-images img').forEach(function(img){
+      img.addEventListener('click', function(ev){
+        ev.preventDefault();
+        ev.stopPropagation();
+        window.setTimeout(function(){
+          openLightbox(img.currentSrc || img.src, img.alt || '');
+        }, 0);
+      });
+    });
+    document.querySelectorAll('.js-copy-link').forEach(function(a){
+      a.addEventListener('click', async function(ev){
+        ev.preventDefault();
+        try {
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            await navigator.clipboard.writeText(window.location.href);
+          } else {
+            var ta=document.createElement('textarea');
+            ta.value=window.location.href; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); ta.remove();
+          }
+          showCopyToast();
+        } catch(e) {}
+      });
+    });
+  });
+})();
+</script>
+<script src="../foto/ui/site-navigation.js?v=01527c259c71"></script>
+</body>
+</html>

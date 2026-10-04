@@ -184,7 +184,7 @@
     function renderMissing(filter) {
       if (!missingSummary || !missingList || mode !== 'explorer') return;
       var rows = places.filter(function (place) {
-        return !place.coordinates && countFor(place, filter) > 0;
+        return place.place_active !== false && !place.coordinates && countFor(place, filter) > 0;
       }).sort(function (a, b) { return a.label.localeCompare(b.label, 'it'); });
       missingSummary.textContent = rows.length + (rows.length === 1 ? ' voce senza coordinate' : ' voci senza coordinate');
       missingList.replaceChildren();
@@ -210,7 +210,7 @@
       var filter = mode === 'territory' ? 'all' : mode === 'overview' ? 'content' : controls.elements.corpus.value;
       var view = mode === 'territory' ? 'territory' : mode === 'overview' ? 'world' : controls.elements.view.value;
       var visible = places.filter(function (place) {
-        return place.coordinates && countFor(place, filter) > 0;
+        return place.map_visible !== false && place.coordinates && countFor(place, filter) > 0;
       });
       currentVisible = visible;
       currentWidth = width;
@@ -281,7 +281,7 @@
 
       if (mode === 'explorer' || mode === 'overview' || mode === 'territory') {
         var zoom = d3.zoom()
-          .scaleExtent([1, 320])
+          .scaleExtent([1, 2048])
           .clickDistance(10)
           .tapDistance(18)
           .on('zoom', function (event) {
@@ -388,6 +388,237 @@
             if (status) status.textContent = error.message + '. Restano disponibili indice alfabetico e gerarchie.';
           });
         });
+    });
+  });
+
+  ready(function () {
+    var host = document.querySelector('[data-progressive-geography]');
+    if (!host) return;
+    fetch(host.dataset.geoIndexUrl).then(function (response) {
+      if (!response.ok) throw new Error('Indice geografico non disponibile');
+      return response.json();
+    }).then(function (rows) {
+      var byId = new Map(rows.map(function (row) { return [row.id, row]; }));
+      var adminRows = rows.filter(function (row) { return row.administrative_visible !== false; });
+      var territoryRows = rows.filter(function (row) { return row.territorial_visible !== false; });
+      var alphabetRows = rows.filter(function (row) { return row.index_visible !== false; });
+      var searchableRows = rows.filter(function (row) { return row.search_visible !== false; });
+      function branchFor(edge) {
+        return edge.relation === 'amministrativa' ? 'amministrativa'
+          : ['territoriale', 'storico_culturale', 'fisico_geografica'].includes(edge.relation)
+            ? 'territoriale' : null;
+      }
+      function visibleParents(row, branch, seen) {
+        seen = seen || new Set();
+        var result = [];
+        (row.broader || []).forEach(function (edge) {
+          if (branchFor(edge) !== branch || seen.has(edge.id)) return;
+          var parent = byId.get(edge.id);
+          if (!parent) return;
+          seen.add(edge.id);
+          if (parent.canonical_index_id && byId.has(parent.canonical_index_id)) {
+            var canonical = byId.get(parent.canonical_index_id);
+            if ((branch === 'amministrativa' ? canonical.administrative_visible
+                   : canonical.territorial_visible) !== false) {
+              result.push(canonical);
+              return;
+            }
+          }
+          if ((branch === 'amministrativa' ? parent.administrative_visible
+                 : parent.territorial_visible) !== false) result.push(parent);
+          else result.push.apply(result, visibleParents(parent, branch, seen));
+        });
+        return result;
+      }
+      var children = { amministrativa: new Map(), territoriale: new Map() };
+      [['amministrativa', adminRows], ['territoriale', territoryRows]].forEach(function (group) {
+        var branch = group[0];
+        group[1].forEach(function (row) {
+          visibleParents(row, branch).forEach(function (parent) {
+            if (!children[branch].has(parent.id)) children[branch].set(parent.id, new Map());
+            children[branch].get(parent.id).set(row.id, row);
+          });
+        });
+      });
+      // Show documented territories beneath their containing administrative branch too.
+      // The same Place may appear beneath more than one parent; no new edge is inferred.
+      territoryRows.forEach(function (row) {
+        visibleParents(row, 'territoriale').forEach(function (parent) {
+          if (!children.amministrativa.has(parent.id)) children.amministrativa.set(parent.id, new Map());
+          children.amministrativa.get(parent.id).set(row.id, row);
+        });
+      });
+      function ordered(items) {
+        return items.slice().sort(function (a, b) { return a.label.localeCompare(b.label, 'it'); });
+      }
+      var treeStateKey = 'ricettario-geography-open-branches';
+      var openBranches = { amministrativa: [], territoriale: [] };
+      try {
+        var navigation = performance.getEntriesByType('navigation')[0];
+        if (navigation && navigation.type === 'back_forward') {
+          var storedBranches = JSON.parse(sessionStorage.getItem(treeStateKey) || '{}');
+          ['amministrativa', 'territoriale'].forEach(function (branch) {
+            if (Array.isArray(storedBranches[branch])) openBranches[branch] = storedBranches[branch];
+          });
+        } else {
+          sessionStorage.removeItem(treeStateKey);
+        }
+      } catch (_error) { /* An unavailable session store must not block the index. */ }
+      function saveTreeState() {
+        try { sessionStorage.setItem(treeStateKey, JSON.stringify(openBranches)); } catch (_error) { /* no-op */ }
+      }
+      function node(row, branch, trail) {
+        var li = document.createElement('li');
+        var link = document.createElement('a');
+        link.href = '/geografia/' + encodeURIComponent(row.id) + '/';
+        link.textContent = row.label;
+        li.appendChild(link);
+        var next = Array.from((children[branch].get(row.id) || new Map()).values()).filter(function (child) {
+          return !trail.includes(child.id);
+        });
+        if (next.length) {
+          var button = document.createElement('button');
+          button.type = 'button';
+          var restored = openBranches[branch].includes(row.id);
+          button.textContent = restored ? 'Comprimi' : 'Espandi';
+          button.setAttribute('aria-label', (restored ? 'Comprimi ' : 'Espandi ') + row.label);
+          button.setAttribute('aria-expanded', String(restored));
+          li.insertBefore(button, link);
+          function appendChildren() {
+            var list = document.createElement('ul');
+            ordered(next).forEach(function (child) { list.appendChild(node(child, branch, trail.concat(child.id))); });
+            li.appendChild(list);
+          }
+          button.addEventListener('click', function () {
+            var open = button.getAttribute('aria-expanded') === 'true';
+            if (branch === 'amministrativa' && trail.length === 1 && !open) {
+              li.parentElement.querySelectorAll(':scope > li > button[aria-expanded="true"]').forEach(function (other) {
+                if (other !== button) other.click();
+              });
+            }
+            button.setAttribute('aria-expanded', String(!open));
+            button.textContent = open ? 'Espandi' : 'Comprimi';
+            button.setAttribute('aria-label', (open ? 'Espandi ' : 'Comprimi ') + row.label);
+            openBranches[branch] = open
+              ? openBranches[branch].filter(function (id) { return id !== row.id; })
+              : openBranches[branch].concat(row.id).filter(function (id, index, ids) { return ids.indexOf(id) === index; });
+            saveTreeState();
+            if (open) {
+              li.querySelector(':scope > ul')?.remove();
+              return;
+            }
+            appendChildren();
+          });
+          if (restored) appendChildren();
+        }
+        return li;
+      }
+      var admin = host.querySelector('[data-geo-tree="amministrativa"]');
+      ordered(adminRows.filter(function (row) { return ['country', 'stato', 'paese'].includes(row.kind); }))
+        .forEach(function (row) { admin.appendChild(node(row, 'amministrativa', [row.id])); });
+      var territorial = host.querySelector('[data-geo-tree="territoriale"]');
+      ordered(territoryRows.filter(function (row) {
+        return children.territoriale.has(row.id) && !visibleParents(row, 'territoriale').length;
+      })).forEach(function (row) { territorial.appendChild(node(row, 'territoriale', [row.id])); });
+      var territoryPrimary = host.querySelector('[data-geo-territory-primary]');
+      if (territoryPrimary) {
+        ordered(territoryRows.filter(function (row) {
+          return row.territorial_visible === true && row.administrative_visible !== true;
+        })).forEach(function (row) {
+          var item = document.createElement('li');
+          var link = document.createElement('a');
+          link.href = '/geografia/' + encodeURIComponent(row.id) + '/';
+          link.textContent = row.label;
+          item.appendChild(link);
+          var parents = ordered(visibleParents(row, 'territoriale'));
+          if (parents.length) {
+            var button = document.createElement('button');
+            button.type = 'button';
+            button.textContent = 'Espandi';
+            button.setAttribute('aria-label', 'Mostra appartenenze di ' + row.label);
+            button.setAttribute('aria-expanded', 'false');
+            item.insertBefore(button, link);
+            button.addEventListener('click', function () {
+              var open = button.getAttribute('aria-expanded') === 'true';
+              button.setAttribute('aria-expanded', String(!open));
+              button.textContent = open ? 'Espandi' : 'Comprimi';
+              button.setAttribute('aria-label', (open ? 'Mostra' : 'Nascondi') + ' appartenenze di ' + row.label);
+              if (open) {
+                item.querySelector(':scope > ul')?.remove();
+                return;
+              }
+              var list = document.createElement('ul');
+              parents.forEach(function (parent) {
+                var parentItem = document.createElement('li');
+                var parentLink = document.createElement('a');
+                parentLink.href = '/geografia/' + encodeURIComponent(parent.id) + '/';
+                parentLink.textContent = parent.label;
+                parentItem.appendChild(parentLink);
+                list.appendChild(parentItem);
+              });
+              item.appendChild(list);
+            });
+          }
+          territoryPrimary.appendChild(item);
+        });
+      }
+
+      var alphabet = document.querySelector('[data-geo-alphabet]');
+      var letterBar = alphabet.querySelector('[data-geo-letters]');
+      var list = alphabet.querySelector('[data-geo-letter-items]');
+      var input = document.querySelector('[data-geo-index-search]');
+      var searchResults = document.querySelector('[data-geo-search-results]');
+      var currentLetter = '';
+      var letters = [...new Set(alphabetRows.map(function (row) { return row.label.trim().slice(0, 1).toLocaleUpperCase('it') || '#'; }))].sort(function (a, b) { return a.localeCompare(b, 'it'); });
+      var labelCounts = new Map();
+      searchableRows.forEach(function (row) {
+        var label = row.label.trim().toLocaleLowerCase('it');
+        labelCounts.set(label, (labelCounts.get(label) || 0) + 1);
+      });
+      function show(items, target) {
+        target = target || list;
+        target.replaceChildren();
+        ordered(items).forEach(function (row) {
+          var link = document.createElement('a');
+          link.href = '/geografia/' + encodeURIComponent(row.id) + '/';
+          var strong = document.createElement('strong');
+          strong.textContent = row.label.trim();
+          link.appendChild(strong);
+          if (labelCounts.get(row.label.trim().toLocaleLowerCase('it')) > 1) {
+            var qualifier = document.createElement('small');
+            qualifier.textContent = ' · ' + row.kind.replaceAll('_', ' ');
+            link.appendChild(qualifier);
+          }
+          target.appendChild(link);
+        });
+      }
+      letters.forEach(function (letter) {
+        var button = document.createElement('button');
+        button.type = 'button';
+        button.textContent = letter;
+        button.addEventListener('click', function () {
+          currentLetter = letter;
+          letterBar.querySelectorAll('button').forEach(function (candidate) {
+            candidate.setAttribute('aria-pressed', String(candidate === button));
+          });
+          input.value = '';
+          if (searchResults) searchResults.replaceChildren();
+          show(alphabetRows.filter(function (row) { return row.label.trim().slice(0, 1).toLocaleUpperCase('it') === letter; }));
+        });
+        letterBar.appendChild(button);
+      });
+      input?.addEventListener('input', function () {
+        var query = input.value.trim().toLocaleLowerCase('it');
+        if (!query) {
+          if (searchResults) searchResults.replaceChildren();
+          return;
+        }
+        if (searchResults) show(searchableRows.filter(function (row) {
+          return (row.label + ' ' + (row.aliases || []).join(' ')).toLocaleLowerCase('it').includes(query);
+        }).slice(0, 100), searchResults);
+      });
+    }).catch(function (error) {
+      host.textContent = error.message;
     });
   });
 }());

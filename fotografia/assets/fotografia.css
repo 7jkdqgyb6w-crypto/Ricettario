@@ -16,3 +16,22 @@
 .recipe-reference-card::after{content:"";display:block;clear:both}
 .recipe-reference-card img{float:left;margin:0 .75rem .35rem 0}
 @media(max-width:700px){.recipe-reference-card{display:block}.recipe-reference-card img{width:5.5rem}}
+/* Shared album image viewer: one image, fitted to the visible viewport. */
+body.photo-lightbox-open{overflow:hidden}
+.photo-gallery .photo-thumb img{cursor:zoom-in}
+.photo-lightbox{position:fixed;inset:0;width:100vw;max-width:none;height:100dvh;max-height:none;margin:0;padding:0;border:0;background:#fff;color:#111;overflow:hidden}
+.photo-lightbox::backdrop{background:#fff}
+.photo-lightbox[open]{display:flex;align-items:center;justify-content:center}
+.photo-lightbox img{display:block;max-width:100vw;max-height:100dvh;width:auto;height:auto;margin:auto;object-fit:contain;transform-origin:center center;touch-action:none;user-select:none;-webkit-user-select:none;cursor:zoom-in}
+.photo-lightbox img.is-zoomed{cursor:grab}
+.photo-lightbox img.is-dragging{cursor:grabbing}
+.photo-lightbox-bar{position:absolute;z-index:2;top:calc(.6rem + env(safe-area-inset-top));right:calc(.6rem + env(safe-area-inset-right));display:flex;gap:.35rem;padding:0;background:transparent}
+.photo-lightbox-bar span{display:none!important}
+.photo-lightbox .photo-lightbox-bar button,.photo-lightbox .photo-lightbox-prev,.photo-lightbox .photo-lightbox-next{display:grid;place-items:center;width:2.75rem;height:2.75rem;min-width:2.75rem;min-height:2.75rem;padding:0;border:0;border-radius:.25rem;background-color:transparent;background-position:center;background-repeat:no-repeat;background-size:1.75rem 1.75rem;color:transparent;font-size:0;line-height:1;cursor:pointer}
+.photo-lightbox .photo-lightbox-bar button:hover,.photo-lightbox .photo-lightbox-prev:hover,.photo-lightbox .photo-lightbox-next:hover{background-color:rgba(255,255,255,.8)}
+.photo-lightbox [data-photo-close]{background-image:url('/foto/ui/control-close.svg')}
+.photo-lightbox .photo-lightbox-zoom:first-of-type{background-image:url('/foto/ui/control-zoom-in.svg')}
+.photo-lightbox .photo-lightbox-zoom:nth-of-type(2){background-image:url('/foto/ui/control-zoom-out.svg')}
+.photo-lightbox .photo-lightbox-prev{position:absolute;left:calc(.6rem + env(safe-area-inset-left));top:50%;transform:translateY(-50%);background-image:url('/foto/ui/control-previous.svg')}
+.photo-lightbox .photo-lightbox-next{position:absolute;right:calc(.6rem + env(safe-area-inset-right));top:50%;transform:translateY(-50%);background-image:url('/foto/ui/control-next.svg')}
+.photo-lightbox .photo-lightbox-bar button:disabled{opacity:.45;cursor:default}

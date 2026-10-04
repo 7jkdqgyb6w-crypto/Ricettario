@@ -7,16 +7,16 @@
     "rows": 593,
     "added": 0,
     "updated": 0,
-    "correct": 491,
-    "excluded": 100,
+    "correct": 494,
+    "excluded": 97,
     "empty": 2
   },
   "details": [],
   "audit": {
     "totals": {
       "rows": 593,
-      "linked": 491,
-      "excluded": 100,
+      "linked": 494,
+      "excluded": 97,
       "missing": 0,
       "wrong": 0,
       "empty": 2
@@ -24,8 +24,8 @@
     "issues": []
   },
   "target_audit": {
-    "links": 495,
-    "anchors": 225,
+    "links": 498,
+    "anchors": 202,
     "missing": [],
     "duplicate_ids": []
   }

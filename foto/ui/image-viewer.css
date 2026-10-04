@@ -1,0 +1,23 @@
+/* One photographic viewer for Album, Recipes, Articles, and editorial images. */
+body.site-image-viewer-open{overflow:hidden}
+[data-site-image-open]{cursor:zoom-in}
+.site-image-viewer{position:fixed;inset:0;width:100vw;max-width:none;height:100dvh;max-height:none;margin:0;padding:0;border:0;background:#f5f9fa;color:#1b262c;overflow:hidden}
+.site-image-viewer::backdrop{background:#f5f9fa}
+.site-image-viewer[open]{display:flex;align-items:center;justify-content:center}
+.site-image-viewer img{display:block;max-width:100vw;max-height:100dvh;width:auto;height:auto;margin:auto;object-fit:contain;transform-origin:center center;touch-action:none;user-select:none;-webkit-user-select:none;cursor:zoom-out}
+.site-image-viewer img.is-dragging{cursor:grabbing}
+.site-image-viewer-controls{position:absolute;z-index:2;top:calc(.6rem + env(safe-area-inset-top));right:calc(.6rem + env(safe-area-inset-right));display:flex;gap:.35rem}
+.site-image-viewer-controls button{display:grid;place-items:center;width:2.75rem;height:2.75rem;min-width:2.75rem;min-height:2.75rem;padding:0;border:0;border-radius:.25rem;background-color:transparent;background-position:center;background-repeat:no-repeat;background-size:1.75rem 1.75rem;color:transparent;font:inherit;font-size:0;line-height:1;cursor:pointer}
+.site-image-viewer-controls button:hover{background-color:rgba(255,255,255,.8)}
+.site-image-viewer-controls [data-image-zoom="in"]{background-image:url('/foto/ui/control-zoom-in.svg')}
+.site-image-viewer-controls [data-image-zoom="out"]{background-image:url('/foto/ui/control-zoom-out.svg')}
+.site-image-viewer-controls [data-image-close]{background-image:url('/foto/ui/control-close.svg')}
+.site-image-viewer-controls button:disabled{opacity:.45;cursor:default}
+.site-image-viewer [data-image-previous],.site-image-viewer [data-image-next]{position:absolute;z-index:3;top:50%;display:grid;place-items:center;width:2.75rem;height:2.75rem;padding:0;border:0;border-radius:.25rem;background-color:transparent;background-position:center;background-repeat:no-repeat;background-size:1.75rem 1.75rem;color:transparent;font:inherit;font-size:0;cursor:pointer;transform:translateY(-50%)}
+.site-image-viewer [data-image-previous]{left:calc(.6rem + env(safe-area-inset-left));background-image:url('/foto/ui/control-previous.svg')}
+.site-image-viewer [data-image-next]{right:calc(.6rem + env(safe-area-inset-right));background-image:url('/foto/ui/control-next.svg')}
+.site-image-viewer [data-image-previous]:hover,.site-image-viewer [data-image-next]:hover{background-color:rgba(255,255,255,.8)}
+.site-image-viewer [data-image-previous][hidden],.site-image-viewer [data-image-next][hidden]{display:none}
+.site-image-viewer-caption{position:absolute;left:50%;bottom:calc(.5rem + env(safe-area-inset-bottom));max-width:min(90vw,60rem);transform:translateX(-50%);padding:.3rem .6rem;background:#f5f9fa;color:#39464c;font-size:.85rem;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.site-image-viewer-caption[hidden]{display:none}
+@media print{.site-image-viewer{display:none!important}}

@@ -14,6 +14,61 @@
     }
   });
 
+  document.querySelectorAll(".place-classification > span").forEach(function (label) {
+    if (label.textContent.trim() === "area_geografica") label.textContent = "Territorio";
+  });
+  var navigatorIcons = {
+    "Google Maps": "/geografia/assets/nav-google-maps.png",
+    "Waze": "/geografia/assets/nav-waze.ico",
+    "Apple Maps": "/geografia/assets/nav-apple-maps.ico"
+  };
+  document.querySelectorAll(".place-navigators a[title]").forEach(function (link) {
+    var source = navigatorIcons[link.title];
+    if (!source) return;
+    var icon = link.querySelector(".place-navigator-icon");
+    if (!icon || icon.tagName === "IMG") return;
+    var image = document.createElement("img");
+    image.className = "place-navigator-icon";
+    image.src = source;
+    image.alt = "";
+    image.setAttribute("aria-hidden", "true");
+    icon.replaceWith(image);
+  });
+
+  document.querySelectorAll(".geography-footer .site-footer-qr-link").forEach(function (link) {
+    link.addEventListener("click", function (event) {
+      event.preventDefault();
+      var lightbox = document.querySelector(".site-lightbox");
+      if (!lightbox) {
+        lightbox = document.createElement("div");
+        lightbox.className = "site-lightbox";
+        lightbox.innerHTML = '<button class="site-lightbox-close" type="button" aria-label="Chiudi">×</button><figure class="site-lightbox-frame"><img class="site-lightbox-image" alt=""><figcaption class="site-lightbox-caption"></figcaption></figure>';
+        document.body.appendChild(lightbox);
+      }
+      var image = lightbox.querySelector(".site-lightbox-image");
+      var caption = lightbox.querySelector(".site-lightbox-caption");
+      var alt = link.querySelector("img")?.alt || "QR della pagina";
+      image.src = link.href;
+      image.alt = alt;
+      caption.textContent = alt;
+      lightbox.classList.add("is-open");
+      lightbox.querySelector(".site-lightbox-close").focus();
+      function close() {
+        lightbox.classList.remove("is-open");
+        lightbox.removeEventListener("click", onClick);
+        document.removeEventListener("keydown", onKeydown);
+        link.focus();
+      }
+      function onClick(click) {
+        if (click.target === lightbox || click.target.classList.contains("site-lightbox-close") ||
+            click.target.classList.contains("site-lightbox-image")) close();
+      }
+      function onKeydown(key) { if (key.key === "Escape") close(); }
+      lightbox.addEventListener("click", onClick);
+      document.addEventListener("keydown", onKeydown);
+    });
+  });
+
   var placeInput = document.querySelector("[data-place-search]");
   if (placeInput) {
     var placeRows = [].slice.call(document.querySelectorAll("[data-place]"));

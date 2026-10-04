@@ -93,3 +93,37 @@
 @media (max-width:640px){
   .global-nav-search-dialog{top:4rem;right:1rem;left:1rem;width:auto;}
 }
+
+/* One transparent, footer-sized control language for in-section progression. */
+body :is(.story-actions,.place-corpus-actions) > button{
+  box-sizing:border-box;
+  display:inline-block;
+  flex:none;
+  width:36px;
+  min-width:36px;
+  height:36px;
+  min-height:36px;
+  margin:0;
+  padding:0;
+  border:1px solid var(--story-line,var(--line,#d8dedf));
+  border-radius:4px;
+  background-color:transparent;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:20px 20px;
+  color:transparent;
+  font-size:0;
+  line-height:0;
+  cursor:pointer;
+}
+body :is(.story-actions,.place-corpus-actions) > :is(.story-continue,.place-corpus-continue){
+  background-image:url('/foto/ui/control-down.svg');
+}
+body :is(.story-actions,.place-corpus-actions) > :is(.story-show-all,.place-corpus-show-all){
+  background-image:url('/foto/ui/control-all.svg');
+}
+body :is(.story-actions,.place-corpus-actions) > button:hover,
+body :is(.story-actions,.place-corpus-actions) > button:focus-visible{
+  border-color:#24556a;
+  outline-offset:2px;
+}

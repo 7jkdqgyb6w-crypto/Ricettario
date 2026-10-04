@@ -147,6 +147,15 @@
     initializePlaceImages(document.querySelectorAll('.story-place[data-image-candidates]'), cryptoIndex);
   }
 
+  function labelProgressionControls() {
+    document.querySelectorAll('.story-actions button, .place-corpus-actions button').forEach(function (button) {
+      var label = button.textContent.trim();
+      if (!label) return;
+      if (!button.title) button.title = label;
+      if (!button.hasAttribute('aria-label')) button.setAttribute('aria-label', label);
+    });
+  }
+
   window.RicettarioTransversalPresentation = Object.freeze({
     initializeSequence: initializeStorySequence,
     initializePlaceCorpusSequence: initializePlaceCorpusSequence,
@@ -525,6 +534,16 @@
     openDocumentarySource(link);
   }, true);
 
+  labelProgressionControls();
   setupVariablePresentations();
   document.querySelectorAll('header.site-header').forEach(setupNavigation);
+}());
+
+/* The single photographic viewer is shared by Albums, Recipes and editorial text. */
+(function () {
+  if (document.querySelector('script[data-site-image-viewer]')) return;
+  var script = document.createElement('script');
+  script.src = '/foto/ui/image-viewer.js?v=4';
+  script.dataset.siteImageViewer = '';
+  document.head.appendChild(script);
 }());
