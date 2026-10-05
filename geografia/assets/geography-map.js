@@ -482,6 +482,7 @@
           var restored = openBranches[branch].includes(row.id);
           button.textContent = restored ? 'Comprimi' : 'Espandi';
           button.setAttribute('aria-label', (restored ? 'Comprimi ' : 'Espandi ') + row.label);
+          button.title = button.getAttribute('aria-label');
           button.setAttribute('aria-expanded', String(restored));
           li.insertBefore(button, link);
           function appendChildren() {
@@ -499,6 +500,7 @@
             button.setAttribute('aria-expanded', String(!open));
             button.textContent = open ? 'Espandi' : 'Comprimi';
             button.setAttribute('aria-label', (open ? 'Espandi ' : 'Comprimi ') + row.label);
+            button.title = button.getAttribute('aria-label');
             openBranches[branch] = open
               ? openBranches[branch].filter(function (id) { return id !== row.id; })
               : openBranches[branch].concat(row.id).filter(function (id, index, ids) { return ids.indexOf(id) === index; });
@@ -536,6 +538,7 @@
             button.type = 'button';
             button.textContent = 'Espandi';
             button.setAttribute('aria-label', 'Mostra appartenenze di ' + row.label);
+            button.title = button.getAttribute('aria-label');
             button.setAttribute('aria-expanded', 'false');
             item.insertBefore(button, link);
             button.addEventListener('click', function () {
@@ -543,6 +546,7 @@
               button.setAttribute('aria-expanded', String(!open));
               button.textContent = open ? 'Espandi' : 'Comprimi';
               button.setAttribute('aria-label', (open ? 'Mostra' : 'Nascondi') + ' appartenenze di ' + row.label);
+              button.title = button.getAttribute('aria-label');
               if (open) {
                 item.querySelector(':scope > ul')?.remove();
                 return;

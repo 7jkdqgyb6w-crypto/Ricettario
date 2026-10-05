@@ -149,10 +149,53 @@
 
   function labelProgressionControls() {
     document.querySelectorAll('.story-actions button, .place-corpus-actions button').forEach(function (button) {
-      var label = button.textContent.trim();
+      function updateLabel() {
+        var label = button.textContent.trim();
+        if (!label) return;
+        if (label === 'Tutti' || label === 'Tutte') label = 'Mostra tutte';
+        button.title = label;
+        button.setAttribute('aria-label', label);
+      }
+      updateLabel();
+      new MutationObserver(updateLabel).observe(button, {childList:true, characterData:true, subtree:true});
+    });
+    document.querySelectorAll('.story-actions > a, .place-corpus-actions > a').forEach(function (link) {
+      var label = link.textContent.trim();
       if (!label) return;
-      if (!button.title) button.title = label;
-      if (!button.hasAttribute('aria-label')) button.setAttribute('aria-label', label);
+      link.title = label;
+      link.setAttribute('aria-label', label);
+    });
+    document.querySelectorAll('.photo-neighbors a[rel="prev"], .photo-neighbors a[rel="next"]').forEach(function (link) {
+      var title = link.textContent.replace(/^[←\s]+|[→\s]+$/g, '').trim()
+        .replace(/^Album (?:precedente|successivo):\s*/i, '');
+      var label = (link.rel === 'prev' ? 'Album precedente: ' : 'Album successivo: ') + title;
+      link.textContent = label;
+      link.title = label;
+      link.setAttribute('aria-label', label);
+    });
+    document.querySelectorAll('.ingredient-excellence-details').forEach(function (details) {
+      var summary = details.querySelector('summary');
+      if (!summary) return;
+      function updateTitle() {
+        var label = details.open ? 'Comprimi' : 'Espandi';
+        summary.title = label;
+        summary.setAttribute('aria-label', label);
+      }
+      updateTitle();
+      details.addEventListener('toggle', updateTitle);
+    });
+    document.querySelectorAll('.place-corpus-continue, .place-corpus-more').forEach(function (details) {
+      var summary = details.querySelector('summary');
+      if (!summary) return;
+      var label = details.getAttribute('data-continue-label') ||
+        (details.classList.contains('place-corpus-more') ? 'Mostra tutte' : 'Continua');
+      function updateTitle() {
+        var current = details.open ? 'Comprimi' : label;
+        summary.title = current;
+        summary.setAttribute('aria-label', current);
+      }
+      updateTitle();
+      details.addEventListener('toggle', updateTitle);
     });
   }
 

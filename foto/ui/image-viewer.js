@@ -4,7 +4,7 @@
 
   var style = document.createElement('link');
   style.rel = 'stylesheet';
-  style.href = '/foto/ui/image-viewer.css?v=4';
+  style.href = '/foto/ui/image-viewer.css?v=5';
   document.head.appendChild(style);
 
   var dialog = document.createElement('dialog');
@@ -14,10 +14,10 @@
     '<button type="button" data-image-zoom="in" aria-label="Ingrandisci fotografia">+</button>' +
     '<button type="button" data-image-zoom="out" aria-label="Riduci fotografia">−</button>' +
     '<button type="button" data-image-close aria-label="Chiudi">×</button></div>' +
-    '<button type="button" data-image-previous aria-label="Fotografia precedente" title="Fotografia precedente" hidden>◀</button>' +
+    '<button type="button" data-image-previous aria-label="Fotografia precedente" title="Fotografia precedente" hidden>‹</button>' +
     '<img alt="" referrerpolicy="no-referrer"><div class="site-image-viewer-caption" hidden></div>';
   dialog.insertAdjacentHTML('beforeend',
-    '<button type="button" data-image-next aria-label="Fotografia successiva" title="Fotografia successiva" hidden>▶</button>');
+    '<button type="button" data-image-next aria-label="Fotografia successiva" title="Fotografia successiva" hidden>›</button>');
   document.body.appendChild(dialog);
   var image = dialog.querySelector('img');
   var caption = dialog.querySelector('.site-image-viewer-caption');

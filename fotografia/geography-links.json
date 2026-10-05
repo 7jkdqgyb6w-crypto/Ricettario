@@ -3080,27 +3080,6 @@
       "album_id": "album-010",
       "album_slug": "010-toscana-e-lazio-2021",
       "reference": {
-        "id": "bollito-misto",
-        "kind": "ricetta",
-        "title": "Bollito misto",
-        "url": "/ricette/bollito-misto/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Toscana",
-      "right_path": "Italia / Piemonte"
-    },
-    {
-      "album_id": "album-010",
-      "album_slug": "010-toscana-e-lazio-2021",
-      "reference": {
         "id": "braciole-di-carne-di-cavallo",
         "kind": "ricetta",
         "title": "Braciole di carne di cavallo",
@@ -4214,27 +4193,6 @@
       "album_id": "album-138",
       "album_slug": "138-usseaux-2021",
       "reference": {
-        "id": "bollito-misto",
-        "kind": "ricetta",
-        "title": "Bollito misto",
-        "url": "/ricette/bollito-misto/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 80,
-      "relation": "piu_specifico",
-      "common_id": "italia-piemonte",
-      "automatic": false,
-      "automatic_eligible": true,
-      "eligibility_reason": "",
-      "left_path": "Italia / Piemonte / Provincia di Torino / Usseaux",
-      "right_path": "Italia / Piemonte"
-    },
-    {
-      "album_id": "album-138",
-      "album_slug": "138-usseaux-2021",
-      "reference": {
         "id": "fusilli-carciofi-e-salmone",
         "kind": "ricetta",
         "title": "Fusilli carciofi e salmone",
@@ -4986,27 +4944,6 @@
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
       "left_path": "Italia / Lazio",
       "right_path": "Italia / Veneto"
-    },
-    {
-      "album_id": "album-015",
-      "album_slug": "015-argentario-e-lazio-2020",
-      "reference": {
-        "id": "bollito-misto",
-        "kind": "ricetta",
-        "title": "Bollito misto",
-        "url": "/ricette/bollito-misto/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Lazio",
-      "right_path": "Italia / Piemonte"
     },
     {
       "album_id": "album-015",
@@ -15491,27 +15428,6 @@
       "album_id": "album-106",
       "album_slug": "106-san-germano-2005",
       "reference": {
-        "id": "bollito-misto",
-        "kind": "ricetta",
-        "title": "Bollito misto",
-        "url": "/ricette/bollito-misto/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 80,
-      "relation": "piu_specifico",
-      "common_id": "italia-piemonte",
-      "automatic": false,
-      "automatic_eligible": true,
-      "eligibility_reason": "",
-      "left_path": "Italia / Piemonte / Provincia di Torino / San Germano Chisone",
-      "right_path": "Italia / Piemonte"
-    },
-    {
-      "album_id": "album-106",
-      "album_slug": "106-san-germano-2005",
-      "reference": {
         "id": "fusilli-carciofi-e-salmone",
         "kind": "ricetta",
         "title": "Fusilli carciofi e salmone",
@@ -18200,27 +18116,6 @@
       "album_id": "album-121",
       "album_slug": "121-pragelato-e-dintorni-1988",
       "reference": {
-        "id": "bollito-misto",
-        "kind": "ricetta",
-        "title": "Bollito misto",
-        "url": "/ricette/bollito-misto/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 80,
-      "relation": "piu_specifico",
-      "common_id": "italia-piemonte",
-      "automatic": false,
-      "automatic_eligible": true,
-      "eligibility_reason": "",
-      "left_path": "Italia / Piemonte / Provincia di Torino / Pragelato",
-      "right_path": "Italia / Piemonte"
-    },
-    {
-      "album_id": "album-121",
-      "album_slug": "121-pragelato-e-dintorni-1988",
-      "reference": {
         "id": "fusilli-carciofi-e-salmone",
         "kind": "ricetta",
         "title": "Fusilli carciofi e salmone",
@@ -18914,27 +18809,6 @@
       "album_id": "album-124",
       "album_slug": "124-sestriere-1987",
       "reference": {
-        "id": "bollito-misto",
-        "kind": "ricetta",
-        "title": "Bollito misto",
-        "url": "/ricette/bollito-misto/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 80,
-      "relation": "piu_specifico",
-      "common_id": "italia-piemonte",
-      "automatic": false,
-      "automatic_eligible": true,
-      "eligibility_reason": "",
-      "left_path": "Italia / Piemonte / Provincia di Torino / Sestriere",
-      "right_path": "Italia / Piemonte"
-    },
-    {
-      "album_id": "album-124",
-      "album_slug": "124-sestriere-1987",
-      "reference": {
         "id": "fusilli-carciofi-e-salmone",
         "kind": "ricetta",
         "title": "Fusilli carciofi e salmone",
@@ -19245,27 +19119,6 @@
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
       "left_path": "Italia / Marmolada",
       "right_path": "Italia / Veneto"
-    },
-    {
-      "album_id": "album-126",
-      "album_slug": "126-marmolada-1986",
-      "reference": {
-        "id": "bollito-misto",
-        "kind": "ricetta",
-        "title": "Bollito misto",
-        "url": "/ricette/bollito-misto/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Marmolada",
-      "right_path": "Italia / Piemonte"
     },
     {
       "album_id": "album-126",
@@ -19779,27 +19632,6 @@
         "kind": "ricetta",
         "title": "Bagna cauda",
         "url": "/ricette/bagna-cauda/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 70,
-      "relation": "piu_specifico",
-      "common_id": "italia-piemonte",
-      "automatic": false,
-      "automatic_eligible": true,
-      "eligibility_reason": "",
-      "left_path": "Italia / Piemonte / Provincia di Torino / Roure / Rifugio Selleries",
-      "right_path": "Italia / Piemonte"
-    },
-    {
-      "album_id": "album-127",
-      "album_slug": "127-rifugio-selleries-1986",
-      "reference": {
-        "id": "bollito-misto",
-        "kind": "ricetta",
-        "title": "Bollito misto",
-        "url": "/ricette/bollito-misto/",
         "geography": [
           "italia-piemonte"
         ]
@@ -20447,27 +20279,6 @@
       "album_id": "album-131",
       "album_slug": "131-san-germano-dintorni-1985",
       "reference": {
-        "id": "bollito-misto",
-        "kind": "ricetta",
-        "title": "Bollito misto",
-        "url": "/ricette/bollito-misto/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 80,
-      "relation": "piu_specifico",
-      "common_id": "italia-piemonte",
-      "automatic": false,
-      "automatic_eligible": true,
-      "eligibility_reason": "",
-      "left_path": "Italia / Piemonte / Provincia di Torino / San Germano Chisone",
-      "right_path": "Italia / Piemonte"
-    },
-    {
-      "album_id": "album-131",
-      "album_slug": "131-san-germano-dintorni-1985",
-      "reference": {
         "id": "fusilli-carciofi-e-salmone",
         "kind": "ricetta",
         "title": "Fusilli carciofi e salmone",
@@ -21018,27 +20829,6 @@
         "kind": "ricetta",
         "title": "Bagna cauda",
         "url": "/ricette/bagna-cauda/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 80,
-      "relation": "piu_specifico",
-      "common_id": "italia-piemonte",
-      "automatic": false,
-      "automatic_eligible": true,
-      "eligibility_reason": "",
-      "left_path": "Italia / Piemonte / Provincia di Torino / San Germano Chisone",
-      "right_path": "Italia / Piemonte"
-    },
-    {
-      "album_id": "album-133",
-      "album_slug": "133-san-germano-e-dintorni-1984",
-      "reference": {
-        "id": "bollito-misto",
-        "kind": "ricetta",
-        "title": "Bollito misto",
-        "url": "/ricette/bollito-misto/",
         "geography": [
           "italia-piemonte"
         ]
@@ -22778,27 +22568,6 @@
       "album_id": "album-158",
       "album_slug": "158-crete-senesi-san-donato-san-giminiano-pienza-buonconvento-e-altri-luoghi-limitrofi",
       "reference": {
-        "id": "bollito-misto",
-        "kind": "ricetta",
-        "title": "Bollito misto",
-        "url": "/ricette/bollito-misto/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Italia / Toscana",
-      "right_path": "Italia / Piemonte"
-    },
-    {
-      "album_id": "album-158",
-      "album_slug": "158-crete-senesi-san-donato-san-giminiano-pienza-buonconvento-e-altri-luoghi-limitrofi",
-      "reference": {
         "id": "braciole-di-carne-di-cavallo",
         "kind": "ricetta",
         "title": "Braciole di carne di cavallo",
@@ -24516,27 +24285,6 @@
       "eligibility_reason": "Ambito troppo generale: solo suggerimento",
       "left_path": "Francia / Monte Bianco",
       "right_path": "Italia / Veneto"
-    },
-    {
-      "album_id": "album-165",
-      "album_slug": "165-traversata-del-monte-bianco",
-      "reference": {
-        "id": "bollito-misto",
-        "kind": "ricetta",
-        "title": "Bollito misto",
-        "url": "/ricette/bollito-misto/",
-        "geography": [
-          "italia-piemonte"
-        ]
-      },
-      "score": 70,
-      "relation": "antenato_comune",
-      "common_id": "italia",
-      "automatic": false,
-      "automatic_eligible": false,
-      "eligibility_reason": "Ambito troppo generale: solo suggerimento",
-      "left_path": "Francia / Monte Bianco",
-      "right_path": "Italia / Piemonte"
     },
     {
       "album_id": "album-165",

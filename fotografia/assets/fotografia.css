@@ -32,6 +32,7 @@ body.photo-lightbox-open{overflow:hidden}
 .photo-lightbox [data-photo-close]{background-image:url('/foto/ui/control-close.svg')}
 .photo-lightbox .photo-lightbox-zoom:first-of-type{background-image:url('/foto/ui/control-zoom-in.svg')}
 .photo-lightbox .photo-lightbox-zoom:nth-of-type(2){background-image:url('/foto/ui/control-zoom-out.svg')}
-.photo-lightbox .photo-lightbox-prev{position:absolute;left:calc(.6rem + env(safe-area-inset-left));top:50%;transform:translateY(-50%);background-image:url('/foto/ui/control-previous.svg')}
-.photo-lightbox .photo-lightbox-next{position:absolute;right:calc(.6rem + env(safe-area-inset-right));top:50%;transform:translateY(-50%);background-image:url('/foto/ui/control-next.svg')}
+.photo-lightbox .photo-lightbox-prev{position:absolute;left:calc(.6rem + env(safe-area-inset-left));top:50%;transform:translateY(-50%);background-image:url('/foto/ui/control-previous.svg?v=linear-1')}
+.photo-lightbox .photo-lightbox-next{position:absolute;right:calc(.6rem + env(safe-area-inset-right));top:50%;transform:translateY(-50%);background-image:url('/foto/ui/control-next.svg?v=linear-1')}
+.photo-lightbox .photo-lightbox-prev:hover,.photo-lightbox .photo-lightbox-next:hover{background-color:transparent}
 .photo-lightbox .photo-lightbox-bar button:disabled{opacity:.45;cursor:default}

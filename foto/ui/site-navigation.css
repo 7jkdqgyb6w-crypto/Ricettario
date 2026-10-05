@@ -95,7 +95,7 @@
 }
 
 /* One transparent, footer-sized control language for in-section progression. */
-body :is(.story-actions,.place-corpus-actions) > button{
+body :is(.story-actions,.place-corpus-actions) > :is(button,a){
   box-sizing:border-box;
   display:inline-block;
   flex:none;
@@ -105,25 +105,116 @@ body :is(.story-actions,.place-corpus-actions) > button{
   min-height:36px;
   margin:0;
   padding:0;
-  border:1px solid var(--story-line,var(--line,#d8dedf));
-  border-radius:4px;
+  border:0;
+  border-radius:0;
   background-color:transparent;
   background-position:center;
   background-repeat:no-repeat;
-  background-size:20px 20px;
+  background-size:22px 22px;
   color:transparent;
   font-size:0;
   line-height:0;
   cursor:pointer;
 }
-body :is(.story-actions,.place-corpus-actions) > :is(.story-continue,.place-corpus-continue){
+body :is(.story-actions,.place-corpus-actions) > :is(.story-continue,.place-corpus-continue,a){
   background-image:url('/foto/ui/control-down.svg');
 }
 body :is(.story-actions,.place-corpus-actions) > :is(.story-show-all,.place-corpus-show-all){
   background-image:url('/foto/ui/control-all.svg');
 }
-body :is(.story-actions,.place-corpus-actions) > button:hover,
-body :is(.story-actions,.place-corpus-actions) > button:focus-visible{
-  border-color:#24556a;
+body :is(.story-actions,.place-corpus-actions) > :is(button,a):hover,
+body :is(.story-actions,.place-corpus-actions) > :is(button,a):focus-visible{
   outline-offset:2px;
+}
+
+/* Per-item controls stay with the item; list controls have their own hairline. */
+body section[data-excellence-list] > .place-corpus-actions{
+  border-top:1px solid var(--story-line,var(--line,#d8dedf));
+  padding-top:.5rem;
+  margin-top:.6rem;
+}
+
+body .ingredient-excellence-details > summary{
+  box-sizing:border-box;
+  display:block;
+  width:36px;
+  height:36px;
+  padding:0;
+  border:0;
+  border-radius:0;
+  background:transparent url('/foto/ui/control-all.svg') center / 22px 22px no-repeat;
+  cursor:pointer;
+  list-style:none;
+}
+body .ingredient-excellence-details > summary::-webkit-details-marker{display:none;}
+body .ingredient-excellence-details > summary > span{font-size:0;color:transparent;}
+body .ingredient-excellence-details[open] > summary{
+  background-image:url('/foto/ui/control-collapse.svg?v=linear-1');
+}
+body .ingredient-excellence-details > summary:hover,
+body .ingredient-excellence-details > summary:focus-visible{
+  outline-offset:2px;
+}
+
+body :is(.place-corpus-continue,.place-corpus-more) > summary{
+  box-sizing:border-box;
+  display:inline-block;
+  width:36px;
+  height:36px;
+  padding:0;
+  border:0;
+  border-radius:0;
+  background:transparent url('/foto/ui/control-down.svg') center / 22px 22px no-repeat;
+  color:transparent;
+  font-size:0;
+  line-height:0;
+  list-style:none;
+  cursor:pointer;
+}
+body .place-corpus-more > summary{background-image:url('/foto/ui/control-all.svg')}
+body :is(.place-corpus-continue,.place-corpus-more)[open] > summary{
+  background-image:url('/foto/ui/control-collapse.svg?v=linear-1');
+}
+body :is(.place-corpus-continue,.place-corpus-more) > summary::-webkit-details-marker{display:none}
+
+body .geo-tree button{
+  box-sizing:border-box;
+  display:inline-block;
+  width:36px;
+  min-width:36px;
+  height:36px;
+  margin:0 .25rem 0 0;
+  padding:0;
+  border:0;
+  border-radius:0;
+  background:transparent url('/foto/ui/control-all.svg') center / 22px 22px no-repeat;
+  color:transparent;
+  font-size:0;
+  line-height:0;
+  vertical-align:middle;
+  cursor:pointer;
+}
+body .geo-tree button[aria-expanded="true"]{
+  background-image:url('/foto/ui/control-collapse.svg?v=linear-1');
+}
+
+/* Album links keep their titles and layout; only the directional mark changes. */
+body .photo-neighbors > a[rel="prev"]::before,
+body .photo-neighbors > a[rel="next"]::after{
+  content:"";
+  display:inline-block;
+  width:1.15em;
+  height:1.15em;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:contain;
+  vertical-align:-.2em;
+}
+body .photo-neighbors > a[rel="prev"]::before{
+  margin-right:.25em;
+  background-image:url('/foto/ui/control-previous.svg?v=linear-1');
+}
+body .photo-neighbors > a[rel="next"]::after{
+  margin-left:.25em;
+  background-image:url('/foto/ui/control-next.svg?v=linear-1');
 }

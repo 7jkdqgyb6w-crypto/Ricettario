@@ -14,9 +14,9 @@ body.site-image-viewer-open{overflow:hidden}
 .site-image-viewer-controls [data-image-close]{background-image:url('/foto/ui/control-close.svg')}
 .site-image-viewer-controls button:disabled{opacity:.45;cursor:default}
 .site-image-viewer [data-image-previous],.site-image-viewer [data-image-next]{position:absolute;z-index:3;top:50%;display:grid;place-items:center;width:2.75rem;height:2.75rem;padding:0;border:0;border-radius:.25rem;background-color:transparent;background-position:center;background-repeat:no-repeat;background-size:1.75rem 1.75rem;color:transparent;font:inherit;font-size:0;cursor:pointer;transform:translateY(-50%)}
-.site-image-viewer [data-image-previous]{left:calc(.6rem + env(safe-area-inset-left));background-image:url('/foto/ui/control-previous.svg')}
-.site-image-viewer [data-image-next]{right:calc(.6rem + env(safe-area-inset-right));background-image:url('/foto/ui/control-next.svg')}
-.site-image-viewer [data-image-previous]:hover,.site-image-viewer [data-image-next]:hover{background-color:rgba(255,255,255,.8)}
+.site-image-viewer [data-image-previous]{left:calc(.6rem + env(safe-area-inset-left));background-image:url('/foto/ui/control-previous.svg?v=linear-1')}
+.site-image-viewer [data-image-next]{right:calc(.6rem + env(safe-area-inset-right));background-image:url('/foto/ui/control-next.svg?v=linear-1')}
+.site-image-viewer [data-image-previous]:hover,.site-image-viewer [data-image-next]:hover{background-color:transparent}
 .site-image-viewer [data-image-previous][hidden],.site-image-viewer [data-image-next][hidden]{display:none}
 .site-image-viewer-caption{position:absolute;left:50%;bottom:calc(.5rem + env(safe-area-inset-bottom));max-width:min(90vw,60rem);transform:translateX(-50%);padding:.3rem .6rem;background:#f5f9fa;color:#39464c;font-size:.85rem;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .site-image-viewer-caption[hidden]{display:none}

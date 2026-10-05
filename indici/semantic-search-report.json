@@ -1,7 +1,7 @@
 {
   "versione": "CMS2-R18-103",
   "semantica_versione": "CMS2-R18-169",
-  "timestamp": "2026-09-14T20:26:40",
+  "timestamp": "2026-10-05T12:51:07",
   "root": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT",
   "search_data": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\ROOT\\indici\\search-data.json",
   "semantica": "G:\\Il mio Drive\\Esperienze\\Ricette\\Ricettario-dev\\CMS\\ingredienti-semantica.json",
@@ -1009,7 +1009,7 @@
     },
     {
       "slug": "filettino-di-maiale",
-      "titolo": "Filettin o di maiale",
+      "titolo": "Filettino di maiale",
       "fonte_semantica": "html-ingredienti",
       "ingredienti_usati": [
         "Filettino di maiale",
